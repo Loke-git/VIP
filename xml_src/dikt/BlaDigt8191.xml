@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader>
+        <fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Blandede Digtninger</title>
+<title level="a" type="sub">NBO Ms. 8&deg; 191</title>
+<title level="a" type="origYear">[1850]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Inger Marie Kjølstadmyr, Stine Brenna Taugbøl, Mette Witting</name></respStmt>
+    <respStmt>
+<resp>Oppretting og 1. kollasjon</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>2. kollasjon og kodekontroll</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="BlaDigt8191-1111"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på DHU.xml.</p>
+    <p><HIS:hisMsDesc type="finalFairCopy" xml:id="BlaDigt8191">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms. 8&deg; 191</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <title type="main">Blandede Digtninger</title>
+            <title type="sub">Fra Aarene 1848, 1849 og 1850</title>
+            <author>[Henrik Ibsen]</author>
+            <docDate>[1850]</docDate></msItem>
+            <msItem corresp="BlaDigt8191Resignation"><title>1. Resignation</title></msItem>
+            <msItem corresp="BlaDigt8191VedHavet"><title>2. Ved Havet</title></msItem>
+            <msItem corresp="BlaDigt8191TvivlHaab"><title>3. Tvivl og Haab</title></msItem>
+            <msItem corresp="BlaDigt8191Kjaempeegen"><title>4. Kjæmpeegen</title></msItem>
+            <msItem corresp="BlaDigt8191Erindringskilden"><title>5. Erindringskilden</title></msItem>
+            <msItem corresp="BlaDigt8191Doedningeballet"><title>6. Dødningeballet</title></msItem>
+            <msItem corresp="BlaDigt8191AfskMinde"><title>7. Afskedens Minde</title></msItem>
+            <msItem corresp="BlaDigt8191Hoestaftenen"><title>8. Høstaftenen</title></msItem>
+            <msItem corresp="BlaDigt8191SjelensSolglimt"><title>9. Sjælens Solglimt</title></msItem>
+            <msItem corresp="BlaDigt8191MaaneskinsfartPaaHavet"><title>10. Maaneskinsfart paa Havet</title></msItem>
+            <msItem corresp="BlaDigt8191Midnatsstemning"><title>11. Midnatsstemning</title></msItem>
+            <msItem corresp="BlaDigt8191TilStjernen"><title>12. Til Stjernen</title></msItem>
+            <msItem corresp="BlaDigt8191AftenvanSkoven"><title>13. Aftenvandring i Skoven</title></msItem>
+            <msItem corresp="BlaDigt8191IHoesten"><title>14. I Høsten</title></msItem>
+            <msItem corresp="BlaDigt8191VaarensMinde"><title>15. Vaarens Minde</title></msItem>
+            <msItem corresp="BlaDigt8191TilUngarn"><title>16. Til Ungarn!</title></msItem>
+            <msItem corresp="BlaDigt8191VaagnerSkandinaver"><title>17. Vaagner Skandinaver!</title></msItem>
+            <msItem corresp="BlaDigt8191TilNorgesSkjalde"><title>18. Til Norges Skjalde</title></msItem>
+            <msItem corresp="BlaDigt8191Balminder"><title>19. Balminder</title></msItem>
+            <msItem corresp="BlaDigt8191Moellergutten"><title>20. Møllergutten</title></msItem>
+            <msItem corresp="BlaDigt8191DetErForbi"><title>21. Det er forbi!</title></msItem>
+            <msItem corresp="BlaDigt8191LedigtLogis"><title>22. Ledigt Logis</title></msItem>
+            <msItem corresp="BlaDigt8191SkjaldenValhal"><title>23. Skjalden i Valhal</title></msItem>
+            <msItem corresp="BlaDigt8191INatten"><title>24. I Natten</title></msItem>
+            <msItem corresp="BlaDigt8191Maaneskinsstemning"><title>25. Maaneskinsstemning</title></msItem>
+            <msItem corresp="BlaDigt8191MaaneskinsvandEftBal"><title>26. Maaneskinsvandring efter et Bal</title></msItem></msContents>
+        <physDesc><objectDesc><p>Sammen med manuskriptet ligger en konvolutt med et utklipp fra en utstillingskatalog e.l. Her står tekstopplysninger om hvor diktene senere ble trykt: i FU, ES, Folkebladet 1892 og Tilskueren 1903. Eieren Nandrup har skrevet forfatternavn på tittelsiden.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Skriftgruppe: latinsk håndskrift med innslag av gotisk (minuskel s)</item>
+<item>Tittelblad: hovedtittel med pyntebord rundt, ornamentert skillestrek mellom hoved- og undertittel</item>
+<item>Overskrifter:
+<list>
+<item>til manuskriptdel: stjerner/pyntestreker foran og bak tittel, bokstaver/tall er noen steder utsmykket med skyggeeffekt, ornamentert(e) skillestrek(er) under</item>
+<item>til dikt:
+<list>
+<item>hovedtittel: ornamentert skillestrek under (noen avvik)</item>
+<item>undertittel: understreket (noen avvik)</item>
+</list>
+</item>
+<item>til innholdsfortegnelse: understreket</item>
+</list>
+</item>
+<item>Diktoppsett:
+<list>
+<item>dikt: adskilles med ornamentert skillestrek eller stjerne</item>
+<item>strofer: luft mellom</item>
+<item>vers:
+<list>
+<item>alltid stor forbokstav ved verslinjestart</item>
+<item>noen korte verslinjer er innrykket (kodet med indent2)</item>
+<item>noen lange verslinjer er delt pga plassmangel; siste verslinjedel er da høyrestilt på siden</item>
+</list>
+</item>
+</list>
+</item>
+<item>Utheving: understreking</item>
+<item>Ordenstall: 'de' i '7de' er opphøyd og understreket (er kodet med raised, men ikke med underlined)</item>
+<item>Skillestreker: det forekommer både ornamenterte skillestreker og stjerner/asterisker, under overskrifter og mellom dikt. Disse er kodet på samme måte (som figure/bar)</item>
+<item>Topp- og bunntekst:
+<list>
+<item>sidetall: i øvre, ytre hjørne</item>
+</list>
+</item>
+<item>Transkripsjonsnormaliseringer: enkelte diakritiske tegn mangler (prikk over i og ø, strek over t) - typo-note ved behov; ellers transkribert velvillig (som i, ø, t)</item>
+<item>Annet:
+<list>
+<item>skriblerier: s. 8: vertikal strek (blyant) i venstre marg utenfor de to siste verslinjene på siden, innholdsfortegnelse: røde NB ved fire av innførslene, s. 78: overstrøkne navn er gjenopprettet ikke-egenhendig med blyant (skal dette transkriberes?)</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+    <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd XIV) kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 43-87. Alle sidetall er oppgitt i n-attributter.</tagUsage></namespace>
+    <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+    <handNote scribe="BlaDigt8191-HI-1" xml:id="BlaDigt8191-HI-1" medium="pen-black" scope="major" rend="SaddleBrown"><p>Brunsort penn. Henrik Ibsen. Hovedhånd</p></handNote> 
+    <handNote scribe="BlaDigt8191-JN" xml:id="BlaDigt8191-JN" medium="pen-black" rend="DarkGreen"><p>Sort penn. Jacob Nandrup. Har skrevet forfatternavn på tittelsiden, samt sitt eget navnetrekk.</p></handNote> 
+    <handNote scribe="BlaDigt8191-h1" xml:id="BlaDigt8191-h1" medium="pencil" rend="Orange"><p>Blyant. Foliering.</p></handNote> 
+    <handNote scribe="BlaDigt8191-h2" xml:id="BlaDigt8191-h2" medium="pen-black" rend="BlueViolet"><p>Sort penn. Innholdsfortegnelse på siste side, samt nummerering av dikt. Ukjent hånd.</p></handNote> 
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>18.11.11</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om fila til TEI P5.</change>
+<change><date>11.09.09</date>
+<name>SBT</name><title>Oppdatering</title>
+La inn lg rundt verslinjene i Resignation.</change>
+<change><date>16.10.09</date>
+<name>SBT</name><title>Oppdatering</title>
+Fjernet siccing, typo-noter og en unødv. editor-note. Fjernet koding av skjult strofe.</change>
+<change><date>26.01.09</date>
+<name>SBT</name><title>Transkripsjonsendring</title>
+Fjernet pkt etter hovedtittel på samlingen.</change>
+<change><date>27.11.08</date>
+<name>SBT</name><title>Transkripsjon</title>
+Endringer ifm gjenværende spm etter siste korr.koll. av edert tekst mot original. Validerte og lagde ny visning.</change>
+<change><date>20.11.08</date>
+<name>SBT</name><title>Transkripsjon</title>
+Endringer ifm siste korr.koll. av edert tekst mot original. Noen spm står igjen. Lag ny visning etterpå.</change>
+<change><date>27.05.08</date>
+<name>SBT</name><title>Transkripsjon</title>
+La inn noen transkripsjonsendringer ifm hovedtekstkoding. Skilte ut noen flere undertitler, i tråd med hovedteksten.</change>
+<change><date>26.05.08</date>
+<name>SBT</name><title>Notestandardisering</title>
+Standardiserte notetekst med innledende majuskel og avsluttende interpunksjon.</change>
+<change><date>23.05.08</date>
+<name>SBT</name><title>Rettelser</title>
+La inn noen transkripsjonsendringer ifm med hovedtekstkoding.</change>
+<change><date>24.04.08</date>
+<name>SBT</name><title>Rettelser</title>
+La inn noen små tekstrettelser etter ederingsmøte. Fjernet noen noter. Lagde ny visning. Klart for siste korrekturkollasjon.</change>
+<change><date>17.04.08</date>
+<name>SBT</name><title>Fjernet metrikk-koding</title>
+Fjernet metrikk-koding og laget ny visning (for siste korrekturkollasjon).</change>
+<change><date>08.04.08</date>
+<name>SBT</name><title>Kodeoppdateringer</title>
+Kodet om innrykk fra 'indent' til 'indent2'. Gikk gjennom salute-koding (for tilegnelser som egne elementer). Gikk gjennom head/sub vs. dateline-koding i alle Di-filer. Typografien avgjør om dateringer kodes med dateline (høyrestilt) eller head/sub (midtstilt) - dette kan ev. kodes om i ht-filer. date-koding i head/dateline er fjernet. La inn noen entiter for spesialtegn (uml, acute).</change>
+<change><date>31.03., 01.04.08</date><name>SBT</name><title>Kodekontroll</title>
+Dtd-endring utført slik at fila er valid. Sjekket teiHeader. Håndlista må samkjøres med Tones ms.beskr. Kodet innholdsfortegnelsen i back. Kodet årstall under første dikt som tilføyelse. Skillestreker og stjerner (med samme funksjon) er kodet likt som figure/bar. Overskriftskoding: kodet overskrifter til grupper av dikt (div/collectionPart) med head/collectionPart. Overskrifter til dikt kodes med main/sub og overskrifter inne i dikt (section-nivå) kodes foreløpig bare med head. MÅ INN I KP! Gikk gjennom apparatkoding. La inn rend-attributter i håndlista for farging av ulike hender. Utførte sgrep-søk. Sjekket for tastefeil. Kodekontroll ferdig utført. Validert.</change>
+<change><date>14.03.08</date><name>SBT</name><title>Innføring av resultater fra 2. kollasjon</title>
+La inn resultater etter 2. kollasjon mot original. La inn Nandrup i håndlisten; antakeligvis han som har skrevet forfatternavn på tittelsiden (jf. hans eget navnetrekk øverst) - usikkert om forfatternavnet skal transkriberes. La inn håndattributt for nummerering av diktene; samme hånd som har skrevet innholdsfortegnelsen bak i ms (h2). Det ligger igjen en feilmelding på hand-attributt i docAuthor; må tillates i dtd-en.</change>
+<change><date>29.02.-03.03.08</date><name>MW</name><title>Oppretting og 1. kollasjon</title>
+Gikk igjennom kodespørsmål før 2. kollasjonen mot original. id-verdier for diktene er nå lagt i div type=poem, og tilsvarende corresp-verdier i listen over diktene i teiHeader. Dessuten har jeg lagt inn pekere fra innholdsfortegnelsen til diktene. (Dette er gjort etter snakk med SBT). Ved tredelingen av diktsamlingen etter årstall er det lagt inn egne div med typen collectionPart. Det må godkjennes på ibsenkod. Validert (dog står det en midlertidig note i teiHeader som ikke valideres!) og klar for 2. kollasjon.
+Spørsmål som går videre til annenkollasjonisten:
+- Numrene foran diktoverskriftene er nok skrevet til med annen hånd. Sjekk originalen og avgjør skriveredskap. Er det samme hånd som folieringen?
+- Overskrift-kodingen: Flere steder lurer jeg på om det bør brukes tittelsidekoding i stedet for head-koding. F.eks. ved årstall-overskriftene (s. 9 og s. 51). Og hva med de seksjonsinndelte dikt, skal tallene ved hver seksjon bare stå i head uten type? Se Balminder, som har både spesielle undertitler og seksjonsinndelt diktstruktur
+- HU-sideskift er beholdt i filen, men siden det ikke blir noen tekstkilder til BlaDigt blir det ikke bruk for synkroniseringspunkter. pb ed="HU" kan ev. tas bort.</change>
+<change><date>11.-27.02.08</date><name>MW</name><title>Oppretting og 1. kollasjon</title>
+Opprettet filen på grunnlag av DHU. Tok samtidig 1. kollasjon mot faksimile.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="poem" rend="handwritten" xml:lang="da-nob">
+<!--
+<pb ed="ekstra" n="e"/>
+<pb ed="HU" n="43"/> -->
+<front>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main">Blandede Digtninger</titlePart>
+<lb/><figure type="bar"/>
+<lb/><titlePart type="sub">Fra Aarene
+<lb/>1848,
+<lb/>1849 og 1850.</titlePart>
+</docTitle>
+<lb/><figure type="bar"/>
+<lb/><byline><docAuthor scribe="JN">H. Ibsen</docAuthor></byline>
+</titlePage>
+</front>
+    <!--
+<pb ed="ekstra" n="f"/>
+-->
+
+<body>
+<pb n="1"/>
+<lb/><fw type="page" place="top-right" hand="h1">1.</fw>
+<div type="collectionPart">
+<lb/><head type="collectionPart">Digtninger.</head>
+<lb/><figure type="bar"/>
+<lb/><figure type="bar"/>
+<div type="poem" xml:id="BlaDigtResignation">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">1.</HIS:hisAdd> Resignation</head>
+<lb/><figure type="bar"/>
+<HIS:hisAdd place="inBetweenLines"><lb/><head type="sub">(1847.)</head></HIS:hisAdd>
+<HIS:hisLg>
+<lb/><l>Er de Glimt fra Sjælens Dunkle,</l>
+<lb/><l>Der igjennem Mulmet brød,</l>
+<lb/><l>Og som Lynblink monne funkle</l>
+<lb/><l>Kun til evig Glemsel født? &dash;</l>
+<lb/><l>Var forgjæves al min Higen,</l>
+<lb/><l>Var min Drøm kuns et Fantom,</l>
+<lb/><l>Er mig nægtet Sjælens Stigen</l>
+<lb/><l>Var min Digten kold og tom! &dash;</l>
+<lb/><l>Tier da I Undertoner<HIS:hisDel rend="overwritten">,</HIS:hisDel>! &dash;</l>
+<lb/><l>Kan jeg eder ei forstaa, &dash;</l>
+<lb/><l>Lad mig iblandt Millioner</l>
+<lb/><l>Leve g<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>lemt og glemt forgaa! &dash; &dash; &dash;</l></HIS:hisLg></div>
+<lb/><figure type="bar"/>
+
+<pb n="2"/>
+<lb/><fw type="page" place="top-left" hand="h1">2</fw>
+<div type="poem" xml:id="BlaDigtVedHavet">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">2.</HIS:hisAdd> Ved Havet.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Skummende Bølge</l>
+<lb/><l>Med kamplysten Hu!</l>
+<lb/><l>Hvo mægter dig følge?</l>
+<lb/><l>Hvor stævner du nu?</l>
+<lb/><l>Hvo mægter vel hæmme</l>
+<lb/><l>Din stormende Hast?</l>
+<lb/><l>Hvo dig at tæmme,</l>
+<lb/><l>At holde dig fast!</l></HIS:hisLg><pb ed="HU" n="44"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Lig Yngling i vilde</l>
+<lb/><l>Stormfulde Dyst</l>
+<lb/><l>Mod Klippen at spille</l>
+<lb/><l>Var stedse din Lyst</l>
+<lb/><l>Dog midt i din Striden,</l>
+<lb/><l>Midt i din Harm,</l>
+<lb/><l>Den Søblomme liden</l>
+<lb/><l>Dig vinker til Barm!</l></HIS:hisLg>
+<pb n="3"/>
+<lb/><fw type="page" place="top-right" hand="h1">3</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Ak, flygtig er Stunden; &dash;</l>
+<lb/><l>Din Storhed som den! &dash;</l>
+<lb/><l>Din Kraft er forsvunden,</l>
+<lb/><l>Da synker du hen! &dash;</l>
+<lb/><l>See Grave dig vente</l>
+<lb/><l>I Klippernes Rift, &dash;</l>
+<lb/><l>Ha, Bølge! saa endte</l>
+<lb/><l>Din Drøm om Bedrift!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>O! bland kun din Klage</l>
+<lb/><l>Med Brændingens Sang! &dash;</l>
+<lb/><l>Hvad er vel tilbage? &dash;</l>
+<lb/><l>Ei Mindet engang! &dash;</l>
+<lb/><l>Thi mens i dets Himmel</l>
+<lb/><l>Du drømmer dig gjemt,</l>
+<lb/><l>I <app type="alteration"><lem><HIS:hisAdd place="offline">Bølgernes</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Brændingens</HIS:hisDel></HIS:hisRdg></app> Vrimmel</l>
+<lb/><l>Du længst er forglemt! &dash; &dash; &dash;</l></HIS:hisLg></div>
+<lb/><figure type="bar"/>
+
+<pb n="4"/>
+<lb/><fw type="page" place="top-left" hand="h1">4</fw>
+<div type="poem" xml:id="BlaDigtTvivlHaab">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">3</HIS:hisAdd> Tvivl og Haab.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha, hvilken Nat, saa rædsom, mørk!</l>
+<lb/><l>Derude stormer det! &dash; &dash; &dash;</l>
+<lb/><l>Som Løvens Brøl i vildsom Ørk</l>
+<lb/><l>Hør Stormens Aandedræt! &dash; &dash;</l><pb ed="HU" n="45"/>
+<lb/><l>Ha, komme I fra Dødens Dal,</l>
+<lb/><l>I Skygger hist, som gaa</l>
+<lb/><l>Lig Aander over natlig Val</l>
+<lb/><l>I Skygevandter graa? &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Og disse Tordenstemmers Klang</l>
+<lb/><l>I denne Midnatsstund! &dash; &dash;</l>
+<lb/><l>Som Mørkets vilde Seierssang,</l>
+<lb/><l>Som Dommedags Basun! &dash;</l>
+<lb/><l>O, mangengang jeg spott&rapo;et har</l>
+<lb/><l>Med Dommedagens Gru, &dash;</l>
+<lb/><l>Ha, Frugten, denne Haanen bar,</l>
+<lb/><l>Er vild Fortvivlen nu! &dash; &dash;</l></HIS:hisLg>
+<pb n="5"/>
+<lb/><fw type="page" place="top-right" hand="h1">5</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Forlængst, forlængst, mens Barn jeg var</l>
+<lb/><l>Min Aftenbøn saa glad</l>
+<lb/><l>Til Himlens Gud for Mo&rapo;r og Fa&rapo;<HIS:hisDel rend="overwritten">er</HIS:hisDel>r</l>
+<lb/><l>Og Søskend&rapo; smaa, jeg bad; &dash;</l>
+<lb/><l>Men længst, ak, længst det er forbi, &dash;</l>
+<lb/><l>Jeg har min Bøn forglemt,</l>
+<lb/><l>Ei meer jeg søger Trøst deri,</l>
+<lb/><l>Er ei til Andagt stemt! &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha, svage Sjæl! saa skjælver du</l>
+<lb/><l>For disse Tordenbrag? &dash; &dash;</l>
+<lb/><l>Du troer i denne Stormnats Gru</l>
+<lb/><l>At skue Dommedag, &dash;</l>
+<lb/><l>Den Dag, som aldrig komme vil, &dash;</l>
+<lb/><l>Saa lød jo tit dit Ord;</l>
+<lb/><l>Og paa den Gud, du beder til,</l>
+<lb/><l>Forlængst du selv ei troer! &dash; &dash;</l></HIS:hisLg>
+<pb n="6"/>
+<lb/><fw type="page" place="top-left" hand="h1">6</fw><pb ed="HU" n="46"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha, Dæmon, er du atter vakt? &dash;</l>
+<lb/><l>Vig fra mig Frister fæl!</l>
+<lb/><l>O, som Orkaners vilde Jagt</l>
+<lb/><l>Det stormer i min Sjæl, &dash; &dash;</l>
+<lb/><l>Og ingen Leder, ingen Vei</l>
+<lb/><l>I dette Tvivlens Hav! &dash; &dash;</l>
+<lb/><l>Gud! <HIS:hisDel rend="overwritten">F</HIS:hisDel>for en barnlig Bøn til dig</l>
+<lb/><l>Al jordisk Kløgt jeg gav! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Men ak, jeg er ei Barn meer,</l>
+<lb/><l>Og har ei Barnets Sind! &dash;</l>
+<lb/><l>For Veien, Uskyldsøiet seer</l>
+<lb/><l>I Troen, er jeg blind! &dash;</l>
+<lb/><l>O, rædselfuld er denne Nat,</l>
+<lb/><l>Af Lynet kuns belyst, &dash;</l>
+<lb/><l>Og dog den er et Dagskjær klart</l>
+<lb/><l>Mod Mulmet i mit Bryst! &dash;</l></HIS:hisLg>
+<pb n="7"/>
+<lb/><fw type="page" place="top-right" hand="h1">7</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Dog end fortvivle vil jeg ei,</l>
+<lb/><l>Men følge Hjertets Bud:</l>
+<lb/><l>Til Haabet vil jeg klynge mig,</l>
+<lb/><l>Til Troen paa min Gud! &dash;</l>
+<lb/><l>Lad hyle kun Orkanens Sang, &dash;</l>
+<lb/><l>Jeg slumrer ind til Ro,</l>
+<lb/><l>&dash; Forvist jeg vaagne skal engang</l>
+<lb/><l>Gjenfødt med barnlig Tro! &dash; &dash; &dash;</l></HIS:hisLg></div>
+<lb/><figure type="bar"/>
+<div type="poem" xml:id="BlaDigtKjaempeegen">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">4.</HIS:hisAdd> Kjæmpeégen.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Høiest i Nord stod en Kjæmpeég, &dash;</l>
+<lb/><l>I Hedenold var den oprunden; &dash;</l>
+<lb/><l>Saa <HIS:hisDel rend="overwritten">H</HIS:hisDel>herlig dens Krone mod Himmelen stég</l>
+<lb/><l>Og Rod slog den dybest i Grunden. &dash;</l><pb ed="HU" n="47"/>
+<lb/><l>De mægtige Grene, de frodige Skud</l>
+<lb/><l>Den bredte fra Nordpol til Eideren ud,</l>
+<lb/><l>Den skyggede stolt over Sveas Lande</l>
+<lb/><l>Og krandsede Vesterhavs klippede Strande! &dash;</l></HIS:hisLg>
+<pb n="8"/>
+<lb/><fw type="page" place="top-left" hand="h1">8</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Men Tidens Storme mod Kjæmpen foer</l>
+<lb/><l>Den mægtige Stamme de knuste,</l>
+<lb/><l>Og over det splittede, sjunkne Nor</l>
+<lb/><l>Som Gravsange voldsomt de bruste,</l>
+<lb/><l>Og Østens rovgjærrige Ørne saae</l>
+<lb/><l>Med lystne Blik over Codans Blaa,</l>
+<lb/><l>Mens Tydsken strakte sin Haand efter Byttet,</l>
+<lb/><l>Der laa, som en Døende, ubeskyttet! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Dog spirende Skud den Knuste bar, &dash; &dash;</l>
+<lb/><l>Let Gnisten vorder til Flamme! &dash;</l>
+<lb/><l>De Unge mindes hvad Gubben var, &dash;</l>
+<lb/><l>Gad gjerne vorde det samme. &dash;</l>
+<lb/><l>Snart søge den Skilte sin Broder igjen,</l>
+<lb/><l>Og række ham Haanden som trofast Ven, &dash;</l>
+<lb/><l>Snart vorde de Eet, snart smelte de sammen,</l>
+<lb/><l>Som Vinternats Himmel med Nordlysflammen?</l></HIS:hisLg>
+</div>
+</div>
+
+<pb n="9"/>
+<lb/><fw type="page" place="top-right" hand="h1">9</fw>
+<div type="collectionPart">
+<lb/><head type="collectionPart">1849</head>
+<lb/><figure type="bar"/>
+<div type="poem" xml:id="BlaDigtErindringskilden">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">5.</HIS:hisAdd> Erindringskilden. &dash;</head>
+<lb/><HIS:hisLg versetype="strofe"><l>En Pigelil sidder i Aftenstund,</l>
+<lb/><l>Stirrer i Bækkens Vove,</l>
+<lb/><l>Og nede, hist i den dybe Grund</l>
+<lb/><l>Sig speile de dunkle Skove.</l></HIS:hisLg><pb ed="HU" n="48"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Hun stirrer og stirrer med Vemodssmiil</l>
+<lb/><l>Ret som om hun Noget savned&rapo;;</l>
+<lb/><l>Men Bølgen flygter i munter Iil</l>
+<lb/><l>Af løvrige Bredder omfavnet. &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Saa sad hun i skyldfrie Barndom tit, &dash;</l>
+<lb/><l>Da saa hun et Billed paa Bunden:</l>
+<lb/><l>En Yngling, der vinkede, smilende blidt, &dash;</l>
+<lb/><l>Forlængst er Synet forsvunden. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ak, nu er hun stor, og hvor ofte end</l>
+<lb/><l>Hun mindes sin Barndoms Dage,</l>
+<pb n="10"/>
+<lb/><fw type="page" place="top-left" hand="h1">10</fw>
+<lb/><l>Den aldrig, aldrig dog kommer igjen,</l>
+<lb/><l>Ei vender dens Syner tilbage! &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Dog sidder hun ofte ved Kildens Bred,</l>
+<lb/><l>Taarebedugget er Kinden; &dash;</l>
+<lb/><l>Sagtelig trille de Vover afsted,</l>
+<lb/><l>Let kruser dem Aftenvinden. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Da kaster Maanen et sælsomt Skjær</l>
+<lb/><l>Hist fra den hvælvede Bue; &dash;</l>
+<lb/><l>Hun stirrer i Voven og tykkes der</l>
+<lb/><l>Endnu hiint Billed af skue! &dash; &dash; &dash;</l></HIS:hisLg>
+</div>
+
+<div type="poem" xml:id="BlaDigtDoedningeballet">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">6</HIS:hisAdd> Dødningeballet.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Henover den Kirkegaard øde</l>
+<lb/><l>Har Natten sin Vinge udbredt; &dash;</l>
+<pb n="11"/>
+<lb/><fw type="page" place="top-right" hand="h1">11</fw>
+<lb/><l>Saa roligt der slumre de Døde,</l>
+<lb/><l>En Slummer, som brydes ei læt; &dash;</l>
+<lb/><l>Og sælsomt i Maanens Glands</l>
+<lb/><l>Mon glimte den Marmelsteen,</l>
+<lb/><l>Som, prydet med taarevædt Krands</l>
+<lb/><l>Bedækker den Dødes Been. &dash; &dash;</l></HIS:hisLg><pb ed="HU" n="49"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Men brydes hiint Gravens Stille</l>
+<lb/><l>Af Midnattens dumpe Slag, &dash;</l>
+<lb/><l>Da, hvis du kun lytte vilde,</l>
+<lb/><l>Du hørte en Tummel svag, &dash;</l>
+<lb/><l>Og altsom det nærmer sig,</l>
+<lb/><l>Da drønner det meer og meer, &dash; &dash;</l>
+<lb/><l>Og Vandreren korser sig</l>
+<lb/><l>Og gyser, skjønt Intet han seer! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Da aabnes de sjunkne Grave</l>
+<lb/><l>Og hver en mosklædt Steen,</l>
+<lb/><l>Og frem af de Boliger lave</l>
+<lb/><l>Saa tause de Dødninger treen.</l>
+<pb n="12"/>
+<lb/><fw type="page" place="top-left" hand="h1">12</fw>
+<lb/><l>Dog klappred ved hvert et Trin</l>
+<lb/><l>De mørskne Knokkelbeen;</l>
+<lb/><l>Men Kappen, det hvide Liin,</l>
+<lb/><l>Den skinned som Sneen reen. &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>De gribe hverandres Hænder,</l>
+<lb/><l>Og samles som til en Fest;</l>
+<lb/><l>En Lygtmand som Lampe brænder,</l>
+<lb/><l>Hvert Beenrad er velkommen Gjæst, &dash;</l>
+<lb/><l>Hver fatter sin Naboes Haand</l>
+<lb/><l>Og dandser saa vildt i Ring; &dash;</l>
+<lb/><l>Ha, maaskee en Fyrstes Aand</l>
+<lb/><l>Med Betlerens farer omkring! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Tro ei Musicanter der mangler</l>
+<lb/><l>Ved et saa kosteligt Bal:</l>
+<lb/><l>Et Beenrad med Knokler rangler,</l>
+<lb/><l>En Anden en Hjerneskal</l>
+<lb/><l>Som Tromme ferdigt mon slaa,</l>
+<lb/><l>Det klinger, som sidste Suk</l>
+<pb n="13"/>
+<lb/><fw type="page" place="top-right" hand="h1">13</fw>
+<lb/><l>Fra <HIS:hisDel rend="overwritten">B</HIS:hisDel>bristende Hjertes Vraa, &dash;</l>
+<lb/><l>See det er de Dødes Musik! &dash; &dash;</l></HIS:hisLg><pb ed="HU" n="50"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Om smuldrede Gravmonumenter</l>
+<lb/><l>De dandse saa lystigen rundt;</l>
+<lb/><l>Men Gravene atter dem vente,</l>
+<lb/><l>Een Time er kun dem forundt. &dash; &dash;</l>
+<lb/><l>&dash; Tilende er Ballet de gav;</l>
+<lb/><l>Thi huult lyder <HIS:hisDel rend="overwritten">k</HIS:hisDel>Klokkens Slag,</l>
+<lb/><l>Og dybt i den rolige Grav</l>
+<lb/><l>De slumre til yderste Dag! &dash; &dash; &dash;</l></HIS:hisLg></div>
+
+<div type="poem" xml:id="BlaDigtAfskMinde">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">7</HIS:hisAdd> Afskedens Minde.</head>
+<lb/><figure type="bar"/>
+<HIS:hisAdd place="inBetweenLines"><lb/><head type="sub">(Ved O. Schulruds Afreise.)</head></HIS:hisAdd>
+<lb/><HIS:hisLg versetype="strofe"><l>Naar Veiene spaltes og Vennerne gaa</l>
+<lb/><l>Skilte i Livets Vrimmel,</l>
+<lb/><l>Vi stirre saagjerne imod den blaa</l>
+<lb/><l>Og lyse Erindringshimmel.</l></HIS:hisLg>
+<pb n="14"/>
+<lb/><fw type="page" place="top-left" hand="h1">14</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Der tindre som venlige Stjerner smaa</l>
+<lb/><l>De Minder fra svundne Dage, &dash;</l>
+<lb/><l>Ei Tidens slørende Skyer formaa</l>
+<lb/><l>At dunkle den Lysning saa fage. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Dog mellem de venlige Smaastjerner der</l>
+<lb/><l>Een søger vort Øie saa gjerne;</l>
+<lb/><l>Den blinker i vémodsfuldt dæmrende Skjær</l>
+<lb/><l>Og er dog vor kjæreste Stjerne! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Sørgmodigt er Navnet; thi Afskedens Stund</l>
+<lb/><l>Vi nævne den, alvorsfuldt stemte<note resp="editor">Gotisk s skrevet over latinsk s.</note>, &dash;</l>
+<lb/><l>Dog mildt den belyser fra blaalige Bund</l>
+<lb/><l>Hvert Venskabets Minde vi gjemte! &dash; &dash;</l></HIS:hisLg></div><pb ed="HU" n="51"/>
+
+<div type="poem" xml:id="BlaDigtHoestaftenen">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">8.</HIS:hisAdd> Høstaftenen.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>See det mørkner, &dash; Regnen slaaer</l>
+<lb/><l>Pladskende mod Vinduesruden,</l>
+<pb n="15"/>
+<lb/><fw type="page" place="top-right" hand="h1">15</fw>
+<lb/><l>Blander sig med Vindens Tuden</l>
+<lb/><l>Medens over Himlen gaaer</l>
+<lb/><l>Skygestalter, &dash; Aander lige</l>
+<lb/><l>Ifra Dødens tause Rige; &dash;</l>
+<lb/><l>Under fjerne Tordners Larm</l>
+<lb/><l>Komme, gaae de og forsvinde,</l>
+<lb/><l>Lig den nylig Elsktes Mind<HIS:hisAdd place="inline">e</HIS:hisAdd></l>
+<lb/><l>I en utro Piges Barm. &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Tæt ved Ovnen sidder jeg, &dash;</l>
+<lb/><l>Stirrer drømmende i Luen,</l>
+<lb/><l>Der kun halvt oplyser Stuen;</l>
+<lb/><l>Men en Verden er for mig,</l>
+<lb/><l>Hvor i Kullets dunkl<HIS:hisAdd place="inline">e</HIS:hisAdd> Spalter</l>
+<lb/><l>Mine Drømmes Luftgestalter</l>
+<lb/><l>Bygge sig et Ildpalæ; &dash;</l>
+<lb/><l>(Magen er ei let at finde;</l>
+<lb/><l>Thi i Hallerne derinde</l>
+<lb/><l>Kan jeg Pigetroskab see!)</l></HIS:hisLg>
+<pb n="16"/>
+<lb/><fw type="page" place="top-left" hand="h1">16</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha, hvad Sceneri der er! &dash; &dash; &dash;</l>
+<lb/><l>Er det da min Barndoms svundne</l>
+<lb/><l>Dage, til mit Hjerte bundne,</l>
+<lb/><l>Der igjen fremtræde her? &dash;</l>
+<lb/><l>&dash; Ellr er, (det saa jeg gjerne!)</l>
+<lb/><l>Sløret for det dunkle Fjerne</l>
+<lb/><l>I en vild forvirret Iil</l>
+<lb/><l>Trukket viftende tilside,</l><pb ed="HU" n="52"/>
+<lb/><l>Vinker Skulda med sit blide</l>
+<lb/><l>Eller varselfulde Smiil? &dash; &dash; &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Dog, til kolde Virklighed</l>
+<lb/><l>Vækkes jeg af mine Drømme; &dash; &dash;</l>
+<lb/><l>Regnen falder end i Strømme, &dash;</l>
+<lb/><l>Mit Palads er styrtet ned. &dash; &dash;</l>
+<lb/><l>O, hvor det er trist og øde,</l>
+<lb/><l>Slig en Stund kan Mismod føde,</l>
+<pb n="17"/>
+<lb/><fw type="page" place="top-right" hand="h1">17</fw>
+<lb/><l>Bringe Hjertet til, bekl<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>emt,</l>
+<lb/><l>Ret at føle hvad det savner; &dash; &dash;</l>
+<lb/><l>Selskab? &dash; Nei, kuns lidt det gavner</l>
+<lb/><l>For et Sind, mismodigstemt! &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Som Alverden jo har sin,</l>
+<lb/><l>Har jeg og min Elskerinde! &dash;</l>
+<lb/><l>Ak, men ingen jordisk Kvinde</l>
+<lb/><l>Er hun, som jeg kalder min; &dash;</l>
+<lb/><l>Kuns et Drømmesyn, fremstaaet</l>
+<lb/><l>Af en Higen uopnaaet,</l>
+<lb/><l>Uopnaaelig maaskee! &dash;</l>
+<lb/><l>(Hvad om Kjærlighedens Længsel</l>
+<lb/><l>Slukned kvalt i Hjertets Fængsel,</l>
+<lb/><l>Kuns, som hun, en skjøn Idee! &dash;)</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha, en jordisk Mø du troer</l>
+<lb/><l>I min Elsktes Træk at kjende,</l>
+<pb n="18"/>
+<lb/><fw type="page" place="top-left" hand="h1">18</fw>
+<lb/><l>Det, hvormed jeg smykked he<HIS:clarification place="inline">n</HIS:clarification>de</l>
+<lb/><l>At jeg hentet har fra Jord! &dash;</l>
+<lb/><l>At fra Een jeg laante Panden</l>
+<lb/><l>Tankeriig, og fra en Anden</l><pb ed="HU" n="53"/>
+<lb/><l>Dette Følelsernes Hav</l>
+<lb/><l>I min Elskerindes Blikke? &dash; &dash;</l>
+<lb/><l>Nei, o nei, fra Jorden ikke</l>
+<lb/><l>Tog jeg hvad jeg hende gav! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Kom, mit Hjertes Ideal!</l>
+<lb/><l>Jeg vil sværme ved din Side,</l>
+<lb/><l>Af dit Blik, det ømme, blide</l>
+<lb/><l>Vil jeg søge Lindring sval</l>
+<lb/><l>For den Længsel mig fortærer,</l>
+<lb/><l>Den, som mine Drømme nærer,</l>
+<lb/><l>Den, som aldrig slukkes ud,</l>
+<lb/><l>Ikkun da i Stilhed gløder,</l>
+<lb/><l>Naar paa Jord jeg eengang møder</l>
+<lb/><l>Mine Drømmes Aandebrud! &dash; &dash; &dash;</l></HIS:hisLg></div>
+
+<pb n="19"/>
+<lb/><fw type="page" place="top-right" hand="h1">19</fw>
+<div type="poem" xml:id="BlaDigtSjelensSolglimt">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">9</HIS:hisAdd> Sjælens Solglimt.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">O, hvor stormer mit Bryst!</l>
+<lb/><l rend="indent2">Jeg har hørt denne Røst,</l>
+<lb/><l>Som jeg kjender fra Drømmenes Land</l>
+<lb/><l rend="indent2">Naar jeg, slumrende mat</l>
+<lb/><l rend="indent2">I den dæmrende Nat</l>
+<lb/><l>Hørte Voverne hviske ved Strand!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Jeg har seet det Blik</l>
+<lb/><l rend="indent2">Som min Aandebrud fik</l>
+<lb/><l>I min digtende Kjærlighedsdrøm!</l>
+<lb/><l rend="indent2">Gjennem Sjældybet foer,</l>
+<lb/><l rend="indent2">Som Orkan over Jord</l>
+<lb/><l>Mine Anelsers bævende Strøm!</l></HIS:hisLg><pb ed="HU" n="54"/>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Og den Lænselens Kval</l>
+<lb/><l rend="indent2">Som min Sjæls Ideal</l>
+<pb n="20"/>
+<lb/><fw type="page" place="top-left" hand="h1">20</fw>
+<lb/><l>Tændte dybt i min higende Barm,</l>
+<lb/><l rend="indent2">Fra en blussende, vild,</l>
+<lb/><l rend="indent2">Altfortærende Ild</l>
+<lb/><l>Blev en Flamme, saa rolig og varm!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Af en Funke belyst</l>
+<lb/><l rend="indent2">Blev mit skyfulde Bryst,</l>
+<lb/><l>Ei liig Sommerens brændende Sol,</l>
+<lb/><l rend="indent2">Naar den gløder os nær, &dash;</l>
+<lb/><l rend="indent2">Nei, som Stjernernes Skjær</l>
+<lb/><l>Naar de tindre fra fjerneste Pol! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">I min Sjæl var det Dag; &dash;</l>
+<lb/><l rend="indent2">Da fornam jeg ei Nag,</l>
+<lb/><l>Ikke Smærtens giftdyppede Sværd</l>
+<lb/><l rend="indent2">Det var blot en Sekund, &dash;</l>
+<lb/><l rend="indent2">Men den flygtige Stund</l>
+<lb/><l>Var dog meer end en Evighed værd! &dash; &dash; &dash;</l></HIS:hisLg>
+<pb n="21"/>
+<lb/><fw type="page" place="top-right" hand="h1">21</fw>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Skal jeg skuffes paany? &dash;</l>
+<lb/><l rend="indent2">Skulle Synerne fly &dash;</l>
+<lb/><l>Og kun vorde Fantomer igjen,</l>
+<lb/><l rend="indent2">Naar det stormende Bruus</l>
+<lb/><l rend="indent2">Fra Begeistringens Ruus</l>
+<lb/><l>Toner mat og døer sygnende hen? &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">O, med Mindernes Skat</l>
+<lb/><l rend="indent2">Gjennem Fremtidens Nat</l>
+<lb/><l>Vil jeg sværme paa Drømmenes Hav, &dash;</l>
+<lb/><l rend="indent2">Til jeg træt stiger ned</l>
+<lb/><l rend="indent2">Forat søge min Fred</l>
+<lb/><l>I den rolige, kjølende Grav! &dash; &dash; &dash;</l></HIS:hisLg></div>
+<lb/><figure type="bar"/>
+
+<pb n="22"/>
+<lb/><fw type="page" place="top-left" hand="h1">22</fw><pb ed="HU" n="55"/>
+<div type="poem" xml:id="BlaDigtMaaneskinsfartPaaHavet">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">10.</HIS:hisAdd> Maaneskinsfart paa Havet.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Fuldmaanen skinner; &dash; henover den vide</l>
+<lb/><l>Slumrende Havflade breder sig mildt</l>
+<lb/><l>I magisk Fortoning de glindsende, blide</l>
+<lb/><l>Maanelysstrømme, mens Alting er <HIS:hisAdd place="inline">s</HIS:hisAdd>t<HIS:hisDel rend="overwritten">ys</HIS:hisDel>ilt;</l>
+<lb/><l>Mens Nathimlens Stjerne i Dybet sig bader</l>
+<lb/><l>Og Lysningen funkler fra Bølge til Bølge;</l>
+<lb/><l>&dash; Let glider min Snekke paa Voven, &dash; den følge</l>
+<lb/><l>De deilige, maanebeskinnede Rader. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Hist inde hvor Birkenes Grene sig strække</l>
+<lb/><l>Fortroligen ludende ud over Sø, &dash;</l>
+<lb/><l>Der hvilte jeg nys under løvrige Dække,</l>
+<lb/><l>Der er det saa tyst, &dash; o, der kunde jeg dø, &dash;</l>
+<lb/><l>Der kunde jeg slumre bag Gravhøien rolig,</l>
+<lb/><l>Der kunde Bølgen i Stormnatten kvæde</l>
+<lb/><l>Der kunde Havdybets Aander jo græde,</l>
+<lb/><l>Fylde med længselfuld Klage min Bolig. &dash;</l></HIS:hisLg>
+<pb n="23"/>
+<lb/><fw type="page" place="top-right" hand="h1">23</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>&dash; Dog nei, &dash; det er trykkende lummert ved Stranden! &dash;</l>
+<lb/><l>Ud maa jeg paa Bølgerne langt ifra Land.</l>
+<lb/><l>Der vifter Havvinden kjøligt om Panden</l>
+<lb/><l>Der vil jeg slukke den Længselens Brand,</l>
+<lb/><l>Som nager mit Hjerte, &dash; o, der er det stille,</l>
+<lb/><l>Der strækker sig Havsletten slumrende, øde,</l>
+<lb/><l>Der følger mig Ingen, undtagen de Døde,</l>
+<lb/><l>Hvis Øine saa sælsomt i Voverne spille. &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Troer du maaskee det er Stjerner som blinke</l>
+<lb/><l>I Dybet hist nede med taareslørt Glands?</l>
+<lb/><l>Ha, seer du, de komme, de svinde, de vinke</l>
+<lb/><l>Og hvirvle sig vildt i den mystiske Dands? &dash;</l><pb ed="HU" n="56"/>
+<lb/><l>Der vilde jeg sikkerlig føle mig hjemme, &dash;</l>
+<lb/><l>Der kunde jeg slukke hver knugende Smærte,</l>
+<lb/><l>Der stille hver Kval, som mit Indre fortærte! &dash;</l>
+<lb/><l>Ja, der er det herligt; &dash; der kunde jeg glemme! &dash;</l></HIS:hisLg></div>
+<lb/><figure type="bar"/>
+
+<pb n="24"/>
+<lb/><fw type="page" place="top-left" hand="h1">24</fw>
+<div type="poem" xml:id="BlaDigtMidnatsstemning">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">11.</HIS:hisAdd> Midnatsstemning.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Natlige Taager glide,</l>
+<lb/><l>Henover Elvens Bred,</l>
+<lb/><l>Sænke i Sjælen blide</l>
+<lb/><l>Drømmende Anelsers Fred; &dash;</l>
+<lb/><l>Medens de Levende sove,</l>
+<lb/><l>Spøger en Alfehær</l>
+<lb/><l>Hist i de dunkle Skove; &dash;</l>
+<lb/><l>&dash; Midnatstimen er nær. &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Her er det godt at drømme,</l>
+<lb/><l>Her i den tause Nat,</l>
+<lb/><l>Hvor dine Længslers ømme</l>
+<lb/><l>Digt i Musik bli&rapo;er sat:</l>
+<lb/><l>De Tone<unclear reason="writing">r</unclear>, Voverne kvæde</l>
+<lb/><l>Klinge som Aanders Spil,</l>
+<lb/><l>Granskovens Susen histnede</l>
+<lb/><l>Nynner Accorder dertil. &dash;</l></HIS:hisLg>
+<pb n="25"/>
+<lb/><fw type="page" place="top-right" hand="h1">25</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Her kan du mane det Rundnes</l>
+<lb/><l>Minder af Fortids Hav,</l>
+<lb/><l>Hilse, som Venner de Svundnes</l>
+<lb/><l>Skygger, der stige fra Grav,</l>
+<lb/><l>Blande saa smukt de dunkle,</l>
+<lb/><l><HIS:hisDel rend="overwritten">Du</HIS:hisDel>Skumrende Minders Sky</l>
+<lb/><l>Med de Lysskjær der funkle</l>
+<lb/><l>Fra Haabets dæmrende Gry! &dash;</l></HIS:hisLg><pb ed="HU" n="57"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Klang ei i Nattens Stille</l>
+<lb/><l>Toner fra Taagen hist?</l>
+<lb/><l>Sagtelig Bølgerne trille,</l>
+<lb/><l>Fuglene lytte fra Kvist; &dash;</l>
+<lb/><l>I Skov, hvor Alfer lege</l>
+<lb/><l>Vorder flux Alting tyst, &dash;</l>
+<lb/><l>Mellem de gamle Ege</l>
+<lb/><l>Skinner Maanen saa lyst. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Hører du Nøkken synger</l>
+<lb/><l>Nede ved Elverand,</l>
+<pb n="26"/>
+<lb/><fw type="page" place="top-left" hand="h1">26</fw>
+<lb/><l>Der hvor Piiltræet gynger</l>
+<lb/><l>Skyggende udover Vand! &dash;</l>
+<lb/><l>Der slaaer han de gyldne Strænge</l>
+<lb/><l>Skjult i det dunkle Krat</l>
+<lb/><l>Og Ecchoet blidt og længe</l>
+<lb/><l>Toner i stille Nat. &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Naturen stemmes saa saare</l>
+<lb/><l>Vemodigt ved Nøkkens Kvad;</l>
+<lb/><l>Dugdraaben, retsom en Taare</l>
+<lb/><l>Glindser fra hvert et Blad, &dash;</l>
+<lb/><l>Hyllet i Skyer lette</l>
+<lb/><l>Skinner Maanen saa mild,</l>
+<lb/><l>Klagende Toner sig flette</l>
+<lb/><l>Ind i det sære Spil. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Naar Dagen straaler heroppe</l>
+<lb/><l>Boer Nøkken i Elvens Grund,</l>
+<pb n="27"/>
+<lb/><fw type="page" place="top-right" hand="h1">27</fw>
+<lb/><l>Men stiger bag Granens Toppe</l>
+<lb/><l><HIS:hisAdd place="offline"><HIS:hisDel rend="erased"><gap/></HIS:hisDel></HIS:hisAdd> Maanen i natlig Stund: &dash;</l>
+<lb/><l>Paa Voven seer du ham svæve,</l>
+<lb/><l>Synge saa veemodsfuld; &dash;</l>
+<lb/><l>O, kunde Klagen bæve</l>
+<lb/><l>Høit over Stjernens Guld! &dash;</l></HIS:hisLg><pb ed="HU" n="58"/>
+<lb/><HIS:hisLg versetype="strofe"><l>I Sangen er fromme Kræfter,</l>
+<lb/><l>Der raader en hellig Magt:</l>
+<lb/><l>Maalet, du higer efter,</l>
+<lb/><l>Skjønt dybest i Fremtid lagt,</l>
+<lb/><l>Vil engang din Barm forsone</l>
+<lb/><l>Og hæve dig over Jord, &dash;</l>
+<lb/><l>Da vorder hver Veemodstone</l>
+<lb/><l>En salighedsfuld Accord! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="28"/>
+<lb/><fw type="page" place="top-left" hand="h1">28</fw>
+<div type="poem" xml:id="BlaDigtTilStjernen">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">12</HIS:hisAdd> Til Stjernen.</head>
+<lb/><figure type="bar"/>
+<lb/><head type="sub">(Tilegnet C: E:)</head>
+<lb/><HIS:hisLg versetype="strofe"><l>Blege Stjerne! send et Vink</l>
+<lb/><l>Fra det Evighøie! &dash;</l>
+<lb/><l>Lys med venligt Flammeblink</l>
+<lb/><l>Klart for Sjælens Øie! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Skal dit dunkle Billedsprog</l>
+<lb/><l>Da kun Længsel vække!</l>
+<lb/><l>Lær mig klart at skue dog</l>
+<lb/><l>Gjennem Fremtids Dække! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Spred dog Tvivlens sorte Sky</l>
+<lb/><l>Fra mit syge Indre,</l>
+<lb/><l>Lad en salig Visheds Gry</l>
+<lb/><l>Gjennem Mulmet tindre! &dash;</l></HIS:hisLg>
+<pb n="29"/>
+<lb/><fw type="page" place="top-right" hand="h1">29</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Ak, forvoven er min Bøn; &dash;</l>
+<lb/><l>Tør jeg Vished kræve! &dash;</l>
+<lb/><l>Mægter da en Jor<HIS:hisDel rend="erased"><gap/></HIS:hisDel>dens Søn</l>
+<lb/><l>Sig fra Jord at hæve? &dash;</l></HIS:hisLg><pb ed="HU" n="59"/>
+<lb/><HIS:hisLg versetype="strofe"><l>O, med Troens blide Skjær</l>
+<lb/><l>Vil tilfreds jeg være, &dash;</l>
+<lb/><l>Kan ei Sandhed findes her,</l>
+<lb/><l>&dash; Haabet vil jeg nære. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Naar da Himmellyset mat</l>
+<lb/><l>Tindrer fra det Fjerne,</l>
+<lb/><l>Vil jeg glad i stille Nat</l>
+<lb/><l>Stirre mod min Stjerne. &dash; &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="30"/>
+<lb/><fw type="page" place="top-left" hand="h1">30</fw>
+<div type="poem" xml:id="BlaDigtAftenvanSkoven">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">13</HIS:hisAdd> Aftenvandring i Skoven.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Det er for lyst, det er for lyst</l>
+<lb/><l>Hvor Maanen skinner ned, &dash;</l>
+<lb/><l>Mit Hjerte blier saa gjennemgyst</l>
+<lb/><l>Af denne Nattens Fred;</l>
+<lb/><l>Fra hver en Blomst, fra hvert et Blad</l>
+<lb/><l>Staaer Aftenduggens Perlerad</l>
+<lb/><l>Og dirrer for mit Blik! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Det er for lyst, det er for lyst</l>
+<lb/><l>Ved Kildebredden her! &dash;</l>
+<lb/><l>See! Voven glider altfor tyst</l>
+<lb/><l>Og Stjernens Billed er</l>
+<lb/><l>I vaade Dyb, saa tykkes mig,</l>
+<lb/><l>En sorgindhyllet Glemmigei,</l>
+<lb/><l>Et Øie klædt i Graad.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Derinde, fjernest imod Nord,</l>
+<lb/><l>Hvor Granen staaer saa mørk,</l>
+<pb n="31"/>
+<lb/><fw type="page" place="top-right" hand="h1">31</fw>
+<lb/><l>Hvor Huldren dybt i Fjeldet boer,</l>
+<lb/><l>(Du kalder det maaskee en Ørk,)</l><pb ed="HU" n="60"/>
+<lb/><l>Der eier jeg et Yndlingssted</l>
+<lb/><l>Did vil jeg rette mine Fjed,</l>
+<lb/><l>Der er min Helligdom!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Seer du hvor Fje<HIS:hisDel rend="overwritten"><unclear>d</unclear></HIS:hisDel>ldets steile Top</l>
+<lb/><l>I Skyer hylles ind; &dash;</l>
+<lb/><l>Et høstligt Uveir trækker op,</l>
+<lb/><l>Alt blæser Nattens Vind! &dash;</l>
+<lb/><l>&dash; O, skjønt; &dash; som af et Aandepust</l>
+<lb/><l>Jeg føler mig af Storm ombrust</l>
+<lb/><l>At fare gjennem Nat! &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Afsted, afsted, dybt ind i Skov!</l>
+<lb/><l>O, længer frem endnu,</l>
+<lb/><l>Til Sjælen ganske blier et Rov</l>
+<lb/><l>For denne vilde Gru, &dash;</l>
+<lb/><l>Til Nattens Aander fast du troer</l>
+<lb/><l>At følge dine rappe Spoer</l>
+<lb/><l>Hvorlet du iler end! &dash;</l></HIS:hisLg>
+<pb n="32"/>
+<lb/><fw type="page" place="top-left" hand="h1">32</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Tys, her er Stedet; &dash; stille nu! &dash;</l>
+<lb/><l>Her midt i Skovens Skjød</l>
+<lb/><l>Hør Uglen hyler, &dash; hører du? &dash;</l>
+<lb/><l>Ha, hvor det herligt lød!</l>
+<lb/><l>Det er en lystig Melodie, &dash;</l>
+<lb/><l>Lad ei en Tone gaa forbi</l>
+<lb/><l>Dit Øre; &dash; ha, hvor skjønt! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Her stander Granen sort og høi</l>
+<lb/><l>Ved Kjærnets skumle Kant; &dash;</l>
+<lb/><l>&dash; Mens Stormen gjennem Luften fløi</l>
+<lb/><l>See Taagens Skygevandt, &dash;</l>
+<lb/><l>Det glider ned, det glider op</l>
+<lb/><l>Og hylles snart om Skovens Top</l>
+<lb/><l>Snart over sorte Dyb. &dash;</l></HIS:hisLg><pb ed="HU" n="61"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Her finder Hjertet sig saa vel,</l>
+<lb/><l>Midt under Stormens Larm;</l>
+<lb/><l>Her er Naturens Aasyn selv</l>
+<pb n="33"/>
+<lb/><fw type="page" place="top-right" hand="h1">33</fw>
+<lb/><l>En Speiling af min Barm,</l>
+<lb/><l>Et Billed paa, hvad Skjæbnen gav:</l>
+<lb/><l>Ei Ro i Liv, ei Ro i Grav,</l>
+<lb/><l>Ei Ro i Evighed! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<div type="poem" xml:id="BlaDigtIHoesten">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">14</HIS:hisAdd> I Høsten.</head>
+<lb/><figure type="bar"/>
+<lb/><head type="sub">(Indrykket i Chr:posten N<hi rend="raised">o</hi> 431.)</head>
+<lb/><HIS:hisLg versetype="strofe"><l>Sommerens Sangere Skoven forlade; &dash;</l>
+<lb/><l>Hvor deres Kvæde fra Grenene klang,</l>
+<lb/><l>Toner alt Høstvindens sukkende Sang</l>
+<lb/><l>Veemodsfuldt gjennem de gulnende Blade.</l>
+<lb/><l>Her, hvor det blomstrende Tæppe saa rigt</l>
+<lb/><l>Smykked de duftende, lysgrønne Enge,</l>
+<lb/><l>Bæver i visnede Straa, som fra Strenge,</l>
+<lb/><l>Sommerens Afsked, &dash; et klagende Digt!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Lillie! hvi lod du din bøiede Stængel</l>
+<lb/><l>Bladløs tilbage, &dash; hvor flygted du hen?</l>
+<lb/><l>O, du vil komme til Vaaren igjen,</l>
+<pb n="34"/>
+<lb/><fw type="page" place="top-left" hand="h1">34</fw>
+<lb/><l>Følgende Sommerens venlige Engel! &dash;</l>
+<lb/><l>Rose, med Glædens sødttonende Sprog</l>
+<lb/><l>Hviskende gjennem dit Bæger saa fage,</l>
+<lb/><l>Tornefuldt stander dit Minde tilbage,</l>
+<lb/><l>&dash; Saarende, &dash; Ak, &dash; men jeg elsker dig dog! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Manget et Frø fra den vaarlige Have</l>
+<lb/><l>Saa vi jo modnende vorde til Frugt; &dash;</l>
+<lb/><l><HIS:hisDel rend="overwritten">Ak</HIS:hisDel>O, men saamangenen Plan ligger smukt</l>
+<lb/><l>Dækket af knuste Forhaabningers Grave.</l><pb ed="HU" n="62"/>
+<lb/><l>Sommer! fortidlig mod Syden du fløi, &dash;</l>
+<lb/><l>Snarlig var Haabets Tilværelse omme, &dash;</l>
+<lb/><l>Ak<unclear>,</unclear> og den Sørgende har ei en Blomme</l>
+<lb/><l>Fromt til at smykke den hellige Høi! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Jo, mellem Gravene stander tilbage</l>
+<lb/><l>Endnu en Blomst i sin fagreste Pragt, &dash;</l>
+<lb/><l>Den har ei Høstvinden Døden end bragt, &dash;</l>
+<lb/><l>O, hvi skal H<HIS:hisDel rend="erased"><gap/></HIS:hisDel>jertet da længere klage! &dash;</l>
+<pb n="35"/>
+<lb/><fw type="page" place="top-right" hand="h1">35</fw>
+<lb/><l>&dash; Mindet den hedder, &dash; see, end den formaaer</l>
+<lb/><l>Haabet af stivnende Slummer at vække, &dash;</l>
+<lb/><l>Bind den til Krandse om Fortidens Dække,</l>
+<lb/><l>Trøstende vil den forgjætte en Vaar! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<div type="poem" xml:id="BlaDigtVaarensMinde">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">15</HIS:hisAdd> Vaarens Minde.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:tune>(Sat i Musik af C. Due.)</HIS:tune>
+<lb/><HIS:hisLg versetype="strofe"><l>Der er i Livet</l>
+<lb/><l>Af Gud <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>dig givet</l>
+<lb/><l>En vaarlig Stund,</l>
+<lb/><l>Da glade Drømme</l>
+<lb/><l>Dig gjennemstrømme</l>
+<lb/><l>Fra Sjælens Bund</l>
+<lb/><l>Og bort er manet</l>
+<lb/><l>Hvert Taageslør</l>
+<lb/><l>Fra hvad du ahned</l>
+<lb/><l>Halvdunkelt før.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>En Haabets Sommer</l>
+<lb/><l>Med fagre Blommer</l>
+<lb/><l>Fra Himlen gaae</l>
+<pb n="36"/>
+<lb/><fw type="page" place="top-left" hand="h1">36</fw>
+<lb/><l>Forbi dit Indre, &dash;</l>
+<lb/><l>Hvor klart de tindre,</l>
+<lb/><l>Lig Stjerner smaa; &dash;</l><pb ed="HU" n="63"/>
+<lb/><l>Mens Livets Gaader</l>
+<lb/><l>Dig tykkes løst&rapo;,</l>
+<lb/><l>Et Foraar raader</l>
+<lb/><l>Blidt i dit Bryst!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ak, snart det svinder! &dash;</l>
+<lb/><l>Dog venligt minder</l>
+<lb/><l>En Veemodslyd</l>
+<lb/><l>Fra Hjertets Strenge</l>
+<lb/><l>Dig blidt og længe</l>
+<lb/><l>Om Vaarens Fryd, &dash;</l>
+<lb/><l>De Tonestrømme</l>
+<lb/><l>Er Efterklang</l>
+<lb/><l>Af Blomsterdrømme</l>
+<lb/><l>Og Foraarssang! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="37"/>
+<lb/><fw type="page" place="top-right" hand="h1">37</fw>
+<div type="poem" xml:id="BlaDigtTilUngarn">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">16</HIS:hisAdd> Til Ungarn!</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Kampen drønner ikke længer huult fra Ma&typHyp;
+<lb/>gyarerlandet!</l>
+<lb/><l>Ifra Valen dumpe Sukke med en Dødens Kla&typHyp;
+<lb/>ge blandet</l>
+<lb/><l>Gjennem Nattens Stille bringe Budet vee&typHyp;
+<lb/>modsfuldt og d<unclear reason="writing">æ</unclear>mpet:</l>
+<lb/><l>Magyaren er ei meer, hans sidste store Strid
+<lb/>er kjæmpet! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Frihedshelteskaren segned for Barbarers vilde
+<lb/>Horder, &dash;</l>
+<lb/><l>Paa Ruinen Tyranniet staaer igjen som
+<lb/>Frihedsmorder.</l>
+<lb/><l>Fryder eder, purpursmykkede Monarker!
+<lb/>Atter feired</l>
+<lb/><l>Magten sin Triumph, &dash; paany er Friheds&typHyp;
+<lb/>flammen jo beseiret!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Arme Land! O, dine Sønners bedste Hjerte&typHyp;
+<lb/>blod er rundet,</l>
+<lb/><l>Dog, de ædle faldne Helte har en Mar&typHyp;
+<lb/>tyrkrone vundet.</l><pb ed="HU" n="64"/>
+<lb/><l>See, Europas Haab med dine kjække Kjæmpers
+<lb/>Liig du gjorder; &dash;</l>
+<lb/><l>&dash; Snarlig det fortabte Land <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>maaskee et an&typHyp;
+<lb/>det <unclear reason="writing">Po</unclear>len vorder!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Dog, bag Trældomsnatten straale vil en herlig
+<lb/>Morgenrøde, &dash;</l>
+<lb/><l>Da skal dine Frihedshelte reise sig ifra de
+<lb/>Døde,</l>
+<pb n="38"/>
+<lb/><fw type="page" place="top-left" hand="h1">38</fw>
+<lb/><l>Slutte sig til dem som segned kjæmpende
+<lb/>ved Veichsels Bredder</l>
+<lb/><l>Og til dem som fra Skaffotet Tydsklands Grund
+<lb/>med Blodstænk væder!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ja, naar kjækt de unge Slægter hævnende mod
+<lb/>Thronen farer</l>
+<lb/><l>Som en Høstorkan og styrter Tyranniets Grund&typHyp;
+<lb/>pillarer, &dash;</l>
+<lb/><l>Da skal Magyarernavnet stolt ved sine
+<lb/>Heltes Hæder,</l>
+<lb/><l>Som et vakkert Løsen tordne fra de sei&typHyp;
+<lb/>rende Geleder! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="39"/>
+<lb/><fw type="page" place="top-right" hand="h1">39</fw>
+<div type="poem" xml:id="BlaDigtVaagnerSkandinaver">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">17.</HIS:hisAdd> Vaagner Skandinaver!</head>
+<lb/><head type="sub">Et Opraab til
+<lb/>de norske og svenske
+<lb/>Brødre.</head>
+<lb/><head type="sub">1849. &dash;</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Tys, høre I hiint Tordenbrag fra Syden?</l>
+<lb/><l>Huult ruller Drønnet over Kattegat; &dash;</l>
+<lb/><l>Det er to fiendtlige Kræfters Bryden,</l>
+<lb/><l>Som brede over Dannevang en Nat! &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>En Nat, saa rædsom og med Blod saa svanger,</l>
+<lb/><l>Just nu da Frihedstræets unge Skud</l>
+<lb/><l>Med vaarligtspæde Blomsterknopper pranger,</l>
+<lb/><l>Men savner Freden forat springe ud.</l></HIS:hisLg><pb ed="HU" n="65"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Hist stande tydske Voldsmænd forat røve</l>
+<lb/><l>En Deel af Danmarks Grund med væbnet Haand;</l>
+<lb/><l>En Grund, saa hellig for Normannastammen!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Op Brødre, op, &dash; vi tør ei længer tøve, &dash;</l>
+<lb/><l>Saa byder os hiin Nordens Broderaand,</l>
+<lb/><l>Som knytter Norsk og Svensk og Danske sa<choice><expan>mm</expan><abbr>&mbar;</abbr></choice>en!</l></HIS:hisLg>
+<pb n="40"/>
+<lb/><fw type="page" place="top-left" hand="h1">40</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Alt længe laa en Higen i vor Barm, &dash;</l>
+<lb/><l>De danske Brødre fløi vor Sjæl imøde,</l>
+<lb/><l>Da de beslutted med Begeistring varm</l>
+<lb/><l>For Nordens store Fællessag at bløde</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Men staa vi tause, gribe vi ei Sværd,</l>
+<lb/><l>Gaae vi ei kjækt imod den tydske <app type="alteration"><lem><HIS:hisAdd place="infralinear"><lb/>Bande</HIS:hisAdd></lem><HIS:hisRdg>B</HIS:hisRdg></app></l>
+<lb/><l>Da ere vi ei vore <HIS:hisDel rend="overwritten">Brø</HIS:hisDel>Fædre værd,</l>
+<lb/><l>Ei vore Brødre paa de danske Strande</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Forskandse vi os mellem vore Fjelde</l>
+<lb/><l>Troe vi os sikkrede af Klippens Værn, &dash;</l>
+<lb/><l>O, gid ei Troen altforsnart maa svigte</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Men glem ei, Normænd, Ørnen som med Vælde</l>
+<lb/><l>Udspænder Kloen, &dash; husk den er ei fjern, &dash;</l>
+<lb/><l>&dash; Hvad om den Byttet havde alt isigte?</l></HIS:hisLg>
+<pb n="41"/>
+<lb/><fw type="page" place="top-right" hand="h1">41</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Er ikke Slesvig da en Helligdom,</l>
+<lb/><l>Et fælles Eie for det hele Norden,</l>
+<lb/><l>Mod Germanismens Trængenind, en Bom,</l>
+<lb/><l>Men hvad naar denne Formuur tabt
+<lb/>er vorden?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Naar Eiderstrømmen væder tydske Bredder,</l>
+<lb/><l>Mens Nordisk Aaand og Sprog fordrives der,</l>
+<lb/><l>Naar Folket da i Tydskens Vold begræder</l>
+<lb/><l>Sit Dannemark, sin tabte Moder kjær?</l></HIS:hisLg><pb ed="HU" n="66"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Naar Danmarks Klage bæver hid med Vinden</l>
+<lb/><l>Og baner til vort Hjertes Dyb sin Vei</l>
+<lb/><l>Mens Uveirsskyen truer fra det Fjerne:</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Staa da med Blusels dunkle Glød paa Kinden</l>
+<lb/><l>I, som var Magten givne og som ei</l>
+<lb/><l>Greb Sværdet for om Nordens Ret at værne!</l></HIS:hisLg>
+<pb n="42"/>
+<lb/><fw type="page" place="top-left" hand="h1">42</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Skal Slesvig vorde for det danske Folk</l>
+<lb/><l>Hvad Finland er for Sverrigs Sønner
+<lb/>gjæve,</l>
+<lb/><l>Et Land for hvilket Smærtens tause Tolk</l>
+<lb/><l>De bittre Taarer tungt i Øiet bæve.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Skal Slesvig vies til germannisk Rov,</l>
+<lb/><l>Skal Barnet rives voldsomt fra sin Moder</l>
+<lb/><l>&dash; Nei, Brødre, nei, der er en hellig Lov</l>
+<lb/><l>I Sjælens Dyb, den heder: Red din Broder!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Den heder: Hjælp, hvad længst Naturen
+<lb/>bandt</l>
+<lb/><l>Med skjønne faste Baand tæt til dit
+<lb/>Hjerte,</l>
+<lb/><l>Vee, vee dig, svigter du i Farens Stund!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Din Saga læser Skulda strængt og grant</l>
+<lb/><l>Hun kræver Daad for hvad dit Indre nærte</l>
+<lb/><l>Og ikke klingende Tirader kun. &dash;</l></HIS:hisLg>
+<pb n="43"/>
+<lb/><fw type="page" place="top-right" hand="h1">43</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Skal Norge plette med en troløs Daad</l>
+<lb/><l>Sin unge Friheds lyse Morgenrøde?</l>
+<lb/><l>Siig, hvo indskjød i Folkets Bryst det
+<lb/>Raad</l>
+<lb/><l>At sidde roligt mens de Danske bløde.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Var det de Mænd som Folket kaared
+<lb/>ud,</l>
+<lb/><l>At værne hist paa Thinge om dets
+<lb/>Hæder?</l>
+<lb/><l>Hvi fulgte I ei Ærens skjønne Bud,</l>
+<lb/><l>Hvi kaldte I selv Skjændsel over eder?</l></HIS:hisLg><pb ed="HU" n="67"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Var Valget tvivlsomt naar det stod til jer</l>
+<lb/><l>At følge Broderkjærlighedens Stemme.</l>
+<lb/><l>Siig, hørte I da ikke Folkets Raab?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Alt rykked Tydsken meer og mere nær</l>
+<lb/><l>Og dog I kunde de Betrængte glemme</l>
+<lb/><l>Der satte end til os et freidigt Haab.</l></HIS:hisLg>
+<pb n="44"/>
+<lb/><fw type="page" place="top-left" hand="h1">44</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Siig, svenske Brødre, siig hvi dvæle I?</l>
+<lb/><l>Hvi ile I ei over Sundets Vove?</l>
+<lb/><l>I have Dansken jo saa kjær som vi,</l>
+<lb/><l>I elske Sjølund med de lyse Skove.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Siig, trænger Larmen ei til eders Sjæl</l>
+<lb/><l>Naar I ved Øresund mod Danmark
+<lb/>skue, &dash;</l>
+<lb/><l>Er ikke Tydskens Seiersskrig en fæl</l>
+<lb/><l>Hovmodig Haanen, I gad gjerne kue?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha! er det sandt, hvad sagte hviskes om.</l>
+<lb/><l>Mod Østen stirre I med Frygt tilbage,</l>
+<lb/><l>Er Sveas Sønner da Barbarers Trælle?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Nei, nei, I frygte Ingen fremmed Dom; &dash;</l>
+<lb/><l>Hvert Sagas Blad ifra de svundne
+<lb/>Dage</l>
+<lb/><l>Er skjønne Vidner som derom fortælle.</l></HIS:hisLg>
+<pb n="45"/>
+<lb/><fw type="page" place="top-right" hand="h1">45</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Og drager end en enkelt Skare did</l>
+<lb/><l>Fra Sverrigs Kyster og fra Norges Fjelde,</l>
+<lb/><l>Hvad nytter det? En sildig Eftertid</l>
+<lb/><l>Vil for sin strænge Domstol Folket
+<lb/>fælde.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Naar Muldet længe, længe har os dækt</l>
+<lb/><l>Skal Efterkommerne med Skam
+<lb/>bekjende:</l>
+<lb/><l>&lquo;Vi stamme fra en depraveret Slægt&rquo;,</l>
+<lb/><l>Og skynde sig vort Sagablad at vende.</l></HIS:hisLg><pb ed="HU" n="68"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Thi lever Folket da for Nutid kun?</l>
+<lb/><l>Er Fortidsmindet ei en venlig Blomme</l>
+<lb/><l>Hvormed vi smykke mangt af Nuets
+<lb/>Brøst</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Snart vorder &lquo;Nordisk Troskab&rquo; i vor Mund</l>
+<lb/><l>Til bitter Spotten eller Floskler tomme</l>
+<lb/><l>Og Efterslægten savner Mindets Trøst.</l></HIS:hisLg>
+<pb n="46"/>
+<lb/><fw type="page" place="top-left" hand="h1">46</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Skal Broderkjærligheden vorde Had?</l>
+<lb/><l>Skal Broder rødme skamfuld over Broder?</l>
+<lb/><l>Skal vi ei meer som fordum samles glad&rapo;</l>
+<lb/><l>Ei meer i Eendragt nyde Fredens Goder?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Hvad Fremtidsdækket gjemmer, ligger end</l>
+<lb/><l>I Dunkelhed, &dash; men snart vil Sløret briste; &dash;</l>
+<lb/><l>Hvad om da Troløsheden mod vor Ven,</l>
+<lb/><l>Mod Danmark var som Folkedaad vor sidste!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Ha, hvad skal ildne os i sidste Strid,</l>
+<lb/><l>Hvor skulle vi vel Mod og Kræfter hente</l>
+<lb/><l>Naar Folkets Hæder ligger i sin Grav?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>O, vee os da at vi ei iled did, &dash;</l>
+<lb/><l>Hvor varme Broderhjerter for os brændte</l>
+<lb/><l>Trods Norges Kulde trods dets Fjeld og Hav!</l></HIS:hisLg>
+<pb n="47"/>
+<lb/><fw type="page" place="top-right" hand="h1">47</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Du, Oskar! var alt længe Nordens Haab,</l>
+<lb/><l>Mod dig vi tillidsfulde Blikke sendte.</l>
+<lb/><l>Vær ikke døv for tre Nationers Raab,</l>
+<lb/><l>Som fra din Læbe Kongeordet vente!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Dit Løfte, Oskar! er en hellig Gjeld,</l>
+<lb/><l>Ved dig kan Danmarks Redning endnu
+<lb/>vindes,</l>
+<lb/><l>&dash; Led du os, bolde Drot! til Nordens Held,</l>
+<lb/><l>Een Vei er kun hvorpaa det end kan findes.</l></HIS:hisLg><pb ed="HU" n="69"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Hvi kalder du ei Folkets Mænd til Raad,</l>
+<lb/><l>Dig, Konge! følge de saasnart du kalder,</l>
+<lb/><l>Thi Fortidsfunken gløder end i Nor!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>End er det Tid, &dash; end kan ved hurtig Daad</l>
+<lb/><l>Det skjønne Danmark reddes før det falder</l>
+<lb/><l>Med skuffet Tillid til et &dash; Kongeord! &dash;</l></HIS:hisLg>
+<pb n="48"/>
+<lb/><fw type="page" place="top-left" hand="h1">48</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Byd Folket vaagne, byd det følge dig</l>
+<lb/><l>Førend dets Aand i Sløvhedslænker bindes</l>
+<lb/><l>Led det paa Ærens og paa Pligtens Vei</l>
+<lb/><l>Før Alt er tabt for aldrig meer at
+<lb/>vindes.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Da knæle taksomt for din Thrones
+<lb/>Fod</l>
+<lb/><l>To Broderfolk som du til Kampen
+<lb/>vakte,</l>
+<lb/><l>Og Nordens Hæder, Danmarks skaante
+<lb/>Blod</l>
+<lb/><l>Er Lønnen for den Hjælp du Dansken
+<lb/>bragte.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Da, Konge! spreder du i nyfødt Glands</l>
+<lb/><l>En Oldtidshæder over Nordens Riger</l>
+<lb/><l>Og Folket raaber jublende dit Navn;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Mens Brødre synke glad i Broderfavn</l>
+<lb/><l>Og smykke Dobbeltkronen med en
+<lb/>Krands</l>
+<lb/><l>Af Kjærlighed og Tro som aldrig svi&typHyp;
+<lb/>ger.</l></HIS:hisLg>
+<pb n="49"/>
+<lb/><fw type="page" place="top-right" hand="h1">49</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Men skuffes Haabet, var det kun Bedrag, &dash;</l>
+<lb/><l>Skal Danmark lades uden Hjælp
+<lb/>i Nøden,</l>
+<lb/><l>Forraader Nor og Svea Nordens Sag,</l>
+<lb/><l>Mens mangen Dansk for den fandt
+<lb/>Heltedøden;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Da hør en Normands Ord I Danske
+<lb/>Mænd:</l>
+<lb/><l>Lad ei uskyldig hele Folket lide,</l>
+<lb/><l>Viid, mangen af os gjorded glad sin
+<lb/>Lænd</l>
+<lb/><l>Med Sværdet forat kjempe ved jers Side.</l></HIS:hisLg><pb ed="HU" n="70"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Blandt Norges Fjelde bløder mangen
+<lb/>Barm,</l>
+<lb/><l>Saamanget Hjerte der for eder luer</l>
+<lb/><l>Og aldrig, aldrig Broderflammen
+<lb/>døer.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Kun Usselheden Hadets Frø udstrøer</l>
+<lb/><l>Og vækker Dumheds taabelige Harm,</l>
+<lb/><l>Mens den med indbildt Fare Folket
+<lb/>truer!</l></HIS:hisLg>
+<pb n="50"/>
+<lb/><fw type="page" place="top-left" hand="h1">50</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Endnu engang, &dash; I Norges ædle Sønner,</l>
+<lb/><l>I kjække Svenske Brødre! Vaagner dog!</l>
+<lb/><l>Hør endnu Kampens Larm fra Dan&typHyp;
+<lb/>mark drønner</l>
+<lb/><l>Snart vendes Bladet om i Skjæbnens
+<lb/>Bog.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Husk Slesvig var fra længstforsvundne
+<lb/>Dage</l>
+<lb/><l>Af Nordens Kjæmpeég en fager Green,</l>
+<lb/><l>&dash; Snart staar maaskee af Danmark
+<lb/>kun tilbage</l>
+<lb/><l>Dets Hæder som en Fortids Bautasteen.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Husk Efterverdnen dømme vil vor Færd,</l>
+<lb/><l>Lad os ei Hjertets høie Bue forglemme</l>
+<lb/><l>Ei sprænge Nordens skjønne Broder&typHyp;
+<lb/>baand;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Thi virker kjækt ved Ord, ved Skrift ved
+<lb/>Sværd,</l>
+<lb/><l>Lyd Ærens, Pligtens og Fornuftens Stemme</l>
+<lb/><l>Ræk Broderfolket kjærlig Broderhaand!</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+</div>
+
+<pb n="51"/>
+<lb/><fw type="page" place="top-right" hand="h1">51</fw>
+<div type="collectionPart">
+<lb/><head type="collectionPart">Digte fra
+<lb/>1850.</head>
+<lb/><figure type="bar"/>
+<div type="poem" xml:id="BlaDigtTilNorgesSkjalde">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">18</HIS:hisAdd> Til Norges Skjalde.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Hvi sværme I, Skjalde! for Fortidens Fjerne,</l>
+<lb/><l>For skrinlagte Old med de smuldrende Minder, &dash;</l>
+<lb/><l>Et Billed saa mat som den Lysning der rinder</l>
+<lb/><l>I dæmrende Nat fra en skysløret Stjerne? &dash;</l><pb ed="HU" n="71"/>
+<lb/><l>&dash; Er ikke den Gnist som I eie da kun</l>
+<lb/><l>En Gave jer skjænket til Nytte for Folket,</l>
+<lb/><l>Der kræver af Skjaldens begeistrede Mund</l>
+<lb/><l>Sin Smærte, sin Lyst og sin Længsel fortolket.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>I sang jo saatit om &lquo;de kneisende Fjelde&rquo;,</l>
+<lb/><l>Hvor Granskoven voxer og Jøklen har hjemme,</l>
+<lb/><l>Men Syner og Drømme som storme med Vælde</l>
+<lb/><l>I Brødrenes Hjerter, &dash; dem kunde I glemme!</l>
+<lb/><l>Hvi lytte I ei til den Brusning, som rigt</l>
+<pb n="52"/>
+<lb/><fw type="page" place="top-left" hand="h1">52</fw>
+<lb/><l>Fra Sjælene bæver før stille det vorder?</l>
+<lb/><l>Hvi flette I Synerne ei til et Digt,</l>
+<lb/><l>Hvi forme I Tonerne ei til Accorder?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>O, fagre Gestalter i Nuet jo vinke, &dash;</l>
+<lb/><l>Fra Dalen, fra Fjeldet, fra Vinter og Sommer.</l>
+<lb/><l>Ha, see I ei Skatten saa glimrende blinke,</l>
+<lb/><l>&dash; En Folkelivsdigtning med deilige Blommer!</l>
+<lb/><l>De luftige Billeder kræve et Liv</l>
+<lb/><l>I skildrende Kvæder, Tilværelsens Panter,</l>
+<lb/><l>De savne kun Skjaldens beaandende: Bliv!</l>
+<lb/><l>For herligt at klædes i Kvadets Gevandter!</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="53"/>
+<lb/><fw type="page" place="top-right" hand="h1">53</fw>
+<div type="poem" xml:id="BlaDigtBalminder">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">19.</HIS:hisAdd> Balminder,</head>
+<lb/><head type="sub">Et Livsfragment
+<lb/>i
+<lb/>Poesi og Prosa.</head>
+<lb/><figure type="bar"/>
+<HIS:hisLg versetype="rapsodisk Wergelandstroké">
+<HIS:hisLg type="section">
+<lb/><head>Prolog.</head>
+<lb/><salute>Til Stella!</salute>
+<lb/><figure type="bar"/>
+<lb/><l>For din Fod jeg lægger ned</l>
+<lb/><l>En Bouket af friske Blommer,</l>
+<lb/><l>Skudte frem i sidste Sommer</l>
+<lb/><l>Ifra Mindets Urtebeed;</l><pb ed="HU" n="72"/>
+<lb/><l rend="indent2">Ei du finder</l>
+<lb/><l rend="indent2">Der Kjærminder,</l>
+<lb/><l rend="indent2">Centifoler</l>
+<lb/><l rend="indent2">Og Fioler,</l>
+<lb/><l>Ei den rige Yppighed,</l>
+<lb/><l>Som med Foraarssolen kommer.</l>
+<lb/><l>&dash; Stella! Blomsterne jeg gav</l>
+<lb/><l>Er kun <HIS:hisDel rend="overwritten">V</HIS:hisDel>veemodsfulde<note resp="editor">Usikker rekkefølge på endringen.</note> Kvaster</l>
+<lb/><l>Af en bleg, en høstlig Aster,</l>
+<lb/><l>Skudt iveiret fra en Grav! &dash;</l>
+<lb/><figure type="bar"/>
+</HIS:hisLg>
+<pb n="54"/>
+<lb/><fw type="page" place="top-left" hand="h1"><HIS:hisDel rend="erased"><gap/></HIS:hisDel>5<HIS:hisDel rend="overwritten">6</HIS:hisDel>4</fw>
+<HIS:hisLg type="section">
+<lb/><head>1.</head>
+<lb/><figure type="bar"/>
+<lb/><l>Som en Trøster gjennem Livet</l>
+<lb/><l>Er os Mindets Engel givet;</l>
+<lb/><l>Fra din Barndoms fagre Vaar</l>
+<lb/><l>Gaaer han venlig ved din Side</l>
+<lb/><l>Nynner Fortidssange blide</l>
+<lb/><l rend="indent2">Fletter sk<HIS:hisDel rend="overwritten">ø</HIS:hisDel>jønne</l>
+<lb/><l rend="indent2">Eviggrønne</l>
+<lb/><l>Mindekrandse i dit Haar.</l>
+<lb/><l rend="line">Svinder Vaaren, har du dog</l>
+<lb/><l>En Erindringsblomst tilbage, &dash;</l>
+<lb/><l>Ja hvert Blad i Livets Bog</l>
+<lb/><l>Stander fuldt af Minder fage</l>
+<lb/><l>Og naar henad Tidens Strøm</l>
+<lb/><l>Du engang dem gjennemblader</l>
+<lb/><l>Staae Erindringernes Rader</l>
+<lb/><l>Som Gestalter fra en Drøm,</l>
+<lb/><l rend="indent2">Velbekjendte,</l>
+<lb/><l rend="indent2">Himmelsendte,</l>
+<lb/><l>Retsom Vaarens vakkre Blommer,</l>
+<lb/><l>Naar dit Hjertes Vinter kommer. &dash;</l>
+<pb n="55"/>
+<lb/><fw type="page" place="top-right" hand="h1">55</fw><pb ed="HU" n="73"/>
+<lb/><l>Ja fra hvert dit Livs Moment</l>
+<lb/><l>Dirrer blidt en Efterklang</l>
+<lb/><l>Stundom kort og stundom længe</l>
+<lb/><l>Gjennem Mindeharpens Strænge;</l>
+<lb/><l>Dog blandt alle Fortidsdage,</l>
+<lb/><l>Om du kalder dem tilbage,</l>
+<lb/><l>Ingen Stund saa rig paa Minder,</l>
+<lb/><l>Som et muntert Bal du finder!</l>
+<lb/><l rend="line">Maaskee klinger det lidt sært,</l>
+<lb/><l>Dertil og lidt upoetisk, &dash;</l>
+<lb/><l>For et Øre, fiint æsthetisk</l>
+<lb/><l>Var det maaskee mere kjært</l>
+<lb/><l>I en Balnats Sted at høre</l>
+<lb/><l>Noget &lquo;Skjønnere&rquo; og &lquo;Større&rquo;,</l>
+<lb/><l>Retsom om den lyse Sal,</l>
+<lb/><l>Festligt smykket til et Bal,</l>
+<lb/><l>Hvor en yndig Flok Koketter</l>
+<lb/><l>Slynger Blikkets Brandraketter</l>
+<lb/><l>Mens Musiken stemmer i, &dash;</l>
+<lb/><l>Var foruden Poesi! &dash; &dash; &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l>
+<pb n="56"/>
+<lb/><fw type="page" place="top-left" hand="h1">5<HIS:hisDel rend="overwritten">5</HIS:hisDel>6</fw>
+<lb/><l rend="line">Dog, det er ei slige Minder,</l>
+<lb/><l>Som for Sjælens Blik oprinder,</l>
+<lb/><l>Der er Alvor og deri, &dash;</l>
+<lb/><l>Ikke Munterhed allene</l>
+<lb/><l>Skjænker Ballets glade Scene</l>
+<lb/><l>Alt dets skjønne Trylleri! &dash;</l>
+<lb/><l>Mens hvert Aasyn aander Glæde,</l>
+<lb/><l>Mangenen i Feberhede,</l>
+<lb/><l>Under Lidenskabers Strid</l>
+<lb/><l>Tumler sig i Valsens vilde</l>
+<lb/><l>Hvirvel for sin Kval at stille</l><pb ed="HU" n="74"/>
+<lb/><l>Om end kun en stakket Tid;</l>
+<lb/><l>Manget Bryst, &dash; dog nei, jeg vil</l>
+<lb/><l>Ikke længer koldt udmale</l>
+<lb/><l>Dette Smærtens vilde Spil</l>
+<lb/><l>I de frydopfyldte Sale, &dash;</l>
+<lb/><l>Gjør blot selv en Valfart did,</l>
+<lb/><l>See dig om i Sceneriet,</l>
+<lb/><l>Som er Terpsichore viet! &dash; &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l>
+<lb/><l rend="line">Hvilket Lyshav bølger frem</l>
+<lb/><l>Fra de lange Vinduesrækker</l>
+<pb n="57"/>
+<lb/><fw type="page" place="top-right" hand="h1">57</fw>
+<lb/><l>Med en Glands som Mørket gjækker</l>
+<lb/><l>Hist paa Gaden under dem, &dash;</l>
+<lb/><l>Der hvor mangen Uindbuden,</l>
+<lb/><l>Lænet op imod Portalen,</l>
+<lb/><l>Stirrer længselfuldt mod Salen</l>
+<lb/><l>Og dens Herlighed bag Ruden. &dash; &dash;</l>
+<lb/><l>Ha, hvad Billed dog paa Livet, &dash;</l>
+<lb/><l>Eet af begge er <HIS:hisDel rend="overwritten">og</HIS:hisDel>dig givet,</l>
+<lb/><l>&dash; Enten gaaer du som en Gjæst</l>
+<lb/><l>Inviteert til Livets Fest,</l>
+<lb/><l>Eller og, som en Tilskuer</l>
+<lb/><l>Gjennemgyst af Nattens Vind,</l>
+<lb/><l>Stirrer du fra Gaden ind</l>
+<lb/><l>Mod de straalende Vinduer! &dash; &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l>
+<lb/><l rend="line">Men derinde hvilken Vrimmel!</l>
+<lb/><l>Stjerner lig fra Vinterhimmel,</l>
+<lb/><l>Eller klarest som Krystal</l>
+<lb/><l>Funkle Kjærter uden Tal,</l>
+<lb/><l>Medens i en broget Blanden</l><pb ed="HU" n="75"/>
+<lb/><l>Grupper op og Grupper ned</l>
+<lb/><l>Svævende med lette Fjed</l>
+<lb/><l>Smile høfligt til hinanden.</l>
+<pb n="58"/>
+<lb/><fw type="page" place="top-left" hand="h1">58</fw>
+<lb/><l rend="line">See, hvorlangt dit Blik end naaer,</l>
+<lb/><l>Lutter skjønt har du for Øie;</l>
+<lb/><l>Dog min Ven, &dash; see ei for nøie</l>
+<lb/><l>Thi med Blomsterpynt i Haar</l>
+<lb/><l>Og i disse Dragter hvide</l>
+<lb/><l>Selv en Mø paa treti Aar</l>
+<lb/><l>Blier paa Ballet en Sylfide! &dash;</l>
+<lb/><l><HIS:hisDel rend="overwritten"><unclear>Hvide</unclear></HIS:hisDel>Roser, Roser overalt! &dash; &dash;</l>
+<lb/><l>Roser selv paa Kinden malt!</l>
+<lb/><l rend="indent2">Hvide Arme,</l>
+<lb/><l rend="indent2">Lilliebarme</l>
+<HIS:hisAdd place="inBetweenLines"><lb/><l>Med sit Alabasterskjær</l></HIS:hisAdd>
+<lb/><l>Hist med Kniplingspragt forhøiet;</l>
+<lb/><l>Her et rødligt Ditto er</l>
+<lb/><l>Med Zirater skjult for Øiet</l>
+<lb/><l>See den Lille der histhenne</l>
+<lb/><l>Vover knapt et Blik at sende</l>
+<lb/><l>Mod den Sværm af unge Herrer,</l>
+<lb/><l>Som Chapaubas i Arm,</l>
+<lb/><l>Holder hver sin Dame varm, &dash;</l>
+<lb/><l>Dog giv Tid, &dash; hun snarlig lærer,</l>
+<lb/><l>&dash; Pigebarnet blev jo først</l>
+<lb/><l>Confirmeert i sidste Høst! &dash; &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l>
+<pb n="59"/>
+<lb/><fw type="page" place="top-right" hand="h1">59</fw>
+<lb/><l rend="line">Ha hvad rigt og broget Liv</l>
+<lb/><l>Dog den lyse Balsal rummer!</l>
+<lb/><l>Liig et Syn fra Feberslummer</l>
+<lb/><l>Naar dit Hjertes Drømmeviv</l><pb ed="HU" n="76"/>
+<lb/><l>I din vilde Phantasie</l>
+<lb/><l>Svæver ætherlet forbi. &dash; &dash; &dash; &dash;</l>
+<lb/><l>O, saa vil jeg og derind,</l>
+<lb/><l>Hvor de larme, hvor de bruse</l>
+<lb/><l>Vildt og voldsomt som mit Sind,</l>
+<lb/><l>Naar dets Smærtesstorme suse; &dash;</l>
+<lb/><l>&dash; Ind i Trængslen forat finde</l>
+<lb/><l>Flygtig Glemsel eller &dash; hende! &dash;</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</l>
+</HIS:hisLg>
+</HIS:hisLg>
+<div type="section">
+<lb/><head>2.</head>
+<lb/><head>En Dagbogs sidste Blade.</head>
+<lb/><figure type="bar"/>
+<lb/><p type="dashes">&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p>&dash; Taabelige Drømmer! Hvad
+<lb/>vil du her blandt disse larmen&typHyp;
+<lb/>de Klynger? Er det Sk<HIS:hisDel rend="overwritten">r</HIS:hisDel>jæbnens
+<lb/>Ironi som har bragt dig til at
+<lb/>søge dit Hjertes Ideal i en
+<pb n="60"/>
+<lb/><fw type="page" place="top-left" hand="h1">60</fw>
+<lb/>Balsal? &dash; &dash; &dash; &dash;</p>
+<lb/><p>Og vilde det virkelig glæde dig at
+<lb/>finde det her? Vilde det være dig kjært
+<lb/>om dit Hjertes Ideal incarneredes
+<lb/>i Balsalens Idealer? &dash;</p>
+<lb/><p>Fornuftigt eller ufornuftigt, lige&typHyp;
+<lb/>meget; &dash; jeg maa! Hvad formaaer Villie
+<lb/>og Fornuft mod den indre, mægtige
+<lb/>dræbende og dog saliggjørende Læng&typHyp;
+<lb/>sel? &dash;</p>
+<lb/><p>&lquo;Jeg maa&rquo;! &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p>Husk disse Ord du Følesløse! der koldt
+<lb/>fordømmer Lidenskabernes Storme
+<lb/>i Menneskesjælen, &dash; husk dem og
+<lb/>glem ei at du i dem læser Ret&typHyp;
+<lb/>færdiggjørelsen for saamangen Til&typHyp;
+<lb/>værelse, forvildende og &dash; tilintet&typHyp;
+<lb/>gjørende! &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;
+<lb/>&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p><pb ed="HU" n="77"/>
+<lb/><p>Hvad bevæger sig i alle disse glade
+<lb/>smilende Skikkelser? &dash; De ere kom&typHyp;
+<lb/>ne hid med Forventning om Glæde
+<pb n="61"/>
+<lb/><fw type="page" place="top-right" hand="h1">61</fw>
+<lb/>og Tilfredsstillelse; &dash; have de fundet
+<lb/>hvad de søgte, eller gjengiver Bal&typHyp;
+<lb/>lets Scene Ideen til Menneske&typHyp;
+<lb/>livets store Drama? &dash;</p>
+<lb/><p>&dash; Og hvad er denne Idee? &dash;</p>
+<lb/><p><emph>Ahne</emph>, <emph>haabe</emph> og <emph>skuffes</emph>! &dash;</p>
+<lb/><p>&dash; See i disse tre Ord er Menne&typHyp;
+<lb/>skets Liv fortalt! &dash; &dash; &dash; &dash; &dash; &dash;
+<lb/>&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p>&dash; &dash; Hvad var det! &dash; Et Blik
+<lb/>mødte mig imellem Trængselen, &dash;
+<lb/>et Blik, fremmed og dog saa vel
+<lb/>bekjendt! &dash; &dash;</p>
+<lb/><p>Nei, det er intet Bedrag, &dash; jeg har
+<lb/>seet hende, &dash; jeg har fundet mit
+<lb/>Hjertes Ideal! &dash; &dash; Jeg tør ikke
+<lb/>dvæle ved disse Erindringer for&typHyp;
+<lb/>at de ikke som luftige Skygge&typHyp;
+<lb/>billeder skulle flygte bort og
+<lb/>forsvinde! &dash; &dash; &dash;</p>
+<pb n="62"/>
+<lb/><fw type="page" place="top-left" hand="h1">62</fw>
+<lb/><p>&dash; &dash; Jeg har slynget min Arm
+<lb/>om hende, jeg har stirret ind
+<lb/>i de klare Øine; &dash; ja det er hende,
+<lb/>som jeg kjender fra mine vaagne
+<lb/>Drømme; &dash; o, dersom blot ikke ogsaa det&typHyp;
+<lb/>te er en Drøm! &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p type="dashes"><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> &dash; &dash; &dash; &dash;
+<lb/>&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p>Hvad er et Menneskelivs Kamp
+<lb/>og Skuffelse mod en halv Time som
+<lb/>denne, &dash; &dash; o, herligt at gaa tilgrunde,
+<lb/>at tilintetgjøres i et saadant Øieblik &dash;</p>
+<lb/><p>Skjæbne! Tag dette Overmaal
+<lb/>af Lykke fra mig, &dash; lad ikke denne
+<lb/>Stund vanhelliges ved at forlænges; &dash; &dash;
+<lb/>jeg har fundet hende, &dash; hvad vil jeg
+<lb/>da mere? &dash; &dash; &dash; &dash;</p><pb ed="HU" n="78"/>
+<lb/><p>Velgjørende Skjæbne! du har
+<lb/>hørt mig! &dash; Mit Livs Treactsdrama er
+<lb/>spillet tilende; gjennem to lange Acter
+<lb/>har jeg <emph>ahnet</emph> og <emph>haabet</emph>, &dash; nu er ogsaa
+<pb n="63"/>
+<lb/><fw type="page" place="top-right" hand="h1">63</fw>
+<lb/>tredie Act forbi; &dash; herligt! hvilken
+<lb/>Idee, hvilken Rollebesætning! &dash; &dash; &dash;</p>
+<lb/><p>Og &lquo;Intriguen&rquo; i Stykket? Er
+<lb/>den ikke den simpleste, den forstaae&typHyp;
+<lb/>ligste man kan ønske sig? &dash; &dash;</p>
+<lb/><p>En Herre nærmer sig; hun lægger
+<lb/>sin Arm i hans, &dash; de gaa. &dash;</p>
+<lb/><p>&lquo;Hvem er denne Herre&rquo;!</p>
+<lb/><p>&dash; &lquo;Det er hendes Forlovede; &dash; hun elsker
+<lb/>ham med Lidenskab&rquo;! &dash; &dash; &dash; &dash; &dash; &dash;
+<lb/>&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p>Ballet er tilende. &dash; O, In&typHyp;
+<lb/>gen er lykkelig som jeg i dette Øie&typHyp;
+<lb/>blik; jeg er fortumlet af Salighed, &dash;
+<lb/>enhver Higen maa være opfyldt; thi
+<lb/>jeg haaber Intet mere. &dash; Jeg vil
+<lb/>hjem; jeg vil fuldføre det sidste Blad
+<lb/>i min Dagbog med Erindringer fra
+<lb/>Ballet. &dash; De ere mit Livs Morgenrøde! &dash;
+<lb/>&dash; &dash; Mit Livs Morgenrøde paa min
+<lb/>Dagbogs sidste Blad! &dash; Forunderligt; &dash;
+<pb n="64"/>
+<lb/><fw type="page" place="top-left" hand="h1">64</fw>
+<lb/>&dash; Man taler om en Evighed, &dash; &dash; skul&typHyp;
+<lb/>de der følge en Evighedsdag paa den&typHyp;
+<lb/>ne Morgenrøde? &dash; &dash; &dash; &dash; &dash; &dash;
+<lb/>&dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p>Ja, jeg vil hjem, &dash; jeg vil endnu
+<lb/>engang gjennemleve mit Liv, min
+<lb/>Kjærlighed, &dash; og saa ud i den mørke
+<lb/>Nat at drømme og &dash; &dash; &dash; &dash; &dash;</p>
+<lb/><p type="dashes"><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> &dash; &dash; &dash; &dash;</p>
+<lb/><figure type="bar"/>
+</div>
+</div>
+
+<div type="poem" xml:id="BlaDigtMoellergutten"><pb ed="HU" n="79"/>
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">20.</HIS:hisAdd> Møllergutten.</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Hvor Fossen suser i Sommernat</l>
+<lb/><l>Henover Elvebundens Stene,</l>
+<lb/><l>Mens Taagen glider ad Elv og Krat,</l>
+<lb/><l>Der sidder Møllergutten ene; &dash;</l>
+<lb/><l>Imellem Oreløvet titter ind</l>
+<lb/><l>En sneebleg Lysning udaf Maaneskin,</l>
+<lb/><l rend="indent2">Spredende der</l>
+<lb/><l rend="indent2">Venligt sit Skjær</l>
+<lb/><l>Henover Nattens tause Scene.</l></HIS:hisLg>
+<pb n="65"/>
+<lb/><fw type="page" place="top-right" hand="h1">65</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Det er saa sildig en Thorsdagskvel,</l>
+<lb/><l>Fra Fjeldet Hulderslotten klinger,</l>
+<lb/><l>Og Fossegrimmen i Strømmens Væld</l>
+<lb/><l>De gyldne Harpestrænge svinger, &dash;</l>
+<lb/><l>Og Møllergutten lytter til dens Spil,</l>
+<lb/><l>Tys, hør! da bæver, som en Gjenlyd mild,</l>
+<lb/><l rend="indent2">Hulderens Sang</l>
+<lb/><l rend="indent2">Fosharpens Klang,</l>
+<lb/><l>Let baaren hen paa Nattens Vinger.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Og det er Thorgjerd som lokker fram</l>
+<lb/><l>Sin Feles underlige Kvæde,</l>
+<lb/><l>For han har offret det sorte Lam</l>
+<lb/><l>Til Fossegrimmen hist dernede,</l>
+<lb/><l>Og derfor har han ogsaa Spillet lært,</l>
+<lb/><l>Og derfor lyder fra hans Bue sært</l>
+<lb/><l rend="indent2">Skovtoppens Suus</l>
+<lb/><l rend="indent2">Fjeldbækkens Bruus</l>
+<lb/><l>Med Hulderlok og Lurens Kvæde!</l></HIS:hisLg>
+<pb n="66"/>
+<lb/><fw type="page" place="top-left" hand="h1">66</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Men Livet tykkes ham koldt og mat</l>
+<lb/><l>Og uden Gammen nu derhjemme</l><pb ed="HU" n="80"/>
+<lb/><l>Thi hvad han hørte og saa inat</l>
+<lb/><l>Det kan han aldrig mere glemme, &dash;</l>
+<lb/><l>Og derfor strømmer fra hans Strænge hvad</l>
+<lb/><l>Hans Længsel sang for ham, &dash; et sorgfuldt
+<lb/>Kvad;</l>
+<lb/><l rend="indent2">&dash; Tonernes Strøm</l>
+<lb/><l rend="indent2">Tolke den Drøm</l>
+<lb/><l>Midtsommernatten lod ham nemme! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<div type="poem" xml:id="BlaDigtDetErForbi">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">21</HIS:hisAdd> Det er forbi! &dash; <HIS:hisDel rend="erased"><unclear>(</unclear><gap/><unclear>)</unclear></HIS:hisDel></head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Slukt er Haabet! Ja, for evigt slukket</l>
+<lb/><l>I min Barm hvor nys det flammed&rapo; klart</l>
+<lb/><l>Trylleborgens Blomsterport er lukket, &dash;</l>
+<lb/><l>Hulde Drøm! hvi flygted du saasnart?</l>
+<lb/><l>Harpetoner gjennem Sjælen vifted,</l>
+<lb/><l>Dybt i Aandens Tempel var Sabbat;</l>
+<lb/><l>Ak, nu har jo Tonebølgen skiftet</l>
+<lb/><l>Med et Dødssuk gjennem Hjertets Nat! &dash;</l></HIS:hisLg>
+<pb n="67"/>
+<lb/><fw type="page" place="top-right" hand="h1">67</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Aandeborgen ligger i Ruiner</l>
+<lb/><l>Steen ved Steen paa Hjertets golde Grund;</l>
+<lb/><l>Men naar ind dens Herskerinde triner</l>
+<lb/><l>Reiser Hallen sig i Nattens Stund; &dash;</l>
+<lb/><l>Fra det Svundnes veemodsfulde Rige</l>
+<lb/><l>Rækker hun mig blidt den fyldte Kalk</l>
+<lb/><l>Og de blege Mindeskygger stige</l>
+<lb/><l>Ætherlet fra deres Catafalk. &dash; &dash; &dash; &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>O, saa vil jeg drømme blidt og vanke</l>
+<lb/><l>Gjennem Borgen i den tause Nat, &dash;</l>
+<lb/><l>Fromme Mindeblommer vil jeg sanke,</l>
+<lb/><l>Gjemme dem, som Hjertets bedste Skat;</l><pb ed="HU" n="81"/>
+<lb/><l>Kom da, kolde Nu! med al din Smærte,</l>
+<lb/><l>Læg dig vinterligt om Barmen kun, &dash;</l>
+<lb/><l>Vaarligt staaer et Tempel i mit Hjerte,</l>
+<lb/><l>Der har Mindet bygget sit Paulun! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<div type="poem" xml:id="BlaDigtLedigtLogis">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">22</HIS:hisAdd> Ledigt Logis. &dash;</head>
+<lb/><HIS:hisLg versetype="strofe"><l>Lille Pige! har du Lyst</l>
+<lb/><l>I en trofast Barm at flytte?</l>
+<pb n="68"/>
+<lb/><fw type="page" place="top-left" hand="h1">68</fw>
+<lb/><l>See, jeg har et luunt og lyst</l>
+<lb/><l>Kammer i mit Hjertes Hytte, &dash;</l>
+<lb/><l>Men jeg lever der saa trist</l>
+<lb/><l>Og saa eensomt, &dash; troer forvist,</l>
+<lb/><l>At der inden Stuens Vægge</l>
+<lb/><l>Findes Plads nok til os begge!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Vistnok titter indom Dør</l>
+<lb/><l>En passant saa mangen liden</l>
+<lb/><l>Pige, men Visiten gjør</l>
+<lb/><l>Stuen tommere kun siden;</l>
+<lb/><l>Har hun neiet til Farvel,</l>
+<lb/><l>Takket venligt for ikvel,</l>
+<lb/><l>Er hun glemt og dog &dash; Besøget</l>
+<lb/><l>Har min Kjedsomhed forøget.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Nei, det gaaer ei længer an,</l>
+<lb/><l>Det betragter jeg som givet!</l>
+<lb/><l>Har du Lyst, flyt ind paastand,</l>
+<lb/><l>Slut Contract med mig for Livet, &dash;</l>
+<lb/><l>Leien enes vi nok om,</l>
+<lb/><l>Kom blot, lille Pige! kom, &dash;</l>
+<lb/><l>Lad dog Solen, før den daler</l>
+<lb/><l>See os som Contubernaler! &dash;</l></HIS:hisLg>
+<pb n="69"/>
+<lb/><fw type="page" place="top-right" hand="h1">69</fw><pb ed="HU" n="82"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Stuen er vist ingen Sal</l>
+<lb/><l>Hvor et Selskabs Klynger larme,</l>
+<lb/><l>Den er simpel, sommersval,</l>
+<lb/><l>Savner dog ei Vintervarme; &dash;</l>
+<lb/><l>Hist paa Væggen er kuns et</l>
+<lb/><l>Billed, &dash; det er mit Portræt,</l>
+<lb/><l>Gaaer du med, en venlig liden</l>
+<lb/><l>Engel maler jeg ved Siden.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Da skal Stuen pudses om, &dash;</l>
+<lb/><l><HIS:hisDel rend="overwritten">Alt</HIS:hisDel>Der skal ryddes op derinde,</l>
+<lb/><l>Da vil jeg ei trist og tom</l>
+<lb/><l>Længer Hjertets Hybel finde;</l>
+<lb/><l>Alt skal smile søndagsligt,</l>
+<lb/><l>Livet glide som et Digt,</l>
+<lb/><l>Frede skal jeg om din Lykke</l>
+<lb/><l>Som mit Kammers bedste Smykke!</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="70"/>
+<lb/><fw type="page" place="top-left" hand="h1">70</fw>
+<div type="poem" xml:id="BlaDigtSkjaldenValhal">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">23</HIS:hisAdd> Skjalden i Valhal.</head>
+<lb/><figure type="bar"/>
+<lb/><head type="sub">(Ved Efterretningen om Oehlenschlägers
+<lb/>Død.)</head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Dødsharpen bæver!</l>
+<lb/><l rend="indent2">Luttret sig hæver</l>
+<lb/><l>Skjalden fra Jordrigets Dal,</l>
+<lb/><l rend="indent2">Men paa sin høie</l>
+<lb/><l rend="indent2">Himmelske Vandring</l>
+<lb/><l>Gjæster han Asernes Sal.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Skrider da Skjalden</l>
+<lb/><l rend="indent2">Høit over Bifrost</l>
+<lb/><l>Ind udi Gudernes Borg,</l>
+<lb/><l rend="indent2">Hilser ham Odin</l>
+<lb/><l rend="indent2">Glad ifra Lidskjalf, &dash;</l>
+<lb/><l>Glæden dog blandes med Sorg;</l></HIS:hisLg><pb ed="HU" n="83"/>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Thi nu har Nordens</l>
+<lb/><l rend="indent2">Hellige Guder</l>
+<lb/><l>Mistet sin Talsmand paa Jord,</l>
+<pb n="71"/>
+<lb/><fw type="page" place="top-right" hand="h1">71</fw>
+<lb/><l rend="indent2">Nu er jo Baandet</l>
+<lb/><l rend="indent2">Brustet, som knytted</l>
+<lb/><l>Aser til Folket i Nord!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Sælsomt beklemte,</l>
+<lb/><l rend="indent2">Alvorsfuldt stemte,</l>
+<lb/><l>Glemmende Idavolds Lyst,</l>
+<lb/><l rend="indent2">Sidde i lange,</l>
+<lb/><l rend="indent2">Blinkende Rader</l>
+<lb/><l>Valfaders Helte saa tyst.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Griber <HIS:hisDel rend="overwritten"><unclear>n</unclear></HIS:hisDel>da Brage</l>
+<lb/><l rend="indent2">Harpen med fage</l>
+<lb/><l>Herlige Sølvtoners Fald,</l>
+<lb/><l rend="indent2">Hermod med Glæde</l>
+<lb/><l rend="indent2">Fører til Sæde</l>
+<lb/><l>Asernes mægtige Skjald.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Bænket tilborde</l>
+<lb/><l rend="indent2">Tager tilorde</l>
+<lb/><l>Skjalden med klingende Røst,</l>
+<pb n="72"/>
+<lb/><fw type="page" place="top-left" hand="h1">72</fw>
+<lb/><l rend="indent2">Hilser Alfader,</l>
+<lb/><l rend="indent2">Frigga og Balder</l>
+<lb/><l>Guders og Menneskers Trøst.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Høit udi Valhals</l>
+<lb/><l rend="indent2">Hvælvede Haller</l>
+<lb/><l>Trine Einheriers Hær, &dash;</l>
+<lb/><l rend="indent2">Splintrede Skjolde</l>
+<lb/><l rend="indent2">Dække de Bolde,</l>
+<lb/><l>Stærkodder kjender han der. &dash;</l></HIS:hisLg><pb ed="HU" n="84"/>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Hilser da Helten</l>
+<lb/><l rend="indent2">Skjalden den Høie,</l>
+<lb/><l>Spørger om Dana og Nor,</l>
+<lb/><l rend="indent2">Spørger om Ingilds,</l>
+<lb/><l rend="indent2">Olafs og Helgas</l>
+<lb/><l>Elskede Fædrenejord. &dash;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Hakon hiin Snilde</l>
+<lb/><l rend="indent2">Nærmer sig stille</l>
+<lb/><l>Barden, hvis Stemme saa stærk</l>
+<pb n="73"/>
+<lb/><fw type="page" place="top-right" hand="h1">73</fw>
+<lb/><l rend="indent2">Tolked for Nordens</l>
+<lb/><l rend="indent2">Lyttende Sønner</l>
+<lb/><l>Vældigt hans Stordaad og Værk.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Aabnes da Borgens</l>
+<lb/><l rend="indent2">Buede Porte,</l>
+<lb/><l>Nærme sig hellige To;</l>
+<lb/><l rend="indent2">Freia hiin Fagres</l>
+<lb/><l rend="indent2">Lysende Lunde</l>
+<lb/><l>Er deres fredede Bo.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Taksomt for Skjalden</l>
+<lb/><l rend="indent2">Ynglingen knæler, &dash;</l>
+<lb/><l>Møen, vidunderlig skjøn,</l>
+<lb/><l rend="indent2">Rækker sin høie</l>
+<lb/><l rend="indent2">Herlige Digter</l>
+<lb/><l>Evighedskrandsen til Løn.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Sna<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>rlig til Folkvang,</l>
+<lb/><l rend="indent2">Kjærligheds Bolig</l>
+<lb/><l>Ile de Elskende hen; &dash;</l>
+<pb n="74"/>
+<lb/><fw type="page" place="top-left" hand="h1">74</fw>
+<lb/><l rend="indent2">Freia dem vente, &dash;</l>
+<lb/><l rend="indent2">Skjalden dog kjendte</l>
+<lb/><l>Hagbarth og Signe igjen!</l></HIS:hisLg><pb ed="HU" n="85"/>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Rækker da Urda</l>
+<lb/><l rend="indent2">Skjalden sit Bæger</l>
+<lb/><l>Fyldt med den kvægende Drik, &dash;</l>
+<lb/><l rend="indent2">Værandi følger</l>
+<lb/><l rend="indent2">Trofast sin Søster,</l>
+<lb/><l>Takker med veemodsfuldt Blik.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Dunkel men deilig</l>
+<lb/><l rend="indent2">Kommer da Skulda,</l>
+<lb/><l>Peger mod Fremtidens Blaa:</l>
+<lb/><l rend="indent2">&lquo;Sanger! dit Minde</l>
+<lb/><l rend="indent2">Evigt skal leve,</l>
+<lb/><l>Aldrig dit Kvad skal forgaa!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent2">Snarlig du sidder</l>
+<lb/><l rend="indent2">Salig blandt Aander</l>
+<lb/><l>Hist i Forklarelsens Hjem,</l>
+<pb n="75"/>
+<lb/><fw type="page" place="top-right" hand="h1">7<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>5</fw>
+<lb/><l rend="indent2">Vexle da Nordens</l>
+<lb/><l rend="indent2">Mægtige Slægter,</l>
+<lb/><l>Aldrig du glemmes blandt dem!&rquo;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<div type="poem" xml:id="BlaDigtINatten">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">24</HIS:hisAdd> I Natten.</head>
+<lb/><HIS:hisLg versetype="strofe"><l>Slumrer bag Nattens Dække</l>
+<lb/><l>Naturen i Glemselsdrøm,</l>
+<lb/><l>Da ruster Sjælen sin Snekke</l>
+<lb/><l>Til Fart paa Erindringens Strøm; &dash;</l>
+<lb/><l>Den bæres veemodigt &dash; tyst</l>
+<lb/><l>Langsmed den blomstrende Kyst</l>
+<lb/><l>Did hvor den sukkende Vove</l>
+<lb/><l>Dølges af skyggende Skove.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>See, da stiger en Trøster</l>
+<lb/><l>Venligt i Snekken ombord, &dash;</l>
+<lb/><l>Da bæver fra kjendte Røster</l>
+<lb/><l>En smeltende Molaccord;</l><pb ed="HU" n="86"/>
+<lb/><l>Med lindrende Harmoni</l>
+<lb/><l>Den vifter min Sjæl forbi, &dash;</l>
+<lb/><l>Saa hilse fortroeligt de fage</l>
+<lb/><l>Syner med drømmende Klage!</l></HIS:hisLg>
+<pb n="76"/>
+<lb/><fw type="page" place="top-left" hand="h1">7<HIS:hisDel rend="overwritten"><unclear>5</unclear></HIS:hisDel>6</fw>
+<lb/><HIS:hisLg versetype="strofe"><l>Rør dog ei Mindets blanke</l>
+<lb/><l>Vove med Livets Pust, &dash;</l>
+<lb/><l>Sikkert en Nuets Tanke</l>
+<lb/><l>Vilde min Verden knuust!</l>
+<lb/><l>Erindringens Natfiol</l>
+<lb/><l>Vil lukkes af Dagens Sol, &dash;</l>
+<lb/><l>Ak, den udfoldes saa gjerne</l>
+<lb/><l>Under den vinkende Stjerne!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Saa glid da, min Sjæl! paa lette</l>
+<lb/><l>Strømme mod Mindets Bred, &dash;</l>
+<lb/><l>Der kan du stille flette</l>
+<lb/><l>Blommer i Nattens Fred! &dash;</l>
+<lb/><l>Hvor herligt, i Drømmen igjen</l>
+<lb/><l>At favne hvert Minde som Ven;</l>
+<lb/><l>&dash; Ja herligt, sin Længsel at følge</l>
+<lb/><l>Henover Erindringens Bølge! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="77"/>
+<lb/><fw type="page" place="top-right" hand="h1">7<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>7</fw>
+<div type="poem" xml:id="BlaDigtMaaneskinsstemning">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">25</HIS:hisAdd> Maaneskinsstemning.</head>
+<lb/><figure type="bar"/>
+<lb/><head type="sub"><app type="alteration"><lem><HIS:hisAdd place="infralinear">(Leveret den 7<hi rend="raised">de</hi> April)</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="erased">(<gap/>.)</HIS:hisDel></HIS:hisRdg></app></head>
+<lb/><HIS:hisLg versetype="strofe"><l>Maanen skinner bleg og mat</l>
+<lb/><l>I den tause Vinternat, &dash;</l>
+<lb/><l>Kunde den kun blidt og længe</l>
+<lb/><l>Hjertets Nat igjennemtrænge!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Kunde den med Sølverskjær</l>
+<lb/><l>Lyse blidt og mildt som her,</l>
+<lb/><l>Skjænke stille Fred i Sindet,</l>
+<lb/><l>Lægge Glemsel over Mindet!</l></HIS:hisLg><pb ed="HU" n="87"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Maane! Tak<HIS:hisAdd place="inline">!</HIS:hisAdd> for denne Ro,</l>
+<lb/><l>Som har nu i Sjælen hjemme!</l>
+<lb/><l>Tak<HIS:hisAdd place="inline">!</HIS:hisAdd> for Øieblikkets Lindring!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>O, men skulde Freden boe</l>
+<lb/><l><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Varigt der, &dash; da maa jeg glemme</l>
+<lb/><l>Hjertets kjæreste Erindring! &dash;</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+
+<pb n="78"/>
+<lb/><fw type="page" place="top-left" hand="h1">78</fw>
+<div type="poem" xml:id="BlaDigtMaaneskinsvandEftBal">
+<lb/><head type="main"><HIS:hisAdd place="inline" hand="h2">26.</HIS:hisAdd> Maaneskinsvandring
+<lb/>efter
+<lb/>et Bal.</head>
+<lb/><figure type="bar"/>
+<lb/><head type="sub">(Skrevet paa Opfordring af <HIS:hisDel rend="overstrike">Sophie Hol<gap/></HIS:hisDel>
+<lb/>og
+<lb/><HIS:hisDel rend="overstrike">Cathrine Martini</HIS:hisDel>.)<note resp="editor">De overstrøkne navnene er gjenopprettet med ikke-egenhendig blyant over.</note></head>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisLg versetype="strofe"><l>Tys, hvor stille! &dash; hist fra Salen lyder Glæden ikke
+<lb/>længer,</l>
+<lb/><l>Ingen Stemme, ingen Tone gjennem Nattens Stille
+<lb/>trænger</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Langt i Vester kaster Maanen snart det sidste
+<lb/>Blik henover</l>
+<lb/><l>Jorden, som i Glemselsdrømme under Sneens
+<lb/>Lillier sover.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Endt er Ballet; men i Tanken seer jeg end iblandt
+<lb/>de hvide</l>
+<lb/><l>Skikkelser, som svæve gjennem Rækkerne, en
+<lb/>let Sylphide!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l>Snart er Maanen dalet, da skal Søvnens Arme
+<lb/>mig omfatte,</l>
+<lb/><l>Da kan Sjælen glide frit paa Drømmens Hav
+<lb/>med Mindets Skatte!</l></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+</div>
+</body>
+<back>
+<pb/>
+<lb/><fw type="page" place="top-right" hand="h1">79</fw>
+<pb/>
+<lb/><fw type="page" place="top-left" hand="h1">80</fw>
+<pb/>
+<lb/><fw type="page" place="top-right" hand="h1"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>81</fw>
+<pb/>
+<lb/><fw type="page" place="top-left" hand="h1">8<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>2</fw>
+<pb/>
+<lb/><fw type="page" place="top-right" hand="h1">8<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel><unclear>3</unclear></fw>
+<pb/>
+<lb/><fw type="page" place="top-left" hand="h1">8<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>4</fw>
+<pb/>
+<lb/><fw type="page" place="top-right" hand="h1">85</fw>
+<pb/>
+<lb/><fw type="page" place="top-left" hand="h1">86</fw>
+<pb n="79"/>
+<div type="contents" scribe="h2">
+<lb/><head>Indhold:</head>
+<table>
+<lb/><row><cell role="data">1.</cell><cell role="data">Resignation</cell><cell role="filler"></cell><cell role="data">Side</cell><cell role="data">1<ptr type="contents" target="BlaDigtResignation"/></cell></row>
+<lb/><row><cell role="data">2.</cell><cell role="data">Ved Havet</cell><cell role="filler"></cell><cell role="data">&rep;</cell><cell role="data">2<ptr type="contents" target="BlaDigtVedHavet"/></cell></row>
+<lb/><row><cell role="data">3</cell><cell role="data">Tviv<HIS:clarification place="inline">l</HIS:clarification> og Haab</cell><cell role="filler"></cell><cell role="data">&rep;</cell><cell role="data">4<ptr type="contents" target="BlaDigtTvivlHaab"/></cell></row>
+<lb/><row><cell role="data">4</cell><cell role="data">Kjæmpeegen</cell><cell role="filler"></cell><cell role="data">&rep;</cell><cell role="data">7<ptr type="contents" target="BlaDigtKjaempeegen"/></cell></row>
+<lb/><row><cell role="data">5</cell><cell role="data">Erindringskilden</cell><cell></cell><cell role="data">&rep;</cell><cell role="data">9.<ptr type="contents" target="BlaDigtErindringskilden"/></cell></row>
+<lb/><row><cell role="data">6</cell><cell role="data">Dødningeballet</cell><cell role="filler"></cell><cell role="data">&rep;</cell><cell role="data">10<ptr type="contents" target="BlaDigtDoedningeballet"/></cell></row>
+<lb/><row><cell role="data">7</cell><cell role="data">Afskedens Minde</cell><cell></cell><cell role="data">&rep;</cell><cell role="data">13<ptr type="contents" target="BlaDigtAfskMinde"/></cell></row>
+<lb/><row><cell role="data">8</cell><cell role="data">Høstaften</cell><cell role="filler"></cell><cell role="data">&rep;</cell><cell role="data">14<ptr type="contents" target="BlaDigtHoestaftenen"/></cell></row>
+<lb/><row><cell role="data">9</cell><cell role="data">Sjælens S<HIS:hisDel rend="overwritten">l</HIS:hisDel>olglimt</cell><cell role="filler"></cell><cell role="data">&rep;</cell><cell role="data">19<ptr type="contents" target="BlaDigtSjelensSolglimt"/></cell></row>
+<lb/><row><cell role="data">10</cell><cell role="data">Maaneskinsfart paa Havet</cell><cell></cell><cell>&rep;</cell><cell role="data">22.<ptr type="contents" target="BlaDigtMaaneskinsfartPaaHavet"/></cell></row>
+<lb/><row><cell role="data">11</cell><cell role="data">Midnatsstemning</cell><cell></cell><cell></cell><cell role="data">24<ptr type="contents" target="BlaDigtMidnatsstemning"/></cell></row>
+<lb/><row><cell role="data">12</cell><cell role="data">Til Stjernen</cell><cell role="filler"></cell><cell></cell><cell role="data">28<ptr type="contents" target="BlaDigtTilStjernen"/></cell></row>
+<lb/><row><cell role="data">13</cell><cell role="data">Aftenvandring i Skoven</cell><cell></cell><cell></cell><cell role="data">30<ptr type="contents" target="BlaDigtAftenvanSkoven"/></cell></row>
+<lb/><row><cell role="data">14</cell><cell role="data">I Høsten</cell><cell role="filler"></cell><cell></cell><cell role="data">33<ptr type="contents" target="BlaDigtIHoesten"/></cell></row>
+<lb/><row><cell role="data">15</cell><cell role="data">Vaarens Minde</cell><cell role="filler"></cell><cell></cell><cell role="data">35<ptr type="contents" target="BlaDigtVaarensMinde"/></cell></row>
+<lb/><row><cell role="data">16</cell><cell role="data">Til Ungarn</cell><cell role="filler"></cell><cell></cell><cell role="data">37<ptr type="contents" target="BlaDigtTilUngarn"/></cell></row>
+<lb/><row><cell role="data">17</cell><cell role="data">Vaagner Skandinaver</cell><cell></cell><cell></cell><cell role="data">39<ptr type="contents" target="BlaDigtVaagnerSkandinaver"/></cell></row>
+<lb/><row><cell role="data">18</cell><cell role="data">Til norg<unclear reason="writing">es</unclear> Skjalde</cell><cell></cell><cell></cell><cell role="data">51<ptr type="contents" target="BlaDigtTilNorgesSkjalde"/></cell></row>
+<lb/><row><cell role="data">19</cell><cell role="data">Balminder</cell><cell role="filler"></cell><cell></cell><cell role="data">53<ptr type="contents" target="BlaDigtBalminder"/></cell></row>
+<lb/><row><cell role="data">20</cell><cell role="data">Møllergutten</cell><cell role="filler"></cell><cell></cell><cell role="data">64.<ptr type="contents" target="BlaDigtMoellergutten"/></cell></row>
+<lb/><row><cell role="data">21</cell><cell role="data">Det er forbi</cell><cell role="filler"></cell><cell></cell><cell role="data">66<ptr type="contents" target="BlaDigtDetErForbi"/></cell></row>
+<lb/><row><cell role="data">22</cell><cell role="data">Ledigt Logis</cell><cell role="filler"></cell><cell></cell><cell role="data">67<ptr type="contents" target="BlaDigtLedigtLogis"/></cell></row>
+<lb/><row><cell role="data">23</cell><cell role="data">Skjalden i Valhala</cell><cell></cell><cell></cell><cell role="data">70<ptr type="contents" target="BlaDigtSkjaldenValhal"/></cell></row>
+<lb/><row><cell role="data">24</cell><cell role="data">I Natten</cell><cell></cell><cell></cell><cell role="data">74<ptr type="contents" target="BlaDigtINatten"/></cell></row>
+<lb/><row><cell role="data">25</cell><cell role="data">Maaneskinsstemning</cell><cell></cell><cell></cell><cell role="data">76<ptr type="contents" target="BlaDigtMaaneskinsstemning"/></cell></row>
+<lb/><row><cell role="data">26</cell><cell role="data">Maaneskinsvandring</cell><cell></cell><cell></cell><cell role="data">78<ptr type="contents" target="BlaDigtMaaneskinsvandEftBal"/></cell></row>
+</table>
+</div>
+</back>
+</text>
+</TEI>

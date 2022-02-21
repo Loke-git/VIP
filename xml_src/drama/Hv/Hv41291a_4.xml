@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Hvide heste</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1291a, bl. 4</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Inger Marie Kjølstadmyr, Henninge Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og første kollasjon, juni-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respStmt>
+<respStmt><resp>2. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Hv41291a_4-0909"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på Hv41291a_pre_splitt (Hv41291a-0909).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Hv41291a_4">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1291a</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Uten forfatternavn</author>
+<title>Udkast / 1. akt</title>
+<docDate>Uten dato</docDate>
+</msItem></msContents>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Se typografibeskrivelsen i arkivert Ro41291_pre_splitt.xml</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Blyant. Bibliotekar(?). Bladfoliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>02.04.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>HMS</name><title>Ny koding til synoptisk visning</title>
+Erstattet 'xptr type=synopticView_msVersions' med 'synopticViewPtr type="synopticView_textWitnesses'.</change>
+<change><date>01.09.09</date>
+<name>HMS</name><title>Skilte ut denne filen</title>
+Skilte ut denne filen fra Hv41291a_pre_splitt.xml. Kodet inn xptr og lagde synoptisk visning med Hv41291b.</change>
+<!-- Logg før splitting-->
+<change><date>08.09</date>
+<name>HMS</name><title>Koding</title>
+Kodet inn sidetall som følger ms-beskrivelsen (legg/blad). Fjernet transkripsjonen av fakss. 5 og 6 her, da disse sidene tilhører Ro41291a og er kodet inn i den filen.</change>
+<change><date>31.01.08</date>
+<name>HMS</name><title>Små endringer etter kontroll</title>
+Noen små endringer i teiHeader etter kontroll av filsplittingen.</change>
+<change><date>09.01.08</date>
+<name>HB</name><title>Splittet Ro41291_pre_splitt i Hv41291a, Hv41291b og Hv41291c samt Ro41291d og e</title>
+Splittet Ro41291_pre_splitt i Hv41291a, Hv41291b og Hv41291c samt Ro41291d og e. Den opprinnelige Ro41291_pre_splitt-filen arkiveres i pre-splitt-versjon samt NBO-versjon. Legger en samlet typografibeskrivelse i de to versjonene. Påbegynt ny logg, tidligere logg finnes i de to nyopprettede komplette versjonene. Oppdatert tagUsage, handList, sourceDesc, titleStmt, editionStmt.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="4" facs="4"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">4</fw>
+<lb/><head>Udkast.</head>
+<div type="act" n="1">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_345ms"/>
+<lb/><head>1. akt.</head>
+<lb/><p>I herregårdens dagligstue ud over efter&typHyp;
+<lb/>middagen. Presten og frøkenen;</p>
+</div>
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="4"/>
+</body>
+</text>
+</TEI>

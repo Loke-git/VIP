@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Du">Et dukkehjem</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort s&aring; enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.2011</date><name>SBT</name><title>Endret sti til skjema.</title></change>
+<change><date>14.07.2011</date><name>SBT</name><title>Kodet om til P5.</title></change>
+<change><date>10.09.2010</date><name>SBT</name><title>Gjorde om til HISe-fil.</title></change>
+</revisionDesc>
+</teiHeader>
+<text><body><div type="tcNote">
+<note resp="editor" xml:id="noteDu_1"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_1">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteDu_3"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_3">noget?</HIS:hisRef>] <hi rend="italic">4.&tu20;utg., FU, 5.&tu20;utg.,</hi> noget. <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 952, 2.&tu20;&dash;3.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_4"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_4">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 952, 3.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_5"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_5">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteDu_6"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_6">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteDu_7"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_7">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteDu_8"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_8">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteDu_9"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_9">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteDu_23"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_23">Ja.</HIS:hisRef>] <hi rend="italic">HIS,</hi> Ja; <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_10"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_10">så</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> saa <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_11"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_11">dage</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1113f, NBO Ms.4&deg; 1113b, NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> Dage <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_12"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_12">på</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> paa <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_13"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_13">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteDu_14"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_14">dig</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1113b, 3.&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> Dig <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 952, 2.&tu20; utg.</hi></note>
+<note resp="editor" xml:id="noteDu_15"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_15">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteDu_16"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_16">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1113c, Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_17"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_17">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteDu_22"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_22">det.</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 952,</hi> det, <hi rend="italic">1.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> det <hi rend="italic">NBO Ms.4&deg; 1113b</hi></note>
+<note resp="editor" xml:id="noteDu_18"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_18">samlet</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> samle <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_19"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_19">forskræmte</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1113f, NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> forskræmtet <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_20"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_20">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1113f, NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteDu_21"><HIS:hisRef type="tcNote" target="Duht.xml" corresp="noteDu_21">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 952, 2.&tu20;&dash;4.&tu20;utg., FU, 5.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

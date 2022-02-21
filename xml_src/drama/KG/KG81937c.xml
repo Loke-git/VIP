@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kejser og Galilæer</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1937c</title>
+<title level="a" type="origYear">[1873]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Transkripsjon av faksimile, oktober 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing, november 2001:</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering mot manuskript, februar 2002:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, februar 2002:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer, mai 2003:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="KG81937c-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på prosjektets transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="notes" xml:id="KG81937c">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1937c</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Notat. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>KEJSER OG GALILÆER: KG81937c</head>
+<item>skriftgruppe: latinsk håndskrift;</item>
+<item>bokstavvariant: minuskler og majuskler;</item>
+<item>skrifthelling: steilskrift;</item>
+<item>utheving: enkel understreking;</item>
+<item>skriblerier: en mengde regnestykker nederst på forsiden og over hele baksiden av arket samt noen notater; det dreier seg om utregning av inntekter fra nye opplag av eldre skuespill.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-brown" scope="major"><p>Ibsens hånd, brun penn. Skjødesløs skrift.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>04.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>17.07.08</date>
+<name>SBT</name><title>Samkjøring med Tones ms.beskr.</title>
+Endret skriftfarge fra sort til brun, i samsvar med Tone.</change>
+<change><date>30.03.08</date>
+<name>HB</name><title>Koding og rydding</title>
+Ferdigstilte filen til tekstarkivet i HISe.</change>
+<change><date>06.10.06</date>
+<name>HB</name><title>Ms-omkoding</title>
+Ms-koding OK. Flyttet type-attributt fra div til text. La til manglende pb-element sist i teksten.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>23.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>12.05.03</date>
+<name>IAA</name><title>Oppdateringer</title>
+Ny header. Reviderte handlist. Ny visning.</change>
+<change><date>28.02.02</date>
+<name>IAA</name><title>Kodekontroll</title>
+La inn engelske attributtverdier til div. Foretok kodekontroll og brente CD. Deretter: la inn ny sourceDesc-koding (msDescription).</change>
+<change><date>22.02.02</date>
+<name>IAA</name><title>Kollasjonering mot manuskript</title>
+Ingen endringer etter kollasjonering. Validert med ny dtd.</change>
+<change><date>22.01.02</date>
+<name>IAA</name><title>Oppdateringer</title>
+Ny principal pluss rend-attributt i del.</change>
+<change><date>23.11.01</date>
+<name>HB</name><title>Kollasjonering mot faksimile</title>
+Kollasjonerte mot faksimile. Tilføyde div-element samt foreløpig typologisering.</change>
+<change><date>26.10.01</date>
+<name>IAA</name><title>Oppretting</title>
+Transkribert og kodet.</change>
+</revisionDesc>
+</teiHeader>
+<!-- text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob" -->
+<text type="drama" rend="handwritten-mediafacs"  xml:lang="da-nob">
+<body>
+<div>
+<pb ed="source" type="page_nopagination" n="1" facs="1" />
+<lb/><head>Nye optegnelser.</head>
+<lb/><p><emph>En</emph> gud er næsten ingen gud.</p>
+<lb/><p>En gud som elsker alle er en uværdig gud.</p>
+<lb/><p>Rygter om at kejser Julian vil indrette kirkerne til
+<lb/>templer for Afrodite.</p>
+<lb/><p><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_314000ms"/>Rygter om at kejseren og andre har fanget en kvinde,
+<lb/>åbnet hendes indvolde og deraf søgt at tyde fremtiden.</p>
+<lb/><p><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_333000ms"/>Kar til <app type="alteration"><lem><HIS:hisAdd place="offline">vanære</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">ære</HIS:hisDel></HIS:hisRdg></app> og kar til forherligelse.</p>
+</div>
+<note resp="editor">Regnestykker.</note>
+<pb ed="source" type="page_nopagination" n="2"/>
+<pb ed="source" type="page_nopagination" n="3"/>
+<pb ed="source" type="page_nopagination" n="4" facs="2" />
+<note resp="editor">Regnestykker, beregning av inntekter fra nye opplag av flere av Ibsens bøker.</note></body>
+</text>
+</TEI>

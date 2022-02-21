@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="O1">Olaf Liljekrans, 1. hovedversjon</title>
+<title>O1ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>02.11.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteO1_1"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_1">ved</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi></note>
+<note resp="editor" xml:id="noteO1_2"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_2">Liljekrans</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923,</hi> Liljekrands <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_3"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_3">Høire</HIS:hisRef>] <hi rend="italic">endret fra</hi> <unclear>Venstre</unclear></note>
+<note resp="editor" xml:id="noteO1_4"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_4">Høire</HIS:hisRef>] <hi rend="italic">endret fra</hi> <unclear>Venstre</unclear></note>
+<note resp="editor" xml:id="noteO1_5"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_5">hu,</HIS:hisRef>] <hi rend="italic">endret fra</hi> hu! <hi rend="italic">(usikker rekkefølge)</hi></note>
+<note resp="editor" xml:id="noteO1_6"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_6">imorgen</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Imorgen</note>
+<note resp="editor" xml:id="noteO1_7"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_7">&lquo;høibaaren</HIS:hisRef>] <hi rend="italic">anførselstegn tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_8"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_8">høibaaren!&rquo;</HIS:hisRef>] <hi rend="italic">anførselstegn tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_9"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_9">rig;</HIS:hisRef>] <hi rend="italic">endret fra</hi> rig,</note>
+<note resp="editor" xml:id="noteO1_10"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_10">I</HIS:hisRef>] <hi rend="italic">endret fra</hi> i</note>
+<note resp="editor" xml:id="noteO1_11"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_11">Nogen,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_12"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_12">prægtigt</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> præ<unclear>t</unclear></note>
+<note resp="editor" xml:id="noteO1_13"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_13">beredt,</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923,</hi> beredt; <hi rend="italic">NBO Ms.4&deg; 1108</hi>
+</note>
+<note resp="editor" xml:id="noteO1_14"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_14">Hvad mener I?</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> (afsid</note>
+<note resp="editor" xml:id="noteO1_15"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_15">Ødemarker</HIS:hisRef>] <hi rend="italic">endret fra</hi> ødemarker</note>
+<note resp="editor" xml:id="noteO1_16"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_16">Mine</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> mine</note>
+<note resp="editor" xml:id="noteO1_17"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_17">Forliget</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> <unclear>f</unclear></note>
+<note resp="editor" xml:id="noteO1_18"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_18">Guldvik</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> Gulvik <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_19"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_19">Jer</HIS:hisRef>] <hi rend="italic">endret fra</hi> &lt;min&gt;</note>
+<note resp="editor" xml:id="noteO1_20"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_20">imorgen</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Imorgen</note>
+<note resp="editor" xml:id="noteO1_21"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_21">det</HIS:hisRef>] <hi rend="italic">endret fra</hi> &lt;at&gt;</note>
+<note resp="editor" xml:id="noteO1_22"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_22">gifter</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> git</note>
+<note resp="editor" xml:id="noteO1_23"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_23">kanhænde</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> kan hænde</note>
+<note resp="editor" xml:id="noteO1_24"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_24">En</HIS:hisRef>] <hi rend="italic">endret fra</hi> en</note>
+<note resp="editor" xml:id="noteO1_25"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_25">for,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_26"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_26">Venner;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Venner,</note>
+<note resp="editor" xml:id="noteO1_27"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_27">heroppe,</HIS:hisRef>] <hi rend="italic">endret fra </hi> heroppe! <hi rend="italic">(usikker rekkefølge)</hi></note>
+<note resp="editor" xml:id="noteO1_28"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_28">ligegodt, &dash;</HIS:hisRef>] <hi rend="italic">tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_29"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_29">bjergtagen!</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> bjergtagen.</note>
+<note resp="editor" xml:id="noteO1_30"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_30">Ei,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_31"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_31">langt</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> l<gap/></note>
+<note resp="editor" xml:id="noteO1_32"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_32">Arne</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_33"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_33">Liljekrans</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Liljenkrans</note>
+<note resp="editor" xml:id="noteO1_34"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_34">Thorgjerd</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Thorgjerd</hi> til og med <hi rend="normal">Midnatstider</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_35"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_35">Da kom</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Da kom</hi> til og med <hi rend="normal">Farvel! (gaaer)</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_36"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_36">Jeg veed</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Jeg veed</hi> til og med <hi rend="normal">binde</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_37"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_37">Hver</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_38"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_38">sagte</HIS:hisRef>] <hi rend="italic">etter er senere strøket</hi> og halvt nynnende, ligesom et Omkvæd:</note>
+<note resp="editor" xml:id="noteO1_39"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_39">aldrig! &dash; &dash; &dash;</HIS:hisRef>] <hi rend="italic">tankestreker tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_40"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_40">Hjerte.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923,</hi> Hjerte <hi rend="italic">NBO Ms.4&deg; 1108,</hi> Hjerte! <hi rend="italic">TarkUiB NT 344r</hi>
+</note>
+<note resp="editor" xml:id="noteO1_41"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_41">medens</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">medens</hi> til og med <hi rend="normal">Viv!</hi> er rammet inn med blekk</hi>
+</note>
+<note resp="editor" xml:id="noteO1_42"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_42">(vedbliver</HIS:hisRef>] <hi rend="italic">over tekstpartiet fra og med <hi rend="normal">(vedbliver</hi> til og med <hi rend="normal">Fod!</hi> står diagonal blyantstrek</hi>
+</note>
+<note resp="editor" xml:id="noteO1_43"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_43">sorrigfuld</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> sor<gap/></note>
+<note resp="editor" xml:id="noteO1_44"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_44">At</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> a</note>
+<note resp="editor" xml:id="noteO1_45"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_45">Saadan</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Saadan</hi> til og med <hi rend="normal">hører nok!</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_46"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_46">Du hører</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Du hører</hi> til og med <hi rend="normal">paa Dig!</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_47"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_47">ikke.</HIS:hisRef>] <hi rend="italic">etter er senere strøket</hi> (koldt). Saa, nu er det nok med Skoene.</note>
+<note resp="editor" xml:id="noteO1_48"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_48">nynner</HIS:hisRef>] <hi rend="italic">over tekstpartiet fra og med <hi rend="normal">nynner</hi> til og med <hi rend="normal">(henkastende)</hi> står diagonal blyantstrek</hi>
+</note>
+<note resp="editor" xml:id="noteO1_49"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_49">Ja, saadan</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Ja, saadan</hi> til og med <hi rend="normal">som om &dash;</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_50"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_50">hun</HIS:hisRef>] <hi rend="italic">etter er senere strøket</hi> da</note>
+<note resp="editor" xml:id="noteO1_51"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_51">Leg, &dash;</HIS:hisRef>] <hi rend="italic">tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_52"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_52">Seer Du de</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Seer Du de</hi> til og med <hi rend="normal">duggede Blade</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_53"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_53">Olaf</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Olaf</hi> til og med <hi rend="normal">Hjælpe mig Gud!</hi> er rammet inn med blyant; under rammen er egenhendig tilføyd: <hi rend="normal">Hemming afs: Hvad er ham dog hændt!</hi>
+</hi>
+</note>
+<note resp="editor" xml:id="noteO1_54"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_54">Det</HIS:hisRef>] <hi rend="italic">tekstpartiet fra og med <hi rend="normal">Det</hi> til og med <hi rend="normal">Bryllupstærner;</hi> er rammet inn med blyant</hi>
+</note>
+<note resp="editor" xml:id="noteO1_55"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_55">Naar</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_56"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_56">det atter</HIS:hisRef>] det <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_57"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_57">Kvæde</HIS:hisRef>] <hi rend="italic">endret fra</hi> kvæde<unclear>r</unclear></note>
+<note resp="editor" xml:id="noteO1_58"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_58">vént</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> vent</note>
+<note resp="editor" xml:id="noteO1_59"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_59">Dal; &dash;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Dal,</note>
+<note resp="editor" xml:id="noteO1_60"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_60">Dands;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Dands,</note>
+<note resp="editor" xml:id="noteO1_61"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_61">Alfhild!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Alfhild,</note>
+<note resp="editor" xml:id="noteO1_62"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_62">Hauen</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Haugen</note>
+<note resp="editor" xml:id="noteO1_63"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_63">Et</HIS:hisRef>] <hi rend="italic">endret fra</hi> et</note>
+<note resp="editor" xml:id="noteO1_64"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_64">Da</HIS:hisRef>] <hi rend="italic">foran er senere strøket</hi> Det var den første Drik! &dash; &dash; &dash;</note>
+<note resp="editor" xml:id="noteO1_65"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_65">Da</HIS:hisRef>] <hi rend="italic">foran er senere strøket</hi> Det var den anden Drik &dash;</note>
+<note resp="editor" xml:id="noteO1_66"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_66">til</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_67"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_67">mig</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_68"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_68">randt,</HIS:hisRef>] <hi rend="italic">egenhendig endret fra </hi> kom,</note>
+<note resp="editor" xml:id="noteO1_69"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_69">hvo</HIS:hisRef>] <hi rend="italic">endret fra</hi> hvo<unclear>r</unclear></note>
+<note resp="editor" xml:id="noteO1_70"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_70">løber;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> løber,</note>
+<note resp="editor" xml:id="noteO1_71"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_71">Alle</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> Alle: <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_72"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_72">hjemme.</HIS:hisRef>] <hi rend="italic">HIS,</hi> hjemme, <hi rend="italic">NBO Ms.4&deg; 1108, NBO Ms.4&deg; 923,</hi> hjemme; <hi rend="italic">TarkUiB NT 344r</hi></note>
+<note resp="editor" xml:id="noteO1_73"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_73">vilde;</HIS:hisRef>] <hi rend="italic">endret fra</hi> vil<gap/>e,</note>
+<note resp="editor" xml:id="noteO1_74"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_74">sælsomt</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> sæ&lt;s&gt;</note>
+<note resp="editor" xml:id="noteO1_75"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_75">Han</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_76"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_76">Kirsten</HIS:hisRef>] <hi rend="italic">umiddelbart endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_77"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_77">Lier!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Lier;</note>
+<note resp="editor" xml:id="noteO1_78"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_78">fast,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_79"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_79">saa&lt;?&gt;</HIS:hisRef>] <hi rend="italic">ms. skadet</hi>
+</note>
+<note resp="editor" xml:id="noteO1_80"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_80">er</HIS:hisRef>] <hi rend="italic">egenhendig endret fra </hi> var</note>
+<note resp="editor" xml:id="noteO1_81"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_81">taler;</HIS:hisRef>] <hi rend="italic">semikolon tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_82"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_82">Guldsadlen</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Guldsa<gap/></note>
+<note resp="editor" xml:id="noteO1_83"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_83">Og</HIS:hisRef>] <hi rend="italic">endret fra</hi> O<gap/></note>
+<note resp="editor" xml:id="noteO1_84"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_84">lovet!</HIS:hisRef>] <hi rend="italic">endret fra</hi> lovet,</note>
+<note resp="editor" xml:id="noteO1_85"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_85">Viv!</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> Viv <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_86"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_86">enkelt</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> enkel</note>
+<note resp="editor" xml:id="noteO1_87"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_87">Sang! Det</HIS:hisRef>] <hi rend="italic">endret fra</hi> Sang, <unclear>d</unclear>et</note>
+<note resp="editor" xml:id="noteO1_88"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_88">Alfhild,</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Alfhild!</note>
+<note resp="editor" xml:id="noteO1_89"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_89">en</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_90"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_90">min,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_91"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_91">Silke;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Silke,</note>
+<note resp="editor" xml:id="noteO1_92"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_92">Brudeblussene</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Brude<gap/></note>
+<note resp="editor" xml:id="noteO1_93"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_93">Sorg! &dash;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Sorg.</note>
+<note resp="editor" xml:id="noteO1_94"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_94">nu &dash;.</HIS:hisRef>] <hi rend="italic">punktum tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_95"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_95">ægteviet</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> ægt<gap/></note>
+<note resp="editor" xml:id="noteO1_96"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_96">saa</HIS:hisRef>] <hi rend="italic">endret fra</hi> Saa</note>
+<note resp="editor" xml:id="noteO1_97"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_97">Skaal</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Skadl</note>
+<note resp="editor" xml:id="noteO1_98"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_98">bittreste Vee</HIS:hisRef>] <hi rend="italic"><hi rend="normal">treste Vee</hi> først skrevet til venstre på siden, deretter strøket og skrevet på nytt til høyre under <hi rend="normal">bit-</hi></hi></note>
+<note resp="editor" xml:id="noteO1_99"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_99">forstaaer<supplied><HIS:diacrit type="left"/>,<HIS:diacrit type="right"/></supplied></HIS:hisRef>] <hi rend="italic">ms. skadet</hi></note>
+<note resp="editor" xml:id="noteO1_100"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_100">klare. &dash;</HIS:hisRef>] <hi rend="italic">tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_101"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_101">Fløi?</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Fløi,</note>
+<note resp="editor" xml:id="noteO1_102"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_102">Hver</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> V</note>
+<note resp="editor" xml:id="noteO1_103"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_103">Fader! Ak</HIS:hisRef>] <hi rend="italic">endret fra</hi> Fader, ak</note>
+<note resp="editor" xml:id="noteO1_104"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_104">vil!</HIS:hisRef>] <hi rend="italic">endret fra</hi> vil,</note>
+<note resp="editor" xml:id="noteO1_105"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_105">dine</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_106"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_106">al Verden</HIS:hisRef>] <hi rend="italic">endret fra</hi> a<gap/></note>
+<note resp="editor" xml:id="noteO1_107"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_107">om,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_108"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_108">Arm</HIS:hisRef>] <hi rend="italic">endret fra</hi> arm</note>
+<note resp="editor" xml:id="noteO1_109"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_109">kaste</HIS:hisRef>] <hi rend="italic">endret fra</hi> Kaste</note>
+<note resp="editor" xml:id="noteO1_110"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_110">bemærker</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> b<gap/></note>
+<note resp="editor" xml:id="noteO1_111"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_111">gifte</HIS:hisRef>] <hi rend="italic"><hi rend="normal">NB</hi> skrevet med blyant i venstre marg</hi></note>
+<note resp="editor" xml:id="noteO1_112"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_112">prægtigt</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> prægtig</note>
+<note resp="editor" xml:id="noteO1_113"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_113">tage</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_114"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_114">hvem</HIS:hisRef>] <hi rend="italic">endret fra</hi> hv<unclear>o</unclear></note>
+<note resp="editor" xml:id="noteO1_115"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_115">I! Vil</HIS:hisRef>] <hi rend="italic">endret fra</hi> I, vil</note>
+<note resp="editor" xml:id="noteO1_116"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_116">Staburdøren</HIS:hisRef>] <hi rend="italic">endret fra</hi> Stabudøren</note>
+<note resp="editor" xml:id="noteO1_117"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_117">Hemming!</HIS:hisRef>] <hi rend="italic">foran er senere strøket</hi> Fly mig Bollen hid. &dash;</note>
+<note resp="editor" xml:id="noteO1_118"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_118">Gjøres om</HIS:hisRef>] <hi rend="italic">endret fra</hi> Gjøres on</note>
+<note resp="editor" xml:id="noteO1_119"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_119">De</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> <unclear>F</unclear></note>
+<note resp="editor" xml:id="noteO1_120"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_120">Arne</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> <unclear>H</unclear></note>
+<note resp="editor" xml:id="noteO1_121"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_121">Stille! &dash;</HIS:hisRef>] <hi rend="italic">tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_122"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_122">sammen</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> Sammen <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_123"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_123">(afs.)</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_124"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_124">Haand</HIS:hisRef>] <hi rend="italic">endret fra</hi> Haanden</note>
+<note resp="editor" xml:id="noteO1_125"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_125">uvillig</HIS:hisRef>] <hi rend="italic">endret fra</hi> villig</note>
+<note resp="editor" xml:id="noteO1_126"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_126">fortvivlet</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> fortivlet <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_127"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_127">forstenet</HIS:hisRef>] <hi rend="italic">endret fra</hi> fors<gap/>net</note>
+<note resp="editor" xml:id="noteO1_128"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_128">Olafs</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Ol<gap/></note>
+<note resp="editor" xml:id="noteO1_129"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_129">ved</HIS:hisRef>] <hi rend="italic">endret fra</hi> paa</note>
+<note resp="editor" xml:id="noteO1_130"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_130">Venstre&lt;.&gt;</HIS:hisRef>] <hi rend="italic">ms. skadet</hi>
+</note>
+<note resp="editor" xml:id="noteO1_131"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_131">Alteret</HIS:hisRef>] <hi rend="italic">etter er strøket tilføyd komma</hi></note>
+<note resp="editor" xml:id="noteO1_132"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_132">selv,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_133"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_133">vil &dash;?</HIS:hisRef>] <hi rend="italic">endret fra</hi> vil &dash;!</note>
+<note resp="editor" xml:id="noteO1_134"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_134">Olaf!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Olaf, <hi rend="italic">(usikker rekkefølge)</hi></note>
+<note resp="editor" xml:id="noteO1_135"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_135">ud;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> ud,</note>
+<note resp="editor" xml:id="noteO1_136"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_136">Steen!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Steen; <hi rend="italic">(usikker rekkefølge)</hi></note>
+<note resp="editor" xml:id="noteO1_137"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_137">de</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_138"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_138">saa</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> s<gap/></note>
+<note resp="editor" xml:id="noteO1_139"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_139">fro! &dash;</HIS:hisRef>] <hi rend="italic">tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_140"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_140">snebedækkede</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> sned</note>
+<note resp="editor" xml:id="noteO1_141"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_141">Skud</HIS:hisRef>] <hi rend="italic">endret fra</hi> skud</note>
+<note resp="editor" xml:id="noteO1_142"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_142">naar</HIS:hisRef>] <hi rend="italic">umiddelbart endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_143"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_143">Har</HIS:hisRef>] <hi rend="italic">umiddelbart endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_144"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_144">forvist</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> fovist</note>
+<note resp="editor" xml:id="noteO1_145"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_145">herop.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923,</hi> herop, <hi rend="italic">NBO Ms.4&deg; 1108,</hi> herop. &dash; <hi rend="italic">TarkUiB NT 344r</hi></note>
+<note resp="editor" xml:id="noteO1_146"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_146">dø!</HIS:hisRef>] <hi rend="italic">endret fra</hi> dø,</note>
+<note resp="editor" xml:id="noteO1_147"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_147">til,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_148"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_148">Dig,</HIS:hisRef>] <hi rend="italic">komma tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_149"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_149">Mærker.</HIS:hisRef>] <hi rend="italic">endret fra</hi> Mærker,</note>
+<note resp="editor" xml:id="noteO1_150"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_150">blandet. &dash;</HIS:hisRef>] <hi rend="italic">punktum og tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_151"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_151">jaged&rapo;</HIS:hisRef>] <hi rend="italic">endret fra</hi> jaget</note>
+<note resp="editor" xml:id="noteO1_152"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_152">af Sinde</HIS:hisRef>] <hi rend="italic">endret fra</hi> afsinde</note>
+<note resp="editor" xml:id="noteO1_153"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_153">hele</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_154"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_154">Visnet</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_155"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_155">Støv! &dash;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Støv;</note>
+<note resp="editor" xml:id="noteO1_156"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_156">Ja,</HIS:hisRef>] <hi rend="italic">over er senere strøket</hi> Solen leer ikke længer paa Himmelen blaa, &sol; Stumme er alle de Fugle smaa!</note>
+<note resp="editor" xml:id="noteO1_157"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_157">gammel!</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> gammel,! <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_158"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_158">&dash; Da</HIS:hisRef>] <hi rend="italic">tankestrek tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_159"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_159">rig</HIS:hisRef>] <hi rend="italic">endret fra</hi> rig<unclear>t</unclear></note>
+<note resp="editor" xml:id="noteO1_160"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_160">Høire).</HIS:hisRef>] <hi rend="italic">etter er strøket</hi> Hemming.</note>
+<note resp="editor" xml:id="noteO1_161"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_161">mig!</HIS:hisRef>] <hi rend="italic">endret fra</hi> mig,</note>
+<note resp="editor" xml:id="noteO1_162"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_162">sig! Farvel!</HIS:hisRef>] <hi rend="italic">endret fra</hi> sig! Farvel,</note>
+<note resp="editor" xml:id="noteO1_163"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_163">Øine</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Ø<gap/></note>
+<note resp="editor" xml:id="noteO1_164"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_164">Du lille</HIS:hisRef>] <hi rend="italic">over tekstpartiet fra og med <hi rend="normal">Du lille</hi> til og med <hi rend="normal">fro!</hi> står diagonal blyantstrek</hi></note>
+<note resp="editor" xml:id="noteO1_165"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_165">fro!</HIS:hisRef>] <hi rend="italic">under er senere strøket</hi> Jeg havde tænkt at Du var mig en Ven, &sol; Som smilte naar jeg satte mig hos Dig hen; &sol; Jeg havde tænkt at dit Øie græd &sol; Ved Sommertide, naar Sol gik ned! &dash; &sol; Jeg havde tænkt at Du folded&rapo; Dig ud, &sol; Naar Dagskjæret dæmred, for at takke din Gud! &bull; <hi rend="italic">strøket tekstparti rammet inn med blyant</hi></note>
+<note resp="editor" xml:id="noteO1_166"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_166">Men nu</HIS:hisRef>] <hi rend="italic">over tekstpartiet fra og med <hi rend="normal">Men nu</hi> til og med <hi rend="normal">ilive!</hi> står diagonal blyantstrek</hi>
+</note>
+<note resp="editor" xml:id="noteO1_167"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_167">da!</HIS:hisRef>] <hi rend="italic">endret fra</hi> da,</note>
+<note resp="editor" xml:id="noteO1_168"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_168">Karle</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 923, TarkUiB NT 344r,</hi> Karle. <hi rend="italic">NBO Ms.4&deg; 1108</hi></note>
+<note resp="editor" xml:id="noteO1_169"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_169">skal Du</HIS:hisRef>] Du <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_170"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_170">hans</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_171"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_171">baadede</HIS:hisRef>] <hi rend="italic">endret fra</hi> baaded</note>
+<note resp="editor" xml:id="noteO1_172"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_172">ham</HIS:hisRef>] <hi rend="italic">endret fra</hi> ha<unclear>n</unclear></note>
+<note resp="editor" xml:id="noteO1_173"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_173">Gjerning?</HIS:hisRef>] <hi rend="italic">spørsmålstegn tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_174"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_174">Alfhild</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi> </note>
+<note resp="editor" xml:id="noteO1_175"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_175">ingen</HIS:hisRef>] <hi rend="italic">endret fra</hi> Ingen</note>
+<note resp="editor" xml:id="noteO1_176"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_176">Mener</HIS:hisRef>] <hi rend="italic">endret fra</hi> Mene<gap/></note>
+<note resp="editor" xml:id="noteO1_177"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_177">Mænd!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Mænd,</note>
+<note resp="editor" xml:id="noteO1_178"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_178">endnu!</HIS:hisRef>] <hi rend="italic">endret fra</hi> endnu,</note>
+<note resp="editor" xml:id="noteO1_179"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_179">jeg freidig</HIS:hisRef>] jeg <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteO1_180"><HIS:hisRef type="tcNote" target="O1ht.xml" corresp="noteO1_180">en</HIS:hisRef>] <hi rend="italic">endret fra</hi> e&lt;t&gt;</note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

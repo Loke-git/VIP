@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE TEI     [     <!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     %HIS_entiteter;     ]> <?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1469, bl. 3</title>
+<title level="a" type="origYear">[1870]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Transkripsjon av faksimile, mars 2003</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name></respStmt>
+<respStmt><resp>Annenkollasjon og kodekontroll, april 2003</resp>
+<name xml:id="HIS_MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="SS81469_0112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på SS81469 (SS81469-1007).</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="SS81469_3">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.8&deg; 1469</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>Henrik Ibsen</author>
+            <title>Uten tittel (omtalt &lquo;lystspillet&rquo;)</title>
+            <docDate>Udatert</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Opptegnelser, egenhendig. 13. okt. 1870, står det på annet utkast.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i SS81469_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI_2" xml:id="HI_2" medium="pen_blue" scope="major"><p>Blå penn. Henrik Ibsen. Hovedhånd bl. 3.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Blyant. Senere. Muligens bibliotekar.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>27.01.12</date>
+<name>SBT</name><title>Ferdigstilling</title>
+La inn kolofonopplysninger i teiHeader og attributter i text. Gikk gjennom noter og logg. Ferdig.</change>
+<change><date>21.01.12</date>
+<name>SBT</name><title>HISe P5</title>
+Kodet om fila. GJENSTÅR å gå gjennom logg og noter.</change>
+<change><date>19.10.09</date>
+<name>MW</name><title>Klar for versjonsvisninger</title>
+Sjekket at SS-filene har de synopticViewPtr-koder som trengs for å få laget de visninger vi ønsker. Så nå er det klart for å lage synoptiske visninger.</change>
+<change><date>19.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle SS-filer.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. I SS-filene betyr det at det ene sett xptr-koder fjernes og bare de med textWitnesses som att.verdi blir stående. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>05.10.09</date>
+<name>MW</name><title>Synoptisk visning</title>
+Klargjøring av filen for synoptisk visning. xptr-koder er lagt inn så filen kan synkroniseres mot SS81469_1-2 og mot SS41112a_19-20r. Klar for å lage synoptiske visninger.</change>
+<change><date>22.09.09</date>
+<name>MW</name><title>Bladnummerering</title>
+Endret bladnummerering etter gjeldende praksis.</change>
+<change><date>15.09.09</date>
+<name>MW</name><title>Splitting av SS81469</title>
+Splittet SS81469 i tre deler til synoptisk visning. Justerte teiHeader så den passer til den enkelte delen.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>sheet -&gt; gathering</title>
+Byttet ut sheet med gathering, etter vedtak om at legg i ms og ark i trykk ikke skal være samme type.</change>
+<change><date>20.-21.11.07</date>
+<name>HB</name><title>HISe-xptr-koblinger basert på pb/ed/HU, m.m.</title>
+Siden det ikke kan kodes inn referanser mot pb/ed/HU, er det ikke laget xptr-koblinger her. Typologiserte div etter samråd med MW. Ms-koding sjekket og OK.</change>
+<change><date>19.11.07</date>
+<name>HB</name><title>Sidereferanse-koding</title>
+La til pb/ed/faksBase.</change>
+<change><date>28.10.07</date>
+<name>HB</name><title>Filologisk ferdigstilling</title>
+Gjenstår: Samkjøre handList mot TMs beskr. Lage tilknytning til øvrige versjoner. Kode inn hånd-verdier istedenfor handShift. Typologisere div, sjekke om noen div skal fjernes. * Oppdaterte dokumentheader. Sjekket evt arbeidsnoter og siccing og fjernet dette. Fjernet overflødige mellomrom i fila. Oppdaterte ms-koding. Oppdaterte attributtverdier generelt til ny standard med underscore. La til verdier i pb for tekstkilden. Validerte.</change>
+<change><date>08.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>09.08.05</date>
+<name>MW</name><title>teiHeader</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>08.08.05</date>
+<name>MW</name><title>Strukturkoding</title>
+Etter kodemøtet 13.06.05 om ordningen av kompliserte ms endret jeg strukturkodingen. I msDescription er type endret til 'workingManuscript' (fra 'notes'). Manuset består av 3 deler som nå er kodet i 3 text-elementer (med type=workingManuscript) i group (før var det kodet i et text-element med 3 underliggende div-elementer).</change>
+<change><date>15.05.03</date>
+<name>MW</name><title>Kodeendringer</title>
+Jeg endret kodingen etter vedtak på kodemøtet 24. april (handList, origDate). Validert.</change>
+<change><date>04.04.03</date>
+<name>MW</name><title>Annenkollasjon og kodekontroll</title>
+Annenkollasjon mot original utført. Kollasjonsresultatene er innført i filen. I origDate i teiHeader har jeg innført en dato som står på andre blad, selvom det høyst sannsynlig ikke gjelder hele manus. Jeg fjernet tagUsage gi=id-who fra teiHeader, da det hverken er rolleliste eller replikker her. Validert.</change>
+<change><date>11.03.03</date>
+<name>HB</name><title>Oppretting av fil samt transkripsjon</title>
+Opprettet fil og transkriberte og kodet teksten. Ikke korrekturlest. Filen er valid og klar for 2. kollasjon.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs"  xml:lang="da-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="4" gathering="2"/><lb/><fw type="gathering" place="top_left" scribe="h1">2</fw><note resp="editor">Med blyant: <q>Trykt Ibsen 8:156</q></note>
+<div type="relatedToWork">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="SS_33ms"/>
+<lb/><head>Plan og optegnelser, m:m:
+<lb/>til
+<lb/>lystspillet.</head>
+<lb/><opener><date>13<hi rend="raised">de</hi> Oktober 1870. &dash;</date></opener>
+<lb/><p>Efter mange år er han kommen hjem
+<lb/>og nu sætter han den lille by på ende.
+<lb/>En eventyrer har han altid været.
+<lb/>Modsigelser i karakteren; hvile, hvile! Han
+<lb/>er træt. Så lystige spilopper igen. En
+<lb/>stor ridetur med alle byens unge damer
+<lb/>har været foranstaltet og vakt megen forar&typHyp;
+<lb/>gelse; i sidste øjeblik udeblev de fleste
+<lb/>og kun den nærmeste familje med et par
+<lb/>andre deltog. &dash; Den ældre agtværdige
+<lb/>broder med de mange tillidshverv er
+<lb/>højst elendig over al den omtale, som
+<lb/>hans respektable hus er udsat for.
+<lb/>Der er et dæmonisk træk af stilhed i
+<lb/>denne karakter. &dash; Moderen med det smukke
+<lb/>gråkrøllede hår under kniplingstørklædet.
+<lb/>&dash; Hustruen fantastisk utålmodig. &dash; Søsteren
+<lb/>med den stærke, sunde dybe sjæl, og med
+<lb/>hemmeligheden så trofast bevaret. &dash; Pleje&typHyp;
+<lb/>barnet på 16 år, næret af fantasteri og for&typHyp;
+<lb/>ventning.</p>
+
+<pb n="[1]v"/>
+</div>
+</body>
+</text>
+</TEI>

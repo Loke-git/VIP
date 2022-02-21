@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">John Gabriel Borkman</title>
+<title level="a" type="sub">Ms.4&deg; 1118a</title>
+<!--<title level="a" type="origYear"/>-->
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Opprettelse av grunntekst og koding</resp>
+<name xml:id="HIS-ILF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>1. kollasjon</resp>
+<name>Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>kodekontroll</resp>
+<name/>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="JG41118a-0809"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er bygget på JGFU-0207</p>
+   <p><HIS:hisMsDesc type="workingManuscript" xml:id="JG41118a">
+      <msIdentifier>
+         <settlement>Oslo</settlement>
+         <repository>Nasjonalbiblioteket</repository>
+         <idno>NBO Ms.4&deg; 1118a</idno>
+      </msIdentifier>
+      <msContents><msItem>
+         <author>[Henrik Ibsen]</author>
+         <title type="main">Uten tittel [John Gabriel Borkman]</title>
+         <docDate>Uten dato</docDate>
+      </msItem></msContents>
+      <physDesc><objectDesc><p>Egenhendige arbeidsmanuskripter til deler av andre, tredje og fjerde akt. Bundet inn sammen med NBO Ms.4&deg; 1118b.</p></objectDesc></physDesc>
+   </HIS:hisMsDesc>
+   </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Gjennomgående mangel på diakritiske tegn på f eks i, å, ø.</p>
+<list> 
+<head>JG41118a:</head> 
+<item>skriftgruppe: latinsk håndskrift;</item> 
+<item>bokstavvariant: majuskler og minuskler;</item> 
+<item>skrifthelling: steilskrift, venstrehellende;</item> 
+<item>hovedtittelblad: mangler;</item> 
+<item>deltittelblad: mangler;</item> 
+<item>rolleliste: mangler</item> 
+<item>akt: mangler;</item> 
+<item>sceneanvisning: som teksten for øvrig, men med parentes rundt;</item> 
+<item>rollenavn: mangler med unntak av en 'E.' som står først i en linje. Ny rolle markeres med linjeskift og innrykk;</item>
+<item>avsnitt/replikk: første linje innrykket;</item> 
+<item>utheving i replikk: mangler;</item> 
+<item>utheving i sceneanvisning (stageRole): mangler;</item> 
+<item>generelle elementer (systembeskrivelse): 
+<list> 
+<item>skille- og pyntestreker: 
+<list> 
+<item>på hovedtittelblad: under tittel (ca 9 cm), under forfatternavn (ca 7,5 cm), under årstall (ca 2,5 cm);</item> 
+<item>i rolleliste: under overskrift (ca 3,5 cm)</item> 
+<item>på slutten av hver akt: (varierende lengde, 5-8 cm);</item> 
+</list> 
+</item> 
+<item>bindestrek: mangler;</item> 
+<item>tankestrek: varierende lengde og utseende;</item> 
+<item>ordenstall: mangler med unntak av paginering av ark;</item> 
+<item>forkortelser: med eller uten punktum;</item> 
+<item>arkfoliering: med sort penn i øvre, venstre hjørne av recto-siden;  punktum og understrekning;</item> 
+<item>annen foliering: påført et 1-tall med rød blyant av annen hånd på ark 2, dette er ikke transkribert;</item> 
+</list> 
+</item> 
+<item>annet: </item> 
+</list> 
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label>ELLARENTHEIM</label><item>/E./</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd XIII) er kodet med pb ed="HU". Dette tekstvitnet dekkes innenfor sidene 39-126. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+   <handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>21.-23.02.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe. Gikk gjennom og fjernet arbeidsnoter.</change>
+<change><date>31.08.09</date><name>IF</name><title>2. kollasjon</title>
+Førte inn MWs kollasjonsresultater. Hun har også sjekket typografibeskrivelsen. Fjernet rød hånd foliering i filen og i handList, la det tydeligere inn i typografibeskrivelsen. Klar for kodekontroll. Validert.</change>
+<change><date>25.08.09</date><name>IF</name><title>Transkripsjonssjekk</title>
+Sjekket lesemåter mot FU og HU. Klar for 2. kollasjon. Validert.</change>
+<change><date>19.08.09</date><name>IF</name><title>
+Lagt inn typografibeskrivelse. Validert.</title></change>
+<change><date>30.06.09</date><name>IF</name><title>Transkripsjonsrettelser</title>
+Endret ta&rapo; fra tá i 'Her vil jeg stå og ta' imod dem' og 'trosfange' til 'livsfange' etter TMs gjennomgang, og et par andre steder. Endret litt i teiHeader. Ny html-versjon.</change>
+<change><date>22.04.09</date><name>IF</name><title>Kollasjonert og oppdatert koding</title>Ført inn kollasjonen. Splittet filen i a) og b) i første omgang av praktiske hensyn, tilsvarende UF41109a og b, før den evt. legges sammen med b) i group-text-koding med hver sitt type-attributt (arbeidsmanuskript og endelig renskrift). Usikker på om a) skal få group-text-koding - den kunne få det fordi det er så tydelig 3 tekstdeler, 2 til det første arket og 1 til det andre. Sendt melding om splittingen til filologene. Fjernet typonotene som handler om manglende diakritiske tegn, da de var så mange at de forstyrret teksten. Validert. Klar for kodekontroll og 2. kollasjon.</change>
+<change><date>30.01.09</date><name>IF</name><title>Opprettelse</title>Har unnlatt å ta med tittelsiden som er laget av biblioteker eller den som bandt sammen manuskriptene, etter kodemøte 30.03.09.</change>
+<change><date>30.01.09</date><name>IF</name><title>Opprettelse</title>4 1118a er kollasjonert, b er påbegynt. Ikke validert</change>
+<change><date>19.01.09</date><name>IF</name><title>Opprettelse og 1. kollasjon</title>Filen er opprettet, teksten er foreløpig opprettet men må kollasjoneres.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<pb n="f"/>
+<pb n="1"/>
+<body>
+<div type="act" n="2">
+<lb/><fw type="gathering" place="top">1.</fw>
+<lb/><HIS:hisSp><p>Ved De hvor jeg f.
+<lb/>Jeg er en bergmands søn, ved De vel. Eller ved
+<lb/>De kanske ikke det?</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Nej, herr B.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>En bergmands søn. Og <HIS:hisAdd place="offline">min far tog</HIS:hisAdd> mig med sig ned i gr. iblandt.
+<lb/>Dernede synger malmen.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p><HIS:hisDel rend="overstrike">S</HIS:hisDel> Ja så, synger den?</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Når den blir løsnet. Hammerslagene, som lø<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ser den, <unclear>det</unclear>
+<lb/>er midn klok<unclear>ken</unclear>, som slår og gør den fri. Derfor synger
+<lb/>malmen af glæde - på sin vis.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Det vidste jeg ikke.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Nej det er det, som folk ikke ved. De ved ikke at malmen
+<lb/>ligger dernede og stunder efter at bli fri.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Hvorfor gør den det, herr B.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Den vil op i dagens lys og tjene menneskene</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>&dash; <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> Herregud når jeg nu bare kunde få det anbragt J. Gbr</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Ja herregud, synes ikke du <HIS:hisAdd place="offline">at</HIS:hisAdd> der er adskilligt godt i det
+
+<lb/><HIS:hisStage>(begynder ivrigt at åbne mappen)</HIS:hisStage> Nu skal jeg <HIS:hisDel rend="overstrike">bare</HIS:hisDel> vise dig
+<lb/><HIS:hisAdd place="inline">noget</HIS:hisAdd> <HIS:hisDel rend="overstrike">lidt</HIS:hisDel> som jeg har forandret &dash;</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Har du det med dig?</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Ja jeg tog det med. Det er så længe siden jeg læste det
+<lb/>for dig. Og så tænkte <HIS:hisDel rend="overstrike">de</HIS:hisDel> jeg det kanske kunde adsprede
+<lb/>dig at høre en akt eller to &dash;</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p><HIS:hisStage>(afværgende, rejser sig)</HIS:hisStage> Nej nej lad heller være til en anden
+<lb/><sic>gagg</sic>.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Han går ud på gulvet, frem og tilbage. F. pakker
+<lb/>manuskr ind igen
+
+<lb/><HIS:hisStage>(stiller sig ved skrivebordet ligesom før og slår
+<lb/>sig for brystet)</HIS:hisStage>
+<lb/>Her vil jeg stå og <HIS:hisDel rend="overwritten">f</HIS:hisDel>ta&rapo; imod dem. Og det skal høres
+<lb/>og spørges hvad betingels<unclear>er</unclear>, J. G. Bork stiller for at &dash;
+<lb/>du ser så tvilende på mig</p></HIS:hisSp>
+
+<pb n="2"/>
+</div>
+
+<div type="act" n="3">
+<pb n="3"/>
+<lb/><HIS:hisSp><p>De bundne millioner lå og råbte på mig. <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Skreg
+<lb/>til mig om befrielse. Men ingen af alle de andre
+<lb/>hørte det. Bare jeg alene</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Du er så bleg &dash; så bleg, John.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Jeg.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p><HIS:hisAdd place="inline">Ja du</HIS:hisAdd> Jeg har aldrig <HIS:hisAdd place="offline">før</HIS:hisAdd> set dig slig.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Nej, du har vel aldrig før set en udbrudt livsfange <HIS:hisAdd place="offline">heller</HIS:hisAdd></p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Om forladelse; fruen har sagt at jeg skal stænge
+<lb/>gadedøren</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Hør bare; nu vil de stænge mig inde igen.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><HIS:spOpener><speaker>E.</speaker><HIS:hisStage>(til p)</HIS:hisStage></HIS:spOpener><p>Bankchefen er ikke vel. Han vil trække
+<lb/>lidt frisk luft først</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Ja men fruen selv har sagt &dash;</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Jeg skal stænge døren. <HIS:hisDel rend="overstrike">L</HIS:hisDel> Lad bare nøglen sidde
+<lb/>i så &dash;</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>Ja gud bevars vel; jeg skal nok så gøre.</p></HIS:hisSp>
+
+<lb/><HIS:hisSp><p>I vilde frigøres. Og jeg prøvte på det. Men jeg
+<lb/>mægted det ikke. Skatten sank i dybet igen</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

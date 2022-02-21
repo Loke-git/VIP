@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fru Inger til Østeraad</title>
+<title level="a" type="sub">1. versjon, TarkUiB NT280r (rollehefte, Finn)</title>
+<title level="a" type="origYear">1854</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Bjørg Harvey, Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), oktober 2000</resp>
+<name>Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Koding og korrektur, oktober 2000 - januar 2001</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="F1280r_FINN-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Filen bygger på ekstern transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="F1280r_FINN">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Teatermuseet, Univ. i Bergen</repository>
+<idno>N. T. 280</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Fru Inger til Østeraad</title>
+<title type="sub">historisk Drama i 5 Akter</title>
+<docDate>1854</docDate>
+</msItem>
+<msItem n="FINN"><locus>20 sider</locus><title>«Fri Ingers huskarl»</title></msItem>
+</msContents>
+<physDesc><objectDesc><p>Rollehefte, ikke egenhendig. Se for øvrig Tone Modalslis manuskriptbeskrivelse</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Fru Inger til Østeraad - 10 rollehefter - F1280r:</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>Omslag: Rolleheftene til Fru Inger, Eline, Niels Steensøn og Olaf Skaktavl er omfattende med tekst, på størrelse med en kladdebok, og har blått omslag med etikett. Niels Steenssøns etikett skiller seg ut, da den inneholder rolletittel og dramatittel, begge med dobbel understrekning. Den inneholder, i likhet med de andre, også informasjon om skuespiller(e). Etikettene til Fru Inger, Eline og Olaf Skaktavl inneholder i tillegg dato, 29/8 61.</item>
+<item>tittelside:
+<list>
+<item>foran stykket:
+teksten er midtstilt.
+I rolleheftet til Fru Inger er tittelbladet revet ut.
+Tittelrollen er skrevet med større skrift og bredere penn enn rollebeskrivelsen og tekstopplysningene. I rolleheftet til En Soldat og Niels Steenssøn står dramatittel med samme skrift som tittelrollen. I Niels Lykkes, Niels Steenssøns og Olaf Skaktavls rollehefter står tittelrollen i anførselstegn. Dramaets tittel står i anførselstegn i alle rolleheftene. Øverst i høyre hjørne står det hvor mange ark det respektive rolleheftet består av (1 ark består her av 4 blad, 8 sider). I Bjørns, Elines, Finns, Niels Lykkes, Niels Steenssøns og Olaf Skaktavls hefte er opplysningen om arkantall understreket. I de tilfellene der arkantallet ikke er understreket, er det kodet med 'hi'. Rolleheftet til En Soldat mangler øvre del av tittelsiden, slik at ev. opplysninger om arkantall er tapt.
+Nederst på tittelsidene er det i alle rolleheftene, bortsett fra i En Soldats og Niels Lykkes limt inn en lapp. Det ser ut til å sitte igjen lim etter en slik lapp i Niels Lykkes rollehefte. På samme sted står teksten "af/Henr. Ibsen." - denne har antakeligvis vært skjult av lappen, og er det kanskje også i de andre rolleheftene.
+I alle rolleheftene er det tilføyd, ev. på innlimt lapp, med forskjellige penner navn på skuespillere og datoer for én (En Soldat, Niels Lykke), to (Bjørn, Niels Steenssøn) eller tre (Einar, Eline, Finn, Jens Bjelke, Olaf Skaktavl) oppsetninger. Dato mangler i Niels Lykkes rollehefte. Det står 2 datoer for Eline og Olaf Skaktavl, selv om de har 3 skuespillernavn. Det står "Reg." en eller flere ganger.
+Henrik Ibsens signatur står nederst i venstre hjørne på tittelsiden. Dette er den opprinnelige plassering kun i rolleheftet til En Soldat, et rollehefte som har første datering 16/12 54, i motsetning til de andres som er 10/12 54. I alle de andre rolleheftene er plasseringen midstilt under dramatittelen, men i samme skrift som resten, ikke signatur, og med teksten «af/Henr. Ibsen.». Med unntak av rolleheftet til «En Soldat», er det er limt en lapp over det midtstilte forfatternavnet i alle rolleheftene. Teksten under er tydelig ved gjennomlysning av papiret. I rolleheftet til «Niels Lykke» er lappen falt av, men det er tydelige spor etter lim og væteskade etter en slik lapp, i tillegg til at det gjenstår tekst utenfor, nedenfor området. Teksten som gjenstår er Ibsens signatur og en dato, men ikke skuespillernavn. I rolleheftene til «Eline», «Finn», «Jens Bjelke», «Niels Lykke», «Niels Steenssøn» og «Olaf Skaktavl» er Ibsens signatur understreket. Den eldste teksten er vanligvis overstrøket, slik at bare det som gjelder for den siste oppsetningen står igjen. I rolleheftet til «Fru Inger» er tittelbladet revet ut. I rolleheftene til Eline, Finn, Jens Bjelke, Niels Lykke, Niels Steenssøn og Olaf Skaktavl er Ibsens signatur understreket.
+Den eldste teksten er vanligvis overstrøket, slik at bare det som gjelder for den siste oppsetningen står igjen.
+</item>
+<item>etter stykket: Finns rollehefte inneholder en ekstra tittelside på bakre omslag. Her står tittelrollen med litt større skrift og er dessuten understreket. Denne tittelsiden er kodet i 'back'.</item>
+</list>
+</item>
+<item>situasjonsbeskrivelse: står på baksiden av tittelsiden. Teksten er umarkert. I Einars rollehefte har situasjonsbeskrivelsen innrykk første linje. i Elines rollehefte står den i parenteser. Rolleheftene til En Soldat og Fru Inger mangler situasjonsbeskrivelse.</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt, enkel eller dobbel understreking</item>
+<item>sceneanvisning: uten parentes, understreket, midtstilt</item>
+<item>utheving av rollenavn i sceneanvisning: separat eller dobbel/tykk understreking. Ikke alle rollenavn i sceneanvisninger er uthevet.</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt, enkel eller dobbel understreking, ordenstall med hevet "ste", "den" osv. (kodet med 'hi')</item>
+<item>sceneanvisning: understreket. Sceneanvisninger uten understrekning er kodet med 'rend="deviation"'.
+<list>
+<item>etter sceneoverskrift: med eller uten parentes</item>
+<item>mellom replikker: i parentes, midtstilt på egen linje, eller som løpende tekst etter foregående replikk</item>
+<item>i replikker: i parentes, som løpende tekst</item>
+</list>
+</item>
+<item>utheving av rollenavn i sceneanvisning: separat eller dobbel/tykk understreking. Ikke alle rollenavn er uthevet.</item>
+<item>rollenavn: plassert i venstre marg
+<list>
+<item>tittelrolle: markert med en horisontal strek (navnet står ikke). Inne i 'speaker' er det satt en entitet for rollenavnet. I stilarket gis det en kommando om at entiteten skal vises som rollenavn i "krøllklammer" i visningen</item>
+<item>andre roller: navnet står umarkert. Understrekede navn er kodet med 'rend="deviation"'</item>
+</list>
+</item>
+<item>prosareplikk: på samme linje som rollenavnet
+<list>
+<item>tittelrollens replikker: umarkerte</item>
+<item>andre rollers replikker: understreket. Manglende understrekning er kodet med 'rend="deviation"'.</item>
+</list>
+</item>
+<item>utheving i replikk: understreket</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skille- og pyntestreker: "krøllpyntestreker" etter hver akt</item>
+<item>bindestreker: doble</item>
+<item>anførselstegn: doble øvre kommaer</item>
+<item>parenteser: i En Soldats rollehefte brukes disse tegnene: /:[...]:/. I de øvrige heftene er det brukt alminnelige parentesbuer. Alle er gjengitt som alminnelige parentesbuer i den kodede teksten.</item>
+<item>sidetall: i øvre, ytre hjørne. Vanligvis med punktum etter</item>
+<item>noter: i parentes, som løpende tekst. Inneholder teksten "2den Gang." (brukes ved gjentakelser, der den første forekomsten ikke er gjengitt). Kodet med 'note resp="author"'</item>
+</list>
+</item>
+<item>skriblerier
+<list>
+<item>tegninger:
+<list>
+<item>ansikter i blyant: s. 17 (Bjørn), tittelside (Niels Steenssøn)</item>
+<item>helfigurer i blyant: s. 29, 36 (Niels Steenssøn), s. 15 (Olaf Skaktavl)</item>
+<item>geometriske blyanttegninger: s. 3 (Jens Bjelkes), s. 45, 90 (Niels Lykke)</item>
+<item>kruseduller: s. 5, 7 (Niels Lykke, blyant), 11 (Niels Steenssøn, blyant), s. 31 (blyant, etter stykkets slutt, Olaf Skaktavl), s. 31, 35 (Fru Inger)</item>
+<item>briller(?): s. 17 (Olaf Skaktavl)</item>
+<item>blyantsirkler: s. 29 (Fru Inger)</item>
+</list>
+</item>
+<item>blyantstreker: s. 8, 17, 18 (Eline), 104 (Niels Lykke), s. 7, 9, 15, 23, 24, 25, 31, 35 86, 95 (Fru Inger)</item>
+<item>vertikale streker mellom ord (markerer at det er to ord?): s. 58 (Eline), s. 39, 48, 95, 102, 103, 105 (Fru Inger), s. 8 (Jens Bjelke), s. 44, 57 (Niels Lykke)</item>
+<item>dobbeltkryss: i ventre marg s. 18 (Bjørn)</item>
+<item>blyantkryss: s. 8, 13 (Eline), s. 14, 15, 26, 35 (Fru Inger)</item>
+<item>krøllstreker: langs hele venstre marg i blyant s. 45 (Niels Lykke), s. 16 (Olaf Skaktavl), langs hele venstre marg i blyant s. 7 (Fru Inger), s. 23-25 (Fru Inger)</item>
+<item>tall: tallrekke nedover på s. 7 (Fru Inger), tre åttetall og tre andre tegn på s. 25 (Fru Inger)</item>
+<item>ringer over bokstaver (s, u, o, y) i Finns rollehefte</item>
+<item>tydeliggjøring: det forekommer en del ekstra streker på t-ene og tydeliggjøringer av enkeltbokstaver. Disse er ikke kodet spesielt.</item>
+<item>avsmittet blekk som kan feilleses som tankestreker, understrekninger o.l. finnes gjennomgående i heftene, bl.a. s 13, 67 i Fru Ingers rollehefte</item>
+<item>tekst:
+<list>
+<item>"NB" i blyant: 2 ggr. på s. 47 (Eline), s. 90 (Niels Lykke), s. 39 (Fru Inger)</item>
+<item>"48-49 Parquit(?)/til Butiken./Toldboden/8-9- Bul[...] L-" i blyant på tittelsiden i rolleheftet til Finn. Alt untatt "Toldboden" er overstreket med blyant.</item>
+<item>"Louise Birgithe/Bergithe/Bergitte"(?) strek ned til  sceneanv. "halvsagte, idet hun aabner brevet", blyant, s. 8 (Fru Inger)</item>
+<item>"1888" s. 25 (Fru Inger)</item>
+<item>"Parnasset" i venstre marg på s. 67 (Fru Inger)</item>
+<item>"strøget." i venstre marg på s. 70 (Fru Inger)</item>
+<item>Initialer ("ST"?), s. 23 (Olaf Skaktavl, penn)</item>
+<item>Fleuri...densen(?) s. 36 (Eline, penn)</item>
+</list>
+</item>
+</list>
+</item>
+<item>hender: &lt;item&gt;hender: I «Niels Lykkes» rollehefte er understrekningene (av overskrifter, sceneanvisninger, replikker og rollenavn), samt streken i margen som markerer tittelrollen, gjennomgående utført (el. tydeliggjort) av h2 (blyant). Dette er ikke kodet spesielt.
+<list>
+<item>I «Jens Bjelkes» rollehefte er det ingen endringer av h3. H2 har gjort én endring (s. 5). Kan være Ibsens håndskrift?</item>
+<item>I «Einars» rollehefte ser det ut som at to hender har gjort endringer. Alle de mange pennendringer er gjennomgående utført av en h3 som ikke er identisk med h3 i de andre heftene, likeså de svært få blyantendringer som er gjort av en anderledes h2 (blyant) (se s.7). De er kodet som h2 og h3. H3s endringer følger 1874-utgaven. F.eks. er F1s: «See saa, nu er vi væbnede, og saa afsted!» endret til F2s «Nok, nok, I gode bønder; nu mener jeg vi er vel rustede. Nu kan vi lægge i vej!», «(Landse)stagen» for «Landse» osv. H3 har en tynn penn, litt spiss og slurvete skrift, bolle-å, j for y, minuskel forbokstav i substantiv. Vanskelig å si noe om h2. Ikke strek over u-en.</item>
+<item>«Finns» rollehefte har to ekstra blad i annet papir og med annen skrift og med -74-utgavens skrivemåte av Østeraad/Østråt. Skriften kan ligne på skriften til retterhånden i Einars rollehefte, og følger f2s tekst, eks. rettingen s. 8 («det veed jeg nu ikke saa ligetil» (som i f1) endret til «det er der nok ikke mange som véd» (som i f2)). Endringene og de to ekstra bladene er derfor antagelig ikke opprinnelige.</item>
+<item>Skriften har dessuten bue, nesten en ring, over s og u., og 'anførselstegn'.</item>
+</list>
+</item>
+<item>skader
+<list>
+<item>Einars hefte er blitt brettet, og har så store slitasjer i bretten at skriften der er uklar og nesten alle bladene brekker. Siste blad har brukket i bretten, og den ytterste delen, med 1 1/2 siders tekst, mangler. </item>
+<item>Finns rollehefte er brettet i to, og er skadet i bretten.</item>
+<item>Olaf Skaktavls rollehefte er brettet i to, og er skadet i bretten.</item>
+<item>Bjørns rollehefte er brettet i to.</item>
+<item>Jens Bjelkes rollehefte er også brettet i to, men er ikke så skjør i bretten som de foregående.</item>
+<item>øvre halvdel av tittelbladet til En Soldats rollehefte er revet av</item>
+<item>tittelsiden mangler (avrevet) i rolleheftet til Fru Inger, gjenstår en flik. Gjennomgående slitt med rifter og bretter i kantene på hvert blad. Øverste, ytre del av s. 99-100 i Fru Ingers rollehefte er klippet ut. Det ser ut til å være gjort for å fjerne tekst, for sidetall er påført under tomrommet. Noen løse blad.</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="castItem">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker/stageRole</headItem>
+<label>BJORN</label><item>Bjørn/Bjørn</item>
+<label>EINAR</label><item>Einar/Einar</item>
+<label>ELINE</label><item>Eline/Eline</item>
+<label>SOLDAT</label><item>En Soldat, Soldaten/</item>
+<label>FINN</label><item>Finn/Finn</item>
+<label>FRUINGER</label><item>Fru Inger, Inger/Fru Inger, Inger Gyldenløve</item>
+<label>BJELKE</label><item>Bjelke, Bjælke(sic)/Jens Bjelke</item>
+<label>NIELSLYKKE</label><item>Lykke, Niels Lykke, Nils(sic) Lykke/Niels Lykke</item>
+<label>STEENSSON</label><item>Steenssøn, Steensøn, Steen, Steens/Niels Steenssøn, Niels Steensøn, Steenssøn</item>
+<label>SKAKTAVL</label><item>Skaktavl, Skakt, Olaf Skaktavl/Olaf Skaktavl, Skaktavl</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven er ikke ført inn (skulle vært kodet med pb ed="HU"). Dette tekstvitnet dekker sidene 121-228.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="JPr" xml:id="JPr" medium="pen" scope="major"><p>Jacob Prom. Hovedhånd i 9 hefter.</p></handNote>
+<handNote scribe="HI" xml:id="HI" medium="pen"><p>Henrik Ibsen. Signert, samt påført dato for utlevering og navn på skuespiller på tittelbladene.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pen"><p>En eller flere uidentifiserte hender. Blyant og blekk. Rettelser.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte (Finn). Fila er kodet om til TEI P5 for HISe.</change>
+<change>
+<date>15.06.08</date>
+<name>HB</name><title>Kodeoppdatering</title>
+Validerte filen. Oppdaterte koding etter punktene i avsnittet om teiHeader i ms-filer i dokumentet HISe-forberedende_koding_og_notater.html.
+</change>
+<change><date>17.12.07</date>
+<name>HB</name><title>Fjernet space</title>
+Fjernet space på s. 17 i Finns rollehefte, og erstattet elementet med rend="deviation".</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Lar performance stå siden det ikke er benyttet til å omslutte castList, men til opplysninger om skuespillere osv.</title></change>
+<change><date>23.06.06</date>
+<name>HB</name><title>Retting av ms-koding</title>
+Fjernet hand i del/overwritten, sjekket at det lå hand i den tilhørende add-taggen. Sjekket og endret evt. mellomrom mellom del/overwritten og påfølgende add-tagg.</change>
+<change><date>20.04.06</date>
+<name>ENW</name><title>Omkoding</title>
+Ferdig med omkoding av håndskriftsrettelser. Validert.</change>
+<change><date>15.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Ikke valid pga. gammel ms-koding.</change>
+<change><date>18.01.06</date>
+<name>ENW</name><title>Omkoding</title>
+Begynt omkoding av håndskriftsrettelser. Oppdaterte TEI-header. Samkjørte handList med TMs ms.besk., merk at jeg har lagt til en gruppe med uidentifiserte hender (rettelser i blekk og blyant) som TM ikke har tatt med. Validert.</change>
+<change><date>16.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Fikk ikke validert pga. gammel koding og et par feil. Blir vel rettet i manuskriptgjennomgangen.</change>
+<change><date>23.02.05</date>
+<name>ENW</name><title>Feilretting</title>
+Rettet en gal lesemåte s. 106 (vare/være) oppdaget under edering av F1. Endret koding av msContents i msDescription.</change>
+<change><date>24.09.03</date>
+<name>HB</name><title>Feilretting</title>
+Ga filen nytt navn og ny attributtverdi i tråd med HIS' praksis. Rettet feil i koding. Gjenstående feil skyldes dtd'en og er oversendt dtd-ansvarlig.</change>
+<change><date>29.10.02</date><name>IF</name><title>Oppdatering</title>La inn msDescription og oppdaterte sourcedesc ellers, la inn metDecl, endret elementet shy til entitet, endret corrmarks til numbered eller restore. Fjernet appSpan i Elines r. 5. akt, scene 1. Ikke lagt inn HUs sideskift. Validert</change>
+<change><date>16.09.02</date><name>IF</name><title>Oppdatering</title>Oppdaterte doctype. Endret docImprint til note type=skribble på tittelsidene</change>
+<change><date>29.01.02</date><name>IF</name><title>Kontroll av tekst og koding. Oppdatering av koding.</title>Tekst- og kodekontroll ferdig. Tekstkontroll mot manuskriptet. Standardiserte teksten i typo-notene. Sjekket interpunksjon i forhold til emph. Endret type= til rend= i del og ved corrmarks. Endret nummererte div til unummererte. La til place="inline" ved clarification. Type="Parts" i bibl. ble ikke validert, derfor unnlatt. La inn oversikt over rolleheftene i note i bibl. Selv om det ble validert, endret jeg \p rend=deviation\ til \p\hi\, fordi \p rend\ hverken står i kodepraksis eller attributtverdilista. Fjernet id-attributt i titlepage, fordi det ikke ble validert når det er id-attributt i text (unntatt når attributtet står med minuskler) - det står heller ikke noe om dette i kodepraksis eller attributtverdilista. Sgmls godkjente heller ikke who-attributt i titlepage. Ikke lagt inn HUs paginering. La til c:\SGML\TEI\ibsen-xml.dtd. og resp TM i teiHeader. Ved de 2 utstrykningene som er markert med korrekturtegn, har jeg lagt til appSpan, og plassert corrmarks der, da corrmarks ifølge ny kodepraksis ikke lenger kan settes direkte i delSpan. Validert.</change>
+<change><date>24.10.00-08.01.01</date><name>SBT</name><title>Etablering</title>
+Konverterte manuskripttranskripsjonen fra word-format til TEI XML. Leste korrektur på teksten mot faksimile. Må kontrolleses mot manuskriptene. En del av teksten er skjult på faksimilene, bak bretter, i linninger osv. Her har jeg kodet med 'gap', 'unclear' eller 'note'. Kontrollér med ms. og fjern ev. disse kodene etterpå. Har skrevet typografibeskrivelse. Har lagt til foliering. Håndlista: har ikke skilt mellom ulike penner, bare mellom penn og blyant. Opplysninger om arkantall på tittelsidene er kodet innenfor 'measure' i 'docImprint'. Scenenummereringa i rolleheftet til En Soldat avviker fra den i de øvrige rolleheftene og i sufflørboka. Avvikene er siccet, og de ideelle scenenumrene (dvs. de som samsvarer med de øvrige heftene) er oppført i n-attributtet til 'div'. Siden Fru Ingers rollehefte mangler tittelside, er id-attributtet hennes lagt inn i første 'sp' (ved siden av who-attributtet) der Fru Inger opptrer i sitt rollehefte. I det store apparatet i Fru Ingers rollehefte (s. 65-73) har jeg måttet juksekode litt for å få det validert. Begynnelses- og sluttagger til 'p' og 'sp' er lagt til før og etter innførselen av nye 'speakere'. Har brukt stor/liten forbokstav som kriterium for hvorvidt sceneanv. i slutten av replikker skal stå i eller utenfor 'p'. Tittelrollene i rolleheftene er bare gjengitt med en horisontal strek i margen. Disse er gjengitt som tomme speakere. I stilarket vil de vises som rollenavn innenfor skarpe klammer. Alle avvik (manglende understreking eller dobbel understreking i stedet for enkel understreking) er kodet med 'hi' eller 'rend="deviation"'. Burde vi spesifisere avvikene nærmere, f.eks. med "underlineddb"? Har ikke noen attributtverdi for manglende understreking. Teksten er validert. Har lagd bok.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" xml:lang="dan-nob" rend="handwritten">
+<front>
+<pb/>
+<titlePage>
+<note resp="author">2 Ark.</note>
+<docTitle>
+<lb/><titlePart>Finn
+<lb/>Fru Ingers Huuskarl
+<lb/>i
+<lb/>&lquo;Fru Inger til Østeraad;&rquo;
+<lb/>historisk Drama i 5 Akte<unclear>r</unclear></titlePart>
+</docTitle>
+</titlePage>
+<performance>
+<lb/><p><HIS:hisAdd place="margin"><HIS:hisAdd place="inline" hand="h1">Hr. Thomassen</HIS:hisAdd>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">Hr. Asmundsen</HIS:hisDel>.
+<lb/><HIS:hisAdd place="inline" hand="h1">3/7 85 Reg.</HIS:hisAdd>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">Hr. Nielsen</HIS:hisDel>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">D: 29/8 61.</HIS:hisDel>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">Reg: 10/12. 54</HIS:hisDel>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">Henr. Ibsen</HIS:hisDel></HIS:hisAdd><note resp="editor">Teksten er skrevet på pålimt lapp, under lappen ser det ut som det står: af / Henr. Ibsen</note></p>
+</performance>
+<pb/>
+<lb/><set><p>Handlingen foregaaer paa Herresæ&typHyp;
+<lb/>det Østeraad ved Trondhjems&typHyp;
+<lb/>fjorden i Aaret 1528. &dash;</p></set>
+</front>
+<body>
+<pb/>
+<div type="act" n="1">
+<lb/><fw type="page" place="top-right"><unclear reason="damage">3</unclear></fw>
+<lb/><head>Første Akt.</head>
+<div type="scene" n="1">
+<lb/><head>1<hi rend="raised">ste</hi> Scene.</head>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(og Bjørn sidde ved Ildste&typHyp;
+<lb/>det. <HIS:stageRole who="FINN">Finn</HIS:stageRole> er beskjæftiget
+<lb/>med at afpudse en Hjelm.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(efter en Pause.)</HIS:hisStage></HIS:spOpener><p>Hvem var
+<lb/>Knud Alfsøn?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Norges sidste Riddersmand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og Danskerne fældte ham
+<lb/>jo i Oslofjord?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>ifald du ikke veed det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa Knud Alfsøn var alt&typHyp;
+<lb/>saa vor sidste Riddersmand?
+<lb/>Og nu er han død og borte!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">4.</fw>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(Idet han holder Hjelmen ivei&typHyp;
+<lb/>ret.)</HIS:hisStage></HIS:spOpener><p>Ja, saa kan du gjerne <HIS:clarification place="inline">f</HIS:clarification>in&typHyp;
+<lb/>de dig i at hænge blank og
+<lb/>pudset i Riddersalen, for nu
+<lb/>er du ikke andet end en tom
+<lb/>Nøddeskal; Kjærnen, &dash; <HIS:hisDel rend="overstrike">ja</HIS:hisDel> den
+<lb/>har Ormene ædt for mange
+<lb/>Vintre siden. Hør du, Bjørn!
+<lb/>kunde man ikke sige at Nor&typHyp;
+<lb/>ges Land ogsaa er slig en
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">tom</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">huul</HIS:hisDel></HIS:hisRdg></app> Nøddeskal ligerviis
+<lb/>som Hjelmen her, blank uden&typHyp;
+<lb/>paa, ormstukken indeni?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Er Hjelmen færdig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Den skinner som Sølv i Maa&typHyp;
+<lb/>neskin!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>Gravrusten af Sværdet.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">5.</fw>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(idet han betragter det.)</HIS:hisStage></HIS:spOpener><p>Men kan
+<lb/>det lønne sig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>Hvad mener du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Eggen er borte.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>see der er Skjoldet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(ondskabsfuld.)</HIS:hisStage></HIS:spOpener><p>Det mangler Haand&typHyp;
+<lb/>grebet, du.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Haandgreb i dig, saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(nynner med sig selv.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Hvad er der nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>En tom Hjelm, et Sværd uden
+<lb/>Eg, et Skjold uden Haandgreb,
+<lb/>see det er hele Herligheden.
+<lb/>Jeg troer Ingen skal kunne
+<lb/>laste Fru Inger, fordi hun hæn&typHyp;
+<lb/>ger slige Vaabenstykker pudsede
+<pb/>
+<lb/><fw type="page" place="top-right">6.</fw>
+<lb/>paa Salsvæggen, istedetfor at lade
+<lb/>dem rustne i Danerblod.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Fred i Landet veed jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Fred? Ja, naar Bonden har
+<lb/>skudt væk sin sidste Piil, og
+<lb/>Ulven har st<HIS:hisDel rend="overwritten">a</HIS:hisDel>jaalet hans sidste
+<lb/>Lam ud af Fjøset, saa hol&typHyp;
+<lb/>de <emph>de</emph> ogsaa Fred sig imel&typHyp;
+<lb/>lem; men det er nu saadant
+<lb/>et underligt Venskab! Naa,
+<lb/>naa, lad den Ting fare.
+<lb/>Det er ganske rimeligt som
+<lb/>jeg sagde, at Rustningen hæn&typHyp;
+<lb/>ger blank i Salen, for du
+<lb/>kjender vel det gamle Ord:
+<lb/>Kun Riddersmanden er en
+<lb/>Mand, og da vi nu ikke <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">længer</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">me&typHyp;</HIS:hisDel></HIS:hisRdg></app>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">re</HIS:hisDel> har nogen Riddersmand
+<pb/>
+<lb/><fw type="page" place="top-right">7.</fw>
+<lb/>hertillands, saa har vi <HIS:hisAdd place="offline" hand="h1">altså</HIS:hisAdd> heller
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">ikke nogen</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">ingen</HIS:hisDel></HIS:hisRdg></app> Mand, og hvor der ingen
+<lb/>Mand er, der faaer Kvinden
+<lb/>raade, see derfor &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>ind i Salen igjen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei, lad det heller være til
+<lb/>imorgen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>vel aldrig mørkræd?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ikke om Dagen. Skulde det
+<lb/>hænde sig, at jeg var det ved
+<lb/>Kvældstid, saa <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">er jeg ikke alene om det.</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">kan du tro</HIS:hisDel> mig,</HIS:hisRdg></app>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">det var ikke min Skyld.</HIS:hisDel> Ja
+<lb/>du seer paa mig, men du
+<lb/>skal vide, <HIS:hisDel rend="overstrike">der</HIS:hisDel> nede i Borge&typHyp;
+<lb/>stuen gaaer der Snak om <HIS:hisDel rend="overstrike">saa</HIS:hisDel>
+<lb/><seg type="transposition" part="I"><seg rend="supralinear" subtype="no">2</seg><seg subtype="txt">Meget</seg></seg> og <seg type="transposition" part="F"><seg rend="supralinear" subtype="no">1</seg><seg subtype="txt">Mangt</seg></seg>. <HIS:hisStage>(hviskende.)</HIS:hisStage>
+<lb/>Der er <HIS:hisDel rend="overstrike">nok</HIS:hisDel> en og anden som
+<pb/>
+<lb/><fw type="page" place="top-right">8.</fw>
+<lb/>mener, at der vandrer en stor
+<lb/>sortklædt Skikkelse derinde
+<lb/>hver evige Nat.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Kjærringsludder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja men de bande Allesammen
+<lb/>paa at det er sandt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Det troer jeg nok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det forunderligste er, at Fru
+<lb/>Inger er af samme Mening
+<lb/>som vi.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Naa hvad mener hun?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">fru Inger</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">hun</HIS:hisDel></HIS:hisRdg></app> mener; ja see det
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">er der nok ikke mange som véd</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">veed jeg nu ikke saa lige&typHyp;</HIS:hisDel></HIS:hisRdg></app>
+<lb/><HIS:hisDel rend="overstrike" hand="h1">til</HIS:hisDel>; men vist er det at hun
+<lb/>har ingen Ro paa sig &dash; Kan
+<lb/>du ikke see at hun bliver
+<lb/>blegere og magrere Dag for
+<pb/>
+<lb/><fw type="page" place="top-right">9.</fw>
+<lb/>Dag. <HIS:hisStage>(med forskende Øiekast.)</HIS:hisStage>
+<lb/>Folkene sige<HIS:hisAdd place="inline" hand="h1">r</HIS:hisAdd> at hun aldrig
+<lb/>sover &dash; og at det er for Spø&typHyp;
+<lb/>gelsets Skyld &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>Dumhed troer du paa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, saa halvveis; der er ellers
+<lb/>de som udlægge den Ting
+<lb/>paa en anden Maade, men
+<lb/>see det er nu bare Ondskab.
+<lb/>Hør du, Bjørn, kjender du
+<lb/>Visen som gaaer Landet
+<lb/>rundt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker>.</HIS:spOpener><p>En Vise?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, den er i Folkemunde; det
+<lb/>er en skammelig Nidvise, det
+<lb/>forstaaer sig, men den gaaer
+<lb/>ret artigt forresten; hør nu
+<lb/>bare efter. <HIS:hisStage>(Synger med dæmpet
+<pb/>
+<lb/><fw type="page" place="top-right">10.</fw>
+<lb/>Stemme.)</HIS:hisStage></p>
+<lb/><HIS:hisLg versetype="stanzaGroup"><HIS:hisLg versetype="stanza"><l>&lquo;Fru Inger sidder paa <sic>Øteraad</sic>
+<lb/>Gaard.</l>
+<lb/><l>Hun er vel svøbt i Skind,</l>
+<lb/><l>Hun er vel svøbt i Fløiel og Maard,</l>
+<lb/><l>Hun fletter de røde Guldperler i
+<lb/>Haar</l>
+<lb/><l>Men har ikke Fred i sit Sind.&rquo;</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="stanza"><l>&lquo;Fru Inger har solgt sig til Dan&typHyp;
+<lb/>skens Drot &dash;&rquo;</l>
+<lb/><HIS:hisAdd place="inline" hand="h1"><l>Hun skikker sit <HIS:clarification place="inline">F</HIS:clarification>olk i Fremmedes
+<lb/>Vold</l>
+<lb/><l part="Y">Som Vederlag &dash;</l></HIS:hisAdd></HIS:hisLg></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>Ord til om Fru Inger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(river sig løs.)</HIS:hisStage></HIS:spOpener><p>Naa, naa, er det
+<lb/>mig der har gjort Visen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>Tys! hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Et Horn; saa faa vi nok
+<lb/>Gjæster ikvæld.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>være en Riddersmand.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right"><gap reason="damage"/></fw>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>En Riddersmand? Det kan
+<lb/>det vel neppe være.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker>Bjørn</speaker></HIS:spOpener><p>Hvorfor ikke?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Selv har du sagt det, vor
+<lb/><emph hand="h1">sidste</emph> Riddersmand er død og
+<lb/>borte. <HIS:hisStage>(gaaer ud tilhøire.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER">Fru Inger.</HIS:stageRole> Eline. Bjørn. <HIS:stageRole>Huuskarle</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker>Einar</speaker>.</HIS:spOpener><p>Banner nogen Mand vil forlange.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(kommer med et Brev fra Venstre.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(til Fru Inger.)</HIS:hisStage></HIS:spOpener><p>Jeg har <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">ledt</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">søgt</HIS:hisDel></HIS:hisRdg></app>
+<lb/>Eder i alle Stuer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Hvad vil du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(rækker hende Brevet.)</HIS:hisStage></HIS:spOpener><p>En Svend
+<lb/>fra Trondhjem har bragt Brev
+<lb/>og Bud til Eder.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right"><gap reason="damage"/></fw>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>forlade Østeraad for det Første.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Bevægelse blandt Mængden.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>min Villie at vide. Gaa!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(gaaer tilhøire.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+<div type="act" n="2">
+<lb/><head>Anden Akt.</head>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">den</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER">Fru Inger</HIS:stageRole>. <HIS:stageRole who="SKAKTAVL">Skaktavl.</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Nu, hvis I saa lyster.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(De gaa.)</HIS:hisStage>
+<HIS:hisAdd place="inline" hand="h1"><HIS:hisStage>(Ophold)</HIS:hisStage></HIS:hisAdd>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(<app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">Kommer ind forsigtig. ser sig omkring, kiker ind i riddersalen går tilbage til døren, gir <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tegn, derefter kommer</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">fører</HIS:hisDel></HIS:hisRdg></app> Niels Lykke og Jens Bjelke
+<lb/>ind fra Høire.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisAdd place="inline" hand="h1"><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker><sic>Nils</sic> Lykke</speaker>:</HIS:spOpener><p>Ingen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nej herre!</p></HIS:hisSp></HIS:hisAdd>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>paa Dig i Et og Alt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Befalingsmanden i Trondhjem har
+<pb/>
+<lb/><fw type="page" place="top-right"><unclear reason="damage">13</unclear></fw>
+<lb/>stedse givet mig Skudsmaal for
+<lb/>at være paalidelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>før os iaften?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>For en Time siden kom der <HIS:hisDel rend="overwritten">E</HIS:hisDel><HIS:hisAdd place="inline" hand="h1">e</HIS:hisAdd>n. <HIS:hisAdd place="offline" hand="h1">fremmed mand</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>Har du seet ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei det har nok Ingen uden
+<lb/>Portvægteren, saavidt jeg veed.
+<lb/>Han blev strax stedet for Fru
+<lb/>Inger, og hun &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>allerede borte igjen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei, men hun holder ham
+<lb/>nok skjult inde i en af si&typHyp;
+<lb/>ne egne Stuer, for &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>Borgeporten holdes lukket?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, det veed jeg ikke; der tales
+<lb/>rigtignok om Løngange neden&typHyp;
+<lb/>under i Kj<gap reason="damage"/>lder<HIS:hisDel rend="overwritten">en</HIS:hisDel><HIS:hisAdd place="inline" hand="h1">ne</HIS:hisAdd>, men der er
+<pb/>
+<lb/><fw type="page" place="top-right">14.</fw>
+<lb/>nok Ingen uden Fru Inger
+<lb/>selv; <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">ja &dash; og så <sic>kanske</sic> Jomfru Eline</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">som kjender dem</HIS:hisDel></HIS:hisRdg></app>.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>du kan gaa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Vel. Skulle I senere ville mig
+<lb/>Noget saa behøver I <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">bare</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">kun</HIS:hisDel></HIS:hisRdg></app> at
+<lb/>lukke paa den anden Dør til&typHyp;
+<lb/>venstre derinde i Riddersalen;
+<lb/>jeg skal da strax være ved
+<lb/>Haanden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker>.</HIS:spOpener><p>Godt. <HIS:hisStage>(<unclear reason="damage">p</unclear>eger mod Døren.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(gaaer ud <unclear reason="damage">ti</unclear>lhøire.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+<div type="act" n="4">
+<lb/><head>Fjerde Akt.</head>
+<div type="scene" n="4">
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole>. <HIS:stageRole who="FRUINGER">Fru Inger</HIS:stageRole>. <HIS:stageRole who="STEENSSON">Niels
+<lb/>Steenssøn.</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Det er Aanderne som vaagne!</p></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-right"><gap reason="damage"/></fw>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER NIELSLYKKE STEENSSON">De Forrige.</HIS:stageRole> <HIS:stageRole who="SKAKTAVL">Skaktavl</HIS:stageRole>, <HIS:stageRole who="BJORN">Bjørn</HIS:stageRole>, <HIS:stageRole who="FINN">Finn,</HIS:stageRole>
+<lb/><HIS:stageRole>Huuskarle</HIS:stageRole> og Tjenere (komme fra
+<lb/>Høire i Baggrunden.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Leve! leve Inger Gyldenløve!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>hvis Gud saa vil det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hil ham! Hil Grev Sture!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Lykke</speaker> <HIS:hisStage>(har imidlertid kaldt Finn
+<lb/>til sig og talt hemmeligt med
+<lb/>ham.)</HIS:hisStage></HIS:spOpener><p>hans Liv er mig Tusinder værdt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det skal skee!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Bevogtning i Borgkjælderen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>I Borgekjælderen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(Føres ud til Venstre af to Huus<unclear reason="binding">&typHyp;</unclear>
+<lb/>karle.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><figure type="bar"/>
+<pb/>
+<pb/>
+<HIS:hisAdd place="margin" hand="h1">
+<pb/>
+<lb/><HIS:hisStage rend="deviation">(<HIS:stageRole who="FINN">Finn</HIS:stageRole> ind sammen med Bjørn og de andre)</HIS:hisStage>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hil <unclear reason="writing">være</unclear> fru Inger Gyldenløve!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker rend="deviation">Fru Inger</speaker></HIS:spOpener><p><hi>og Norges med, hvis Gud så vil det.</hi></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hil ham! Hil grev Sture!</p></HIS:hisSp>
+<lb/><HIS:hisStage rend="deviation">(Almindelig bevægelse. Bønder og huskarle
+<lb/><unclear reason="writing">udsøke</unclear> sig i våben &dash; stor larm.</HIS:hisStage>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Olaf Skaktavl</speaker></HIS:spOpener><p><hi>&dash; Er I så rede?</hi></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja ja ja</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker><sic>Nils</sic> Lykke</speaker></HIS:spOpener><p><hi>&dash; at junkerens liv er mig tusener værdt</hi></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det skal ske</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Fru Inger</speaker></HIS:spOpener><p><hi>sikker <sic>bevgtning</sic> i borgekælderen</hi></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Fru Inger</speaker></HIS:spOpener><p><hi>I borgekælderen</hi></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN" rend="deviation"><HIS:spOpener><HIS:hisStage rend="deviation">føres ud</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<pb/>
+<p><lb/>Finn.
+<lb/>i
+<lb/>Fru Inger til Østråt</p>
+</HIS:hisAdd>
+</div>
+</div>
+</body>
+</text>
+</TEI>
+
+

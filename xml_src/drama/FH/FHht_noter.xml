@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="FH">Fruen fra havet</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>HISe/TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteFH_1"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_1">1888</HIS:hisRef>] <hi rend="italic">på baksiden av tittelbladet i 1. utg. står følgende:</hi> En af forfatteren autoriseret tysk oversættelse udkommer samtidig med originalen.</note>
+<note resp="editor" xml:id="noteFH_2"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_2">se</HIS:hisRef>] sé <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteFH_3"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_3">å,</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.3, FU, 2. utg.,</hi> å <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteFH_4"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_4">til</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.3, FU, 2. utg.,</hi> tii <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteFH_5"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_5">kunde &dash;</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1116b, KBK Collin 262, 4&deg;, III.3, FU, 2. utg.,</hi> kunde, &dash; <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteFH_6"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_6">du</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1116b, FU, 2. utg.,</hi> Du <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, III.3</hi></note>
+<note resp="editor" xml:id="noteFH_7"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_7">er</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1116b, KBK Collin 262, 4&deg;, III.3, FU, 2. utg.,</hi> er er <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteFH_8"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_8">altereret</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1116b, KBK Collin 262, 4&deg;, III.3, FU, 2. utg.,</hi> alteret <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteFH_9"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_9">du</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1116b, KBK Collin 262, 4&deg;, III.3, FU, 2. utg.,</hi> Du <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteFH_10"><HIS:hisRef type="tcNote" target="FHht.xml" corresp="noteFH_10">fra</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1116b, KBK Collin 262, 4&deg;, III.3,</hi> for <hi rend="italic">1. utg., FU, 2. utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

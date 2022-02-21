@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk transkripsjon</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">NBO Ms. 8&deg; 1928 [Liste over påtenkte nye dikt]</title>
+<title level="a" type="origYear">[1871-1872]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Mette Witting, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Transkripsjon av original og koding, mai 2003:</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>2. kollasjon, koding og kodekontroll, juni 2003:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Di81928-0805"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på intern transkripsjon.</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Di81928">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket, Håndskriftsamlingen</repository>
+<idno>NBO Ms 8&deg; 1928 (s. 1)</idno>
+</msIdentifier>
+<msContents>
+<msItem><author>Henrik Ibsen</author>
+<title>Nye digte</title>
+<docDate>[1872]</docDate></msItem></msContents>
+<physDesc><objectDesc><p>Egenhendig liste over påtenkte nye dikt til annen utgave av Digte (1875). Første side i et manuskript på fire sider (et ark); de øvrige sidene inneholder regnskaper og rollebesetning til en oppførelse av Kjærlighedens Komedie.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list><item>Overskriften er midtstilt, innførslene venstrejustert.</item></list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+ <language ident="nob"/>
+ <language ident="da-no"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" medium="pen-black" scope="major"><p>Brunsort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>18.11.10</date>
+<name>SBT</name><title>Oppdatering</title>
+La inn en eacute-entitet. Fjernet variantEncoding og metDecl fra teiHeader.</change>
+<change><date>30.10.07</date>
+<name>SBT</name><title>Oppdatering</title>
+Gikk gjennom sic/typo-noter i alle Di-filer.</change>
+<change><date>26.10.07</date>
+<name>SBT</name><title>Omkoding</title>
+Typologiserte om teksttypen fra workingManuscript til notes. Fjernet div.</change>
+<change><date>24.10.07</date>
+<name>SBT</name><title>Oppdatering i alle Di-filer</title>
+Oppdaterte teiHeader (undertitler kodet om fra desc til sub).</change>
+<change><date>23.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert (dog ikke lenkekodingen).</change>
+<change><date>27.11.03</date>
+<name>SBT</name><title>Paginering</title>
+La inn manglende pb-kode.</change>
+<change><date>03.06.03</date>
+<name>IAA</name><title>2. kollasjon</title>
+Andrekollasjon, mot faksimile. Endret litt i teiheader og en bokstav i transkripsjonen, ellers alt ok. Erstattet div type="contents" med div type="workingManuscript", for dette bør vel anses som en liste og ikke som en innholdsfortegnelse? Validerte og kodekontrollerte.</change>
+<change><date>15.05.03</date>
+<name>MW</name><title>Oppretting av fil samt transkripsjon</title>
+Jeg opprettet filen og transkriberte teksten mot originalen på NBO (jeg tok kollasjonen mot originalen før faksimilen, fordi håndskriftsamlingen stenger tre måneder fra i morgen). Jeg er i tvil om det skal stå 'workingManuscript' eller 'notes' i msDescription. Validert. Klar for annenkollasjon mot faksimile.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="poem" rend="handwritten" xml:lang="da-no">
+<body>
+<pb/>
+<lb/><head>Nye digte.</head>
+<list>
+<lb/><item>Ved tusendårsfesten.</item>
+<lb/><item>Ved statsråd Riddervolds afgang.</item>
+<lb/><item>Munken på Epoméo.</item>
+<lb/><item>Familjen Carioli.</item>
+<lb/><item>Tre rejsebilleder.</item>
+<lb/><item>Danebrog i Tyrol.</item>
+<lb/><item>Nordens signaler.</item>
+</list>
+</body>
+</text>
+</TEI>

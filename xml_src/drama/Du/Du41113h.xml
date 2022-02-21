@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1113h</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respStmt>
+    <respStmt>
+        <resp>Kodet om til TEI-P5, juli 2011</resp>
+        <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+    <respStmt><resp>Transkripsjon av faksimile, mars, 2003</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>Annenkollasjon og kodekontroll, april 2003</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du41113h-0805"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Du41113h er bygget på faksimile.</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="Du41113h">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1113h</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem><author>[Henrik Ibsen]</author>
+                <title>Uten tittel</title>
+                <docDate>Udatert</docDate></msItem>
+        </msContents>
+        <physDesc><objectDesc><p>1. bl. egenhendig notat og arbeidsmanuskript (replikkutkast) til noe av første akt. Side 3 inneholder en trykkfeilsliste til Digte (1875).</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Replikkveksling mellom Nora og fru Linde, skrevet raskt og fortløpende som prosa. Til dels vanskelig leselig.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd 8) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 283-284.</tagUsage></namespace>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Brunsort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. Valid fil.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+        <name>SBT</name><title>P5</title>
+        Kodet om til P5.</change>
+    <change><date>28.03.08</date>
+<name>ENW</name><title>Feilretting</title>
+Rettet en del transkripsjonsfeil oppdaget av TM under arbeidet med ms.besk. Kodet om apparater med overskrivninger. Validert. Ny visning.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>22.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>17.02.05</date>
+<name>IF</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Endret HU til hu i pb. Feilmeldinger på entiteter og lenken til standard-xml.</change>
+<change><date>15.05.03</date>
+<name>MW</name><title>Kodeendringer</title>
+Jeg endret kodingen ifølge vedtak fra kodemøtet 24. april (handList, title (Uten tittel), fjernet lenkekodingen - også i Du.xml). Validert.</change>
+<change><date>08.04.03</date>
+<name>MW</name><title>Annenkollasjon og kodekontroll</title>
+Resultatene av annenkollasjon mot originalen er innført. Sidetall for HU er lagt inn. La inn lenke til Du.xml. Det er ikke laget noen id-who-liste i teiHeaderen, da utformingen av teksten ikke tydelig er satt opp i replikker, men mer er formet som prosa. Kodekontroll gjennomført. Validert.</change>
+<change><date>18.03.03</date>
+<name>HB</name><title>PS</title>
+Når manuskriptet kollasjoneres mot original bør man sjekke hvorvidt det er riktig å legge inn en gap-tagg for å markere de bitene av manuskriptet som er utelatt. Skal det forøvrig stå Du i title i matDesc her når ms-et egentlig ikke har tittel?</change>
+<change><date>11.03.03</date>
+<name>HB</name><title>Oppretting av fil samt transkripsjon</title>
+Opprettet fil og transkriberte og kodet teksten. Transkriberte ikke s. 3 siden den inneholder en trykkfeilsliste tilknyttet Digte (1875). Jeg har ikke forholdt meg til hvor i stykket replikken hører (evt. skulle hørt) hjemme, og jeg har derfor heller ikke kodet inn evt. sidetall fra HU. Filen er valid og klar for 2. kollasjon.</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" xml:lang="dan-nob" rend="handwritten">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<body>
+<div>
+<pb ed="HU" n="284"/>
+    <pb/>
+<pb/>
+<lb/><p>De øvre<note resp="editor">'ø' mangler diakritisk tegn.</note> klasser. Skolepenge, fornødenheder.
+<lb/>Det gik ikke længer i en slig afkrog. Må få kontor&typHyp;
+<lb/>arbejde &dash; Fru St. Det anstrængende liv &dash; <pb ed="HU"/>heller
+<lb/>en rejse til syden &dash; Fru L. Har ingen fader
+<lb/>til at for<unclear reason="writing">ære</unclear> mig rejsepenge. Fr. St. Så skal
+<lb/>min mand hjælpe <HIS:hisDel rend="overwritten">mi</HIS:hisDel>dig Fru L. Det tænkte
+<lb/>jeg på da jeg hørte hans forfremmelse. Det
+<lb/>er ulykken med et liv som mit at vi bl<unclear reason="writing">ir</unclear> eg<unclear reason="writing">en</unclear><note resp="editor">bindestrek mangler</note>
+<lb/>kærlige og bitre &dash; jeg glæded <HIS:hisDel rend="overwritten">d</HIS:hisDel>mig på mine og
+<lb/>ikke på dine vegne. Ja, jeg kunde føle bitter<note resp="editor">bindestrek mangler</note>
+<lb/>hed imod dig, Nora. Her har du levet i ly<unclear reason="writing">kken</unclear>
+<lb/>og uden beky<unclear reason="writing">mringer</unclear> &dash; men så føler jeg også
+<lb/>stolthed; thi jeg har dog udrettet noget for mine.</p>
+</div>
+</body>
+</text>
+</TEI>

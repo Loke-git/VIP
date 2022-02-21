@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE TEI     [     <!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     %HIS_entiteter;     ]> <?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1112, bl.21-22</title>
+<title level="a" type="origYear">[1876-77]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Mette Witting, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Oppretting av SS41112 (transkripsjon og kollasjon)</resp>
+<name xml:id="HIS_IAA">Ingvald Aarstein</name></respStmt>
+<respStmt><resp>2. kollasjon mot original, jan.-mars 2005</resp>
+<name xml:id="HIS_MW">Mette Witting</name></respStmt>
+<respStmt><resp>Kodekontroll, mars 2005</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="SS41112_21-22-0112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på SS41112 (SS41112-0805).</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="SS41112a_21-22">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1112</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>Henrik Ibsen</author>
+            <title type="main">Samfundets støtter</title>
+            <docDate>[1876-77]</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Arbeidsmanuskripter, egenhendig. Inndeling: a-f.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i SS41112_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI_1" xml:id="HI_1" medium="pen_black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil_red"><p>Rød blyant. Bladfoliering på de første sidene.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>27.01.12</date>
+<name>SBT</name><title>Ferdigstilling</title>
+La inn kolofonopplysninger i teiHeader og attributter i text. Gikk gjennom noter og logg. Ferdig.</change>
+<change><date>21.01.12</date>
+<name>SBT</name><title>HISe P5</title>
+Kodet om fila. GJENSTÅR å gå gjennom logg og noter.</change>
+<change><date>19.10.09</date>
+<name>MW</name><title>Klar for versjonsvisninger</title>
+Sjekket at SS-filene har de synopticViewPtr-koder som trengs for å få laget de visninger vi ønsker. Så nå er det klart for å lage synoptiske visninger.</change>
+<change><date>19.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle SS-filer.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. I SS-filene betyr det at det ene sett xptr-koder fjernes og bare de med textWitnesses som att.verdi blir stående. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>05.10.09</date>
+<name>MW</name><title>Synoptisk visning</title>
+Klargjøring av filen for synoptisk visning. xptr-koder er lagt inn så filen kan synkroniseres mot SS41112_19-20r.</change>
+<change><date>28.09.09</date>
+<name>MW</name><title>Splitting av NBO-filen</title>
+Den samlede NBO-filen er nå splittet i 10 versjonsfiler. Teiheader er justert så den passer til den aktuelle del av manuskriptet.</change>
+<change><date>22.09.09</date>
+<name>MW</name><title>Blad- og leggreferanser</title>
+Endret blad- og leggreferanser etter gjeldende regler. Klar for splitting av kopi av NBO-filen, til versjonfiler.</change>
+<change><date>23.04.08</date>
+<name>MW</name><title>Transkripsjonsrettelser og koding</title>
+Tilføyelsen nederst s. 195 er flyttet inn i teksten hvor den hører til i sammenhengen i førstetrykket (med editornote). Dessuten har jeg rettet en transkripsjonsfeil i tilføyelsen og to andre i samme ms. Lager ny visning.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>sheet -&gt; gathering</title>
+Byttet ut sheet med gathering, etter vedtak om at legg i ms og ark i trykk ikke skal være samme type.</change>
+<change><date>29.11.07</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+Kodet om frittstående castList slik at den ligger rett i body, ikke i front med juksekoding.</change>
+<change><date>22.11.07</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+Lagt til koblinger ved aktstart, rollelister, tittelsider osv. Sjekket type i div.</change>
+<change><date>20.11.07</date>
+<name>HB</name><title>HISe-xptr-koblinger kodet inn</title>
+HISe-xptr-koblinger kodet inn som erstatning for pb/ed/HU. pb/ed/HU-innførsel i tagUsage fjernet. Evt. pb/ed/HU for blanke HU-sider fjernet.</change>
+<change><date>19.11.07</date>
+<name>HB</name><title>Sidereferanse-koding</title>
+IKKE FERDIG: avhengig av å se TMs nummerering av bladene. Endret verdier i pb for tekstkilden til foliering. La til pb/ed/faksBase.</change>
+<change><date>28.10.07</date>
+<name>HB</name><title>Filologisk ferdigstilling</title>
+Gjenstår: Samkjøre handList mot TMs beskr. Endre verdier i pb for tekstkilden til foliering. * Oppdaterte dokumentheader. Sjekket evt arbeidsnoter og siccing og fjernet dette. Fjernet overflødige mellomrom og linjeskift i teiHeader. * Oppdaterte ms-koding: sjekket alle apparater, rekkefølge på del og unclear, fjernet delIntended, add/place/inline/offline. * Endret apos til rapo. Fjernet performance og flyttet head inn i castList. Oppdaterte attributtverdier generelt til ny standard med underscore. Erstattet desc med sub i title-elementer. Validerte.</change>
+<change><date>29.08.07</date>
+<name>HMS</name><title>Tankestrek i tallspenn</title>
+Søkte fram alle tallspenn i filen, endret til tankestrek uten mellomrom der dette var feilkodet: side 26 og 91 (begge steder 'tolv-fjorten').</change>
+<change><date>08.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert (dog ikke delIntended som er tatt ut av dtd-en).</change>
+<change><date>09.08.05</date>
+<name>MW</name><title>Noter og teiHeader</title>
+Gjennomgikk notene. Oppdaterte teiHeader. Validert.</change>
+<change><date>08.08.05</date>
+<name>MW</name><title>Strukturkoding</title>
+Endret forekomstene av 'text type=notes' til 'text type=workingManuscript' etter epostutvekslingen 'Notat eller arbeidsms?' på ibsenkod juni 2005. Fjernet dessuten 'notes' som attributtverdi i msDescription i teiHeader. Endret 'div type=actdraft' til 'div type=act' etter vedtak om å unngå bruken av 'draft' her.</change>
+<change><date>22.03.05</date>
+<name>MW</name><title>Kodekontroll</title>
+Sjekket id-who-listen. Strukturkodingen endret så type=notes/workingManuscript står i de enkelte text-elementer i stedet for i egne div (jf. kodingen av KG41111). I kodene div type=actdraft er det lagt til n-attributter så aktutkastene kan synkroniseres med de endelige akter. Sideskiftene fra HU er sjekket og alle er kodet med n-attr. Flere steder var det vanskelig å kjenne HU-versjonen av teksten, så sideskift er bare satt inn hvor det er rimelig sikkerhet. App-kodene fikk type-attr. alteration. Entiteter er satt inn for é og '. Validering.</change>
+<change><date>21.03.05</date>
+<name>MW</name><title>2. kollasjon</title>
+Sjekket div. app-koder. En summarisk typ-beskr. er skrevet. Klar for kodekontroll, hvor også id-who-listen sjekkes.</change>
+<change><date>11.03.05</date>
+<name>MW</name><title>2. kollasjon</title>
+Kontrollerte innføringene.</change>
+<change><date>07.-09.03.05</date>
+<name>MW</name><title>2. kollasjon</title>
+Førte inn resultatene etter kollasjon mot original. Blanke sider er ikke kodet. En del hakeparenteser i margin satt med annen hånd(?) er ikke kodet. Skal inn i typ.beskr.</change>
+<change><date>27.06.03</date>
+<name>IAA</name><title>Oppretting</title>
+Transkribert og kodet SS41112 med utg.pkt. i SS.xml. Kodet med group/text. Av hensyn til visninga har jeg ikke kodet med text type="" (head må tydeligvis stå innenfor en div for å bli vist som overskrift, i hvert fall gjelder det stilarket dramanote). Er bruken av attributtverdien "actdraft" ok? Store deler av teksten er skrevet inn av meg; tastefeil kan forekomme. Har lagt inn sidetall i n-attributt til pb for å lette kontrollen mot faksimilene. En del endringer i id-who-lista ifht. hovedteksten; må kontrolleres. Har ikke gjort noe med typography i teiheader. Forøvrig klart for 2. kollasjon mot orig.manuskript på NBO. Validert.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs"  xml:lang="da-nob">
+<body>
+<pb ed="source" type="folio_pagination" subtype="recto" n="21"/>
+<pb ed="source" type="folio_pagination" subtype="verso" n="21"/>
+<pb ed="source" type="folio_pagination" subtype="recto" n="22" facs="5" />
+<lb/><fw scribe="h1" type="leaf" place="top_right">22</fw>
+<div type="act" n="1">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="SS_33ms"/>
+<lb/><head>1<hi rend="raised">ste</hi> akt.</head>
+<lb/><p>(Værelse hos grossereren.)</p>
+<lb/><p>Forholdet til Aune forberedes. Damernes
+<lb/>forsamling. Dina og adjunkten. Hilmar og
+<lb/>derefter gamle Tønnesen. Grossereren og byens
+<lb/>matadorer; jernbanesagen; grossererens redegørel&typHyp;
+<lb/>se. Den amerikanske kaptejn og frøken Hessels
+<lb/>hjemkomst o. s. v.</p>
+</div>
+<div type="act" n="2">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="SS_60ms"/>
+<lb/><head>2<hi rend="raised">den</hi> akt.</head>
+<lb/><p>(Grossererens have.)</p>
+<lb/><p>Grossereren og fruen i haven. Derefter damerne.
+<lb/>Aune er degraderet. Rygter om de store ejendoms&typHyp;
+<lb/>køb i distrikterne. Adjunkten kommer. Gamle
+<lb/>Tønnesen med begge sønnerne. Lona Hessel. Jo&typHyp;
+<lb/>han og millionen. Sammenstød. Adjunkten erklæ&typHyp;
+<lb/>rer sig for Dina.</p>
+</div>
+<div type="act" n="3">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="SS_95ms"/>
+<lb/><head>3<hi rend="raised">die</hi> akt.</head><p>(Spadservejen ved stranden.)</p>
+<lb/><p>Johan, Olaf og de unge piger samt Martha. Jo&typHyp;
+<lb/>han og Marta; forklaring mellem dem. Johan og
+<lb/>grossereren; de gamle historier berøres. Fuldmægti&typHyp;
+<lb/>gen betror grossereren sine iagttagelser ved værftet; gros&typHyp;
+<lb/>sereren vil selv observere. Den store landlige fest beslut&typHyp;
+<lb/>tes; vanskeligheder med jernbanen.</p>
+</div>
+
+<pb ed="source" type="folio_pagination" subtype="verso" n="22" facs="6" />
+<div type="act" n="4">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="SS_120ms"/>
+<lb/><head>4<hi rend="raised">de</hi> akt.</head>
+<lb/><p>(I lystskoven.)</p>
+<lb/><p>Den store landlige fest afholdes. Mange men&typHyp;
+<lb/>nesker fra byen og omegnen. Grossereren i begreb
+<lb/>med at anmelde Aune. Johan truer med at åben&typHyp;
+<lb/>bare ungdomshistorierne.</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjæmpehøien</title>
+<title level="a" type="sub">annen hovedversjon, TarkUiB NT238r (rollehefte, Jostein)</title>
+<title level="a" type="origYear">[1853]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Bjørg Harvey, Ellen Nessheim Wiger, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Transkripsjon, februar 2000:</resp>
+<name xml:id="HIS-BH">Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Korrekturlesing og koding, mars-mai 2000:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra TEI SGML til prosjektspesifikk TEI XML, september 2000:</resp>
+<name>Ellen Nessheim</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="K2238r_JOSTEIN-1212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Bygger på ekstern transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="K2238r_JOSTEIN">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, Universitetet i Bergen</repository>
+<idno>TarkUiB NT238r</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Kjæmpehøien</title>
+<title type="sub">Dramatisk Digtning i 1 Act</title>
+<docDate>[1853]</docDate>
+</msItem>
+<msItem n="K2238-Jostein"><locus> sider</locus><title>
+«Jostein i "Kjæmpehøien." Dramatisk Digtning i 1 Act. af Henrik Ibsen»</title></msItem>
+</msContents>
+<physDesc><objectDesc><p>Rollehefte, ikke egenhendig</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Kjæmpehøien, 9 rollehefter, N.T. 238</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende. Venstrehellende i tittelen på tittelsiden, unntatt i rolleheftene til vikingene.</item>
+<item>tittelside: Skriften er midtstilt. Rolleheftenavn i ekstra stor font, tittel i stor font og venstrehellende skrift. Rollebeskrivelse, undertittel og forfatternavn i vanlig skrift og -størrelse. Unntak i typografien i vikingenes rollehefter: rollenavn er i stor font og har dobbel understrekning; tittel har høyrehellende skrift, normal fontstørrelse og enkel understrekning. På hver tittelside er det øverst i høyre hjørne ført på størrelse på rollehefte, dvs. hvor mange ark det består av, med en understrekning som ser ut som et liggende klammetegn. I nedre del av siden er det ført inn med, andre hender, navn på skuespiller, dato og antagelig regissør, for antagelig 2 oppsetninger. Unntak igjen i rolleheftene til vikingene, der det kun er ført inn opplysninger til 2. oppsetning.</item>
+<item>scene:
+<list>
+<item>overskrift: dobbelt understrekning, ordenstall med hevet 'ste', 'den' osv. (kodet med HI)</item>
+<item>sceneanvisning: enkel understrekning. Korte sceneanvisninger (under en linje) er midtstilte, lange sceneanvisninger venstrejustert. Sceneanvisninger i replikker står i parantes, sceneanvisninger etter sceneoverskrifter har vanligvis ikke parantes,</item>
+<item>rollenavn:
+<list>
+<item>"Rollehefterollen": understreket med tykk strek</item>
+<item>Andre rollenavn: ingen markering</item>
+</list>
+</item>
+<item>verselinjeavsnitt/replikk:
+<list>
+<item>"Rollehefterollen": midtstilt, ingen understrekning</item>
+<item>Andre roller: enkel understreking</item>
+</list>
+</item>
+<item>strofer: ekstra innrykk</item>
+<item>utheving av rollenavn i sceneanvisning: ekstra tykk understreking (NB! ikke konsekvent system)</item>
+</list>
+</item>
+<item>anførselstegn: venstre: dobbelt komma, nedre; høyre: dobbel apostrof, øvre</item>
+<item>bindestrek: dobbel</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label>ASGAUT</label><item>/Asgaut/Asgaut</item>
+<label>BLANKA</label><item>/Blanka/Blanka</item>
+<label>GANDALF</label><item>/Gandalf/Gandalf</item>
+<label>HEMMING</label><item>/Hemming/</item>
+<label>HROLLOUG</label><item>/Hrolloug/</item>
+<label>JOSTEIN</label><item>/Jostein/</item>
+<label>RODERIK</label><item>/Roderik/Roderik</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="rolleheftekoding">Rolleheftene er kodet med «føljetongkoding»: hvert rollehefte kodet som TEXT (i GROUP og TEXT). Tittelbladene kodet som vanlige tittelblad. Opplysninger om skuespillere etc. på tittelbladene er kodet i P-er i en PERFORMANCE-tag. «Avvikene» i forhold til rollenavn/replikk-systemet (se typografibeskrivelsen) er ikke tatt hensyn til i kodingen. I mangel av rolleliste, er id-attributtene plassert i TITLEPART.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="KK" xml:id="KK" scope="major" medium="pen"><p>Knud Knudsen. Sort blekk. Hovedhånd.</p></handNote>
+<handNote scribe="HI" xml:id="HI" medium="pen"><p>Henrik Ibsen. Enkelte rettelser (det er ikke alltid mulig å avgjøre hånden). På heftene har Ibsen skrevet navnet på den skuespiller som skulle ha rollen, samt sitt eget navn og datoen 28. desember 1853, da heftene ble utlevert til skuespillerne. På to hefter for «Nogle Vikinger» mangler Ibsens navn og datoen, men skuespillernavnene er trolig egenhendige. Ibsen synes også å ha ført inn enkelte rettelser, i hvert fall rettelsen av «Hals» til «Hjelm» i Blankas hefte s. 27. ...</p></handNote>
+<handNote scribe="h1" xml:id="h1"><p>Noen rettelser, en eller flere hender, gjort med penn og blyant. Heftene har også påskrifter fra oppførelsen i 1856.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>11.12.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte (Jostein). Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Lar performance stå siden det ikke er benyttet til å omslutte castList, men til opplysninger om skuespillere osv.</title></change>
+<change><date>04.06.07</date>
+<name>MW</name><title>Kodeoppdatering</title>
+La inn nummering på alle div-elementene. La samtidig inn type=alteration ved alle app. Validert.</change>
+<change><date>22.05.06</date>
+<name>ENW</name><title>Ny ID</title>
+Endret ID fra K2238 til K2238r (i tråd med betegnelsen brukt i HISb).</change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte sourceDesc med blandt annet liste over rolleheftene. Validert</change>
+<change><date>19.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>17.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="parts" i text. Oppdatert teiHeader.</change>
+<change><date>26.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+La inn igjen add i forbindelse med overskriving av annen hånd. Sjekket at alle offline-tilføyelser er offline.</change>
+<change><date>17.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Omkoding av ms-endringer i henhold til revidert kodepraksis. * Forkortet figure til tom tagg. Ny plassering av sideskifts-tagger innført. SGREP-søk for kodeoversikt utført. Sjekket at del dekker kun faktisk kodet tekst. Sjekket tilføyelser. La inn manglende håndliste og samkjørte den med Tone Modalslis (fjernet punkt om hender i typografibeskrivelsen). Koder inn utelatte endringer vha. gjennomgang mot faksimiler. Gjort om brøker i measure til entiteter. Transkribert ordenstall-endelser mer velvillig. Korrektursjekk mot faksimiler må inkl. vurdering av nykodede endringer, hånd osv..</change>
+<change><date>13.09.04</date>
+<name>HG</name><title>NB!</title>
+Rettet træske til traske, rettet feilplassert pkt. innenfor 'stageRole'. Rettelser/påførsler av andre hender er foreløpig ikke kodet inn i fila - Dette bør gjøres (husk bl. annet å legge inn et apparat med at/komma ved &#91;&#93; der er forsilde).</change>
+<change><date>10.11.03</date>
+<name>HG</name><title>Kodeoppdatering</title>
+Erstattet div1/div2 med bare div, lagt rend-attr. til del og reason-attr. til unclear, fjernet gammel entitetskoding, validert.</change>
+<change><date>18.09.00</date><name>EN</name><title>Oppdatering</title>Fjernet lg-koding. Blanke linje mellom strofer etc. markert med rend="line" i påfølgende verslinje. La opplysninger om antall ark (skrevet øverst til høyre på tittelsidene i hvert rollehefte) i measure i docImprint. Oppdatert TEI-headeren. Validert.</change>
+<change><date>28.12.00</date><name>IF</name><title>oppdatering</title>La inn principal ESO og info om xml-konv. La inn mer info i tagsDecl (id\role\speaker\stageRole). Validert.</change>
+<change><date>19.09.00</date><name>EN</name><title>Konvertering til XML</title>Konvertert filen til XML og arkivert SGML-versjonen.</change>
+<change><date>14.07.00</date><name>EN</name><title>Kodekontroll</title>Rask kodekontroll m/sgrep. Sjekket at kodingen er i samsvar med kodepraksis/siste kodemøtevedtak. Lagt inn informasjon om kodingen i en egen tagUsage i headeren. Validert. Ny Dynatextbok.</change>
+<change><date>15.05.00</date><name>EN</name><title>Innføring av korrektur/kontrollresultater</title>Kontrollert og ført inn IFs korrekturresultater. Validert.</change>
+<change><date>10.05.00</date><name>IF</name><title>Kontroll av tekst og koding</title>Ferdig med kontroll av tekst og koding, innført på tekstutgave slik at EN kan kontrollere opplysningene. Ført inn utfyllende informasjon i typografi-beskrivelse.</change>
+<change><date>12.04.00</date><name>EN</name><title>En liten kodejustering</title>Opplysningene om skuespillere og regissører på tittelbladet kodet i hver sin P i PERFORMANCE. Validert. Ny Dynatext-bok.</change>
+<change><date>Mars 2000</date><name>EN</name><title>SGML-koding</title>Konvertert og kodet Bjørg Harveys transkripsjon i SGML/TEI. Rolleheftene er kodet med «føljetongkoding»: hvert rollehefte kodet som TEXT (i GROUP og TEXT). Tittelbladene kodet som vanlige tittelblad. «Avvikene» i forhold til rollenavn/replikk-systemet (se typografibeskrivelsen) er ikke tatt hensyn til i kodingen. I mangel av rolleliste, er id-attributtene plassert i TITLEPART. Lest korrektur og sjekket koding vha sgrep og stilark. Validert mot dtd 17/3. DynaText-bok 17/3. Gjenstår: Korrekturlesing (IF)</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" xml:lang="dan-nob" rend="handwritten">
+<front>
+<titlePage>
+<pb/><HIS:hisDocImprint><measure>&frac34; Ark</measure></HIS:hisDocImprint>
+<docTitle>
+<lb/><titlePart xml:id="JOSTEIN">Jostein
+<lb/>i
+<lb/>"Kjæmpehøien."
+<lb/>Dramatisk Digtning i 1 Act.</titlePart>
+</docTitle>
+<byline>
+<lb/>af
+<lb/><docAuthor>Henrik Ibsen.</docAuthor>
+</byline></titlePage>
+<performance>
+<p>Hr. Bottelsen. 25/1.56 <unclear reason="writing">P</unclear> Nielsen <HIS:hisDel rend="overstrike"><unclear>d</unclear>: 28/12.53 &dash;</HIS:hisDel> <HIS:hisDel rend="overstrike">Henr: Ibsen.</HIS:hisDel></p>
+</performance>
+</front>
+<body>
+<pb/><lb/><fw type="page" place="top-left">2</fw>
+<div type="act" n="1">
+<div type="scene" n="1">
+<lb/><head>1<hi>ste</hi> Scene. </head>
+<lb/><HIS:hisStage><HIS:stageRole who="RODERIK">Roderik</HIS:stageRole>. <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>mens den barnligt sover. </l><HIS:hisStage>(gaaer med Roderik.)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi>den</hi> Scene.</head>
+<lb/><HIS:hisStage>Gandalf og Vikingerne komme fra Høire</HIS:hisStage>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Den staaer der sagtens endnu, tænker jeg.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker>.</HIS:spOpener>
+<lb/><l>Hør, sig os Drot, hvad kan det baade os</l>
+<lb/><l>At traske om som Narre her paa Holmen</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l>Saa var det for at vinde Ry og Hæder</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker></HIS:spOpener>
+<lb/><l>Og Guld og Skatte, Hrolloug, Guld og Skatte!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>I har en Drot at hævne, jeg en Fader!</l>
+<pb/><lb/><fw type="page" place="top-right">3</fw>
+<lb/><HIS:hisStage>(Bevægelse blandt Vikingerne)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker></HIS:spOpener>
+<lb/><l part="I">En Drot?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>At tage blodig Hævn med Ild og Sværd.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker>.</HIS:spOpener>
+<lb/><l>Det er en gammel Skik og den bør agtes.</l>
+<lb/><l>Men hvis jeg havde været Konning Gandalf</l>
+<lb/><l>Saa var jeg bleven liggende i Velskland</l>
+<lb/><l>For der var Guld at vinde.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Det er Jer Troskab mod den faldne Drot?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker></HIS:spOpener>
+<lb/><l>Nu, nu, godt Ord igjen, jeg meente blot &dash;</l>
+<lb/><l part="I">Den Faldne kunde vente.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker></HIS:spOpener>
+<lb/><l part="F">Usle Slægt!</l></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">4</fw>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker>.</HIS:spOpener>
+<lb/><l>Men siden vi nu engang er her &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Kong Gandalf faaer en dygtig Sanger</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker>
+<lb/><HIS:hisStage>(med de andre Vikinger gaa ind i Skoven
+<lb/>til Venstre.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi>te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>. <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Væk Blodmand!</l></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi>te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="ASGAUT">Asgaut</HIS:stageRole>, Hemming og Vikin&typHyp;
+<lb/>gerne, der føre Roderik mellem sig.</HIS:hisStage>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker></HIS:spOpener>
+<lb/><l part="M">Blanka! O, mit Barn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker></HIS:spOpener>
+<lb/><l part="F">En Kvinde!</l>
+<pb/><lb/><fw type="page" place="top-right">5.</fw>
+<lb/><l part="I">Saa faaer han Reisefølge.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="I">Kan følge med paa Snekken.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker></HIS:spOpener>
+<lb/><HIS:hisStage>(leende)</HIS:hisStage>
+<lb/><l part="F">Ja, som Skjoldmø</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Saa er hun fri, ei sandt?</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Vikingerne</speaker></HIS:spOpener>
+<lb/><l part="F">Jo, jo, det er hun!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nei, jeg holder den.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker></HIS:spOpener>
+<lb/><l part="I">Hvad er Din Agt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Paa røde Vinger farer jeg til Valhal.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker>.
+<lb/><HIS:hisStage>(gaaer ud til Høire)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">6.</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Thi Hallens Lystighed er ei for mig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostein</speaker>
+<lb/><HIS:hisStage>(kommer tilbage med et Banner i
+<lb/>Haanden.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>See nu er Snekken rede som Du bød</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Og I vil følge mig?</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener>
+<lb/><l part="F">Vi følge Dig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hjemad!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hjem! Til Norge!</l>
+<lb/><HIS:hisStage>(Blanka river Banneret fra Jostein)</HIS:hisStage></HIS:hisSp>
+</div>
+<lb/><figure type="bar"/>
+</div>
+</body>
+</text>
+</TEI>
+
+

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Sancthansnatten]</title>
+<title level="a" type="sub">NBO Ms.4&deg; 927</title>
+<title level="a" type="origYear">[1852]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respStmt>
+<respStmt>
+<resp>Omgjøring av SaHU til Sa4927, mars 2000:</resp>
+<name>Karl Johan Sæth</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og korrektur, mars-april 2000:</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra TEI SGML til prosjektspesifikk TEI XML, september 2000:</resp>
+<name>Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Oppdatering av koding/feilretting, mai 2001:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Oppdatering av koding, mars 2002:</resp>
+<name>Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer, desember 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer, mai 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Sa4927-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på SaHU.sgm (SaHU-0300).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="Sa4927">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 927</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docDate>[1852]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Blad av renskrift, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Sa4927: NBO Ms.4&deg; 927</head>
+<item>skriftgruppe: latinsk håndskrift; høyrehellende, se også håndlisten</item>
+<item>akt:
+<list>
+<item>overskrift: understreket, sentrert</item>
+<item>sceneanvisning: venstrejustert avsnitt</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: understreket, sentrert</item>
+<item>sceneanvisning ved scenestart: som i akt, jfr. ovenfor (avvik kodet med rend="underlined")</item>
+<item>sceneanvisning i replikk: sentrert, med parenteser i form av skråstreker</item>
+<item>rollenavn: understreket, midtstilt</item>
+<item>verslinjer: venstrestilt</item>
+<item>utheving i sceneanvisning: understreket</item>
+<item>ordet "neste": nederst på siden, høyrestilt, dobbel understreking</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skilletrek: enkel, horisontal strek ca. 2 cm; sentrert</item>
+<item>bindestrek: kortere, enkel, horisontal strek ca. 3 mm</item>
+<item>tankestrek: lengre, enkel, horisontal strek ca. 2-5 mm</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>sp/stageRole id=""</headLabel><headItem>speaker/stageRole<note>Siden fragmentet ikke har rolleliste er id plassert i samme element som who-attributtet (i sp eller stageRole).</note></headItem>
+<label xml:id="ALFER">ALFER</label><item>Usynlige Alfer/-</item>
+<label xml:id="JULIANE">JULIANE</label><item>-/Juliane</item>
+<label xml:id="NISSEN">NISSEN</label><item>Nissen/-</item>
+<label xml:id="PAULSEN">PAULSEN</label><item>-/Paulsen</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">Sideskiftene fra Hundreårsutgaven (bd. II) er kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 59-60. Sidetallene er oppgitt i n-attributter.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace></tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pen-black" scope="major"><p>Brunsort penn. Ukjent hånd, sannsynligvis ikke Ibsen. De to innledende linjer til annen scene</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>23.11.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe.</change>
+<change><date>19.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>18.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="workingManuscript" i text. Oppdatert teiHeader.</change>
+<change><date>21.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Sjekket ms-koding (det må gjøres noe med handShift når ny koding/behandling er endelig vedtatt). Gjorde figure til tom tagg. Flyttet om på pb-plassering der denne var misvisende. Fjernet all unclear-koding. Transkriberte ordenstall-endelsen mer velvillig. La inn flere attributter i verte-noten, slik at den er i samsvar med praksis beskrevet i brevkapitlet (skal inn i ms-koding også).</change>
+<change><date>07.05.04</date>
+<name>MW</name><title>Tones håndliste</title>
+La til en ukjent hånd i handList ifl. Tones ms.beskr. La inn handShift før andre scene</change>
+<change><date>07.05.04</date>
+<name>MW</name><title>Oppdatering av teiHeader</title>
+La til felt om tekstvitnetype i titleStmt. TeiHeader rettet mot Saht</change>
+<change><date>03.05.04</date>
+<name>MW</name><title>Kodeoppdatering</title>
+Endret attributtverdien POULSEN til PAULSEN i id og who. Flyttet id-verdiene til tagsDecl i teiHeader. Oppdaterte teiHeader. Validert</change>
+<change><date>02.01.03</date>
+<name>IAA</name><title>Kodeoppdatering</title>
+Ny header pluss shy-entitet. Endret p til note i linje 172.</change>
+<change><date>05.03.02</date>
+<name>HB</name><title>Kodeoppdatering</title>
+La inn ms-ansv. Endret fra bibl til msDescription. Fjernet lg. La inn pb-HU. Endret nummererte div-er til unummererte. Sjekket type/rend, corrmarks/numbered, restore, forkortede rollenavn, clarification.</change>
+<change><date>15.05.01</date>
+<name>EN</name><title>Oppdatering/feilretting</title>
+Sjekket plasseringen an sceneanvisninger til slutt i replikker (jf. vedtak på kollasjonistmøtet 14/5-01). Endret titleStmt og editionStmt slik at de følger gjeldende praksis. La inn tagUsage gi="id-who". Fjernet type="hyphen" fra lb. Endret "stanzagroup" til "stanzaGroup" (i type i lg). Validert. Brenner ny CD.</change>
+<change><date>09.00</date>
+<name>HB</name><title>Konvertering til xml.</title>
+Konverterte sgml-filen til xml.</change>
+<change><date>22.05.00</date>
+<name>HB</name><title>Sluttaggvalidering</title>
+Validerte filen mot sluttaggdtden.</change>
+<change><date>04.04.00</date>
+<name>HB</name><title>Kollasjonering, korrektur og kodekontroll</title>
+Førte inn resultater av kollasjonering/korrektur mot håndskriftet. Fullførte typografibeskrivelsen. Utførte kodekontroll. Filen er valid og klar for cd-brenning.</change>
+<change><date>03.04.00</date>
+<name>HB</name><title>Typografibeskrivelse + koding</title>
+Tilføyde og endret noen opplysninger i teiHeader. La til manglende pb samt manglende lb-elementer. Flyttet id-attributtene inn i sp/stageRole og plasserte dem dermed sammen med who-attributtene (dette er valid koding). La til rend="underlined" i siste stage. La til rend="raised" i hi. Beskrev typografien til fragmentet, mangler litt på å være ferdig (måling av streker). Fjernet rimkodingen (lagret kopi med rimkodingen intakt). Fjernet skillestrek etter overskrifta samt første overskrift.</change>
+<change><date>22.03.00</date>
+<name>KJS</name><title>Oppretting</title>
+Laget en SGML-fil på bakgrunn av SaHU.sgm for tekstfragmentet i Ms. 4 927. Må jukse til en ID-verdi til WHO-ene, foreløpig gjort med en note...</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<div type="act" n="2">
+<pb/><pb ed="HU" n="59"/><lb/><head>Anden Act.</head>
+<lb/><HIS:hisStage>Skovegn; i Baggrunden en
+<lb/>rund Bjergkolle paa hvilken
+<lb/>Levningerne af et Sancthans&typHyp;
+<lb/>baal fra og til blusse ivei&typHyp;
+<lb/>ret. Til Venstre i Forgrunden en stor
+<lb/>Steen. Det er Nat, &dash; Maanen staaer
+<lb/>paa Himlen.</HIS:hisStage>
+<div type="scene" n="1">
+<lb/><head>Første Scene.</head>
+<lb/><HIS:hisStage>Idet Tæppet gaaer op høres Sang
+<lb/>og Violinspil som taber sig i det
+<lb/>Fjerne. &dash; Nissen træder ind i
+<lb/>Baggrunden og lytter &dash;</HIS:hisStage>
+<lb/><HIS:hisSp who="NISSEN"><HIS:spOpener><speaker>Nissen</speaker>. &dash;</HIS:spOpener>
+<lb/><l>Endt er Dands og Sang og Spil,</l>
+<lb/><l>Natten hører os andre til &dash;</l>
+<lb/><l>Hver Alf og Vætte jeg byder til Gjæst, &dash;</l>
+<lb/><l>Herfrem! nu begynder vor Midtsommerfest!</l>
+<lb/><HIS:hisStage>(han forsvinder bag Træerne.)</HIS:hisStage></HIS:hisSp>
+<lb/><note resp="author" place="bottom-right" rend="underlined2">verte</note>
+<pb/><lb/><HIS:hisSp who="ALFER"><HIS:spOpener><speaker>Usynlige Alfer</speaker>.</HIS:spOpener>
+<lb/><l>Stille, stille, &dash; Natten kommer,</l>
+<lb/><l>Frem I Alfers lette Rad,</l>
+<lb/><l>Hør vort Kald, I Skovens Blommer!</l>
+<lb/><l>Aabner eders lukte Blad!</l>
+<lb/><l>Vaagner, Alfer! af jer Slummer,</l>
+<lb/><l>Stævner hid til Lundens Sal,</l>
+<lb/><l>Blomstens Kalk er nu for lummer,</l>
+<lb/><l>Sommernatten er saa sval.</l>
+<lb/><l>Stille sæt jer under Siljen,</l>
+<lb/><l>Flætter der med flittig Haand</l>
+<lb/><l>Af Convallen og af Liljen</l>
+<lb/><l>Lette Sko og hvide Baand;</l>
+<pb ed="HU" n="60"/><lb/><l>Klæd jer saa i Høitidskjolen</l>
+<lb/><l>Vævet af et Rosenblad</l>
+<lb/><l>Og af Duft fra Natfiolen</l>
+<lb/><l>Efter Aftenduggens Bad.</l>
+<lb/><l>See de straalerige Smykker</l>
+<lb/><l>Tusinder af Ædelsteen'</l>
+<lb/><l>Som mod Blomstertæppet trykker</l>
+<lb/><l>Liljens blaaliggrønne Green,</l>
+<lb/><l>See kun hvor de lyse Kjerner</l>
+<lb/><l>Blinke fra hver Perle frem.</l>
+<lb/><l>Billedet af Nattens Stjerner</l>
+<lb/><l>har sig fæstet dybt i dem!</l>
+<lb/><l>Disse Draaber som nu funkle</l>
+<lb/><l>Over Løv og Blomsterblad,</l>
+<lb/><l>Flætter dem i <sic>edes</sic> dunkle</l>
+<lb/><l>Lokker til en Perlerad,</l>
+<lb/><l>Let som Vinden da vi svæve</l>
+<lb/><l>Over dugget Blomstereng</l>
+<lb/><l>Medens Tonebølger bæve</l>
+<lb/><l>Gjennem Nøkkens Harpestreng!</l></HIS:hisSp>
+</div>
+<lb/><figure type="bar"/>
+<div type="scene" n="2">
+<lb/><head><handShift new="h1"/>2<hi rend="raised">den</hi> Scene</head>
+<lb/><HIS:hisStage rend="underlined"><HIS:stageRole who="PAULSEN">Paulsen</HIS:stageRole> og <HIS:stageRole who="JULIANE">Juliane</HIS:stageRole></HIS:hisStage>
+</div>
+</div>
+</body>
+</text>
+</TEI>

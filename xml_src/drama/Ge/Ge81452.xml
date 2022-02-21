@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Gengangere]</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1452</title>
+<title level="a" type="origYear">[1881]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Kollasjonering og koding</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-NME">Nina Marie Evensen</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Ge81452-0611"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på intern transkripsjon.</p> 
+<p>    
+    <HIS:hisMsDesc type="notes" xml:id="Ge81452">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.8&deg; 1452</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>[Henrik Ibsen]</author>
+                <title>Uten tittel</title>
+                <docDate>Uviss: tidligst 11. november 1880</docDate>
+            </msItem>
+        </msContents>    
+        <physDesc>
+            <objectDesc>
+                <p>Egenhendig notat</p>
+            </objectDesc>
+        </physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>latinsk håndskrift; steilskrift</item>
+<item>skrevet med grå blyant</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+    <language ident="nob"/>
+    <language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" medium="pencil" scope="major"><p>Henrik Ibsen. Hovedhånd. Grå blyant.</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+<change when="2011-08-22" who="SBT">
+<title>scribe-attributt</title>
+Erstattet hand-attributt med scribe. Valid fil.</change>
+<change when="2011-08-19" who="SBT">
+<title>Validering</title>
+Oppdaterte etter nytt skjema.</change>
+<change when="2011-08-11" who="SBT">
+<title>Tilpasning</title>
+Endret sti til skjema. La til typeattributt i respStmt.</change>
+<change when="2011-06-24" who="SBT">
+<title>Konvertering til P5</title>
+Har endret kodingen til valid HIS-P5. La inn type- og rend-attributt i text. Validert.</change>
+<change when="2009-10-21" who="HMS"><title>Sidetallskoding</title>
+Oppdaterte sidetallskodingen (ed=faksBase + kode for TMs ms-betegnelser). Validert.</change>
+<change when="2007-10-01" who="HMS"><title>Tallspenn</title>
+Sjekket koding av tallspenn; fant ingen.</change>
+<change when="2006-03-08" who="MW"><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change when="2005-08-12" who="MW"><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change when="2003-10-20" who="IAA"><title>Kodekontroll</title>
+Gjorde kodekontroll. Validerte.</change>
+<change when="2003-10-17" who="NME"><title>Kollasjonering</title>
+Kollasjonerte mot manuskript. Validerte. Klart for kodekontroll.</change>
+<change when="2003-07-01" who="IAA"><title>Kollasjonering og oppretting</title>
+Transkripsjon. Kollasjonerte mot faksimile, kodet og validerte. Klart for andrekollasjon. Hvordan vet vi egentlig at dette manuskriptet har noe med Gengangere å gjøre?</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<!--<pb ed="faksBase" n="1"/>-->
+<pb n="1" rend="[1]r"/>
+<note resp="editor">På forsiden står følgende adresse: "Madame Ibsen / 75, via Capo le Case / Citta".</note>
+<!--<pb ed="faksBase" n="2"/>-->
+<pb rend="[1]v"/>
+<div type="notes">
+<lb/><p>Grundstemningen skal være:
+<lb/>Det stærke opblomstrende ånde&typHyp;
+<lb/>lige liv hos os i literatur, kunst
+<lb/>o. s. v. &dash; og så som modsætning:
+<lb/>hele menneskeheden på afveje.<note resp="editor">Uleselig påskrift nederst.</note></p>
+</div>
+</body>
+</text>
+</TEI>

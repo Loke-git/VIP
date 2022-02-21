@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Catilina</title>
+<title level="a" type="sub">2. versjon, NBO Ms.8&deg; 1938:2</title>
+<title level="a" type="origYear">[1875]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Mette Witting, Hallvard Ystad</name></respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS_ESO">Espen S. Ore</name>
+<name xml:id="HIS-HL">Hanne Lauvstad</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respStmt>
+<respStmt>        
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="C2819382-0912"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på C1.sgm (HIS) og cati50.txt (HIT, Bergensmaterialet).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="C2819382">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1938:2</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>[Catilina]</title>
+<docDate>[1875]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Ms.8&deg; 1938:2. &lquo;Første akt&rquo;. Påbegynt egenhendig renskrift med rettelser.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Ms. 4° 1938:2 (fragment) - C2819382:</head>
+<item>skriftgruppe: latinsk håndskrift, venstrehældende, versaler og minuskler</item>
+<item>akt:
+<list>
+<item>overskrift: Midtstilt, placeret et stykke nede på siden</item>
+<item>sceneanvisning: 1 (efter aktoverskrift): I parentes</item>
+<item>sceneanvisning 2 (inde i og mellem replikker): Midtstilt, i parentes, på egen linje</item>
+<item>rollenavn: Midtstilt, på egen linje</item>
+<item>avsnitt/replikk: Første linje noe innrykket; innrykk som markerer avsnitt er kodet med rend="indent"</item>
+<item>utheving i replikk: Understreget</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>bindestreker: Enkle</item>
+<item>tankestrek: Ca. dobbelt så lange som bindestreker</item>
+<item>anførselstegn: Doble øvre komma</item>
+<item>arksignatur: Øverst i venstre hjørne</item>
+</list>
+</item>
+<item>merknader til transkripsjonen:
+<list>
+<item>manglende prikk over i: rettet stilltiende</item>
+<item>manglende diakritisk tegn (å uten bolle, ø uten strek osv.): rettet, med etterfølgende note</item>
+<item>påskrift i fremmed hånd (grå blyant) øverst på første side ("XIX 18"): ikke kodet</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="app-external">
+<list>
+<headLabel>Tekstkilde</headLabel><headItem>Antall varianter i forhold til grunntekst</headItem>
+<label>C2819382</label><item>8</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="AMBIORIX">AMBIORIX</label><item>Ambiorix</item>
+<label xml:id="CATILINA">CATILINA</label><item>Catilina</item>
+<label xml:id="OLLOVICO">OLLOVICO</label><item>Ollovico</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+<variantEncoding type="external" method="parallel-segmentation" location="internal" n="8"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Henrik Ibsens hånd. Sort blekk.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>20.09.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>21.02.08</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+Fjernet koblinger til tekstkilder + ms (synopticView_textWitnesses + synopticView_msVersions) etter vedtak i HISe-gruppa 20.02.08 om at tekstkilder som er integrert i variantapparatet, ikke skal vises synoptisk.</change>
+<change><date>02.02.08</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+La inn koblinger til tekstkilder og manuskripter. Fjernet pb-ed-HU i tagUsage.</change>
+<change><date>29.09., 02.10.06</date>
+<name>SBT</name><title>Oppdatering av ekstern variantkoding</title>
+Fjernet wit-verdier fra rdg. La til variantEncoding og tagsDecl i teiHeader. La inn variantkoding ved manglende tekst. Oppdaterte teiHeader: fjernet innrykk, samt tegn og mellomrom til slutt i elementer. Validert.</change>
+<change><date>17.07.06</date>
+<name>ENW</name><title>sic og note</title>
+Gjennomgått og fjernet siccing og typo-noter.</change>
+<change><date>22.05.06</date>
+<name>ENW</name><title>Ny ID</title>
+Splittet C21938 i to filer: denne (C2819382) og C2819381. Gjorde om id-verdier. Filen er valid</change>
+<change><date>18.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>15.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="workingManuscript" i text. Oppdatert teiHeader.</change>
+<change><date>10.05.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Endret notene ved tilføyelser fra supplerende tcApp til rene note/resp/editor. Endret ms-koding i forbindelse med forfatternoter som nå regnes som tilføyelser. Nummererte n-attributtet i pb.</change>
+<change><date>03.05.05</date>
+<name>SBT</name><title>manuskript/variantkoding</title>
+Gjorde om to forfatternoter til tilføyelser (skal endres i tråd med ny manuskriptkoding av Hilde). Det ene tekststedet utgår som ekstern variant fordi lesemåten nå blir identisk med de øvrige tekstkildenes. Det andre tekststedet gjøres om til en enkel tegnsettingsvariant. Samkjørt i andre C2-filer.</change>
+<change><date>25.-27.04.05</date>
+<name>SBT</name><title>variantkoding: oppdatering</title>
+La til variantkoding for indre tegnsetting i sceneavisninger. Gjenstår: kode om forfatternoter til tilføyelser; disse plasseres der de skal være i teksten (etter konsultasjon med øvrige tekstkilder); utgår fra det eksterne variantapparatet. Konsulter med Hilde ang. ny manuskriptendringskoding.</change>
+<change><date>14.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Omkoding av ms-endringer i henhold til revidert kodepraksis. * Ny plassering av sideskifts-tagger innført, synkronisering må sjekkes. SGREP-søk for kodeoversikt utført. Kodet om overwritten-apparater (også overstrike/overwritten i kombinasjon). Sjekket og kodet om apparater generelt. Sjekket at del dekker kun faktisk kodet tekst. Sjekket tilføyelser. Sjekket rekkefølge på unclear og del. * Sjekket tekst i ny fil mot tekst i gammel fil vha. examdiff.</change>
+<change><date>21, 23.02.05</date>
+<name>SBT</name><title>eksterne varianter i dramatekst</title>
+La inn resterende eksterne varianter og fylte ut alle id-attributter. Gikk gjennom varianter innenfor sceneanvisninger og spOpener. Validert.</change>
+<change><date>18.02.05</date>
+<name>SBT</name><title>eksterne varianter</title>
+La til subtype-attributt i app. Sjekket varianter i forordet hentet fram med Collate  mot arkivert flertekstfil. NB: Forordet har en del noter der de andre tekstkildenes lesemåter er ført. Kode om disse til tilføyelser og dermed sløyfe noen av variantene? Gå gjennom alle noter til slutt!</change>
+<change><date>17.-19.11.04</date>
+<name>SBT</name><title>eksterne varianter</title>
+Kodet inn resten av den eksterne variansen i forordet. Splittet innførselen til C21938 i to, C21938-1 og C21938-2 i msDescription for å få validert de to attributtverdiene mot tilhørende id-verdier. Ms. beskrives som todelt i ms.beskr. i innledningen til stykket og bør da også gjøre det i variantapparatet. Validert.</change>
+<change><date>30.09.04</date>
+<name>SBT</name><title>rettelse i eksternt variantapparat</title>
+Endret tekstkildebetegnelse i eksternt variantapparat (fra 1938 til 1938-1).</change>
+<change><date>08.09.04</date>
+<name>SBT</name><title>eksterne varianter</title>
+Kodet eksterne varianter (i app type="external") i første del av forordet. Validert.</change>
+<change><date>30.10.03</date>
+<name>IAA</name><title>Koding og kollasjonering etter filsplitting</title>
+Oppdaterte teiheader. Slettet loggen. Fornyet punktene i handlist (gjaldt utelukkende C21395). Fjernet punkter i typography som ikke var utfylt. Reviderte tagUsage. Fjernet milestone-elementer (manuskriptet består ikke av hefter, men av løse ark). Fjernet overflødige noter og space-koding. Fjernet app-koding av enkle strykninger. Fjernet lg-koding. Fjernet en del unclear-tagging. Rettet feil i app-koding. Rettet feil i transkripsjonen. Endret fullstendig kodinga av tilføyelsen på side tre. Endret fra "leaf" til "sheet" i type-attributtet til fw. Fjernet closer. Føyde sammen splittede ord. Fjernet stageRole i dramadelen (ingen utheving av rollenavnene). Kodet inn HU-sideskift med n-attributt, la til punkt om dette i tagUsage. Validerte mot ny dtd. Kodekontrollerte.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" xml:lang="dan-nob" rend="handwritten-newfacs">
+<!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="5" facs="9" gathering="2"/>
+<lb/><fw type="sheet" place="top-left">2.</fw>
+<div type="act" n="1">
+<lb/><head><app type="external" subtype="word" xml:id="varC2-151"><HIS:hisRdg>Første<note resp="editor" type="variant">mangler all foregående tekst</note></HIS:hisRdg></app> akt.</head>
+<lb/><HIS:hisStage>(Ved den flaminiske landevej udenfor
+<lb/>Rom. En træbevokset bakke ved vejen.
+<lb/>I baggrunden fremrager stadens højder
+<lb/>og mure. Det er aften.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Catilina står oppe på bakken mellem
+<lb/>buskerne, lænet til en træstamme.)</HIS:hisStage>
+<lb/><HIS:hisSp who="CATILINA"><HIS:spOpener><speaker>Catilina</speaker>.</HIS:spOpener>
+<lb/><l>Jeg må! Jeg må; så byder mig en stemme</l>
+<lb/><l>i sjælens dyb, &dash; og jeg vil følge den.</l>
+<lb/><l>Kraft ejer jeg, og mod til noget bedre,</l>
+<lb/><l>til noget højere, end dette liv.</l>
+<lb/><l>En række kun af tøjlesløse glæder &dash;!</l>
+<lb/><l>Nej, nej; de fyldestgør ej hjertets trang.</l>
+<lb/><l rend="indent">Jeg sværmer vildt! Kun glemsel er min h<HIS:hisDel rend="overwritten"><unclear>g</unclear></HIS:hisDel>igen.</l>
+<lb/><l>Det er forbi! Mit liv har intet mål.</l>
+<lb/><HIS:hisStage>(efter et ophold.)</HIS:hisStage>
+<lb/><l>Hvad blev der vel af mine ungdomsdrømme?</l>
+<lb/><l>Som lette sommerskyer de forsvandt.</l>
+<lb/><l>Kun nag og skuffelse de lod tilbage; &dash;</l>
+<lb/><l>hvert modigt håb har skæbnen røvet mig.</l>
+<lb/><HIS:hisStage>(slår sig for panden.)</HIS:hisStage>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="5" facs="10"/>
+<lb/><l>Foragt dig selv! Foragt dig, Catilina!</l>
+<lb/><l>Du føler ædle kræfter i dit sind; &dash;</l>
+<lb/><l>og hvad er målet for din hele stræben?</l>
+<lb/><l>Kun mættelse for sanseligt begær.</l>
+<lb/><HIS:hisStage>(roligere.)</HIS:hisStage>
+<lb/><l>Dog, stundom end, som nu i denne time,</l>
+<lb/><l>en lønlig længsel ulmer i mit bryst.</l>
+<lb/><l>Ah, når jeg ser mod staden hist, det stolte,</l>
+<lb/><l>det rige Roma, &dash; og den uselhed</l>
+<lb/><l>og det fordærv, hvortil det længst er sunket,</l>
+<lb/><l>fremtræder klart som solen for mit syn, &dash;</l>
+<lb/><l>da råber højt en stemme i mit indre:</l>
+<lb/><l>vågn, Catilina; &dash; vågn, og vord en mand!</l>
+<lb/><HIS:hisStage>(afbrydende.)</HIS:hisStage>
+<lb/><l>Ak, det er gøgleværk og nattens drømme,</l>
+<lb/><l>og ensomhedens åndefostre kun.</l>
+<lb/><l>Ved mindste lyd fra virklighedens rige</l>
+<lb/><l>de flygter ned i sjælens stumme dyb.</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Allebrogernes udsendinger, Ambiorix og
+<lb/>Ollovico, med sine ledsagere, kommer ned&typHyp;
+<lb/>over landevejen uden at bemærke Catilina.)</HIS:hisStage>
+<lb/><HIS:hisSp who="AMBIORIX"><HIS:spOpener><speaker>Ambiorix</speaker>.</HIS:spOpener>
+<lb/><l>Se hist vor rejses mål! Se Romas mure!</l>
+<lb/><l>Mod himlen står det høje Kapitol.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="OLLOVICO"><HIS:spOpener><speaker>Ollovico</speaker>.</HIS:spOpener>
+<lb/><l><emph>Det</emph> Roma er? Italiens herskerinde,</l>
+<lb/><l>og snart Germanniens, &dash; Galliens og <app type="external" subtype="word" xml:id="varC2-100"><HIS:hisRdg>måske</HIS:hisRdg></app>.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="AMBIORIX"><HIS:spOpener><speaker>Ambiorix</speaker>.</HIS:spOpener>
+<lb/><l>Desværre, ja; &dash; så tør det engang vorde;</l>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="6" facs="11"/>
+<lb/><l>og skånselløst er Romas herredom;</l>
+<lb/><l>den undertvungne tynger det til jorden.</l>
+<lb/><l>Nu får vi se, hvad lod vort folk kan vente:</l>
+<lb/><l>om her er værn mod krænkelserne hjemme,</l>
+<lb/><l>og fred og ret for Allebrogers land.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="OLLOVICO"><HIS:spOpener><speaker>Ollovico</speaker>.</HIS:spOpener>
+<lb/><l part="I">Det vil os skænkes.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="AMBIORIX"><HIS:spOpener><speaker>Ambiorix</speaker>.</HIS:spOpener>
+<lb/><l part="F">Lad os håbe så;</l>
+<lb/><l>thi endnu ved vi ingenting med visshed.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="OLLOVICO"><HIS:spOpener><speaker>Ollovico</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du frygter, synes det?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="AMBIORIX"><HIS:spOpener><speaker>Ambiorix</speaker>.</HIS:spOpener>
+<lb/><l part="F">Med skellig grund.</l>
+<lb/><l>Nidkær var Roma stedse for sin magt.</l>
+<lb/><l>Og kom ihug at dette stolte rige</l>
+<lb/><l>af høvdinger ej <app type="external" subtype="interpunction" xml:id="varC2-101"><HIS:hisRdg>styres</HIS:hisRdg></app> som hos os.</l>
+<lb/><l>Derhjemme råder vismand eller <app type="external" subtype="interpunction" xml:id="varC2-102"><HIS:hisRdg>kriger,</HIS:hisRdg></app></l>
+<lb/><l>i <HIS:hisDel rend="overstrike">ra</HIS:hisDel> kløgt den ypperste, i strid den største;</l>
+<lb/><l>ham kårer vi til <app type="external" subtype="word" xml:id="varC2-103"><HIS:hisRdg>hersker</HIS:hisRdg></app> for vor stamme,</l>
+<lb/><l>til dommer og til <app type="external" subtype="word" xml:id="varC2-104"><HIS:hisRdg>fører</HIS:hisRdg></app> for vort folk.</l>
+<lb/><l part="I">Men <emph>her</emph> &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="CATILINA"><HIS:spOpener><speaker>Catilina</speaker>
+<lb/><HIS:hisStage>(råber ned til dem.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">&dash; her råder <app type="external" subtype="word" xml:id="varC2-105"><HIS:hisRdg>smuds</HIS:hisRdg></app> og egennytte; &dash;</l>
+<lb/><l>ved list og rænker blir man hersker <app type="external" subtype="word" xml:id="varC2-152"><HIS:hisRdg>her!<note resp="editor" type="variant">mangler resten av teksten</note></HIS:hisRdg></app></l></HIS:hisSp>
+</div></body></text>
+</TEI>

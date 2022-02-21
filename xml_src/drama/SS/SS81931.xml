@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE TEI     [     <!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     %HIS_entiteter;     ]> <?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Samfundets støtter]</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1931</title>
+<title level="a" type="origYear">[1875]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Transkripsjon av faksimile, mars 2003</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name></respStmt>
+<respStmt><resp>Annenkollasjon og kodekontroll, april 2003</resp>
+<name xml:id="HIS_MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="SS81931_0112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på egen transkribsjon.</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="SS81931">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.8&deg; 1931</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>Udatert</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Replikkutkast, egenhendig. Resten av manuskriptet består av diktet 'Til frøken Emma Klingenfeld' og noen regnestykker.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>To replikker, løselig satt opp som replikker. Begge er uten rollenavn, skrevet oppned nederst på arket, i kladdestil uten noen form for typografisk utheving utover oppsettet. Forøvrig ingen paginering, men noen regnestykker øverst på arket.</p>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id_who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label xml:id="KONSULBERNICK"/><item/>
+<label xml:id="JOHAN"/><item/>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="eng"/></langUsage>
+<handNotes><handNote scribe="HI_1" xml:id="HI_1" medium="pen_black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote></handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>27.01.12</date>
+<name>SBT</name><title>Ferdigstilling</title>
+La inn kolofonopplysninger i teiHeader og attributter i text. Gikk gjennom noter og logg. Ferdig.</change>
+<change><date>21.01.12</date>
+<name>SBT</name><title>HISe P5</title>
+Kodet om fila. GJENSTÅR å gå gjennom logg og noter.</change>
+<change><date>19.10.09</date>
+<name>MW</name><title>Klar for versjonsvisninger</title>
+Sjekket at SS-filene har de synopticViewPtr-koder som trengs for å få laget de visninger vi ønsker. Så nå er det klart for å lage synoptiske visninger.</change>
+<change><date>19.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle SS-filer.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. I SS-filene betyr det at det ene sett xptr-koder fjernes og bare de med textWitnesses som att.verdi blir stående. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>22.11.07</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+Lagt inn xptr-kobling mot SS41112b og c, som begge har replikken. Siden replikken er identifisert er verdiene i who byttet ut med de egentlige/endelige. Kodet type i div med relatedToWork for selv om replikken finnes i 1. akt av to av utkastene, finnes den ikke i den endelige versjonen av verket.</change>
+<change><date>20.11.07</date>
+<name>HB</name><title>HISe-xptr-koblinger basert på pb/ed/HU</title>
+Siden det ikke kan kodes inn referanser mot pb/ed/HU, er det ikke laget xptr-koblinger her.</change>
+<change><date>19.11.07</date>
+<name>HB</name><title>Sidereferanse-koding</title>
+La til pb/ed/faksBase.</change>
+<change><date>28.10.07</date>
+<name>HB</name><title>Filologisk ferdigstilling</title>
+Gjenstår: Samkjøre handList mot TMs beskr. Lage tilknytning til øvrige versjoner. Typologisere div, hvis ikke fjerne div. * Oppdaterte dokumentheader. Sjekket evt arbeidsnoter og siccing og fjernet dette. Fjernet overflødige mellomrom i fila. Oppdaterte ms-koding. Oppdaterte verdi i handList med nummerert HI og generelt til ny standard med underscore. La til pb for tekstkilden. Validerte.</change>
+<change><date>08.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>09.08.05</date>
+<name>MW</name><title>teiHeader</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>15.05.03</date>
+<name>MW</name><title>Kodeendringer</title>
+Jeg endret kodingen ifølge vedtak fra kodemøtet 24. april (handList, title (Uten tittel)). Validert.</change>
+<change><date>04.04.03</date>
+<name>MW</name><title>Annenkollasjon og kodekontroll</title>
+Annenkollasjon mot original utført og resultatene er innført i filen. Fjernet punktet om sidehenv. til HU i teiHeader, da jeg ikke gjenkjenner replikken i den endelige SS-teksten. Dessuten er det uklart om de personer, som taler, opptrer i den endelig SS-teksten, så vi beholder B og R som speakere. Kodekontroll utført. Validert.</change>
+<change><date>11.03.03</date>
+<name>HB</name><title>Oppretting av fil samt transkripsjon</title>
+Opprettet fil og transkriberte og kodet teksten. Jeg har ikke forsøkt å finne ut hvilke personer initialene viser til eller hvor i stykket replikkene hører (evt. skulle hørt) hjemme, og jeg har derfor heller ikke kodet inn evt. sidetall fra HU. Filen er valid og klar for 2. kollasjon.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs"  xml:lang="eng">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="4" />
+    <div type="relatedToWork">
+<lb/><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="SS_1931ms"/><HIS:hisSp who="KONSULBERNICK"><p>Go<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>od morning, <HIS:hisDel rend="overstrike">ma</HIS:hisDel>s capten R. &dash;
+<lb/>this way, if you please, captain R &dash;. I am
+<lb/>mr: B.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JOHAN"><p>Very well, K. but first three hurrah for the
+<lb/>old Grævling!</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

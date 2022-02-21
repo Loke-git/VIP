@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjæmpehøien</title>
+<title level="a" type="sub">annen hovedversjon, FU</title>
+<title level="a" type="origYear">1902</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Konvertering fra Bergensmaterialet til TEI SGML, mars 1999:</resp>
+<name>Espen S. Ore</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing, 1999/2000:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra TEI SGML til prosjektspesifikk TEI XML, oktober 2000:</resp>
+<name>Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Oppdatering etter filsplitting</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="K2FU-1212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<biblStruct xml:id="K2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kæmpehøjen</title>
+<title type="sub">Dramatisk digtning i en akt</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubPlace>København</pubPlace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<HIS:printer>Græbes Bogtrykkeri</HIS:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblScope unit="volume">Bd. 10</biblScope>
+<date>1902</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc><editorialDecl>
+<HIS:typography>
+<list>
+<head>SAMLEDE VÆRKER (1898-1902) - K2:</head>
+<item>skriftstil: antikva;</item>
+<item>stykkets deltittelblad:
+<list>
+<item>tittel: 16 pkt, versaler, fet (?), midtstilt;</item>
+</list>
+</item>
+<item>rolleliste:
+<list>
+<item>overskrift: 10 pkt, versaler, sperret (?), midtstilt;</item>
+<item>rollelisteinnførsel: 8 pkt, venstrejustert, hengende innrykk 6 mm;
+<list>
+<item>rolleinnehaver: kapitéler;</item>
+<item>rollebeskrivelse: versaler og minuskler;</item>
+</list>
+</item>
+<item>situasjonsbeskrivelse: 7 pkt, versaler og minuskler, midtstilt;</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>overskrift: 12 pkt, versaler, sperret, midtstilt;</item>
+<item>sceneanvisning: 7 pkt, versaler og minsukler, parantes, midtstilt, blokkjustert;</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>sceneanvisninger: midtstilt, eller som løpende tekst i replikk, forøvrig jfr. ovenfor;</item>
+<item>rollenavn: 9 pkt, kapitéler, minuskler ved "og"; men typefeil s 39, i replikken BLANKA. O Gud! er L-en en majuskel, resten kapiteler.</item>
+<item>verselinjer: 9 pkt, innrykket (ca.) 13,5 mm, venstrestilt;</item>
+<item>versesitat: 9 pkt, innrykket 10,5 mm, venstrestilt;</item>
+<item>sitater: anførselstegn, forøvrig som avsnitt/replikk;</item>
+<item>utheving i replikk: sperret;</item>
+<item>utheving i sceneanvisning: kapitéler;</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skillestrek 1: 9mm, under aktoverskrifter og sidetall;</item>
+<item>skillestrek 2: 13,5 mm, på tittelblad, før situasjonsbeskrivelse;</item>
+<item>skillestrek 3: 18 mm, etter situasjonsbeskrivelse;</item>
+<item>skillestrek 4: 18 mm, ved aktslutt (ikke etter siste, jfr. nedenfor);</item>
+<item>pyntestrek: 17,5 mm, ved dramaslutt;</item>
+<item>bindestrek: 3/4 mm, (ca.) 1 pkt;</item>
+<item>tankestrek: 3 mm, 0,5 pkt;</item>
+<item>anførselstegn: doble komma, venstre/nedre, høyre/øvre (plassert diagonalt/speilvendt);</item>
+<item>arksignatur: 7 pkt, tittel i kapitéler, bd.nr. i versaler, siffer i tabelltall, avsnittet er rykket inn 4,5 mm i begge marger;</item>
+<item>sidetall: 10 pkt, tabelltall, midtstilt;</item>
+</list>
+</item>
+<item>annet:
+<list>
+<item>Kapitéler: navn og ord først i setning trykt med bare kapitéler er transkribert med majuskel forbokstav og resten minuskler, ellers er kapitéler transkribert med minuskler.</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label>Asgaut</label><item>Asgaut/Asgaut/Asgaut</item>
+<label>Blanka</label><item>Blanka/Blanka/Blanka</item>
+<label>Gandalf</label><item>Gandalf/Gandalf/Gandalf</item>
+<label>Hemming</label><item>Hemming/Hemming/Hemming</item>
+<label>Hrolloug</label><item>Hrolloug/Hrolloug/-</item>
+<label>Jostejn</label><item>Jostejn/Jostejn/-</item>
+<label>Roderik</label><item>Roderik/Roderik/Roderik</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd I) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 279-309. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>07.12.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe. Endret stage/dashes til l/dashes.</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Fjernet performance og flyttet head inn i castList</title></change>
+<change><date>19.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc og entiteten i projectDesc. Validert</change>
+<change><date>17.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>13.09.04</date>
+<name>HG</name><title>Kodekorrektur</title>
+Fjernet liste-koding i rollelista ved 'flere vikinger'.</change>
+<change><date>26.11.03</date>
+<name>HG</name><title>Korrektur</title>
+Rettet opp referansen til HU-sidetall.</change>
+<change><date>06.11.03</date>
+<name>HG</name><title>Innføring av kollasjonsresultater</title>
+Ført inn kollasjonsresultater. Endret rollenavnskodinga i genitivskonstruksjoner (type Gandalfs hånd) fra 'stageRole' til 'hi'. Rettet tagUsage og ført inn et punkt om transkripsjon av rollenavn i typografibeskrivelsen. Utført kodekontroll og validert. Laget visningsfil.</change>
+<change><date>03/04.11.03</date>
+<name>HG</name><title>Oppdatering</title>
+Første oppdatering etter filsplitting: Oppdatert teiHeader ('role' attr. i editor står tomt), fjernet typografibeskrivelse og ed-attr. for de øvrige K2-filene. Fjernet overflødig blanke. Endret transkripsjon av rollenavn fra bare majuskler til majuskler-minuskler. Endret id/who attr. 'JOSTEJN' til 'JOSTEIN'. Validert. Fila klar for kontrollkollasjon.</change>
+<change><date>24.09.03</date>
+<name>HB</name><title>Feil i kodingen</title>
+En feil gjenstår, place er ikke gjort tillatt i flertekstdtden, og det skulle det nok, men jeg gjør ikke noe med det her. Dette må man sjekke mot entekstdtden etter splitting.</change>
+<change><date>18.09.01</date><name>EN</name><title>Oppdatering</title>Fjernet lg-kodingen. Blanke linje mellom strofer er kodet med rend="line" i påfølgende verslinje. Oppdaterte TEI-headeren. </change>
+<change><date>28.12.00</date><name>IF</name><title>korrektur</title>La inn principal ESO og info om xml-konv. La inn tagsDecl. Endret fra min. til maj. i id- og who-attr. Fjernet ett tilfelle av hyphen. Validert.</change>
+<change><date>17.10.00</date>
+<name>IF</name><title>XML-konvertering</title>
+Konvertert filen fra SGML til XML og arkivert SGML-versjonen. Fjernet witStart og witEnd. Validert mot ibsen-fl-xml.dtd 10/00, brent på cd.</change>
+<change><date>16.05.00</date>
+<name>EN</name><title>Kodeoppdatering</title>Endret vitnenumrene slik at de er i samsvar med prinsippene i kodepraksis og attributtverdilisten. Endret en del andre ikke-lenger-gyldige verdier i samme slengen. Validert mot ibsen-flertekst.dtd og ibsen-flertekst-sluttagg.dtd. Skal brennes på CD 15/9 i forbindelse med XML-konverteringen.</change>
+<change><date>16.05.00</date>
+<name>EN</name><title>Korrektur på korrektur</title>Lest korrektur på IFs endringer 31.03.00. Fjernet Bergensrimene. La inn role og roleDesc i rollelisten. Validert. Ny Dynatextbok. Brent på CD.</change>
+<change><date>31.03.00</date>
+<name>IF</name><title>Oppdatering av koding</title>Oppdatert docType i teiHeader til multitekst. Kontroll av tekst og koding. La inn bibl. Fjernet figDesc. Endret attributt fra K2 til k2fu. Endret fra v.m.h. til place-attr i cb, men fjernet ikke n-attr. Korrektur apparater, spOpener, tekst. Opprettet bok i Dynatext, laget stilark. Validert.</change>
+<change><date>14.01.00</date>
+<name>EN</name><title>TEI-header</title>Redigert TEI-headeren i tråd med kodemøtevedtak desember 1999. Validert.</change>
+<change><date>07.12.99</date>
+<name>EN</name><title>Oppdatering av koding</title>Lagt inn type-attributt i FIGURE. Erstattet type=tbs med type=hyphen og la inn det nye SHY-elementet. Validert.</change>
+<change><date>28.11.99</date>
+<name>EN</name><title>DTD og oppdateringer</title> Lagt inn ny Public identifier (til ny ibsen.dtd). Endret SPHEAD til SPOPENER. Validert.</change>
+<change><date>19.10.99</date>
+<name>EN</name><title>Koding og korrektur</title>Oppdatert kodingen i tråd med vedtak på Sisyfos 26.10.99 og kodemøte 02.11.99: *FW/PB: Fjernet n-attributtene fra PB. Satt reelle sidetall for k2hu, k2fu og K204 i FW og plassert elementet der etter sidetallets faktiske plassering i tekstvitnene. Kodet arksignaturer i FW type="sheet". *STAGEROLE: satt inn det nye elementet STAGEROLE. *LG: Lagt inn lg-koding i hele filen. *SP: Lest korrektur på SP-inndelingene. *DIV: lest korrektur og ryddet i div-kodene. *TYPOGRAFIBESKRIVELSE: lagt inn beskrivelse av K204 i ENCODINGDESC. TANKESTREKER: rekken med tankestreker på egen linje (k2fu/K204 s. 6) kodet som STAGE. Endret entiteten fra ts til dash. </change>
+<change><date>18.10.99</date>
+<name>EN</name><title>Variantapparat</title>Lagt inn variantene i K204. NB! Det gjenstår en kollasjonering av k2fu mot K204 (IF), men den er utsatt til vi får kollasjoneringsmaskinen. Validert.</change>
+<change><date>19.10.99</date>
+<name>EN</name><title>Koding</title>Koding oppdatert etter kodepraksis oktober 1999: *SPHEAD: Satte inn spHead. *ATTRIBUTTVERDIER: Endret verkforkortelsene til K2, k2hu og k2fu. Satte inn verkforkortelser i who-attributtene (eks. blanka). Oversatte attributtverdier til engelsk. *TYPOGRAFI: La inn typografisk beskrivelse av k2fu i headeren. *ENTITETER: Tok bort skille- og pyntestreksentiteter og kodet strekene som figures. Endret entiteten for tankestreker til ndash. Fjernet entiteten for bindestrek. </change>
+<change><date>6.05.99</date>
+<name>MW</name><title>Korrekturlæsning</title>Jeg læste korrektur på IFs oprettelse f.o.m. s. 26, på skillestregerne på de første sider og på lb incl. part=I/M/F.</change>
+<change><date>30.04.-05.05.99</date>
+<name>IF</name><title>Opprettelse av 98</title>fortsatte å opprette 98-teksten f.o.m. s 26. Korrektur t.o.m. s. 25. Endret anførselstegn i tekst og header til &lquo; og &rquo; (er usikker på om det er ført riktig i headeren), det som er beskrevet i e-post 28.4.99, og endret skillestreken til ss, la til skillestreker på de første sidene; de syntes ikke på fotostatkopien. Flyttet notene om HU til et dokument som jeg kan gi kommentatorene siden. Er usikker på om tomme sider i 98 skal kodes (tok vekk note som jeg hadde tidligere)</change>
+<change><date>27.04.99</date>
+<name>MW</name><title>Oprettelse af 98</title>Jeg fortsatte med oprettelsen af 98 fra tredje scene t.o.m. s.25 i 98. Jeg har ikke set på lb og part=I/F/M. Kan vi mon ikke fjerne noterne om HU?</change>
+<change><date>23.04.99</date><name>IF</name><title>Sideskift i 98</title>Lest korrektur av pb-koder.</change>
+<change><date>20.04.99</date><name>MW</name><title>Sideskift i 98</title>Indsat pb-koder for 98 dokumentet ud.</change>
+<change><date>8.04.99</date><name>MW</name><title>korrektur</title>Læst korrektur på opretningen af K98 frem t.o.m. scene 2</change>
+<change><date>26.03.99</date><name>IF</name><title>korrektur og rydding</title>opprettet K98 t.o.m. scene 2 med utgangspunkt i K53 fra 26.03.99. K98 har tekstgrunnlag fra Folkeudgaven 1898, bind 10 (1902) med modernisert rettskrivning (skjandinavisk rettskrivning etter konferansen i 1869). Beholdt pb og lb fra HU og ft</change>
+<change><date>08.03.99</date><name>ESO</name><title>Datakoding</title>FørsteTEI-tilpassing, basert på stort sett automatisk konvertering og innsetting av TEI-Header-informasjon, første versjon.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="printed" xml:lang="dan-nob">
+<front>
+<titlePage>
+<pb/><pb ed="HU" n="279"/>
+<docTitle>
+<lb/><titlePart>KÆMPEHØJEN</titlePart>
+<lb/><titlePart type="Desc">DRAMATISK DIGTNING I EN AKT</titlePart>
+</docTitle>
+<lb/><figure type="bar"/>
+<lb/><fw type="sheet" place="bottom-left">Henrik Ibsens samlede værker. X.</fw><fw type="sheet" place="bottom-right">1</fw>
+</titlePage>
+<pb ed="HU"/>
+<pb ed="HU"/>
+<pb/>
+<lb/><HIS:hisCastList><head>PERSONERNE:</head>
+<lb/><castItem xml:id="RODERIK"><role>Roderik</role>, <roleDesc>en gammel eneboer</roleDesc>.</castItem>
+<lb/><castItem xml:id="BLANKA"><role>Blanka</role>, <roleDesc>hans plejedatter</roleDesc>.</castItem>
+<lb/><castItem xml:id="GANDALF"><role>Gandalf</role>, <roleDesc>søkonge fra Norge</roleDesc>.</castItem>
+<lb/><castItem xml:id="ASGAUT"><role>Asgaut</role>, <roleDesc>en gammel viking</roleDesc>.</castItem>
+<HIS:hisCastGroup>
+<lb/><castItem xml:id="HROLLOUG"><role>Hrolloug</role>,</castItem>
+<lb/><castItem xml:id="JOSTEIN"><role>Jostejn</role> og</castItem>
+<lb/><castItem><role>flere vikinger</role>.</castItem>
+</HIS:hisCastGroup>
+<lb/><castItem xml:id="HEMMING"><role>Hemming</role>, <roleDesc>en ung skald i <hi>Gandalfs</hi> tjeneste</roleDesc>.</castItem>
+</HIS:hisCastList>
+<lb/><figure type="bar"/>
+<lb/><set><p>(Handlingen foregår på en liden ø ved Sicilien, kort før kristen&typHyp;
+<lb/>dommens indførelse i Norge.)</p></set>
+<lb/><figure type="bar"/>
+<lb/><fw type="sheet" place="bottom-right">1</fw>
+</front>
+<pb ed="HU"/>
+<pb/>
+<body>
+<pb ed="HU"/>
+<pb/>
+<div type="act" n="1">
+<lb/><HIS:hisStage>(En åben plads omgiven af trær nær ved strandbredden. Til venstre
+<lb/>i baggrunden en antik tempelruin. Midt på scenen en stor kæmpehøj,
+<lb/> hvorpå en bauta, omvunden af blomsterkranse.)</HIS:hisStage>
+<lb/><figure type="bar"/>
+<div type="scene" n="1">
+<lb/><head>FØRSTE SCENE.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="RODERIK">Roderik</HIS:stageRole> sidder skrivende til højre. Til venstre <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>, i en halvt
+<lb/>liggende stilling.</HIS:hisStage>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Aftenrødens sidste luer</l>
+<lb/><l>bølger som et hav ibrand, &dash;</l>
+<lb/><l>der er tempeltyst ved strand,</l>
+<lb/><l>tyst som under løvets buer.</l>
+<lb/><l>Sommeraftnens milde fred</l>
+<lb/><l>daler som en due ned,</l>
+<lb/><l>svæver som en svane over</l>
+<lb/><l>skovens blomst og havets vover.</l>
+<lb/><l>I orangekrattet blunder</l>
+<lb/><l>fortids guder og gudinder,</l>
+<lb/><l>høje marmorhugne minder</l>
+<lb/><l>om en verden, som gik under.</l>
+<lb/><l>Troskab, tapperheden, dyden</l>
+<lb/><l>står forstenet, dødt og rigt;</l>
+<lb/><l>gives vel et mere ligt</l>
+<lb/><l>billed på det sjunkne Syden?</l>
+<lb/><HIS:hisStage>(rejser sig.)</HIS:hisStage>
+<lb/><l>Men min fader har fortalt</l>
+<lb/><l>om et land bag fjerne bølger,</l>
+<pb/>
+<lb/><fw type="page" place="top">6</fw>
+<lb/><l>hvor et frodigt liv sig dølger,</l>
+<lb/><l>ej et mejslet eller malt!</l><pb ed="HU"/>
+<lb/><l>Her er guddomslivet veget,</l>
+<lb/><l>spores kun i stenens træk, &dash;</l>
+<lb/><l>der det ånder, kraftigt præget,</l>
+<lb/><l>som en kæmpe stærk og kæk!</l>
+<lb/><l>Og når aftnens lumre stilhed</l>
+<lb/><l>tynger knugende mit bryst,</l>
+<lb/><l>se, da stiger Nordens billed</l>
+<lb/><l>for mit øje snebelyst!</l>
+<lb/><l>Her er smuldrende ruiner,</l>
+<lb/><l>døsig dvale, tung og blød, &dash;</l>
+<lb/><l>der er styrtende laviner,</l>
+<lb/><l>forårsliv og vinterdød!</l>
+<lb/><l rend="line">Hvis jeg havde svanehammen</l>
+<lb/><l type="dashes">&dash; &dash; &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>
+<lb/><HIS:hisStage>(efter en pause, skrivende)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>&lquo; Da, heder det, har Ragnarok forsonet</l>
+<lb/><l>de vilde kræfter, vakt et luttret liv;</l>
+<lb/><l>Alfader, Balder og den milde Freja</l>
+<lb/><l>skal styre Askurs æt i fred påny!&rquo; &dash;</l>
+<lb/><HIS:hisStage>(efter et øjeblik at have betragtet hende.)</HIS:hisStage>
+<lb/><l>Men Blanka, se, nu drømmer du igen,</l>
+<lb/><l>du stirrer tankefuld igennem luften, &dash;</l>
+<lb/><l part="I">hvad søger du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(nærmer sig)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Tilgiv mig, gode fader!</l>
+<lb/><l>Jeg fulgte kun et stykke vej med svanen,</l>
+<lb/><l>som fløj på hvide vinger over havet.</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">7</fw>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l>Og hvis jeg ikke havde standset dig</l>
+<lb/><l>i flugten, du min unge, fagre svane!</l>
+<lb/><l>Hvem véd, hvor langt du da var fløjen med,</l>
+<lb/><l part="I">måske til Thule?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hvorfor ikke det?</l>
+<lb/><l>Did flyver svanen jo ved forårstid,</l><pb ed="HU"/>
+<lb/><l>men vender dog hvert efterår tilbage.</l>
+<lb/><HIS:hisStage>(sætter sig ved hans fødder.)</HIS:hisStage>
+<lb/><l>Dog jeg er ingen svane, kald mig heller</l>
+<lb/><l>en fangen falk, der sidder tam og tro</l>
+<lb/><l part="I">med gylden ring om foden.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nu, og ringen?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker></HIS:spOpener>
+<lb/><l>Det er min kærlighed til dig, min fader!</l>
+<lb/><l>Ved den du bundet har din unge falk,</l>
+<lb/><l>den kan ej fly, selv om den vilde det.</l>
+<lb/><HIS:hisStage>(rejser sig.)</HIS:hisStage>
+<lb/><l>Men ser du vel, når svanen sejler let</l>
+<lb/><l>henover bølgen som en sky for vinden,</l>
+<lb/><l>da må jeg mindes, hvad du har fortalt</l>
+<lb/><l>om heltelivet i det fjerne Thule;</l>
+<lb/><l>da tykkes mig, at fuglen er en snekke</l>
+<lb/><l>med dragehoved og med gylden fløj;</l>
+<lb/><l>i stævnen skuer jeg den unge helt</l>
+<lb/><l>med kobberhjelmen om de gule lokker,</l>
+<lb/><l>med øjne blå, med mandigt hvælvet bryst,</l>
+<lb/><l>med sværdet knuget i den stærke højre.</l>
+<lb/><l>Jeg følger helten på hans raske færd,</l>
+<lb/><l>og mine drømme tumler sig om snekken</l>
+<pb/>
+<lb/><fw type="page" place="top">8</fw>
+<lb/><l>og leger, overgivent som delfiner,</l>
+<lb/><l>i fantasiens dybe, svale bølger!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l>Du er en sværmerske, mit gode barn, &dash;</l>
+<lb/><l>jeg frygter næsten, at din tanke dvæler</l>
+<lb/><l>for tidt hos folket i det høje Norden.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Og hvis er skylden, fader, om så var?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du mener, at jeg selv &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">O ja, hvad andet,</l>
+<lb/><l>du lever selv jo kun i mindet om</l>
+<lb/><l>dit ungdomsliv blandt Nordens stærke helte;</l>
+<lb/><l>og nægt det ej, så tidt du melder om</l>
+<lb/><l>den raske kæmpefærd, om dyst og holmgang;</l><pb ed="HU"/>
+<lb/><l>da luer kinden og dit øje gløder:</l>
+<lb/><l>det tykkes mig, du vorder ung påny.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l>Vel sandt, men jeg har også grund dertil;</l>
+<lb/><l>jeg har jo selv blandt Nordens helte levet,</l>
+<lb/><l>og alt, hvad mindet hvisker mig om dem,</l>
+<lb/><l>det er jo blade fra min egen saga.</l>
+<lb/><l>Du derimod, som fostredes i Syden,</l>
+<lb/><l>som aldrig så de sølvblå vinterfjelde,</l>
+<lb/><l>som aldrig hørte ludurhornets klang, &dash;</l>
+<lb/><l>hvor kan det fængsle dig, hvad jeg fortæller?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>O sig, behøver mennesket at se</l>
+<lb/><l>og høre alting med de ydre sanser?</l>
+<pb/>
+<lb/><fw type="page" place="top">9</fw>
+<lb/><l>Har ikke også sjælen blik og øre,</l>
+<lb/><l>hvormed den lytte kan og skue grant?</l>
+<lb/><l>Med legemlige øjne ser jeg vel</l>
+<lb/><l>den rige farveglød, som rosen ejer;</l>
+<lb/><l>men sjælens blik kan i dens bæger se</l>
+<lb/><l>en dejlig alf med sommerfuglevinger,</l>
+<lb/><l>som skælmsk sig skjuler bag de røde blade</l>
+<lb/><l>og nynner om en lønlig magt fra himlen,</l>
+<lb/><l>der skænkte blomsten farvepragt og duft.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Vel sandt, min datter!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Fast jeg skulde tro,</l>
+<lb/><l>at just fordi jeg ikke skued selv,</l>
+<lb/><l>så står det hele mere skønt for tanken;</l>
+<lb/><l>så går det idetmindste dig, min fader!</l>
+<lb/><l>De gamle gudesagn og heltekvæder,</l>
+<lb/><l>dem mindes du og taler om med lyst,</l>
+<lb/><l>og ridser dem på pergament med runer;</l>
+<lb/><l>men hvis jeg spørger om dit eget liv</l>
+<lb/><l>i Nordens egne, mørknes tidt dit øje,</l>
+<lb/><l>din læbe tier og det tykkes stundom,</l>
+<lb/><l>som om din barm blev hjem for tunge minder.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>
+<lb/><HIS:hisStage>(rejser sig)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Nævn ikke mere derom, gode barn, &dash;</l><pb ed="HU"/>
+<lb/><l>hvo er vel den, hvis ungdomsminder ej</l>
+<lb/><l>er blandede med mangt et bittert nag; &dash;</l>
+<lb/><l>du véd, Normannerne er vilde kæmper. &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Men er da Sydens kriger mindre grum?</l>
+<lb/><l>Har du forglemt hin nat for ti år siden,</l>
+<pb/>
+<lb/><fw type="page" place="top">10</fw>
+<lb/><l>dengang de fremmede på kysten landed,</l>
+<lb/><l part="I">og plyndrede &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>
+<lb/><HIS:hisStage>(med synlig uro)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Nok derom, lad os gå;</l>
+<lb/><l>det lakker alt mod solnedgang, &dash; kom, kom!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(idet de går)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Giv mig din hånd!</l>
+<lb/><HIS:hisStage>(standser.)</HIS:hisStage>
+<lb/><l part="M">Nej vent!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hvad fattes dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>For første gang har jeg idag forglemt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad har du glemt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(pegende mod højen)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Se stenen der og kransen!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Det er &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Den gamle, visne fra igår;</l>
+<lb/><l>jeg har forglemt at bytte den i aften;</l>
+<lb/><l>dog &dash; lad mig følge dig til hytten først,</l>
+<lb/><l>så går jeg siden ud på blomsterfangst:</l>
+<lb/><l>violen dufter bedst, når aftnens dugg</l>
+<pb/>
+<lb/><fw type="page" place="top">11</fw>
+<lb/><l>har badet den i blanke perlevover,</l>
+<lb/><l>og rosens knop er ingentid så smuk,</l>
+<lb/><l>som når den plukkes, mens den barnligt sover!</l>
+<lb/><HIS:hisStage>(De går, til højre i baggrunden.)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>ANDEN SCENE.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole> og <HIS:stageRole>vikingerne</HIS:stageRole> kommer fra højre.</HIS:hisStage>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="I">Her er vi snart ved stedet.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hvor? Lad se!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Nej, vent kun lidt til vi er bagved skoven.</l><pb ed="HU"/>
+<lb/><l>På klippeskråningen mod havet stod</l>
+<lb/><l>en rest af muren, da vi drog afsted, &dash;</l>
+<lb/><l>den står der sagtens endnu, tænker jeg.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l>Hør, sig os drot, hvad kan det både os</l>
+<lb/><l>at traske om som narre her på holmen?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="I">Ja sig, hvad skal vi &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Tie skal I, tie!</l>
+<lb/><l>Og lystre blindt, hvad eders konning byder!</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="ASGAUT">Asgaut</HIS:stageRole>.<note type="typo">Meget svakt punktum.</note>)</HIS:hisStage>
+<lb/><l>Det synes mig forresten, som I har</l>
+<lb/><l>gjort altfor ryddigt hus, da sidst I var her;</l>
+<pb/>
+<lb/><fw type="page" place="top">12</fw>
+<lb/><l>I kunde sagtens have levnet lidt</l>
+<lb/><l part="I">for mig og for min hævn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="F">Du er vor konning,</l>
+<lb/><l>og troskab svor dig dine mænd på thinge;</l>
+<lb/><l>men da vi fulgte dig i ledingsfærd,</l>
+<lb/><l>så var det for at vinde ry og hæder.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l>Og guld og skatte, Hrolloug, guld og skatte.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Flere</speaker>.</HIS:spOpener>
+<lb/><l>Ja, det er loven, Gandalf, agt for den!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Jeg kender loven vel så godt som I;</l>
+<lb/><l>men var det ej fra gamle tider skik</l>
+<lb/><l>og vedtægt mellem os, at når en frænde</l>
+<lb/><l>for fiendehånd blev fældet, og hans lig</l>
+<lb/><l>lå ubegravet, som et rov for ravnen,</l>
+<lb/><l part="I">så måtte blodhævn til?</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Nogle</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, sådan er det!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Så værer rede da med sværd og skjold, &dash;</l>
+<lb/><l>I har en drot at hævne, jeg en fader!</l>
+<lb/><HIS:hisStage>(Bevægelse blandt <HIS:stageRole>vikingerne</HIS:stageRole>.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l part="I">En drot?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="M">En fader?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">13</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Vent, jeg vil berette</l>
+<lb/><l>hvad der er hændt. I véd, min fader var</l>
+<lb/><l>en vældig viking. Tolv år er det siden</l><pb ed="HU"/>
+<lb/><l>han sidste gang en vår drog ud i leding</l>
+<lb/><l>med Asgaut der og sine gamle kæmper.</l>
+<lb/><l>To år han flakkede fra strand til strand,</l>
+<lb/><l>og gæsted Bretland, Valland, ja selv Blåland;</l>
+<lb/><l>til slutning hærjed han på Sikiløj,</l>
+<lb/><l>og hørte der berette om en høvding,</l>
+<lb/><l>som boed her på holmen i et slot</l>
+<lb/><l>med stærke mure bygget op på fjeldet,</l>
+<lb/><l>og der var kostelige skatte gemt.</l>
+<lb/><l>Ved nattetid han landed under stranden,</l>
+<lb/><l>og borgen hærjed han med ild og sværd.</l>
+<lb/><l>Selv var han foran som en ægget bjørn,</l>
+<lb/><l>og i berserkergangen så han ej,</l>
+<lb/><l>hvordan hans kæmper segned rundt omkring ham;</l>
+<lb/><l>og da det første daggry randt i øst,</l>
+<lb/><l>lå hele borgen rygende i grus.</l>
+<lb/><l>Kun Asgaut stod igen med nogle få, &dash;</l>
+<lb/><l>min fader og vel hundrede med ham</l>
+<lb/><l>var redet gennem flammerne til Valhal.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Jeg hejste snekkens sejl i højen rå,</l>
+<lb/><l>og vendte stavnen hjemad imod Norden;</l>
+<lb/><l>der søgte jeg forgæves efter Gandalf,</l>
+<lb/><l>den unge ørn var fløjen over havet</l>
+<lb/><l>til Island eller Færø, blev mig sagt.</l>
+<lb/><l>Jeg stævned efter ham, men fandt ham ej, &dash;</l>
+<lb/><l>dog navnet kendte de, såvidt jeg fór;</l>
+<lb/><l>ti skøndt hans drage fløj som sky for stormen,</l>
+<lb/><l>så fløj hans rygte dog på bedre vinger.</l>
+<lb/><l>I sommer, véd I, traf jeg ham til slut,</l>
+<pb/>
+<lb/><fw type="page" place="top">14</fw>
+<lb/><l>det var i Velskland; jeg beretted ham,</l>
+<lb/><l>hvad der var sket, hvordan hans fader endte,</l>
+<lb/><l>og Gandalf svor ved alle Valhals guder</l>
+<lb/><l>at tage blodig hævn med ild og sværd.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l>Det er en gammel skik, og den bør agtes!</l><pb ed="HU"/>
+<lb/><l>Men hvis jeg havde været konning Gandalf,</l>
+<lb/><l>så var jeg bleven liggende i Velskland, &dash;</l>
+<lb/><l part="I">for der var guld at vinde.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hæder med.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Det er jer troskab mod den faldne drot.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l>Nu, nu, godt ord igen, jeg mente blot</l>
+<lb/><l part="I">den faldne kunde vente.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>
+<lb/><HIS:hisStage>(med undertrykt forbitrelse)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Usle slægt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l part="I">Men siden vi nu engang er her &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja,</l>
+<lb/><l>så lad os rejse ham et værdigt minde!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Nogle</speaker>.</HIS:spOpener>
+<lb/><l part="I">Ja, ja!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">15</fw>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Andre</speaker>.</HIS:spOpener>
+<lb/><l part="M">Med brand og blod!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det kan jeg lide,</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Og nu afsted at spejde rundt om øen;</l>
+<lb/><l>ti end i nat skal hævnen være fuldbragt,</l>
+<lb/><l part="I">hvis ej, så må jeg falde selv.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det svor han.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Det svor jeg dyrt ved alle Valhals guder!</l>
+<lb/><l part="I">Og end engang jeg sværger &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>
+<lb/><HIS:hisStage>(med en harpe over skulderen, har under det foregående nærmet sig
+<lb/>mellem <HIS:stageRole>kæmperne</HIS:stageRole> og udbryder bønligt)</HIS:hisStage>:</HIS:spOpener>
+<lb/><l part="F">Sværg ej, Gandalf!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad går der af dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener>
+<lb/><l part="F">Sværg ej her i skoven!</l>
+<lb/><l>Her kan ej vore guder høre dig;</l>
+<lb/><l>i snekkens stavn, i Nord på vore bjerge,</l>
+<lb/><l>der hører de dig nok, men ikke her!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Har Sydens pestluft smittet også dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener>
+<lb/><l>I Velskland hørte jeg de fromme prester</l>
+<lb/><l>fortælle dejligt om den hvide Krist,</l>
+<pb/>
+<lb/><fw type="page" place="top">16</fw>
+<lb/><l>og hvad de sagde svæver for min hu</l>
+<lb/><l>ved nat og dag, det vil ej mer forsvinde.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Jeg tog dig med, fordi du alt som gut</l><pb ed="HU"/>
+<lb/><l>forrådte tegn på rige skaldekræfter.</l>
+<lb/><l>Du skulde se min djærve ledingsfærd;</l>
+<lb/><l>og når kong Gandalf sad som grånet gubbe</l>
+<lb/><l>ved egebordet mellem sine kæmper,</l>
+<lb/><l>da skulde drottens unge skald forkorte</l>
+<lb/><l>den lange vinterkvæld med heltekvad,</l>
+<lb/><l>og så til slutning sjunge mig mit drapa;</l>
+<lb/><l>thi mindet, rejst af skaldetungens lyn,</l>
+<lb/><l>er bedste bauta over heltens gravhøj.</l>
+<lb/><l>Gå nu, slæng harpen væk, og put dig selv</l>
+<lb/><l>i munkekutten, hvis det lyster dig.</l>
+<lb/><l>Ha! ha! Kong Gandalf får en dygtig sanger.</l>
+<lb/><HIS:hisStage>(<HIS:stageRole>Vikingerne</HIS:stageRole> går ind i skoven til venstre; <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole> følger dem.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Det er en muggen tid vi lever i;</l>
+<lb/><l>det bærer ned ad bakke med vor tro</l>
+<lb/><l>og vore sæder fra den gamle tid.</l>
+<lb/><l>Held mig! Min nakke luder alt af ælde;</l>
+<lb/><l>mit øje skal ej skue Nordens fald.</l>
+<lb/><l>Men du, kong Gandalf, du er ung og stærk;</l>
+<lb/><l>og hvor du færdes i det vide fjerne,</l>
+<lb/><l>så kom ihu, at det er kongeværk</l>
+<lb/><l>om folkets guder og dets kraft at værne!</l>
+<lb/><HIS:hisStage>(han følger efter de øvrige.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(efter en pause)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Han har ej nogen frejdig lid til mig.</l>
+<lb/><l>Vel at han gik! Der ligger som en tyngsel</l>
+<lb/><l>på mine skuldre, når han er mig nær.</l>
+<lb/><l>Den gamle stenmand med de barske træk, &dash;</l>
+<pb/>
+<lb/><fw type="page" place="top">17</fw>
+<lb/><l>han ligner Asathor, som stod med Mjølnir</l>
+<lb/><l>og styrkebeltet hugget ud i gråsten</l>
+<lb/><l>i offerlunden ved min faders gård.</l>
+<lb/><l>Min faders gård! &dash; Hvo véd, hvordan det nu</l>
+<lb/><l>ser ud derhjemme på de gamle tomter! &dash;</l>
+<lb/><l>Ja fjeld og skov er sagtens end de samme;</l><pb ed="HU"/>
+<lb/><l>men folkets bryst &dash;? Har det de gamle strænge?</l>
+<lb/><l>Nej, der er falden meldug over tiden,</l>
+<lb/><l>og det er den, som suger Nordens saft</l>
+<lb/><l>og tærer giftigt på dets bedste blomster.</l>
+<lb/><l>Vel, jeg vil hjemad! Redde hvad der end</l>
+<lb/><l>står til at redde, før det styrter sammen.</l>
+<lb/><HIS:hisStage>(efter en pause, idet han ser sig om.)</HIS:hisStage>
+<lb/><l>Hvor der er lifligt her i Sydens lunde;</l>
+<lb/><l>min graneskov har ej så stærk en duft.</l>
+<lb/><HIS:hisStage>(han bemærker højen.)</HIS:hisStage>
+<lb/><l>Hvad nu? En kæmpegrav? Den gemmer nok</l>
+<lb/><l>en landsmand fra de gamle, friske dage.</l>
+<lb/><l>En kæmpegrav i Syden! &dash; Det er billigt;</l>
+<lb/><l>thi Syden gav os jo vort ulivssår.</l>
+<lb/><l>Hvor her er vakkert! Jeg må tænke på</l>
+<lb/><l>en vinterkvæld, da jeg som liden gut</l>
+<lb/><l>sad på min faders knæ ved arneflammen,</l>
+<lb/><l>mens han fortalte mig om vore guder,</l>
+<lb/><l>om Odin, Balder og den stærke Thor;</l>
+<lb/><l>og da jeg nævnte for ham Frejas lund,</l>
+<lb/><l>så skildred han mig den som lunden her, &dash;</l>
+<lb/><l>men da jeg vilde vide lidt om Freja,</l>
+<lb/><l>hvordan hun selv så ud, da smålo gubben,</l>
+<lb/><l>og satte mig på gulvet ned og svared:</l>
+<lb/><l>&lquo;Det vil en kvinde nok fortælle dig!&rquo;</l>
+<lb/><HIS:hisStage>(lyttende.)</HIS:hisStage>
+<lb/><l>Tys! Fodtrin gennem skoven! Rolig Gandalf, &dash;</l>
+<lb/><l>de bringer førstegrøden af din hævn!</l>
+<lb/><HIS:hisStage>(Træder tilside, således at han er halv skjult mellem buskene til højre.)</HIS:hisStage></HIS:hisSp>
+<lb/><fw type="sheet" place="bottom-left">Henrik Ibsens samlede værker. X.</fw><fw type="sheet" place="bottom-right">2</fw>
+</div>
+<div type="scene" n="3"><pb ed="HU"/>
+<pb/>
+<lb/><fw type="page" place="top">18</fw>
+<lb/><head>TREDJE SCENE.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole>. <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole> (med egeblade i håret og en kurv med blomster,
+<lb/>kommer fra venstre).</HIS:hisStage>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(siddende til venstre, beskæftiget med at flette en blomsterkrans)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Der risler kilder i de grønne dale,</l>
+<lb/><l>der gynger klare bølger under strand;</l>
+<lb/><l>men kildens rislen, bølgens sagte røst</l>
+<lb/><l>har ej så stærk en magt som hine blomster,</l>
+<lb/><l>der favnes søsterligen bryst ved bryst</l>
+<lb/><l>i tætte klynger rundt om højens side;</l>
+<lb/><l>de maner mig ved dag og nat herhen, &dash;</l>
+<lb/><l>her er det godt at længes og at drømme.</l>
+<lb/><l>Se nu er kransen færdig. Heltens bauta,</l>
+<lb/><l>så hård og kold, skal dølges under den.</l>
+<lb/><l part="I">Ja, det er smukt!</l>
+<lb/><HIS:hisStage>(visende mod højen.)</HIS:hisStage>
+<lb/><l part="F">Et undergået liv,</l>
+<lb/><l>med kæmpekræfter, dybt i muld begravet, &dash;</l>
+<lb/><l>og mindet, som til efterslægten taler,</l>
+<lb/><l>en iskold kampesten, som hin på højen!</l>
+<lb/><l>Da kommer kunsten, og med venlig hånd</l>
+<lb/><l>den plukker blomster ved naturens bryst</l>
+<lb/><l>og dækker mindets hårde kampesten</l>
+<lb/><l>med hvide liljer, duftende kærminder.</l>
+<lb/><HIS:hisStage>(hun stiger op på højen, hænger kransen over bautastenen og siger
+<lb/>derpå efter en pause:)</HIS:hisStage>
+<lb/><l>Nu sejler atter mine drømmes flok</l>
+<lb/><l>som trækfuglskaren over havets bølger;</l>
+<lb/><l>jeg drages did, hvorhen min længsel stunder,</l>
+<lb/><l>og villigt følger jeg den skjulte magt,</l>
+<lb/><l>som har sin kongestol i sjælens dyb.</l>
+<lb/><l>Jeg står i Norden, er en kæmpers brud,</l>
+<lb/><l>og spejder som en ørn fra fjeldets tinde.</l><pb ed="HU"/>
+<pb/>
+<lb/><fw type="page" place="top">19</fw>
+<lb/><l>Bag blanke bølger dukker snekken frem. &dash;</l>
+<lb/><l>O fly som mågen mod din fædrestrand!</l>
+<lb/><l>Jeg er et Sydens barn, jeg kan ej vente; &dash;</l>
+<lb/><l>jeg river egekransen af mit hår, &dash;</l>
+<lb/><l>tag den, min helt! Den er det andet bud,</l>
+<lb/><l>der hilser dig, &dash; min længsel var det første.</l>
+<lb/><HIS:hisStage>(hun kaster kransen. <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole> træder frem og griber den.)</HIS:hisStage>
+<lb/><l part="I">Hvad nu? Der står &dash;</l>
+<lb/><HIS:hisStage>(hun gnider øjnene og stirrer forundret på ham.)</HIS:hisStage>
+<lb/><l part="F">Nej, det er ingen drøm.</l>
+<lb/><l>Hvo er du, fremmede? Hvad søger du</l>
+<lb/><l part="I">ved stranden her?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Stig ned af højen først,</l>
+<lb/><l part="I">så kan vi tales ved.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(stiger ned)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Se så, her er jeg!</l>
+<lb/><HIS:hisStage>(afsides, idet hun betragter ham.)</HIS:hisStage>
+<lb/><l>Ringbrynjen over brystet, kobberhjelmen, &dash;</l>
+<lb/><l>aldeles som min fader har fortalt.</l>
+<lb/><HIS:hisStage>(højt.)</HIS:hisStage>
+<lb/><l part="I">Tag hjelmen af!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hvorfor?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Så gør det dog!</l>
+<lb/><HIS:hisStage>(afsides.)</HIS:hisStage>
+<lb/><l>To klare øjne, lokker som en kornmark, &dash;</l>
+<lb/><l>aldeles som jeg så ham i min drøm.</l></HIS:hisSp>
+<lb/><fw type="sheet" place="bottom-right">2*</fw>
+<pb/>
+<lb/><fw type="page" place="top">20</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvo er du, kvinde?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg? Et fattigt barn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Dog visst den fagreste, som øen ejer.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(leende)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Den fagreste? Ja, det kan være muligt;</l>
+<lb/><l part="I">thi her er ingen anden.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ingen anden?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Med mindre, at min faer, &dash; men han er gammel</l>
+<lb/><l>og har et sølvgråt skæg, så langt som så,</l>
+<lb/><l>o nej, så tror jeg dog, <emph>jeg</emph> vinder prisen.</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du har et lystigt sind.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ej altid, du!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Men sig mig dog, hvordan det hænger sammen,</l>
+<lb/><l>du lever ene med din fader her,</l>
+<lb/><l>og jeg har dog så sikkert hørt berette,</l>
+<lb/><l>at øen skulde være rigt bebygget?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Det var den engang, for en tre års tid;</l>
+<lb/><l>men &dash; ja, det er en sørgelig fortælling &dash;</l>
+<lb/><l>dog, du skal høre den, ifald du vil.</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">21</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Javisst, jeg vil!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ser du, for tre år siden &dash;</l>
+<lb/><HIS:hisStage>(sætter sig.)</HIS:hisStage>
+<lb/><l part="I">Kom, sæt dig ned!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(træder et skridt tilbage)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Nej, sid kun du, jeg står.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>For tre år siden kom en væbnet flok</l>
+<lb/><l>af røvere, Gud véd hvorfra, til øen;</l>
+<lb/><l>de plyndred rundt omkring, hvor de drog frem,</l>
+<lb/><l>og myrded alt, hvad levende de fandt.</l>
+<lb/><l>De få, som kunde, redded sig ved flugten,</l>
+<lb/><l>og søgte til min faders borg, som lå</l>
+<lb/><l>på klippepynten ikke langt fra havet.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Din faders, siger du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Javisst, min faders.&dash;</l>
+<lb/><l>Det var en skyfuld aften, da de stormed</l>
+<lb/><l>mod borgeporten, trængte gennem muren,</l>
+<lb/><l>brød ind i gården, myrdede for fode.</l>
+<lb/><l>Jeg flygted angstfuld ud i nattens mulm,</l>
+<lb/><l>og søgte mig et skjulested i skoven.</l>
+<lb/><l>Jeg så vort hjem at hvirvles op i flammer,</l>
+<lb/><l>Jeg hørte skjoldebrag og bange dødsskrig. &dash;</l>
+<lb/><l>Tilsidst blev alting tyst; thi alt var myrdet. &dash;</l>
+<lb/><l>Den vilde skare drog mod stranden ned</l>
+<lb/><l>og sejled bort. &dash; Den næste morgen sad jeg</l><pb ed="HU"/>
+<pb/>
+<lb/><fw type="page" place="top">22</fw>
+<lb/><l>på klippen ved de rygende ruiner.</l>
+<lb/><l>Jeg var den eneste, de havde skånet.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Men du fortalte jo, din fader lever.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Min plejefader; vent, nu skal du høre!</l>
+<lb/><l>Jeg sad på klippen sorgfuld og beklemt</l>
+<lb/><l>og lytted til den rædselsfulde stilhed;</l>
+<lb/><l>da lød det som et dæmpet suk fra dybet</l>
+<lb/><l>i klippekløften, under mine fødder;</l>
+<lb/><l>jeg lytted bange, steg tilsidst derned</l>
+<lb/><l>og fandt en fremmed, blødende og bleg.</l>
+<lb/><l>Jeg nærmed mig, så bange som jeg var,</l>
+<lb/><l part="I">forbandt hans sår og plejed ham, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Og han?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Fortalte, da han efterhånden kom sig,</l>
+<lb/><l>at han var dragen med et købmandsskib</l>
+<lb/><l>herhid til øen endnu samme dag,</l>
+<lb/><l>da borgen plyndredes, &dash; var flygtet did</l>
+<lb/><l>og havde kæmpet kækt mod røverflokken</l>
+<lb/><l>indtil han, blødende af mathed, styrted</l>
+<lb/><l>i klippekløften, hvor jeg siden fandt ham.</l>
+<lb/><l>Og efter den tid har vi levet sammen;</l>
+<lb/><l>han bygged os en hytte dybt i skoven</l>
+<lb/><l>og blev mig kær, o kær som ingen anden.</l>
+<lb/><l part="I">Men kom, du må dog se ham.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej &dash; nej, vent!</l>
+<lb/><l>Vi træffer tidsnok sammen, tænker jeg.</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">23</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Ja, ja da, som du vil; men du kan tro,</l>
+<lb/><l>han så dig gerne under hyttens tag;</l>
+<lb/><l>for du må vide, gæstfriheden hører</l>
+<lb/><l part="I">ej blot i Norden hjemme.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Norden? Så</l>
+<lb/><l part="I">du véd da &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hvor du kommer fra? O ja!</l><pb ed="HU"/>
+<lb/><l>Min fader har fortalt om jer så tidt,</l>
+<lb/><l part="I">at jeg ved første øjekast &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Og dog</l>
+<lb/><l part="I">du blev ej bange!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Bange? Hvorfor bange?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Nu, har han ikke sagt, &dash; ja har han ej &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Fortalt, at I er djærve helte? Jo!</l>
+<lb/><l>Men hvorfor skulde det forskrække mig?</l>
+<lb/><l>Jeg véd, I søger ry på fjerne strande,</l>
+<lb/><l>i mandig dyst med drabelige kæmper;</l>
+<lb/><l>men jeg har hverken pantser eller sværd,</l>
+<lb/><l part="I">hvi skulde jeg vel da &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej visst, nej visst!</l>
+<lb/><l>Men hine fremmede, som brændte borgen?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">24</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad de?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nu ja, jeg mente blot, har ej</l>
+<lb/><l part="I">din fader sagt, hvorfra de kom?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej aldrig.</l>
+<lb/><l>De var jo fremmede for ham, som os.</l>
+<lb/><l>Men hvis du vil, så skal jeg spørge ham.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(hurtigt)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Nej, lad kun være.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ah, nu fatter jeg!</l>
+<lb/><l>Du vide vil, hvor du skal søge dem,</l>
+<lb/><l>og tage blodhævn, som I kalder det.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Ha, blodhævn! Tak! Du minder mig om ordet;</l>
+<lb/><l part="I">fast havde jeg forglemt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Men véd du vel,</l>
+<lb/><l part="I">det er en hæslig skik.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(gående mod baggrunden)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="M">Farvel!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Du går?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">25</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Vi træffes tidsnok.</l>
+<lb/><HIS:hisStage>(standser.)</HIS:hisStage><pb ed="HU"/>
+<lb/><l part="F">Sig mig endnu ét:</l>
+<lb/><l>Hvo hviler under kæmpehøjen der?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Det véd jeg ej.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Du véd det ej, og dog</l>
+<lb/><l>du slynger blomster rundt om heltens bauta.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Min fader førte mig en morgen hid</l>
+<lb/><l>og viste mig den friske gravhøj, som</l>
+<lb/><l>jeg aldrig forhen havde set ved stranden.</l>
+<lb/><l>Han bød mig holde morgenbøn ved højen</l>
+<lb/><l>og i min bøn at tænke fromt på dem,</l>
+<lb/><l>som havde hærjet os med sværd og flammer.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Og du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hver morgenstund fra den dag af</l>
+<lb/><l>jeg bad en stille bøn for deres frelse;</l>
+<lb/><l>og friske blomster fletted jeg hver aften</l>
+<lb/><l part="I">til krans om mindestenen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Sælsomt! sælsomt!</l>
+<lb/><l>Hvor kan du bede for din avindsmand?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Det byder mig min tro.</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">26</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(heftigt)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Den tro er fejg;</l>
+<lb/><l>det er en tro, som suger heltens kraft;</l>
+<lb/><l>se derfor døde kæmpelivet strådød</l>
+<lb/><l part="I">hos eder her i Syden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Men ifald</l>
+<lb/><l>min fejge tro, som nu du kalder den,</l>
+<lb/><l>blev plantet om i eders friske jordbund, &dash;</l>
+<lb/><l>da véd jeg vist, der spired frem af den</l>
+<lb/><l>en blomsterfylde, rig nok til at dække</l>
+<lb/><l part="I">den nøgne fjeldvæg.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Lad du fjældet stå</l>
+<lb/><l>med nøgne vægge til det falder sammen!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hør! tag mig med derop!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hvad mener du?</l>
+<lb/><l part="I">Jeg styrer hjemad &dash;</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, jeg sejler med dig;</l>
+<lb/><l>jeg har jo længst i tankerne gjort farten</l>
+<lb/><l>didop, hvor du har hjemme mellem is</l>
+<lb/><l>og sne og store sorte graneskove.</l>
+<lb/><l>Der skulde komme lystighed i hallen,</l>
+<lb/><l>ifald jeg måtte råde, kan du tro;</l>
+<lb/><l>thi jeg er munter; &dash; har du nogen skald?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Jeg havde en, men her i Syden har</l>
+<pb/>
+<lb/><fw type="page" place="top">27</fw>
+<lb/><l>den lumre luftning slappet harpens strænge,</l>
+<lb/><l part="I">de vil ej klinge &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Godt! så skal jeg være</l>
+<lb/><l part="I">din skald.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Og du? &dash; Du kunde følge med os,</l>
+<lb/><l part="I">forlade hjem og fader?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(leende)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Ha, ha, ha!</l>
+<lb/><l part="I">Jeg tror, du tager det for alvor?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Var det</l>
+<lb/><l part="I">da kun dit skemt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ak ja! en tosset drøm,</l>
+<lb/><l>som tidt jeg drømte, før vi så hinanden, &dash;</l>
+<lb/><l>og som jeg visst vil drømme mangen gang,</l>
+<lb/><l part="I">når du &dash;</l>
+<lb/><HIS:hisStage>(pludselig afbrydende.)</HIS:hisStage>
+<lb/><l part="M">Du ser så stivt på mig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Gør jeg?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Javisst, hvad tænker du på?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg? På intet!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">På intet?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">28</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, jeg véd ej selv på hvad;</l>
+<lb/><l>dog jo, jeg véd &dash; og du skal høre det:</l>
+<lb/><l>jeg tænker på, hvordan du plante vil</l>
+<lb/><l>i Norden dine blomster, og imens</l>
+<lb/><l>så falder mig min egen tro isinde.</l><pb ed="HU"/>
+<lb/><l>Der er et ord deri, som aldrig før</l>
+<lb/><l>jeg fattet har; nu har du lært mig det.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Der siges, at Valfader</l>
+<lb/><l>får kun en halvdel af de slagne kæmper;</l>
+<lb/><l>den anden halvdel hører Freja til.</l>
+<lb/><l>Det har jeg aldrig kunnet ret begribe;</l>
+<lb/><l>men nu &dash; nu fatter jeg, &dash; jeg er jo selv</l>
+<lb/><l>en slagen kæmpe og min bedste halvdel</l>
+<lb/><l part="I">blev Frejas ejendom.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(studsende)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Hvad skal det sige?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Nu kort og godt, så vid &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(hurtigt)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Nej, lad kun være!</l>
+<lb/><l>Jeg tør ej dvæle længer her i aften, &dash;</l>
+<lb/><l>min fader venter, jeg må gå; farvel!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du går?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">29</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(tager egekransen, som han har ladet falde, og slynger den om hans hjelm)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Se der, du kan beholde den.</l>
+<lb/><l>Se, hvad jeg før i mine drømme gav dig,</l>
+<lb/><l part="I">det skænker jeg dig vågen nu.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Farvel!</l>
+<lb/><HIS:hisStage>(han går hurtig ud til højre.)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>FJERDE SCENE.</head>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(alene)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Han er borte! Lydløst stille</l>
+<lb/><l>råder på den øde kyst.</l>
+<lb/><l>Lydløst stille, gravens stille</l>
+<lb/><l>råder også i mit bryst.</l><pb ed="HU"/>
+<lb/><l rend="line">Kom han da kun for at svinde</l>
+<lb/><l>som et solstrejf gennem tågen?</l>
+<lb/><l>Ak! snart flyver han som mågen</l>
+<lb/><l>langt herfra for nattens vinde!</l>
+<lb/><l rend="line">Og hvad har jeg så tilbage?</l>
+<lb/><l>Kun en blomst for mine drømme;</l>
+<lb/><l>ensomheden, for at svømme</l>
+<lb/><l>som petrellen om hans drage!</l>
+<lb/><HIS:hisStage>(<hi>Vikingernes</hi> krigslur høres fra venstre.)</HIS:hisStage>
+<lb/><l>Ha! hvad var det! Et horn, det kom fra skoven.</l></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>FEMTE SCENE.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>. <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole> (fra højre).</HIS:hisStage>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Det er for sildigt!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">30</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">O, der er han atter!</l>
+<lb/><l part="I">Hvad vil du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Skynd dig, skynd dig bort herfra!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Afsted! Her truer faren!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad fare?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="M">Døden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg forstår dig ej.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Jeg vilde dulgt det for dig, derfor gik jeg</l>
+<lb/><l>at kalde folket ned igen til snekken</l>
+<lb/><l>og sejle bort; du skulde aldrig vidst &dash;</l>
+<lb/><l>dog hornet varsler, at det er forsilde;</l>
+<lb/><l part="I">de kommer hid.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hvem kommer, hvem?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Så vid da,</l>
+<lb/><l>de fremmede, som fordum hærjed øen,</l>
+<lb/><l part="I">var vikinger som jeg.</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">31</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="M">Fra Norden?</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja.</l>
+<lb/><l>Min fader faldt, og han var deres drot, &dash;</l>
+<lb/><l part="I">thi må han hævnes.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hævnes?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det er skik</l>
+<lb/><l part="I">og vedtægt mellem os.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ha! jeg begriber!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">De kommer! Stil dig bag ved mig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Væk, blodmand!</l></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>SJETTE SCENE.</head>
+<lb/><HIS:hisStage>De forrige. <HIS:stageRole who="ASGAUT">Asgaut</HIS:stageRole>. <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole> og <HIS:stageRole>vikingerne</HIS:stageRole>, der fører <HIS:stageRole who="RODERIK">Roderik</HIS:stageRole> mellem sig.</HIS:hisStage>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>
+<lb/><HIS:hisStage>(til Gandalf)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>En mager fangst, dog altid noget, Gandalf.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Min fader!</l><HIS:hisStage>(kaster sig i hans arme.)</HIS:hisStage></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">32</fw>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="M">Blanka! O mit barn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l part="F">En kvinde!</l>
+<lb/><l part="I">Så får han rejsefølge.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, til Hel!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>O fader, hvorfor har du aldrig sagt mig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Tys! tys! min datter!</l>
+<lb/><HIS:hisStage>(pegende på <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole>.)</HIS:hisStage>
+<lb/><l part="F">Er det eders høvding?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="I">Så er det.</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole>.)</HIS:hisStage>
+<lb/><l part="F">Manden kan berette dig,</l>
+<lb/><l>hvordan din fader faldt; thi han var med</l>
+<lb/><l>og slap derfra med livet, har han sagt.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Ti! Jeg vil intet høre.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Godt, så lad</l>
+<lb/><l part="I">os tage fat på værket.</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Gud! hvad vil de?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">33</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(dæmpet)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Jeg kan ej, Asgaut!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>
+<lb/><HIS:hisStage>(ligeledes)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Er vor høvding fejg?</l>
+<lb/><l>Har kvindens glatte tunge dåret ham?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Nu ligemeget, jeg har sagt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Betænk,</l>
+<lb/><l>det gælder al din agt blandt dine kæmper.</l>
+<lb/><l>Dit løfte gav du Valhals høje guder,</l>
+<lb/><l>og brydes det, så er du hvermands niding.</l>
+<lb/><l>Glem ej, vor gamle tro er svagt befæstet, &dash;</l>
+<lb/><l>den vakler alt; et stød kan rokke den,</l>
+<lb/><l>og kommer stødet ovenfra, fra drotten,</l>
+<lb/><l part="I">da har den fået banesåret.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ha!</l>
+<lb/><l>Det var en ulyksalig ed, jeg svor.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>
+<lb/><HIS:hisStage>(til <HIS:stageRole>vikingerne</HIS:stageRole>)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Nu rede, kæmper!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Vil I myrde ham,</l>
+<lb/><l part="I">den værgeløse gubbe?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ned med begge!</l></HIS:hisSp>
+<lb/><fw type="sheet" place="bottom-left">Henrik Ibsens samlede værker. X.</fw><fw type="sheet" place="bottom-right">3</fw>
+<pb/>
+<lb/><fw type="page" place="top">34</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">O Gud!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej, kvinden er for fager! Hun</l>
+<lb/><l part="I">kan følge med på snekken.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>
+<lb/><HIS:hisStage>(leende)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Ja, som skjoldmø.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Tilbage!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Skåner, skåner kun mit barn!</l>
+<lb/><l>Jeg bringer eder drottens banemand,</l>
+<lb/><l part="I">ifald I skåner hende!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(hurtigt)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Bring os ham,</l>
+<lb/><l part="I">så er hun fri, ej sandt?</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Vikingerne</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jo, jo, det er hun!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="RODERIK">Roderik</HIS:stageRole>)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Hvad lover du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="M">Så skaf ham hid!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Her står han!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">35</fw>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Nogle</speaker>.</HIS:spOpener>
+<lb/><l part="I">Ha, gubben der!</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="M">O ve!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej, nej, du skal ej &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l>For denne hånd fandt vikingen sin bane,</l>
+<lb/><l>nu hviler han i kæmpehøjen der!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Min faders gravhøj!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Han var stærk og djærv;</l>
+<lb/><l>thi jorded jeg ham på hans fædres vís.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Da han er højlagt, så &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej, ligefuldt</l>
+<lb/><l>den faldne konning kræver blod, &dash; slå til!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Han skuffer eder!</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole>.)</HIS:hisStage>
+<lb/><l part="F">Har du ej begrebet,</l>
+<lb/><l>det er kun mig, sin datter, han vil frelse?</l>
+<lb/><l>Dog, hvad forstår vel du et kærligt sind,</l>
+<lb/><l part="I">der offrer alt for den, som &dash;</l></HIS:hisSp>
+<lb/><fw type="sheet" place="bottom-right">3*</fw>
+<pb/>
+<lb/><fw type="page" place="top">36</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg forstår ej?</l>
+<lb/><l part="I">Du tror ej, jeg forstår?</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole>vikingerne</HIS:stageRole>.)</HIS:hisStage>
+<lb/><l part="F">Han skal ej fældes.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvordan?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">O fader! han er god som du.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du svigter eden?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej, jeg holder den!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad er din agt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="M">Sig frem!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg har jo svoret</l>
+<lb/><l>at hævne drotten eller falde selv.</l>
+<lb/><l>Nu vel, han der er fri, &dash; jeg går til Valhal.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="RODERIK">Roderik</HIS:stageRole>)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Hvad mener han?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det er din agt, du vil? &dash;</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">37</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>I holde en af mine snekker rede,</l>
+<lb/><l>med spændte sejl og bålet tændt i stavnen;</l>
+<lb/><l>på fortids vis jeg vil bestige den!</l><pb ed="HU"/>
+<lb/><l>Se aftenvinden blæser ud fra stranden, &dash;</l>
+<lb/><l>på røde vinger farer jeg til Valhal!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>
+<lb/><HIS:hisStage>(går ud til højre)</HIS:hisStage>.</HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Ha, det er kvinden, som har koglet dig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Nej, du må leve!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Leve? Jeg er tro</l>
+<lb/><l>mod mine guder, kan ej svige dem.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Din ed er blodig, Balder hader den.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>O Balder lever ikke mer iblandt os!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>For dig han lever; thi dit sind er mildt.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Ja, til min undergang! Det blev mit kald</l>
+<lb/><l>som drot at værne om vort kæmpeliv, &dash;</l>
+<lb/><l>men kraften svigter mig! Kom, Asgaut, du</l>
+<lb/><l>skal tage kongespiret af min hånd;</l>
+<lb/><l>du er en kæmper af det ægte malm;</l>
+<lb/><l>på mig har Sydens gift alt længe tæret.</l>
+<pb/>
+<lb/><fw type="page" place="top">38</fw>
+<lb/><l>Men kan jeg ikke leve for mit folk,</l>
+<lb/><l part="I">så kan jeg dø for det.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Vel talt, Kong Gandalf.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l>Så er da loddet kastet! Fald som helt</l>
+<lb/><l>i trofast kærlighed til dine guder!</l>
+<lb/><l>Men nu, da vi må skilles ad for evigt,</l>
+<lb/><l>så vid, at når du falder selv for løftet,</l>
+<lb/><l>da har du også mig til døden viet!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvordan! Til døden dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Mit liv var ligt</l>
+<lb/><l>en blomsterknop, i fremmed jordbund plantet,</l>
+<lb/><l>og derfor blunded den i svøbet fængslet:</l>
+<lb/><l>da kom en stråle fra det fjerne hjem, &dash;</l>
+<lb/><l>o, det var dig, min Gandalf! Blomsten åbned</l>
+<lb/><l>sit bæger. Ak, et flygtigt øjeblik,</l>
+<lb/><l>så blegned strålen, &dash; blomsten måtte dø!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>O, har jeg fattet dig? Du kunde? &dash; ha!</l>
+<lb/><l>så er mit løfte tifold ulyksaligt!</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Vi mødes atter!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Aldrig, aldrig mer!</l>
+<lb/><l>Dig venter himlen og den hvide Krist.</l>
+<lb/><l>Jeg går til Valhal; taus jeg sætter mig</l>
+<pb/>
+<lb/><fw type="page" place="top">39</fw>
+<lb/><l>ved bordets ende, nederst imod døren,</l>
+<lb/><l>thi hallens lystighed er ej for mig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>Jostejn</speaker>
+<lb/><HIS:hisStage>(kommer tilbage med et banner i hånden)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Se, nu er snekken rede, som du bød.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Du får en prægtig ende! Mangen helt</l>
+<lb/><l part="I">vil nok misunde dig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="M">Farvel!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Farvel!</l>
+<lb/><l>Farvel for livet og for evigheden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>
+<lb/><HIS:hisStage>(kæmpende med sig selv)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Stands! stands!</l>
+<lb/><HIS:hisStage>(kaster sig ned for <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>.)</HIS:hisStage>
+<lb/><l part="F">Barmhjertighed! Tilgiv, tilgiv mig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">O Gud!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hvad mener han?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Alt vil jeg skrifte:</l>
+<lb/><l>Min hele færd imod dig var bedrag!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">O, skrækken har forvirret ham!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">40</fw>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej, nej!</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole> efter at have rejst sig.)</HIS:hisStage>
+<lb/><l>Du, unge drot, er løst ifra dit løfte;</l>
+<lb/><l>din faders skygge kræver ingen blodhævn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Ha, så forklar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="M">O tal!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Her står kong Rørek!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Nogle</speaker>.</HIS:spOpener>
+<lb/><l part="I">Den faldne konning?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="M">Himmel!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(tvivlende)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Du, min fader?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l>Se, Asgaut! Husker du den skramme, som</l><pb ed="HU"/>
+<lb/><l>du gav mig på vort første vikingtog,</l>
+<lb/><l part="I">dengang vi kom i strid om byttet?</l>
+<lb/><HIS:hisStage>(han blotter sin arm og viser <HIS:stageRole who="ASGAUT">Asgaut</HIS:stageRole> den.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja,</l>
+<lb/><l part="I">ved Thor, det er kong Rørek!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">41</fw>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(kaster sig i hans arme.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Fader! fader!</l>
+<lb/><l>Nu har du andengang mig livet skænket.</l>
+<lb/><l part="I">O, tag min tak!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>
+<lb/><HIS:hisStage>(nedslået; til <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F">Og du &dash; hvad skænker du</l>
+<lb/><l part="I">den gamle røver?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Kærlighed, som før!</l>
+<lb/><l>Jeg er din datter! Har ej tre års ømhed</l>
+<lb/><l>udslettet hver en blodplet i dit skjold?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l>Men så forklar dog, at du endnu lever!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hun redded ham.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, som en venlig alf</l>
+<lb/><l>Hun heled mine sår og sysled om mig,</l>
+<lb/><l>og alt imens fortalte hun så smukt</l>
+<lb/><l>om troen hos de stille folk i Syden,</l>
+<lb/><l>at selv mit hårde bryst blev blødt derved.</l>
+<lb/><l>Og dag for dag jeg dulgte, hvem jeg var;</l>
+<lb/><l part="I">jeg voved ej &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="F">Men kæmpehøjen der?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l>Der grov jeg ned min rustning og mit sværd.</l>
+<lb/><l>Det tyktes mig, som om den vilde viking</l>
+<pb/>
+<lb/><fw type="page" place="top">42</fw>
+<lb/><l>var skrinlagt med det samme. Og mit barn</l>
+<lb/><l>bad fromt en bøn for ham hver dag ved højen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="I">Farvel!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hvor går du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>Asgaut</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nordpå med min snekke!</l>
+<lb/><l>Nu ser jeg klarlig, min tid er forbi &dash;</l>
+<lb/><l>og vikinglivet også. Jeg vil gå</l>
+<lb/><l>til Island; did er end ej sotten trængt.</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole>.)</HIS:hisStage><pb ed="HU"/>
+<lb/><l>Du, unge kvinde, tag min plads hos drotten!</l>
+<lb/><l>Thor kan ej mere &dash; Mjølnir er af lave;</l>
+<lb/><l>nu råde Balder gennem dig. &dash; Farvel!</l>
+<lb/><HIS:hisStage>(han går.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l>Ja, Balder råder gennem dig, min Blanka!</l>
+<lb/><l>Nu føler jeg mit vikinglivs betydning!</l>
+<lb/><l>Det var ej ene lyst til ry og rigdom,</l>
+<lb/><l>som drev mig bort fra mine fædres hjem;</l>
+<lb/><l>nej, hvad mig leded var en lønlig længsel,</l>
+<lb/><l>en stille higen efter Balder. Se,</l>
+<lb/><l>nu er min længsel stillet; hjem vi fare;</l>
+<lb/><l>der vil jeg leve fredsæl blandt mit folk.</l>
+<lb/><HIS:hisStage>(til <HIS:stageRole>vikingerne</HIS:stageRole>.)</HIS:hisStage>
+<lb/><l part="I">Og I vil følge mig?</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener>
+<lb/><l part="F">Vi følger dig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Og du, min Blanka?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top">43</fw>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg? Jeg er jo og</l>
+<lb/><l>et Nordens barn; thi mellem eders bjerge</l>
+<lb/><l>slog jo mit hjertes bedste blomster rod.</l>
+<lb/><l>Til eder stævned jeg i mine drømme,</l>
+<lb/><l>fra eder hented jeg min kærlighed!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Og så afsted!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>.</HIS:spOpener>
+<lb/><l part="M">Men du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="F">Du følger os!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>.</HIS:spOpener>
+<lb/><l part="I">Jeg bliver her.</l>
+<lb/><HIS:hisStage>(peger på højen.)</HIS:hisStage>
+<lb/><l part="F">Min gravhøj venter mig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>.</HIS:spOpener>
+<lb/><l part="I">Jeg skulde lade dig alene?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej!</l>
+<lb/><l>Vær uden frygt! Jeg lukke vil hans øjne</l>
+<lb/><l>og sjunge ham et drapa hist fra højen;</l>
+<lb/><l part="I">det bli'r mit sidste kvad.</l>
+<lb/><HIS:hisStage>(rørt, idet han griber <hi>Gandalfs</hi> hånd.)</HIS:hisStage><pb ed="HU"/>
+<lb/><l part="F">Farvel, min konge!</l>
+<lb/><l>Nu har du fundet dig en bedre skald.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>Roderik</speaker>
+<lb/><HIS:hisStage>(med fasthed)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Det må så være, du er drot min Gandalf,</l>
+<lb/><l>og du har høje pligter mod dit folk.</l>
+<pb/>
+<lb/><fw type="page" place="top">44</fw>
+<lb/><HIS:hisStage>(lægger deres hænder sammen.)</HIS:hisStage>
+<lb/><l>I er den unge morgenrødes børn, &dash;</l>
+<lb/><l>drag did hvor kongestolen eder venter;</l>
+<lb/><l>jeg er den sidste fra de sjunkne tider,</l>
+<lb/><l>min kongestol er graven &dash; und mig den!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(<HIS:stageRole who="GANDALF">Gandalf</HIS:stageRole> og <HIS:stageRole who="BLANKA">Blanka</HIS:stageRole> styrter sig tause i hans arme. <HIS:stageRole who="RODERIK">Roderik</HIS:stageRole> stiger op på
+<lb/>højen. &dash; <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole> sætter sig med harpen ved hans fødder.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>Gandalf</speaker>
+<lb/><HIS:hisStage>(med fatning)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Og nu til Norge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>Hrolloug</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hjemad!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hjem! Til Norge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>Blanka</speaker>
+<lb/><HIS:hisStage>(begejstret, idet hun river banneret af <hi>Jostejns</hi> hånd)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Ja, nu afsted! Mod nord skal farten gå</l>
+<lb/><l>igennem storm og skum på bølger blå.</l>
+<lb/><l>Snart dæmrer dagen over jøklens tinde,</l>
+<lb/><l>snart vorder ledingsfærden kun et minde!</l>
+<lb/><l>Alt sidder Nordens viking på sin høj;</l>
+<lb/><l>forbi er tiden, da han vældigt fløj</l>
+<lb/><l>fra kyst til kyst med våbenbrag og flammer.</l>
+<lb/><l>I støvet synker tordengudens hammer,</l>
+<lb/><l>og Norden vorder selv en kæmpegrav.</l>
+<lb/><l>Men glem ej løftet, som Alfader gav:</l>
+<lb/><l>Når mos og blommer dækker højens side,</l>
+<lb/><l>skal heltens ånd på Idavold jo stride, &dash;</l>
+<lb/><l>så stiger også Norden fra sin grav</l>
+<lb/><l>til luttret åndsbedrift på tankens hav!</l></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>

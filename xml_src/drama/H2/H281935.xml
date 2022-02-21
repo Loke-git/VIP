@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Hærmændene på Helgeland]</title>
+<title level="a" type="sub">2. versjon, grunntekst, NBO Ms.8&deg; 1935</title>
+<title level="a" type="origYear">[1893]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Ellen Nessheim Wiger, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Transkripsjon, juni 2000:</resp>
+<name>Karl Johan Sæth</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing, juni 2000:</resp>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Koding</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name>Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering til XML, september 2000:</resp>
+<name>Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Korrekturkollasjon, januar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="H281935-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på internt transkribert materiale.</p>
+<p>
+<HIS:hisMsDesc type="workingManuskript" xml:id="H281935">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1935</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Uten tittel</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Egenhendig, ufullført operautkast (begynnelsen av 1. akt).</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>NBO Ms.8&deg; 1935</head>
+<item>skriftgruppe: latinsk håndskrift; ujevn, venstrehellende</item>
+<item>akt:
+<list>
+<item>overskrift: sentrert</item>
+<item>sceneanvisning: i parentes, sentrert</item>
+<item>rollenavn: sentrert</item>
+<item>verslinjer: med (ujevnt) innrykk</item>
+<item>avsnitt/replikk: med (ujevn) marg/innrykk</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>bindestrek: dobbel eller enkel, horisontal strek ca. 2 mm</item>
+<item>tankestrek: lengre, enkel, horisontal strek</item>
+<item>arksignatur: på skrått, ca 13 mm strek under tallet</item>
+</list>
+</item>
+<item>bemerkninger:
+<list>
+<item>Ujevn skrift. Ujevne marger. Rollenavnene er tildels forkortet. Prikk over 'i' mangler mange steder, prikk over 'j' mangler også stedvis.</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="DAGNY">DAGNY</label><item>Dagny</item>
+<label xml:id="ORNULF">ORNULF</label><item>Ørnulf, Ø</item>
+<label xml:id="SIGURD">SIGURD</label><item>Sigurd, S</item>
+<label xml:id="SONNER">SONNER</label><item>Sønnerne, Øs. sønner, Ø. sønner</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="h1" xml:id="h1" medium="pen1" scope="major"><p>HI. Sort penn; venstrehellende skrift.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+    <change><date>12.09.19</date>
+        <name>ESO</name><title>pb-koderetting</title>
+        Kommenterte vekk en pb:     pb n="[2]r". Denne satt nok igjen fra gammel koding</change>
+<change><date>11.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Gjorde manuelle endringer etter skripting.</change>
+<change><date>04.08.09</date>
+<name>HMS</name><title>Koding til synoptisk versjonsvisning</title>
+Erstattet 'pb ed=HU'-kodene med 'xptr'-koder som viser til tilsvarende sted i H158. Lagde synoptisk versjonvisning (uten variantmarkering). Fjernet opplysningen om HU-referansene i tagUsage. Validert.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>leafdb -&gt; gathering</title>
+Byttet ut leafdb med gathering, etter vedtak om at legg i ms og ark i trykk ikke skal være samme type.</change>
+<change><date>15.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>22.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="workingManuscript" i text. Oppdatert teiHeader.</change>
+<change><date>10.05.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Endret notene ved tilføyelser fra supplerende tcApp til rene note/resp/editor.</change>
+<change><date>26.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Sjekket at alle offline-tilføyelser er offline.</change>
+<change><date>07.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Omkoding av ms-endringer i henhold til revidert kodepraksis. Fjernet delIntended. Fjernet app og add i forbindelse med overskriving. Lagt inn supplerende note om korrekturtegn på 2v. Ny plassering av sideskifts-tagger innført + lagt inn n-attributt i pb siden tekstkilden ikke er foliert.</change>
+<change><date>06.04.05</date>
+<name>HB</name><title>Koding</title>
+Fjernet note om strøket aksent, filologene enige om at det er en større tekstendring; tankestrek + utropstegn er overskrevet.</change>
+<change><date>15.03.05</date>
+<name>HB</name><title>Årstall og tittel</title>
+Tilblivelsesår må kontrolleres mot innledning når den er klar, tittel må også avklares.</change>
+<change><date>16.02.05</date>
+<name>HB</name><title>Samkjøring med hovedtekst</title>
+Kodet om etter metrisk koding i hovedteksten, store deler av teksten er prosa, ikke vers. Oppdatert teiHeader. Endret 'S. og hans mænd' tilbake til to speakere siden dette ser ut til å være kodepraksis. Endret fw type="sheet" til type="leafdb" (sjekk dette med Tone). La inn pb ed="HU".</change>
+<change><date>21.01.05</date>
+<name>HB</name><title>Koding samt rettelser i teksten</title>
+Endret e med aksent akutt til entitet. Gjort små endringer i apparatkodingen, lagt til noen få nye endringer samt rettet i teksten (forsterdatter -&gt; fosterdatter). 'Sigurd' og 'Ørnulf' er forkortet til 'S' og 'Ø' mange steder, punktum skal der stå innenfor speaker, kodet om dette.</change>
+<change><date>18.01.05</date><name>MW</name><title>Korrekturkollasjon mot original</title>
+Endret strykingen nederst på første side til delIntended. Rollenavnet s. 2: 'S. og hans mænd' er endret så hele sekvensen kodes i en speaker (da alt er uten utheving). Siccet 'fordeven', feil for 'fordreven'? Validert (har ikke oppdatert teiHeader og koding generelt).</change>
+<change><date>18.12.03</date><name>SBT</name><title>Feilretting</title>
+Endret dobbel sluttklamme til enkel.</change>
+<change><date>04.07.02</date><name>EN</name><title>Kodeendringer</title>
+Endret shy-elementer til shy-entiteter. Erstattet bibl med msDescription. Fjernet entitetslisten. Validert mot ny dtd.</change>
+<change><date>10.12.01</date><name>EN</name><title>Kodeendring</title>Erstattet type-attributtet i del med rend. Erstattet div1 med div. Lagt inn principal-element med manuskriptansvarlig TM. Validert.</change>
+<change><date>27.08.01</date><name>EN</name><title>lg-koding</title>Fjernet lg-koding og la inn rend="indent" ved innrykket verslinje. Kodet om utkastet fra prosa til vers etter å ha rådspurt verskoderne. Validert.</change>
+<change><date>18.05.01</date><name>EN</name><title>Oppdatering/feilretting</title>Sjekket plassering av sceneanvisninger (jf vedtak på kollasjonistmøtet 14.05.01). Oppdaterte TEI-headeren: endret titleStmt og editionStmt ihht kodepraksis, la inn tagUsage gi="id-who", la inn manglende variantEncoding. Validert.</change>
+<change><date>26.09.00</date>
+<name>EN</name><title>XML-konvertering</title>
+Konvertert filen fra SGML til XML og arkivert SGML-versjonen.</change>
+<change><date>09.06.00</date>
+<name>EN</name><title>2. kollasjon og kodekontroll.</title>
+Kollasjonert den elektroniske versjonen mot manuskriptet. Ført inn kollasjonsresultatene. Kodekontroll: gått igjennom sjekklisten og sluttaggvalidert filen. Brenner CD.</change>
+<change><date>07.06.00</date>
+<name>KJS</name><title>Oppretting mm.</title>
+Opprettet fila med operautkastet NBO Ms 8° 1935. Kodet og validerte teksten.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio-nopagination" subtype="recto" n="1" gathering="1" facs="1"/>
+<lb/><fw type="gathering" place="top-left">1.</fw>
+<div type="act" n="1">
+<HIS:synopticViewPtr type="synopticView_mainVersions" target="H158.xml" xml:id="H1_1main"/><lb/><head>Første akt.</head>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><l part="I">Vig marken, hærmand!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><l part="F">Aldrig vég jeg før!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l>Du skal og må! Tag vare, hvad du <app type="alteration"><lem><HIS:hisAdd place="offline">gør</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">må</HIS:hisDel></HIS:hisRdg></app>!</l>
+<lb/><l>Jeg trænger skurets ly for mine mænd.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l part="I">Jeg for en mødig kvinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l part="F">Mer værd</l>
+<lb/><l part="I">er mine mænd end dine kvinder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l part="F">Så?</l>
+<lb/><l>Står ransmænd da så højt i pris her nord?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l>Dyrt skal du bøde for de hånske ord.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l>Nej, du skal ligge kold før solen rinder.</l>
+<lb/><HIS:hisStage>(kamp)</HIS:hisStage></HIS:hisSp><HIS:synopticViewPtr type="synopticView_mainVersions" target="H158.xml" xml:id="H1_2main"/>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker></HIS:spOpener>
+<lb/><l>Op alle Sigurds mænd! Min husbond stride</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Hornblæser</speaker>.</HIS:spOpener>
+<lb/><l>Til våben alle! Stimænd myldrer frem.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SONNER"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">Ø. sønn</HIS:hisDel>er</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Til hjæl</HIS:hisDel>p</p></HIS:hisSp>
+<pb ed="source" type="folio-nopagination" subtype="verso" n="1" facs="2"/>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker></HIS:spOpener>
+<lb/><l>Bliv hvor I er. Jeg magter ham alene.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SONNER"><HIS:spOpener><speaker>Øs. sønner</speaker>.</HIS:spOpener>
+<lb/><p>Til hjælp for gubben!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l>Ej nærmere! Jeg selv vil fælde ham.</l>
+<lb/><p>Dit blod vil jeg sé!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker></HIS:spOpener>
+<lb/><p rend="indent">Se først dit eget.</p>
+<lb/><HIS:hisStage>(kamp)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p>Godt var det hugget, hermand &dash;</p>
+<lb/><l rend="indent2">Snygt du sværdet <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>svinger.</l>
+<lb/><l rend="indent1">Hvast du véd at ramme.</l>
+<lb/><l rend="indent1">Sigurd selv, hin stærke,</l>
+<lb/><l rend="indent1">står for dig til skamme.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l>Nå, da er Sigurds skam ham selv til
+<lb/>hæder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p>Ha, Sigurd er det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SONNER"><HIS:spOpener><speaker>Sønnerne</speaker>.</HIS:spOpener>
+<lb/><p>Selve Sigurd er det!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Mændene</speaker>.</HIS:spOpener>
+<lb/><p>Ja, Sigurd viking! Selve Sigurd er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p>Viking! Hvassere ramte du mig
+<lb/>da du raned Dagny, min datter.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>S.</speaker> og <speaker>hans mænd</speaker>.</HIS:spOpener>
+<lb/><p>Ørnulf fra fjordene <HIS:hisDel rend="overwritten">&dash;<unclear>!</unclear></HIS:hisDel>her!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker></HIS:spOpener>
+<lb/><p>Min far! Mine brødre alle!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><p>Vær ikke ræd. Jeg værger dig vel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten"><unclear>S</unclear></HIS:hisDel>Lidet det trænges! Jeg kendte dig straks
+<lb/>Jeg vil fred og forlig.</p></HIS:hisSp><HIS:synopticViewPtr type="synopticView_mainVersions" target="H158.xml" xml:id="H1_3main"/>
+<pb ed="source" type="folio-nopagination" subtype="recto" n="2" facs="3"/>
+<!-- pb n="[2]r"/ --><lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><p>Jeg også helst. Hvis så det kan sig føje.</p>
+<lb/><p>Sig frem dit krav.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p>Fem vintre er det siden Gunnar herse
+<lb/>og du til Island kom.</p>
+<lb/><p>I fik mit gæstevenskab
+<lb/>og fredlyst havn for eders skibe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Ilde vi lønned dig, Gunnar og jeg.
+<lb/>Jeg véd det. Jeg véd det vel, Ørnulf.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Hjørdis, min fosterdatter, tog Gunnar.
+<lb/>Og du tog <HIS:hisDel rend="overwritten">d</HIS:hisDel>Dagny, mit eget barn.
+<lb/>Så sejled I over hav med dem begge.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Lad høre, hvad bod du kræver for ranet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Tre hundred i sølv. Med det er din ger&typHyp;
+<lb/>ning sonet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Billige kår. Dem tar jeg imod.
+<lb/>Og frivillig lægger jeg gaver til sølvet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker>.</HIS:spOpener>
+<lb/><p>Å, tak, du min bolde husbond!
+<lb/>Tak, tak for dit fredssind og højsind.
+<lb/>Nu er jeg så gl<HIS:clarification place="inline">a</HIS:clarification>d, som aldrig på længe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>
+<lb/><HIS:hisStage>(til Ørnulf)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nu kan du lide på mig så trygt,
+<lb/>som på dine egne sønner.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker></HIS:spOpener>
+<lb/><p>Ret nu vil jeg friste, hvor god du er mig.</p></HIS:hisSp>
+<pb ed="source" type="folio-nopagination" subtype="verso" n="2" facs="4"/>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Så gerne jeg tjener dig, Ørnulf.</p>
+<lb/><p>Men sig mig, &dash; <app type="alteration"><lem><HIS:hisAdd place="offline">med</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">i</HIS:hisDel></HIS:hisRdg></app> hvad?</p></HIS:hisSp>
+<lb/><HIS:synopticViewPtr type="synopticView_mainVersions" target="H158.xml" xml:id="H1_4main"/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Med råd og med dåd. <note resp="editor">Et korrekturtegn foran <q>Hid</q> markerer sannsynligvis at Ibsen har ønsket et linjeskift her.</note>Hid er jeg kommen
+<lb/>for at søge Gunnar herse.</p>
+<lb/><p>Ransbod skal han give for Hjørdis.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Gunnar? Gunnar! Er Gunnar her!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker>.</HIS:spOpener>
+<lb/><p>Og Hjørdis! Å sig, hvor de er at finde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Vel sidder de hjemme på Gunnars
+<lb/>gård,
+<lb/>ikke <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> langt fra her. <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel></p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>
+<lb/><HIS:hisStage>(stille, bevæget)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det vidste jeg ikke. <HIS:hisDel rend="overstrike"><HIS:hisStage>(f<unclear>a</unclear></HIS:hisStage></HIS:hisDel>
+<lb/><HIS:hisStage>(fatter sig)</HIS:hisStage>
+<lb/>Vidt har jeg faret i viking siden sidst.
+<lb/>Har tjent konger i mange fremmede
+<lb/>lande.
+<lb/>Hid kom jeg idag ved lysings-tid,
+<lb/><sic>fordeven</sic> af uvejr, langt ud fra min vej.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>At vi to mødtes var et værk af de vældige.
+<lb/>Af de<HIS:hisDel rend="overwritten">n</HIS:hisDel>m som råder højt over skyerne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Agter du at fare med læmpe mod Gunnar?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Ifald han sig føjer. For bod skal han gi'
+<lb/>mig.</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

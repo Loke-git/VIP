@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title>BEht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>12.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteBE_2"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_2">Det</HIS:hisRef>] <hi rend="italic">strofen er tilføyd på en innlimt lapp i høyre marg</hi></note>
+<note resp="editor" xml:id="noteBE_4"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_4">Bland</HIS:hisRef>] <hi rend="italic">feil for</hi> Blandt</note>
+<note resp="editor" xml:id="noteBE_5"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_5">Sorgen</HIS:hisRef>] <hi rend="italic">tilføyelsen av strofen er gjort vertikalt i venstre marg</hi></note>
+<note resp="editor" xml:id="noteBE_6"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_6">halvejs</HIS:hisRef>] <hi rend="italic">feil for</hi> halvvejs</note>
+<note resp="editor" xml:id="noteBE_7"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_7">Kaft</HIS:hisRef>] <hi rend="italic">feil for</hi> Kraft</note>
+<note resp="editor" xml:id="noteBE_8"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_8">med</HIS:hisRef>] <hi rend="italic">feil for</hi> ned<hi rend="italic">, jf. bl. 48r</hi></note>
+<note resp="editor" xml:id="noteBE_9"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_9">naa</HIS:hisRef>] <hi rend="italic">feil for</hi> naar</note>
+<note resp="editor" xml:id="noteBE_10"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_10">kjækkt</HIS:hisRef>] <hi rend="italic">et innføyningstegn kan se ut til å føye ordet inn i 3. verslinje istedenfor 2. Siden teksten da blir meningsløs, føyer HIS ordet inn i 2. verslinje, der det gir mening</hi></note>
+<note resp="editor" xml:id="noteBE_11"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_11">Sporget</HIS:hisRef>] <hi rend="italic">feil for</hi> Sproget</note>
+<note resp="editor" xml:id="noteBE_24"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_24">Han</HIS:hisRef>] <hi rend="italic">bl. 31&dash;32 er kladd til &lquo;Fra Modningstiden&rquo;, jf. bl. 40v&dash;41. Renskriften til &lquo;Fra Modningstiden&rquo; ender før de tre strofene på bl. 32v, som dermed bare finnes i denne versjonen</hi></note>
+<note resp="editor" xml:id="noteBE_13"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_13">Isvansbækkene</HIS:hisRef>] <hi rend="italic">feil for</hi> Isvandsbækkene</note>
+<note resp="editor" xml:id="noteBE_16"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_16">halvejs</HIS:hisRef>] <hi rend="italic">feil for</hi> halvvejs</note>
+<note resp="editor" xml:id="noteBE_17"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_17">naa</HIS:hisRef>] <hi rend="italic">feil for</hi> naar</note>
+<note resp="editor" xml:id="noteBE_19"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_19">bagrevet</HIS:hisRef>] <hi rend="italic">feil for</hi> begravet</note>
+<note resp="editor" xml:id="noteBE_22"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_22">forjgæves</HIS:hisRef>] <hi rend="italic">feil for</hi> forgjæves</note>
+<note resp="editor" xml:id="noteBE_23"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_23">Godfolk</HIS:hisRef>] <hi rend="italic">feil for</hi> Godtfolk</note>
+<note resp="editor" xml:id="noteBE_24a"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_24a">ligge</HIS:hisRef>] <hi rend="italic">feil for</hi> ligger</note>
+<note resp="editor" xml:id="noteBE_25a"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_25a">Hver</HIS:hisRef>] <hi rend="italic">feil for</hi> Hverv</note>
+<note resp="editor" xml:id="noteBE_25b"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_25b">Skraning</HIS:hisRef>] <hi rend="italic">feil for</hi> Skraaning</note>
+<note resp="editor" xml:id="noteBE_25c"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_25c">Klagen</HIS:hisRef>] <hi rend="italic">feil for</hi> Klangen<hi rend="italic">, jf. rimordet</hi> Sangen <hi rend="italic">i l. 16 og renskriften bl. 35v</hi></note>
+<note resp="editor" xml:id="noteBE_25d"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_25d">Dvergs</HIS:hisRef>] <hi rend="italic">feil for det metrisk bedre</hi> Dverges</note>
+<note resp="editor" xml:id="noteBE_26"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_26">Saa</HIS:hisRef>] <hi rend="italic">bl. 42&dash;51 er renskrift til &lquo;Over Storfjellet&rquo;, jf. bl. 6v&dash;16</hi></note>
+<note resp="editor" xml:id="noteBE_27"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_27">vordi</HIS:hisRef>] <hi rend="italic">feil for</hi> vorde</note>
+<note resp="editor" xml:id="noteBE_28"><HIS:hisRef type="tcNote" target="BEht.xml" corresp="noteBE_28">Hans</HIS:hisRef>] <hi rend="italic">feil for</hi> Han</note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

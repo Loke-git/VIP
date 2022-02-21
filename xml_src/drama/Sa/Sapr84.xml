@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Sancthansnatten]</title>
+<title level="a" type="sub">2. utg. (prolog)</title>
+<title level="a" type="origYear">1884</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen, Inger-Marie Kjølstadmyr, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og koding, mars 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering</resp>
+<name xml:id="HIS-NME">Nina Evensen</name>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name/>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Sapr84-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Sapr-0306.</p>
+<p>
+<biblStruct xml:id="Sapr84">
+<analytic>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+</analytic>
+<monogr>
+<author>Tharald Blanc</author>
+<title>Norges Første Nationale Scene (Bergen 1850-1863)</title>
+<imprint>
+<pubPlace>Kristiania</pubPlace>
+<publisher>Alb. Cammermeyer</publisher>
+<HIS:printer>Det Mallingske Bogtrykkeri</HIS:printer>
+<date>1884</date>
+</imprint>
+</monogr>
+<idno type="owner">Ibsensenteret</idno>
+</biblStruct>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (b. 2) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 19-22. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>04.04.06</date><name>MW</name><title>sourceDesc</title>
+Sjekket opplysningene i sourceDesc. Validert. Klar for kodekontroll.</change>
+<change><date>30.03.06</date><name>MW</name><title>Koding</title>
+Kodet inn kollasjonsresultater i eksterne variantapparater. Dette må også føres i Sapr.xml, samt sjekkes når Vemund har laget visning. Validert.</change>
+<change><date>17.03.06</date><name>MW</name><title>Oppretting</title>
+Opprettet xml-filen på grunnlag av Sapr.xml. Korrigerte teiHeader grovt. Sjekk denne senere, spesielt sourceDesc. Validert. Klar for innkoding av kollasjonsresultater og ekstern variasjon.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="printed" xml:lang="dan-nob">
+<body>
+<pb/><pb ed="HU" n="19"/>
+<cb rend="middle"/>
+<lb/><HIS:hisLg versetype="strofisk strofegruppe anakreontisk trok&#xE9;" an="no" met="bi ((7 8)2 (7 8)2) | ((7 8)2 7 8 8 7)" rhyme="((a B)2 (c D)2) | ((a B)2 c D D c)"><HIS:hisLg versetype="strofe" met="(7 8)2 7 8 8 7" rhyme="(a B)2 c D D c"><l first="yes" rhyme="a">Hvor vi gaa paa Livets Vei</l>
+<lb/><l rhyme="B">Følger os et Ord, som binder</l>
+<lb/><l rhyme="a">Mangen blaa Forglemmigei</l>
+<lb/><l rhyme="B">I vor <app type="external" subtype="word" xml:id="varSapr-1"><HIS:hisRdg wit="Sapr84">Krans</HIS:hisRdg></app> af gamle Minder &dash;</l>
+<lb/><l rhyme="c">For vor <app type="external" subtype="interpunction" xml:id="varSapr-2"><HIS:hisRdg wit="Sapr84">Længsel</HIS:hisRdg></app> for vort Savn</l>
+<lb/><l rhyme="D">Staar det som en stille Trøster,</l>
+<lb/><l rhyme="D">Hviskende med kjendte Røster; &dash;</l>
+<lb/><l rhyme="c">Dette Ord er Hjemmets Navn.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Saa Du ei, hvor Svalen drog</l>
+<lb/><l rhyme="B"><app type="external" subtype="word" xml:id="varSapr-3"><HIS:hisRdg wit="Sapr84">Sent</HIS:hisRdg></app> om Høst mod Sydens Sommer?</l>
+<lb/><l rhyme="a">Men til næste Foraar dog</l>
+<lb/><l rhyme="B">Atter den til Norden kommer.</l>
+<lb/><l rhyme="c">Reden, hvor dens Moder sang,</l>
+<lb/><l rhyme="D">Kan den aldrig mer forglemme;</l>
+<lb/><l rhyme="c">Didhen af en lønlig Trang</l>
+<lb/><l rhyme="D">Drives den: der har den hjemme.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Færdes Du paa fremmed <app type="external" subtype="interpunction" xml:id="varSapr-4"><HIS:hisRdg wit="Sapr84">Strand,</HIS:hisRdg></app></l>
+<lb/><l rhyme="B"><app type="external" subtype="word" xml:id="varSapr-5"><HIS:hisRdg wit="Sapr84">Flyr</HIS:hisRdg></app> din Længsel over Havet</l>
+<lb/><l rhyme="a">Mod det kjære gamle <app type="external" subtype="interpunction" xml:id="varSapr-6"><HIS:hisRdg wit="Sapr84">Land</HIS:hisRdg></app></l>
+<lb/><l rhyme="B">Fjernt bag Bølgerne begravet.</l><pb ed="HU"/>
+<lb/><l rhyme="c">Didhen, hvor din Vugge stod,</l>
+<lb/><l rhyme="D">Vandrer Du i vaagne Drømme,</l>
+<lb/><l rhyme="c">Bytter gjerne Druens Blod</l>
+<lb/><l rhyme="D">For en Drik af Fjeldets Strømme.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Sidder Du en Vinterkveld</l>
+<lb/><l rhyme="B">Ensom paa <app type="external" subtype="word" xml:id="varSapr-7"><HIS:hisRdg wit="Sapr84">det</HIS:hisRdg></app> stille Kammer,</l>
+<lb/><l rhyme="a">Øsende af Mindets Væld,</l>
+<lb/><l rhyme="B">Stirrende i Ovnens Flammer; &dash;</l>
+<lb/><l rhyme="c">Stævner ikke Tankens Flugt</l>
+<lb/><l rhyme="D">Mod den gamle Ammestue,</l>
+<lb/><l rhyme="c">Hvor Du engang fromt og smukt</l>
+<lb/><l rhyme="D">Sad som Barn ved Arnens Lue?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 7 8 8 7" rhyme="(a B)2 c D D c"><l rhyme="a">Og din Barndoms Eventyr</l>
+<lb/><l rhyme="B">Og de gamle Melodier,</l>
+<lb/><l rhyme="a">Som i Livets Larm og Styr</l>
+<lb/><l rhyme="B">Under Glemselskaaben tier, &dash;</l>
+<lb/><l rhyme="c"><app type="external" subtype="word" xml:id="varSapr-8"><HIS:hisRdg wit="Sapr84">Se</HIS:hisRdg></app>, de stige atter frem,</l>
+<lb/><l rhyme="D">Minde Dig om <app type="external" subtype="word" xml:id="varSapr-9"><HIS:hisRdg wit="Sapr84">gamle</HIS:hisRdg></app> Dage,</l>
+<lb/><l rhyme="D">Medens dine Tanker drage</l>
+<lb/><l rhyme="c">Til det stille Moderhjem.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Hjemmets Magt, som i vor Barm</l>
+<lb/><l rhyme="B">Trofast følger os til Graven,</l>
+<lb/><l rhyme="a">Raader ogsaa stærk og varm</l>
+<lb/><l rhyme="B">Som en Sol i Kunstnerhaven.</l>
+<lb/><l rhyme="c">Skal en Blomme trives der,</l>
+<lb/><l rhyme="D">Hjemlig Jordbund maa den favne;</l>
+<lb/><l rhyme="c">Ellers vil sit Farveskjær &dash;</l>
+<lb/><l rhyme="D">Blommens bedste Pryd &dash; den savne.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Og hvor er ei Hjemmet rigt?</l>
+<lb/><l rhyme="B">Som en Hæk med Roser røde,</l><pb ed="HU"/>
+<lb/><l rhyme="a">Som et fromt og deiligt Digt</l>
+<lb/><l rhyme="B">Bølger Livet os imøde.</l>
+<lb/><l rhyme="c">Er ei Folkets stille Færd</l>
+<lb/><l rhyme="D">Høit i Li og dybt i Dale</l>
+<lb/><l rhyme="c"><app type="external" subtype="interpunction" xml:id="varSapr-10"><HIS:hisRdg wit="Sapr84">Billeder</HIS:hisRdg></app> som vel er værd,</l>
+<lb/><l rhyme="D">At en Kunstnerhaand dem male?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Sydens Slette pranger vel</l>
+<lb/><l rhyme="B">Med Oranger og Plataner,</l>
+<lb/><l rhyme="a">Men paa Nordens stolte Fjeld</l>
+<lb/><l rhyme="B">Voxe dog de ranke Graner &dash;</l>
+<lb/><l rhyme="c">Er ei deres Hvælving lun,</l>
+<lb/><l rhyme="D">Har den ikke Duft og Skygge?</l>
+<lb/><l rhyme="c">Hvi skal Kunsten sit Paulun</l>
+<lb/><l rhyme="D">Blot i Sydens Lund da bygge?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Sæterjentens klare Lur</l>
+<lb/><l rhyme="B">Klinger i de grønne Lier;</l>
+<lb/><l rhyme="a">Huldren slaar i Fjeldets Ur</l>
+<lb/><l rhyme="B">Klagelige Melodier.</l>
+<lb/><l rhyme="c">Vaarliglet er Jentens Bryst,</l>
+<lb/><l rhyme="D">Huldrens Barm har Længsler stærke &dash;</l>
+<cb rend="right"/>
+<lb/><l rhyme="c">Denne Kval og denne Lyst</l>
+<lb/><l rhyme="D">Er just Folkesindets Mærke.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 7 8 8 7" rhyme="(a B)2 c D D c"><l rhyme="a">Og blir Barmen os for trang,</l>
+<lb/><l rhyme="B">Kan den ei sin Fylde gjemme, &dash;</l>
+<lb/><l rhyme="a">Maa vi lette den i Sang;</l>
+<lb/><l rhyme="B">Fryd og Vemodssuk faa Stemme.</l>
+<lb/><l rhyme="c"><app type="external" subtype="word" xml:id="varSapr-11"><HIS:hisRdg wit="Sapr84">Da</HIS:hisRdg></app> vi søge Kunstens Hjem;</l>
+<lb/><l rhyme="D">Thi det er jo der, at Folket</l>
+<lb/><l rhyme="D">Kræve kan sit Liv fortolket</l>
+<lb/><l rhyme="c">Og forklaret stillet frem.</l></HIS:hisLg><pb ed="HU"/>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Men det er ei hver en Fugl,</l>
+<lb/><l rhyme="B">Som fik Lærkens Skjaldetunge,</l>
+<lb/><l rhyme="a">Og den prøver fra sit Skjul</l>
+<lb/><l rhyme="B">Dog saa godt den kan at <app type="external" subtype="interpunction" xml:id="varSapr-12"><HIS:hisRdg wit="Sapr84">sjunge,</HIS:hisRdg></app></l>
+<lb/><l rhyme="c">Tag med Skaansel da imod,</l>
+<lb/><l rhyme="D">Hvad <app type="external" subtype="word" xml:id="varSapr-13"><HIS:hisRdg wit="Sapr84">i Aften</HIS:hisRdg></app> her Dem <app type="external" subtype="interpunction" xml:id="varSapr-14"><HIS:hisRdg wit="Sapr84">bydes,</HIS:hisRdg></app></l>
+<lb/><l rhyme="c">Husk, at ikkun Fod for Fod</l>
+<lb/><l rhyme="D">Kan en Kunstnerbane brydes!</l></HIS:hisLg></HIS:hisLg>
+</body>
+</text>
+</TEI>

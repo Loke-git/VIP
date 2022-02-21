@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Historisk-kritisk utgave, elektronisk versjon</title>
+<title level="a" type="main">Hvide heste</title>
+<title level="a" type="sub">Hovedtekst, NBO Ms.4&deg; 1291c</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Inger Marie Kjølstadmyr, Henninge Solberg, Mette Witting</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Dag Gundersen, Arnbjørn Jakobsen, Christian Janss, Kristoffer Kruken, Kristian Smidt, Asbjørn Aarseth</name></respStmt>    
+<respStmt><resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respStmt>
+<respStmt><resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name></respStmt>
+<respStmt><resp>Korrekturkollasjon</resp>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name></respStmt>
+<respStmt><resp>Kollasjonering og koding, grunntekst</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Hvht-0412"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Hvht_bok.xml (Hvht-0409).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Hv41291c">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1291c</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>[Hvide heste]</title>
+<docDate>1886</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Manuskriptet er egenhendig datert flere steder.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list><item>For hovedpunkter: se typografibeskrivelsen i arkivert Ro41291_pre_splitt.xml.</item>
+<item>Foliering: ukjent, egenhendig folieringstype side 15, se note ved tekststedet. Fra side 17: egenhendig leggfoliering øverst til venstre, tallet og punktumet er understreket og skråstilt.</item>
+<item>Annet: faksimileside 44: Foran fru Rosmers siste replikk er det en påbegynt bokstav som er strøket. Er ikke transkribert.</item></list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="fw-type-gathering">De åtte første sidene i dette mset består av to dobbeltblad som er lagt inni hverandre (deretter ligger dobbeltbladene etter hverandre). Det er mulig at denne 'doble' folieringen viser til at dobbeltbladet det står på, inneholder både legg 1 og legg 2. Denne folieringen samt de neste er derfor kodet med 'gathering'.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ROSMER"/><item>Rosmer</item>
+<label xml:id="REBEKKA"/><item>Fru Rosmer, Frøken Dankert, Frøken West</item>
+<label xml:id="KROLL"/><item>Gylling, Rektor Gylling</item>
+<label xml:id="BRENDEL"/><item>Rosenhjelm</item>
+<label xml:id="MORTENSGAARD"/><item>Mortensgård</item>
+<label xml:id="MADAMHELSETH"/><item>Madam Helset</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">Referanser til Hundreårsutgaven (bd X) er kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 450-82. Første sidetall er oppgitt i n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-brown" scope="major"><p>Brunt blekk. Henrik Ibsen. Hovedhånd.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><name>EFS</name><title>HISb-referanser</title>
+La inn referanser til HISb.</change>
+<change><date>18.04.12</date>
+<name>SBT</name><title>Koderydding</title>
+Fjernet fw-koding for bokproduksjon.</change>
+<change><date>02.04.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<front>
+<lb/><fw type="gathering" place="top-left"><pb ed="faksBase" n="15"/><pb ed="HISb" n="237"/>1. &amp; 2.</fw>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main"><hi rend="underlined2"><pb ed="HU" n="450"/>Hvide heste</hi>.</titlePart>
+<lb/><titlePart type="sub"><hi rend="underlined">Skuespil i fem akter</hi></titlePart>
+</docTitle>
+<byline>
+<lb/><hi rend="underlined">af</hi>
+<lb/><docAuthor><hi rend="underlined2">Henrik Ibsen</hi></docAuthor>.</byline>
+<lb/><docDate><hi rend="underlined">1886</hi>.</docDate>
+</titlePage>
+</front>
+<pb ed="faksBase" n="16"/>
+<body>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 1, bl. [1]r"/><pb ed="HISb" n="239"/><pb ed="faksBase" n="17"/>1.</fw><note resp="author" place="top-right">25.5.86.</note>
+<div type="act" n="1">
+<lb/><head>Første akt.</head>
+<lb/><HIS:hisStage>(<anchor type="lemma" xml:id="koHv_1"/>Gammeldags men stor og hyggelig daglig-
+<lb/>stue hos Rosmers. På væggen til højre en
+<lb/><anchor type="lemma" xml:id="koHv_2"/>kakkelovn; længere tilbage en dør. På bagvæg-
+<lb/>gen <anchor type="lemma" xml:id="koHv_3"/>fløjdør til forstuen. På væggen til venstre
+<lb/>to vinduer med potteblomster i opsatser. Ved
+<lb/>kakkelovnen sofa med bord og lænestole. På
+<lb/>væggene hænger gamle familjeportrætter fore-
+<lb/>stillende officerer og prester. Det er sen efter-
+<lb/>middagstid. Vintersolen skinner ind på gulv-
+<lb/>tæppet.)</HIS:hisStage>
+<lb/><HIS:hisStage>(<anchor type="lemma" xml:id="koHv_4"/>Fru Rosmer står ved det forreste vindu og
+<lb/>steller med blomsterne. <anchor type="lemma" xml:id="koHv_5"/>Madam <anchor type="lemma" xml:id="koHv_5a"/>Helset kommer
+<lb/>ind fra højre med en <anchor type="lemma" xml:id="koHv_6"/>dækketøjskurv.)</HIS:hisStage>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Det er vel bedst jeg begynder så småt at dæk-
+<lb/>ke <anchor type="lemma" xml:id="koHv_7"/>tébordet, frue?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, gør De det. Nu må han vel snart komme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>
+<lb/><HIS:hisStage>(lægger dugen på.)</HIS:hisStage></HIS:spOpener>
+<lb/><p><pb ed="HISb" n="240"/>Nej, han kommer nok ikke så snart endnu;
+<lb/>for jeg så ham fra køkkenet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, ja &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker><pb n="legg 1, bl. [1]v"/><pb ed="faksBase" n="18"/>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> &dash; på den andre siden af mølledammen.
+<lb/>Først vilde han gå bent over <anchor type="lemma" xml:id="koHv_8"/>kloppen; men
+<lb/>så rygged han tilbage &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Gjorde han det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja, og så gik han helt ovenom. Å ja, det er
+<lb/>underligt med slige steder. Der, hvor sligt no-
+<lb/>get er hendt, &dash; der &dash;. Det sidder i; det glemmes
+<lb/>ikke så fort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej, det glemmes ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Nej så mænd gør det ikke, nej.</p>
+<lb/><HIS:hisStage>(går ud til højre.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="241"/>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(ved vindu<HIS:clarification place="inline">e</HIS:clarification>t, ser ud.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Glemme. Glemme, ja!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker><pb ed="HU"/>Madam Helset</speaker>
+<lb/><HIS:hisStage>(i døren.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Frue, nu så jeg rektoren. Han kommer hid.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Er De viss på det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja, han gik over mølledammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og at min mand ikke er hjemme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Téen er færdig når det skal være.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 1, bl. [2]r"/><pb ed="faksBase" n="19"/>Men vent; vi ved jo ikke om han blir.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam <HIS:hisDel rend="overwritten">Rosm</HIS:hisDel>Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja, ja.</p>
+<lb/><HIS:hisStage>(ud til højre.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(går hen og åbner døren til forstuen.)</HIS:hisStage>
+</HIS:spOpener>
+<lb/><p><pb ed="HISb" n="242"/>God dag, og hjertelig velkommen, kære rektor!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Rektor <anchor type="lemma" xml:id="koHv_9"/>Gylling</speaker>
+<lb/><HIS:hisStage>(tar overtøjet af.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Tak. Jeg kommer altså ikke til ulejlighed?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å nej, <anchor type="lemma" xml:id="koHv_10"/>hvor kan De tro det? Tvert imod.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Rektor Gylling</speaker>
+<lb/><HIS:hisStage>(kommer ind.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nå, så er det jo godt. Men hvor har De Deres
+<lb/>mand henne?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Han er bare gåt en liden tur. Jeg tænker
+<lb/>han kommer på øjeblikket. Vær så god at ta&rapo;
+<lb/>plads så længe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>
+<lb/><HIS:hisStage>(sætter sig ved ovnen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Mange tak. Der er noget, som jeg gerne vil-
+<lb/>de tale med ham om.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(sætter sig ved bordet.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det var jo heldigt; for så fik vi da endelig se
+<lb/><pb ed="HISb" n="243"/>Dem hos os en gang. Hvorfor er De ikke kom-
+<lb/>met ud til os før?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nå, unge nygifte folk bør man da ikke så-
+<lb/><pb n="legg 1, bl. [2]v"/><pb ed="faksBase" n="20"/>dan rende på dørene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(smiler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hm, &dash; så <anchor type="lemma" xml:id="koHv_11"/>pur unge er vi nu egentlig ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja, nygifte i alt fald. Men desuden har jeg, som
+<lb/>De <HIS:hisRef type="tcNote" xml:id="noteHv_1" target="Hvht_noter.xml" corresp="noteHv_1">ved. Været</HIS:hisRef> borte et par ugers tid.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, De har jo været omkring på folkemøde<HIS:hisDel rend="overwritten">t</HIS:hisDel>r.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Er ble&rapo;t politisk agitator, som de <anchor type="lemma" xml:id="koHv_12"/>radikale <pb ed="HU"/>bla-
+<lb/>de kalder det &dash; når det gælder <emph rend="underlined">os</emph>. Eller læser De
+<lb/>kanske ikke de blade.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(hurtigt.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Å jo, vi læser dem nok en gang imellem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="244"/>Gylling</speaker></HIS:spOpener>
+<lb/><p>Nå, så har De vel set hvorledes jeg er blet <anchor type="lemma" xml:id="koHv_13"/>over-
+<lb/>f<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>uset og <anchor type="lemma" xml:id="koHv_14"/>tilrakket? Hvilke grovheder jeg har
+<lb/>måttet døje?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, men jeg synes, De har bidt ganske godt fra
+<lb/>Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det har jeg; det tør jeg selv sige. Skal jeg ende-
+<lb/>lig <anchor type="lemma" xml:id="koHv_15"/>træde offentlig op, så er jeg sandelig ikke til
+<lb/>sinds godvillig at <anchor type="lemma" xml:id="koHv_16"/>lægge ryggen tilrette. &dash; Men
+<lb/>lad os ikke komme ind på alt dette sørgelige og
+<lb/>opri<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel><unclear reason="writing">v</unclear>ende <anchor type="lemma" xml:id="koHv_17"/>kævl. Sig mig heller &dash; hvorledes sy-
+<lb/>nes De nu om det at være ble&rapo;t fruen i huset?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.
+<lb/><fw type="gathering" place="top-left"><pb n="legg 2, bl. [1]r"/><pb ed="faksBase" n="21"/>2.</fw>
+<lb/><HIS:hisStage>(halvt <anchor type="lemma" xml:id="koHv_18"/>sagte.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jeg føler mig i alle måder så usigelig lykke-
+<lb/>lig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nå, det glæder mig af hjertet. Anderledes kan det
+<lb/><pb ed="HISb" n="245"/>jo heller ikke være. En mand som <anchor type="lemma" xml:id="koHv_19"/>Eilert Ros-
+<lb/>mer! Og så <emph rend="underlined">det</emph>, at De her slet ikke er kommet
+<lb/>ind i fremmede og uvante forhold, som De be-
+<lb/>høver at leve Dem sammen med. Huset her og
+<lb/>alt sammen var jo ble&rapo;t Dem som et hjem for læn-
+<lb/>ge siden. Der er bare den forskel at nu er det hele
+<lb/>Deres eget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(flytter sig lidt nærmere.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Kære rektor, De siger dette så <anchor type="lemma" xml:id="koHv_20"/>trohjertig, så
+<lb/>jeg er viss på der ikke ligger nogen misstem-
+<lb/>ning under.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Misstemning? Hvad mener De med det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det vilde jo ikke være så underlig, om De følte
+<lb/><HIS:hisRef type="tcNote" xml:id="noteHv_2" target="Hvht_noter.xml" corresp="noteHv_2">dem</HIS:hisRef> lidt ilde berørt ved at se en anden råde her,
+<lb/>hvor De var vant til at se Deres <HIS:hisAdd place="offline">egen</HIS:hisAdd> søster styre og
+<lb/>råde lige til for et par år siden. Men det gør <lb/>De altså ikke? <HIS:hisStage>(rækker ham hånden.)</HIS:hisStage> Tak, kæ-
+<lb/>re rektor! Tak, tak for det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="246"/><pb ed="HU"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Men sig mig, hvor i al verden har De kunnet
+<lb/><anchor type="lemma" xml:id="koHv_21"/>falde på en sådan tanke! Jeg skulde ha&rapo; noget
+<lb/>imod &dash; nu, da min stakkers søster er borte, &dash; nu
+<lb/>skulde jeg ha&rapo; noget imod at De tog den tomme
+<lb/><pb n="legg 2, bl. [1]v"/><pb ed="faksBase" n="22"/>plads efter hende, &dash; at De gjorde Rosmer til en
+<lb/>lykkelig mand &dash; efter alle de grufulde oplevel-
+<lb/>ser, &dash; og at De <HIS:hisDel rend="overwritten">s</HIS:hisDel>endelig selv blev lykkelig efter al
+<lb/>Deres utrættelige omhu for hende &dash; for hende,
+<lb/>den stakkers utilregnelige skabning, som valg-
+<lb/>te at, &dash; som endte med at &dash; gå bort fra det hele.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å, lad os ikke tale om disse tunge ting. Lad os
+<lb/>ikke tænke på dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nej, lad os ikke det. Lad os holde os til det, som
+<lb/>er lys i. Sig mig nu, fru Rosmer &dash;. Men en ting
+<lb/>først &dash;; lad mig få lov til at kalde Dem <anchor type="lemma" xml:id="koHv_22"/>Agate
+<lb/>ligesom hun gjorde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="247"/>Fru Rosmer</speaker>.
+<lb/><HIS:hisStage>(glad.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Å ja, gør det! <HIS:hisStage>(ryster hans hænder.)</HIS:hisStage> Tak, tak for
+<lb/>De vil!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Eilert Rosmer kommer ind fra højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koHv_23"/>Rosmer, ser du <anchor type="lemma" xml:id="koHv_24"/>hvem her er!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Madam Helset fortalte det. <HIS:hisStage>(trykker rektorens
+<lb/>hænder.)</HIS:hisStage> Velkommen til huset igen, kære gam-
+<lb/>le ven. Det var nok det jeg vidste, at engang
+<lb/>måtte det bli som før imellem os.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Men menneske, har <emph rend="underlined">du</emph> også været inde på
+<lb/>den <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>forrykte indbildning at jeg stod <anchor type="lemma" xml:id="koHv_25"/>på <HIS:hisRef type="tcNote" xml:id="noteHv_3" target="Hvht_noter.xml" corresp="noteHv_3">spændt</HIS:hisRef>
+<lb/>med <anchor type="lemma" xml:id="koHv_26"/>jer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 3, bl. [1]r"/><pb ed="faksBase" n="23"/><unclear reason="binding">3</unclear>.</fw>
+<lb/><p><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Ja tænk, hvor lykkeligt at det bare var en ind-
+<lb/>bildning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="248"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Var det virkelig det, Gylling? Men hvorfor <lb/>trak du dig da så rent tilbage fra os?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Fordi jeg ikke vilde gå her <HIS:hisDel rend="overstrike">og</HIS:hisDel> som et levende
+<lb/>minde om dine ulykkelige år &dash; og om hende &dash;
+<lb/>som endte i mølledammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det var jo vakkert og hensynsfuldt tænkt
+<lb/><pb ed="HU"/>af dig, kære Gylling. Men det vil jeg sige, at det
+<lb/>var aldeles unødvendigt. Hverken <anchor type="lemma" xml:id="koHv_26a"/>Agnete el-
+<lb/>ler lille <anchor type="lemma" xml:id="koHv_27"/>Alfred står for os som noget, vi <anchor type="lemma" xml:id="koHv_28"/>kvider
+<lb/>os for at dvæle ved. Tvert imod. Vi taler ofte
+<lb/>om dem. De hører endnu ligesom huset til, sy-
+<lb/>nes vi.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>G<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>y<HIS:clarification place="inline">l</HIS:clarification>ling</speaker>.</HIS:spOpener>
+<lb/><p>Gør I virkelig det? Kan I det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, hvorfor ikke &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det er jo så ganske naturligt. Både Agate
+<lb/><pb ed="HISb" n="249"/>og jeg holdt jo så inderlig af de bortgangne. Å,
+<lb/>det er en stor velsignet lykke, det, ikke at ha&rapo; no-
+<lb/>get at bebrejde sig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Fra nu af kommer jeg ud til jer hver dag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å ja, <anchor type="lemma" xml:id="koHv_29"/>når De vilde det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 3, bl. [1]v"/><pb ed="faksBase" n="24"/>Jeg skulde <anchor type="lemma" xml:id="koHv_30"/>højlig ønsket at omgangen mellem
+<lb/>os aldrig var ble&rapo;t afbrud<HIS:hisDel rend="overwritten">e</HIS:hisDel>t. Der er mangt og me-
+<lb/>get, som jeg så gerne vilde tale uforbeholdent
+<lb/>med dig om, &dash; sådan lige ud af hjertet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja ikke sandt, Rosmer! Lad det nu ske.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nå, du kan <anchor type="lemma" xml:id="koHv_31"/>såmænd tro, jeg har ikke mindre
+<lb/>at tale med dig om. For nu er jeg ble&rapo;t agitator,
+<lb/>som du vel ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja du er jo det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="250"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja n<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>u går det sandelig ikke an for nogen tæn-
+<lb/>kende og retsindig <HIS:hisDel rend="overwritten">at</HIS:hisDel>mand at stå som ørkes-
+<lb/>løs tilskuer længer. Nu, da de radikale virke-
+<lb/>lig er kommet <HIS:hisDel rend="overwritten">f</HIS:hisDel>til magten her i landet, nu er
+<lb/>det på tide at alle <anchor type="lemma" xml:id="koHv_32"/>velsindede borgere rejser sig
+<lb/>i <anchor type="lemma" xml:id="koHv_33"/>endrægtighed &dash; det er på høj tid, siger jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(med et undertrykt smil.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja er det i<HIS:hisDel rend="overwritten">l<gap/></HIS:hisDel>kke egentlig nu temmelig sent?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Unægtelig havde det været heldig<HIS:hisDel rend="overwritten"><unclear>t</unclear></HIS:hisDel>st om vi hav-
+<lb/>de standset strømmen på et ti<HIS:hisDel rend="overwritten">l</HIS:hisDel>dligere tids-
+<lb/>punkt. Men hvem kunde også forudsé, hvad
+<lb/>der vilde komme? Jeg i alle fald ikke. Jo, nu
+<lb/>har jeg rigtignok fåt øjnene <pb ed="HU"/>op; for nu er så-
+<lb/>mænd oprørsånden trængt ind i selve skolen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>I skolen? I din skole?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb n="legg 3, bl. [2]r"/><pb ed="faksBase" n="25"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja så sandelig er den det. I min egen skole.
+<lb/><pb ed="HISb" n="251"/>Hvad synes du. Jeg er <anchor type="lemma" xml:id="koHv_34"/>kommen under vejr med
+<lb/>at gutterne i øverste klasse &dash; det vil da sige en
+<lb/>del af gutterne, har stiftet en forening og <emph rend="underlined">der</emph>
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>holder de <anchor type="lemma" xml:id="koHv_35"/>Mortensgårds avis.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hm &dash;.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har ellers lagt mærke til at unge menne-
+<lb/>sker ikke plejer være egentlig radikale.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>De fleste plejer ikke være det. Det er ganske
+<lb/>sandt. De fleste står da, gud ske lov, i den al-
+<lb/>der endnu så vidt under autoritetens respekt
+<lb/>både i hjemmet og i skolen at de ikke lar nogen
+<lb/>umoden kritik over det bestående og det aner-
+<lb/>kendte komme til orde. Men der gives desvær-
+<lb/>re und<HIS:hisDel rend="overwritten">er</HIS:hisDel>tagelser f<HIS:hisDel rend="overwritten">or</HIS:hisDel>ra regelen. Og det er for os
+<lb/>skolemænd en sørgelig, sørgelig kendsgerning
+<lb/>at det netop er de fra åndsevnernes side bedst
+<lb/>udrustede gutter som danner undtagelsen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><pb ed="HISb" n="252"/>Ja, det har jeg også lagt mærke til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Men desto farligere er de, disse enkelte <anchor type="lemma" xml:id="koHv_36"/><anchor type="lemma" xml:id="koHv_37"/>skab-
+<lb/>bede får. De er i stand til at smitte hele flok-
+<lb/>ken for mig. Hele klassen. Hele skolen. Se,
+<lb/>derfor er det at jeg ikke har betænkt mig på at
+<lb/>ta&rapo; virksom del i disse folkemøder og advare
+<lb/>imod den fordærvelige tidsånd som er kom-
+<lb/><pb n="legg 3, bl. [2]v"/><pb ed="faksBase" n="26"/>met op hos os for øjeblikket.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men har du nu også noget håb om at der kan
+<lb/>udrettes noget på den måde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vil i alt fald <anchor type="lemma" xml:id="koHv_38"/>aftjene min statsborgerlige
+<lb/>værnepligt. Og jeg mener, det er enhver <anchor type="lemma" xml:id="koHv_39"/>fædre-
+<lb/>landssindet og for den gode sag bekymret mands
+<lb/>skyldighed at gøre det samme. Se, derfor er
+<lb/>det nærmest at jeg er kommet her ud til dig i
+<lb/>dag &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="253"/><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad? Mener du at jeg skulde &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men, kære rektor, De kender jo hans ulyst &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Den må han overvinde. <HIS:hisStage>(til Rosmer.)</HIS:hisStage> Du føl-
+<lb/>ger ikke med. Du gør dig ingen forestilling om
+<lb/>hvorledes tilstanden er ude omkring i landet.
+<lb/>Der er vendt op og ned på <app type="alteration"><lem><HIS:hisAdd place="offline">hvert eneste</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">alle</HIS:hisDel></HIS:hisRdg></app> begreb<HIS:hisDel rend="overstrike">er</HIS:hisDel>. Det vil
+<lb/>bli et kæmpearbejde at få alle de <anchor type="lemma" xml:id="koHv_40"/>vildfarelser
+<lb/>ryddet ud igen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det tror jeg også. Men det slags arbejde <anchor type="lemma" xml:id="koHv_41"/>ligger
+<lb/>slet ikke for mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Rosmer, nu synes jeg du skulde tale helt ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du er for sky, Rosmer. Du holder dig på alt for
+<lb/>fjern afstand fra livet. <anchor type="lemma" xml:id="koHv_42"/><anchor type="ht" xml:id="koHv_ht_2"/>Dit presteembede
+<lb/><anchor type="lemma" xml:id="koHv_43"/>la&rapo;e du ned &dash;</p></HIS:hisSp>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 4, bl. [1]r"/><pb ed="faksBase" n="27"/>4.</fw>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="254"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja nu vil jeg tale. <anchor type="ht" xml:id="koHv_ht_3"/>Hvorfor tror du jeg la&rapo;e
+<lb/>mit presteembede ned?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nå, det ved jeg jo nok. Jeg finder det så gan-
+<lb/>ske rimeligt at du følte dig ubehagelig berørt
+<lb/>af og ikke kunde gå med på &dash; de mørke pieti-
+<lb/>stiske retninger, som dengang havde vundet
+<lb/>indgang i så mange kredse her.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg skulde aldrig ta&rapo;t imod noget k<HIS:hisDel rend="overwritten">r</HIS:hisDel>irkeligt
+<lb/>embede, aldrig git mig ind på de slags studi-
+<lb/>er; det er hovedsagen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Men, kære, så havde du jo brudt med en af
+<lb/>din familjes smukkeste og <anchor type="lemma" xml:id="koHv_44"/>ufravigeligste
+<lb/>traditioner. Eilert <anchor type="lemma" xml:id="koHv_45"/>Hanibal Rosmer var mi-
+<lb/>litær. Følgelig måtte sønnen Eilert Alfred
+<lb/>Rosmer bli prest. Således har det vekslet i
+<lb/>mere end to hundrede år. De ting har jeg
+<lb/><pb ed="HISb" n="255"/>god rede på, jeg, som samler til <anchor type="lemma" xml:id="koHv_46"/>slægtens stam-
+<lb/>tavle.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja det var vel også det, som var det bestem-
+<lb/>mende for mig dengang. Eller, rettere sagt,
+<lb/>de<HIS:hisDel rend="overwritten">t</HIS:hisDel>r var <pb ed="HU"/>slet ikke tale om nogen bestemmel-
+<lb/>se fra min side. Far, &dash; hm, du ved han var
+<lb/><HIS:hisDel rend="overstrike">obe</HIS:hisDel> <anchor type="lemma" xml:id="koHv_47"/>major i sin huslige kreds også &dash; han vilde
+<lb/>ha&rapo; det så, og dermed var sagen altså afgjort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>
+<lb/><HIS:hisStage>(med et suk.)</HIS:hisStage></HIS:spOpener>
+<lb/><p><pb n="legg 4, bl. [1]v"/><pb ed="faksBase" n="28"/>Ja, det var i de velordnede samfundsfor-
+<lb/>holdes tider!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og jeg, desværre, jeg hørte vel til den slags
+<lb/>unge mennesker, som du før talte om, &dash; de med
+<lb/>de <anchor type="lemma" xml:id="koHv_48"/>tarvelige åndsevner.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du! Hvor i al verden kan du falde på <emph rend="underlined">det</emph>?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="256"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jo, for der var ikke gnist af oprørsånd i mig
+<lb/>dengang.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker></HIS:spOpener>
+<lb/><p>Nej, med guds hjælp kommer da vel aldrig <emph rend="underlined">den</emph>
+<lb/>ånd til at fare i <emph rend="underlined">dig</emph>.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg er dog kommen til at se på tingene i livet
+<lb/>med åbnere øjne end før.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hør nu, Rosmer, &dash; du kunde dog vel aldrig være
+<lb/>så svag at la&rapo; dig <anchor type="lemma" xml:id="koHv_49"/>dåre af den tilfældighed at
+<lb/><anchor type="lemma" xml:id="koHv_50"/>massehøvdingerne har vundet en midlertidig
+<lb/>sejr!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>De ting ligger ikke nærmest for mig; men jeg
+<lb/>synes dog at der i de senere år er kommet ligesom
+<lb/>lidt mere selvstændighed ind i de enkeltes tænk-
+<lb/>ning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="257"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Og hvis så var? Vilde du virkelig regne det for
+<lb/>noget godt hos så ubefæstede og ufærdige men-
+<lb/>nesker? For resten tar du nok betydelig fejl.
+<lb/><pb n="legg 4, bl. [2]r"/><pb ed="faksBase" n="29"/>Eller hvad er det for tanker og meninger, som
+<lb/>dominerer blandt <anchor type="lemma" xml:id="koHv_51"/>de opviglede her ude på lands-
+<lb/>bygden hos dig? Er det ikke de samme tanker og
+<lb/>meninger som hidser <anchor type="lemma" xml:id="koHv_52"/>de ildesindede inde i byen?
+<lb/>Jo netop. Og tror du <anchor type="lemma" xml:id="koHv_53"/>mobben suger de tanker
+<lb/><HIS:hisDel rend="overwritten"><unclear>af</unclear></HIS:hisDel>og meninger af sit eget bryst? Nej, simpelt hen
+<lb/>&dash; de læser sig dem til i <anchor type="lemma" xml:id="koHv_54"/>Peder Mortensgårds a-
+<lb/>vis. Jo, det er en <anchor type="lemma" xml:id="koHv_55"/>appetitlig kilde at øse af!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Mortensgård skriver dog unægtelig godt for
+<lb/>sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HU"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja men herre gud, &dash; en mand med en så til-
+<lb/>smudset fortid! Nå, de radikale er jo ikke <anchor type="lemma" xml:id="koHv_56"/>kræs-
+<lb/>ne, hvad det moralske grundlag angår. Derfor
+<lb/>er han en farlig mand, denne Mortensgård. Han
+<lb/>er en af de farligste, vi har her. Og han <anchor type="lemma" xml:id="koHv_57"/>tør bli&rapo;
+<lb/><pb ed="HISb" n="258"/>endnu besværligere at trækkes med for frem-
+<lb/>tiden. For nu tænker han på at udvide sin a-
+<lb/>vis; den skal komme ud hver dag; jeg ved fra
+<lb/>sikker kilde at han ser sig om efter en habil
+<lb/>medarbejder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men hvorfor tænker ikke du og de andre
+<lb/>på at stifte et <anchor type="lemma" xml:id="koHv_58"/>blad imod ham? Dine venner
+<lb/>i byen sidder jo inde med kapitalen. Det vilde
+<lb/>visst ikke <anchor type="lemma" xml:id="koHv_59"/>falde <HIS:hisDel rend="overwritten">&dash;</HIS:hisDel>vanskeligt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nå, der leder du mig lige ind på mit æren-
+<lb/>de. Det er netop det, vi har tænkt på. Hvad
+<lb/>pengespørsmålet angår, så er foretagendet
+<lb/><pb n="legg 4, bl. [2]v"/><pb ed="faksBase" n="30"/>sikret. Men ledelsen, &dash; den journalistiske ledelse,
+<lb/>Rosmer. Sig mig, &dash; skulde ikke du for den go-
+<lb/>de sags skyld føle dig opfordret til at overta&rapo;
+<lb/>den?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="259"/>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej men hvor kan De ville &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg selv skulde så inderlig gerne forsøge mig i
+<lb/>den retning også. Men det er aldeles umuligt.
+<lb/>Jeg er allerede i forvejen så <anchor type="lemma" xml:id="koHv_60"/>bebyrdet med en u-
+<lb/>tallighed af gøremål &dash;. Men du, som ikke læn-
+<lb/>ger er trykket af nogen <anchor type="lemma" xml:id="koHv_61"/>embedsgerning &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har da i alle fald <HIS:hisRef type="tcNote" xml:id="noteHv_4" target="Hvht_noter.xml" corresp="noteHv_4">gårsdriften</HIS:hisRef>.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Snak; <HIS:hisRef type="tcNote" xml:id="noteHv_4a" target="Hvht_noter.xml" corresp="noteHv_4a">gårsdriften</HIS:hisRef> <anchor type="lemma" xml:id="koHv_62"/>lægger da ikke beslag på
+<lb/>stort af din tid.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men alligevel; det er rent umuligt. Jeg føler
+<lb/>mig så aldeles uskikket &dash;; jeg duer ikke &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det kan du aldrig vide, før du har <anchor type="lemma" xml:id="koHv_63"/>probert det.
+<lb/>Vi <HIS:hisDel rend="overstrike">andre</HIS:hisDel> skulde desuden hjælpe dig så godt
+<lb/>vi kunde. Og så har du desuden straks fra
+<lb/><pb ed="HISb" n="260"/>først af en <pb ed="HU"/>umådelig fordel i den <HIS:hisRef type="tcNote" xml:id="noteHv_5" target="Hvht_noter.xml" corresp="noteHv_5">uindskræn-
+<lb/>kel<HIS:hisDel rend="overwritten"><unclear>e</unclear></HIS:hisDel>de</HIS:hisRef> agtelse, du nyder i hele <HIS:hisDel rend="overstrike">egnen</HIS:hisDel> amtet.
+<lb/>Ingen anden mand kan <anchor type="lemma" xml:id="koHv_64"/>hamle op med dig
+<lb/>i så henseende. Navnet Rosmer, &dash; gud bevar&rapo;
+<lb/>os vel, &dash; familjen Rosmer, den har <HIS:hisDel rend="overwritten">g</HIS:hisDel>da gennem
+<lb/><fw type="gathering" place="top-left"><pb n="legg 5, bl. [1]r"/><pb ed="faksBase" n="31"/><unclear reason="binding">5</unclear>.</fw>
+<lb/>umindelige tider gældt som et symbol på alt
+<lb/>det, som gammelt og godt og ret og rigtigt er.
+<lb/>Derved, ser du, vilde netop du kunne <anchor type="lemma" xml:id="koHv_66"/>trede op
+<lb/>med tidobbelt vægt. &dash; Ja, hvad siger De, fru
+<lb/>Rosmer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>
+<lb/><HIS:hisStage>(ler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Kære rektor, for mig er dette her så usige-
+<lb/>lig latterligt at høre på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvad for noget! Latterligt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja for nu skal jeg sige Dem rent ud &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="261"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej, lad mig sige det selv &dash;</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Madam Helset kommer i døren til højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Der er en mand ude i køkkengangen. Han si&rapo;er
+<lb/>han vil hilse på pastor Rosmer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Så? Ja bed ham værs&rapo;god komme<HIS:hisDel rend="overstrike">n</HIS:hisDel> ind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Her ind i stuen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koHv_67"/>Ja vel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Men han ser nok ikke slig ud at <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>en kan <anchor type="lemma" xml:id="koHv_68"/>slip-
+<lb/>pe &rapo;en i stuen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvorledes ser han da ud, Madam Helset?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 5, bl. [1]v"/><pb ed="faksBase" n="32"/>Å, det er ikke videre, det, frue.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Sa&rapo; han ikke, hvad han heder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker><pb ed="HISb" n="262"/>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Jo han sa&rapo; han heder <anchor type="lemma" xml:id="koHv_69"/>Uldrik.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ulrik?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja, og så nævnte han et navn til. Jeg synes det
+<lb/>hørtes som <anchor type="lemma" xml:id="koHv_70"/>Rosen &dash; holm, eller noget sligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ulrik Rosen&dash;? Det skulde da vel aldrig være
+<lb/>Ulrik Rosenhjem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Jo, så var det han sa&rapo;.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Den ulykkelige Ulrik <anchor type="lemma" xml:id="koHv_71"/>Rosenhjelm.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koHv_72"/>Den forlorne Rosenhjelm. Så han er på disse
+<lb/>kanter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Bed ham komme ind, <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>madam Helset.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja-ja.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(går.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="263"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Vil du virkelig ha&rapo; det <anchor type="lemma" xml:id="koHv_73"/>subjekt ind i din stue?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har kendt lidt til ham i hans velmagts dage.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Har ikke <HIS:hisRef type="tcNote" xml:id="noteHv_6" target="Hvht_noter.xml" corresp="noteHv_6">de</HIS:hisRef> også kendt ham, rektor?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb n="legg 5, bl. [2]r"/><pb ed="faksBase" n="33"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Aldrig sådan personlig. Hm &dash;.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Madam Helset åbner døren til højre for
+<lb/>Ulrik Rosenhjelm, går igen og lukker efter <HIS:hisDel rend="overwritten"><unclear>me</unclear><gap/></HIS:hisDel>ham.
+<lb/>Han har <anchor type="lemma" xml:id="koHv_74"/>uredt hår og skæg, og er klædt som en al-
+<lb/>mindelig <anchor type="lemma" xml:id="koHv_75"/>landstryger. Ingen overfrakke; dårligt
+<lb/>skotøj; skjorte ses ikke. Gamle sor<unclear reason="writing">t</unclear>e hansker
+<lb/>påtrukne; en <anchor type="lemma" xml:id="koHv_76"/>bulehat sammenklappet under ar-
+<lb/>men og en stok i hånden.)</HIS:hisStage>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.
+<lb/><HIS:hisStage>(først usikker, går så raskt hen <HIS:hisDel rend="overstrike">imod</HIS:hisDel> til rektoren
+<lb/>og rækker hånden frem.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>God dag, Rosmer!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="264"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Undskyld; <HIS:hisStage>(peger.)</HIS:hisStage> <emph rend="underlined">der</emph> &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>
+<lb/><HIS:hisStage>(vender sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Rigtig, ja; der har vi ham. Goddag, Rosmer.
+<lb/>Jeg vilde ikke passere gården forbi uden at aflæg-
+<lb/>ge en visit.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Rejsende er altid velkomne her.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Jeg havde <anchor type="lemma" xml:id="koHv_77"/>ikke noget <HIS:hisDel rend="overwritten">v<gap/>s</HIS:hisDel>kort hos mig; men jeg
+<lb/>håber, at den ældre dame, som jeg traf udenfor
+<lb/>har anmeldt mig? Nå; så er det jo godt. <HIS:hisStage>(<HIS:hisDel rend="overwritten">k</HIS:hisDel>bukker)</HIS:hisStage>
+<lb/>Ah, <anchor type="lemma" xml:id="koHv_78"/>fru provstinden, naturligvis. Og <emph rend="underlined">der</emph>? En em-
+<lb/>bedsbroder kan jeg se.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Byens rektor. Rektor Gylling.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 5, bl. [2]v"/><pb ed="faksBase" n="34"/>Gylling? Gylling? Bi lidt; har ikke De studeret
+<lb/>filologi?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="265"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jo, selvfølgelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Nå, men <anchor type="lemma" xml:id="koHv_79"/>for fan&rapo;, så har jeg jo kendt <anchor type="lemma" xml:id="koHv_80"/>dig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Undskyld &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Var ikke du &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Undskyld &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>&dash; en af dem, som fik mig exkluderet af studen-
+<lb/>tersamfundet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HU"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ganske visst; men jeg protesterer imod ethvert nær-
+<lb/>mere bekendtskab.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Nå, nå; <anchor type="lemma" xml:id="koHv_81"/>nach Belieben, herr rektor. Det kan kom-
+<lb/>me mig ud på et. Jeg blir den jeg er for det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>De agter Dem vel indover til byen, <HIS:hisRef type="tcNote" xml:id="noteHv_7" target="Hvht_noter.xml" corresp="noteHv_7">her</HIS:hisRef> Rosenhjelm?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker><pb ed="HISb" n="266"/>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Ja, fru provstinde, jeg gør så. Jeg synes det er
+<lb/>næsten en skam for mig at jeg endnu ikke kender
+<lb/>denne del af landet. Hvorledes er stemningen
+<lb/>her i byen? Jeg tænker nemlig på at få en af-
+<lb/>tenunderholdning istand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad skulde den bestå i?</p></HIS:hisSp>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 6, bl. [1]r"/><pb ed="faksBase" n="35"/><unclear reason="binding">6</unclear>.</fw>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Hvad som bedst <anchor type="lemma" xml:id="koHv_82"/>falder i smagen. Kunde ikke
+<lb/>rektoren gi&rapo; mig et godt råd? Jeg vil tillade mig
+<lb/>at komme indom og gøre Dem en visit.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Tak; men De gør visst bedst i at henvende Dem di-
+<lb/>rekte til Peder Mortensgård.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Mortensgård? Kender ikke nogen Mortensgård.
+<lb/>Hvad er det for en idiot?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="267"/><HIS:hisDel rend="overstrike"><unclear>F</unclear><gap/></HIS:hisDel> Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvorfor kalder <HIS:hisRef type="tcNote" xml:id="noteHv_8" target="Hvht_noter.xml" corresp="noteHv_8">de</HIS:hisRef> manden en idiot, når De ik-
+<lb/>ke kender ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Hører jeg ikke straks på navnet at det er en <anchor type="lemma" xml:id="koHv_83"/>ple-
+<lb/>bejer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Så? Det svar havde jeg ikke ventet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Tror De kanske at Ulrik Rosenhjelm gør sig
+<lb/>til <anchor type="lemma" xml:id="koHv_84"/>bon kammerat med <anchor type="lemma" xml:id="koHv_85"/>kreti og pleti?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Så vidt jeg ved, har De dog før næret en sær-
+<lb/>lig interesse for samfundets lavere lag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det har jeg; og det har jeg fåt <anchor type="lemma" xml:id="koHv_86"/>svie for.
+<lb/>Forfølgelser fra de styrendes side; latter og hån
+<lb/>og spot, hos de tusender af ligegyldige, som ingen
+<lb/>ting vil forstå, &dash; og så utak fra forkuede, som
+<lb/>jeg vilde hjælpe. Ja, se på mig. Her ser I Ul-
+<lb/>rik<pb ed="HISb" n="268"/> Rosenhjelm, som hørte til det gode selskab,
+<lb/><pb n="legg 6, bl. [1]v"/><pb ed="faksBase" n="36"/>til det bedste selskab, &dash; <pb ed="HU"/>og som var den første i det
+<lb/>gode selskab. Mig stødte de ud fordi jeg havde
+<lb/>evner og mod til at sige og skrive, hvad de fi-
+<lb/>ne helst vilde ha&rapo; dækket over. Nu er jeg al<HIS:hisDel rend="overwritten">l</HIS:hisDel>drig
+<lb/>i godt selskab mere, &dash; undtagen når jeg er alene
+<lb/>med mig selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det er vel ikke blot og bart evnerne eller modstan-
+<lb/>den som bestemmer ens skæbne. Det er vel også
+<lb/>livsførelsen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Jeg forstår. Vi har en <anchor type="lemma" xml:id="koHv_87"/>statsmoral, og den har jeg
+<lb/>ikke levet i samklang med. For resten er jeg ked
+<lb/>af <emph rend="underlined">det</emph> også. Jeg vil <anchor type="lemma" xml:id="koHv_88"/><anchor type="ht" xml:id="koHv_ht_5"/>iføre mig et nyt menneske, som der
+<lb/>står skrevet et steds. Findes der en <anchor type="lemma" xml:id="koHv_89"/>afholdsforening
+<lb/>i byen? En total-afholdsforening? Det gør der natur-
+<lb/>ligvis.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja; jeg er selv formand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker><pb ed="HISb" n="269"/>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Kunde jeg ikke se det på Dem! Nå, det er ikke
+<lb/>umuligt at jeg kommer h<HIS:hisAdd place="inline">j</HIS:hisAdd><HIS:clarification place="inline">e</HIS:clarification><HIS:hisDel rend="overwritten">n</HIS:hisDel>m til <HIS:hisDel rend="overwritten">d</HIS:hisDel>Dem og skriver mig
+<lb/>ind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja jeg må sige Dem at vi ikke sådan uden vide-
+<lb/>re optar alle og enhver.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koHv_90"/>A la bonheur! Ulrik Rosenhjelm har aldrig
+<lb/><anchor type="lemma" xml:id="koHv_91"/>rendt den slags foreninger på dørene. Men jeg
+<lb/><anchor type="lemma" xml:id="koHv_92"/>tør ikke forlænge min visit. Jeg må se at kom-
+<lb/>me mig indover til byen og få <anchor type="lemma" xml:id="koHv_93"/>logis. Der findes
+<lb/><pb n="legg 6, bl. [2]r"/><pb ed="faksBase" n="37"/>dog vel et ordentligt hotel, vil jeg håbe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Vil De ikke drikke lidt varmt før De går?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koHv_94"/>Hvad slags varmt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>En kop té eller &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Nej nej tak. Jeg lægger ikke gerne beslag på den
+<lb/><pb ed="HISb" n="270"/>private gæstfrihed. Far vel. Å det er sandt,
+<lb/>Rosmer; vil du gøre mig en tjeneste for gam-
+<lb/>melt venskabs skyld.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja gerne. Hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenh<HIS:hisDel rend="overwritten">ol</HIS:hisDel>jelm</speaker>.</HIS:spOpener>
+<lb/><p>Ser du, jeg rejser til fods. Mit tøj kommer <pb ed="HU"/>først
+<lb/>bagefter. <HIS:hisDel rend="overstrike">Meget</HIS:hisDel> Vil du låne mig en skjorte for
+<lb/>et par dages tid?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Meget ge<HIS:clarification place="inline">r</HIS:clarification>ne. Er der ikke noget andet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Kunde du undvære en overfrakke?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å ja, <HIS:hisDel rend="overstrike">jeg</HIS:hisDel> det kan jeg visst.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Og så kanske et p<HIS:hisDel rend="overwritten">å</HIS:hisDel>ar <HIS:hisDel rend="overstrike">st<gap/></HIS:hisDel> vinterstøvler &dash; jeg har
+<lb/>bare <anchor type="lemma" xml:id="koHv_95"/>forårskotøj med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det skal der nok bli&rapo; råd for. Så snart jeg får
+<lb/>vide adressen, skal jeg sende sagerne ind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker><pb ed="HISb" n="271"/>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 6, bl. [2]v"/><pb ed="faksBase" n="38"/>På ingen måde. Slig ulejlighed. Jeg tar de små-
+<lb/>ting med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Godt, godt; så følg med her ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Lad heller mig. <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Jeg og madam Helset skal nok
+<lb/>besørge det.
+<lb/><HIS:hisStage>(går ud til højre.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Er der ikke noget andet, jeg kan tjene med?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Nej tak. Jo død og plage, det er sandt, &dash; har du til-
+<lb/>fældigvis <anchor type="lemma" xml:id="koHv_96"/>ti kroner på dig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det tænker jeg nok. <HIS:hisStage>(åbner <HIS:hisRef type="tcNote" xml:id="noteHv_9" target="Hvht_noter.xml" corresp="noteHv_9"><anchor type="lemma" xml:id="koHv_97"/>portemonæen</HIS:hisRef>)</HIS:hisStage> Her <lb/>har jeg femten.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Ja ja tak; det <HIS:hisDel rend="overwritten">v</HIS:hisDel>kan være det samme. Tak så
+<lb/>længe. Husk på at jeg fik femten. Farvel, mi-
+<lb/>ne herrer.</p></HIS:hisSp>
+<lb/><HIS:hisStage><pb ed="HISb" n="272"/>(han går mod højre, hvor Rosmer tar afsked
+<lb/>og lukker døren efter ham.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvad synes du! Så vidt er det kommet med den
+<lb/>glimrende Ulrik Rosenhjelm!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Desværre; det har jeg længe vid<HIS:hisDel rend="overwritten">t</HIS:hisDel>st.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det var jo <anchor type="lemma" xml:id="koHv_98"/>noksom bekendt. Men at se det
+<lb/>for sine øjne! Så megen begavelse gjort ubruge-
+<lb/>lig af moralsk smuds &dash;</p></HIS:hisSp>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 7, bl. [1]r"/><pb ed="faksBase" n="39"/>7.</fw>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Skulde han ikke <anchor type="lemma" xml:id="koHv_99"/>stå ti<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>l at redde endnu?
+<lb/>Skulde det ikke være muligt at få løftet ham
+<lb/>op?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Å kære, hvorledes skulde vel det gå til?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="273"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg mener, ved at ta&rapo; sig skånsomt &dash; kærligt <pb ed="HU"/>af
+<lb/>ham, vise ham tillid, bygge på hans gode for-
+<lb/>sætter &dash; <HIS:hisAdd place="inline">et slags selverkendelse &dash;</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Bygger du da også på de <anchor type="lemma" xml:id="koHv_100"/>forsætter?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vilde så gerne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>I så fald kunde han kanske bli&rapo; en nyttig mand
+<lb/>for os. Den glimrende stil, han engang førte &dash;; hans
+<lb/>flængen<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>de ubarmhjertige pen &dash;; og han lod just
+<lb/>ikke til at ha&rapo; noget godt øje til radikalerne &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Mener du at han kunde sættes i spidsen for <lb/>det nye blad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>I spidsen! Gud bevar&rapo; os, hvor kan du tænke
+<lb/>det? Nej, han måtte naturligvis tvert imod
+<lb/>holdes i baggrunden så længe til han havde
+<lb/>rehabiliteret sig. Han måtte <anchor type="lemma" xml:id="koHv_101"/>beflitte sig på
+<lb/><pb ed="HISb" n="274"/>et ordentligt levnet, &dash; i al fald være forsigtig og
+<lb/><anchor type="lemma" xml:id="koHv_102"/>ikke offentlig gi&rapo; anledning til forargelse. Og
+<lb/>hvis han kunde overvinde sig så vidt, og hvis
+<lb/>han kunde i nogen tid bringes til at yde den
+<lb/><pb n="legg 7, bl. [1]v"/><pb ed="faksBase" n="40"/>gode sag sine <anchor type="lemma" xml:id="koHv_103"/>bona officia &dash;; under iagttagelse
+<lb/>af den aller strængeste anonymitet naturlig-
+<lb/>vis &dash;.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Fru Rosmer er imidlertid kommet ind i-
+<lb/>gen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Gik han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja nu får nok jeg også tænke på at komme af-
+<lb/>sted. Det begynder alt at bli&rapo; mørkt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Vil De ikke drikke té med os?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nej, nej tak; det er umuligt. &dash; Ja kære ven, jeg
+<lb/><pb ed="HISb" n="275"/>vil ikke trænge nærmere ind på dig idag. Nu
+<lb/>skal du <anchor type="lemma" xml:id="koHv_104"/>overlægge med dig s<HIS:hisDel rend="overwritten">l</HIS:hisDel>elv &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Er du hjemme imorgen formiddag &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Imorgen? Det kan jeg desværre ikke så nøje
+<lb/>sige &dash; for &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Godt, godt, jeg forhører mig i alle fald. Jeg
+<lb/>vil tale med dig, jeg vil tale længe med dig, kæ-
+<lb/>re <HIS:hisDel rend="overwritten">g</HIS:hisDel>Gylling &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du mener, om det med &lquo;Amtstidenden?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Både om det og om andre ting.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb n="legg 7, bl. [2]r"/><pb ed="faksBase" n="41"/>Gylling</speaker>.
+<lb/><HIS:hisStage>(ryster hans hånd.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Velkommen skal du være, min kære ven. Og jeg
+<lb/><HIS:hisAdd place="offline">tænker</HIS:hisAdd> nok vi to snart skal bli&rapo; enige om, hvad der
+<lb/>er en <anchor type="lemma" xml:id="koHv_105"/>brav og velsindet borgers pligt i disse <anchor type="lemma" xml:id="koHv_106"/>træng-
+<lb/>selens tider. Farvel frue! Farvel, kære venner.</p></HIS:hisSp>
+<lb/><HIS:hisStage><pb ed="HISb" n="276"/>(Rosmer og frue føl<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ger <HIS:hisRef type="tcNote" xml:id="noteHv_10" target="Hvht_noter.xml" corresp="noteHv_10">han</HIS:hisRef> ud i forstuen. Der <HIS:hisAdd place="offline">tales</HIS:hisAdd>
+<lb/>højt men uforståeligt mens han trækker yder-
+<lb/>frakken på. Tilsidst &lquo;Farvel, farvel, farvel&rquo; <HIS:hisDel rend="overstrike">Ro</HIS:hisDel><gap/>
+<lb/>i det rektoren går. Rosmer og hans hustru kom-
+<lb/>mer ind i stuen igen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="ht" xml:id="koHv_ht_1"/>Hvad var det, <HIS:hisRef type="tcNote" xml:id="noteHv_11" target="Hvht_noter.xml" corresp="noteHv_11">ha</HIS:hisRef> sa&rapo;e da jeg kom ind. Jeg for-
+<lb/>stod ham, som han vilde prøve Rosenhjelm i det
+<lb/>nye blad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Han kasted det flygtigt ud som en mulighed.
+<lb/>Men det går vist ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej det vil jeg håbe. Jeg har i alle fald gjort
+<lb/>mit for at det ikke skal gå.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Du, kære? Hvad har du da gjort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Ros<HIS:hisDel rend="overwritten">enhj<gap/></HIS:hisDel>mer</speaker></HIS:spOpener>
+<lb/><p>Nu skal du ikke <anchor type="lemma" xml:id="koHv_107"/>ta&rapo; det fortrydeligt at jeg hand-
+<lb/>led lidt på egen hånd. Hvad? Vi to gode venner?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="277"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>J<unclear><HIS:hisDel rend="overwritten">eg</HIS:hisDel>o</unclear> visst; du må gøre alt, hvad du vil. Men
+<lb/>hvad er det så?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg gav Rosenhjelm et kort med til Mortensgård</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb n="legg 7, bl. [2]v"/><pb ed="faksBase" n="42"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Gjorde du? Til Mortensgård!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja jeg rabbled ned et par ord i al hast &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men du hørte jo han kaldte Mortensgård en idi-
+<lb/>ot og en plebejer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det er jo ikke noget at <anchor type="lemma" xml:id="koHv_108"/>agte på. Når e<HIS:hisDel rend="overwritten">t</HIS:hisDel>n mand
+<lb/>er dalet således nedover som Rosenhjelm, så
+<lb/>agerer han fornem. Han takked også og loved
+<lb/>at <anchor type="lemma" xml:id="koHv_109"/>gi&rapo; kortet af.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Så det gjorde han? Men imorgen kommer kan-
+<lb/>ske Gylling og <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tar ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="278"/><pb ed="HU"/>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvis han først har <anchor type="lemma" xml:id="koHv_110"/>kompromitteret sig med Mor-
+<lb/>tensgårds avis så kan ikke &lquo;Amtstidenden&rquo; bruge
+<lb/>ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og så kommer det ud at det er os som har anbe-
+<lb/>falet ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad kan det skade. Er du ikke fast bestemt
+<lb/>på at imorgen skal slaget stå?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jo, det er afgjort. I m<HIS:hisDel rend="overwritten">å</HIS:hisDel>orgen skal og må det ske.
+<lb/>Men herre gud, hvor tungt det alligevel er at skulle
+<lb/>bedrøve sine trofaste venner, &dash; volde dem en
+<lb/>virkelig hjertesorg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 8, bl. [1]r"/><pb ed="faksBase" n="43"/><unclear reason="binding">8</unclear>.</fw>
+<lb/><p>Er det bare det alene, Rosmer? Er det ikke no-
+<lb/>get, som er blet tilbage i dig uden at du selv
+<lb/>ved af det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="279"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Kære, hvad skulde det være? Uvisshed eller
+<lb/>tvil mener du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ikke just det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej, det kan du <anchor type="lemma" xml:id="koHv_111"/>forlade dig på. Jeg kender mig
+<lb/>så fri, så sikker. <HIS:hisStage>(sætter sig hos hende.)</HIS:hisStage> Du har
+<lb/>trofast hjulpet mig. <anchor type="lemma" xml:id="koHv_112"/>Det gamle menneske i mig
+<lb/>er dødt. Jeg ser på det, som man ser på et lig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja. Men just da kommer disse hvide heste.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvide heste? Hvilke hvide heste?</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Madam Helset kommer ind med <anchor type="lemma" xml:id="koHv_113"/>téma-
+<lb/>skinen og sætter den på bordet.)</HIS:hisStage>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvorledes var det, De fortalte mig en gang,
+<lb/>madam Helset. De sa&rapo; at fra umindelige ti-
+<lb/>der hændte der noget underligt her på gården
+<lb/>hver gang en af slægten var død.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker><pb ed="HISb" n="280"/>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja det er så sandt som jeg står her. Da kom-
+<lb/>mer den hvide hesten.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å det gamle familjesagn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>I<HIS:hisDel rend="overwritten">m<gap/></HIS:hisDel>nd kommer den når det lider ud over nat-
+<lb/><pb n="legg 8, bl. [1]v"/><pb ed="faksBase" n="44"/>ten. Ind på gårdspladsen. Gennem lukket port.
+<lb/>Skriger højt. <HIS:hisDel rend="overstrike">G</HIS:hisDel> Slår op med bagbenene galop-
+<lb/>perer en gang <HIS:hisRef type="tcNote" xml:id="noteHv_12" target="Hvht_noter.xml" corresp="noteHv_12">rudt</HIS:hisRef> og <HIS:hisDel rend="overwritten">u</HIS:hisDel>så ud igen og væk i fy-
+<lb/>gende fart.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker><pb ed="HU"/>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Ja, slig går det til. Det har både min mor og
+<lb/>min bedstemor set.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og De selv også?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Å jeg ved ikke så rigtig om jeg selv har set
+<lb/>noget. Jeg tror ikke på slige ting ellers. Men
+<lb/>dette her med den hvide hesten, &dash; ja, det tror
+<lb/><pb ed="HISb" n="281"/>jeg på. Og det blir jeg ved at tro på til min
+<lb/>dødsdag. Ja nu skal jeg straks &dash;
+<lb/><HIS:hisStage>(går ud til højre.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>..
+<lb/><HIS:hisDel rend="overstrike"><p>Me</p></HIS:hisDel><HIS:hisStage>(efter en kort taushed.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Mener du, at dette kan anvendes på mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Alle de frigjorte mennesker, jeg har kendt, &dash;
+<lb/>alle de, som tror sig frigjorte, &dash; alle sammen
+<lb/><HIS:hisDel rend="overstrike">havt</HIS:hisDel> har de et eller andet steds havt en slig
+<lb/>hvid hest, som de aldrig slipper troen på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og den fulde frigørelse, mener du, det er at &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det er at bli kvit sine hvide heste. <HIS:hisAdd place="inline">Vi vil ha&rapo; lys, Rosmer.</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>. <HIS:hisAdd place="inline"><HIS:hisStage>(i døren til højre.)</HIS:hisStage></HIS:hisAdd></HIS:spOpener>
+<lb/><p>Her er lampen, frue.</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+<lb/><note resp="author" place="bottom-right">1.6.86.</note>
+</div>
+<lb/><note resp="author" place="top-right"><pb n="legg 8, bl. [2]r"/><pb ed="faksBase" n="45"/><pb ed="HISb" n="283"/>3.6.86.</note>
+<div type="act" n="2">
+<lb/><head>Anden akt.</head>
+<lb/><HIS:hisStage>(Dagligstuen hos <anchor type="lemma" xml:id="koHv_114"/>Johannes Rosmer. Det
+<lb/>er formiddag.</HIS:hisStage>
+<lb/><HIS:hisStage>(Rosmer går om i stuen og <anchor type="lemma" xml:id="koHv_115"/>trækker sin <HIS:hisRef type="tcNote" xml:id="noteHv_13" target="Hvht_noter.xml" corresp="noteHv_13">over-
+<lb/>frakke</HIS:hisRef>. Fru Rosmer børster hans hat, som hun
+<lb/>derefter <HIS:hisRef type="tcNote" xml:id="noteHv_14" target="Hvht_noter.xml" corresp="noteHv_14">rækker</HIS:hisRef>.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej, at jeg har kunnet være så fejg, så sky, så
+<lb/>ræd for at sige dem alting rent ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja ikke sandt, du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg begriber det ikke selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men nu er det jo over. Se så. Gå nu lige ind
+<lb/>til rek<HIS:hisDel rend="overwritten">k</HIS:hisDel>toren.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg går lige ind &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="284"/>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og kom så hjem igen så snart du kan. Jeg er
+<lb/>spændt på at høre, hvad han vil sige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Bliv bare ikke utålmodig. Farvel så længe. Far-
+<lb/>vel!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 8, bl. [2]v"/><pb ed="faksBase" n="46"/>Farvel, kære Rosmer!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Han åbner døren til forstuen. Fru Rosmer
+<lb/>følger ham ud. I det samme kom<HIS:hisDel rend="overwritten">e<gap/></HIS:hisDel>mer rektor
+<lb/>Gylling i y<HIS:hisDel rend="overwritten">g</HIS:hisDel>dertøj ind i forstuen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad for noget! Kommer du her?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja jeg gjør.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og nu stod jeg netop på vejen ind til dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vilde ikke vente; og jeg var jo ikke så viss på
+<lb/>at du kom &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="285"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nå tag af dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvis du tillader.
+<lb/><HIS:hisStage>(Han trækker y<HIS:hisDel rend="overwritten">g</HIS:hisDel>derfrakken af og lægger den på
+<lb/>en stol. Rosmer g<HIS:clarification place="inline">ø</HIS:clarification>r det samme.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Er der noget i vejen med dig? Du ser så alvor-
+<lb/>lig ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vilde gerne tale med dig under fire øjne. Kun-
+<lb/>de vi kanske gå ind på kontoret?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Fru Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Der er ikke i orden endnu. Bliv De her. Jeg har <anchor type="lemma" xml:id="koHv_116"/>for-
+<lb/>retninger ude.
+<lb/><HIS:hisStage>(går ud til højre.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad er det så? Har Ulrik <anchor type="lemma" xml:id="koHv_117"/>Sejerhjelm været
+<lb/><fw type="gathering" place="top-left"><pb n="legg 9, bl. [1]r"/><pb ed="faksBase" n="47"/>9.</fw>
+<lb/>hos dig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="286"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nej; og han kommer visst ikke heller. Men
+<lb/><anchor type="lemma" xml:id="koHv_118"/>der går allerede ry a<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>f ham. Det var en vakker må-
+<lb/>de han introducerte sig på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nå?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Han tog ind i et <anchor type="lemma" xml:id="koHv_119"/>sjofelt hus, slog sig ned i en
+<lb/>sjofel <anchor type="lemma" xml:id="koHv_120"/>kippe &dash; i det sjofleste selskab naturligvis
+<lb/>&dash; drak og trakterte så længe han havde noget; si-
+<lb/>den skældte han hele kompaniet ud for pak og
+<lb/>pøbel &dash; det havde <pb ed="HU"/>han nu for resten ret i; &dash;; så
+<lb/>fik han prygl og blev kastet <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>på døren.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Så er han vel uforbederlig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Yderfrakken havde han også <anchor type="lemma" xml:id="koHv_121"/>sat i pant; men
+<lb/>jeg hører, den skal være ble&rapo;t indløst for ham.
+<lb/>Og kan du gætte af hvem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="287"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Af hvem da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Af herr Mortensgård. Sejerhjelms første vi-
+<lb/>sit galdt idioten og plebejeren.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det spåde <anchor type="lemma" xml:id="koHv_122"/>Rebekka allerede igår.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Se, se. Og nu er vi inde på en ting, som jeg
+<lb/>for vort gamle trofaste venskabs skyld føler
+<lb/>mig forpligtet til at varsle dig om.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb n="legg 9, bl. [1]v"/><pb ed="faksBase" n="48"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men kære, hvad er det da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det er det, at der her i huset handles <anchor type="lemma" xml:id="koHv_123"/>selvrådigt
+<lb/>og bag din ryg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvem gør det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det gør din kone. Jeg kan jo så godt forstå det.
+<lb/><pb ed="HISb" n="288"/>Lige fra <anchor type="lemma" xml:id="koHv_124"/>Beates sidste sørgelige leveår har hun
+<lb/>jo været vant til at føre styret her; men alligevel &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Kære, du tar aldeles fejl. Rebekka skjuler ingen
+<lb/>ting for mig. Hun fortæller mig alt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Har hun også fortalt dig at hun igår gav Sejer-
+<lb/>hjelm et anbefalingskort med til redaktør Mortens-
+<lb/>gård?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja <HIS:hisDel rend="overstrike">d</HIS:hisDel> naturligvis.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Har hun &dash;! Og hvad siger du til det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg <anchor type="lemma" xml:id="koHv_125"/>billiger fuldkommen hvad Rebekka har
+<lb/>gjort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Er du gal! Du billiger at hun <anchor type="lemma" xml:id="koHv_126"/>indlader sig med
+<lb/>vor farligste og <anchor type="lemma" xml:id="koHv_127"/>gemeneste modstander <HIS:hisDel rend="overwritten">p</HIS:hisDel>her på
+<lb/>stedet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="289"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vil sige dig det oprigtigt. Mortensgårds færd
+<lb/><pb n="legg 9, bl. [2]r"/><pb ed="faksBase" n="49"/>virker ved mange anledninger frastødende på
+<lb/><HIS:hisRef type="tcNote" xml:id="noteHv_15" target="Hvht_noter.xml" corresp="noteHv_15">dig</HIS:hisRef>. Men jeg kan ikke længere gå med dig og vo-
+<lb/>re <pb ed="HU"/>venner i de offentlige spørsmål. I de sager
+<lb/>og i mangfoldige andre må jeg helt skille mig
+<lb/>ud fra <anchor type="lemma" xml:id="koHv_128"/>jer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.
+<lb/><HIS:hisStage>(tumler tilbage.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad er det du siger! Du, du vil skille dig
+<lb/>fra dine venner! Gå over i fiendens lejr! Det er
+<lb/>dog umuligt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg tænker ikke på at ta&rapo; nogen del i dagens
+<lb/>strid. Jeg har en skræk for at gribe ind i alt
+<lb/>dette virvar, som jeg ikke forstår mig på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Men hvad er det så du vil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vil prøve på at forædle frigørelsesarbejdet.
+<lb/>Tror du ikke jeg ser al den uhumskhed, som ud-
+<lb/>viklingen<pb ed="HISb" n="290"/> fører med sig og <anchor type="lemma" xml:id="koHv_129"/>afføder undervejs.
+<lb/>Dette er det jeg vil <anchor type="lemma" xml:id="koHv_130"/>træde op imod, advare imod,
+<lb/><anchor type="lemma" xml:id="koHv_131"/>afdæmme, <anchor type="lemma" xml:id="koHv_132"/>bundslå, så strømmen kan flyde ren
+<lb/>og klar &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Å, Rosmer, hvor du er troskyldig! Du ved <HIS:hisRef type="tcNote" xml:id="noteHv_16" target="Hvht_noter.xml" corresp="noteHv_16">ik-</HIS:hisRef>
+<lb/><anchor type="lemma" xml:id="koHv_133"/>hvad elementer du får at gøre med. Men hvad
+<lb/>tid kom du ind på disse forvildelsens veje?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg kalder de<HIS:hisDel rend="overwritten">n</HIS:hisDel>m erkendelsens.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Kald dem hvad du vil. Men hvad tid, spør&rapo; jeg?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb n="legg 9, bl. [2]v"/><pb ed="faksBase" n="50"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det ligger langt tilbage. Jeg tror grunden blev lagt
+<lb/>da jeg gik <HIS:hisRef type="tcNote" xml:id="noteHv_17" target="Hvht_noter.xml" corresp="noteHv_17">os</HIS:hisRef> syslede med mine embedsstudier.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Og dog gik du den prestelige bane?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Der har altid været stor respekt for det fastslåede
+<lb/>i vor slægt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="291"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Den egenskap lader til at være uddøende i
+<lb/>slægten.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Sligt tænker jeg dør altid ud &dash; senere eller tidligere &dash;
+<lb/>og så slår det over i sin modsætning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Men <HIS:hisDel rend="overwritten">er</HIS:hisDel>at dette skulde ske gennem dig! Og at du
+<lb/>med det sindelag kunde stå som kirkens prest &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Da jeg hav<HIS:clarification place="inline">d</HIS:clarification>e fåt fuld klarhed trak jeg mig jo til-
+<lb/>bage.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Fuld klarhed. Over hvad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg kan ikke længere være med på dette <anchor type="lemma" xml:id="koHv_134"/>mysteri-
+<lb/>øse. Jeg må forkaste hele den gamle lære.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Frafalden altså! <anchor type="lemma" xml:id="koHv_135"/>Fritænker! Frafalden fra
+<lb/>dine fædres tro!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="292"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har grund til at antage at mine fædres tro
+<lb/>ikke stak synderlig dybt.</p></HIS:hisSp>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 10, bl. [1]r"/><pb ed="faksBase" n="51"/><unclear reason="binding">10</unclear>.</fw>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du er altså en frafalden. Hva har du nu
+<lb/>til at fylde livet ud?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vil fortsætte, utrættelig, med at forske og
+<lb/>tænke. Jeg vil søge, så vidt muligt, at komme
+<lb/>til bunds i tingene. Og så vil jeg leve. Være lyk-
+<lb/>kelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ved du vel at dette åbner en afgrund af tan-
+<lb/>ker for mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg forstår dig ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nu vil jeg til bunds i det alt sammen. Vil
+<lb/>du være åben? Vil du svare ærligt på, hvad
+<lb/>jeg spør&rapo; dig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="293"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Kære, tal, spør&rapo; alt hvad du vil. Jeg har ingen
+<lb/>ting at skjule.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvad var den dybeste grund til at Beate
+<lb/>endte sit liv?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg forstår dig ikke. Kan du være i uvisshed
+<lb/>om det. Og kan der overhovedet spørges om
+<lb/>grundene til hvad en ulykkelig, syg, utilreg-
+<lb/>nelig foretar sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Er du viss på at Beate var så aldeles u-
+<lb/>tilregnelig? Lægerne mente i alt fald at det
+<lb/><pb n="legg 10, bl. [1]v"/><pb ed="faksBase" n="52"/>ikke var så aldeles afgjort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvis lægerne nogensinde havde set hende så-
+<lb/>ledes, som jeg så mangen gang så hende, da
+<lb/>vilde de ikke ha&rapo; tvilet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg tvilte heller ikke dengang.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="294"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det var desværre umuligt at tvile. Jeg har jo
+<lb/>fortalt dig om hendes ulykkelige, vilde liden-
+<lb/>skabelighed, som hun forlangte jeg skulde gen-
+<lb/>gælde. Å den skræk hun <anchor type="lemma" xml:id="koHv_136"/>indgød mig. Og så disse
+<lb/>pludselige omslag <pb ed="HU"/>hos hende; dette stumme <HIS:hisDel rend="overstrike">tænde<unclear>r</unclear></HIS:hisDel>
+<lb/>fortærende ha<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>d &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Had? Til hvem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Til os, som var om hende. <HIS:hisDel rend="overwritten">s</HIS:hisDel>Til mig først og fremst &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Og jeg vil sige dig at den stakkers ulykkelige <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Beate
+<lb/>døde for sin kærlighed til dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad vil du sige med det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike"><HIS:hisDel rend="overwritten">N</HIS:hisDel>I</HIS:hisDel> I det sidste år, &dash; når hun ikke syntes hun kun-
+<lb/>de bære sit liv længer, så <anchor type="lemma" xml:id="koHv_137"/>tyed hun til mig og kla-
+<lb/>ged sin angst &dash; først fordi hun påstod at du var
+<lb/>på frafaldets vej &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="295"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det tror jeg dog ikke jeg var den gang. I alt fald
+<lb/>indvied jeg hende aldrig i mine tvil eller i mine
+<lb/><pb n="legg 10, bl. [2]r"/><pb ed="faksBase" n="53"/>indre kampe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Desto mere viser det sig nu, hvor vidunderlig
+<lb/>sandt en sindsforvildet kan ane.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men hvorfor skjulte du da dette for mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vilde da ikke pine og oprive dig end mere
+<lb/>ved at røbe disse anklager, som jeg <HIS:hisRef type="tcNote" xml:id="noteHv_18" target="Hvht_noter.xml" corresp="noteHv_18">dengang</HIS:hisRef>
+<lb/>selv trode på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men nu &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja nu har jeg fåt øjnene op for det utrolige &dash;
+<lb/>for din store <anchor type="lemma" xml:id="koHv_138"/>brøde &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Brøde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="296"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja, for det <anchor type="lemma" xml:id="koHv_139"/>brødefulde liv som har været ført
+<lb/>og som <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>føres her i dit hus.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ikke et ord forstår jeg af dette.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Somme tider kom Beate til mig, græd og jam-
+<lb/>red. &lquo;Rosmer elsker mig ikke mere, sa&rapo; hun.
+<lb/>Han elsker Rebekka; og hun elsker ham&rquo;.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det har hun sagt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det har hun sagt. Derfor måtte jeg jo tro at hun
+<lb/>var sindssyg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb n="legg 10, bl. [2]v"/><pb ed="faksBase" n="54"/><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja vel måtte du tro det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Sidste gang hun var inde hos mig, sa&rapo; hun: Nu
+<lb/>må ingen stå i vejen for Johannes og hans lykke.
+<lb/>Nu må snart den <HIS:hisRef type="tcNote" xml:id="noteHv_19" target="Hvht_noter.xml" corresp="noteHv_19">vide</HIS:hisRef> hesten <HIS:hisRef type="tcNote" xml:id="noteHv_20" target="Hvht_noter.xml" corresp="noteHv_20">kom</HIS:hisRef> ind på går-
+<lb/>den.<pb ed="HISb" n="297"/> Jeg forstod hende ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Aldrig er det faldt mig ind at hendes syge tan-
+<lb/>ker kunde forvilde sig på de veje. Min stak-
+<lb/>kers ulykkelige Beate!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hykler!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>
+<lb/><HIS:hisStage>(farer sammen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad siger du!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Kan jeg nu, efter alle afsløringer, tvile <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>på at her
+<lb/>har været ført et brødefuldt liv &dash; allerede den gang.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Var det så sandt nogen anden end dig, som voved &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Var det nogen anden <HIS:hisRef type="tcNote" xml:id="noteHv_21" target="Hvht_noter.xml" corresp="noteHv_21">en</HIS:hisRef> dig, så havde det ikke sådan
+<lb/>skåret mit hjerte isønder. Men du, Johannes Rosmer &dash;
+<lb/>at skulle med et eneste ryk rive <HIS:hisDel rend="overwritten"><unclear>m</unclear></HIS:hisDel>dig ud af sindet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="298"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Sig mig nu; disse anklager fra Beate trode du
+<lb/>jo ikke et ord <HIS:hisDel rend="overstrike">på</HIS:hisDel> af dengang.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvor kunde jeg tro sligt om en mand som du &dash; en
+<lb/>hædersmand, for det har du dog engang været.</p></HIS:hisSp>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 11, bl. [1]r"/><pb ed="faksBase" n="55"/><unclear reason="binding">11</unclear>.</fw>
+<HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen er gjort øverst på siden, i overkant av teksten.</note>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>: Men nu &dash;?</HIS:spOpener></HIS:hisSp>
+</HIS:hisAdd>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">Rosmer</HIS:hisDel> Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Har du ikke nu bekendt at du allerede længe
+<lb/>i løndom har været en frafalden fra <HIS:hisRef type="tcNote" xml:id="noteHv_22" target="Hvht_noter.xml" corresp="noteHv_22">din</HIS:hisRef> fæ-
+<lb/>dres tro?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har længe været en tvilende og kæmpende
+<lb/>mand. Nu er jeg klar over mig selv; det er sandt.
+<lb/>Men hvad så videre<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten"><unclear>B</unclear></HIS:hisDel>Resten kan du visst sige dig selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej, siger jeg; nej; jeg kan ikke. Du pligter at kom<HIS:hisDel rend="overwritten">-</HIS:hisDel>me
+<lb/>helt og uforbeholdent frem med hvad du mener.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="299"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg mener at der er vel ikke noget svælgende <pb ed="HU"/>dyb,
+<lb/>nogen uoverstigelig afgrund mellem den fri tan-
+<lb/>ke og &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og hvad &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>&dash; og den <anchor type="lemma" xml:id="koHv_140"/>fri kærlighed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og det vover du at sige til mig! Det skammer
+<lb/>du dig ikke ved at tænke og tro!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg ved ikke hvad der skulde hindre en mand
+<lb/>fra den stund han har sagt sig løs fra mor-
+<lb/>albudene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Har <emph rend="underlined">jeg</emph> gjort <emph rend="underlined">det</emph>!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 11, bl. [1]v"/><pb ed="faksBase" n="56"/><anchor type="lemma" xml:id="koHv_142"/>Jeg <anchor type="lemma" xml:id="koHv_143"/>holder for at tro og moral ikke kan skilles ad.
+<lb/>Og jeg kender ingen anden moral end vor kristne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="300"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Og jeg kender ingen <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>kristen moral; <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>jeg kender
+<lb/>ingen anden <anchor type="lemma" xml:id="koHv_141"/>moral, end den, som jeg har i blodet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Den private, menneskelige moral er nok et skrø-
+<lb/>beligt værn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å denne grænseløse fanatisme, som er kommet
+<lb/>op i dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja du kan kalde mig fanatisk i dette stykke. Til
+<lb/>min sidste stund skal jeg hade og forfølge dis-
+<lb/>se <anchor type="lemma" xml:id="koHv_144"/>uheldsvangre strømninger i tiden. De har
+<lb/>bragt ufred og opløsning ind i mit hjem &dash; og i
+<lb/>hundrede andre også. De har <anchor type="lemma" xml:id="koHv_145"/>forbittret mig min
+<lb/>livsgerning &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>De politiske stridigheder, ja. Men dem blander
+<lb/>jeg mig ikke op i.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="301"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det ene kan ikke skilles fra det andet. Og at fra-
+<lb/>faldet skulde gribe også dig. Skille os så uigenkal-
+<lb/>delig fra hin<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>anden. Men jeg ser det, jeg ser det; &dash;
+<lb/>dette med dig &dash; det er en listig og hensynsløs kvin-
+<lb/>des værk.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ikke et ord mere om hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Er det ikke hende, som fra først af fik dig ind
+<lb/><pb n="legg 11, bl. [2]r"/><pb ed="faksBase" n="57"/>på de stier, hvor du nu går.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jo; det være sagt til hendes pris. Og siden har
+<lb/>vi trofast arbejdet sammen som to venner.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HU"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du er som et barn i hendes hånd; og du ser
+<lb/>det ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg er lykkelig og fri; jeg kan leve mit eget liv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="302"/>Gylling</speaker>.
+<lb/><HIS:hisStage>(trækker frakken på.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja se, hvorledes det liv vil smage dig, når du
+<lb/>er skilt fra alle dem, som hidtil <HIS:hisDel rend="overwritten">p</HIS:hisDel>har ståt dig nær.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>De er vel ikke alle så fanatiske som du.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du vil snart komme til at prøve det.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(han hilser kort og går ud gennem forstuen.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Frøken <anchor type="lemma" xml:id="koHv_146"/>Dankert kommer lidt efter ind fra højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Jeg så han gik.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Han kommer aldrig mere igen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>D<unclear reason="writing">e</unclear> har sagt <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ham alt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Og så?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="303"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Fuldt brud. Ulægeligt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb n="legg 11, bl. [2]v"/><pb ed="faksBase" n="58"/>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Ikke ulægeligt, Rosmer. Bi bare. De skal få se.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det gamle forhold kan aldrig oprettes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Nå tro De mig. Det er også det bedste for Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja jeg ved nok De mener det. Men sligt gammelt
+<lb/>tilvant sidder så fast hos mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Altfor fast. De var aldrig blet en fri mand, <HIS:hisRef type="tcNote" xml:id="noteHv_23" target="Hvht_noter.xml" corresp="noteHv_23">hav-</HIS:hisRef>
+<lb/>denne kreds fåt bli&rapo; ved at øve sin indflydelse på
+<lb/>Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg pligter at sige Dem det. Efter at jeg åbenlyst
+<lb/>er trådt ud, vil man ikke længere se vort forhold
+<lb/>således, som det er.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="304"/>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Ikke se vort forhold &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Af frafaldne mennesker kan der ikke ventes
+<lb/>nogen ren <anchor type="lemma" xml:id="koHv_147"/>livsvandel, sa&rapo; han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Å, disse <anchor type="lemma" xml:id="koHv_148"/>rasende!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad er der at gøre?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HU"/>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Ønsker De jeg skal flytte herfra?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Om jeg ønsker det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 12, bl. [1]r"/><pb ed="faksBase" n="59"/><unclear reason="binding">12</unclear>.</fw>
+<lb/><p>Ja for min skyld er det ikke nødvendigt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej ikke sandt, Rebekka. De er så stolt og fri
+<lb/>i s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>indet. De har nok i Deres egen bevidsthed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="305"/>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Ja det har jeg. Hvorfor skal vi vige for nogle
+<lb/>menneskers lave og gemene tænkesæt. Gøre os selv
+<lb/>ulykkelige. For det vilde vi bli&rapo; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja ja</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Nej vi holder sammen i godt venskab og hjælper
+<lb/>og støtter hinanden så godt vi kan. Men se der &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>
+<lb/><HIS:hisStage>(med et udråb.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisStage>(Rektor Gylling har åbnet døren i baggrun-
+<lb/>den.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Ja jeg ved jo ikke om jeg <anchor type="lemma" xml:id="koHv_149"/>tør komme en gang
+<lb/>til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Kom kun.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Rektoren kommer ind og beholder overtøjet på.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker><pb ed="HISb" n="306"/>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hvad sket er kan jo ikke ændres; men hør nu
+<lb/>Rosmer &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg hører, jeg hører &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Er det nogen nødvendighed for at dette dit
+<lb/>s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ørgelige frafald udråbes for hele landet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb n="legg 12, bl. [1]v"/><pb ed="faksBase" n="60"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg vil og jeg må ud af den falske stilling, jeg så
+<lb/>længe har ståt i. Min bog ligger færdig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Og betænker du ikke hvad følger det vil ha&rapo; for
+<lb/>dig. Hele den konservative presse vil kaste sig over
+<lb/>dig og bogen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Men hvor kan De nu vide det, herr rektor? De <lb/>kender jo ikke bogen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Hm, De vil vel sigte os for fanatisme og forføl-
+<lb/>gelse af anderledes tænkende. Men det kan ikke
+<lb/><pb ed="HISb" n="307"/>undgåes <anchor type="lemma" xml:id="koHv_150"/>i en opagiteret ti<HIS:hisDel rend="overwritten">l</HIS:hisDel>d som vor. Det blir en
+<lb/>lige<pb ed="HU"/>frem pligt for enhver god borger, som har
+<lb/>evne til det, at luge alt det farlige ugræs op, når
+<lb/>og hvor det viser sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja ja, jeg ved altså, hvad jeg må være forberedt
+<lb/>på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Nej du ved det ikke. Det vil komme ganske
+<lb/>anderledes <anchor type="lemma" xml:id="koHv_151"/>overhændigt end du tænker dig det.
+<lb/>Derfor ber jeg dig, Rosmer &dash; hold inde, gør det &dash;
+<lb/>du, den stille tilbagetrukne forsker; &dash; dette er
+<lb/>ikke noget for dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men kan du da ville at jeg skulde vise mig så fejg?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det er din pligt mod dine omgivelser. Husk på
+<lb/>den fremskudte stilling, som din slægt i så lang
+<lb/><pb n="legg 12, bl. [2]r"/><pb ed="faksBase" n="61"/>tid har indtaget. Den agtelse du selv nyder.
+<lb/>Mange ubefæstede vil du gøre vaklende, tvil-
+<lb/>rådige, ulykkelige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="308"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Tror du det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Du tviler da vel ikke selv på det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men jeg kan da ikke bli stående udenfor evig
+<lb/>og altid. Ude omkring rører der sig et rigt spi-
+<lb/>rende liv på alle områder. Jeg må dog begyn-
+<lb/>de at leve engang, jeg også. Jeg vil <HIS:hisRef type="tcNote" xml:id="noteHv_24" target="Hvht_noter.xml" corresp="noteHv_24">om</HIS:hisRef> må
+<lb/>bli lykkelig her i verden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Jeg skønner godt, hv<HIS:hisDel rend="overwritten">ad</HIS:hisDel>or denne jagt efter lyk-
+<lb/>ken skriver sig fra. Gør ikke De også <HIS:hisDel rend="overwritten">f</HIS:hisDel>det, frø-
+<lb/>ken.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Den ligger i tiden. Det er noget af det største ved
+<lb/>den unge tid at vi vover åbenlyst at <anchor type="lemma" xml:id="koHv_152"/>proklame-
+<lb/>re lykken som livsmål.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Gør De det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="309"/>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Ja det gør jeg rigtignok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Er det sådanne grundsætninger <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>som forkyndes i din
+<lb/>nye bog?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, hvis den rigtig forståes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 12, bl. [2]v"/><pb ed="faksBase" n="62"/>Du arme menneske, &dash; du, med din skyldbetyngede
+<lb/>samvittighed, &dash; du tror at kunne finde lykken
+<lb/>på de veje.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Skyldbetynget! Hvad er dette.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg føler mig fri og ren.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Gylling</speaker>.</HIS:spOpener>
+<lb/><p>Det tror du kanske. Men du fejler. Du har <anchor type="lemma" xml:id="koHv_153"/>forrådt
+<lb/>dig. Og så bragte den ulykkelige dig sit liv til
+<lb/>offer. &dash; Du <anchor type="lemma" xml:id="koHv_154"/>bygger din lykke på vand. Husk på
+<lb/>mølledammen.
+<lb/><HIS:hisStage>(han går.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="310"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men dette er jo ikke sandt, Rebekka.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Det ved jeg jo.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Men alligevel &dash; ja engang må dette jo siges. Elsked jeg
+<lb/><HIS:hisDel rend="overwritten">d</HIS:hisDel>Dem virkelig allerede da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>.</HIS:spOpener>
+<lb/><p>Elsked! De, Rosmer!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Vil De rejse nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Dankert</speaker>
+<lb/><HIS:hisStage>(rækker ham hånden.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej min ven, just nu blir jeg hos Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Tak, Rebekka!</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+<lb/><note resp="author" place="bottom-right">8.6.86.</note>
+</div>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 13, bl. [1]r"/><pb ed="faksBase" n="63"/><pb ed="HISb" n="311"/><unclear reason="binding">13</unclear>.</fw><note resp="author" place="top-right">10.6.86.</note>
+<div type="act" n="3">
+<lb/><head>Tredje akt.</head>
+<lb/><HIS:hisStage>(Johannes Rosmers kontor. Dør i baggrunden;
+<lb/>ligeså til <HIS:hisDel rend="overstrike">højr</HIS:hisDel> venstre. Bogskabe og hylder ved
+<lb/>væggene. Et vindu til højre og foran samme
+<lb/>skrivebordet bedækket med bøger og papirer. &dash;
+<lb/><anchor type="lemma" xml:id="koHv_155"/>Gammeldagse møbler; et <anchor type="lemma" xml:id="koHv_156"/>bord med tæppe midt
+<lb/>i værelset.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Johannes Rosmer sidder i en højrygget
+<lb/>stol ved <HIS:hisRef type="tcNote" xml:id="noteHv_25" target="Hvht_noter.xml" corresp="noteHv_25">skrivebrdet</HIS:hisRef> og læser i et <anchor type="lemma" xml:id="koHv_157"/>hæfteskrift, hvis
+<lb/>blade han efterhånden skærer op.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Det banker på døren til venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>
+<lb/><HIS:hisStage>(uden at vende sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Kom kun ind.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Frøken <anchor type="lemma" xml:id="koHv_158"/>West i morgenkjole kommer ind med
+<lb/>en avis i hånden.)</HIS:hisStage>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>God morgen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="312"/>Rosmer</speaker>
+<lb/><HIS:hisStage>(læsende.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>God morgen, kære. Er det noget De vil?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Her er &lquo;Amtstidenden&rquo; for idag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.
+<lb/><HIS:hisStage>(vender sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Står der noget?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HU"/>Frøken West</speaker>.</HIS:spOpener>
+<lb/><pb n="legg 13, bl. [1]v"/><p><pb ed="faksBase" n="64"/>Ja der gør.
+<lb/><HIS:hisStage>(rækker ham bladet.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Allerede. <HIS:hisStage>(læser.)</HIS:hisStage> Nu skal vi se.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>
+<lb/><HIS:hisStage>(bag ham, lænet over stolryggen, læser også.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>De har villet være de første &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>&dash; for at afsvække virkningen, ja. &lquo;&dash; ikke noksom
+<lb/>udtale vor foragt &dash;&rquo; Foragt? &lquo;&dash; for <anchor type="lemma" xml:id="koHv_159"/>overløbere, som
+<lb/><pb ed="HISb" n="313"/>har krøbet i skjul, så længe stillingen var usikker
+<lb/>&dash; Dette har ikke Gylling skrevet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Hvem ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej, nej. &lquo;overløbere &dash; &dash; &dash; men som går over med
+<lb/>fuld musik så snart sejren synes sikkret&rquo;. At de
+<lb/>kan skrive sådant noget, som de ikke selv tror
+<lb/>på. &lquo;Når uklare viljeløse <anchor type="lemma" xml:id="koHv_160"/>fantaster falder i hæn-
+<lb/>derne på <anchor type="lemma" xml:id="koHv_161"/>intrigante beregnende personer &dash;&rquo; jeg vil
+<lb/>ikke læse mere. <HIS:hisStage>(rejser sig)</HIS:hisStage> i al fald ikke nu.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Vil De svare?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Å hvad kan det nytte? Jeg er jo heller ikke lige-
+<lb/>frem nævnt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Det vil dog snart rygtes, hvem dette sigter til. Den
+<lb/>intrigante og beregnende person, det er naturligvis
+<lb/>mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="314"/>Rosmer</speaker>
+<lb/><HIS:hisStage><pb n="legg 13, bl. [2]r"/><pb ed="faksBase" n="65"/>(går nervøs om på gulvet.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Denne <anchor type="lemma" xml:id="koHv_162"/>forkættringens tid, &dash; ja, det er <HIS:hisDel rend="overstrike">j</HIS:hisDel> rigtignok
+<lb/>en stor opgave at få gjort ende på den.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Madam Helset åbner døren til venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Hvad er det, madam Helset?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MADAMHELSETH"><HIS:spOpener><speaker>Madam Helset</speaker>.</HIS:spOpener>
+<lb/><p>Det er denne Mortensgård som gerne vilde snak-
+<lb/>ke med herr Rosmer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Mortensgård? Hvad kan han vilde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>De lar ham da vel komme ind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.
+<lb/><HIS:hisStage>(til madam Helset.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja lad ham komme.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Madam Helset åbner døren <HIS:hisDel rend="overwritten">og</HIS:hisDel>for Mortensgård
+<lb/>lukker efter ham og går.)</HIS:hisStage>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker><pb ed="HU"/>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Det er længe siden jeg <anchor type="lemma" xml:id="koHv_163"/>stod for Dem, herr pastor.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="315"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, der ligger år imellem. Jeg har tidt spurt
+<lb/>mig selv om jeg ikke dengang <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>greb ind med alt-
+<lb/>for hårde hænder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Siger De det, <HIS:hisRef type="tcNote" xml:id="noteHv_26" target="Hvht_noter.xml" corresp="noteHv_26">her</HIS:hisRef> pastor?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nå De har jo fundet en anden stilling, som De
+<lb/>sikkert føler Dem mere tilfreds i.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Å ja, på en måde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb n="legg 13, bl. [2]v"/><pb ed="faksBase" n="66"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Er der noget særligt De vil mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Først er det nu det at jeg syntes jeg skulde takke
+<lb/>pastoren for det kort som kandidat <anchor type="lemma" xml:id="koHv_164"/>Hekfeldt
+<lb/>havde med til mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det må De takke frøken West for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker><pb ed="HISb" n="316"/>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Det forstår sig. Frøkenen også.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Kan De bruge ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Desværre, jeg tror det er for sent.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Tror De det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Han er ikke med i tiden; står så underlig uden-
+<lb/>for det som rører sig. Ser på tingene med øjne
+<lb/>som kan ha&rapo; været radikale nok for tyve år siden &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja det var de. &dash; Sig mig, har De læst &lquo;Amtsti-
+<lb/>denden&rquo; <HIS:clarification place="inline">f</HIS:clarification>or idag?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Nej, ikke endnu.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Sig nu ikke det, herr Mortensgård. Jeg er viss
+<lb/>på, De har læst den.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker><pb ed="HISb" n="317"/>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Nå ja, så løselig, &dash; lidt hist og her.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><fw type="gathering" place="top-left"><pb n="legg 14, bl. [1]r"/><pb ed="faksBase" n="67"/><unclear reason="binding">14</unclear>.</fw>
+<lb/><p>Så har De vel set <anchor type="lemma" xml:id="koHv_165"/>redaktionsartiklen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Ja, den synes jeg var noget underlig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Forstod De, hvem den var myntet på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Jeg synes ikke selv jeg kunde tro det.</p></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen er gjort i høyre marg.</note>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker></HIS:spOpener>
+<lb/><p>Nej nej.</p></HIS:hisSp>
+</HIS:hisAdd>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">Rosmer</HIS:hisDel>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Der er altså kommet noget ivejen mellem
+<lb/>Dem og de andre herrerne?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HU"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Jeg er trådt ud af den kreds. Jeg vil se at ta&rapo;
+<lb/>en stilling for mig selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Så pastoren er trådt ud? Ja så. Det havde
+<lb/>jeg ikke ventet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb ed="HISb" n="318"/>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>Det er et længe forberedt skridt, herr Mortens-
+<lb/>gård.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Er det det. <HIS:hisDel rend="overstrike">S</HIS:hisDel><gap/> Må sige, havde ikke ventet det.
+<lb/>Svarer pastoren <HIS:hisDel rend="overstrike">Ro</HIS:hisDel> på det angreb?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det tror jeg neppe. Disse <anchor type="lemma" xml:id="koHv_166"/>kævlerier mand og
+<lb/>mand imellem er mig så hjertelig imod.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Men hvis det skulde bli nødvendigt, &dash; for der
+<lb/>kunde kanske komme mere &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Tror De det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p><pb n="legg 14, bl. [1]v"/><pb ed="faksBase" n="68"/>De plejer bruge det så. Og hvis De skulde ha&rapo;
+<lb/>vanskeligt for at få noget ind i &lquo;Amtstidenden&rquo;
+<lb/>så står mit blad åbent<HIS:hisAdd place="inline">.</HIS:hisAdd> <HIS:hisDel rend="overstrike">for</HIS:hisDel> De<HIS:hisAdd place="inline">t</HIS:hisAdd> <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>vilde være en
+<lb/>stor ære for os.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><pb ed="HISb" n="319"/>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Tak. Jeg kommer kanske til at gøre brug af
+<lb/>Deres tilbud. Ikke i dette anliggende. Men
+<lb/>der er andre emner, som jeg ønsker at røre
+<lb/>ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Hvad De vil, herr pastor. Jo mere, jo bedre.
+<lb/>Det vil være til uberegnelig gagn for fremskridtets
+<lb/>sag ud over landet om en mand, som De, en kir-
+<lb/>kens mand stiller Dem på vor side.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja hør nu; først må jeg sige Dem at jeg ikke
+<lb/>længer er nogen kirkens mand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Bevar&rapo;s, det ved jeg nok; men det gør jo ikke
+<lb/>fra eller til om De er trådt ud af embedet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det mener jeg heller ikke. Men sagen er at jeg
+<lb/>deler ikke længer kirkens tro.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker><pb ed="HISb" n="320"/>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Deler De ikke &dash;? De!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Nej. Alt sligt er jeg kommet helt bort fra.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Det skulde De helst tie med, herr Rosmer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Det råder De mig til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><pb n="legg 14, bl. [2]r"/><pb ed="faksBase" n="69"/><pb ed="HU"/>Frøken West</speaker>.</HIS:spOpener>
+<lb/><p>De selv lægger jo ikke skjul på Deres meninger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Det vilde lidet ny<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tte. Den, der engang har væ-
+<lb/>ret så uforsigtig &dash; så uheldig som jeg &dash;.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Sætter De da ikke sandheden over alt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>Jeg sætter mit mål over alt. Jeg er bleven ved at
+<lb/>være en folkets lærer; bare på en anden måde.
+<lb/>Det som bragte mig til fald var nø<HIS:hisDel rend="overwritten">k</HIS:hisDel>d og mangel
+<lb/>på kundskaber. Nu vil jeg hjælpe så mange som
+<lb/><pb ed="HISb" n="321"/>muligt frem til oplysning og større velvære. Og det
+<lb/>kan bare ske på frihedens vej.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, der er vi ganske enige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MORTENSGAARD"><HIS:spOpener><speaker>Mortensgård</speaker>.</HIS:spOpener>
+<lb/><p>På den vis gør jeg min forgåelse mod samfun-
+<lb/>det god igen. For mig selv kan jeg ikke håbe at
+<lb/>vinde noget. Jeg er jo <anchor type="lemma" xml:id="koHv_167"/>borgerlig død, som De ved.</p></HIS:hisSp></div>
+</body>
+</text>
+</TEI>

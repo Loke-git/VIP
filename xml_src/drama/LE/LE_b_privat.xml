@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Lille Eyolf</title>
+    <title level="a" type="sub">LE_b_privat</title>
+<title level="a" type="origYear">1894</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen</name></respStmt>
+<respStmt>
+<resp>Oppretting/1. kollasjon, mai-juni 2017</resp>
+    <name xml:id="HIS-NME">Nina Marie Evensen</name>
+</respStmt>
+<respStmt>
+    <resp>2. kollasjon, juli 2017</resp>
+    <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+    </respStmt>
+</titleStmt>
+    <editionStmt><edition xml:id="LE_b_privat-0517"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2017" xml:id="HISe-date">2017</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+    <p>Denne filen bygger på intern transkripsjon.</p>
+<p>
+    <HIS:hisMsDesc type="workingManuscript" xml:id="LE_b_privat">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>I privat eie</repository>
+    <idno><!-- Arnt Dehli --></idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">uten tittel</title>
+<docDate>uten datering</docDate>
+</msItem></msContents>
+    <physDesc><objectDesc><p>Den andre del av dobbeltblad/legg 23 som manglet i Ms.4° 1117b. Første del av legget ligger i Ms.fol. 3213. Beskrevet i HIS 9K, 428.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Det mangler mange prikker over i-er, disse er stilltiende satt inn.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+    <label xml:id="ALLMERS">ALLMERS</label><item>Allmers</item>
+    <label xml:id="RITA">RITA</label><item>Fru Allmers</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd XII) er ikke lagt inn.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+    <change><date>11.07.17</date>
+        <name>NME</name><title>2. kollasjon</title>
+        La inn kollasjonsresultater fra Stine.</change>
+    <change><date>26.05.17</date>
+    <name>NME</name><title>Oppretting og 1. kollasjon</title>
+    Opprettet fila, transkriberte teksten fra faksimile. Kollasjonerte mot faksimile. Har ikke kodet inn HU-sideskift, finner ikke igjen teksten i den endelige utgaven. Validert, laget visning. Klar for annenkollasjon mot original.</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+        <body>   
+            <div type="act" n="2">
+                <pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1" gathering="1"/>
+                
+                
+                <lb/><HIS:hisSp who="ALLMERS"><p>Hvilket, mener du?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>At vi ikke har holdt af lille Eyolf slig, som
+                        <lb/>vi skulde. Nej, jeg begriber det ikke nu.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Jeg tror dog at jeg skimter grunden.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Så sig det da.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Det er så altfor tungt, Rita.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>At sige det?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Både at sige det<HIS:hisDel rend="overstrike">,</HIS:hisDel> og at høre det.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Nu <emph>vil</emph> jeg vide, hvad det er for noget!</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker>.</HIS:spOpener>
+                    <lb/><p>Jeg tror, det er fordi vi to heller aldrig har holdt
+                        <lb/>rigtig af hin<HIS:hisDel rend="overwritten">d</HIS:hisDel>anden.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker>.</HIS:spOpener>
+                    <lb/><p>Vi to! Aldrig!</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker>.</HIS:spOpener>
+                    <pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="2" gathering="1"/>
+                    <lb/><p>Ikke fuldt og helt.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Jo, jo, &dash; tusend gange &dash; jo! Jeg har holdt af dig
+                        <lb/>fra første stund, som jeg holder af dig i denne
+                        <lb/>dag.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Å det tro<HIS:hisDel rend="overwritten">j</HIS:hisDel>r jeg. Det véd jeg. Og derfor så spør&#x2019;
+                        <lb/>jeg mig selv i anger og nag &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Alfred! Alfred!</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker>.</HIS:spOpener>
+                    <lb/><p>Jeg spør&#x2019; mig om det har været &dash; gensidigt.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Har du altså &dash;! Aldrig holdt af mig &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Jo, jo, og det gør jeg fremdeles, &dash; men &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Men &dash;?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+                    <lb/><p>Det var ikke kærlighed alene, som drog mig
+                        <lb/>til dig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener></HIS:hisSp>
+                
+</div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Olaf Liljekrans, 3. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: NBO Ms.8&deg; 1945</title>
+<title level="s" type="copyright">&copy; Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Stine Brenna Taugbøl</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger, Mette Witting</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Kristin Bakken, Thoralf Berg, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Else Mundal, Olav Solberg, Stine Brenna Taugbøl, Asbjørn Aarseth, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respStmt>    
+<respStmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Verskoding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), mars 2001</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og korrekturlesing</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="O3ht-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på OL3ht_bok.xml (OL3ht_bok-1207).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="O381945">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1945</idno>
+</msIdentifier>
+<msContents><msItem>
+<title>Uten tittel</title>
+<author>Henrik Ibsen</author>
+<docDate>[1877&sol;78]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Operaversjon av Olaf Liljekrans. Egenhendig arbeidsmanuskript, ufullstendig. 1 dobbeltblad.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+<p>
+<listBibl>
+<head>Tekstkilder konsultert i ederingen</head>
+<biblStruct xml:id="O3HU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Olaf Liljekrans. Operautkast</title>
+<edition>Hundreårsutgave</edition>
+<idno>Ekspl. 1</idno>
+<idno type="owner">Henrik Ibsens skrifter</idno>
+<imprint>
+<pubPlace>Oslo</pubPlace>
+<publisher>Gyldendal</publisher>
+<HIS:printer>Dreyer, Stavanger</HIS:printer>
+<date>1928-57</date>
+</imprint>
+<imprint>
+<biblScope unit="volume">Bd. 19</biblScope>
+<date>1952</date>
+</imprint>
+</monogr>
+<series>
+<editor>Francis Bull, Halvdan Koht og Didrik Arup Seip</editor>
+<title>Hundreårsutgave. Henrik Ibsens samlede verker</title>
+</series>
+</biblStruct>
+</listBibl>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Grunntekstens typografi fins beskrevet i typografibeskrivelsen i grunntekstfilen (OL81945.xml).</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id</headLabel><headItem>speaker</headItem>
+<label xml:id="ESPEN">ESPEN</label><item>Espen</item>
+<label xml:id="GERTRUD">GERTRUD</label><item>Gertrud</item>
+<label xml:id="GUNHILD">GUNHILD</label><item>Gunhild</item>
+<label xml:id="PEJK">PEJK</label><item>Pejk</item>
+<label xml:id="TORGEJR">TORGEJR</label><item>Torgejr</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven kodet med pb ed="HU". Dette tekstvitnet dekker sidene 29-31 (bd. 19). Et n-attributt med faktisk sidetall er lagt til ved første forekomst.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl>
+<p>&metDecl;</p>
+</metDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen" scope="major"><p>Ibsens hånd, mørk penn. Manuskriptet er til dels noe skjødesløst skrevet, med en del rettelser.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>25.06.14</date>
+<name>SBT</name><title>HISb-sideskift</title>
+La inn sideskift fra bokutgaven.</change>
+<change><date>08.11.12</date>
+<name>SBT</name><title>TEI P5</title>
+Manuelle endringer etter skripting. Valid TEI P5/HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<lb/>
+<div type="act" n="1">
+<lb/><head><pb ed="HISb" n="611"/><pb ed="HU" n="29"/>Første handling.</head>
+<lb/><HIS:hisStage>(En vild højfjeldsdal, trang og med bratte
+<lb/>bergvægge til begge sider. Nedover bergsiden til
+<lb/>venstre falder en fos. I baggrunden vid udsigt
+<lb/>nedover til lavere liggende bygder. Sommer-
+<lb/>kveld mod solnedgang.)</HIS:hisStage>
+<lb/><HIS:hisStage>(<anchor type="lemma" xml:id="koO3_1"/>Torgejr står ved fossestupet, lytter og speider
+<lb/>udover ned imod dybet.)</HIS:hisStage>
+<lb/><HIS:hisSp who="TORGEJR"><HIS:spOpener><speaker>TORGEJR</speaker>.</HIS:spOpener>
+<HIS:hisLg versetype="strofisk rapsodisk strofe folkevisevers" an="single" met="bi+ '8 '8 '8 '4 '4 '7" rhyme="a x a b b X">
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="a"><anchor type="lemma" xml:id="koO3_3"/>Hvem er det, som <app type="alteration"><lem><HIS:hisAdd place="offline">stiger i <HIS:hisDel rend="overstrike">liens sal</HIS:hisDel> <HIS:hisAdd place="inline">furuli</HIS:hisAdd></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">kommer i flok og følg</HIS:hisDel>e</HIS:hisRdg></app>?</l>
+<lb/><l rend="centre" met="-&bue;&bue;-&bue;-&bue;-" rhyme="x">Kvinder og mænd i <anchor type="lemma" xml:id="koO3_4"/>hobetal!</l>
+<lb/><l rend="centre" met="-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="a">Hold jer dernede! Bygden er vid!</l>
+<lb/><l rend="centre" met="-&bue;&bue;-" rhyme="b">Kom ikke hid!</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;-" rhyme="b">Det er <anchor type="lemma" xml:id="koO3_4a"/>solfaldstid, &dash;</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="X">og dalen er min og <anchor type="lemma" xml:id="koO3_5"/>nøkkens.</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisLg versetype="strofisk rapsodisk strofe folkevisevers" an="single" met="bi+ '9 '5 '5 '4 '5 '4" rhyme="A A B c B c">
+<lb/><HIS:hisSp><HIS:spOpener><speaker><anchor type="lemma" xml:id="koO3_6"/>FRU GURIDS FOLK</speaker>
+<lb/><HIS:hisStage>(fjernt og dybt nede til <anchor type="lemma" xml:id="koO3_6a"/>venstre i baggrunden.)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A"><anchor type="lemma" xml:id="koO3_7"/><anchor type="lemma" xml:id="koO3_8"/>Ung Olaf, ung Olaf! Med sang og <anchor type="lemma" xml:id="koO3_9"/>med klokker</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;" rhyme="A"><anchor type="lemma" xml:id="koO3_10"/>vi maner og lokker.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker><pb ed="HISb"/><anchor type="lemma" xml:id="koO3_11"/>ARNES FØLGE</speaker>
+<lb/><HIS:hisStage>(højt oppe til højre.)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">Gennem skardet går <app type="alteration"><lem><HIS:hisAdd place="offline">vejen</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">færden til bryllups går</HIS:hisDel>d.</HIS:hisRdg></app></l>
+<lb/><l rend="centre" met="&bue;-&bue;-" rhyme="c">til bryllupsgård;</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">over højeste <anchor type="lemma" xml:id="koO3_13"/>hejen</l>
+<lb/><l rend="centre" met="&bue;-&bue;-" rhyme="c">går vejen vor.</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisSp who="TORGEJR"><HIS:spOpener><speaker><pb n="[1]v"/>TORGEJR</speaker>
+<lb/><HIS:hisStage>(ser opad.)</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="strofisk rapsodisk strofe folkevisevers" an="single" met="bi+ '9 '4 '5 '5 '5 '4" rhyme="A b A Cc Cc b">
+<lb/><l rend="centre" met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A"><anchor type="lemma" xml:id="koO3_14"/>Også der, også der; under <app type="alteration"><lem><HIS:hisAdd place="offline">topper og tinder</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">bræen</HIS:hisDel></HIS:hisRdg></app>. &dash;</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-" rhyme="b">der myldrer de <HIS:hisDel rend="overstrike">frem</HIS:hisDel> hid</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;-&bue;" rhyme="A"><HIS:hisDel rend="overwritten">B</HIS:hisDel>både mænd og kvin<HIS:hisDel rend="overwritten">g</HIS:hisDel>der!</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;&bue;" rhyme="Cc">Gid bergraset <anchor type="lemma" xml:id="koO3_14b"/>knuse jer.</l>
+<lb/><l rend="centre" met="&bue;-&bue;-&bue;&bue;" rhyme="Cc">og skrede<HIS:hisDel rend="overwritten">n</HIS:hisDel>t <HIS:hisDel rend="overwritten">knu</HIS:hisDel><HIS:hisDel rend="overstrike">hus</HIS:hisDel>se <anchor type="lemma" xml:id="koO3_14c"/>huse jer.</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-" rhyme="b"><anchor type="lemma" xml:id="koO3_14a"/>til dommedags tid!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker><anchor type="lemma" xml:id="koO3_15"/>FRU GUNHILDS FØLGE</speaker>.
+<lb/><HIS:hisStage>(nærmere.)</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="strofisk rapsodisk strofe folkevisevers" an="single" met="bi+ '5 '4 '4 '5 '8 '5" rhyme="X a a B a B">
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koO3_16"/>Ung Olaf, ung Olaf,<ptr target="O3ht-move-1"/><note resp="SBT">Det skal genereres en bue utenom teksten fra ptr til anchor, buen markerer at "hvor sidder du tagen" er ment flyttet ned under "Vi vanker i vé.".</note></l><l met="&bue;-&bue;&bue;-&bue;" rhyme="B"><HIS:hisRef type="tcNote" xml:id="noteO3_1" target="O3ht_noter.xml" corresp="noteO3_1">hvor</HIS:hisRef> sidder du tagen?</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-" rhyme="a">Å vågn dog og se.</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-" rhyme="a">Vi vanker i <anchor type="lemma" xml:id="koO3_17"/>vé.</l>
+<anchor xml:id="O3ht-move-1"/>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="a"><pb ed="HISb"/>Hvor sidder du <anchor type="lemma" xml:id="koO3_18"/>tagen de nætterne tre</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;-&bue;" rhyme="B">og på fjerde dagen?</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker><pb ed="HU"/>ARNES FØLGE</speaker>
+<lb/><HIS:hisStage>(nærmere.<HIS:hisDel rend="overwritten">)</HIS:hisDel>samtidigt)</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="strofisk rapsodisk strofe folkevisevers" an="single" met="bi++ '4 '4 '5 '4 '4 '7" rhyme="a a B c c B">
+<lb/><l rend="centre" met="-&bue;-" rhyme="a"><anchor type="lemma" xml:id="koO3_19"/>Lystigt nok</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;-" rhyme="a">lyder lék og lok</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">me<HIS:hisDel rend="overwritten">d</HIS:hisDel>llem tinder og topper.</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;-" rhyme="c"><anchor type="lemma" xml:id="koO3_20"/>Under <anchor type="lemma" xml:id="koO3_20a"/>bræens krans</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;&bue;-" rhyme="c">går færden som en dans.</l>
+<lb/><l rend="centre" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">Hej, hå! Over elven vi hopper!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="TORGEJR"><HIS:spOpener><speaker>TORGEJR</speaker>
+<lb/><HIS:hisStage>(samtidigt opad og nedad)</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="strofisk rapsodisk strofe folkevisevers" an="single" met="bi+ '5 '5 '5 '8 '5 '6" rhyme="Aa Aa B c B c">
+<lb/><l rend="centre" met="-&bue;-&bue;&bue;" rhyme="Aa"><anchor type="lemma" xml:id="koO3_21"/>Bræen <anchor type="lemma" xml:id="koO3_22"/>knuge jer;</l>
+<lb/><l rend="centre" met="-&bue;-&bue;&bue;" rhyme="Aa">elven <anchor type="lemma" xml:id="koO3_23"/>sluge jer.</l>
+<lb/><l rend="centre" met="-&bue;&bue;-&bue;" rhyme="B"><anchor type="lemma" xml:id="koO3_24"/>Bergtrold og <anchor type="lemma" xml:id="koO3_25"/>vætter</l>
+<lb/><l rend="centre" met="-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="c">skræmme jer væk med skrig og med hvin</l>
+<lb/><l rend="centre" met="&bue;&bue;-&bue;-&bue;" rhyme="B"><pb n="[2]r"/>hvor I foden sætter!</l>
+<lb/><l rend="centre" met="-&bue;&bue;-&bue;&bue;-" rhyme="c">Dalen er nøkkens og min.</l></HIS:hisLg>
+<lb/><HIS:hisStage>(Han trækker sig ind mellem kløf<unclear reason="writing">t</unclear>erne ved fossen.)</HIS:hisStage></HIS:hisSp>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi+++ '8|'9" rhyme="x|X|r|R">
+<lb/><HIS:hisStage>(<anchor type="lemma" xml:id="koO3_26"/>Peik <HIS:hisDel rend="overstrike">træ</HIS:hisDel>t kommer med sit følge ned over
+<lb/>fjeldsiden til højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker><pb ed="HISb"/>PEJK</speaker></HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A"><anchor type="ht" xml:id="koO3_ht_1"/><anchor type="lemma" xml:id="koO3_27"/>Ja I <anchor type="lemma" xml:id="koO3_27a"/>har godt for at springe og hoppe;</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;&bue;&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;-" rhyme="b">men jeg <restore type="del" rend="subpunction"><HIS:hisDel rend="overstrike">årker ikke</HIS:hisDel></restore> mer<HIS:hisDel rend="overstrike">e</HIS:hisDel>; jeg <app type="alteration"><lem><HIS:hisAdd place="offline">er</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">har</HIS:hisDel></HIS:hisRdg></app> stø<HIS:clarification place="inline">l</HIS:clarification><HIS:hisDel rend="overstrike">e</HIS:hisDel><HIS:hisAdd place="inline">,</HIS:hisAdd> <HIS:hisDel rend="overstrike">bén</HIS:hisDel>.<HIS:hisAdd place="infralinear">jeg er støl i både lægger og knær</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="ESPEN"><HIS:spOpener><speaker><anchor type="lemma" xml:id="koO3_28"/>ESPEN</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="-&bue;&bue;-&bue;">Her bær&rapo; det udfor.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>PEJK</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="-&bue;&bue;-&bue;" rhyme="A">L<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>idt får vi stoppe.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>FLERE</speaker>. <HIS:hisStage>(dæmpet.)</HIS:hisStage></HIS:spOpener>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="b">Lad os gå; her er utrygt og <app type="alteration"><lem><HIS:hisAdd place="offline">natten</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">dagen</HIS:hisDel></HIS:hisRdg></app> er <HIS:hisDel rend="overstrike">sen</HIS:hisDel>.<HIS:hisAdd place="inline">nær.</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="GERTRUD"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">Ingebo</HIS:hisDel><HIS:hisAdd place="inline"><anchor type="lemma" xml:id="koO3_29"/>GERTRUD.</HIS:hisAdd></speaker>
+<lb/><HIS:hisStage>(ser nedover.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I" met="&bue;-&bue;-&bue;">Se, se, der kommer &dash;!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>FLERE</speaker></HIS:spOpener>
+<lb/><l part="F" met="&bue;-&bue;&bue;-&bue;" rhyme="X">Hvem kommer, hvem kommer?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GERTRUD"><HIS:spOpener><speaker>GERTRUD</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue;" rhyme="X">Fru Gunhild med <HIS:hisDel rend="overstrike">f<gap reason="writing"/></HIS:hisDel> alle sine frænder og venner.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener>(<speaker><unclear reason="writing">P</unclear>ejk</speaker> og <speaker>FØLGET</speaker>.)</HIS:spOpener>
+<lb/><l part="I" met="&bue;-&bue;">Fru Gunhild!</l></HIS:hisSp>
+<HIS:hisStage>(Fru Gunhild og hendes ledsagere kommer op
+<lb/>fra venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>GUNHILD</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="&bue;&bue;-&bue;-&bue;-" rhyme="b"><anchor type="lemma" xml:id="koO3_30"/>Pejk i Botten er I her!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker><pb ed="HISb"/>PEJK</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="x">Som I ser! Jeg står altid ved mit ord.</l>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="x"><pb n="[2]v"/>Tre dage fra i kveld skal jo bryl<unclear reason="writing">l</unclear>upet stå.</l>
+<lb/><l met="&bue;&bue;&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="x">Men der er ingen <anchor type="lemma" xml:id="koO3_31"/>fremkomst fra Botten til Borg.</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="C"><pb ed="HU"/>Et jordskred kom og tog med sig vejen.</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;-" rhyme="d">Ikke både var der heller for så mange som vi.</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue;-" rhyme="d">Men jeg måtte og jeg vilde mit løfte <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>fri.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>GUNHILD</speaker></HIS:spOpener>
+<lb/><l part="I" met="&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;">Og s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>å tog I over <HIS:hisDel rend="overstrike">Styggefjeld</HIS:hisDel> Troldfjeldet?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>PEJK</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="-&bue;&bue;-&bue;" rhyme="C">Bent over hejen.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>GUNHILDS KVINDER</speaker></HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="X">Der, hvor det spøger på lyse dagen;</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="x">der hvor det <HIS:hisRef type="tcNote" xml:id="noteO3_2" target="O3ht_noter.xml" corresp="noteO3_2"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel></HIS:hisRef><anchor type="lemma" xml:id="koO3_33"/>kogler om natten. Hu-hu!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>PEJK</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;&bue;-&bue;-&bue;&bue;&bue;-&bue;&bue;-" rhyme="x">Men visst ikke tænkte jeg at møde jer her.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>GUNHILD</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="&bue;&bue;-&bue;&bue;-&bue;"><anchor type="lemma" xml:id="koO3_34"/>I må høre og vide &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>PEJK</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="&bue;-&bue;-&bue;" rhyme="X">Så stor en hæder!</l>
+<lb/><l met="-&bue;&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="x"><pb ed="HISb"/>Komme mig til møde med kvinder og mænd.</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="X">Jeg tænkte I stræved i <HIS:hisRef type="tcNote" xml:id="noteO3_3" target="O3ht_noter.xml" corresp="noteO3_3">brylupshuset</HIS:hisRef>;</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="X">tænkte, I bagte, brygged og stegte &dash;</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;&bue;&bue;-&bue;-&bue;" rhyme="E">havde hænderne fulde, ikke tid at miste &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>GUNHILD</speaker></HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;" rhyme="E">Å hvis I vidste, <HIS:hisDel rend="overstrike">hvad sor</HIS:hisDel>g <HIS:hisAdd place="infralinear"><HIS:hisDel rend="overstrike">H</HIS:hisDel> hvilken jammer</HIS:hisAdd>jeg må <anchor type="lemma" xml:id="koO3_35"/>friste</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>PEJK</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="&bue;&bue;-">Hvilken sorg?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GERTRUD"><HIS:spOpener><speaker>GERTRUD</speaker>.</HIS:spOpener>
+<lb/><l part="M" met="&bue;&bue;-&bue;">Hvor er Olaf?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>PEJK</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="&bue;-&bue;&bue;&bue;-&bue;" rhyme="X">Ja, Olaf ser jeg ikke.</l></HIS:hisSp></HIS:hisLg>
+</div>
+</body>
+</text>
+</TEI>

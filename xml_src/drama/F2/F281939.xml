@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main" xml:id="F2">Fru Inger til Østråt</title>
+<title level="a" type="sub">2. versjon, NBO Ms.8&deg; 1939</title>
+<title level="a" type="origYear">[1874]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respStmt>
+<respStmt>
+<resp>Koding og transkripsjon høsten 1999:</resp>
+<name xml:id="HIS-HB">Hilde Bøe, </name>
+<name xml:id="HIS-KJS">Karl Johan Sæth.</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering til xml, oktober 2000:</resp>
+<name>Hilde Bøe.</name>
+</respStmt>
+<respStmt>
+<resp>Oppdatering:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl, august 2001.</name>
+<name>Hilde Bøe, mars 2002.</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="F281939-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<HIS:hisMsDesc type="notes" xml:id="F281939">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1939</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Fru Inger til Østråt</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Trykkfeilsliste, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Ms.8&deg; 1939:</head>
+<item>Et enkelt falset ark påskrevet på tre sider (to sider med trykkfeilsliste, én med regnskapsnotater) med sort blekk, aksenter over ø (¨) og u (¯):</item>
+<item>skriftstil: latinsk håndskrift, kun versaler og minuskler;</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>overskrift: midtstilt, med noe større bokstaver;</item>
+<item>avsnitt: en trykkfeil i hvert "avsnitt", "rettes til" (med eller uten kolon etter) på egen linje og midtstilt; attributtverdien "deviation" brukt ved midtstilt tekst og avvikende midtstilt tekst;</item>
+<item>linjenummer angitt med bokstavene te/de (etter tallet), disse er hevet og understreket (kodet hi rend="raised"); attributtverdien "deviation" brukt en gang ved manglende understreking;</item>
+<item>anførselstegn: øvre, doble komma.</item>
+</list>
+</item>
+<item>Skriblerier på 2r: Tallrekke &lquo;udgift&rquo;, talrekke &lquo;indtægt&rquo;, &lquo;De unges forbund 200&rquo;, &lquo;Fru Inger 562&rquo; osv.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="F281939h1" xml:id="F281939h1" scope="major" medium="pen"/>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe.</change>
+<change>
+<date>15.06.08</date>
+<name>HB</name><title>Innkoding av synkroniseringskoblinger for visning av trykkfeilliste og foregående og etterfølgende trykk</title>
+Validerte filen. Oppdaterte koding etter punktene i avsnittet om teiHeader i ms-filer i dokumentet HISe-forberedende_koding_og_notater.html. Kodet inn synkroniseringskoblinger. Lagde visning og oppsett for versjonsvisning.
+</change>
+<change><date>10.01.08</date>
+<name>HB</name><title>Byttet ut doc med url i xptr</title>
+Byttet ut doc med url i xptr.</change>
+<change><date>02.10.06</date>
+<name>HB</name><title>Kodejusteringer</title>
+Kodejusteringer som fører til valid lenking mellom grunntekst og trykkfeilslista. Dessuten oppdatering av variantEncoding.</change>
+<change><date>15.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Fikk ikke validert pga. lenkekodingen.</change>
+<change><date>12.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Fikk ikke validert pga. lenkekodingen.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="notes" i text. Oppdatert teiHeader.</change>
+<change><date>14.06.05</date>
+<name>HB</name><title>Lenking</title>
+Oppdaterte lenkekodinga etter kodemøtet, fjernet n og la til type.</change>
+<change><date>30.05.05</date>
+<name>HB</name><title>Lenking</title>
+Oppdaterte lenkekodinga til valid koding.</change>
+<change><date>28.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Løste opp apparatkoding. La til foliering i skarpe klammer i n-attributt i pb. Fjernet noter, la til oppl. om skriblerier på 2r i typografibeskrivelsen. GJENSTÅR: Håndliste må sjekkes mot Tones ms-beskrivelse.</change>
+<change><date>27.08.02</date>
+<name>HB</name><title>Oppdatering</title>
+Fjernet type fra list.</change>
+<change><date>12.03.02</date>
+<name>HB</name><title>Oppdatering</title>
+Oppdaterte teiHeader og validerte filen. Brenner cd.</change>
+<change><date>10.08.01</date>
+<name>SBT</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Lagde ny bok og brente cd.</change>
+<change><date>16.10.00</date>
+<name>HB</name><title>Konvertering til XML - CD-brenning</title>
+Konverterte filen til XML. Endret filnavnet til standardisert navn; F21939 til F281939. Byttet ut gradstegn med entitet for samme. NB: Har ikke laget nye bøker til DynaText.</change>
+<change><date>17.02.00</date>
+<name>HB</name><title>CD-brenning</title></change>
+<change><date>16.02.00</date>
+<name>HB</name><title>Koding</title>
+Endret litt i typografibeskrivelsen (tilføyde opplysninger om koding av hevet tekst). La inn n-attributt i xptr (koding for framvisning - akseptabelt?).</change>
+<change><date>15.02.00</date>
+<name>KJS</name><title>Korrektur på endringer</title>
+Teksten er korrekturlest og validert. I tillegg er entitetsdefinisjonene endret og doc-attributtet er endret fra inger74 til F2.</change>
+<change><date>14.02.00</date>
+<name>HB</name><title>Omkoding</title>Filen er validert. Omkoding av teiHeader. Fjernet overflødige app. Endret attributtverdier og fjernet overflødige attributter i tråd med de siste kodepraksisendringene, bla. hi til hi rend="raised".</change>
+<change><date>13.12.99</date><name>HB</name><title>CD-brenning</title>CD-kopi laget, oppretting etter det av type (fjernet) og place (lagt til) i app og add.</change>
+<change><date>10.12.99</date><name>HB</name><title>Koding og stilark</title>Kodet om til nestet liste. Endret attributtverdiene unmarked/umarkert til deviation. Tilpasset stilarket etter typografibeskrivelsen.</change>
+<change><date>08.12.99</date><name>HB</name><title>Koding</title>La inn pekere (xptr) til inger74.sgm (flyttet id fra item til xptr). Denne kodingen er ikke validisert.</change>
+<change><date>06.12.99</date><name>HB</name><title>Koding</title>Fjernet n-attributtet i pb. Endret ts til dash. La inn id-attributt i item i forbindelse med lenking.</change>
+<change><date>11.10.99</date><name>KJS</name><title>Korrektur</title>leste korrektur på de siste endringene. Dokumentet skulle nå være "ferdig"...</change>
+<change><date>11.10.1999</date><name>HB</name><title>Korrekturlesing og koding</title>Leste korrektur samt føyde til noen momenter i beskrivelsen av tekstvitnet. Satte inn entiteter for anførselstegn og tankestrek. Lagt inn noen flere apparater. Endret * til "te"/"de" med hi-kode. Endret koding til liste istedenfor prosa-avsnitt.</change>
+<change><date>26.09.1999</date><name>KJS</name><title>Dokumentoppretting</title>Opprettet sgml-dokument med den transkriberte teksten.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" xml:lang="dan-nob" rend="handwritten">
+<body>
+<pb n="[1]r"/>
+<list>
+<lb/><head>Trykfejl
+<lb/>i
+<lb/>&lquo;Fru Inger til Østråt.&rquo;</head>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_1"/>Side 7, næstnederste linje står:
+<lb/><list><item>&lquo;sidset riddersmand.&rquo;</item>
+<lb/><item rend="deviation">rettes til</item>
+<lb/><item>&lquo;sidste&rquo; o. s. v</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_2"/>Side 29, 11<hi rend="raised">te</hi> linje står:
+<lb/><list><item>&lquo;&dash; lede og rædde de rådvil<HIS:hisDel type="overstrike">l</HIS:hisDel>de&rquo; &dash;</item>
+<lb/><item rend="deviation">rettes til:</item>
+<lb/><item>&lquo;&dash; lede og redde&rquo; o. s. v.</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_3"/>Side 33, 5<hi rend="raised">te</hi> linje står:
+<lb/><list><item>&lquo;&dash; ingen bør vide &dash;&rquo;</item>
+<lb/><item rend="deviation">rettes til</item>
+<lb/><item>&lquo;&dash; ingen tør&rquo; o s v -</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_4"/>Side 66 allernederst mangler tegnet foran
+<lb/>parenthesen.</item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_5"/>Side 75 efter Nils Lykkes og Olaf Skaktavls
+<lb/>fælles udråb: Ingen&rquo; mangler spørgsmålstegnet.</item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_6"/>Side 80, <HIS:hisDel type="overstrike">li</HIS:hisDel> 16<hi rend="raised">de</hi> linje står:
+<lb/><list><item>&lquo;&dash; var det; &dash; og&rquo;</item>
+<lb/><item rend="deviation">rettes til:</item>
+<lb/><item>&lquo;&dash; var det; og &dash;&rquo; (tankestregen sættes foran
+<lb/>&lquo;og&rquo;.)</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_7"/>Side 82, 6<hi rend="raised">te</hi> linje nedenfra står:
+<lb/><list><item>forvisset mig derover&rquo;</item>
+<lb/><item rend="deviation">rettes til</item>
+<lb/><item>&dash; &dash; derom.&rquo;</item></list></item>
+<pb n="[1]v"/>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_8"/>Side 99, 18<hi rend="raised">de</hi> linje står:
+<lb/><list><item>&lquo;Jeg? A nej....&rquo;</item>
+<lb/><item rend="deviation">rettes til</item>
+<lb/><item>....? Å ....</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_9"/>Side 119, 4<hi rend="deviation raised">de</hi> linje nedenfra, efter ordet &lquo;<HIS:hisDel type="overwritten"><gap/></HIS:hisDel>Østråt&rquo;,
+<lb/>mangler spørgsmålstegnet.</item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_10"/>Side 126, nederste linje, efter ordet &lquo;utålmodig&rquo;
+<lb/>mangler <HIS:hisDel type="overstrike">spør</HIS:hisDel> komma.</item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_11"/>Side 136, 5<hi rend="raised">te</hi> linje står:
+<lb/><list><item rend="deviation">Svenkers</item>
+<lb/><item rend="deviation">rettes til</item>
+<lb/><item>Svenskers.</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_12"/>Side 140, 4<hi rend="raised">de</hi> linje står
+<lb/><list><item>jeg</item>
+<lb/><item rend="deviation">rettes til</item>
+<lb/><item>Jeg.</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_13"/>Side 155, 8<hi rend="raised">de</hi> linje står:
+<lb/><list><item>Hvad var det ikke ....</item>
+<lb/><item rend="deviation">rettes til:</item>
+<lb/><item>Had var det ikke ......</item></list></item>
+<lb/><item><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="F2_14"/>Side 162, 11<hi rend="raised">te</hi> linje står:
+<lb/><list><item>Jeg beskæmmer eder .....</item>
+<lb/><item rend="deviation">rettes til:</item>
+<lb/><item>Jeg beskærmer eder .....</item></list></item>
+</list>
+<pb n="[2]r"/>
+<pb n="[2]v"/>
+</body></text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Hv">Hvide heste</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>02.04.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteHv_1"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_1">ved. Været</HIS:hisRef>] <hi rend="italic">feil for</hi> ved, været</note>
+<note resp="editor" xml:id="noteHv_2"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_2">dem</HIS:hisRef>] <hi rend="italic">feil for</hi> Dem</note>
+<note resp="editor" xml:id="noteHv_3"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_3">spændt</HIS:hisRef>] <hi rend="italic">ordet</hi> fod <hi rend="italic">er uteglemt</hi></note>
+<note resp="editor" xml:id="noteHv_4"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_4">gårsdriften</HIS:hisRef>] <hi rend="italic">feil for</hi> gårdsdriften</note>
+<note resp="editor" xml:id="noteHv_4a"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_4a">gårsdriften</HIS:hisRef>] <hi rend="italic">feil for</hi> gårdsdriften</note>
+<note resp="editor" xml:id="noteHv_5"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_5">uindskræn-&sol;kelde</HIS:hisRef>] <hi rend="italic">feil for</hi> uindskrænkede</note>
+<note resp="editor" xml:id="noteHv_6"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_6">de</HIS:hisRef>] <hi rend="italic">feil for</hi> De</note>
+<note resp="editor" xml:id="noteHv_7"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_7">her</HIS:hisRef>] <hi rend="italic">feil for</hi> herr</note>
+<note resp="editor" xml:id="noteHv_8"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_8">de</HIS:hisRef>] <hi rend="italic">feil for</hi> De</note>
+<note resp="editor" xml:id="noteHv_9"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_9">portemonæen</HIS:hisRef>] <hi rend="italic">feil for</hi> portemonnæen</note>
+<note resp="editor" xml:id="noteHv_10"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_10">han</HIS:hisRef>] <hi rend="italic">feil for</hi> ham</note>
+<note resp="editor" xml:id="noteHv_11"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_11">ha</HIS:hisRef>] <hi rend="italic">feil for</hi> han</note>
+<note resp="editor" xml:id="noteHv_12"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_12">rudt</HIS:hisRef>] <hi rend="italic">feil for</hi> rundt</note>
+<note resp="editor" xml:id="noteHv_13"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_13">over-&sol;frakke</HIS:hisRef>] <hi rend="italic">sannsynligvis mangler et ord til slutt i setningen</hi></note>
+<note resp="editor" xml:id="noteHv_14"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_14">rækker</HIS:hisRef>] <hi rend="italic">sannsynligvis mangler et ord til slutt i setningen</hi></note>
+<note resp="editor" xml:id="noteHv_15"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_15">dig</HIS:hisRef>] <hi rend="italic">feil for</hi> mig</note>
+<note resp="editor" xml:id="noteHv_16"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_16">ik-&sol;</HIS:hisRef>] <hi rend="italic">feil for</hi> ikke</note>
+<note resp="editor" xml:id="noteHv_17"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_17">os</HIS:hisRef>] <hi rend="italic">feil for</hi> og</note>
+<note resp="editor" xml:id="noteHv_18"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_18">dengang</HIS:hisRef>] <hi rend="italic">ordet</hi> ikke <hi rend="italic">er uteglemt</hi></note>
+<note resp="editor" xml:id="noteHv_19"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_19">vide</HIS:hisRef>] <hi rend="italic">feil for</hi> hvide</note>
+<note resp="editor" xml:id="noteHv_20"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_20">kom</HIS:hisRef>] <hi rend="italic">feil for</hi> komme</note>
+<note resp="editor" xml:id="noteHv_21"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_21">en</HIS:hisRef>] <hi rend="italic">feil for</hi> end</note>
+<note resp="editor" xml:id="noteHv_22"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_22">din</HIS:hisRef>] <hi rend="italic">feil for</hi> dine</note>
+<note resp="editor" xml:id="noteHv_23"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_23">hav-&sol;</HIS:hisRef>] <hi rend="italic">feil for</hi> havde</note>
+<note resp="editor" xml:id="noteHv_24"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_24">om</HIS:hisRef>] <hi rend="italic">feil for</hi> og</note>
+<note resp="editor" xml:id="noteHv_25"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_25">skrivebrdet</HIS:hisRef>] <hi rend="italic">feil for</hi> skrivebordet</note>
+<note resp="editor" xml:id="noteHv_26"><HIS:hisRef type="tcNote" target="Hvht.xml" corresp="noteHv_26">her</HIS:hisRef>] <hi rend="italic">feil for</hi> herr</note>
+<p/></div></body>
+</text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="G2">Gildet på Solhaug</title>
+<title>G2ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>23.10.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteG2_1"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_1">indstuderingen</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 951, FU,</hi> instuderingen <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG2_2"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_2">afstamning</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 951, FU,</hi> afstemning <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG2_3"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_3">ham?</HIS:hisRef>] <hi rend="italic">FU,</hi> ham. <hi rend="italic">1. utg., NBO Ms.8&deg; 951</hi></note>
+<note resp="editor" xml:id="noteG2_4"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_4">være</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 951, i 1. utg. og FU er rimordet</hi> være <hi rend="italic">feilplassert først på neste verslinje</hi></note>
+<note resp="editor" xml:id="noteG2_5"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_5">tærer</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 951,</hi> lærer <hi rend="italic">1. utg., FU</hi></note>
+<note resp="editor" xml:id="noteG2_6"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_6">og</HIS:hisRef>] <hi rend="italic">HIS,</hi> Og <hi rend="italic">1. utg., NBO Ms.8&deg; 951 FU</hi></note>
+<note resp="editor" xml:id="noteG2_7"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_7">de</HIS:hisRef>] <hi rend="italic">FU,</hi> De <hi rend="italic">1. utg., NBO Ms.8&deg; 951</hi></note>
+<note resp="editor" xml:id="noteG2_8"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_8">du</HIS:hisRef>] <hi rend="italic">FU,</hi> Du <hi rend="italic">1. utg., NBO Ms.8&deg; 951</hi></note>
+<note resp="editor" xml:id="noteG2_9"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_9">Se så!</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 951, i 1. utg. og FU er</hi> Se så! <hi rend="italic">flyttet fra Gudmunds replikk til Margits replikk, i strid med det metriske skjemaet; setter har sannsynligvis oppfattet en pil i ms. som en flyttemarkering</hi></note>
+<note resp="editor" xml:id="noteG2_10"><HIS:hisRef type="tcNote" target="G2ht.xml" corresp="noteG2_10">betyde?</HIS:hisRef>] <hi rend="italic">HIS,</hi> betyde. <hi rend="italic">1. utg., NBO Ms.8&deg; 951, FU</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

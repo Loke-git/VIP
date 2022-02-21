@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">John Gabriel Borkman</title>
+<title level="a" type="sub">Arbeidsmanuskript, Ms.4&deg; 2590</title>
+<title level="a" type="origYear">1896</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Kari Kinn, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Opprettelse av grunntekst</resp>
+<name xml:id="HIS-ILF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>1. kollasjon</resp>
+<name>Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-KK">Kari Kinn</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="JG42590-0212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er bygget på JG41118-0109</p>
+   <p><HIS:hisMsDesc type="workingManuscript" xml:id="JG42590">
+      <msIdentifier>
+         <settlement>Oslo</settlement>
+         <repository>Nasjonalbibliotkeket</repository>
+         <idno>NBO Ms.4&deg; 2590</idno>
+      </msIdentifier>
+      <msContents><msItem>
+         <author>Henrik Ibsen</author>
+         <title type="main">John Gabriel Borkman</title>
+         <title type="sub">Skuespil i fire akter</title>
+         <docDate>Uten dato</docDate>
+      </msItem></msContents>
+      <physDesc><objectDesc><p>Egenhendig arbeidsmanuskript til tittelside og personliste</p></objectDesc></physDesc>
+   </HIS:hisMsDesc>
+   </p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list> 
+<head>JG42590:</head> 
+<item>skriftgruppe: latinsk håndskrift;</item> 
+<item>bokstavvariant: majuskler og minuskler;</item> 
+<item>skrifthelling: steilskrift, venstrehellende;</item> 
+<item>hovedtittelblad: midtstilt, består kun av egenhendig undertittel og påført av annen hånd hovedtittel og byline;</item> 
+<item>deltittelblad: mangler;</item> 
+<item>rolleliste: 
+<list> 
+<item>overskrift: midtstilt;</item> 
+<item>rollelisteinnførsel: venstrejustert;</item> 
+<item>situasjonsbeskrivelse: første linje noe innrykket;</item> 
+</list> 
+</item> 
+<item>Under teksten på tittelsiden har Bergliot Ibsen attestert at manuskriptet er Ibsens egenhendige. Ikke transkribert.</item>
+</list> 
+</HIS:typography> 
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label>BORKMAN</label><item>John Gabriel Borkman/-/-</item>
+<label>FRUBORKMAN</label><item>Fru Gunhild Borkman/-/-</item>
+<label>ERHART</label><item>Erhard Borkman/-/-</item>
+<label>ELLARENTHEIM</label><item>Frøken Ella Rentheim/-/-</item>
+<label>FRUWILTON</label><item>Fru Fanny Wilton/-/-</item>
+<label>FOLDAL</label><item>Vilhelm Foldal/-/-</item>
+<label>FRIDA</label><item>Frida Foldal/-/-</item>
+<label>STUEPIGEN</label><item>Fru Borkmans stuepige/-/-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd XIII) er kodet med pb ed="HU". Dette tekstvitnet dekker side 37 (og faksimile av tittelside s 39).Sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+   <handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+   <handNote scribe="HI-2" xml:id="HI-2" medium="pencil" rend="orange"><p>Blyant. Ibsens senere rettelser.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>21.-23.02.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+<change><date>09.11.09</date><name>MW</name><title>Kodekontroll</title>
+Utførte kodekontroll. Sammenholdt med Tones ms-beskrivelse. La bl.a. inn leggnummerering.</change>
+<change><date>19.08.09</date><name>IF</name><title>teiHeader</title>
+Typografibeskrivelse ført inn, msHeading oppdatert. Ikke fått til å validere add nederst på siden.</change>
+<change><date>05.02.09</date><name>IF</name><title>2. kollasjon</title>
+2. kollasjons resultater ved KK mot originalen er ført inn. Typografibeskr er ikke gjort. Klar for kodekontroll. Validert.</change>
+<change><date>28.01.09</date><name>IF</name><title>1. kollasjon</title>
+1. kollasjons resultater mot faksimile er ført inn. Jeg har vanskeligheter med å validere at byline er ført på av en ny hånd, derfor har jeg fjernet 'add' der for å lage visning, har deretter lagt det inn igjen. kan ta den diskusjonen i kodekontrollen. Ellers validert og laget ny visning. Klar for 2. kollasjon og kodekontroll.</change>
+<change><date>27.01.09</date><name>IF</name><title>Opprettelse</title>
+Filen er opprettet på grunnlag av JG41118. Obs: sidene er i omvendt rekkefølge i HU, altså først tittelside (s 37), deretter rolleliste (s 39). Klar for 1. kollasjon og kodekontroll.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+ <pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="1" gathering="1"/>
+   <!-- pb ed="source" type="folio_nopagination" subtype="verso" n="2"/--><pb ed="HU" n="39"/>
+<front>
+<lb/><HIS:hisCastList><head>Personerne:</head>
+<lb/><castItem xml:id="BORKMAN"><role>John Gabriel Borkman</role>, <roleDesc>forhenvæ&typHyp;
+<lb/>rende bankdirektør</roleDesc>.</castItem>
+<lb/><castItem xml:id="FRUBORKMAN"><role>Fru Gunhild Borkman</role>, <roleDesc>hans hustru</roleDesc>.</castItem>
+<lb/><castItem xml:id="ERHART"><role>Erhard Borkman</role>, <roleDesc>deres søn</roleDesc></castItem>
+<lb/><castItem xml:id="ELLARENTHEIM"><role>Frøken Ella Rentheim</role>, <roleDesc>fru Borkmans
+<lb/>søster</roleDesc>.</castItem>
+<lb/><castItem xml:id="FRUWILTON"><role>Fru Fanny Wilton</role>.</castItem>
+<lb/><castItem xml:id="FOLDAL"><role><HIS:hisDel rend="overstrike">Wi</HIS:hisDel>Vilhelm Foldal</role>, <roleDesc>extraskriver i et
+<lb/>regeringskontor</roleDesc>.</castItem>
+<lb/><castItem xml:id="FRIDA"><role>Frida Foldal</role>, <roleDesc>hans datter</roleDesc>.</castItem>
+<lb/><castItem><role>Fru Borkmans stuepige</role>.</castItem>
+</HIS:hisCastList>
+<lb/><set><p>Handlingen foregår <HIS:hisDel rend="overstrike">på</HIS:hisDel> <app type="alteration"><lem><HIS:hisAdd place="offline" hand="HI-2">en vinteraften</HIS:hisAdd></lem><HIS:hisRdg>ved vintertid</HIS:hisRdg></app> på
+<lb/>familien Borkmans landejendom udenfor <HIS:hisAdd place="infralinear" hand="HI-2">in der Nähe</HIS:hisAdd>
+<lb/><HIS:hisDel rend="overstrike" hand="HI-2">byen.</HIS:hisDel> <HIS:hisAdd place="inline" hand="HI-2">hovedstaden.</HIS:hisAdd></p>
+</set>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="2" gathering="1"/>
+<lb/><fw type="gathering" place="top-left">1</fw>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main"><HIS:hisAdd place="offline" hand="HI-2">John Gabriel
+<lb/>Borkman.</HIS:hisAdd></titlePart>
+<lb/><titlePart type="sub">Skuespil i fire akter</titlePart>
+</docTitle>
+<note resp="editor">Blyantpåskrift av Bergliot Ibsen: Skrevet av H. Ibsen selv B.I.</note>
+</titlePage>
+ <!-- pb ed="source" type="folio_nopagination" subtype="verso" n="1" gathering="1"/ -->
+</front>
+<body><p>&#160;</p></body>
+</text>
+</TEI>

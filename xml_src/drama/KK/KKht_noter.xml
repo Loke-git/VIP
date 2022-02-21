@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="KK">Kjærlighedens Komedie</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>30.08.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteKK_1"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_1">Sjælero</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 955, 2. utg.,</hi> Sjæelro <hi rend="italic">1. utg.,</hi> sjælero <hi rend="italic">NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> gode Ro <hi rend="italic">UBiT Ms Oct. 375</hi></note>
+<note resp="editor" xml:id="noteKK_2"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_2">Datter &dash;?</HIS:hisRef>] Datter &dash; <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteKK_3"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_3">hun</HIS:hisRef>] <hi rend="italic">2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> hnn <hi rend="italic">1. utg., NBO Ms.8&deg; 955</hi></note>
+<note resp="editor" xml:id="noteKK_4"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_4">Straamand</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375, 2. utg.,</hi> Straamaud <hi rend="italic">1. utg., NBO Ms.8&deg; 955,</hi> Stråmand <hi rend="italic">NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_5"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_5">bønligt</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 955, 2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> bøn igt <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_6"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_6">og Trindse</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375,</hi> og i Trindse <hi rend="italic">1. utg., NBO Ms.8&deg; 955, 2. utg.,</hi> og trindse <hi rend="italic">4.&dash;7. utg., FU, 8. utg.,</hi> og i trindse <hi rend="italic">NBO Ms.8&deg; 1922, 3. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_7"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_7">Baggrunden</HIS:hisRef>] <hi rend="italic">2. utg.,</hi> Baggruuden <hi rend="italic">1. utg., NBO Ms.8&deg; 955,</hi> baggrunden <hi rend="italic">NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_8"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_8">endnu</HIS:hisRef>] <hi rend="italic">2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> enduu <hi rend="italic">1. utg., NBO Ms.8&deg; 955</hi></note>
+<note resp="editor" xml:id="noteKK_9"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_9">pære-blomster-hvid</HIS:hisRef>] <hi rend="italic">5.&dash;7. utg., FU, 8. utg.,</hi> pære- blomster- hvid <hi rend="italic">1. utg., NBO Ms.8&deg; 955, 2. utg., NBO Ms.8&deg; 1922, 3.&dash;4. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_10"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_10">det</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375, NBO Ms.8&deg; 955, 2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> der <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_11"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_11">Prov</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375,</hi> en Prov <hi rend="italic">1. utg., NBO Ms.8&deg; 955, 2. utg.,</hi> et prov <hi rend="italic">NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_12"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_12">Men</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375, NBO Ms.8&deg; 955,</hi> Min <hi rend="italic">1. utg.,</hi> men <hi rend="italic">2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_12a"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_12a">har</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375, 2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> bar <hi rend="italic">1. utg., NBO Ms.8&deg; 955</hi></note>
+<note resp="editor" xml:id="noteKK_13"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_13">saa</HIS:hisRef>] <hi rend="italic">2. utg.,</hi> faa <hi rend="italic">1. utg., NBO Ms.8&deg; 955,</hi> så <hi rend="italic">NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_14"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_14">af</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 955, 2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> og <hi rend="italic">1. utg.,</hi> at <hi rend="italic">UBiT Ms Oct. 375</hi></note>
+<note resp="editor" xml:id="noteKK_15"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_15">Studsen,</HIS:hisRef>] <hi rend="italic">2. utg.,</hi> Studsen. <hi rend="italic">1. utg., NBO Ms.8&deg; 955,</hi> studsen, <hi rend="italic">NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.</hi></note>
+<note resp="editor" xml:id="noteKK_16"><HIS:hisRef type="tcNote" target="KKht.xml" corresp="noteKK_16">sejrer!</HIS:hisRef>] <hi rend="italic">UBiT Ms Oct. 375, NBO Ms.8&deg; 955, 2. utg., NBO Ms.8&deg; 1922, 3.&dash;7. utg., FU, 8. utg.,</hi> sejrer; <hi rend="italic">1. utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

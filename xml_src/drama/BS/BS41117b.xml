@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Bygmester Solness</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1117b</title>
+<title level="a" type="origYear">1894</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Eivor Finset Spilling, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting/1. kollasjon, april-juli 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>2. kollasjon, november-desember 2009</resp>
+<name xml:id="HIS-EFS">Eivor Finset Spilling</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="BS41117b-0212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på LE41117b.xml (1109)</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="BS41117b">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4&deg; 1117b</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">[Arbeidsmanuskript til Lille Eyolf]</title>
+<docDate>[1894]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Denne fila inneholder arbeidsutkast til diktet "De sad der, de to -" på bl. 2 i legg 30. Diktet kan knyttes til Bygmester Solness. Det fulle manuskriptet inngår i manuskriptmaterialet til Lille Eyolf.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Diktet på side 141-142 er delt inn i tre strofer à fire verselinjer. Hele diktet er rykket litt inn til høyre.</item>    
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker</headItem>
+<label>ALLMERS</label><item>Allmers</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd XII) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 197-268. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+    <change><date>12.09.17</date>
+        <name>NME</name><title>Omkoding</title>
+       Kodet om pb-er.</change>
+    <change><date>13.02.12</date>
+<name>SBT</name><title>Oppretting av fil</title>
+Kopierte dikt fra LE41117b og opprettet BS-fil. Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="drama" rend="handwritten" xml:lang="dan-nob">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<body>
+    <div type="act" n="3"><note resp="editor">Diktet inngår i et manuskript til Lille Eyolf, BO Ms.4&deg; 1117b</note>
+ <pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="141" gathering="30"/>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker>
+<lb/><HIS:hisStage>(læser)</HIS:hisStage></HIS:spOpener>
+<lb/><l first="yes">De sad der, de to, i så lunt et hus</l>
+<lb/><l>ved høst og i vinterdage.</l>
+<lb/><l>Så brændte huset. Alt ligger i grus.</l>
+<lb/><l>De to får i asken rage.</l>
+<lb/><l rend="line">For nede i den er et smykke gemt, &dash;</l>
+<lb/><l>et smykke, som aldrig kan brænde.</l>
+<lb/><l>Og leder de trofast, så hænder det nemt</l>
+<lb/><l>at det findes af ham eller hende.</l>
+<lb/><l rend="line">Men finder de end, de brandlidte to,</l>
+<lb/><l>det dyre, ildfaste smykke, &dash;</l>
+<lb/><pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="142" gathering="30"/><l>aldrig hun finder sin brændte ro, &dash;</l>
+<lb/><l>han aldrig sin brændte lykke.</l>
+<lb/><HIS:hisStage>(han ser spørgende på Rita)</HIS:hisStage>
+<lb/><p>Forstod du det, Rita?</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

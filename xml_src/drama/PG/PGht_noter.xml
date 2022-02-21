@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title>Peer Gynt</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort s&aring; enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change when="2011-08-10" who="SBT"><title>Oppdatering</title>
+Oppdaterte etter nytt skjema. Fila er valid.</change>
+<change when="2011-08-10" who="SBT"><title>dokumenttopp</title>
+Endret sti til skjema.</change>
+<change when="2011-06-29" who="SBT"><title>P5</title>
+Kodet om fra P4 til P5.</change>
+<change when="2011-01-25" who="SBT"><title>Gjorde om til HISe-fil.</title>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="notePG_1a"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_1a">Bryllupsgjæster, Kjøgemester,</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2,</hi> Bryllupsgjæster. Kjøgemester. <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> Bryllupsgæster. køgemester. <hi rend="italic">NBO Ms.8&deg; 894,</hi> Bryllupsgæster. Køgemester. <hi rend="italic">NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_1b"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_1b">Hoftrold,</HIS:hisRef>] <hi rend="italic">HIS,</hi> Hoftrold. <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> hoftrold. <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_1"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_1">Oreholt</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2,</hi> Oreholdt <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 894, 2.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> <gap/>lekrat <hi rend="italic">NBO Ms.4&deg; 4461</hi></note>
+<note resp="editor" xml:id="notePG_2"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_2">Gaarden!</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> Gaarden? <hi rend="italic">1.&tu20;utg.,</hi> gården! <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_3"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_3">Moer!</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, I.2,</hi> Moer? <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 894, 2.&tu20;utg.,</hi> moer! <hi rend="italic">NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> Moer. <hi rend="italic">KBK NKS 2869, 4&deg;, 2</hi></note>
+<note resp="editor" xml:id="notePG_4"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_4">Luften</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> Luffen <hi rend="italic">1.&tu20;utg.,</hi> luften <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_5"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_5">Hvad <hi rend="italic">(&hellip;)</hi> Resten!</HIS:hisRef>] <hi rend="italic">verslinjedelen mangler innrykk i 1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_6"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_6">En Stemme i Mørket</HIS:hisRef>] <hi rend="italic">HIS,</hi> (En Stemme i Mørket.) <hi rend="italic">1.&tu20;utg., KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> (En stemme i mørket.) <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_7"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_7">borte</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, NBO Ms.4&deg; 4461, 4.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> bort <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, I.2, NBO Ms.8&deg; 894, 2.&dash;3.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_8"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_8">fra?</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, NBO Ms.4&deg; 4461, 5.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> fra. <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 894, 2.&dash;4.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_9"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_9">tillags</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> tilllags <hi rend="italic">1.&tu20;utg., KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_10"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_10">Pakk-Kamél</HIS:hisRef>] <hi rend="italic">HIS,</hi> Pakk-Kammél <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> Pakkamél <hi rend="italic">KBK NKS 2869, 4&deg;, 2,</hi> pakkamél <hi rend="italic">NBO Ms.8&deg; 894, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_11"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_11">Havn;</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, I.2,</hi> Havn <hi rend="italic">1.&dash;2.&tu20;utg.,</hi> havn; <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_12"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_12">en Fjeldkløft</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 2.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> et Fjeldkløft <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, I.2</hi></note>
+<note resp="editor" xml:id="notePG_13"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_13">Morgen</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> Mogen <hi rend="italic">1.&tu20;utg.,</hi> morgen <hi rend="italic">NBO Ms.8&deg; 894, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_13a"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_13a">Det <hi rend="italic">(&hellip;)</hi> smaat.</HIS:hisRef>] <hi rend="italic">verslinjedelen har for lite innrykk i 1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_14"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_14">kommanderer</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> komanderer <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, I.2, NBO Ms.8&deg; 894, 2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_15"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_15">kverve</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.,</hi> hverve <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_16"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_16">Omstændighed &dash;</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2,</hi> Omstændighed. &dash; <hi rend="italic">1.&dash;2.&tu20;utg.,</hi> omstændighed. &dash; <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="notePG_17"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_17">Haaret.</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, I.2, 2.&tu20;utg.,</hi> Haaret, <hi rend="italic">1.&tu20;utg.,</hi> håret. <hi rend="italic">NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 3.&dash;13.&tu20;utg.,</hi> håret <hi rend="italic">FU</hi></note>
+<note resp="editor" xml:id="notePG_18"><HIS:hisRef type="tcNote" target="PGht.xml" corresp="notePG_18">om &dash;;</HIS:hisRef>] <hi rend="italic">KBK NKS 2869, 4&deg;, 2, KBK Collin 262, 4&deg;, I.2, 8.&dash;10.&tu20;utg., FU, 11.&dash;13.&tu20;utg.</hi> &dash; om; <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 894, NBO Ms.4&deg; 4461, 2.&dash;7.&tu20;utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

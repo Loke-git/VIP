@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Peer Gynt]</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1940 (bruddstykke av sceneplan)</title>
+<title level="a" type="origYear">[udatert]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Ingrid Falkenberg, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Transkripsjon av faksimiler, mai 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing:</resp>
+<name>Ingvald Aarstein</name></respStmt>
+<respStmt><resp>Kollasjonering, korrekturlesing, kodekontroll 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="PG81940-0307"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på prosjektets transkripsjon.</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="PG81940">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.8&deg; 1940</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>Henrik Ibsen</author>
+                <title>[uten tittel]</title>
+                <docDate>senest 5. januar 1867</docDate>
+            </msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendig arbeidsmanuskript til sceneplan, ufullstendig</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>PG81940</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler, majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>overskrifter 1 ("3die Handling", "4de Handling"): større skrift, understreket</item>
+<item>overskrifter 2 ("situasjonsbeskrivelsen" for sceneskift): avsnittsinnrykk av varierende lengde, understreking, dramateksten følger på samme linje. Koder bare overskrift der det er understreking.</item>
+<item>avsnitt: venstrejustert, minimale marger</item>
+<item>arksignatur: øverst i venstre hjørne</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes><handNote scribe="HI" medium="pen-black" scope="major"><p>Ibsens hånd, sort penn.</p></handNote></handNotes>
+</profileDesc>
+
+<revisionDesc>
+<change when="2011-08-10" who="SBT"><title>Oppdatering</title>
+Oppdaterte etter nytt skjema. Fila er valid.</change>
+<change when="2011-08-10" who="SBT"><title>Tilpasning</title>
+Endret sti til skjema. La inn type-attributt i respStmt. Fila er valid.</change>
+<change when="2011-06-29" who="SBT"><title>P5</title>
+Kodet om fra P4 til P5. La inn type- og rend-attributt i text. NB: ENDRE HÅNDVERDIER I HÅNDLISTA - SJEKK MOT TONES MS.BESKR.!</change>
+<change when="2011-01-31" who="SBT"><title>Validering</title>
+Endret til UTF-8 + oppdaterte dtd-adresse i dokumenttopp. Validert.</change>
+<change when="2009-12-07" who="HMS"><title>Koding til synoptisk visning; noter og siccing</title>
+La inn synopticViewPtr-punkter til synoptisk visning. La in ed=faksBase i pb-kodene som viser til faksimilebasen + la inn egne pb-koder for Tones msbetegnelser. Lagde synoptisk visning med PG67. Gikk gjennom noter, fjernet siccing. Validert.</change>
+<change when="2008-02-29" who="HB"><title>sheet -&gt; gathering</title>
+Byttet ut sheet med gathering, etter vedtak om at legg i ms og ark i trykk ikke skal være samme type.</change>
+<change when="2007-03-08" who="HB"><title>Ms-omkoding og kodesjekk</title>
+Gjennomgikk og oppdaterte app, add og del, rekkefølge på unclear/del. * Fjernet siste head hvor teksten var helt uten markering. Fjernet sluttagg for figure der elementet er tomt. * Endret verdier i hand, id og ink i handList. La til to pb-tagger sist i fila siden mset består av to dobbeltblad hvorav de to siste sidene er blanke. * NB: Ikke sjekket mot TMs msbeskr i 5k. Verdien i den innledende gap-taggen bør også sjekkes mot TMs beskr. * Filen er valid. Laget ny visning, som ikke er bra og må byttes ut ved neste filoppdatering.</change>
+<change when="2006-03-10" who="MW"><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change when="2005-08-24" who="MW"><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change when="2002-08-14" who="IF"><title>Kontroll</title>Kollasjonert mot originalen på NBO. Ført inn noen endringer. La inn noen nye apparater. Kodekontroll. Endret apparatet til 'Fjeldet'. Ført inn ny URL i docType i teiHeader, jmf. TMB. Oppdaterte principal. Oppdaterte sourceDesc. Filen ville ikke valideres hvis ikke den første fw ble lagt utenfor alle 3 divene, ble derfor lagt der. Er ikke sikker på om det er logisk. Fjernet noten til gap=leaf. Vurderte å endre leaf til leaves fordi det er sannsynlig at det er 2 blad=et helt ark som mangler (dvs. ark 1.), men IAA og jeg vurderer attributtet 'leaf' som mer generell og derfor mindre tolkende i denne sammenheng - det kan jo være fler eller færre enn 2 blad som mangler. Vurderte å legge inn koding med milestone som viser at det er to separate ark, som kan ha ulik datering, men etter konsultasjon med IAA lot det være. Endret i avsnittet om sceneoverskrift i typografibeskrivelsen. Har kodet siste sceneoverskrift, som er innrykket, men ikke understreket, som head med deviation, da det faktisk innleder ny scene, støttet både av innholdet og det typografiske innrykket (som i teksten kun forekommer ved ny scene). Validert. Regner teksten som ferdig i denne omgang.</change>
+<change when="2002-07-16" who="IF"><title>Oppdatering</title>Rettet shy-elementet til entitet. Fjernet entitetslista. Validering mot ny dtd viser at p ikke godtas i linje 132. Gjenstår: kontroll av tekst mot originalen, kontroll av koding og validering.</change>
+<change when="2002-01-22" who="IAA"><title>Oppdatering</title>
+Gjort visse oppdateringer etter kodemøtet 7. desember 2001 (div-koding, rend-attributt til del, TM i teiheader). Lar attributtverdiene til div står inntil videre. Filen er validert.</change>
+<change when="2001-11-02" who="IAA"><title>Typografibeskrivelse</title>
+Har laget et utkast til typografibeskrivelse.</change>
+<change when="2001-10-23" who="IAA"><title>Revisjon</title>
+Koding forandret og forbedret med bruk av div- og head-elementer, jf. kodepraksis pkt. 17.10. Ser gjennom transkribering og koding av omskrivninger.</change>
+<change when="2001-05-15" who="IAA"><title>Transkripsjon og koding</title>
+Grunnarbeidet gjort. Kan man tale om aktinndeling i en tekst som dette? Hva med id-attributter til personene? Enkelte vanskelig leselige passasjer (overstrykninger osv.) må gjennomgås.</change>
+</revisionDesc>
+</teiHeader>
+
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<gap extent="leaf"/><note resp="editor">Første dobbeltblad mangler.</note>
+<pb ed="source" type="folio_nopagination" subtype="recto" gathering="2" n="1" facs="1"/>
+<lb/><fw type="gathering" place="top-left">2.</fw>
+<div type="draft">
+<div type="actDraft">
+<div type="sceneDraft">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_242ms"/><lb/><p>bliver efter. Solvejg beder Aase fortælle mere
+<lb/>om Peer Gynt. Aa, mener Aase, om ham kun&typHyp;
+<lb/>de en fortælle saa en aldrig blev færdig.</p>
+</div>
+<div type="sceneDraft"><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_92ms"/>
+<lb/><head>Paa den anden Side Vandet.</head><p>Peer Gynt
+<lb/>ligger i Bakken og græder. Solvejg og Helga
+<lb/>kommer for at hvile lidt mens de andre
+<lb/>søger Vandet rundt. De støder paa Peer
+<lb/>Gynt. Havde du danset med mig, var ikke
+<lb/>dette hændt, siger <HIS:hisDel rend="overwritten"><unclear>hun</unclear></HIS:hisDel>han. Nu vil hun gjerne
+<lb/>svarer hun. Han: nu skal der mere till.
+<lb/>Han faar sige fra; h<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>vad der staar i hendes
+<lb/>Magt skal hun gjøre. Bliv hos mig, <unclear reason="writing">lev</unclear>
+<lb/>h<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>os mig &dash; I Jesu Navn d<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>a! &dash; Giv mig et
+<lb/>Kys &dash; I Jesu Navn da! Solvejg gaar. Peer
+<lb/>Gynt græder. Nu faar det gaa som det vil.
+<lb/><HIS:hisDel rend="overwritten">h</HIS:hisDel>Han gaar.</p>
+</div><div type="sceneDraft">
+<lb/><head>Inde mellem øde Berghouger.</head><p>Peer
+<lb/>Gynt kommer. Tre Sæterjenter løber paa
+<lb/>Hougene og skriger og synger. &dash; Han støder
+<lb/>sammen med dem. Baade Latter og For&typHyp;
+<lb/>tvivlelse er over dem. Vilde Scener; de farer
+<lb/>videre med Peer Gynt.</p>
+</div><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_243ms"/><div type="sceneDraft">
+<lb/><head>Mellem Ronderne. Kveldstid.</head><p>Peer Gynt
+<lb/>kommer halv forvildet; han ser Syner. Den
+<lb/>grønklædte Kvinde møter ham. <HIS:hisDel rend="overwritten">D</HIS:hisDel>Fjeldet aabner
+<lb/>sig. Dans, Jubel og vild Glæde. Synerne vexler.
+<lb/>Han staar i bælmørk Natt udenfor Aases Sæterstue
+<lb/>og støder paa den store Bøigen. Kamp med
+<lb/>det store usynlige. Vinder <unclear reason="writing">derind</unclear>. Der er tomt.
+<lb/>Kjæmper sig ud igjen. Bøigen er overalt.
+
+<pb ed="source" type="folio_nopagination" subtype="verso" gathering="2" n="1" facs="2"/>
+<lb/>Fortvivlelse griber ham. Alene, alene! Alle har
+<lb/>forladt ham. Da ringes der efter ham langt
+<lb/>borte, han hører Moderens Stemme. Bøigen
+<lb/>svinder ind, Synerne taber sig, det lysner.
+<lb/>Peer Gynt synker sammen. <HIS:hisDel rend="overstrike">P</HIS:hisDel></p>
+</div><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_244ms"/><div type="sceneDraft">
+<lb/><head>Paa Hejen ved Soloppgang.</head><p>Peer Gynt vaagner.
+<lb/>Slapphed og Vammelhed har grebet ham.
+<lb/>Lille Helga bringer Niste og Bud fra Søsteren
+<lb/>som venter nedenunder <HIS:hisDel rend="overstrike">ikk</HIS:hisDel> i Bakkerne. Han
+<lb/>sender Bud tillbage. Vil langt bort.</p>
+</div>
+<lb/><figure type="bar"/>
+</div><div type="actDraft"><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_112ms"/>
+<lb/><head>3<hi rend="raised">die</hi> Handling.</head>
+<div type="sceneDraft">
+<lb/><head>Dybt inde og højt oppe i Storskogen.</head>
+<lb/><p>Peer Gynt staar stærk og djærv og hugger Gavn&typHyp;
+<lb/>tømmer. Drømmeriet kommer; det er Kjæmper
+<lb/>han fælder; han jager det fra sig. Han ta&typHyp;
+<lb/>ger en Stokk paa Ryggen; da lytter han. En
+<lb/>Gut lister nede i Lien, ser sig sky om, og
+<lb/>hugger en Finger af sin Hand. Peer Gynt
+<lb/>er bleven bleg; tænke og ville sligt, det skjøn&typHyp;
+<lb/>ner han; men gjøre det, det skjønner han
+<lb/>ikke.</p>
+</div><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_245ms"/><div type="sceneDraft">
+<lb/><head>I Aases Stue.</head><p>Aase ligger syg. Alle
+<lb/>Tanker gaar mod Sønnen. Husmands&typHyp;
+<lb/>konen steller om hende. Hun ordner Klæ&typHyp;
+<lb/>der og andet till ham. Hun synger.</p>
+</div><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_246ms"/><div type="sceneDraft">
+<lb/><head>Udenfor Peer Gynts Nybyggerhytte.</head>
+<lb/><p>Peer Gynt tømrer og sysler. Det er mod
+
+<pb ed="source" type="folio_nopagination" subtype="recto" gathering="2" n="2" facs="3"/>
+<lb/>Kveldstid. Solvejg kommer med en liden
+<lb/>Bylt. Nu faar han tage hende i Guds
+<lb/>Navn, siger hun. Det var ikke Liv dernede.
+<lb/>Hun kunde ikke andet. Hun er gaaet fra
+<lb/>Fader, Moder og Syster. Værst, at sige Farvel
+<lb/>till dem alle. Peer Gynt tør knappt tro
+<lb/>det. Han løfter hende højt ivejret; han
+<lb/>synes hun er ligesom for fin; han tør
+<lb/>knappt røre ved hende. Hun gaar ind.
+<lb/>Han vil hente Ved. En halt Kjærring
+<lb/>i en gammel grøn Stakk, og med en
+<lb/>stygg Unge ved Haanden, møder ham.
+<lb/>Han maa se Sønnen sin, siger hun.
+<lb/>Han er voxet fort. De kan bo alle till&typHyp;
+<lb/>hobe. Slipp Solvejg, saa blir hun vakker
+<lb/>igjen. Hun kommer efter; favner han
+<lb/>Solvejg, saa sidder hun bredved. Hun
+<lb/>gaar. Peer Gynt er alene; alle vilde Stun&typHyp;
+<lb/>der drager forbi hans Minde. Ingrid
+<lb/>og Sæterjenterne tør ogsaa komme, tæn&typHyp;
+<lb/>ker han. Der blir for folksomt. Det
+<lb/>er ikke for Solvejg, dette her; hvor skjær
+<lb/>hun var. Ikveld kan han ikke sige
+<lb/>hende noget. Der er Stygghed i det;
+<lb/>han maa bort fra det. Solvejg kom&typHyp;
+<lb/>mer frem i Halvdøren og raaber
+<lb/>paa ham. Peer Gynt siger hun
+<lb/>faar vente. Han gaar. Solvejg staar
+<lb/>i Døren og venter. &dash;</p>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" gathering="2" n="2" facs="4"/><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_247ms"/>
+<div type="sceneDraft">
+<lb/><head>I Aases Stue.</head><p>Aase ligger paa Sottesengen.
+<lb/>Peer Gynt kommer. Hun spørger om Solvejg.
+<lb/>Han skyder Svaret fra sig. Hun maa dø, siger
+<lb/>hun. Men ikke saa snart, mener Peer Gynt.
+<lb/>Hun tænker paa at hente Presten. Men ikke
+<lb/>ikveld, siger han; ikke al den Uhygge ikveld.
+<lb/>Han sætter sig paa Sengestokken. Katten er
+<lb/>Hest, han synger, han kjører hende till
+<lb/><HIS:hisDel rend="overstrike">Kjærl</HIS:hisDel> Herlighed og Glæde. Aase er død.
+<lb/>Husmandskonen kommer. Hun faar
+<lb/>faa Moderen begravet med Ære, siger han;
+<lb/>han selv maa langvejs. Hvor, spørger hun.
+<lb/>Mod Havet, siger han; han gaar.</p>
+</div>
+<lb/><figure type="bar"/>
+</div>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_131ms"/><div type="actDraft">
+<lb/><head>4<hi rend="raised">de</hi> Handling.</head>
+<div type="sceneDraft">
+<lb/><p>Paa Kysten af Afrika. Palmeskov. Lidt udenfor
+<lb/>i Bugten ligger en Lystyacht med norsk og
+<lb/>amerikansk Flag oppe. Lystigt Selskab om
+<lb/>en prægtig Frokost. S<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ivmatter og Solsejl.
+<lb/>Peer Gynt en smuk middelaldrende Her<HIS:hisDel rend="overwritten">e</HIS:hisDel>re
+<lb/>i elegant Rejsedragt med Guldbriller og
+<lb/>ditto Lorgnet presiderer som Vært for Bordenden.
+<lb/>Mr: Cotton, Hr: Trumpeterstråle og Hr: Eberk<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>opf
+<lb/>om Bordet. Mr: Ballon lidt fra. Samtalen
+<lb/>drejer sig om store Planer, og Tidens Slapphed. Peer
+<lb/>Gynt antyder sin Fortidshistorie. Mr. Ballon,
+<lb/>som har læst i Aviserne, springer opp; Grækerne
+<lb/>har gjort Oppstand. Her er noget at tage vare,
+
+<pb ed="source" type="folio_nopagination" subtype="recto" gathering="3" n="1" facs="5"/>
+<lb/><fw type="gathering" place="top-left">3.</fw>
+<lb/>Nu kan de alle gjøre deres Lykke. <unclear reason="writing">M:</unclear> Cotton
+<lb/>vil anlægge Gruber i Olympen og beregner
+<lb/>Castales Hestekraft. Mr: Ballon vil med fordi
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>han er henreven. Hr: Eberkopf vil civilisere
+<lb/>og bringe sit Fædrelands Kultur ind over
+<lb/>Grækerne; desforuden er han trængende.
+<lb/>Hr: Trumpeterstråle vil fremdrage for Verden
+<lb/>et par store Sporespænder, som skal findes i
+<lb/>Bender. Men Peer Gynt, som har sit paa
+<lb/>det tørre vil ikke med. Slige Galskaber kan
+<lb/>man nære naar man intet ejer; men
+<lb/>man skal ikke rutte med Guds Gaver.
+<lb/>Han gaar uvillig. De øvrige vil afsted till
+<lb/>Grækenland, men øjner ingen Udvej, indtill
+<lb/>Hr. Eberkopf foreslaar at annectere Lystkut&typHyp;
+<lb/>teren, hvilket vedtages med Reservation fra
+<lb/>Mr. Cotton at han vil erstatte med Aktier i
+<lb/>Olympen og Kastale, Eberkopt vil tillegne
+<lb/>P.G. sit nye Værk om Civilisationskrigen,
+<lb/>Ballon vil sende ham en Laurbærkrans og
+<lb/>Trumpeterstråle vil give ham <HIS:hisDel rend="overwritten">L</HIS:hisDel>lov till
+<lb/>tre Gange at bære de store Spænder, som
+<lb/>skal findes i Bender. Annexionen ved&typHyp;
+<lb/>tages, de gaar.</p>
+</div>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="PG_248ms"/><div type="sceneDraft">
+<lb/><p>Ved en Oase i Ørkenen. Peer Gynt
+<lb/>alene og forladt. Mænd duer ikke; han
+<lb/>siger sig løs fra dem alle og fra alt
+<lb/>Venskab. En Slave med Emirens stjaalne
+<lb/>Hest og Klædning. Peer Gynt afkjøber ham
+<lb/>begge Dele og rider gjennem Ørkenen.
+
+<pb ed="source" type="folio_nopagination" subtype="verso" gathering="3" n="1" facs="6"/>
+<lb/>Tyvens Reflexioner. Hans Far og Farfar var Tyve. Han
+<lb/>ogsaa; det er Pligt mod Allah at være sig selv. Allah
+<lb/>er stor! &dash;</p>
+</div>
+</div>
+</div>
+<pb ed="source" type="folio_nopagination" subtype="recto" gathering="3" n="2" facs="7"/>
+<pb ed="source" type="folio_nopagination" subtype="verso" gathering="3" n="2" facs="8"/>
+</body>
+</text>
+</TEI>

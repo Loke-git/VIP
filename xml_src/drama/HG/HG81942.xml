@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+ [
+ <!ENTITY % HIS_entiteter SYSTEM
+ 'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd' >
+ %HIS_entiteter;
+ ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+ <teiHeader xml:lang="nob">
+ <fileDesc>
+<titleStmt>
+<title level="a" type="main">Hedda Gabler</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1942</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1890</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Mette Witting</name></respStmt>
+ <respStmt>
+<resp>Oppretting og 1. kollasjon mot faksimile, oktober 2006</resp>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>2. kollasjon mot original, mai 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="HG81942-1111"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er opprettet på grunnlag av faksimilen NBO Ms.8&deg; 1942 (10.06)</p>
+ <p><HIS:hisMsDesc type="workingManuscript" xml:id="HG81942">
+ <msIdentifier>
+ <settlement>Oslo</settlement>
+ <repository>Nasjonalbiblioteket</repository>
+ <idno>NBO Ms.8&deg; 1942</idno>
+ </msIdentifier>
+ <msContents><msItem>
+ <author>[Henrik Ibsen]</author>
+ <title type="main">Hedda</title>
+ <title type="sub">Skuespil i fire akter.</title>
+ <docDate>[1890]</docDate>
+ </msItem></msContents>
+ <physDesc><objectDesc><p>Egenhendig notat/arbeidsmanuskript. Side 2 i manuskriptet er en brevkladd (Budat1890MMK_u).</p></objectDesc></physDesc>
+ </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Manuskriptet består av 3 løse ark (a = 4 sider).</item>
+<item>Skriftgruppe: latinsk håndskrift, majuskler og minuskler, venstrehellende</item>
+<item>Overskrifter: Midtstilt, litt større skrift</item>
+<item>På ark 3, første side er det kryss foran de tre første avsnittene.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+ <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem xml:id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label>TESMAN</label><item>Axel Tesman/-/-</item>
+<label>HEDDA</label><item>Fru Hedda Tesman/-/-</item>
+<label>FRØKENTESMAN</label><item>Frøken Tesman/-/-</item>
+<label>LØVBORG</label><item>Holger Løvborg/-/-</item>
+<label xml:id="BRACK"></label><item>-/-/-</item>
+</list>
+</tagUsage></namespace>
+ </tagsDecl>
+ <variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>07.11.11</date><name>SBT</name><title>sideskift</title>
+La inn TM's sidebenevnelser (1r, 1v osv.).</change>
+<change><date>04.11.11</date><name>SBT</name><title>Omkoding til HISe og TEI P5</title>
+Utførte enkel kodekontroll. Fjernet group-struktur, siden den bare inneholdt én text. Kodet rolleliste i front. Gikk gjennom noter. Siccing blir stående, men skal undertrykkes i visning.</change>
+<change><date>29.08.07</date><name>AAH</name><title>Endringer</title>
+Noen endringer etter gjennomgang av ms. på NBO med HB. Validert.</change>
+<change><date>29.06.07</date><name>AAH</name><title>Koding</title>
+Endret fra div type=work til div type=relatedToWork. Validert.</change>
+<change><date>02.05.07</date><name>MW</name><title>2. koll.</title>
+Innføring av resultatene av 2. kollasjon mot original. Sjekket n-attributtene i pb så de følger faksimilebasens. De blanke sider som ikke er med i faksimilebasen er notert i arb.noter. Endret på id-verdiene til rollene så id-deklarasjonen nå står i rollelisten. Bare Brack var ikke i rollelisten, men blir brukt med who-attributt i q-koder. Derfor får han id-verdi i id-who-listen. DTD-en vil ble endret så who-attributter i q må ha en id-deklarasjon i samme fil. Så på typografibeskrivelsen. Grei at den er kortfattet. Klar for kodekontroll.</change>
+<change><date>25.04.07</date><name>AAH</name><title>Koding</title>
+Koding. Validert.</change>
+<change><date>20.10.06</date><name>AAH</name><title>Oppretting</title>
+Opprettet filen på grunnlag av transkripsjon av faksimile, NBO Ms.8&deg; 1942. Typografibeskrivelsen og id-who-listen er ikke sjekket. handList må sjekkes. Validert.</change>
+</revisionDesc>
+</teiHeader>
+ 
+ <text type="drama" rend="handwritten"  xml:lang="da-nob">
+<front>
+  
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1" gathering="1"/>
+ <note resp="editor">Skriften på denne siden er snudd på hodet i forhold til de andre sidene på arket.</note>
+<lb/><HIS:hisCastList><head>Personerne:</head>
+<lb/><castItem xml:id="TESMAN">Axel Tesman, dr.fil:</castItem>
+<lb/><castItem xml:id="HEDDA">Fru Hedda Tesman, hans hustru.</castItem>
+<lb/><castItem xml:id="FRØKENTESMAN">Frøken Tesman, hans tante.</castItem>
+<lb/><castItem xml:id="LØVBORG">Holger Løvborg.</castItem>
+<lb/><castItem>Fru Rising.</castItem></HIS:hisCastList>
+ 
+ <pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="2" gathering="1"/>
+ <note resp="editor">På denne siden står en brevkladd, udatert 1890 til Marie Kreukniet (Budat1890MMK_u).</note>
+ <note resp="editor">Brevkladden gjengis ikke her, men er inkludert i brevmaterialet.</note>
+ <lb/><p/>
+ <lb/><p/>
+ <lb/><p/>
+ <lb/><p/></front>
+<body>
+
+<!-- pb n="legg 1, [2]r"/ --><!-- mangler bilde av blank side i faks.base? -->
+
+  <div type="relatedToWork">
+   <lb/><p/>
+   <lb/><p/>
+   <lb/><p/>
+   <lb/><p/>
+   <lb/><pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="3" gathering="1"/>
+   <p>Løvborg.</p>
+   <note resp="editor">Skrevet vertikalt langs nedre venstre marg.</note>
+   <lb/><p/>
+  <lb/><p/>
+
+  <lb/><p/>
+  <lb/><p/></div>
+ 
+<pb ed="source" type="folio_nopagination" subtype="recto" n="3" facs="4" gathering="1"/>
+<lb/><div type="relatedToWork"><head>Hedda.</head>
+<lb/><head>Skuespil i fire akter.</head>
+<lb/><div type="act" n="1"><head>Første akt.</head>
+<lb/><p>Jørgen Tesman og Hedda er netop
+<lb/>kommet h<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>jem fra et halvt års bryllupsrej&typHyp;
+<lb/>se i ud<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>landet. Han har rejst med stort
+<lb/>statsstipendium og har derude erhvervet
+<lb/>doktorgraden. Er udsét til professor i
+<lb/>kunsthistorie. Siden sin barndom har han
+<lb/>været i huset h<HIS:hisDel rend="overwritten">a</HIS:hisDel>os sine to tanter, frøkener&typHyp;
+<lb/>ne Rysing, hvoraf den ene stedse er sen&typHyp;
+<lb/>geliggende, lammet af slag. Opdragelsen
+<lb/>gennem disse to gamle damer har afsat
+<lb/>sine spor i hans karakter og personlig&typHyp;
+<lb/>hed. Han er skikkelig, flittig, jevnt godt
+<lb/>begavet, et forhenværende &lquo;skolelys&rquo; men
+<lb/>uselvstændig, rådløs, har aldrig lært at
+<lb/>hjælpe sig selv. Under hans fraværelse har
+<lb/>hans faster, Jane, og assessor<HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> Brack ef&typHyp;
+<lb/>ter hans ønske købt en villa for ham, som
+<lb/>han altid have drømt om at få bo i og
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="3" facs="5" gathering="1"/>
+ 
+<lb/>som han indbilder sig at Hedda også
+<lb/>sværmer for. Han er ved hjemkomsten
+<lb/>33&dash;34 år gammel.</p>
+<lb/><p>Hedda, hans hustru, datter af afdøde
+<lb/>general Gabler, har været en fejret bal&typHyp;
+<lb/>dame. Hun er nu 28&dash;29 år. En voksbleg
+<lb/>skønhed med langsomme lader.</p>
+<lb/><p>Assessor Brack er en elegant selskabs&typHyp;
+<lb/>mand, som har kommet meget til generalens
+<lb/>og været <sic>Hedds</sic> erklærede balkavalér. Han
+<lb/>er ungkarl og 42&dash;43 år. Konverserer godt
+<lb/>med et frivolt underlag.</p></div>
+<lb/><div type="act" n="1"><head>Scenegang.</head>
+<lb/><p>Faster Jane føres ind i salonen af den
+<lb/>gamle tjenestepige Berte. Synes alt er
+<lb/>prægtigt indre<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ttet, glæder sig over sit værk.
+<lb/>Samtale der orienterer med hensyn til
+<lb/>forholdene.</p>
+<lb/><p>Jørgen Tesman kommer fra soveværel&typHyp;
+<lb/>serne. Berte går. Samtale, lang og hjer&typHyp;
+<lb/>telig, mellem ham og tanten.</p>
+<lb/><p>Hedda kommer. Slår persiennen op
+<lb/>og gribes næsten af skræk ved at se landska&typHyp;
+<lb/>bet så høstligt. (Det er midt i September.)
+<lb/>Der ude i det sydlige var det fuld sommer.
+<lb/>Let antydet utilfredshed med et og andet.
+<lb/>Sammenstød med frøken Rysing. Tydes
+<lb/>af denne og Tesman som følge af træthed
+
+<pb ed="source" type="folio_nopagination" subtype="recto" n="4" facs="6" gathering="1"/>
+ 
+<lb/>efter rejsen. Frøken Rysing går.</p>
+<lb/><p>Samtale mellem Tesman og Hedda. Han:
+<lb/><q type="speech" who="TESMAN">Kunde du ikke for min skyld bekvemme dig
+<lb/>til at sige du til hende og kalde hende tante.</q>
+<lb/>Hun: <q type="speech" who="HEDDA">Hvorfor ikke faster? Faster Jane. Det
+<lb/>klinger så smagfuldt.</q> Han: <q type="speech" who="TESMAN">Ja men når hun
+<lb/>nu sætter så stor pris på det.</q> Hun: <q type="speech" who="HEDDA">Skulde
+<lb/>jeg kanske ikke også kalde dig for Jørgen?
+<lb/>Det klinger heller ikke ilde.</q> Han: <q type="speech" who="TESMAN">Du skulde 
+<lb/>bare vide hvor meget vi skylder hende.</q> Hun:
+<lb/><q type="speech" who="HEDDA"><HIS:hisDel rend="overwritten">v</HIS:hisDel>Vi? Nej véd du hvad! Der må<HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> da også være
+<lb/>måde på, hvor meget et par mennesker er
+<lb/>gift med hinanden.</q> (Resten som i konceptet.)</p>
+<lb/><p>Fru Elfsted meldes og kommer. Optrin
+<lb/>mellem hende, Tesman og Hedda. Hun er et
+<lb/>par år yngre end Hedda. Er spinkel og ser
+<lb/>forskræmt ud. Har store runde øjne. Samta&typHyp;
+<lb/>lens gang omtrent som i konceptet. Fru E.
+<lb/>fortæller at <app type="alteration"><lem><HIS:hisAdd place="offline">H. L.</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">han</HIS:hisDel></HIS:hisRdg></app> er rejst her ind med et manu&typHyp;
+<lb/>skript for at tale med Tesman. Hedda får Tes&typHyp;
+<lb/>man til at skrive ham til. Han går ind i sit væ&typHyp;
+<lb/>relse.</p>
+<lb/><p>Hedda og fru Elfsted i fortrolig samtale.
+<lb/>Hovedsagelig således som i konceptet. <HIS:hisDel rend="overstrike">Tes&typHyp;
+<lb/>man</HIS:hisDel></p>
+<lb/><p>Tesman kommer ind med brevet, Kort op&typHyp;
+<lb/>trin mellem ham og damerne. Berte melder
+<lb/>assessoren og får brevet til besørgelse.</p>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="4" facs="7" gathering="1"/>
+ 
+<lb/><p>Assessor Brack kommer. Optrin mellem
+<lb/>ham, Tesman, Hedda og fru Elfsted. Brack
+<lb/>indbyder T. til herreselskab om aftenen. Denne af&typHyp;
+<lb/>slår da han har b<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>edt E. L. til sig. Brack: <q type="speech" who="BRACK">Umuligt
+<lb/>at afslå; alt er forberedt.</q> Hedda: <q type="speech" who="HEDDA">Kommer L. så
+<lb/>tar jeg imod ham. Og fru E. kan jo også komme
+<lb/>hid.</q> Dette vedtages. Damerne går.</p>
+<lb/><p>Brack og Tesman i længere samtale.
+<lb/>Rygterne om konkurencen bringes på bane.
+<lb/>T. geråder i skræk og uro. Hedda kommer til&typHyp;
+<lb/>bage.</p>
+<lb/><p>Brack, Tesman og Hedda. Tesman: <q type="speech" who="TESMAN">E. L. tæn&typHyp;
+<lb/>ker på at stille sig imod mig.</q> Hun: <q type="speech" who="HEDDA">Hvad me&typHyp;
+<lb/>ner <sic>Du</sic> med det!</q> Forklaring. Hun beroliget.
+<lb/>B. går.</p>
+<lb/><p>Tesman og Hedda i kort samtale. Hedda
+<lb/>går ind i sit værelse. T. blir ved bordet.</p></div>
+ 
+ 
+ <lb/><div type="act" n="2"><pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="8" gathering="2"/>
+  <head>Anden akt.</head>
+<lb/><p>Hedda sid<HIS:hisDel rend="overwritten"><gap/>r</HIS:hisDel>der selskabsklædt ved ovnen.
+<lb/>Assessor Brack kommer. Længere sam&typHyp;
+<lb/>tale mellem <sic>den</sic>.</p>
+<lb/><p>Tesman kommer hjem fra byen.
+<lb/>Han har købt Ls nye bog og bladet i den
+<lb/>undervejs. Samtale <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>anderledes end i kon&typHyp;
+<lb/>ceptet. Tesman går ind i sit værelse.</p>
+<lb/><p>Hedda og Brack a<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tter alene. Hun vån&typHyp;
+<lb/>der sig under bevidstheden om at hun ikke
+<lb/>ejer noget livsmål og finder sig på sam&typHyp;
+<lb/>me tid oprørt over at T. finder det i sin
+<lb/>orden. Hun kan jo dele hans interesser.</p>
+<lb/><p>Tesman kommer tilbage. Samtale
+<lb/>mellem ham, Hedda og Brack.</p>
+<lb/><p>Ejlert Løvborg kommer. Optrin mel&typHyp;
+<lb/>lem ham, Tesman, Hedda og Brack.
+<lb/>Tesman og Brack ind i sideværelset.</p>
+<lb/><p>Ejlert Løvborg og Hedda alene. Sam&typHyp;
+<lb/>talen føres undvigende fra hendes side.</p>
+<lb/><p>Fru Elvsted kommer. Stigende hæftigt
+<lb/>optrin med Ejlert Løvborg og Hedda.</p>
+<lb/><p>Tesman og Brack kommer tilbage.
+<lb/>T. er forbauset. B. forstår. B. <q type="speech" who="BRACK">Få ham med!</q></p>
+<lb/><p>Fru E. f<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>orfærdet. H. observerer i spænding.
+
+ 
+ <lb/><pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="9" gathering="2"/>
+ Hun håner hans fejghed. Hans stolthed rej&typHyp;
+<lb/>ser sig, Er i fortvilelse. <q type="speech" who="LØVBORG">Godt jeg går med.</q></p>
+<lb/><p>Fru <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>E. er <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel><sic>bæver</sic> men vover ikke at mod&typHyp;
+<lb/>sige. Alle tre går.</p>
+<lb/><p>Hedda og fru Elfsted alene sammen.
+<lb/>H: <q type="speech" who="HEDDA">Bliv her. Du får ikke lov til at <emph>gå</emph> før
+<lb/>T: kommer. Ikke om, det så skal vare hele
+<lb/>natten.</q></p>
+</div></div></body>
+</text>
+</TEI>

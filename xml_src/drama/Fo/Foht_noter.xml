@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:lang="nob" xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Fo">En folkefiende</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt>
+        <resp>Konvertering til  TEI-P5, juni 2011</resp>
+        <name xml:id="EDD-ESO">Espen S. Ore</name>
+    </respStmt>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+    <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+    <tagUsage gi="tei">Kodingen her er gjort så enkel som mulig.</tagUsage>
+    </namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+    <change when="2011-08-19" who="SBT"><title>Oppdatering etter nytt skjema. Validert.</title></change>
+    <change when="2011-08-11" who="SBT"><title>Endret sti til skjema.</title></change>
+    <change when="2011-06-03" who="ESO"><title>Konvertering til HIS-P5</title></change>
+    <change when="2010-09-10" who="SBT"><title>Gjorde om til HISe-fil.</title></change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteFo_1"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_1">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteFo_2"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_2">Doktor Stockmann</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> Doctor Stokkmann <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_3"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_3">Latter,</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> Latter. <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_4"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_4">døren</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954,</hi> dørene <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteFo_5"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_5">du</HIS:hisRef>] <hi rend="italic">FU,</hi> Du <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 954, 2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_6"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_6">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2&dash;3, NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> A <hi rend="italic">ekspl. 1</hi></note>
+<note resp="editor" xml:id="noteFo_7"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_7">hvas?</HIS:hisRef>] hvas <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteFo_8"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_8">hvor?</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954,</hi> hvor! <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteFo_9"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_9">sortklædt,</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> sortklædt. <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_10"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_10">let forståelige</HIS:hisRef>] <hi rend="italic">HIS,</hi> let forstålige <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 954,</hi> letforstålige <hi rend="italic">2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteFo_12"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_12">da!</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> dal <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_13"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_13">dér</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> dèr <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_14"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_14">Horster?</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954,</hi> Horster. <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteFo_15"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_15">halsstarrighed</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954,</hi> halstarrighed <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteFo_16"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_16">dér!</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954,</hi> dér? <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteFo_18"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_18">parti-høvding</HIS:hisRef>] <hi rend="italic">FU,</hi> partihøvding <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 954, 2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteFo_17"><HIS:hisRef type="tcNote" target="Foht.xml" corresp="noteFo_17">I</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 954, 2.&tu20;utg., FU,</hi> J <hi rend="italic">1.&tu20;utg.</hi></note>
+<p/>
+</div></body></text></TEI>

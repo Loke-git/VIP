@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Rosmersholm</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1291e</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og første kollasjon, juni-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respStmt>
+<respStmt><resp>2. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Ro41291e-0312"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på Ro41291_pre_splitt (Ro41291-0907).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Ro41291e">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1291e</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>[Rosmersholm]</title>
+<docDate>[1886]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript (replikkutkast).</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>For hovedpunkter: se typografibeskrivelsen i arkivert Ro41291_pre_splitt.xml</item>
+<item>Annet: faksimileside 243: skråstilt strek i venstre marg litt under midten. Denne er ikke transkribert, da jeg ikke har kunnet se at den har noen funksjon.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ROSMER"/><item>Rosmer, R., Rm.</item>
+<label xml:id="REBEKKA"/><item>Rebekka, Rb., Reb., R.</item>
+<label xml:id="KROLL"/><item>Kroll, Kr.</item>
+<label xml:id="BRENDEL"/><item>Br., U. B.</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+<handNote scribe="HI-2" xml:id="HI-2" medium="pencil" rend="orange"><p>Blyant. Henrik Ibsen. Enkelte tilføyelser.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>En eller flere blyanter. Bibliotekar(?). Arkfoliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>23.03.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>HMS</name><title>Ny koding til synoptisk visning; fjerning av siccing og noter</title>
+Erstattet 'xptr type=synopticView_msVersions' med 'synopticViewPtr type="synopticView_textWitnesses'. Fjernet siccing og arbeids- samt typonoter.</change>
+<change><date>27.08.09</date>
+<name/><title>Koding til synoptisk versjonsvisning</title>
+Kodet inn sidetall som følger ms-beskrivelsen (legg/blad). Kodet inn xptr-koder og lagde synoptiske visninger.</change>
+<change><date>02.06.08</date>
+<name>HMS</name><title>type=refMark</title>
+La inn attributtet type=refMark i ref-kodingen. Validert.</change>
+<change><date>31.01.08</date>
+<name>HMS</name><title>Noen små endringer etter kontroll</title>
+Noen små endringer i teiHeader etter kontroll av filsplittingen, spes. i id-who-lista.</change>
+<change><date>31.01.08</date>
+<name>MW</name><title>Visning med farging av hender</title>
+Klargjøring av filen for å lage visning med farging av hender (til en egen kontroll av hand-kodingen). Validert. Lager ny visning.</change>
+<change><date>09.01.08</date>
+<name>HB</name><title>Splittet Ro41291_pre_splitt i Hv41291a, Hv41291b og Hv41291c samt Ro41291d og e</title>
+Splittet Ro41291_pre_splitt i Hv41291a, Hv41291b og Hv41291c samt Ro41291d og e. Den opprinnelige Ro41291_pre_splitt-filen arkiveres i pre-splitt-versjon samt NBO-versjon. Legger en samlet typografibeskrivelse i de to versjonene. Påbegynt ny logg, tidligere logg finnes i de to nyopprettede komplette versjonene. Oppdatert tagUsage, handList, sourceDesc, titleStmt, editionStmt.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<group>
+<text>
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="236" gathering="1"/>
+<lb/><fw type="gathering" place="top-right" scribe="h1">1</fw>
+<div type="act" n="1">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_440ms"/><lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Rosmer</speaker></HIS:spOpener>
+<lb/><p>Ulrik Hetman!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Kroll</speaker>.</HIS:spOpener>
+<lb/><p>Det navn har jeg <HIS:hisDel rend="overstrike">h</HIS:hisDel> visst hørt før &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rebekka</speaker></HIS:spOpener>
+<lb/><p>Var det ikke det navn som &dash; han <HIS:hisAdd place="offline">brugte at</HIS:hisAdd> skr<HIS:hisDel rend="overwritten">e</HIS:hisDel>iv<HIS:hisAdd place="inline">e</HIS:hisAdd> under &dash; han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker>
+<lb/><HIS:hisStage>(til Kr)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det er U. Bs forfatternavn. du &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Den forlorne U. B.</p></HIS:hisSp>
+<figure type="bar"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_441ms"/><lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>
+<lb/><HIS:hisStage>(rækker ham hånden)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Min gamle lærer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Trods visse erindring<unclear reason="writing">er vilde jeg dog</unclear></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker>.</HIS:spOpener>
+<lb/><p>Mig er De hjertelig velkommen; vær viss på det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Jeg havde ikke noget kort &dash; o. s. v.</p></HIS:hisSp>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="239" gathering="1"/>
+<div type="act" n="1">
+<note resp="editor">Teksten på bl.[1]v og bl.[2] er opp-ned i forhold til teksten på bl.[1]r. Teksten kommer derfor i feil rekkefølge. Innholdsmessig er riktig rekkefølge bl.[2]v, bl.[2]r, bl.[1]v; denne rekkefølgen er fulgt i denne filen.</note>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_442ms"/><lb/><HIS:hisSp><p>Jo du, nu vil jeg iføre mig et nyt menneske. Træde
+<lb/>ud af den fornemme tilbageholdenhed, som jeg hidtil
+<lb/>har iagttaget &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Hvorledes &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Jeg vil gribe virksomt ind i livet. Træde frem.
+<lb/>Træde op. Det er en bevæget tid vi lever i.
+<lb/>Nu vil jeg lægge min skærv på fædrelandets
+<lb/>alter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Vil De også &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Har almenheden her noget nøjere kendskab til
+<lb/>mine spredte skrifter?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Nej, jeg må oprigtig tilstå at &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Jeg har læst adskilligt. For min far ejed dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Skønne husfrue, &dash; da har De spildt Deres tid. For
+<lb/>det er noget pøjt, skal jeg sige Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Så</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Hvad De har læst, ja. Mine betydelige værker ken&typHyp;
+<lb/>der hverken mand eller kvinde. Ingen uden jeg selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Hvorledes går det til?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Fordi de ikke er skrevne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Men kære herr Brendel.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="238" gathering="1"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_443ms"/><lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Du ved, min Joh, at jeg er <unclear reason="writing">e<HIS:hisDel rend="overwritten">n</HIS:hisDel>t</unclear> stykke af en sybarit. En
+<lb/>Feinschmecker. Har været så alle mine dage. Jeg
+<lb/>holder af at nyde i ensomhed; thi da nyder jeg <unclear reason="writing">dobbelt</unclear>
+<lb/>Tifold dobbelt. Ser du, når gyldne drømme daled ned
+<lb/>over mig, når nye, st<gap reason="writing"/>, vidtrækkende tanker greb
+<lb/><HIS:hisDel rend="overstrike">mig <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>med</HIS:hisDel> s mig, &dash; omvifted mig med bærende vinger,
+<lb/>da formed jeg det ud i digt, i syner. Å, hvorledes jeg
+<lb/>har nydt og svælget i mine dage, du. Udformingens
+<lb/>gådefulde salighed, &dash; æren, berømmelsen, laurbærkro&typHyp;
+<lb/>nen, alt dette har jeg indkasseret med fulde glæde&typHyp;
+<lb/>skælvende hænder. Mættet mig i mine lønlige
+<lb/>forestillinger med en fryd &dash; å så svimlende stor &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Men aldrig skrevet det ned.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Ikke et ord. Dette platte skriverhåndværk har altid
+<lb/>vakt en kvalmende ulyst i mig. Og hvorfor skulde jeg også
+<lb/>profanere mine egne idealer &dash;, når jeg kunde nyde dem i
+<lb/>renhed og for mig selv? Men nu skal de offres. Det
+<lb/>er dem, jeg vil <HIS:hisDel rend="overstrike">r<gap/></HIS:hisDel> nedlægge på fædrelandets alter. En
+<lb/>række af foredrag hele landet ud over &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Reb</speaker>
+<lb/><HIS:hisStage>(be<gap reason="writing"/>)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det er stort af Dem, herr B. De ofrer det dyreste,
+<lb/>De ejer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosmer</speaker></HIS:spOpener>
+<lb/><p>Det eneste.</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_444ms"/><lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Reb.</speaker>
+<lb/><HIS:hisDel rend="overstrike"><p>D</p></HIS:hisDel><HIS:hisStage>(ser bekymringsfuldt på <app type="alteration"><lem><HIS:hisAdd place="offline">R</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">ham</HIS:hisDel></HIS:hisRdg></app></HIS:hisStage></HIS:spOpener>
+<lb/><p>Der er mangen en, som ikke tør det. Ikke gør det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker>
+<lb/><HIS:hisStage>(gengæl<unclear reason="writing">der</unclear> bli<unclear reason="writing">kket</unclear>)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvem ved.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="237" gathering="1"/>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>U. B.</speaker></HIS:spOpener>
+<lb/><p>Forsamlingen er bevæget. Det gør mit hjerte godt. Og
+<lb/>dermed så skrider jeg altså til handling. Dog én ting &dash;
+<lb/><HIS:hisStage>(til rektoren)</HIS:hisStage> Kan De sige mig o. s v &dash;</p></HIS:hisSp>
+</div>
+<div type="act" n="2">
+<note resp="editor">Teksten står på høyre del av siden.</note>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_445ms"/>
+<lb/><HIS:hisSp who="KROLL"><p>Jo det vilde være en værdig gærning for den
+<lb/>mand, med hvem slægten dør ud. Lad sligt
+<lb/>ligge, du.</p></HIS:hisSp>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="240" gathering="2"/>
+<lb/><fw type="gathering" place="top-right" scribe="h1">2</fw>
+<div type="act" n="4">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_446ms"/><lb/><HIS:hisStage>(Døren åbnes. Ulrik Brendel kommer ind.
+<lb/>Han er iført mansk<HIS:hisDel rend="overstrike">j</HIS:hisDel>etskjorte, sort frakke, <HIS:hisDel rend="overstrike">og</HIS:hisDel>
+<lb/>og fine støvler <app type="alteration"><lem><HIS:hisAdd place="offline">og er</HIS:hisAdd></lem><HIS:hisRdg>s<HIS:hisDel rend="overstrike">amt</HIS:hisDel></HIS:hisRdg></app> for øvrigt bedre klædt end
+<lb/>forrige gang. Ser forvildet ud.)</HIS:hisStage>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Rrendel</speaker>.</HIS:spOpener>
+<lb/><p>Jeg hilser dig, Johannes, min gut. farvel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Å er det Dem. Hvor vil De hen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Nedad bakke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Hvorledes &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Nu går jeg hjem, min gut. Hjem til det sto&typHyp;
+<lb/>re ingenting.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Hvad er der hændt med Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Så du mærker forvandlingen. <HIS:hisDel rend="overwritten">Du</HIS:hisDel>Ja du må vel
+<lb/>det. Da jeg sidst betrådte denne stue, da stod
+<lb/>jeg for dig som velstands mand og slog mig
+<lb/>på brystlommen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm</speaker></HIS:spOpener>
+<lb/><p>Så; jeg forstår ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Men slig som du i denne nat ser mig, er jeg en
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline">afsat</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">forjag</HIS:hisDel>et</HIS:hisRdg></app> konge på askedyngen af mit brændte
+<lb/>slot.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="241" gathering="2"/>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">Br.</HIS:hisDel>Rosmer</speaker></HIS:spOpener>
+<lb/><p>Hvis der er noget som jeg kan &dash;</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_447ms"/><lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Kan du yde mig et lån, min Johannes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Ja så gerne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Kan du afsé et ideal eller to &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Hvad, herr Br.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener><p><HIS:hisAdd place="inline">Så gør du en god gerning.</HIS:hisAdd>
+<lb/>For nu er jeg læns, min kære gut. Blank og
+<lb/>bar.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Reb.</speaker></HIS:spOpener>
+<lb/><p>Har De holdt Deres foredrag?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Nej, min forlokkende Dame. Jeg var bankerot
+<lb/>da det kom til handling.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Men Deres uskrevne værker.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>I 25 år har jeg siddet som gnieren på sidder
+<lb/>på sit låsede pængeskrin. Da jeg vilde
+<lb/>åbne og hente skatten frem, så var der ingen.
+<lb/>Tiden havde smuldret den til støv.
+<HIS:hisAdd place="margin">
+<note resp="editor">Tilføyelsen er plassert i høyre marg.</note>
+<lb/>Der var nichts og ingenting
+<lb/>i hele stadsen.</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Men ved De det så visst.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="242" gathering="2"/>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Desværre, ja. Præsidenten har overtydet
+<lb/>mig om det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Præsidenten?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Nå ja, exellencen da. Som du vil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Men hvem mener De.</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_448ms"/><lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Mortensgård naturligvis.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Hvad!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Hys, hys, hys &dash;. Mortensgård er fremtidens
+<lb/>høvding og herre. <HIS:hisDel rend="overstrike">Mo</HIS:hisDel> Aldrig har jeg været stedet
+<lb/>for en større end han. Mortensgård har al&typHyp;
+<lb/>magtens evne <unclear><HIS:hisDel rend="overwritten">i</HIS:hisDel>.</unclear> Han kan gøre alt hvad han
+<lb/>vil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm</speaker></HIS:spOpener>
+<lb/><p>Tro dog ikke det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Jo min gut. For Mortensgård vil aldrig
+<lb/>mere end han kan. Mortensgård kan leve
+<lb/>uden idealer. Og det er det, det kommer an på.
+<lb/>Det<HIS:hisRef type="refMark" target="n5" xml:id="nb5">&referenceMark;</HIS:hisRef> er summen af al verdens visdom.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Nu skønner jeg at De går herfra fattigere end
+<lb/>De kom.</p></HIS:hisSp>
+<HIS:hisAdd place="margin">
+<note resp="editor">Tilføyelsen er plassert nederst på siden.</note>
+<lb/><p><HIS:hisRef type="refMark" target="nb5" xml:id="n5">&referenceMark;</HIS:hisRef> Og det er handlingens og sejrens hemmelighed, ser du.</p></HIS:hisAdd>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="243" gathering="2"/>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">R</HIS:hisDel>Br.</speaker></HIS:spOpener>
+<lb/><p>Tag et Beispiel af din gamle lærer. Byg
+<lb/>ikke din <HIS:hisDel rend="overwritten">t</HIS:hisDel>borg på idealerne. <HIS:hisDel rend="overstrike">Den grundm</HIS:hisDel>ur
+<lb/>e<HIS:hisDel rend="overstrike">r skrøbelig. En nat ramler den sammen <unclear reason="writing">u</unclear></HIS:hisDel><unclear reason="writing">nder</unclear>
+<lb/>dig. Og byg ikke på dette yndefulde ide<unclear reason="writing">a</unclear>l som
+<lb/>her forsøder dit liv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb</speaker></HIS:spOpener>
+<lb/><p>Er det mig, De mener?</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_449ms"/><lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Ja, min lokkende havfrue.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Hvorfor skulde ikke jeg være at bygge på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>Jeg har ladet mig sige at min fordums lærling
+<lb/>har en livssag at føre til sejr.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Og så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Hvis sejren t<unclear>re</unclear></HIS:hisDel> Sejren er ham sikkret. Men på <emph>en</emph>
+<lb/>betingelse.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Hvilken?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BRENDEL"><HIS:spOpener><speaker>Br.</speaker></HIS:spOpener>
+<lb/><p>At den kvinde, som elsker ham, gladelig <HIS:hisDel rend="overstrike">lar sin
+<lb/>f<unclear>i</unclear></HIS:hisDel> går hen og <app type="alteration"><lem><HIS:hisAdd place="offline">hakker</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">s<gap/>tter</HIS:hisDel></HIS:hisRdg></app> sin fine rosenhvide lillefinger
+<lb/>af, &dash; her, just her ved det midterste led. Item at
+<lb/>hun ligeledes gladelig snitter <HIS:hisDel rend="overwritten">d</HIS:hisDel>af sig det så ufor&typHyp;
+<lb/>lignelig formede venstre øre. Farvel, min sejren&typHyp;
+<lb/>de Johannes.</p></HIS:hisSp>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="244" gathering="3"/>
+<lb/><fw type="gathering" place="top-right" scribe="h1">3</fw>
+<div type="act" n="4">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_450ms"/><lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">B</HIS:hisDel>Reb.</speaker></HIS:spOpener>
+<lb/><p>A kære, kom aldrig mere ind på dette her. Det er umulig
+<lb/>ting. &dash; Ja, &dash; for du skal vide; R<unclear reason="writing">osmer</unclear>, at jeg har en &dash; for&typHyp;
+<lb/>tid bag mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Noget <restore type="del" rend="subpunction"><HIS:hisDel rend="overstrike">mere</HIS:hisDel></restore>, en det, du har fortalt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Ja, noget andet og noget mere.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm</speaker>
+<lb/><HIS:hisStage>(med et svagt smil.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Er det ikke underligt, du, Rebekka? Tænk, <unclear reason="writing">a</unclear>t en anelse
+<lb/>om sligt noget har strejfet mig en gang imellem</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Har det! Og endda så &dash;? Alligevel &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Jeg trode aldrig på det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb.</speaker></HIS:spOpener>
+<lb/><p>Hvis du kræver det, så vil jeg <HIS:hisAdd place="offline" hand="HI-2">nu straks</HIS:hisAdd> sige dig dette også</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rm.</speaker></HIS:spOpener>
+<lb/><p>Nej, nej &dash; ikke et ord. <HIS:hisDel rend="overstrike">Det kommer mig ikke ve</HIS:hisDel>d.
+<lb/>Hvad det så <HIS:hisAdd place="offline">end</HIS:hisAdd> er, så har jeg glemsel for det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Rb</speaker></HIS:spOpener>
+<lb/><p>Men jeg ikke.</p></HIS:hisSp>
+</div>
+</body>
+</text>
+<text>
+<body>
+<div type="act" n="1" scribe="HI-2">
+<figure type="bar"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_451ms"/><lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Jeg ved at han rejste med et skuespiller&typHyp;
+<lb/>selskab en tid.</p></HIS:hisSp>
+</div>
+<pb n="legg 3, bl.[1]v"/>
+<pb n="legg 3, bl.[2]r"/>
+<pb n="legg 3, bl.[2]v"/></body>
+</text>
+</group>
+</text>
+</TEI>

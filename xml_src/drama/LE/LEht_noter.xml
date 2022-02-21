@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="LE">Lille Eyolf</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteLE_1"><HIS:hisRef type="tcNote" target="LEht.xml" corresp="noteLE_1">Lille</HIS:hisRef>] <hi rend="italic">på siden foran smusstittelbladet i 1.&dash;3. utg. og Londonutg. står følgende:</hi> Omtrent samtidig med nærværende originaludgave fremkommer en engelsk, en tysk og en fransk af forfatteren autoriseret udgave. Noget senere følger oversættelser på russisk, hollandsk, ungarsk, bøhmisk og polsk.</note>
+<note resp="editor" xml:id="noteLE_2"><HIS:hisRef type="tcNote" target="LEht.xml" corresp="noteLE_2">da?</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, IV.2, 3. utg.,</hi> da! <hi rend="italic">1. utg., Londonutg., 2. utg., FU,</hi> da. <hi rend="italic">NBO Ms.4&deg; 1117a</hi></note>
+<note resp="editor" xml:id="noteLE_3"><HIS:hisRef type="tcNote" target="LEht.xml" corresp="noteLE_3">Alfred!</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1117b, KBK Collin 262, 4&deg;, IV.2,</hi> Alfred <hi rend="italic">1. utg., Londonutg.,</hi> Alfred. <hi rend="italic">2.&dash;3. utg., FU</hi></note>
+<note resp="editor" xml:id="noteLE_4"><HIS:hisRef type="tcNote" target="LEht.xml" corresp="noteLE_4">Eyolf!</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1117b,</hi> Eyolf. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, IV.2, Londonutg., 2.&dash;3. utg., FU</hi></note>
+<note resp="editor" xml:id="noteLE_5"><HIS:hisRef type="tcNote" target="LEht.xml" corresp="noteLE_5">nogenlunde.</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, IV.2, 2.&dash;3. utg., FU</hi> nogenlunde <hi rend="italic">1. utg., Londonutg.</hi></note>
+<note resp="editor" xml:id="noteLE_6"><HIS:hisRef type="tcNote" target="LEht.xml" corresp="noteLE_6">noget</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1117a, KBK Collin 262, 4&deg;, IV.2, 2.&dash;3. utg., FU</hi> noge <hi rend="italic">1. utg., Londonutg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

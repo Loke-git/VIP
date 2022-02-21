@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Kjærlighedens Komedie]</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1394</title>
+<title level="a" type="origYear">[1862]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Ingvald Aarstein</name></respStmt><respStmt>
+<resp>Klargjøring for HISe</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Oppretting av KK41394.xml, november 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="KK41394-0812"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på prosjektets transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="KK41394">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1394</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Uten forfatternavn</author>
+<title type="main">Uten tittel</title>
+<docDate>Uten datering</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript: Bruddstykke av første akts andre scene. Egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>KJÆRLIGHEDENS KOMEDIE (KK41394)</head>
+<item>skriftgruppe: latinsk håndskrift,</item>
+<item>bokstavvariant: majuskler og minuskler,</item>
+<item>skrifthelling: høyrehellende,</item>
+<item>scene:
+<list>
+<item>sceneanvisning: mellom rollenavn og replikk, midtstilt, i parentes,</item>
+<item>rollenavn: midtstilt,</item>
+<item>avsnitt/replikk: venstrejustert,</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>anførselstegn: øvre, doble, rette streker,</item>
+<item>parentes: buede</item>
+<item>u: med strek</item>
+<item>y, ø, Ø: med doble streker</item>
+<item>ss: med kort og lang s</item>
+</list>
+</item>
+<item>annet:
+<list>
+<item>skader: arket er brettet i to og reparert med gjennomsiktig tape på begge sider av arket. Tapen dekker noe skrift, men skjuler det ikke.</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>sp id=""</headLabel><headItem>speaker</headItem>
+<label>FALK</label><item>Falk</item>
+<label>LIND</label><item>Lind</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-brown" scope="major"><p>Ibsens hånd, penn med brunt blekk.</p></handNote>
+<handNote scribe="HI-2" xml:id="HI-2" medium="pencil"><p>Sannsynligvis Ibsens hånd. Blyant. Paginering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>26.08.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>24.01.09</date>
+<name>HB</name><title>Laget KKs versjonsvisninger</title>
+Laget versjonsvisning av KK41394-KK8375a. * Oppdaterte koding i henhold til retningslinjer. Sjekket også mot TMs ms-beskrivelse.</change>
+<change><date>23.07.07</date>
+<name>HB</name><title>Sjekket om det fantes bindestrek for tankestrek i tallspenn</title>
+Sjekket om det fantes bindestrek for tankestrek i tallspenn.</change>
+<change><date>09.03.2007</date>
+<name>HB</name><title>Ferdigstilling av ms-omkoding</title>
+Sjekket teiHeader og så gjennom sgrep-søk en siste gang. Validerte. Lagde ny visning.</change>
+<change><date>18.08.2006</date>
+<name>HB</name><title>Ms-omkoding</title>
+Ingen ms-koding. OK.</change>
+<change><date>06.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>22.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>30.01.02</date><name>IF</name><title>Kode- og tekstkontroll</title>Kode- og tekstkontroll. Validert. Endret Hundreårsutgaven (bd. IV) til Hundreårsutgaven (b. 4) ifølge bibliografistandard. La til beskrivelse av u,y,ø,Ø,ss.</change>
+<change><date>22.01.02</date><name>IAA</name><title>Oppdatering</title>La til TM som principal, HU-sidetall og div uten tall. Lar foreløpig type=actdraft stå.</change>
+<change><date>05.11.01</date><name>IAA</name><title>Oppretting</title>Opprettet KK41394.xml. Usikker på hva slags type-attributt som skal brukes i div1. Typografibeskrivelsen er ikke avsluttet, bør gjennomgås.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<div type="act" n="1">
+<div type="scene" n="2">
+<pb n="2"/><lb/><fw type="page" place="top-right" scribe="HI-2">17</fw>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_158ms"/>
+<lb/><HIS:hisSp xml:id="LIND" who="LIND"><HIS:spOpener><speaker>Lind</speaker>
+<lb/><HIS:hisStage>(alvorligt)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Tro ellers ikke, Falk, at Theologen</l>
+<lb/><l>Er fra min Lykkes Time dreven ud.</l>
+<lb/><l>Der er den Forskjel kun, at ikke Bogen</l>
+<lb/><l>Forslaar, som Jakobsstige til min Gud.</l>
+<lb/><l>Nu maa jeg ud og søge ham i Livet;</l>
+<lb/><l>Jeg føler mig i Hjertet mere god,</l>
+<lb/><l>Jeg elsker Straaet, Krybet for min Fod;</l>
+<lb/><l>Det er jo ogsaa Dél i Lyset givet.</l></HIS:hisSp>
+<lb/><HIS:hisSp xml:id="FALK" who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="I">Men sig mig nu &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="LIND"><HIS:spOpener><speaker>Lind</speaker></HIS:spOpener>
+<lb/><l part="F">Nu har jeg sagt det Hele, &dash;</l>
+<lb/><l>Min rige Gaade, som vi Tre vil dele.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l>Jeg tænkt? Tænkt fremad? Nej, fra denne Stund</l>
+<lb/><l>Jeg lever i det vaarlige Sekund.</l>
+<lb/><l>Jeg vender Øjet mod min Lykke hjemad;</l>
+<lb/><l>Der holder Skjæbnens Tømmer jeg og hun.</l>
+<lb/><l>Ej Du, ej Guldstad, &dash; ja, selv ej Fru Halm</l>
+<lb/><l>Tør sige til min friske Livsblomst: &lquo;Falm&rquo;!</l>
+<lb/><l>Thi jeg har Vilje, hun har varme Øjne,</l>
+<lb/><l>Og derfor maa den, skal den opad højne.</l></HIS:hisSp>
+</div>
+</div>
+</body>
+</text>
+</TEI>

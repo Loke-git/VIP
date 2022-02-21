@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Et dukkehjem</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Brevs. 200 (i brev)</title>
+<title level="s" type="desc">Diplomatarisk transkripsjon</title>
+<title level="a" type="origYear">[1879]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingrid Falkenberg</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respStmt>
+<respStmt>
+<resp>Kodet om til TEI-P5, juli 2011</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt><resp>Transkripsjon av faksimile, mars 2003</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du200-0805"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+    <HIS:hisMsDesc type="workingManuscript" xml:id="Du200">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Brevs. 200</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem><author>[Henrik Ibsen]</author>
+                <title>Uten tittel</title>
+                <docDate>Brevet er datert 12. april [1879]</docDate>
+            </msItem>        </msContents>
+        <physDesc>
+            <objectDesc><p>Egenhendig arbeidsmanuskript til noen få replikker i annen akt. Skrevet på brev fra Sigurd Ibsen.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Replikkutkastet består av fire korte linjer (uten antydning til typografisk oppsett forøvrig) med blyant i kladdehånd (tildels slurvet og vanskelig leselig) på blank bakside av et brev.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+	<list>
+	<headLabel>castItem xml:id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+	<label xml:id="NORA">NORA</label><item>N.</item>
+	<label xml:id="RANK">RANK</label><item>Dr.</item>
+	</list>
+</tagUsage></namespace>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="h1" xml:id="h1" medium="pencil" scope="major"><p>Blyant. Henrik Ibsen. Hovedhånd.</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+    <change><date>13.08.19</date>
+        <name>ESO</name><title>Typekoding av text</title>
+        I forbindelse med flytting av faksimiler til mediebase er det lagt til nye typekoding av text</change>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. Valid fil.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+<name>SBT</name><title>P5</title>
+Kodet om til P5.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>22.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>17.02.05</date>
+<name>IF</name><title>Kodekontroll. Oppdatering. Kollasjon.</title>
+Kodekontroll. Er usikker på om det er å tolke for mye å si at N er Nora og Dr er Dr Rank, har latt det gå. Oppdaterte teiHeader. Ført inn kollasjonsresultater: fjernet to linjeskift, satte klamme rundt årstall. 3 feilmeldinger ang. HIS_standardtexts.xml, publicationStmt og creation.</change>
+<change><date>11.03.03</date>
+<name>HB</name><title>Oppretting av fil samt transkripsjon</title>
+Opprettet fil og transkriberte og kodet teksten. Jeg har ikke forholdt meg til hvor i stykket replikken hører (evt. skulle hørt) hjemme, og jeg har derfor heller ikke kodet inn evt. sidetall fra HU. Filen er valid og klar for 2. kollasjon.</change>
+</revisionDesc>
+</teiHeader>
+    <!-- text type="drama" xml:lang="dan-nob" rend="handwritten" -->
+    <text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob">
+<body>
+    <pb n="4"/>
+<div>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener><p>De talte om Deres faders
+<lb/>lystige liv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>Dr.</speaker></HIS:spOpener><p>Spis &dash; og drik
+<lb/>Kausalforholdene</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

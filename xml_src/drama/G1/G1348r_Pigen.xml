@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Gildet paa Solhoug</title>
+<title level="a" type="sub">1. versjon, TarkUiB NT348r (rollehefte, En Pige)</title>
+<title level="a" type="origYear">[1855]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), 2000</resp>
+<name>Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra word-dokument til prosjektspesifikk TEI XML, desember 2000</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering og koding: jan.-nov. 2001</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>oppdateringer</resp>
+<name>Mette Witting</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="G1348r_Pigen-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på ekstern transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="G1348r_Pigen">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, UiB</repository>
+<idno>N.T. 348</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docDate>[1855]</docDate>
+</msItem>
+<msItem n="G1348r-Pigen"><locus/><title/></msItem>
+</msContents>
+<physDesc><objectDesc><p>Rollehefte, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Gildet paa Solhoug - 13 rollehefter - G1348r:</head>
+<item>skriftgruppe: latinsk håndskrift med innslag av gotisk (lang 's' med hovedhånd, div. bokstaver i skuespillernavn på tittelsider)</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende (venstrehelling brukt til utheving på tittelsider)</item>
+<item>omslag:
+<list>
+<item>rolleheftet til Gudmund: øverst på omslaget står de overstrøkne navnene "Hr Michelsen" og "Roald", deretter rollenavn og tittel ("Gudmund Alfsøn i Gildet paa Solhoug"), nederst på omslaget står det overstrøkne navnet "Jacob Prom"</item>
+<item>rolleheftet til Margit: midt på omslaget står det overstrøkne navnet "Jfr Fougner", deretter "Fru Nielsen"</item>
+<item>de øvrige rolleheftene mangler omslag</item>
+</list>
+<note>Omslagene er ikke kodet inn i fila</note>
+</item>
+<item>tittelside:
+<list>
+<item>først i hvert rollehefte; midtstilt tekst; minuskler og majuskler</item>
+<item>rolleheftene til Gudmund, Margit, Knut og Bengt: tittelrollenavn har større og fetere skrift enn de øvrige tekstopplysningene; stykkets tittel står i anførselstegn og har skrifthelling mot venstre; arkantallet er angitt øverst i høyre hjørne og er understreket med en liten pyntestrek; nederst på tittelsiden er det tilføyd forskjellige navn og datoer med forskjellige penner</item>
+<item>rolleheftene til Andre Gjæster(1), Andre Gjæster(2), En Deel Gjæster, Første Huuskarl, En Karl og En gammel Mand: tittelrollenavn har litt større og litt fetere skrift enn de øvrige tekstopplysningene; tittelsidene mangler arknummerering; alle tittelsidene unntatt En Karls og Første Huuskarls har et navn øverst på siden; rolleheftene til Første Huuskarl, En Karl og En gammel Mand har også overstrøkne navn nederst på tittelsiden</item>
+<item>rolleheftet til En Pige er skrevet av en annen hånd enn de øvrige. Tittelside; midtstilt, understreket tekst; rollenavn og tittel uten markering</item>
+<item>rolleheftene til Signe og En anden Mand mangler tittelside. De respektive id-attributtene er lagt inn før rolleheftenes første who-attributt</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt
+<list>
+<item>rolleheftet til En Pige: enkel understreking</item>
+<item>øvrige rollehefter: dobbel understreking</item>
+</list>
+</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt; dobbel understrekning; ordenstall med hevet "ste", "den" osv (kodet hi med rend-attributt); rolleheftet til En Pige har ingen sceneoverskrifter</item>
+<item>sceneanvisning: enkel understrekning
+<list>
+<item>etter sceneoverskrift: midtstilt; varierende bruk av parenteser</item>
+<item>etter rollenavn: midtstilt under rollenavn; eller som løpende tekst etter rollenavn; i parentes</item>
+<item>mellom replikker: midtstilt på egen linje; eller som løpende tekst etter foregående replikk; i parentes</item>
+<item>i replikker: midtstilt på egen linje eller som løpende tekst; i parentes</item>
+</list>
+</item>
+<item>utheving av rollenavn i sceneanvisning: tykk, separat understrekning. Tegnsetting etter uthevet rollenavn i sceneanvisning er noen ganger uthevet, andre ganger ikke. Slike er konsekvent satt utenfor stageRole.</item>
+<item>rollenavn til prosareplikk:
+<list>
+<item>tittelrollenavn:
+<list>
+<item>a: representert via en horisontal strek i venstre marg på samme linje som replikk (kodet med tomt speaker-element, og rollenavnets who-attributt i sp)</item>
+<item>b: markert (understreket); midtstilt over replikk</item>
+</list>
+</item>
+<item>andre roller: umarkerte i venstre marg på samme linje som replikk</item>
+</list>
+</item>
+<item>rollenavn til versreplikk:
+<list>
+<item>tittelrollenavn: markert (understreket); midtstilt over replikk</item>
+<item>andre rollenavn: umarkerte, midtstilt over replikk</item>
+</list>
+</item>
+<item>retorisk utheving i replikk: understreket</item>
+<item>avsnitt/replikk: rolleinnehavers replikker er umarkerte, mens de øvrige har enkel understrekning</item>
+<item>verslinjer: venstrestilt, innledes alltid med stor bokstav (selv om linja starter midt inne i en setning); verslinjer som er delt mellom flere replikker har gradvis større innrykk (kodet med part-attributter), korte verslinjer i sanger har innrykk (kodet med rend="indent")</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skille og pyntestreker: "krøllpyntestreker" på slutten av hvert rollehefte</item>
+<item>bindestreker: doble, ca. 1 mm</item>
+<item>tankestreker: enkle, ca. 5 mm</item>
+<item>anførselstegn: doble kommaer
+<list>
+<item>venstre: nedre</item>
+<item>høyre: øvre</item>
+</list>
+</item>
+<item>parentes: venstre- og høyrevendte parentesbuer</item>
+<item>sidetall i øvre, ytre hjørne. Vanligvis med etterfølgende punktum; rolleheftene til En Pige, En Karl, En gammel Mand, og Første Huuskarl manlger sidenummerering</item>
+<item>arksignatur: rolleheftene til Gudmund, Margit, Knut og Bengt har arkantall angitt øverst i høyre hjørne på tittelsiden; dette er understreket med en liten pyntestrek (jf. beskrivelsen av tittelsidene)</item>
+</list>
+</item>
+<item>annet:
+<list>
+<item>skriblerier: utført med blyant, hvis ikke annet er notert
+<list>
+<item>rolleheftet til En anden Mand (AndenMand):
+<list>
+<item>s.4, øverst: uavsluttet startparentes (h1)</item>
+<item>s.6, nederst: skribleri</item>
+</list>
+</item>
+<item>rolleheftet til Bengt:
+<list>
+<item>s.7, nedre, høyre hjørne: tegning av mann i profil</item>
+<item>s.9, midt på, høyre side: tegning av hus som er skriblet over</item>
+<item>s.5, 12, 15: skriblerier</item>
+</list>
+</item>
+<item>rolleheftet til En gammel Mand (GammelMand):
+<list>
+<item>siste side (ikke nummerert): tall (regnestykke?)</item>
+</list>
+</item>
+<item>rolleheftet til Andre Gjæster (GjæsterTo):
+<list>
+<item>tittelside: blekkflekk i venstre marg</item>
+</list>
+</item>
+<item>rolleheftet til Gudmund:
+<list>
+<item>tittelside: tittel og rollenavn er skyggebelagt mens rollebeskrivelsen er understreket</item>
+<item>s.3, øverst: skribleri i ruter i venstre hjørne</item>
+<item>s.4, nederst: streker i rutemønster under rollenavnmarkerende horisontal strek</item>
+<item>s.9, blyantfargelegging av sidetall</item>
+<item>s.14: skribleri mellom replikk og rollenavn</item>
+<item>s.15, øverst: skribleri til høyre for Margits rollenavn</item>
+<item>s.26, øverst: skribleri i ruter over Signes rollenavn og replikk</item>
+<item>s.27: skribleri i ruter over scenenummerering</item>
+<item>s.35, midt på: et skriblet "hvis" med svak blyant</item>
+<item>s.37: skribleri over rollenavnmarkerende horisontal strek</item>
+<item>s.38: skribleri under rollenavnmarkerende horisontal strek</item>
+<item>s.39: skribleri under rollenavnmarkerende horisontal strek</item>
+<item>s.43: skriblerier rundt rollenavnmarkerende horisontal strek</item>
+<item>s.47: kryss i margen ved Gudmunds første replikk</item>
+</list>
+</item>
+<item>rolleheftet til Første Huuskarl (Huuskarlen):
+<list>
+<item>rolleheftet er generelt i dårlig stand: løsnet i bindingen, oppfliset i kantene, merke etter brett på langs på hver side, første blad er delt på langs</item>
+</list>
+</item>
+<item>rolleheftet til En Karl (Karlen):
+<list>
+<item>tittelside: tallet 348 (manuskriptnummer) skrevet øverst på siden</item>
+</list>
+</item>
+<item>rolleheftet til Knut:
+<list>
+<item>tittelside: tallet 348 (manuskriptnummer) skrevet øverst på siden</item>
+<item>s.3, øverst: forskjellige navn og initialer er skrevet over rollenavnene: 'G.' over "Bengt", 'Fr. Jensen' over "Margit", 'M' over "Knut" og 'Sør' over "Erik"</item>
+<item>s.3: rollenavnet "Bengt" er understreket og navnet 'Garman' skrevet under</item>
+<item>s.3: rollenavnet "Erik" er understreket og navnet 'Sørensen' skrevet under</item>
+<item>s.9: strek under Gudmunds rollenavn som skrår ned mot replikken</item>
+<item>s.11: Margits rollenavn understreket</item>
+<item>s.11, nedre, venstre hjørne: "NB pas paa" skrevet i margen og streket under. Etterfølgende replikk er også understreket</item>
+<item>s.14-15, blekkflekk</item>
+<item>s.15, Knuts replikk: NB med dobbel understrekning skrevet i margen ved tilføyelse, ansiktsprofil i venstre marg</item>
+</list>
+</item>
+<item>rolleheftet til Margit:
+<list>
+<item>s.20, Margits replikk: halv ramme rundt seks av verselinjene</item>
+</list>
+</item>
+<item>rolleheftet til En Pige:
+<list>
+<item>skrevet med en annen hånd (h3) enn de øvrige rolleheftene, jf. håndlista (kodet med handShift)</item>
+<item>all tekst (inkl tittelside) bortsett fra Pigens replikker er understreket med turkis blyant</item>
+</list>
+</item>
+<item>rolleheftet til Signe:
+<list>
+<item>s.7, Signes replikk: kryss i margen; strek over 'a' i "Margit"</item>
+<item>s.11: Skriblerier øverst på siden</item>
+<item>s.12, Signes replikk: vertikal strek mellom 'harpe' og 'i'</item>
+<item>s.15, Signes replikk: kryss etter replikken</item>
+<item>s.22, Signes replikk: skriblerier over utropstegn</item>
+</list>
+</item>
+<item>rolleheftet til En Deel Gjæster (GjæsterEn):
+<list>
+<item>s.4, venstre marg: "Olav" skrevet med lilla blyant</item>
+</list>
+</item>
+<item>tydeliggjøringer: små tydeliggjøringer av bokstaver (f.eks. ekstra strek på t-er) er ikke kodet inn i teksten.</item>
+</list>
+</item>
+</list>
+</item>
+<item>mangler:
+<list>
+<item>rolleheftene til Erik og Sendebudet mangler. De respektive id-attributtene er lagt inn før de første who-attributtene</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="app-external">
+<list>
+<headLabel>Tekstkilde</headLabel><headItem>Antall varianter i forhold til grunntekst</headItem>
+<label>G156 (grunntekst)</label><item>0</item>
+<label>G1348r</label><item/>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>titlePart id=""</headLabel><headItem>titlePart/speaker<note>I prosareplikker blir ikke rollehefteinnehavers rollenavn angitt, men representert med en horisontal strek i margen, kodet med tomt speaker-element.</note>/stageRole</headItem>
+<label>BENGT</label><item>Bengt Gautesøn/Bengt/De Forrige, Bengt</item>
+<label>ERIK</label><item>-/Erik/Erik fra Hægge, Erik<note>Mangler rollehefte til Erik; rollenavnet finnes derfor ikke i 'titlePart'.</note></item>
+<label>GAMMELMAND</label><item>En gammel Mand/En gammel Mand/den gamle Mand</item>
+<label>GUDMUND</label><item>Gudmund Alfsøn/Gudmund, G/De Forrige, Gudmund Alfsøn, Gudmund</item>
+<label>KNUT</label><item>Knut Gjæsling/Knut/Knut Gjæsling, Knut</item>
+<label>MARGIT</label><item>Margit/Margit, M/De Forrige, Margit</item>
+<label>SENDEBUDET</label><item>-/Sendebudet/Kongens Sendebud<note>Mangler rollehefte til sendebudet; rollenavnet finnes derfor ikke i 'titlePart'.</note></item>
+<label>SIGNE</label><item>-/Signe/De Forrige, Signe<note>Rolleheftet mangler tittelside; rollenavnet finnes derfor ikke i 'titlePart'.</note></item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+<variantEncoding type="external" method="parallel-segmentation" location="internal" n=""/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="h1" xml:id="h1" medium="pen"><p>Uidentifisert. Hovedhånd i rolleheftet til 'En Pige'. (Annen hånd enn i de andre rolleheftene.) Blekk</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>26.10.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte. Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>07.12.09</date>
+<name>MW</name><title>Status for filen</title>
+G1-filene har i lenger tid (et par år!) vært under arbeid mht. ekstern variantkoding. I forløpet ble det bestemt at rolleheftefilen skulle tas ut av gruppen av filer med eksterne varianter. Derfor er det kodet eksterne varianter inn et stykke på vei i denne filen, men det bør undertrykkes i visning eller fjernes helt. Jeg mener likevel det er best å bruke denne filen videre i HISe da det ble rettet en del feil underveis.</change>
+<change><date>07.12.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Kodet inn ekstern variasjon tom. var. 303. Validert.</change>
+<change><date>27.11.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Kodet inn eksterne varianter tom. variant 101. Validert.</change>
+<change><date>24.11.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Fortsatte innkodingen av eksterne varianter. Måtte endre skrevne apostrofer til entiteten rapo. Kom tom. variant 88. Validert.</change>
+<change><date>21.11.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Begynte innkodingen av eksterne varianter med å legge inn variantdeklarasjon og tagUsage for eksterne varianter. Kodet de første 30 varianter. Validert.</change>
+<change><date>15.11.06</date>
+<name>MW</name><title>Rettelser</title>
+Rettet noen få mellomrom mellom koder i forkant av innkoding av eksterne varianter. Validert.</change>
+<change><date>16.10.06</date>
+<name>MW</name><title>Rettelser</title>
+I forbindelse med ekstern variantkodingen ble det oppdaget tre eksempler på feil rolle knyttet til replikk. det var i Margits rollehefte s. 40, s. 67 og s. 69 at Signe var blitt tildelt Margits replikker. Det er nå rettet.</change>
+<change><date>23.06.06</date>
+<name>HB</name><title>Retting av ms-koding</title>
+Fjernet hand i del/overwritten, sjekket at det lå hand i den tilhørende add-taggen. Sjekket og endret evt. mellomrom mellom del/overwritten og påfølgende add-tagg.</change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>05.12.05</date>
+<name>ENW</name><title>Omkoding</title>
+Kodet om håndskriftsrettelser. Oppdaterte TEI-header. Validert.</change>
+<change><date>19.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Oversikten over rolleheftene i msDescription er satt opp uten titler og sideantall. Validert.</change>
+<change><date>17.02.05</date>
+<name>SBT</name><title>Oppdateringer: firedelte verslinjer, HU-sideskift</title>
+La til n-attributter i de midtre delene av firedelte verslinjer. Endret pb ed="HU" til pb ed="HU".</change>
+<change><date>31.01.03</date>
+<name>MW</name><title>Oppdateringer</title>
+Endret shy-koden til entitet. Fjernet entitetsdefinisjonene fra headeren. Sjekket filen for ulovlige entiteter (fant ingen). TeiHeaderen bør visst kontrolleres. Dessuten endret jeg ikke kodingen av intendert stryking, da kodingen ev. endres på dette punkt. Validert.</change>
+<change><date>24.05.02</date>
+<name>SBT</name><title>Tok vekk edering</title>
+Nytt vedtak om ikke å edere (her: minuskler/majuskler) ved endret rekkefølge (app rend="numbered") i grunnkodinga. Er nå transkribert diplomatarisk.</change>
+<change><date>08.01.02</date>
+<name>SBT</name><title>Validering</title>
+Kodet om "Slutningssang" fra head til stage.</change>
+<change><date>02.01.02</date>
+<name>SBT</name><title>Oppdatering av koding</title>
+Endret koding etter vedtak på kodemøte 07.12.01: la til TMB og TM som principal i teiHeaderen, fjernet nummerering av div, la til manglende div-koding av en scene, flyttet interpunksjonstegn utenfor stageRole (omtalt i typografibeskrivelsen), erstattet app type="corrmarks" til app rend="numbered" ved nummerert omstokking, erstattet type med rend i del. NB: får feilmelding på note i headItem og på head direkte i div (mellom to sp-er). Har gitt beskjed til Hilde.</change>
+<change><date>27.11.01</date>
+<name>SBT</name><title>clarification</title>
+La til place-attributt i clarification.</change>
+<change><date>05.11.01</date>
+<name>SBT</name><title>Korrektur</title>
+Fjernet æ-er i attributtverdier. Fjernet id-attributtene til rollenavnene AndenMand, Pigen, Første Huuskarl og Karl, slik at id-attributtene blir de samme i alle tekstvitnene. Alle rolleheftene har selvfølgelig egne id-attributter. Har gått gjennom alle arbeidsnoter. Oppdaterte teiHeader. Teksten er validert. Brente cd.</change>
+<change><date>02.11.01</date>
+<name>SBT</name><title>Typografibeskrivelse</title>
+Kontrollerte og gjorde noen små endringer i typografibeskrivelsen. Gjenstående arbeid: sjekk rollehefte- og tittelsidekoding. Oppdater teiHeader. Samkjør oversikten over id-attributter med de andre tekstvitnene. Gå gjennom noter.</change>
+<change><date>01.11.01</date>
+<name>SBT</name><title>Kodekontroll</title>
+Utførte sgrep- og textpadsøk. La inn oversikt over rolleheftene i 'bibl'. Oversikten over id-attributter må samkjøres med de andre tekstvitnene. Sjekk rollehefte- og tittelsidekoding. Oppdater teiHeader og kontroller typografibeskrivelsen. Gå gjennom noter. Teksten er validert.</change>
+<change><date>24.-31.10.01</date>
+<name>SBT</name><title>Annenkollasjon</title>
+La inn resultater etter annenkollasjonen. Kontrollerte innføringa. Kodet typografisk informasjon (indent) om verslinjer; husk å føre det inn i typografibeskrivelsen. Gå gjennom rolleheftekoding og tittelsidekoding etter innføring av kollasjonsresultater. Kodekontroll gjenstår. Har gått gjennom apparatkodinga. Har ikke lagt inn HU-sideskift (uklart hvordan vi gjør det med rollehefter.) Legg inn oversikt over rollehefter, med id-attributter i 'bibl'? Se e-post/kodepraksis.</change>
+<change><date>10.09</date>
+<name>HG</name><title>Oppdatering</title>
+Fjernet de fleste noter (noen spørsmål til den som utfører neste kollasjon står igjen), fjernet lg-kodene. Fila er klar for kollasjon nr.2</change>
+<change><date>16.05</date>
+<name>HG</name><title>Oppdatering</title>
+Lagt alle sceneanvisninger som begynner på samme linje som et p/lg-avsnitt inn i det respektive p/lg-avsnittet</change>
+<change><date>03.04</date>
+<name>HG</name><title>tagUsage</title>
+Endret tagUsage - Husk å kontrollere speaker og stageRole via sgrep</change>
+<change><date>06.03.01</date>
+<name>HG</name><title>Lagt inn tagUsage, validert på nytt og laget bok</title>
+La inn tagUsage, validerte teksten på nytt og rettet feil, laget bok</change>
+<change><date>28.02-01.03</date>
+<name>HG</name><title>Oppdatering</title>
+Skrevet typografibeskrivelsen ferdig, gjennomgått arbeidsnoter, kontrollert who-attributtene til gjæsterollene</change>
+<change><date>07.02</date>
+<name>HG</name><title>Validering</title>
+Validert den elektroniske teksten</change>
+<change><date>06.02</date>
+<name>HG</name><title>Oppdatering</title>
+Oppdatert Tei-Header, lagt inn typografibeskrivelse</change>
+<change><date>02.02-05.02</date>
+<name>HG</name><title>Koding</title>
+Kodet rolleheftene til Karlen, Huuskarlen, GjæsterTo og GjæsterEn</change>
+<change><date>31.01-01.02</date>
+<name>HG</name><title>Koding</title>
+Kodet rolleheftene til Bengt, GammelMand og GjæsterEn</change>
+<change><date>22.-26.01</date>
+<name>HG</name><title>Koding</title>
+Kodet Pigens, AndenMands og Knuts rollehefte, lagt inn typografibeskr. for tittelsidene, lagt inn id-attributt for alle rolleheftene og sortert rolleheftene i alfabetisk rekkefølge etter id-attr</change>
+<change><date>15-19.01</date>
+<name>HG</name><title>Koding</title>
+Kodet rolleheftene til Margit og Gudmund. Også her følger kodingen av verse- og prosalinjer sufflørheftet</change>
+<change><date>10.-12.01.01</date>
+<name>HG</name><title>Koding</title>
+Kodet Signes rollehefte. Siden det kan være vanskelig å avgjøre hva som er verse- og prosalinjer i rolleheftet, følger kodingen av disse sufflørheftet. En del sidetall er ikke synlige fra faksimilen, men er likevel lagt inn i kronologisk rekkefølge med etterfølgende note</change>
+<change><date>09.01.01</date>
+<name>SBT</name><title>Oppretting</title>
+Gjorde noen automatiske søk-og-erstatt-endringer. Fila overlates til Helene for videre oppretting og koding</change>
+<change><date>06.12.00</date>
+<name>SBT</name><title>Oppretting</title>
+Konvertering fra word-dokument til TEI/XML-fil (ikke validert). TeiHeaderen må kontrolleres og utfylles (bl.a. er det ikke gjort noen innførsler i håndlista eller i typografibeskrivelsen). Noen transkripsjonstegn står igjen (bl.a. # for endringer og (?) for uklarheter). Disse erstattes av koder underveis i opprettinga. Det ligger også igjen noen harde linjeskift som kan fjernes underveis</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" rend="handwritten" xml:lang="dan-nob">
+        <pb/>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <lb/><titlePart>En Pige.
+                        <lb/>i
+                        <lb/>Gildet paa Solhaug.</titlePart>
+                </docTitle>
+            </titlePage>
+        </front>
+        <body>
+            <pb/>
+            <div type="act" n="3">
+                <lb/><head>Tredie Akt</head>
+                <lb/><HIS:hisSp><HIS:spOpener><speaker>Gæsterne</speaker></HIS:spOpener>
+                    <lb/><l>skal vi korte den vei saa tung og lang</l>
+                    <lb/><l rend="indent">Hei, lystig afsted.</l></HIS:hisSp>
+                <lb/><HIS:hisSp><HIS:spOpener><speaker>Pigen</speaker></HIS:spOpener>
+                    <lb/><p>Krist fri mig, min frue, er I
+                        <lb/>staat op?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+                    <lb/><p>Vent; sig mig, er alle gæsterne
+                        <lb/>borte?</p></HIS:hisSp>
+                <lb/><HIS:hisSp><HIS:spOpener><speaker>Pigen</speaker></HIS:spOpener>
+                    <lb/><p>Nei, ikke alle; en del bliver til
+                        <lb/>udover dagen; de sover visst
+                        <lb/>allerede.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+                    <lb/><p>Og Gudmund Alfsøn &dash;?</p></HIS:hisSp>
+                <lb/><HIS:hisSp><HIS:spOpener><speaker>Pigen</speaker></HIS:spOpener>
+                    <pb/>
+                    <lb/><p>Han sover nok ogsaa <HIS:hisStage>(peger mod
+                        <lb/>Høire)</HIS:hisStage> For lidt siden gik han
+                        <lb/>ind i sit kammer, der, lige
+                        <lb/>over gangen.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+                    <lb/><p>Godt; du kan gaa.</p></HIS:hisSp>
+                <lb/><HIS:hisSp><HIS:spOpener><speaker>Pigen</speaker>
+                    <lb/><HIS:hisStage>(gaar ud til venstre)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+                <lb/><figure type="bar"/>
+            </div>
+        </body>
+    </text>
+</TEI>    
+
+
+
+
+

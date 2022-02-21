@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="G1">Gildet paa Solhoug</title>
+<title>G1ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>25.10.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteG1_1"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_1">vare.</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, TarkUiB NT348r,</hi> vare, <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG1_2"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_2">Øiebliks</HIS:hisRef>] <hi rend="italic">ekspl. 2 mangler bindestrek ved linjeskift</hi></note>
+<note resp="editor" xml:id="noteG1_3"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_3">Alfsøn</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348,</hi> Alfssøn <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG1_4"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_4">binde</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> fylde <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, TarkUiB NT348r</hi></note>
+<note resp="editor" xml:id="noteG1_5"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_5">fredløs</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, TarkUiB NT348r,</hi> Fredløs <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG1_6"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_6">Flere</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, replikkinnehaver mangler i 1. utg.</hi></note>
+<note resp="editor" xml:id="noteG1_7"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_7">maatte</HIS:hisRef>] matte <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteG1_8"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_8">Alt</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, TarkUiB NT348r,</hi> At <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG1_9"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_9">Venstre</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, TarkUiB NT348r,</hi> venstre <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteG1_10"><HIS:hisRef type="tcNote" target="G1ht.xml" corresp="noteG1_10">Mænd</HIS:hisRef>] <hi rend="italic">BOB hBI, NBO TS ark A2 505a, TarkUiB NT348, TarkUiB NT348r,</hi> mænd <hi rend="italic">1. utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

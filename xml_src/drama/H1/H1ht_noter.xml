@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title>H1ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>08.10.2012</date><name>SBT</name><title>Gjorde om til HISe og TEI P5. Validert.</title></change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<HIS:hisDiv type="tcNote">
+<note resp="editor" xml:id="noteH1_1"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_1">Hærmændene</HIS:hisRef>] Hermændene <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteH1_2"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_2">Han</HIS:hisRef>] <hi rend="italic">ekspl. 2, NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> Hun <hi rend="italic">ekspl. 1, ekspl. 3, NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_3"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_3">behov.</HIS:hisRef>] behov <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_4"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_4">Sværdhug</HIS:hisRef>] Sværdhug, <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_5"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_5">lovligt</HIS:hisRef>] lovlig <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_6"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_6">med</HIS:hisRef>] ved <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_7"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_7">det.</HIS:hisRef>] det <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_8"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_8">Skibet.</HIS:hisRef>] Skibet <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_9"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_9">sig</HIS:hisRef>] siig <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_10"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_10">Huusbond</HIS:hisRef>] Husbond <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_11"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_11">Fred.</HIS:hisRef>] Fred <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteH1_12"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_12">Noget &dash;</HIS:hisRef>] <hi rend="italic">HIS,</hi> noget &dash;<hi rend="italic">1. utg., NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_13"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_13">Gunnar</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> Gunuar <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_59"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_59">ham</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924,</hi> han <hi rend="italic">KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 1.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_14"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_14">Ørnulf</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> Ornulf <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_15"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_15">Sind?</HIS:hisRef>] <hi rend="italic">KBK NKS 3119, 4&deg;,</hi> Sind. <hi rend="italic">1. utg.,</hi> Sind! <hi rend="italic">NBO Ms.4&deg; 924,</hi> sind. <hi rend="italic">NBO Ms.8&deg; 1926,</hi> sind? <hi rend="italic">2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_16"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_16">Sigurd,</HIS:hisRef>] <hi rend="italic">KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> Sigurd <hi rend="italic">1. utg.,</hi> Sigurd! <hi rend="italic">NBO Ms.4&deg; 924</hi></note>
+<note resp="editor" xml:id="noteH1_17"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_17">hende.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> hende <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_18"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_18">Thorolf,</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 8. utg., FU, 9. utg.,</hi> Thorolf <hi rend="italic">1. utg., NBO Ms.8&deg; 1926, 2.&dash;7. utg</hi></note>
+<note resp="editor" xml:id="noteH1_19"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_19">os.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> os <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_20"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_20">Baggrunden</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Baggrnnden <hi rend="italic">1. utg.,</hi> baggrnnden <hi rend="italic">NBO Ms.8&deg; 1926,</hi> baggrunden <hi rend="italic">2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_21"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_21">Ting.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Ting <hi rend="italic">1. utg.,</hi> ting. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_22"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_22">ønsker.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> ønsker <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_23"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_23">ypperligere</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> yppeligere <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_24"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_24">helst.</HIS:hisRef>] <hi rend="italic">KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> helst <hi rend="italic">1. utg.,</hi> helst! <hi rend="italic">NBO Ms.4&deg; 924</hi></note>
+<note resp="editor" xml:id="noteH1_25"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_25">Niding.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924,</hi> Niding? <hi rend="italic">1. utg.,</hi> Niding! <hi rend="italic">KBK NKS 3119, 4&deg;,</hi> niding? <hi rend="italic">NBO Ms.8&deg; 1926</hi>, niding. <hi rend="italic">2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_26"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_26">Gunnar</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> Gunuar <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_27"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_27">ham.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> ham <hi rend="italic">1. utg., NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_28"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_28">Fare.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Fare <hi rend="italic">1. utg.,</hi> fare. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_29"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_29">før.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> før <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_30"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_30">godt</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> Godt <hi rend="italic">1. utg., NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;</hi></note>
+<note resp="editor" xml:id="noteH1_31"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_31">Hjørdis</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg., replikkinnehaver mangler i 1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_32"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_32">han.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> han <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_33"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_33">veed</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924,</hi> Veed <hi rend="italic">1. utg., KBK NKS 3119, 4&deg;,</hi> ved <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_34"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_34">Tale.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Tale <hi rend="italic">1. utg., NBO Ms.8&deg; 1926,</hi> tale. <hi rend="italic">2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_60"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_60">tyktes</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi> tykkes <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_35"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_35">mødtes.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> mødtes <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_36"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_36">kun</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> knn <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_61"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_61">tyktes</HIS:hisRef>] <hi rend="italic">KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi> tykkes <hi rend="italic">1. utg.,</hi> tykkedes <hi rend="italic">NBO Ms.4&deg; 924</hi></note>
+<note resp="editor" xml:id="noteH1_37"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_37">har</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> hvr <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_38"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_38">Vikingstævne</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Vikiugstævne <hi rend="italic">1. utg.,</hi> vikingstævne <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_39"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_39">mener du det</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> mener det <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_40"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_40">Sind,</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924,</hi> Sind <hi rend="italic">1. utg., KBK NKS 3119, 4&deg;,</hi> sind, <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_62"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_62">tyktes</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi> tykkes <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_41"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_41">Hæder.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Hæder <hi rend="italic">1. utg.,</hi> hæder. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_42"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_42">dig.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> dig <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_43"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_43">sluknede.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> sluknede <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_44"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_44">Sønner.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Sønner <hi rend="italic">1. utg.,</hi> sønner. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_45"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_45">skjuler</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> skjnler <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_46"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_46">ham.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> ham <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_47"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_47">igjen.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> igjen <hi rend="italic">1. utg.,</hi> igen. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_48"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_48">Skyld.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Skyld <hi rend="italic">1. utg.,</hi> skyld <hi rend="italic">NBO Ms.8&deg; 1926,</hi> skyld. <hi rend="italic">2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_49"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_49">Uveir.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924,</hi> Uveir <hi rend="italic">1. utg.,</hi> Uveir! <hi rend="italic">KBK NKS 3119, 4&deg;,</hi> uvejr. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_50"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_50">Fare.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Fare <hi rend="italic">1. utg.,</hi> fare. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_51"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_51">Gaarden.</HIS:hisRef>] <hi rend="italic">KBK NKS 3119, 4&deg;,</hi> Gaarden <hi rend="italic">1. utg.,</hi> Gaarden! <hi rend="italic">NBO Ms.4&deg; 924,</hi> gården. <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_52"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_52">Husbonds</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Husbons <hi rend="italic">1. utg.,</hi> husbonds <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_53"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_53">fri.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;, 2.&dash;8. utg., FU, 9. utg.,</hi> fri <hi rend="italic">1. utg., NBO Ms.8&deg; 1926</hi></note>
+<note resp="editor" xml:id="noteH1_54"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_54">Baadhuset,</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> Baadhuset <hi rend="italic">1. utg.,</hi> bådhuset <hi rend="italic">NBO Ms.8&deg; 1926,</hi> bådhuset, <hi rend="italic">2.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_55"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_55">see!</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;,</hi> see? <hi rend="italic">1. utg.,</hi> se? <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;4. utg.,</hi> se! <hi rend="italic">5.&dash;8. utg., FU, 9. utg.</hi></note>
+<note resp="editor" xml:id="noteH1_56"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_56">det?</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 1926, 2.&dash;8. utg., FU, 9. utg.,</hi> det! <hi rend="italic">1. utg., NBO Ms.4&deg; 924, KBK NKS 3119, 4&deg;</hi></note>
+<note resp="editor" xml:id="noteH1_57"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_57">Hjemfærd!</HIS:hisRef>] Hjemfærd? <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteH1_58"><HIS:hisRef type="tcNote" target="H1ht.xml" corresp="noteH1_58">Tak,</HIS:hisRef>] Tak <hi rend="italic">ekspl. 3</hi></note>
+<p/>
+</HIS:hisDiv>
+</body>
+</text>
+</TEI>

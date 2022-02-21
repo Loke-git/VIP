@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Catilina</title>
+<title level="a" type="sub">2. versjon, NBO Ms.8&deg; 1938:1</title>
+<title level="a" type="origYear">[1875]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Mette Witting, Hallvard Ystad</name></respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS_ESO">Espen S. Ore</name>
+<name xml:id="HIS-HL">Hanne Lauvstad</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="C2819381-0912"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på C1.sgm (HIS) og cati50.txt (HIT, Bergensmaterialet).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="C2819381">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1938:1</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>[Catilina]</title>
+<docDate>[1875]</docDate>
+</msItem></msContents>
+ <physDesc><objectDesc><p>Ms.8&deg; 1938:1. &lquo;Forord til anden udgave&rquo;. Egenhendig utkast med rettelser.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Ms. 4° 1938:1 (fragment) - C2819381:</head>
+<item>skriftgruppe: latinsk håndskrift, venstrehældende, versaler og minuskler</item>
+<item>forord:
+<list>
+<item>overskrift: Midtstilt, over tre linjer: "Forord/ til/ anden udgave.",</item>
+<item>"Forord" mest forsiggjort.
+<list>
+<item>avsnitt: Innryk ved avsnitt</item>
+<item>underskrift: Midtstilt, forfatternavnet er lidt større og mere forsiggjort</item>
+</list>
+</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>bindestreker: Enkle</item>
+<item>tankestrek: Ca. dobbelt så lange som bindestreker</item>
+<item>anførselstegn: Doble øvre komma</item>
+<item>arksignatur: Øverst i venstre hjørne</item>
+</list>
+</item>
+<item>merknader til transkripsjonen:
+<list>
+<item>manglende prikk over i: rettet stilltiende</item>
+<item>manglende diakritisk tegn (å uten bolle, ø uten strek osv.): rettet, med etterfølgende note</item>
+<item>påskrift i fremmed hånd (grå blyant) øverst på første side ("XIX 18"): ikke kodet</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="app-external">
+<list>
+<headLabel>Tekstkilde</headLabel><headItem>Antall varianter i forhold til grunntekst</headItem>
+<label>C2819381</label><item>92</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+<variantEncoding type="external" method="parallel-segmentation" location="internal" n="101"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Henrik Ibsens hånd. Sort blekk.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>20.09.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>21.02.08</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+Fjernet koblinger til tekstkilder + ms (synopticView_textWitnesses + synopticView_msVersions) etter vedtak i HISe-gruppa 20.02.08 om at tekstkilder som er integrert i variantapparatet, ikke skal vises synoptisk.</change>
+<change><date>02.02.08</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+La inn koblinger til tekstkilder og manuskripter. Fjernet pb-ed-HU i tagUsage.</change>
+<change><date>29.09., 02.10.06</date>
+<name>SBT</name><title>Oppdatering av ekstern variantkoding</title>
+Fjernet wit-verdier fra rdg. La til variantEncoding og tagsDecl i teiHeader. La inn variantkoding ved manglende tekst. Endret bindestrek ved tallspenn til tankestrek. Oppdaterte teiHeader: fjernet innrykk, samt tegn og mellomrom til slutt i elementer. Fjernet id-who-liste fra teiHeader siden tekstkilden ikke lenger inneholder dramatekst. Validert.</change>
+<change><date>17.07.06</date>
+<name>ENW</name><title>sic og note</title>
+Gjennomgått og fjernet siccing og typo-noter.</change>
+<change><date>14.06.06</date>
+<name>SBT</name><title>Validering</title>
+La inn en tom p i den tomme div-en i den tomme bodyen (etter forordet) for å få validert.</change>
+<change><date>22.05.06</date>
+<name>ENW</name><title>Ny ID</title>
+Splittet C21938 i to filer: denne (C2819381) og C2819382. Gjorde om id-verdier. Filen er valid</change>
+<change><date>18.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>15.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="workingManuscript" i text. Oppdatert teiHeader.</change>
+<change><date>10.05.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Endret notene ved tilføyelser fra supplerende tcApp til rene note/resp/editor. Endret ms-koding i forbindelse med forfatternoter som nå regnes som tilføyelser. Nummererte n-attributtet i pb.</change>
+<change><date>03.05.05</date>
+<name>SBT</name><title>manuskript/variantkoding</title>
+Gjorde om to forfatternoter til tilføyelser (skal endres i tråd med ny manuskriptkoding av Hilde). Det ene tekststedet utgår som ekstern variant fordi lesemåten nå blir identisk med de øvrige tekstkildenes. Det andre tekststedet gjøres om til en enkel tegnsettingsvariant. Samkjørt i andre C2-filer.</change>
+<change><date>25.-27.04.05</date>
+<name>SBT</name><title>variantkoding: oppdatering</title>
+La til variantkoding for indre tegnsetting i sceneavisninger. Gjenstår: kode om forfatternoter til tilføyelser; disse plasseres der de skal være i teksten (etter konsultasjon med øvrige tekstkilder); utgår fra det eksterne variantapparatet. Konsulter med Hilde ang. ny manuskriptendringskoding.</change>
+<change><date>14.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Omkoding av ms-endringer i henhold til revidert kodepraksis. * Ny plassering av sideskifts-tagger innført, synkronisering må sjekkes. SGREP-søk for kodeoversikt utført. Kodet om overwritten-apparater (også overstrike/overwritten i kombinasjon). Sjekket og kodet om apparater generelt. Sjekket at del dekker kun faktisk kodet tekst. Sjekket tilføyelser. Sjekket rekkefølge på unclear og del. * Sjekket tekst i ny fil mot tekst i gammel fil vha. examdiff.</change>
+<change><date>21, 23.02.05</date>
+<name>SBT</name><title>eksterne varianter i dramatekst</title>
+La inn resterende eksterne varianter og fylte ut alle id-attributter. Gikk gjennom varianter innenfor sceneanvisninger og spOpener. Validert.</change>
+<change><date>18.02.05</date>
+<name>SBT</name><title>eksterne varianter</title>
+La til subtype-attributt i app. Sjekket varianter i forordet hentet fram med Collate  mot arkivert flertekstfil. NB: Forordet har en del noter der de andre tekstkildenes lesemåter er ført. Kode om disse til tilføyelser og dermed sløyfe noen av variantene? Gå gjennom alle noter til slutt!</change>
+<change><date>17.-19.11.04</date>
+<name>SBT</name><title>eksterne varianter</title>
+Kodet inn resten av den eksterne variansen i forordet. Splittet innførselen til C21938 i to, C21938-1 og C21938-2 i msDescription for å få validert de to attributtverdiene mot tilhørende id-verdier. Ms. beskrives som todelt i ms.beskr. i innledningen til stykket og bør da også gjøre det i variantapparatet. Validert.</change>
+<change><date>30.09.04</date>
+<name>SBT</name><title>rettelse i eksternt variantapparat</title>
+Endret tekstkildebetegnelse i eksternt variantapparat (fra 1938 til 1938-1).</change>
+<change><date>08.09.04</date>
+<name>SBT</name><title>eksterne varianter</title>
+Kodet eksterne varianter (i app type="external") i første del av forordet. Validert.</change>
+<change><date>30.10.03</date>
+<name>IAA</name><title>Koding og kollasjonering etter filsplitting</title>
+Oppdaterte teiheader. Slettet loggen. Fornyet punktene i handlist (gjaldt utelukkende C21395). Fjernet punkter i typography som ikke var utfylt. Reviderte tagUsage. Fjernet milestone-elementer (manuskriptet består ikke av hefter, men av løse ark). Fjernet overflødige noter og space-koding. Fjernet app-koding av enkle strykninger. Fjernet lg-koding. Fjernet en del unclear-tagging. Rettet feil i app-koding. Rettet feil i transkripsjonen. Endret fullstendig kodinga av tilføyelsen på side tre. Endret fra "leaf" til "sheet" i type-attributtet til fw. Fjernet closer. Føyde sammen splittede ord. Fjernet stageRole i dramadelen (ingen utheving av rollenavnene). Kodet inn HU-sideskift med n-attributt, la til punkt om dette i tagUsage. Validerte mot ny dtd. Kodekontrollerte.</change>
+</revisionDesc>
+</teiHeader>
+ <text type="drama" xml:lang="dan-nob" rend="handwritten-newfacs">
+ <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1" gathering="1"/>
+<front>
+<div type="preface">
+<lb/><head>Forord
+<lb/>til
+<lb/>anden udgave.</head>
+<lb/><p>Dramaet &lquo;Catilina&rquo;, det arbejde, hvormed
+<lb/>jeg betrådte forfatterbanen, er skrevet
+<lb/>i <app type="external" subtype="word" xml:id="varC2-1"><HIS:hisRdg>vinteren</HIS:hisRdg></app> 1848&dash;49, altså i mit <app type="external" subtype="word" xml:id="varC2-2"><HIS:hisRdg>21<hi rend="raised">de</hi></HIS:hisRdg></app>
+<lb/>år.</p>
+<lb/><p>Jeg <app type="external" subtype="word" xml:id="varC2-3"><HIS:hisRdg>opholdt</HIS:hisRdg></app> mig dengang i Grimstad,
+<lb/><app type="external" subtype="word" xml:id="varC2-4"><HIS:hisRdg>hevist</HIS:hisRdg></app> til ved egne kræfter at <app type="external" subtype="word" xml:id="varC2-5"><HIS:hisRdg>erhverve
+<lb/>mig</HIS:hisRdg></app> det fornødne til livsophold og til
+<lb/>undervisning for at kunne gå op til
+<lb/>student-examen. Tiden var stærkt bevæget.
+<lb/>Februar-revolutionen, opstandene i <app type="external" subtype="word" xml:id="varC2-6"><HIS:hisRdg>Ungaren</HIS:hisRdg></app>
+<lb/>og andetsteds, den slesvigske krig, &dash; alt dette
+<lb/>greb mægtigt og modnende ind i min ud&typHyp;
+<lb/>vikling, hvor ufærdig den end længe bag&typHyp;
+<lb/>efter vedblev at være. Jeg skrev rungende
+<lb/>opmuntringsdigte til Magyarerne om, til
+<lb/>fromme for friheden og <app type="external" subtype="interpunction" xml:id="varC2-7"><HIS:hisRdg>menneskeheden</HIS:hisRdg></app>
+<lb/>at holde ud i den retfærdige kamp mod
+<lb/>&lquo;tyrannerne&rquo;; jeg skrev <app type="external" subtype="word" xml:id="varC2-8"><HIS:hisRdg>er</HIS:hisRdg></app> række <app type="external" subtype="word" xml:id="varC2-9"><HIS:hisRdg>af 12 eller
+<lb/>20 sonetter</HIS:hisRdg></app> til kong Oskar, nærmest, så&typHyp;
+<lb/>vidt jeg husker, indeholdende en opfordring
+<lb/>om at sætte alle smålige hensyn tilside
+<lb/>og <app type="external" subtype="interpunction" xml:id="varC2-10"><HIS:hisRdg>ufortøvet</HIS:hisRdg></app> i spidsen for sin <app type="external" subtype="interpunction" xml:id="varC2-11"><HIS:hisRdg>hær</HIS:hisRdg></app> at rykke
+<lb/>brødrene til hjælp på <HIS:hisDel rend="overwritten">s</HIS:hisDel>Slesvigs yderste
+<lb/>grænser. Da jeg <app type="external" subtype="word" xml:id="varC2-12"><HIS:hisRdg><emph>nu</emph></HIS:hisRdg></app>, i modsætning til den&typHyp;
+<lb/>gang, betvivler at mine vingede opråb
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="2"/>
+<lb/>vilde i nogen væsentlig grad have <HIS:hisDel rend="overstrike">st<gap/></HIS:hisDel>
+<lb/>gavnet Magyarernes eller Skandinavernes
+<lb/>sag, så <app type="external" subtype="word" xml:id="varC2-13"><HIS:hisRdg>anser</HIS:hisRdg></app> jeg det for heldigt at de for&typHyp;
+<lb/>blev indenfor manuskriptets halv-private
+<lb/><app type="external" subtype="interpunction" xml:id="varC2-14"><HIS:hisRdg>område..</HIS:hisRdg></app> Afholde mig kunde jeg dog ikke
+<lb/>fra ved mere løftede anledninger at ud&typHyp;
+<lb/>tale mig <HIS:hisDel rend="overstrike">med</HIS:hisDel> i en med mine digtninger
+<lb/>overensstemmende passioneret retning, hvil&typHyp;
+<lb/>ket imidlertid <app type="external" subtype="interpunction" xml:id="varC2-15"><HIS:hisRdg>ikke,</HIS:hisRdg></app> hverken fra venner eller
+<lb/><app type="external" subtype="interpunction" xml:id="varC2-16"><HIS:hisRdg>ikke-venner,</HIS:hisRdg></app> indbragte mig andet end <app type="external" subtype="word" xml:id="varC2-17"><HIS:hisRdg>latter
+<lb/>og spot, &dash; <HIS:hisDel rend="overstrike">idet latter</HIS:hisDel> idet jeg</HIS:hisRdg></app> af de første <app type="external" subtype="word" xml:id="varC2-18"><HIS:hisRdg>hilsedes</HIS:hisRdg></app>
+<lb/><app type="external" subtype="word" xml:id="varC2-19"><HIS:hisRdg>som en ufrivillig komiker</HIS:hisRdg></app>, medens andre fandt
+<lb/>det i højeste måde påfaldende at et ungt men&typHyp;
+<lb/>neske i min under<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ordnede stilling kunde give
+<lb/><app type="external" subtype="word" xml:id="varC2-19a"><HIS:hisRdg>sig <HIS:hisDel rend="overstrike">af</HIS:hisDel></HIS:hisRdg></app> med at drøfte ting, som end ikke
+<lb/>de selv <app type="external" subtype="word" xml:id="varC2-20"><HIS:hisRdg>dristide</HIS:hisRdg></app> sig til at have nogen me&typHyp;
+<lb/>ning om. Jeg skylder sandheden at tilføje
+<lb/>at min <app type="external" subtype="interpunction" xml:id="varC2-21"><HIS:hisRdg>optræden</HIS:hisRdg></app> <HIS:hisDel rend="overstrike">ved fors</HIS:hisDel> i forskellige <app type="external" subtype="interpunction" xml:id="varC2-22"><HIS:hisRdg>for&typHyp;
+<lb/>holde</HIS:hisRdg></app> heller ikke <app type="external" subtype="word" xml:id="varC2-23"><HIS:hisRdg>brettigede</HIS:hisRdg></app> til <app type="external" subtype="word" xml:id="varC2-24"><HIS:hisRdg>noget</HIS:hisRdg></app> håb
+<lb/>om at samfundet i mig <app type="external" subtype="word" xml:id="varC2-25"><HIS:hisRdg>kunde</HIS:hisRdg></app> påregne no&typHyp;
+<lb/>gen tilvækst af borgerlige dyder, ligesom
+<lb/>jeg også ved epigrammer og karrikatur&typHyp;
+<lb/>tegninger lagde mig ud med flere, <app type="external" subtype="word" xml:id="varC2-26"><HIS:hisRdg>som</HIS:hisRdg></app> havde
+<lb/>fortjent det bedre af <app type="external" subtype="interpunction" xml:id="varC2-27"><HIS:hisRdg>mig</HIS:hisRdg></app> og hvis venskab
+<lb/>jeg igrunden satte pris på. Overhovedet, &dash;
+<lb/>medens en stor tid stormede udenfor,
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline">befandt</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">stod</HIS:hisDel></HIS:hisRdg></app> jeg <HIS:hisAdd place="offline">mig</HIS:hisAdd> på krigsfod med det lille sam&typHyp;
+<lb/>fund, hvor jeg sad indeklemt af <app type="external" subtype="word" xml:id="varC2-28"><HIS:hisRdg>forholde</HIS:hisRdg></app>
+<lb/>og omstændigheder.</p>
+<lb/><p>Således var stillingen da jeg under for&typHyp;
+<lb/>beredelserne til examen gennemgik Sallusts
+<pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="3"/>
+<lb/>&lquo;Catilina&rquo; samt Ciceros taler imod sidst&typHyp;
+<lb/>nævnte. Jeg slugte disse <app type="external" subtype="interpunction" xml:id="varC2-29"><HIS:hisRdg>skrifter</HIS:hisRdg></app> og nogle
+<lb/>måneder efter var mit drama færdigt. Som
+<lb/>man af min bog vil se, delte jeg ikke dengang
+<lb/>de to gamle romerske skribenters opfatning
+<lb/>af Catilinas karakter og handlemåde, og jeg
+<lb/>er endnu tilbøjelig til at tro at der dog må
+<lb/>have været adskilligt stort <app type="external" subtype="word" xml:id="varC2-30"><HIS:hisRdg>og</HIS:hisRdg></app> betydeligt ved en
+<lb/>mand, med hvem <HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen er gjort nederst på siden. Siden tilføyelsestegn som viser hvor tilføyelsen skal inn mangler, er tilføyelsen plassert etter mønster av øvrige tekstkilder.</note>majoriteternes ufortrødne sagfører</HIS:hisAdd> frase<app type="alteration"><lem><HIS:hisAdd place="offline">mesteren</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">mageren</HIS:hisDel></HIS:hisRdg></app> <HIS:hisDel rend="overstrike">og vendekåben</HIS:hisDel>
+<lb/>Cicero ikke <app type="alteration"><lem><HIS:hisAdd place="offline">fandt det hensigtsmæssigt</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">vove<unclear>de</unclear></HIS:hisDel></HIS:hisRdg></app> at give sig ikast, <app type="external" subtype="word" xml:id="varC2-32"><HIS:hisRdg>forinden</HIS:hisRdg></app>
+<lb/>der ikke længere var nogen fare forbunden
+<lb/>med angrebet. <HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen er gjort nederst på siden. <q>Der gives visst heller ikke mange</q> er tilføyd nedenfor den øvrige teksten. Teksten er transkribert i tråd med de grafiske markeringene i manuskriptet og etter mønster av førstetrykket (1875).</note><app type="external" subtype="word" xml:id="varC2-33"><HIS:hisRdg><app type="alteration"><lem><HIS:hisAdd place="offline">Der gives visst heller ikke mange</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisAdd place="offline">Og derhos har</HIS:hisAdd> <HIS:hisDel rend="overwritten">F</HIS:hisDel>få <HIS:hisAdd place="offline">eller ingen</HIS:hisAdd></HIS:hisRdg></app></HIS:hisRdg></app> historiske personer<HIS:hisDel rend="overstrike">s</HIS:hisDel><HIS:hisAdd place="inline">,</HIS:hisAdd> <HIS:hisAdd place="offline">hvis</HIS:hisAdd> eftermæle har været mere
+<lb/>udelukkende i modstandernes vold, end Catilinas.</HIS:hisAdd></p>
+<lb/><p>Mit drama blev skrevet i nattetimerne.
+<lb/>Fra min gode og <app type="external" subtype="word" xml:id="varC2-34"><HIS:hisRdg>skikkelige</HIS:hisRdg></app> principal måtte
+<lb/>jeg sågodtsom stjæle mig fritimer til at
+<lb/>studere, og fra disse stjålne <app type="external" subtype="word" xml:id="varC2-35"><HIS:hisRdg>fritimer</HIS:hisRdg></app> stjal
+<lb/><app type="external" subtype="word" xml:id="varC2-36"><HIS:hisRdg>jeg mig</HIS:hisRdg></app> igen <app type="external" subtype="word" xml:id="varC2-37"><HIS:hisRdg>stunder</HIS:hisRdg></app> til at digte. <HIS:hisDel rend="overstrike">Derfor</HIS:hisDel>
+<lb/>Det blev således ikke synderlig andet end natten
+<lb/>at ty til. Jeg <app type="external" subtype="interpunction" xml:id="varC2-38"><HIS:hisRdg>tror</HIS:hisRdg></app> at dette er den ubevidste år&typHyp;
+<lb/>sag til at næsten hele stykkets handling
+<lb/>foregår ved nattetid. En for omgivelserne
+<lb/>så uforståelig kendsgerning, som den, at jeg befatte&typHyp;
+<lb/>de mig med at skrive <app type="external" subtype="interpunction" xml:id="varC2-39"><HIS:hisRdg>skuespil</HIS:hisRdg></app> måtte natur&typHyp;
+<lb/>ligvis holdes hemmelig; men ganske uden
+<lb/>medvide<HIS:clarification place="inline">r</HIS:clarification>e kan en tyveårig di<HIS:hisDel rend="overwritten"><unclear>k</unclear></HIS:hisDel>gter ikke godt
+<lb/><app type="external" subtype="interpunction" xml:id="varC2-40"><HIS:hisRdg>forblive</HIS:hisRdg></app> og jeg betroede derfor to jævnaldrende
+<lb/>venner, hvad der i stilhed <app type="external" subtype="word" xml:id="varC2-41"><HIS:hisRdg>beskæftigede</HIS:hisRdg></app> mig.</p>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="4"/>
+<lb/><p>Vi tre knyttede store forventninger til
+<lb/>&lquo;Catilina&rquo; da det var bleven færdigt. Først
+<lb/>og fremst skulde det nu renskrives <app type="external" subtype="interpunction" xml:id="varC2-42"><HIS:hisRdg>for</HIS:hisRdg></app> un&typHyp;
+<lb/>der et opdigtet <app type="external" subtype="interpunction" xml:id="varC2-43"><HIS:hisRdg>forfatternavn</HIS:hisRdg></app> at indleveres
+<lb/>til theatret i <app type="external" subtype="interpunction" xml:id="varC2-44"><HIS:hisRdg>Kristiania</HIS:hisRdg></app> og derhos skulde
+<lb/>det offentliggøres gennem trykk<unclear reason="writing">en</unclear>. Den ene
+<lb/>af mine troende og trofaste påtog sig at levere
+<lb/>en smuk og tydelig <app type="external" subtype="word" xml:id="varC2-45"><HIS:hisRdg>renskrift</HIS:hisRdg></app> <app type="external" subtype="word" xml:id="varC2-46"><HIS:hisRdg>at</HIS:hisRdg></app> mit rå uret&typHyp;
+<lb/>tede udkast, et hverv, hvilket han udførte
+<lb/>til den grad samvittighedsfuldt, at han end
+<lb/>ikke glemte en eneste af de utallige tan&typHyp;
+<lb/>kestreger, som jeg i produktionens hede havde
+<lb/>anbragt overalt, hvor det rette udtryk ikke
+<lb/>i øjeblikket vilde falde mig ind. Den anden
+<lb/>af mine venner, hvis navn jeg her nævner, da
+<lb/>han ikke mere er blandt de levende, <HIS:hisDel rend="overstrike">student</HIS:hisDel>
+<lb/>daværende student, senere sagfører, Ole <app type="external" subtype="interpunction" xml:id="varC2-47"><HIS:hisRdg>C.</HIS:hisRdg></app> Schule&typHyp;
+<lb/>rud, rejste <HIS:hisDel rend="overstrike">med</HIS:hisDel> til <app type="external" subtype="word" xml:id="varC2-48"><HIS:hisRdg>Kr:</HIS:hisRdg></app> <HIS:hisDel rend="overstrike">med manuskriptet for
+<lb/>at indlevere</HIS:hisDel> Jeg husker endnu et af hans
+<lb/>breve, hvori <app type="external" subtype="word" xml:id="varC2-49"><HIS:hisRdg>ham</HIS:hisRdg></app> melder mig at nu var
+<lb/><app type="external" subtype="interpunction" xml:id="varC2-50"><HIS:hisRdg>Catilina</HIS:hisRdg></app> indleveret til <app type="external" subtype="interpunction" xml:id="varC2-51"><HIS:hisRdg>theatret. At</HIS:hisRdg></app> det <app type="external" subtype="word" xml:id="varC2-52"><HIS:hisRdg>vilde
+<lb/>blive antaget</HIS:hisRdg></app>, derom kunde der naturligvis
+<lb/>ikke være nogen <app type="external" subtype="word" xml:id="varC2-53"><HIS:hisRdg>tvivl</HIS:hisRdg></app>; og ligesålidt kun&typHyp;
+<lb/>de det betvivles at byens <app type="external" subtype="word" xml:id="varC2-54"><HIS:hisRdg>første</HIS:hisRdg></app> boghandler<unclear reason="writing">e</unclear>
+<lb/>med glæde vilde betale et klækkeligt honorar
+<lb/>for første <app type="external" subtype="word" xml:id="varC2-55"><HIS:hisRdg>oplag</HIS:hisRdg></app>.</p>
+<lb/><p>Efter en lang og spændende ventetid begyndte
+<lb/>imidlertid nogle vanskeligheder at vise sig.
+<lb/>Fra theaterdirektionen erholdt min ven stykket
+<lb/>tilbagesendt med et særdeles høfligt men ligeså
+<pb ed="source" type="folio_nopagination" subtype="recto" n="3" facs="5" gathering="2"/>
+<lb/><fw type="sheet" place="top-left">2.</fw>
+<lb/>bestemt afslag. <app type="external" subtype="word" xml:id="varC2-56"><HIS:hisRdg>Min ven</HIS:hisRdg></app> gik nu med <app type="external" subtype="word" xml:id="varC2-57"><HIS:hisRdg>stykket</HIS:hisRdg></app>
+<lb/>fra boghandler til boghandler; men <app type="external" subtype="word" xml:id="varC2-58"><HIS:hisRdg>samtlige</HIS:hisRdg></app>
+<lb/>udtalte de sig i samme retning som <app type="external" subtype="word" xml:id="varC2-59"><HIS:hisRdg>theaterdirek&typHyp;
+<lb/>tionen</HIS:hisRdg></app>. <app type="external" subtype="word" xml:id="varC2-60"><HIS:hisRdg>Dette</HIS:hisRdg></app> nedslog dog langtfra ikke <app type="external" subtype="word" xml:id="varC2-61"><HIS:hisRdg>hans
+<lb/>mod</HIS:hisRdg></app>. Han tilskrev mig tvertimod at det just
+<lb/>var bedst således; jeg skulde selv optræde som
+<lb/><app type="external" subtype="word" xml:id="varC2-62"><HIS:hisRdg>forlægger</HIS:hisRdg></app>; med de fornødne penge vilde han
+<lb/>forstrække mig; udbyttet skulde vi <app type="external" subtype="interpunction" xml:id="varC2-63"><HIS:hisRdg>dele</HIS:hisRdg></app> imod
+<lb/>at han besørgede alt forretningsmæssigt ved sagen
+<lb/>&dash; undtagen korrekturlæsning, hvilken han
+<lb/>anså for overflødig, da <app type="external" subtype="word" xml:id="varC2-64"><HIS:hisRdg>renskriften var
+<lb/>så smuk og tydelig</HIS:hisRdg></app>. I et senere brev ytrede
+<lb/><app type="external" subtype="interpunction" xml:id="varC2-65"><HIS:hisRdg>han</HIS:hisRdg></app> at han med disse lovende fremtidsudsigter
+<lb/>for øje tænkte på at opgive sine studeringer
+<lb/>for helt og holdent at kunne hellige sig
+<lb/><app type="external" subtype="word" xml:id="varC2-66"><HIS:hisRdg>for</HIS:hisRdg></app> udgivelsen af mine værker; to eller
+<lb/>tre skuespil om året, mente han at jeg
+<lb/>med <app type="external" subtype="word" xml:id="varC2-67"><HIS:hisRdg>lethed</HIS:hisRdg></app> kunne skrive, og <app type="external" subtype="word" xml:id="varC2-68"><HIS:hisRdg>efter en
+<lb/>løselig beregning</HIS:hisRdg></app> havde han udfundet at vi
+<lb/>for overskuddet måtte om ikke <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> lang
+<lb/>tid kunne <HIS:hisDel rend="overstrike">o<gap/></HIS:hisDel> foretage <app type="external" subtype="word" xml:id="varC2-69"><HIS:hisRdg>en</HIS:hisRdg></app> mellem os <app type="external" subtype="word" xml:id="varC2-70"><HIS:hisRdg>længe</HIS:hisRdg></app>
+<lb/><app type="external" subtype="word" xml:id="varC2-71"><HIS:hisRdg>aftalt</HIS:hisRdg></app> eller <app type="external" subtype="word" xml:id="varC2-72"><HIS:hisRdg>omtalt</HIS:hisRdg></app> rejse gennem <app type="external" subtype="word" xml:id="varC2-73"><HIS:hisRdg>Europa</HIS:hisRdg></app>.</p>
+<lb/><p>Min rejse indskrænkede sig imidlertid
+<lb/>foreløbig til Kristiania. <app type="external" subtype="word" xml:id="varC2-74"><HIS:hisRdg>Did kom</HIS:hisRdg></app> jeg i begyn&typHyp;
+<lb/>delsen af våren 1850 og kort iforvejen var
+<lb/><app type="external" subtype="interpunction" xml:id="varC2-75"><HIS:hisRdg>Catilina</HIS:hisRdg></app> <app type="external" subtype="word" xml:id="varC2-75a"><HIS:hisRdg>kommen</HIS:hisRdg></app> i boghandelen. <app type="external" subtype="word" xml:id="varC2-76"><HIS:hisRdg>Den</HIS:hisRdg></app> vakte
+<lb/>opsigt og interesse i studenterverdenen; men
+<lb/>kritiken dvælede nærmest ved de fejlfulde
+<lb/>vers og fandt forøvrigt bogen <app type="external" subtype="interpunction" xml:id="varC2-77"><HIS:hisRdg>umoden; en</HIS:hisRdg></app>
+<lb/>mere anerkendende dom udtaltes kun fra et
+<pb ed="source" type="folio_nopagination" subtype="verso" n="3" facs="6"/>
+<lb/>enkelt hold; men denne udtalelse <app type="external" subtype="word" xml:id="varC2-78"><HIS:hisRdg>kom <HIS:hisAdd place="inline">også</HIS:hisAdd></HIS:hisRdg></app>
+<lb/>fra en mand, hvis anerkendelse altid har
+<lb/>været mig kær og vægtfuld, og hvem jeg
+<lb/>herigennem bringer min fornyede tak.
+<lb/>Solgt blev der nok ikke ret meget af det lille
+<lb/>oplag; min ven havde en del af exemplarerne
+<lb/>i sit værge, og jeg erindrer at en <app type="external" subtype="interpunction" xml:id="varC2-79"><HIS:hisRdg>aften</HIS:hisRdg></app> da
+<lb/>vor huslige fællesforfatning <app type="external" subtype="word" xml:id="varC2-80"><HIS:hisRdg>en aften optårnede</HIS:hisRdg></app>
+<lb/>uoverstigelige vanskeligheder for os, blev denne
+<lb/>bunke trykte sager gjort til makulatur og
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline">lykkelig afhændet</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">solgt</HIS:hisDel></HIS:hisRdg></app> til en høker. I de <HIS:hisAdd place="offline">nærmest på&typHyp;</HIS:hisAdd>følgende dage
+<lb/><app type="external" subtype="word" xml:id="varC2-81"><HIS:hisRdg>savnede</HIS:hisRdg></app> vi ingen af livets første fornøden&typHyp;
+<lb/>heder. &dash;</p>
+<lb/><p>Under mit ophold i hjemmet i afvigte
+<lb/>sommer, og navnlig efter min tilbagekomst
+<lb/>hertil, trådte de skiftende billeder fra mit
+<lb/><app type="external" subtype="word" xml:id="varC2-82"><HIS:hisRdg>forfatterlig</HIS:hisRdg></app> klarere og skarpere frem for mig
+<lb/>end nogensinde før. Blandt andet tog jeg også
+<lb/>&lquo;Catilina&rquo; for mig. Bogens indhold i det en&typHyp;
+<lb/>kelte havde jeg næsten glemt; men ved på&typHyp;
+<lb/>ny at gennemlæse den fandt jeg at den <app type="external" subtype="word" xml:id="varC2-83"><HIS:hisRdg>inde&typHyp;
+<lb/>holdt ikke så li<HIS:hisDel rend="overwritten">g</HIS:hisDel>dt</HIS:hisRdg></app>, som jeg endnu kunde ved&typHyp;
+<lb/>kende mig, <app type="external" subtype="word" xml:id="varC2-84"><HIS:hisRdg>når</HIS:hisRdg></app> man ser hen til at de<HIS:hisDel rend="overwritten">t</HIS:hisDel>n er <app type="external" subtype="word" xml:id="varC2-85"><HIS:hisRdg>et</HIS:hisRdg></app>
+<lb/>begynderarbejde. Mangt og meget, hvorom min
+<lb/>senere digtning har drejet <app type="external" subtype="interpunction" xml:id="varC2-86"><HIS:hisRdg>sig,</HIS:hisRdg></app> <HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen er gjort vertikalt i margen på [4]v. Tilføyelsen er plassert etter mønster av øvrige tekstkilder.</note>modsigelsen mellem evne og higen, mellem vilje og mulighed,
+<lb/>menneskehedens <HIS:hisDel rend="overstrike">t</HIS:hisDel> og individets tragedie og komedie på
+<lb/>engang, &dash;</HIS:hisAdd> kommer allerede
+<lb/>her frem i tågede <app type="external" subtype="interpunction" xml:id="varC2-87"><HIS:hisRdg>antydninger;</HIS:hisRdg></app> og jeg fattede
+<lb/>derfor det <app type="external" subtype="interpunction" xml:id="varC2-88"><HIS:hisRdg>forsæt</HIS:hisRdg></app> som et slags jubilæums-skrift at
+<lb/>foranstalte e<HIS:hisDel rend="overwritten">t</HIS:hisDel>n ny <app type="external" subtype="interpunction" xml:id="varC2-89"><HIS:hisRdg>udgave,</HIS:hisRdg></app> et forsæt, <HIS:hisDel rend="overstrike">hvorpå</HIS:hisDel> hvortil
+<lb/>min forlægger med sædvanlig redebonhed gav
+<lb/>sin billigelse.</p>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="4" facs="7"/>
+<pb n="[4]r"/><lb/><p>Men det gik naturligvis ikke an uden videre
+<lb/>at genoptrykke den gamle originaludgave; thi
+<lb/>denne er, som foran påpeget, intet andet end
+<lb/>et aftryk af mit ufærdige og urettede kon&typHyp;
+<lb/>cept <app type="external" subtype="word" xml:id="varC2-90"><HIS:hisRdg>eller</HIS:hisRdg></app> det allerførste rå udkast. Ved gen&typHyp;
+<lb/>nemlæsningen <app type="external" subtype="word" xml:id="varC2-91"><HIS:hisRdg>erindrede</HIS:hisRdg></app> jeg <app type="external" subtype="interpunction" xml:id="varC2-92"><HIS:hisRdg>tydeligt</HIS:hisRdg></app> hvad <HIS:hisDel rend="overstrike">jeg</HIS:hisDel>
+<lb/><app type="external" subtype="word" xml:id="varC2-93"><HIS:hisRdg>der</HIS:hisRdg></app> havde foresvævet mig, <app type="external" subtype="word" xml:id="varC2-94"><HIS:hisRdg>og</HIS:hisRdg></app> så tillige at
+<lb/>formen sågodtsom in<HIS:hisDel rend="overwritten">d</HIS:hisDel>tetsteds afgav et fyldestgørende
+<lb/>udtryk <app type="external" subtype="interpunction" xml:id="varC2-95"><HIS:hisRdg>for</HIS:hisRdg></app> hvad jeg havde villet.</p>
+<lb/><p>Jeg besluttede derfor at gennemarbejde denne
+<lb/>min ungdomsdigtning, således, som jeg tror at jeg
+<lb/>allerede dengang vilde kunne have gjort det,
+<lb/>såfremt tiden havde stået til min rådighed
+<lb/>og omstændighederne havde været mig gun&typHyp;
+<lb/>stigere. Ved ideerne, forestillingerne og det heles
+<lb/>udviklingsgang har jeg derimod ikke <app type="external" subtype="interpunction" xml:id="varC2-96"><HIS:hisRdg>rørt;
+<lb/>bogen</HIS:hisRdg></app> er forbleven den oprindelige, kun at
+<lb/>den nu fremtræder i en fuldført skikkelse.</p>
+<lb/><p>Med foranstående for øje, beder jeg, at den
+<lb/>må blive modtagen af mine venner i Skandi&typHyp;
+<lb/>navien og andetsteds; jeg beder at de vil mod&typHyp;
+<lb/>tage den som en hilsen fra mig ved afslutningen
+<lb/>af et tidsrum, der for mig har været vekselfuldt
+<lb/>og rigt på <app type="external" subtype="word" xml:id="varC2-97"><HIS:hisRdg>omskiftelser</HIS:hisRdg></app>. Meget af hvad jeg for
+<lb/><app type="external" subtype="word" xml:id="varC2-98"><HIS:hisRdg>25</HIS:hisRdg></app> år siden <app type="external" subtype="word" xml:id="varC2-99"><HIS:hisRdg>drømte om</HIS:hisRdg></app>, er <HIS:hisDel rend="overstrike">siden</HIS:hisDel> bleven virkelig&typHyp;
+<lb/>gjort, om end ikke på den måde eller så snart,
+<lb/>som jeg da håbede. Dog tror jeg nu at det var
+<lb/>bedst for mig således; jeg ønsker ikke at noget
+<lb/>af det mellemliggende skulde have været u&typHyp;
+<lb/>prøvet, og ser jeg tilbage på det gennemlevede
+<pb ed="source" type="folio_nopagination" subtype="verso" n="4" facs="8"/>
+<lb/>som på en helhed, da gør jeg det med en
+<lb/>tak for alt og en tak til alle.</p>
+<lb/><closer><dateline>Dresden <date>i Februar 1875</date>.</dateline>
+<lb/><signed>Henrik <app type="external" subtype="word" xml:id="varC2-150"><HIS:hisRdg>Ibsen.<note resp="editor" type="variant">mangler resten av teksten</note></HIS:hisRdg></app></signed>
+</closer>
+</div></front>
+<body><div><p/></div></body>
+</text>
+</TEI>

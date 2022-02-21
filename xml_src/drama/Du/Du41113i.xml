@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1113i</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingrid Falkenberg</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respStmt>
+    <respStmt>
+        <resp>Kodet om til TEI-P5, juli 2011</resp>
+        <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+    <respStmt><resp>Transkripsjon av faksimile, mars 2003</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du41113i-1210"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+    <HIS:hisMsDesc type="workingManuscript" xml:id="Du41113i">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1113 i</idno>
+        </msIdentifier>
+        <msContents><msItem><author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>Udatert</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>1 bl. egenhendige arbeidsmanuskripter til deler av annen akt og til slutten av stykket.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Alt er skrevet av Ibsen, med penn. Første del av side 1 (første div) er renskrevet. De påfølgende delene (to div-er) på side 1 ser ut til å være kladdet i to omganger, håndskriften er ganske forskjellig når man sammenholder med blekket. Teksten på side to er delt i to div-er (siden innholdet ikke ser ut til å høre sammen), men den er nok kladdet i samme omgang.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+	<list>
+	<headLabel>castItem xml:id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+	<label xml:id="HELMER">HELMER</label><item>-/H./-</item>
+	<label xml:id="NORA">NORA</label><item>-/Nora, N./-</item>
+	<label xml:id="FRULINDE">FRULINDE</label><item>Fru Linde</item>
+	</list>
+</tagUsage></namespace>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven er kodet med pb ed="HU". Dette tekstvitnet dekker sidene XX-XX.</tagUsage></namespace>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="h1" xml:id="h1" medium="pen" scope="major"><p>Brunsort penn. Henrik Ibsen.</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. Valid fil.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+        <name>SBT</name><title>P5</title>
+        Kodet om til P5.</change>
+    <change><date>02.12.10</date>
+<name>SBT</name><title>variantEncoding</title>
+    La inn variantEncoding i teiHeader.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>Attributtverdi i type i fw</title>
+Satte attributtverdien i type i fw til page ut fra innholdet i IFs note, om at pagineringen er skrevet på samme måte i Du8952.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>22.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>17.02.05</date>
+<name>IF</name><title>Kodekontroll. Oppdatering. Kollasjon.</title>
+Kodekontroll. Oppdaterte teiHeader. Ført inn kollasjonsresultater. 3 feilmeldinger ang. HIS_standardtexts.xml, publicationStmt og creation.</change>
+<change><date>11.-13.03.03</date>
+<name>HB</name><title>Oppretting av fil samt transkripsjon</title>
+Opprettet fil og transkriberte og kodet teksten. Jeg har ikke forholdt meg til hvor i stykket replikkene hører (evt. skulle hørt) hjemme, og jeg har derfor heller ikke kodet inn evt. sidetall fra HU. Filen er valid og klar for 2. kollasjon.</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" xml:lang="dan-nob" rend="handwritten">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<body>
+<div>
+<pb/><lb/><fw type="page" place="top-left">20.</fw>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_56ms"/>Fru Linde</speaker>
+<lb/><HIS:hisStage>(syr igen; kort taushed.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Kommer doktor Rank ofte her i huset?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Hver evige dag. Han er jo Torvalds bedste ung&typHyp;
+<lb/>domsven, og <emph>min</emph> gode ven også. Doktor Rank
+<lb/>hører ligesom huset til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fru Linde</speaker>.</HIS:spOpener>
+<lb/><p>Hør her, Nora; du er i mange stykker som et
+<lb/>barn endnu; jeg er jo adskilligt ældre end du, og
+<lb/>har lidt mere erfaring. Jeg vil sige dig noget: Du
+<lb/>skulde se at komme ud af dette her med doktor
+<lb/>Rank.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Hvad for noget skulde jeg se at komme ud af?</p></HIS:hisSp>
+</div>
+
+<div>
+<lb/><HIS:hisSp who="NORA"><p>T. holder jo så ubsekr. meget af mig. Han vil eje mig alene,
+<lb/>helt og holdent, som han siger. I den første tid blev han ligesom
+<lb/>skinsyg, når jeg talte om alle <app type="alteration"><lem><HIS:hisAdd place="offline">mine venner</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">de mennesker</HIS:hisDel></HIS:hisRdg></app> derhjemme. Så lod
+<lb/>jeg det naturligvis være. Men med dr R. taler jeg lidt om sligt
+<lb/>noget; for han vil gerne høre på det, ser du.</p></HIS:hisSp>
+</div>
+
+<div>
+<HIS:hisStage><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_77ms"/>(Der høres nedenfra et drønnende slag af en port som
+<lb/>slåes ilås.)</HIS:hisStage>
+</div>
+
+<pb/>
+<div>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_78ms"/>H.</speaker></HIS:spOpener>
+<lb/><p>Og just fordi du ber mig gør du mig det umuligt. Det er bekendt
+<lb/>i banken at jeg vil afskedige K. Skulde det nu rygtes at jeg havde
+<lb/>ladet mig om<unclear reason="writing">stemme</unclear> af min kone</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja, hvad så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Nej naturligvis; jeg skulde gå hen og gøre mig latterlig for
+<lb/>hele personalet. Og så er der en omstændighed til, som gør
+<lb/>K. umulig i banken så længe jeg står som direktør.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvad er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisAdd place="margin">Jeg kunde have overset hans moralske
+<lb/>brøst, og hvad hans brugbarhed angår er han ikke
+<lb/>værre end mange andre &dash; Men  &dash; &dash; &dash;</HIS:hisAdd>
+<lb/>Han er en ungdomsbekendt af mig &dash; ja, jeg kan gerne sige
+<lb/>det lige ud, vi er dus, Det taktløse menneske, han lægger ikke
+<lb/>skjul på det &dash; han antager tvertimod et familiært <unclear reason="writing">væsen</unclear>.
+<lb/>Han vilde gøre mig min stilling utålelig &dash;</p></HIS:hisSp>
+</div>
+<lb/><figure type="bar"></figure>
+<div>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_79ms"/>H.</speaker></HIS:spOpener>
+<lb/><p>Kære N. jeg tilgiver dig den angst som du går i, skønt den
+<lb/>igrunden er en fornærmelse imod mig. Jo, det er. Eller
+<lb/>er det kanske ikke en fornærmelse at tro at jeg skulde
+<lb/>behøve at frygte for en forkommen vinkelskrivers hævn?
+<lb/>Men jeg tilgiver dig det alligevel, fordi det så smukt vidner om
+<lb/>din store kærlighed til mig. Du kaldte mig smålig. Nå, nå
+<lb/>jeg er ikke længer vred for det. Min egen kære N. jeg er ikke
+<lb/>smålig; men denne min nye stilling er jo mit livs oppgave
+<lb/>den må jeg besidde i fuld frihed og skønhed. Se, det kan I
+<lb/>kvinder ikke forstå. I har jo ikke nogen livsopgave &dash; i den
+<lb/>forstand da. <HIS:hisStage>(tager hende i sine armer)</HIS:hisStage> Å nej, nej &dash; jeg er ikke
+<lb/>smålig, Nora &dash; havde jeg noget stort at vove noget for, var
+<lb/>der en fare som trued dig eller børnene da skulde du se
+<lb/>at jeg ikke agted hverken liv eller livsopgave &dash;</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1113a, bl. 2r-3v</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1878-79]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ingvald Aarstein</name></respStmt>
+    <respStmt>
+        <resp>Kodet om til TEI-P5, juli 2011</resp>
+        <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+    <respStmt>
+<resp>Opprettet fil, november 2010</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du41113a_2r_3v-1110"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Du41113.xml</p>
+    <p><HIS:hisMsDesc type="workingManuscript" subtype="notes" xml:id="Du41113a-f">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1113a-f</idno>
+        </msIdentifier>
+        <msContents><msItem><author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>[1878-79]</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Du41113: Et dukkehjem (notater og arbeidsmanuskripter)</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler, majuskler</item>
+<item>skrifthelling: steilskrift</item>
+<item>akt/scene:
+	<list>
+	<item>overskrift: midtstilt</item>
+	<item>sceneanvisning:
+		<list>
+		<item>kortere sceneanvisninger: i parentes, midtstilt på egen linje eller som del av løpende tekst</item>
+		<item>lengre sceneanvisninger: i parentes, blokkjustert (41113f)</item>
+		</list>
+	</item>
+	<item>rollenavn: midtstilt</item>
+	<item>avsnitt/replikk: lengre replikker blokkjustert, første linje noe innrykket</item>
+	<item>utheving i replikk: enkel understreking</item>
+	</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+	<list>
+	<item>skillestreker: dobbel skillestrek ved slutten av første og tredje akt (41113f)</item>
+	<item>bindestrek: enkel</item>
+	<item>arksignatur: øverst i venstre hjørne</item>
+	<item>noter/fotnoter: dato påført ved begynnelsen og slutten av hver akt (41113f)</item>
+	</list>
+</item>
+<item>annet:
+	<list>
+	<item>med blyant er enkelte sider paginert (med de usammenhengende tallene 7-8 og siden 2-5): kodet med page-attributt</item>
+	<item>biblioteksignatur med blyant: nederst s. 4 i faksimilene</item>
+	<item>punktummet etter rollenavn er flere steder spesielt i begynnelsen av ms-et skrevet slurvet og ligner en tankestrek. De er dog transkribert som punktum</item>
+	</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Mørkt blekk. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Rød blyant. Bladfoliering.</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. IKKE VALID: scribe må tillates i fw.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+        <name>SBT</name><title>P5</title>
+        Kodet om til P5.</change>
+    <change><date>10.12.10</date>
+        <name>SBT</name><title>Synkronisering</title>
+        La inn synkroniseringspunkter og akt-diver.</change>
+    <change><date>29.11.10</date>
+<name>SBT</name><title>Opprettet fil</title>
+Fila er opprettet med utgangspunkt i Du41113.xml. Typografibeskrivelsen gjelder hele manuskriptet. Oppdaterte apparatkoding. Validerte fila.</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" xml:lang="dan-nob" rend="handwritten">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<body>
+<pb n="3"/>
+<div type="notes">
+<div type="act" n="1">
+<lb/><fw type="leaf" place="top-right" hand="h1">2</fw>
+<lb/><head>Scenegang.<lb/><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_1ms"/>Første handling.</head>
+<lb/><p>En hyggeligt men ikke pragtfuldt
+<lb/>indrettet stue. En dør til højre i bag&typHyp;
+<lb/>grunden fører<note resp="editor">'ø' mangler diakritisk tegn.</note> ud til forstuen; <HIS:hisDel rend="overwritten">a</HIS:hisDel>en anden
+<lb/>dør<note resp="editor">'ø' mangler diakritisk tegn.</note> til venstre i baggrunden fører ind
+<lb/><HIS:hisDel rend="overwritten">f</HIS:hisDel>til husherrens værelse eller kontor, der
+<lb/>ses, når døren åbnes. Ild i kakkelovnen.
+<lb/>Vinterdag.</p>
+<lb/><p>Hun kommer fornøjet nynnende ind
+<lb/>fra baggrunden; hun er klædt i ydertøj
+<lb/>og bærer på en hel del pakker, har gjort
+<lb/>indkøb. Idet hun åbner døren, ser man
+<lb/>ude i forstuen et bybud, som bærer et
+<lb/>juletræ. Hun: Lad det stå der sålænge.
+<lb/><HIS:hisStage>(tager portemonæen op)</HIS:hisStage> <sic>Hvormedet</sic>?
+<lb/>Budet: Femti øre. Hun: Der er en kro&typHyp;
+<lb/>ne. Nej, behold det hele. Budet takker
+<lb/>og går. Hun vedbliver at <sic>nyne</sic> og le stil&typHyp;
+<lb/>le fornøjet imedens hun åbner forskel&typHyp;
+<lb/>lige af de medbragte pakker. Råber
+<lb/>ind, om han er hjemme? Ja! Først sam&typHyp;
+<lb/>tale gennem den lukkede dør, derpå
+<lb/>åbner han og taler vidre med hende
+<lb/>idet han for det meste vedbliver at ar&typHyp;
+<lb/>bejde stående ved sin pult. Det ringer
+<lb/>på gangdøren; han vil ikke forstyrres;
+<lb/>lukker sig inde. Stuepigen åbner indgangs&typHyp;
+
+<pb n="4"/>
+<lb/>døren for fruens tilrejsende veninde.
+<lb/>Glædelig overraskelse. Gensidig redegørelse
+<lb/>for sagernes stilling. Han har fåt posten
+<lb/>som direktør i den nye aktiebank og
+<lb/>skal tiltræde fra nytår; alle økono&typHyp;
+<lb/>miske bekymringer er nu forbi. Ven&typHyp;
+<lb/>inden er kommen til byen for at søge en
+<lb/>liden ansættelse på et kontor eller hvad
+<lb/>der kunde falde. Fruen giver hende godt
+<lb/>håb, er viss på at alt vil gå godt. Pigen
+<lb/>åbner indgangsdøren for inkassatoren.
+<lb/>Fruen forskrækket; nogle få replikker veks&typHyp;
+<lb/>les; han vis<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>es ind i kontoret. Fruen og
+<lb/>veninden; inkassatorens forholde berøres.
+<lb/>Husherren kommer i overfrakke; har ladet
+<lb/>inkassatoren gå ud den anden vej. Samta&typHyp;
+<lb/>le om venindens anliggender; betænkeligheder
+<lb/>fra hans side. Han og veninden går; fruen
+<lb/>følger dem til forstuen; barnepigen kommer
+<lb/>med børnene. Moder og børn leger. In&typHyp;
+<lb/>kassatoren kommer. Fruen lader børnene
+<lb/>gå ind til venstre. Stor scene mellem hen&typHyp;
+<lb/>de og han. Han går. Husherren kommer;
+<lb/>har mødt ham på trappen; utilfreds; vil
+<lb/>vide, hvad han atter kom for? Protektion?
+<lb/>Ingen intriger. Fruen udspørger ham
+<lb/>forsigtigt. Strenge lovens svar. Ind i sit
+<lb/>værelse. Hun <HIS:hisStage>(atter igen, som da inkassa&typHyp;
+<lb/>toren gik)</HIS:hisStage> Men det er jo umuligt. Jeg gjorde
+<lb/>det jo af kærlighed!</p>
+<lb/><figure type="bar"></figure>
+</div>
+</div>
+
+<pb n="5"/>
+<div type="notes">
+<div type="act" n="2">
+<lb/><fw type="leaf" place="top-right" hand="h1">3</fw>
+<lb/><head><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_29ms"/>Scenegang.
+<lb/>Anden handling.</head>
+<lb/><p>Årets sidste dag. Middagstid. Nora
+<lb/>og den gamle barnepige. Nora, dreven af
+<lb/>uro, klæder sig på for at gå ud. Ængsteli&typHyp;
+<lb/>ge sidespørgsmål af alle slags antyder at
+<lb/>hun omgåes med tanken om at dø. Søger
+<lb/>at forjage tankerne, slå det hen, håber på at
+<lb/>et eller andet kan indtræffe. Men hvad. Barne&typHyp;
+<lb/>pigen ind til venstre. &dash; Stenborg fra sit værelse.
+<lb/>Kort samtale mellem ham og Nora. &dash; Barne&typHyp;
+<lb/>pigen ind igen; søger Nora; det mindste barn
+<lb/>græder. Misfornøjede spørgsmål fra Sten&typHyp;
+<lb/>borgs side; barnepigen bort; Stenborg vil ind
+<lb/>til børnene. &dash; Doktor <HIS:hisDel rend="overwritten">h</HIS:hisDel>Hank kommer.
+<lb/>Scene mellem ham og Stenborg. &dash; Nora kom&typHyp;
+<lb/>mer snart tilbage; hun har vendt om; angsten
+<lb/>har drevet hende tilbage til huset. Scene mel&typHyp;
+<lb/>lem hende, doktoren og Stenborg. Stenborg ind
+<lb/>i sit værelse. &dash; Scene mellem Nora og doktoren.
+<lb/>Doktoren går. &dash; Nora alene. &dash; Fru Linde kom&typHyp;
+<lb/>mer. Scene mellem hende og Nora. &dash; Sagfø&typHyp;
+<lb/>rer Krogstad kommer: Kort scene mellem
+<lb/>ham, fru Linde og Nora. Fru Linde ind til
+<lb/>børnene. &dash; Scene mellem Krogstad og Nora. &dash;
+
+<pb n="6"/>
+<lb/>hun bønfalder og trygler for sine små børns
+<lb/>skyld; forgæves. Krogstad går. Man ser at
+<lb/>brevet udenfra falder i brevkassen. &dash; Fru Linde
+<lb/>kommer ind igen efter et kort ophold. Scene
+<lb/>mellem hende og Nora. Halv tilståelse. <HIS:hisDel rend="overstrike">&dash; Sten</HIS:hisDel>&typHyp;
+<lb/><HIS:hisDel rend="overstrike">borg kommer</HIS:hisDel> Fru Linde går. &dash; Nora alene. &dash;
+<lb/>Stenborg kommer. Scene mellem ham og No&typHyp;
+<lb/>ra. Han vil tømme brevkassen. Bønner, spøg,
+<lb/>overtalelser halv skelmske. Han lover at lade
+<lb/>forretningerne hvile nytårsdagen over; men
+<lb/>kl: 12 midnat &dash;! Bort. Nora alene. Nora <HIS:hisStage>(ser
+<lb/>på uhret.)</HIS:hisStage> Klokken er fem. Fem; &dash; syv timer
+<lb/>til midnat. Fireogtyve timer til imorgen
+<lb/>midnat. Fireogtyve og syv &dash; en og tredive
+<lb/>En og tredive timer at leve i. &dash;</p>
+<lb/><figure type="bar"></figure>
+</div>
+</div>
+<div type="notes">
+<div type="act" n="3">
+<lb/><head><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_34ms"/>Tredje handling.</head>
+<lb/><p>(Man hører dæmpet dansemusik fra etagen
+<lb/>ovenpå.. En lampe brænder på bordet. Fru
+<lb/>Linde sidder i en lænestol og blader adspredt
+<lb/>i en bog, forsøger at læse, men synes ikke at
+<lb/>kunne holde tankerne samlet; et par gan&typHyp;
+<lb/>ge ser hun på sit uhr. Nora kommer ned
+<lb/>fra selskabet; uro har drevet hende; overraskelse
+<lb/>ved at træffe fru Linde, som foregiver at hun
+
+<pb n="7"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">4</fw>
+<lb/>vilde se Nora pyntet. Helmer kommer, u&typHyp;
+<lb/>tilfreds med hendes bortgang, for at hente hende
+<lb/>tilbage. Doktoren ligeså, men for at tage afsked.
+<lb/>Fru Linde er imidlertid gået ind i sideværelset
+<lb/>til højre. Scene mellem Doktoren, Helmer og Nora.
+<lb/>Han går tilsengs, siger han, for ikke mere at stå
+<lb/>op igen; de skal ikke se til ham; der er uskønhed
+<lb/>over dødssængen. Han går. Helmer går ovenpå
+<lb/>med Nora igen efterat denne har vekslet nogle
+<lb/>afskedsord med fru Linde. Denne alene.
+<lb/>Derpå Krogstad. Scene og udtalelse mellem
+<lb/>dem. Begge bort. Nora med børnene. Der<gap reason="writing"/>
+<lb/>på hun alene. Så Helmer. Han tager brevene
+<lb/>ud af kassen. Kort scene; godnat; han ind i
+<lb/>sit værelse. Nora forvildet bereder sig til
+<lb/>det afgørende; er allerede ved døren da
+<lb/>Helmer kommer med det åbne brev i hån<gap reason="writing"/>
+<lb/>den. Stor scene. Det ringer. Brev til Nora fra
+<lb/>Krogstad. Slutningsscene. Skilsmisse.
+<lb/>Nora forlader huset. &dash;</p>
+<lb/><figure type="bar"></figure>
+</div>
+</div>
+</body>
+</text>
+</TEI>

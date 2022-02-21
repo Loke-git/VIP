@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1116a, bl. 5r og 6v</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, juni - november 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, desember 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, mars 2007</resp>
+<name>Henninge Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="FH41116a_5r_6v-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på FH41116a (FH41116a-0809).</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i FH41116_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel>
+<label xml:id="WANGEL"/><item/>
+<label xml:id="ELLIDA"/><item/>
+<label xml:id="DENFREMMEDE"/><item/>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/>
+<language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort pen.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Bibliotekar? Rød blyant. Foliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle FH-filer.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>fjernet siccing</title>
+Sjekket alle FH-filer for ev. sic-koder og fjernet de jeg fant. Validert. Lager ny visninger.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. Jeg har derfor endret att.verdiene i xptr-kodene i FH-filene til textWitnesses. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Klargjøring av filen til synoptisk visning</title>
+Siden denne versjonen består av to deler fra NBO-filen må strukturkodingen endres noe. Den endres fra en text-group-text-struktur til blot en text og noter om sammenhenger mellom de to opprinnelige deler er fjernet. Sjekket handList og id-who-oversikten.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Splitting av FH4111a</title>
+Splittet FH4111a i åtte deler til synoptisk visning.</change>
+<change><date>24.08.09</date>
+<name>MW</name><title>Blad-/legg-nummerering</title>
+Blad-nummerering lagt inn (i egne 'pb n='), Tones ms-beskrivelse er fulgt.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Flyttet tekstdel til b-delen</title>
+Etter mail fra Tone flyttet jeg legget med tittelside og personliste (fakss. 29-32) fra a- til b-delen. Lager ny visninger.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Transkripsjonsfeil</title>
+Transkripsjonsfeil oppdaget i Karis kontroll av HIS sine lesemåter mot HU sine (blot for en del av stykket) er ført inn.</change>
+<change><date>12.01.09</date>
+<name>HMS</name><title>Endret koding</title>
+Fjernet resp="editor" i ptr-kodene, da vi har vedtatt at dette resp-attributtet er overflødig.</change>
+<change><date>08.12.08</date>
+<name>MW</name><title>Transkripsjon</title>
+Tone så i forbindelse med msbeskrivelen hva som står i overskrivingen og strykingen ved Lyngstrand i rollelisten s. 11. Det er nå rettet til i filen (også i FH41116_NBO) - og ny visninger er laget.</change>
+<change><date>17.09.08</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret fra desc til sub i koding av undertitler.</change>
+<change><date>18.02.08</date>
+<name>HB</name><title>Splitting av fil</title>
+Gjenstår: kontrollere at delingen i a og b er i tråd med Tone Modalslis manuskriptbeskrivelse. Legge inn bladreferanser fra manuskriptbeskrivelsen. Legge inn koblinger til synoptisk visning. * Splittet filen. Arkiverte pre-splittversjon. Opprettet kopi med biliotekets ordning, FH41116_NBO. Opprettet FH41116b. Loggen er forkortet, FH41116_NBO og FH41116_pre_splitt inneholder fullstendig logg. typography og msDesc er fjernet, finnes i FH41116_NBO og FH41116_pre_splitt. Fjernet  type="workingManuscript" fra alle indre text-elementer og la den på ytterste, siden alle text-elementer inneholder samme ms-type. Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="5" facs="9"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">5</fw>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_52ms"/>
+<div type="act" n="1">
+<lb/><head>1<hi rend="raised">ste</hi> akt.</head>
+<lb/><p>Sommerstemning, liv, glæde over menneskene.
+<lb/>Dagene går som en fest. Thora betror sig <HIS:hisDel rend="overstrike">til Hesler.</HIS:hisDel>
+<lb/>til sin mand efter samtalen med Hesler. Wan&typHyp;
+<lb/>gel oprørt ved at erfare hendes tidligere fortiede
+<lb/>forlovelse. Tilgivelse og forglemmelse. Nu i al&typHyp;
+<lb/>le fald tilhører hun jo ham alene. Herefter skal
+<lb/>der være fuld fortrolighed mellem ham og hende
+<lb/>og børnene. De vil gensidig dele hinandens
+<lb/>erindringer. Der skal fra nu af være samliv
+<lb/>imellem dem. Hun (rystet) <q type="speech" who="ELLIDA">Samliv! Ja, ja!</q>
+<lb/>Han studser. Forstår ikke. Hun gir ingen
+<lb/>videre forklaring.</p>
+</div>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_78ms"/>
+<div type="act" n="2">
+<lb/><head>2<hi rend="raised">den</hi> akt.</head>
+<lb/><p>Wangel søger at komme til klarhed over hen&typHyp;
+<lb/>des besynderlige væsen ved antydninger og gen&typHyp;
+<lb/>nem omveje i en samtale med Hesler. Det
+<lb/>er havet som drager hende med hemmelig&typHyp;
+<lb/>hedsfuld magt. Wangel taler til hende derom.
+<lb/>Vil hun til havet? Ja, ja, hun vil til havet! Så
+<lb/>er han villig til at flytte did ud! <q type="speech" who="ELLIDA">Nej, nej, ikke
+<lb/>dette offer!</q> Ikke rykkes op herfra, hvor han har
+<lb/>sit naturlige hjem. Han holder sit forsæt fast.
+<lb/>Hun: <q type="speech" who="ELLIDA">giv mig fri! lad mig rejse alene!</q> <q type="speech" who="WANGEL">Hvor læn&typHyp;
+<lb/>ge?</q> <q type="speech" who="ELLIDA">For stedse! Jeg kan ikke leve længer sam&typHyp;
+<lb/>men med dig.</q> Så følger forklaringen. Det er eg&typHyp;
+<lb/>entlig ikke med ham hun lever i ægteskab!</p>
+</div>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="6" facs="12"/>
+<note resp="editor">Dramaet er i dette utkastet delt inn i 4 akter, mens det i førstetrykket er delt inn i 5. 3. akt i utkastet dekker innholdsmessig omtrent det som i førstetrykket blir til 3. og 4. akt, mens utkastet til 4. akt nedenfor blir til 5. akt i førstetrykket.</note>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_96ms"/>
+<div type="act" n="3 4">
+<lb/><head>3<hi rend="raised">dje</hi> akt.</head>
+<lb/><p>Denne akt foregår i den afsides liggende del af ha&typHyp;
+<lb/>ven<HIS:hisDel rend="overwritten">.</HIS:hisDel>med brygge og badehus. Thora opholder sig der.
+<lb/>Wangel kommer til hende. Derefter Hesler. Så en&typHyp;
+<lb/>delig Lyngstrand. Stor nyhed! Amerikaneren er
+<lb/>her! Han har set ham! &dash; Optrin mellem Thora og John&typHyp;
+<lb/>son. Hvad havet har sammenføjet skal ikke menne&typHyp;
+<lb/>sker adskille. Wangel kommer. Genkender Ameri&typHyp;
+<lb/>kaneren som styrmanden, der slog kaptejnen
+<lb/>ihjæl. Beråber sig på Thoras <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>udsagn. Hun. <q type="speech" who="ELLIDA">Nej
+<lb/>nej.</q> Nægter alt. Johnson går: <q type="speech" who="DENFREMMEDE">Ja, så får du gøre
+<lb/>dig rejsefærdig da, Thora.</q></p>
+</div>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_136ms"/>
+<div type="act" n="5">
+<lb/><head>4<hi rend="raised">de</hi> akt.</head>
+<lb/><p>Samme sted. Nu kommer opgø<unclear reason="writing">e</unclear>t mellem
+<lb/>Wangel og Thora. Hesler kommer tilstede. Wan&typHyp;
+<lb/>gel indvilger i Thoras rejse. Gir afkald på hen&typHyp;
+<lb/>de.</p>
+</div>
+</body>
+</text>
+</TEI>

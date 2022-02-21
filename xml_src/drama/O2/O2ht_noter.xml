@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="O2">Olaf Liljekrans</title>
+<title>O2ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>23.10.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteO2_1"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_1">husbond</HIS:hisRef>] <hi rend="italic">HIS,</hi> hushond <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_2"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_2">kosteligt</HIS:hisRef>] <hi rend="italic">HIS,</hi> kosteisgt <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_3"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_3">siden</HIS:hisRef>] <hi rend="italic">HIS,</hi> liden <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_4"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_4">kunde</HIS:hisRef>] <hi rend="italic">HIS,</hi> kundre <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_5"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_5">pause</HIS:hisRef>] <hi rend="italic">HIS,</hi> pavse <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_6"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_6">datter</HIS:hisRef>] <hi rend="italic">HIS,</hi> datfer <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_7"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_7">i</HIS:hisRef>] <hi rend="italic">HIS,</hi> I <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_8"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_8">du,</HIS:hisRef>] <hi rend="italic">HIS,</hi> du. <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_9"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_9">Alfhild! Alfhild</HIS:hisRef>] <hi rend="italic">HIS,</hi> Alfhild! Afhild <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_10"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_10">ned.</HIS:hisRef>] <hi rend="italic">HIS,</hi> ned <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_11"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_11">Hvor</HIS:hisRef>] <hi rend="italic">HIS,</hi> Hvort <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_12"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_12">du</HIS:hisRef>] <hi rend="italic">HIS,</hi> Du <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_13"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_13">du</HIS:hisRef>] <hi rend="italic">HIS,</hi> Du <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_14"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_14">når</HIS:hisRef>] <hi rend="italic">HIS,</hi> naar <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_15"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_15">dit</HIS:hisRef>] <hi rend="italic">HIS,</hi> sit <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_16"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_16">står</HIS:hisRef>] <hi rend="italic">HIS,</hi> staar <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_17"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_17">derpå</HIS:hisRef>] <hi rend="italic">HIS,</hi> derpaa <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_18"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_18">husbond</HIS:hisRef>] <hi rend="italic">HIS,</hi> Husbond <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_19"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_19">venstre</HIS:hisRef>] <hi rend="italic">HIS,</hi> yenstre <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_20"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_20">nej,</HIS:hisRef>] <hi rend="italic">HIS,</hi> nej. <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_21"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_21">forrige.</HIS:hisRef>] <hi rend="italic">HIS,</hi> forrige <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_22"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_22">søn</HIS:hisRef>] <hi rend="italic">HIS,</hi> Søn <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_23"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_23">jeg</HIS:hisRef>] eg <hi rend="italic">ekspl. 2 og 3</hi></note>
+<note resp="editor" xml:id="noteO2_24"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_24">herfra!</HIS:hisRef>] <hi rend="italic">HIS,</hi> herfra? <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_25"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_25">stamper med</HIS:hisRef>] <hi rend="italic">HIS,</hi> stammed <hi rend="italic">FU, 2. utg., haplografi ved linjeskift</hi></note>
+<note resp="editor" xml:id="noteO2_26"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_26">slår</HIS:hisRef>] <hi rend="italic">HIS,</hi> slaar <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_27"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_27">drømme).</HIS:hisRef>] <hi rend="italic">HIS,</hi> drømme.) <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_28"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_28">fremmed</HIS:hisRef>] <hi rend="italic">HIS,</hi> fremad <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_29"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_29">inat;</HIS:hisRef>] inat, <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteO2_30"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_30">Alfhild</HIS:hisRef>] <hi rend="italic">HIS,</hi> Aflhild <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_31"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_31">venstre</HIS:hisRef>] <hi rend="italic">HIS,</hi> venstrc <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_32"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_32">Arne</HIS:hisRef>] <hi rend="italic">HIS,</hi> Arre <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_33"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_33">højre</HIS:hisRef>] <hi rend="italic">HIS,</hi> hojre <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteO2_34"><HIS:hisRef type="tcNote" target="O2ht.xml" corresp="noteO2_34">intet</HIS:hisRef>] <hi rend="italic">HIS,</hi> Intet <hi rend="italic">FU, 2. utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

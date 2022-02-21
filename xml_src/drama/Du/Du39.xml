@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Et dukkehjem</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Brevs. 39 (i brev)</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1880</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Kodet om til TEI-P5, juli 2011</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respStmt>
+<respStmt><resp>Transkripsjon av faksimile, november 2004</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name></respStmt>
+<respStmt><resp>Omgjøring av B18800218HLa til Du39, februar, 2005</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>Annenkollasjon og kodekontroll, april 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du39-0805"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Bygger på B18800218HLa.xml</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="Du39">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>NBO</repository>
+            <idno>Brevs. 39</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem><author>Henrik Ibsen</author>
+                <title>Uten tittel</title>
+                <docDate>1880</docDate>
+            </msItem></msContents>
+        <physDesc><objectDesc><p>Ibsens egenhendige avskrift på tysk av den endrede slutten til &lquo;Et Dukkehjem&rquo; som vedlegg til brev til Heinrich Laube.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+    <list>
+        <item>overskrift: dobbelt understreket</item>
+    </list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="NORA"/><item>Nora</item>
+<label xml:id="HELMER"/><item>Helmer</item>
+</list>
+</tagUsage></namespace>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="ger"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+
+</profileDesc>
+
+<revisionDesc>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. Valid fil.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+<name>SBT</name><title>P5</title>
+Kodet om til P5.</change>
+<change><date>03.12.10</date>
+<name>SBT</name><title>Oppdatering</title>
+Oppdaterte manuskriptkoding. La inn auml-entiteter. Fjernet hi-koding i overskrift. Endret en stage-kode til forfatternote.</change>
+<change><date>30.08.07</date>
+<name>MW</name><title>teiHeader</title>
+Endret id-who-listen i teiHeader pga at filen skulle brukes som eksempel i teiHeader-kodepraksis. Samtidig la jeg inn type i app, så filen nå er valid.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>01.04.2005</date>
+<name>MW</name><title>2. kollasjon og kodekontroll</title>
+Innførte kollasjonsresultater etter 2. koll. mot original. TeiHeader må sjekkes/oppdateres etter scriptet har kjørt. Validert.</change>
+<change><date>18.02.2005</date>
+<name>IF</name><title>Oppretting</title>
+Opprettet fil på grunnlag av brevtekst. 3 feilmeldinger: HIS_standardtexts.xml, publicationStmt og creation.</change>
+</revisionDesc>
+</teiHeader>
+<!-- text type="drama" rend="handwritten-mediafacs" xml:lang="ger" -->
+<text type="drama" rend="handwritten" xml:lang="ger">
+<body>
+    <pb n="3"/>
+<lb/><head>Aenderung.</head>
+<lb/><note resp="author">(Siehe Pag: 90 im gedruckten Buche.)</note>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Dass ein Zusammenleben zwischen
+<lb/>uns beiden eine Ehe werden könnte.
+<lb/>Lebe wohl! <HIS:hisStage>(will gehen.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>Helmer</speaker>.</HIS:spOpener>
+<lb/><p>Nun denn, &dash; gehe! <HIS:hisStage>(fasst sie am Arm)</HIS:hisStage>
+<lb/>Aber erst sollst du deine Kinder zum
+<lb/>letztenmale sehen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Lass mich los. Ich <emph>will</emph> sie ni<unclear reason="damage">cht</unclear>
+<lb/>sehen! Ich <emph>kann</emph> es nicht!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>Helmer</speaker>
+<lb/><HIS:hisStage>(zieht sie gegen die Thüre links.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Du <emph>sollst</emph> sie sehen! <HIS:hisStage>(öffnet die
+<lb/>Thüre und sagt leise)</HIS:hisStage> Siehst du<HIS:hisDel rend="overwritten">.</HIS:hisDel>;
+<lb/>Dort schlafen sie so sorglos und ruhig.
+<lb/>Morgen, wenn sie erwachen und ru&typHyp;
+<lb/>fen nach ihre Mutter, dann sind
+<lb/>sie &dash; mutterlos.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.
+<lb/><HIS:hisStage>(bebend)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Mutterlos &dash;!</p></HIS:hisSp>
+
+<pb/>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>Helmer</speaker>.</HIS:spOpener>
+<lb/><p>Wie du es gewesen bist.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Mutterlos! <HIS:hisStage>(k<HIS:clarification place="inline">ä</HIS:clarification>mpft innerlich,
+<lb/>lässt die Reisetasche fallen und sagt)</HIS:hisStage>
+<lb/>O, ich versündige mich gegen mich
+<lb/>selbst; aber ich <emph>kann</emph> sie nicht ver&typHyp;
+<lb/>lassen.</p> <HIS:hisStage>(sinkt halb nieder vor die
+<lb/>Thüre.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>Helmer</speaker>
+<lb/><HIS:hisStage>(freudig aber leise)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nora!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Der Vorhang fällt.)</HIS:hisStage>
+<lb/><figure type="bar"></figure>
+</body>
+</text>
+</TEI>

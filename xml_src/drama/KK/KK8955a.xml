@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Kjærlighedens Komedie]</title>
+<title level="a" type="sub">NBO Ms.8&deg; 955a</title>
+<title level="a" type="origYear">1867</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Ellen Nessheim Wiger, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Transkripsjon, juni 2002:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og korrektur, juni 2002:</resp>
+<name>Ellen Nessheim</name>
+<name/>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="KK8955a-0812"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på intern transkripsjon.</p>
+    <p>
+<HIS:hisMsDesc type="printersCopy" xml:id="KK8955a">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 955a</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Uten tittel</title>
+<docDate>1867</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Trykkmanuskript til forord til 2. utgave, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>KK8955</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>overskrift: tilnærmet midtstilt</item>
+<item>avsnitt: venstrejustert; første linje innrykket</item>
+<item>steds- og datoangivelse: innrykket i forhold til brødteksten</item>
+<item>signatur: høyrejustert</item>
+<item>bindestrek: dobbel</item>
+<item>anførselstegn: dobbel komma, øvre</item>
+<item>skader: Flere hull i papiret. Revne i papiret første blad, tapet på baksiden</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">Sideskiftene fra Hundreårsutgaven (bd IV) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 137-138. Sidetallene er oppgitt i n-attributter.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-h1" xml:id="HI-h1" medium="pen-brown" scope="major"><p>Ibsen. Brunt blekk. Høyrehellende</p></handNote>
+<handNote scribe="HI-h2" xml:id="HI-h2" medium="pen-brown"><p>Ibsen? Mørkere blekk. Steilskrift. Noen få rettelser og tilføyelser.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>26.08.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>23.07.07</date>
+<name>HB</name><title>Sjekket om det fantes bindestrek for tankestrek i tallspenn</title>
+Sjekket om det fantes bindestrek for tankestrek i tallspenn.</change>
+<change><date>09.03.2007</date>
+<name>HB</name><title>Ferdigstilling av ms-omkoding</title>
+Sjekket ms-omkoding og teiHeader og så gjennom sgrep-søk en siste gang. Validerte. Lagde ny visning.</change>
+<change><date>18.08.2006</date>
+<name>HB</name><title>Ms-omkoding</title>
+Løste opp app. Endret attributtverdi i en add-tagg, byttet rekkefølge på del og unclear. * Fjernet closer rundt dateline og signed, name-tagg i dateline. Satte inn eacute. Endret struktur: forordet er selve _body_ her, ikke front.</change>
+<change><date>06.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>22.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>14.08.02</date>
+<name>IF</name><title>2. kollasjon</title>
+Kollasjonerte mot original. Endret url i docType og fjernet entitetsliste i teiHeader. Endret elementet shy til entitet. Validert. Filen regnes som ferdig i denne omgang.</change>
+<change><date>11.06.02</date><name>EN</name><title>Korrektur</title>
+Korrekturlest transkripsjon og koding. Filen klar for 2. kollasjon og kodekontroll.</change>
+<change><date>10.06.02</date><name>EN</name><title>Transkripsjon og koding</title>
+Transkribert og kodet fra faksimiler. NB! Â«JuksekodingÂ»: TEXT kan ikke inneholde bare en FRONT, har derfor satt inn BODY med DIV og tom P (jf. kodingen av rollebesetningslisten til UF: UF81937a). Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb/>
+<pb ed="HU" n="137"/>
+<div type="preface">
+<lb/><head>Till anden Udgave.</head>
+<lb/><p>Nærværende Digt er skre&typHyp;
+<lb/>vet i Sommeren 1862 og første
+<lb/>Udgave udkom samme Aars Vin&typHyp;
+<lb/>ter.</p>
+<lb/><p>Men jeg begik den Fejl at
+<lb/>udgive Bogen i Norge. Baade
+<lb/>Tid og Sted var uheldigt valgt.</p>
+<lb/><p>Digtet vakte en Storm af
+<lb/>Uvilje, voldsommere og mere ud&typHyp;
+<lb/>bredt, end de fleste Bøger skal
+<lb/>kunne rose sig af i et Sam&typHyp;
+<lb/>fund, hvis overvejende Flerhed
+<lb/>ellers betragter literære Anlig&typHyp;
+<lb/>gender som sig saa temmelig
+<lb/>uvedkommende.</p>
+<lb/><p>Modtagelsen overraskede
+<lb/>mig forøvrigt ikke. &lquo;Den sun&typHyp;
+<lb/>de Realisme&rquo;, som vi Normæn<unclear reason="damage">d</unclear> <gap reason="damage"/>
+<lb/>ialfald for Realismens om e<unclear reason="damage">n</unclear>d
+<lb/>ikke for Sundhedens Vedkommen&typHyp;
+<lb/>de, med Føje tør tillæg<HIS:hisAdd place="offline" hand="HI-h2">g</HIS:hisAdd>e os, brin&typHyp;
+<lb/>ger os ganske naturligt till i
+<lb/>det Bestaaende at se det Berettigede,
+<pb/>
+<lb/>i Oppgavens Løsning at se dens Idé<HIS:hisAdd place="inline">.</HIS:hisAdd><HIS:hisDel rend="overstrike">,</HIS:hisDel>
+<lb/>Denne Betragtningsmaade skaber
+<lb/>et inderligt Velbefindende, men
+<lb/>just ikke saa megen Klarhed.</p>
+<lb/><p>Da jeg nu i min Komedie
+<lb/>efter bedste Evne svang Pidsken
+<lb/>over Kjærlighederne og Ægteskaberne,
+<lb/>var det i sin Orden at de Mange
+<lb/>skreg paa Kjærlighedens og Ægte&typHyp;
+<lb/>skabets Vegne. Den Tankens Tugt
+<lb/>og Dressur, som kræves for at begribe
+<lb/>Vildfarelsen, har Flertallet indenfor
+<lb/><HIS:hisAdd place="inline" hand="HI-h2">vor</HIS:hisAdd> bogdømmende og læsende Almen&typHyp;
+<lb/>hed kun ufuldstændigt gjennem&typHyp;
+<lb/>gaaet. Det er imidlertid ikke min
+<lb/>Sag at give noget Kursus. Et
+<lb/>Forord er ingen ABC.</p><pb ed="HU" n="138"/>
+<lb/><p>Till Danmark kom der i sin
+<lb/>Tid neppe synderlig flere Exempla&typHyp;
+<lb/>rer af Digtet, end dem, der till&typHyp;
+<lb/>stilledes de kjøbenhavnske Blade
+<lb/>till Anmeldelse.</p>
+<lb/><p>For den Kritik, som dersteds
+<lb/>blev min Bog tilldel, har jeg over&typHyp;
+<lb/>hovedet al Grund till at være
+<lb/>takknemmelig. Mangen Bemærk&typHyp;
+<lb/>ning derfra har været vækkende
+<lb/>for mig, og naar jeg desuagtet, med
+<lb/>Undtagelse af nogle sproglige
+<pb/>
+<lb/>Rettelser, lader denne nye Udgave
+<lb/>udkomme i uforandret Skikkelse,
+<lb/>saa sker det fordi jeg ved den
+<lb/>mellemliggende Tid og Udvikling
+<lb/>er kommen for langt bort fra
+<lb/>Digtet till at jeg <unclear><HIS:hisDel rend="overstrike">s</HIS:hisDel></unclear> skulde kunne
+<lb/>haabe ved Ændringer hist og her
+<lb/>at kunne tillvejebringe nogen
+<lb/>organisk Forbedring af det, som
+<lb/>nu engang er og maa være
+<lb/>Kjernen i det Hele.</p>
+<lb/><p>Enkelte lokale Hentydninger
+<lb/>vil maaske være uforstaaelige for
+<lb/>danske Læsere; men disse Hen&typHyp;
+<lb/>tydninger ere ikke mange og
+<lb/>desuden <sic>uvæsenlige</sic> for Forstaael&typHyp;
+<lb/>sen af Digtets Gang og Tanke.</p>
+<lb/><dateline>Rom, i <date>Januar 1867</date>.</dateline>
+<lb/><signed>Henrik Ibsen.</signed>
+</div>
+</body>
+</text>
+</TEI>

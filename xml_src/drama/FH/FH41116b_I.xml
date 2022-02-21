@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1116b_I, fakss. 29-32</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, juni - november 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, desember 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, mars 2007</resp>
+<name>Henninge Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="FH41116b-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på FH41116_NBO (FH41116_NBO-0208).</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i FH41116_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label>WANGEL</label><item>Doktor Wangel/-/-</item>
+<label>ELLIDA</label><item>Fru Ellida Wangel/-/-</item>
+<label>BOLETTE</label><item>Annette/-/-</item>
+<label>HILDE</label><item>Frida/-/-</item>
+<label>ARNHOLM</label><item>Overlærer Arenholdt/-/-</item>
+<label>LYNGSTRAND</label><item>Lyngstrand/-/-</item>
+<label>BALLESTED</label><item>Ballested/-/-</item>
+<label>DENFREMMEDE</label><item>En fremmed mand/-/-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort pen.</p></handNote>
+<handNote scribe="h2" xml:id="h2" medium="pencil"><p>Tall ved replikkutkast samt noe foliering</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle FH-filer.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>fjernet siccing</title>
+Sjekket alle FH-filer for ev. sic-koder og fjernet de jeg fant. Validert. Lager ny visninger.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. Jeg har derfor endret att.verdiene i xptr-kodene i FH-filene til textWitnesses. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>07.09.09</date>
+<name>MW</name><title>Splitting av FH4111b</title>
+Splittet FH4111b i to deler: tok ut det første legget merket 'I' med tittelside og rolleliste.</change>
+<change><date>01.09.09</date>
+<name>MW</name><title>Klargjøring til synoptisk visning</title>
+Sammenholdt HU-sideskiftene med FH88. Endret alle 'pb ed=""HU' til xptr.</change>
+<change><date>24.08.09</date>
+<name>MW</name><title>Blad-/legg-nummerering</title>
+Legg- og blad-nummerering lagt inn (i egne 'pb n='), Tones ms-beskrivelse er fulgt.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Flyttet tekstdel til b-delen</title>
+Etter mail fra Tone flyttet jeg legget med tittelside og personliste (fakss. 29-32) fra a- til b-delen. Lager ny visninger.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Transkripsjonsfeil</title>
+Transkripsjonsfeil oppdaget i Karis kontroll av HIS sine lesemåter mot HU sine (blot for en del av stykket) er ført inn.</change>
+<change><date>12.01.09</date>
+<name>HMS</name><title>Endret koding</title>
+Fjernet resp="editor" i dokumentets eneste ptr-kode, da vi har vedtatt at dette resp-attributtet er overflødig.</change>
+<change><date>17.09.08</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret fra desc til sub i koding av undertitler.</change>
+<change><date>18.02.08</date>
+<name>HB</name><title>Splitting av fil</title>
+Gjenstår: kontrollere at delingen i a og b er i tråd med Tone Modalslis manuskriptbeskrivelse. Legge inn bladreferanser fra manuskriptbeskrivelsen når den er klar. Legge inn koblinger til synoptisk visning. * Splittet filen. Arkiverte pre-splittversjon. Opprettet kopi med biliotekets ordning, FH41116_NBO. Opprettet FH41116a. Loggen er forkortet, FH41116_NBO og FH41116_pre_splitt inneholder fullstendig logg. typography og msDesc er fjernet, finnes i FH41116_NBO og FH41116_pre_splitt. Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<front>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="29" gathering="I"/>
+<lb/><fw place="top-left" scribe="h2">10.</fw><fw place="top" scribe="h2">I.</fw>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main"><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_158ms"/><HIS:hisDel rend="overstrike">&lquo;Havfruen.&rquo;</HIS:hisDel></titlePart>
+<lb/><titlePart type="main">&lquo;Fruen fra havet.&rquo;</titlePart>
+<lb/><titlePart type="sub">Skuespil i fem akter</titlePart>
+</docTitle>
+<byline>
+<lb/>af
+<lb/><docAuthor>Henrik Ibsen</docAuthor>.
+</byline>
+<lb/><docDate>1888.</docDate>
+</titlePage>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="30" gathering="I"/>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="31" gathering="I"/>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="32" gathering="I"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_51ms"/>
+<lb/><HIS:hisCastList><head>Personerne:</head>
+<lb/><castItem xml:id="WANGEL">Doktor Wangel, distriktslæge.</castItem>
+<lb/><castItem xml:id="ELLIDA">
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/>Ellida<HIS:hisRef type="refMark" xml:id="n5" target="nb5">&referenceMark;</HIS:hisRef></HIS:hisAdd> Fru <HIS:hisRef type="refMark" xml:id="nb5" target="n5">&referenceMark;</HIS:hisRef><HIS:hisDel rend="overstrike">Tora</HIS:hisDel> Wangel, hans anden hustru.</castItem>
+<lb/><HIS:hisCastGroup rend="braced"><castItem xml:id="BOLETTE">Annette</castItem>,
+<lb/><castItem xml:id="HILDE">Frida, halvvoksen</castItem>, <roleDesc>hans døtre af første
+<lb/>ægteskab</roleDesc>.</HIS:hisCastGroup>
+<lb/><castItem xml:id="ARNHOLM">Overlærer Arenholdt.</castItem>
+<lb/><castItem xml:id="LYNGSTRAND">Lyngstrand, en ung billedhugger.</castItem>
+<lb/><castItem xml:id="BALLESTED">Ballested.</castItem>
+<lb/><castItem xml:id="DENFREMMEDE">En fremmed mand.</castItem>
+<lb/><castItem type="list">Flere dampskibsrejsende. Turister.</castItem>
+<lb/><castItem type="list">Sommergæster. Unge folk fra byen.</castItem>
+</HIS:hisCastList>
+<lb/><set><p>(Handlingen foregår ved midtsommertid
+<lb/>i en fjordby i det nordlige Norge.)</p></set>
+</front>
+<body><p> </p></body>
+</text>
+</TEI>

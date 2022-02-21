@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Ro">Rosmersholm</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>16.03.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteRo_1"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_1">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2&dash;3, NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">ekspl. 1</hi></note>
+<note resp="editor" xml:id="noteRo_2"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_2">morsomt</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2, FU,</hi> morosmt <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_3"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_3">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_4"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_4">dig</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> Dig <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_5"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_5">du</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> Du <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_6"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_6">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_7"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_7">Ulrik &dash; Hetman</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2,</hi> Ulrik-Hetman <hi rend="italic">1. utg., FU</hi></note>
+<note resp="editor" xml:id="noteRo_8"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_8">samfundsliv?</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2,</hi> samfundsliv. <hi rend="italic">1. utg., FU,</hi> offentlige liv? <hi rend="italic">NBO Ms.4&deg; 1291d</hi></note>
+<note resp="editor" xml:id="noteRo_9"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_9">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_10"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_10">på</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> paa <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_11"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_11">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteRo_12"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_12">Å</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_13"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_13">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_14"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_14">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteRo_15"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_15">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_16"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_16">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteRo_17"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_17">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteRo_18"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_18">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteRo_19"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_19">Å</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_20"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_20">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2, NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">ekspl. 1 og 3</hi></note>
+<note resp="editor" xml:id="noteRo_21"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_21">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2&dash;3, NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">ekspl. 1</hi></note>
+<note resp="editor" xml:id="noteRo_22"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_22">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_23"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_23">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2&dash;3, NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">ekspl. 1</hi></note>
+<note resp="editor" xml:id="noteRo_24"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_24">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_25"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_25">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2, NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">ekspl. 1 og 3</hi></note>
+<note resp="editor" xml:id="noteRo_26"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_26">dig,</HIS:hisRef>] <hi rend="italic">ekspl. 2&dash;3, KBK Collin 262, 4&deg;, III.2, FU,</hi> dig <hi rend="italic">ekspl. 1</hi></note>
+<note resp="editor" xml:id="noteRo_27"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_27">tilbage?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, FU,</hi> tilbage. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, III.2</hi></note>
+<note resp="editor" xml:id="noteRo_28"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_28">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_29"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_29">Å</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_30"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_30">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteRo_31"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_31">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteRo_32"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_32">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteRo_33"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_33">Rosmer-slægtens</HIS:hisRef>] <hi rend="italic">FU,</hi> rosmer-slægtens <hi rend="italic">1. utg., NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2</hi></note>
+<note resp="editor" xml:id="noteRo_34"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_34">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteRo_35"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_35">fra?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d,</hi> fra. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, III.2, FU</hi></note>
+<note resp="editor" xml:id="noteRo_36"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_36">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 2&dash;3</hi></note>
+<note resp="editor" xml:id="noteRo_37"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_37">Så?</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2,</hi> Så! <hi rend="italic">1. utg., FU,</hi> Så; <hi rend="italic">NBO Ms.4&deg; 1291e</hi></note>
+<note resp="editor" xml:id="noteRo_38"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_38">på</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291e, KBK Collin 262, 4&deg;, III.2, FU,</hi> paa <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_39"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_39">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1291d, KBK Collin 262, 4&deg;, III.2, FU,</hi> A <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteRo_40"><HIS:hisRef type="tcNote" target="Roht.xml" corresp="noteRo_40">står?</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.2,</hi> står. <hi rend="italic">1. utg., FU</hi> står <hi rend="italic">NBO Ms.4&deg; 1291d</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

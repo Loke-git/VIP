@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Vildanden</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1115a</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1884</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Inger Marie Kjølstadmyr, Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, desember 2006</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>2. kollasjon og koding, mai-juni 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name></respStmt>
+<respStmt><resp>3. kollasjon, september 2007</resp>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Vi41115a-1011"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på intern transkripsjon.</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="Vi41115a">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1115a</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>april-mai 1884</docDate><note>Manuskriptet er egenhendig datert flere steder: 20.4.84, 28.04.84, 02.05.84.</note></msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendig arbeidsmanuskript til første og begynnelsen av annen akt.<note>Faksimileside 1-37. (Jmf. Vi81944d fakss. 8, samme dato og tekst som tilsvarer 41115a s. 1-2.)</note></p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Manuskriptet er uinnbundet og består av dobbeltblad. Det er intet dobbeltblad nummerert med '1.', mset begynner med '2.'.</item>
+<item>En del blyantmerker: haker, klammer o.l., spesielt i begynnelsen av mset. Disse er ikke transkribert.</item>
+<item>På faksimileside 1: 'a)' i blyant (bibliotekar?). Ikke transkribert.</item>
+<item>Faksimileside 36: her er det biblioteksopplysninger og -stempel (ellers en tom side).</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="WERLE">WERLE</label><item>Grosserer Walle, Grosserer Werle, Werle, Grosserer Walberg, Grosserer Valberg</item>
+<label xml:id="GREGERS">GREGERS</label><item>Gregers, Gregers Walle</item>
+<label xml:id="EKDAL">EKDAL</label><item>Ekdahl</item>
+<label xml:id="HJALMAR">HJALMAR</label><item>Halfdan, Hjalmar, Hjalmar Ekdahl</item>
+<label xml:id="GINA">GINA</label><item>Fru Ekdahl</item>
+<label xml:id="HEDVIG">HEDVIG</label><item>Hedvig</item>
+<label xml:id="FRUSØRBY">FRUSØRBY</label><item>Fru Sørby</item>
+<label xml:id="GRAABERG">GRAABERG</label><item>Gråberg</item>
+<label xml:id="PETTERSEN">PETTERSEN</label><item>Grossererens tjener, Pettersen</item>
+<label xml:id="JENSEN">JENSEN</label><item>Lejetjeneren, En af lejetjenerne</item>
+<label xml:id="ENBLEGFEDHERRE">ENBLEGFEDHERRE</label><item>Kammerherre Flor</item>
+<label xml:id="ENTYNDHÅRETHERRE">ENTYNDHÅRETHERRE</label><item>Kammerherre Kaspersen</item>
+<label xml:id="ENNÆRSYNTHERRE">ENNÆRSYNTHERRE</label><item>Kammerherre Sæther</item>
+</list>
+</tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd X) kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 45-77. Alle sidetall er oppgitt i n-attributter.</tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.11</date>
+<name>SBT</name><title>TEI P5</title>
+Oppdaterte koding til TEI P5. Fila er valid.</change>
+<change><date>04.09.08</date>
+<name>SBT</name><title>Rettelser</title>
+Gjorde noen endringer i MsDescription ifm kodekontroll av ht-fil.</change>
+<change><date>06.11.07</date><name>MW</name><title>Oppdateringer</title>
+Bruken av bindestrek og tankestrek ved tallspenn er sjekket. Validert </change>
+<change><date>05.10.07</date>
+<name>HMS</name><title>La inn note</title>
+La inn arbeidsnote s. 1 om at Vi81944 s. 8-9 har tilsvarende tekst og samme dato.</change>
+<change><date>28.09.07</date>
+<name>MW</name><title>Kodekontroll</title>
+Tok kodekontroll. En viktig justering som ble gjort var at typene i alle fw-kodene ble endret til 'gathering'. Validert</change>
+<change><date>19.09.07</date>
+<name>HMS</name><title>Koding</title>
+Strykningen side 28: Kodet rollenavnet, strykningen og resten av replikken i hver sin 'sp' for å få filen validert. Lenkekodet første og siste 'sp'. Endelig avklaring av slike steder gjenstår og dette må derfor muligens endres senere, men filen er moden for kodekontroll og sendes derfor til det. En del noter gjenstår på tekststeder der det er vanskelig å ta en avgjørelse uten filolog-hjelp. Validert.</change>
+<change><date>13.09.07</date>
+<name>HMS</name><title>Rettelse etter 3. kollasjon</title>
+Førte inn resultater etter 3. kollasjon: to tegnsettingsendringer side 27. Gjenstår før kodekontroll: avklaring av koding ved strykningen før sceneanvisning side 28, denne valideres ikke slik den står nå (med 'del' inni 'p').</change>
+<change><date>25.06.07</date>
+<name>HMS</name><title>Koding</title>
+Etter avklaring med HB flyttet jeg 'del' inn i 'p' side 28 (strukturkoding ved strykning før sceneanvisning; komma er ikke strøket og kan ikke stå inne i 'del').</change>
+<change><date>22.06.07</date>
+<name>HMS</name><title>HU-referanser, id=who</title>
+Satte inn HU-referanser. Noen av dem er ca-referanser (dvs at referansene ikke alltid markerer sideskift i HU, men viser til siden hvor det står lignende tekst som i mset). Gikk gjennom id=who-lista i teiHeader. Fjernet castItem-innførslen da det ikke er noe rolleliste i mset. La ikke inn id for 'Gæsterne' da de bare har én replikk. Fjernet innførslene for Relling og Molvik da disse ikke opptrer i dette mset. Kammerherre Sæther er gitt verdien 'ENNÆRSYNTHERRE', selv om han ikke har noen replikker som den nærsynte herren har i førstetrykket. For Kammerherre Kaspersen og Flor stemmer replikkene mer overens med førstetrykkets blekfete og tynnhårede herrer. Kammerherre Sæther har fått verdien 'ENNÆRSYNTHERRE' fordi det er tre herrer med id i førstetrykket og tre kammerherrer i dette mset. Laget visning til 3. kollasjon.</change>
+<change><date>21.06.07</date>
+<name>HMS</name><title>Koding</title>
+Avklarte de resterende kodespørsmålene med MW, det står noen noter igjen (avventer svar på mailer). Validert og klar for en tredje kollasjon (mot faksimile) - vi tar en kollasjon til for sikkerhets skyld, da det var mange kollasjonsresultater/omkodinger å forholde seg til etter 2. kollasjon. Da er det lett å fjerne for mye/for lite!</change>
+<change><date>20.06.07</date>
+<name>HMS</name><title>Kjørte pb-script, 2. kollasjon, teiHeader</title>
+Kjørte pb_nummer-script for å få inn nummerering av faksimilesidetallene. HU-sidetallene fikk nummer i samme slengen, disse er feil (begynner på 1), men dette må likevel sjekkes senere og kan endres da. Førte inn resultater fra 2. kollasjon mot original. Noen kodespørsmål gjenstår, disse har jeg foreløpig satt inn note om. Har gått gjennom teiHeader, id-who er ikke sjekket. Formuleringen om HU-henvisninger må dessuten sjekkes, og HU-referanser legges inn.</change>
+<change><date>26.01.07</date>
+<name>IF</name><title>Validering</title>
+Ført inn dittografi-koding etter forslag fra ibsenkod. Validert. Jeg har begynt arbeidet med Vi41115b i en annen fil, som skal kopieres inn her når den er klar. Klar for kollasjon mot original og kodekontroll.</change>
+<change><date>06.12.06</date>
+<name>IF</name><title>Opprettet fil</title>
+Har problemer med valideringsfunksjonen, derfor ikke validert. Ferdig med transkripsjon mot faksimile. Sjekket id og HU-sideskift.</change>
+<change><date>14.11.06</date>
+<name>IF</name><title>Opprettet fil</title>
+Opprettet fil med teiHeaderopplysninger ang. NBO Ms.4&deg; 1115a. Oppdelingen i group er gjort etter modell av Vi81944, grupperingen a-d følger bibliotekarenes oppdeling, og det kan vurderes etter hvert om filen skal splittes eller ikke. id-who-listen er kopiert fra Vi84, sjekket, vurderte men la ikke inn ekstra id for den ene speakeren til En lejetjener (slik som er gjort i PG42869) fordi det kun er en replikk og fordi han i Vi84.xml i rollelisten er del av 'andre lejetjenere'. Klar for transkripsjon mot faksimile. Typografibeskrivelse kan tas ved kollasjon mot original.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:lang="da-nob">
+<body>
+<pb n="1"/>
+<pb ed="HU" n="45"/>
+<lb/><fw type="gathering" place="top-left">2.</fw><note resp="author" place="top-right">20.4.84.</note><note resp="HMS" type="workingNote">se Vi81944 d (faksimileside 8-9) - har samme dato og lignende tekst.</note>
+<div type="act" n="1">
+<lb/><head>Første akt.</head>
+<lb/><HIS:hisStage>(I grosserer Walles hus. Kostbart og be&typHyp;
+<lb/>kvemt indrettet røgeværelse; stoppede sofa&typHyp;
+<lb/>er og lænestole; tobaksborde med piber og
+<lb/>cigarkasser; tændte lamper og armstager.
+<lb/>Stor åben dør med fratrukne forhæng på
+<lb/>bagvæggen. Indenfor ses billardstuen, <HIS:hisDel rend="overstrike">med</HIS:hisDel>
+<lb/>ligeledes oplyst. Foran til højre i røgevæ&typHyp;
+<lb/>relset fører en liden tapetdør ind til kon&typHyp;
+<lb/>torerne. Foran til venstre kaminen med
+<lb/>ild i og ovenfor kaminen en dobbeltdør
+<lb/>til spisesalen. Derinde høres højrostet<note type="typo">'ø' mangler diakritisk tegn</note> sam&typHyp;
+<lb/>tale og latter af mange gæster. Der bankes
+<lb/>med kniven på et glas; stilhed indtræder. En
+<lb/>skåltale holdes; atter højrøstet og summen&typHyp;
+<lb/>de samtale.<note type="typo">flekk over punktum som gjør at tegnsettingen ser ut som kolon</note>)</HIS:hisStage>
+<lb/><HIS:hisStage>(Grossererens tjener i livré, og to&dash;tre leje&typHyp;
+<lb/>tjenere i sort sætter tilrette i røgeværelset og
+<lb/>i billardstuen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>
+<lb/><HIS:hisStage>(står bøjet og lægger mere kul i kaminen, lyt&typHyp;
+<lb/>ter imens<HIS:hisDel rend="overstrike">,</HIS:hisDel> og siger til en af lejetjenerne:)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej, hør bare, Jensen; nu står gamlingen ved
+<lb/>bordet og proponerer en lang skål for fru
+<pb n="2"/>
+<lb/>Sørby.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Lejetjeneren</speaker>
+<lb/><HIS:hisStage>(som tænder en armstage.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Er der kanske noget imellem dem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Fanden ved.</p>
+<lb/><HIS:hisDel rend="overstrike"><HIS:hisStage>sæ<gap/></HIS:hisStage></HIS:hisDel></HIS:hisSp><note resp="HMS" type="workingNote">OK koding? Det ser ut til at sceneanvisningen til Grossererens tjeners neste replikk er påbegynt her.</note><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Lejetjeneren</speaker>.</HIS:spOpener>
+<lb/><p>For han har nok vær&rapo;t en svær buk i sine
+<lb/>dage.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Kanske det.
+<lb/><HIS:hisStage>(sætter ildskuffen fra sig.)</HIS:hisStage></p></HIS:hisSp><pb ed="HU" n="46"/>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>En anden lejetjener</speaker>
+<lb/><HIS:hisStage>(i døren til billardstuen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>De, Pettersen, her er en gammel en, som &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Nu? De går jo snart fra bordet.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Gamle Ekdahl kommer tilsyne fra højre
+<lb/>i billardstuen. Han er hvidhåret, stilfærdig
+<lb/>og <HIS:hisDel rend="overstrike">l</HIS:hisDel> noget ludende klædt i en gammeldags ka&typHyp;
+<lb/>vaj med høj krave; i hånden en vinterhue og
+<lb/>en falmet bomuldsparaply. Under armen har
+<lb/>han en bunke papirer i et blåt kardusomslag.)</HIS:hisStage>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Jøss, hvad vil <sic>D<HIS:hisDel rend="overwritten"><unclear>e</unclear></HIS:hisDel>u</sic> her på denne tid?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Jeg skulde så nødvendig ind på kontoret &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Kantoret er stængt for en time siden og &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja, de sa&rapo; mig det; men herr Gråberg sidder
+<lb/>visst derinde endnu, og dersom De &dash; dersom du
+<pb n="3"/>
+<lb/><HIS:hisStage>(peger mod tapet<HIS:hisDel rend="overwritten"><gap/>ren</HIS:hisDel>døren)</HIS:hisStage> vilde la&rapo; mig få gå
+<lb/><emph>den</emph> vejen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det kan du jo få lov til. <HIS:hisStage>(flytter på et
+<lb/>bord.)</HIS:hisStage> Å du, Ekda<HIS:hisDel rend="overwritten">l</HIS:hisDel>hl, tag lidt med i bordet
+<lb/>her.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>
+<lb/><HIS:hisStage>(retter uvilkårligt på sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jeg &dash;! <HIS:hisStage>(spagfærdig)</HIS:hisStage> Nå, ja så, i bordet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Så tak. <HIS:hisStage>(åbner tapetdøren)</HIS:hisStage> Nå, gå så bare ind
+<lb/>med dig, Ekdahl; men sans på at komme dig
+<lb/>ud igen den andre vejen, for vi har fremmede.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Jo, jeg ved nok &dash;</p>
+<lb/><HIS:hisStage>(han går ind <HIS:hisAdd place="inline">t</HIS:hisAdd>i<HIS:hisAdd place="inline">l</HIS:hisAdd> <HIS:hisDel rend="overstrike">kontorerne</HIS:hisDel>. højre.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>En af lejetjenerne</speaker>.</HIS:spOpener>
+<lb/><p>Hører han også til kontorfolkene?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Nej, han er bare slig en, som <sic>skrver</sic> udenom når
+<lb/>de har det nødig. Men han har såmæn vær&rapo;t en
+<lb/>fin fyr i sine dage, han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Lejetjeneren</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Har <emph>han</emph> <gap/></HIS:hisDel> Ja, han så også ud til det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Ja da, han har været både prokkerater og fan&rapo;
+<lb/>ved altsammen. Å Jøss&rapo;, jeg kender godt til
+<lb/>gamle Ekdahl, jeg. Vi drikker mangen gang
+<lb/>en bitter og en flaske øl sammen nede hos ma&typHyp;
+<lb/>dam Eriksen.</p></HIS:hisSp><pb ed="HU" n="47"/>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Lejetjeneren</speaker>.</HIS:spOpener>
+<lb/><p>Han <app type="alteration"><lem><HIS:hisAdd place="offline">kan</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">så</HIS:hisDel></HIS:hisRdg></app> da <HIS:hisAdd place="offline"><HIS:hisDel rend="overstrike">vel</HIS:hisDel></HIS:hisAdd> ikke <HIS:hisDel rend="overstrike">ud t<gap/></HIS:hisDel> ha&rapo; stort at <HIS:hisDel rend="overstrike">traktere</HIS:hisDel>
+<pb n="4"/>
+<lb/>spandere med, han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Jøss&rapo;, Jensen, De kan da vel skønne at det
+<lb/>er mig som spanderer. For jeg synes en skal
+<lb/>være sjangtil imod folk, som det er gåt så il&typHyp;
+<lb/>de med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Lejetjeneren</speaker>.</HIS:spOpener>
+<lb/><p>Har han spillet bankerot da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Nej, det var nok værre end som så. For han <HIS:hisDel rend="overstrike">har</HIS:hisDel>
+<lb/>har siddet på fæstningen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Lejetjeneren</speaker>.</HIS:spOpener>
+<lb/><p>På fæstningen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Grossererens tjener</speaker>.</HIS:spOpener>
+<lb/><p>Eller kanske det var i b<HIS:clarification place="inline">o</HIS:clarification>dsfængslet &dash;. <HIS:hisStage>(lytter)</HIS:hisStage>
+<lb/>Hys; nu går de fra bordet.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Døren til spisesalen slåes op af et par tjenere
+<lb/>derinde fra. Hele bordselskabet kommer efter&typHyp;
+<lb/>hånden ud. Grosserer Walle går i spidsen
+<lb/>med <HIS:hisDel rend="overwritten">en</HIS:hisDel>fru <HIS:hisDel rend="overstrike">ældre</HIS:hisDel> <HIS:hisDel rend="overwritten">dame</HIS:hisDel>Sørby under armen, fører hen&typHyp;
+<lb/>de ud gennem billardstuen og derfra ind i
+<lb/>et tilstødende værelse til højre. Ældre og yn&typHyp;
+<lb/>gre herrer kommer i grupper og spreder sig i
+<lb/>røgværelset og i billardstuen. Kammer&typHyp;
+<lb/>herre Flor, kammerherre Kaspersen og kam&typHyp;
+<lb/>merherre Sæther kommer i samtale med Gre&typHyp;
+<lb/>ers Walle. Sidst kommer Halfdan Ekdahl.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Puh, &dash; den dinér, &dash; det var et drøjt stykke
+<lb/>arbejde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<lb/><p>Å med en smule god vilje kan en udrette
+<pb n="5"/>
+<lb/><fw type="gathering" place="top-left">3.</fw>
+<lb/>ganske utroligt i tre og en halv time. Hvad si&typHyp;
+<lb/>ger <emph>du</emph>, kammerherre Sæther?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>.</HIS:spOpener>
+<lb/><p>Det er lysten, som driver værket, he-he!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Ja, den som havde <emph>din</emph> mave, kammerherre
+<lb/>Kaspersen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>
+<lb/><HIS:hisStage>(stryger ham nedad vesten.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jeg synes din egen må kunne rumme ad&typHyp;
+<lb/>skilligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Ak ja, når den bare kunde fordøje hvad den
+<lb/>kan rumme, så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers Walle</speaker>.</HIS:spOpener>
+<lb/><p>Der er botemidler for alting, kammerherre Flor.
+<lb/>Hvorfor tror De ellers et alvist forsyn har skabt
+<lb/>mineralvandene?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<lb/><p>Fy, fy, nu blir De parisisk igen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers Walle</speaker>.</HIS:spOpener>
+<lb/><p>Desværre, det hænger i.<note type="typo">blekkflekk under punktum; gjør at tegnsettingen ser ut som et forskjøvet kolon.</note> Men jeg kommer jo
+<lb/>også lige dernede fra.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.
+<lb/><HIS:hisStage>(kommer tilbage<HIS:hisDel rend="overwritten">.)</HIS:hisDel>med fru Sørby.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad er det <emph>De</emph> står og studerer på, Ekdahl?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Halfdan</speaker>.</HIS:spOpener>
+<lb/><p>Det er bare et album, herr grosserer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.</HIS:spOpener>
+<lb/><p>Nå, fotografier. Ja, det er naturligvis noget
+<lb/>for Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<pb n="6"/>
+<lb/><p>Har De kanske selv taget nogen med? Af eget
+<lb/>fabrikat? Hvad?</p></HIS:hisSp><pb ed="HU" n="54"/>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Halfdan</speaker>.</HIS:spOpener>
+<lb/><p>Nej, jeg har ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.</HIS:spOpener>
+<lb/><p>Det skulde De rigtig ha&rapo; gjort. Så kunde De
+<lb/>ha&rapo; bidraget til <HIS:hisDel rend="overstrike">fø</HIS:hisDel> underholdningen, ser De.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>For her i huset må alle arbejde for føden, herr
+<lb/>Ekdahl.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.</HIS:spOpener>
+<lb/><p>Ha-ha-ha; det er sgu&rapo; rigtigt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>I et godt madhus er <emph>det</emph> en ren fornøjelse.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Kammerherre Flor arbejder for damerne, så
+<lb/>sveden sprækker af ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>For dam<emph>en</emph>, fru Sørby; for husets <emph>dame</emph> &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Ja, idag har De det letvindt. Og kammerherre
+<lb/>Kaspersen, &dash; ja hvad bestiller <emph>han</emph> &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Han producerer vittigheder &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Jeg sa&rapo; rigt</HIS:hisDel> Sa&rapo; De <emph>re</emph>producerer &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>
+<lb/><HIS:hisStage>(ler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nu blir De for slem!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Jeg sa&rapo; rigtignok <emph>pro</emph>ducerer, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<pb n="7"/>
+<lb/><p>Herregud, man nytter de evner man har.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Ja visst; derfor er kammerherre Sæther altid
+<lb/>så villig til at vende notebladet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>.</HIS:spOpener>
+<lb/><p>He-he!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(sagte.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Du må snakke med, Hjalmar!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar Ekdahl</speaker>
+<lb/><HIS:hisStage>(trækker på skuldrene.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad skal jeg snakke om?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walberg</speaker>.</HIS:spOpener>
+<lb/><p>Kast cigaretstumpen, og ta&rapo; Dem en ordentlig
+<lb/>cigar.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<lb/><p>Ja, men er fruen indrøgt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>
+<lb/><HIS:hisStage>(tænder.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det besørger jeg selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>.</HIS:spOpener>
+<lb/><p>Nej, se, se!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Mærkværdig delikat tokayer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Valberg</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det kan De nok sige. Men den har også ko&typHyp;
+<lb/>stet vakkre penge; for det er en af de aller&typHyp;
+<lb/>aller fineste årgange, skal De vide.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar <sic>Ekdal</sic></speaker>.</HIS:spOpener>
+<lb/><p>Er der nogen forskel på årgangene?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Valberg</speaker>.</HIS:spOpener>
+<lb/><p>Nej, De er god! Dem lønner det sig sgu&rapo; ikke
+<pb n="8"/>
+<lb/>at sætte fin vin for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<lb/><p>Det er med tokayeren, som med fotografier,
+<lb/>herr Ekdahl; solskin må der til. Eller er
+<lb/>det kanske ikke så?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Jo, lyset gør visst sit.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Men så er det jo akkurat som med kammer&typHyp;
+<lb/>herre<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>r da; for de trænger jo også til solskin.</p></HIS:hisSp><pb ed="HU" n="55"/>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<lb/><p>Uf, uf, <HIS:hisDel rend="overstrike">det er en uds</HIS:hisDel> der begik De en udslidt s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>py&typHyp;
+<lb/>dighed &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Fruen reproducerer &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Kan så være; men det er visst at årgangene kan
+<lb/>være svært forskellige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>.</HIS:spOpener>
+<lb/><p>Men mig regner De da visst til de fine årgange,
+<lb/>fru Sørby?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Å, De er visst af samme årgang, alle tre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Valberg</speaker>.</HIS:spOpener>
+<lb/><p>Ha-ha-ha &dash; der fik de det! Stik på glasse&typHyp;
+<lb/>ne, mine herrer. I sligt hundekoldt vejr. Et godt
+<lb/>glas, et varmt hyge<HIS:hisDel rend="overstrike"><HIS:hisSp who="GRAABERG"><HIS:spOpener><speaker>Grå</speaker></HIS:spOpener></HIS:hisSp></HIS:hisDel>ligt<note resp="HMS" type="workingNote">Fint om en filolog kan se på kodingen her, har kodet strykningen i 'sp'.</note> hjem, &dash; ja, det synes jeg
+<lb/>i al fald det er. Det er indenfor sine egne vægge
+<lb/>en skal søge den sande velvære.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Gæsterne klinker og drikker.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GRAABERG"><HIS:spOpener><speaker>Gråberg</speaker>
+<lb/><HIS:hisStage>(i tapetdøren.)</HIS:hisStage></HIS:spOpener>
+<pb n="9"/>
+<lb/><fw type="gathering" place="top-left">4.</fw>
+<lb/><p>Om forladelse, herr grosserer; men jeg kan ikke
+<lb/>slippe ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.</HIS:spOpener>
+<lb/><p>Nå, er De nu blet&rapo; låset inde igen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GRAABERG"><HIS:spOpener><speaker>Gråberg</speaker>.</HIS:spOpener>
+<lb/><p>Ja, og Flaksrud er gåt med nøglerne &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.</HIS:spOpener>
+<lb/><p>Nå, så gå De bare her igennem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GRAABERG"><HIS:spOpener><speaker>Gråberg</speaker>.</HIS:spOpener>
+<lb/><p>Men her er en til, <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>&dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Walle</speaker>.</HIS:spOpener>
+<lb/><p>Ja kom, kom begge to; genér Dem ikke.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Gråberg og gamle Ekdahl kommer ud fra ta&typHyp;
+<lb/>petdøren.)</HIS:hisStage>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Werle</speaker>
+<lb/><HIS:hisStage>(uvilkårligt<note type="typo">'å' mangler diakritisk tegn</note>.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Uf da!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Latter og passiar forstummer pludselig mellem
+<lb/>gjæsterne. Hjalmar farer sammen ved synet af sin
+<lb/>far og vender sig til siden.<pb ed="HU" n="56"/><HIS:hisDel rend="overwritten">)</HIS:hisDel>Gråberg og Ekdahl
+<lb/>går ud gennem billardstuen<HIS:hisDel rend="overwritten">.)</HIS:hisDel>og bort til højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Grosserer Werle</speaker>.
+<lb/><HIS:hisStage>(mumler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Den fandens Gråberg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Men det var da vel aldrig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>.</HIS:spOpener>
+<lb/><p>Hvad er det for noget? Hvem var det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Å, det var ingen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>
+<lb/><HIS:hisStage>(til Hjalmar.)</HIS:hisStage></HIS:spOpener><note type="workingNote">Replikkåpningen gjentas neste side.</note></HIS:hisSp>
+<pb n="10"/>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>
+<lb/><HIS:hisStage>(til Hjalmar.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Kendte <emph>De</emph> den manden?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Jeg ved ikke &dash;; jeg lagde ikke mærke til &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker></HIS:spOpener>
+<lb/><p>Og så kommen ind gennem stængte døre. Det må
+<lb/>jeg da få rede på.</p>
+<lb/><HIS:hisStage>(går hen til de øvrige.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>
+<lb/><HIS:hisStage>(hvisker til tjeneren.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Stik noget til ham derude; noget rigtig godt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Skal så gøre.</p>
+<lb/><HIS:hisStage>(går ud.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(sagte.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det var da altså virkelig ham!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det var det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Og du <HIS:hisDel rend="overwritten">k</HIS:hisDel>fornægted ham!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Men kunde jeg da &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Jeg er ræd, det er ble&rapo;t en pjalt af dig, Hjalmar.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Å, hvis du var i mit sted, så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Samtalerne mellem gæsterne, som først før&typHyp;
+<lb/>tes dæmpet,<note type="typo">tegnsetting ser ut som semikolon, men prikken er antagelig en flekk</note> går nu over til forceret højrøstet&typHyp;
+<lb/>hed<note type="typo">'ø' mangler diakritisk tegn</note>.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>
+<pb n="11"/>
+<lb/><HIS:hisStage>(nærmer sig venskabeligt til Hjalmar og Gregers.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Aha, her står De og frisker gamle minder op.
+<lb/>Skal De ikke ha&rapo; ild i Deres c<HIS:hisDel rend="overwritten">a</HIS:hisDel>igar, herr Ekdahl?
+<lb/><HIS:hisStage>(rækker ham et lys.)</HIS:hisStage> Vær så god.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Tak, jeg ryger ikke nu.</p></HIS:hisSp><pb ed="HU" n="57"/>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Har De ikke et eller andet vers at læse op for
+<lb/>os, herr Ekdahl? Før i tiden skrev De så ny&typHyp;
+<lb/>delige digte.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Nej, her har jeg ikke noget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Står det bra&rapo; til hjemme hos Dem? Deres børn &dash;.
+<lb/>Ja, for De har jo dog børn &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har <HIS:hisDel rend="overstrike">jo</HIS:hisDel> en datter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Og hvad bestiller hun?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Hedvig tegner.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Se, se; det er altså kunstnernaturen, som er gåt
+<lb/>i arv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENNÆRSYNTHERRE"><HIS:spOpener><speaker>Kammerherre Sæther</speaker>.
+<lb/><HIS:hisStage>(træder til.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej, det var ikke igennem lukkede døre. Han kom
+<lb/>i et lovligt ærende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENTYNDHÅRETHERRE"><HIS:spOpener><speaker>Kammerherre Kaspersen</speaker>
+<lb/><HIS:hisStage>(drejer ham gemytligt omkring.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Å, De våser, kammerherre Sæther.
+<lb/><HIS:hisStage>(fører ham væk.)</HIS:hisStage></p></HIS:hisSp>
+<pb n="12"/>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>.</HIS:spOpener>
+<lb/><p>Gud ved, hvad <emph>han</emph> prater om.
+<lb/><HIS:hisStage>(fjerner sig.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.
+<lb/><HIS:hisStage>(hvisker.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nu vil jeg gå, Gregers. Sig din far farvel fra
+<lb/>mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Ja ja. Går du lige hjem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja. Hvorfor det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Jo, for så kommer jeg op til dig siden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Nej, det skal du ikke. Ikke hjemme. Vi kan al&typHyp;
+<lb/>tid træffes et steds ude i byen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Hils</HIS:hisDel><note type="typo">'s' er bare nesten fullført</note> Går De<HIS:hisDel rend="overwritten">?</HIS:hisDel>, Ekdahl?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Hils Gina.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Tak.</p>
+<lb/><HIS:hisStage>(han søger så vidt muligt at komme ube&typHyp;
+<lb/>mærket ud til højre.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.
+<lb/><HIS:hisStage>(sagte til Pettersen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nå, fik så den gamle noget med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Ja da, jeg stak til ham en flaske konjak.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<pb n="13"/>
+<lb/><fw type="gathering" place="top-left">5.</fw>
+<lb/><p>Å, De kunde da fundet på noget bedre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Nej da, fru Sørby; konjak er det bedste han
+<lb/>ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ENBLEGFEDHERRE"><HIS:spOpener><speaker>Kammerherre Flor</speaker>
+<lb/><HIS:hisStage>(i døren til billardstuen med et notehæfte i hånden.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Skal vi så spille <HIS:hisDel rend="overstrike">for de<gap/></HIS:hisDel><note resp="HMS" type="workingNote">siste bokstav ser ut som 'n', men kan også være 'm', derav gap-kodingen.</note> lidt for dem, fru Sørby?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru Sørby</speaker>.</HIS:spOpener>
+<lb/><p>Ja nok; lad os det.</p></HIS:hisSp><pb ed="HU" n="58"/>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Gæsterne</speaker>.</HIS:spOpener>
+<lb/><p>Bravo! Bravo!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Alle går bort til højre gennem billardstuen.
+<lb/>Under det følgende høres dæmpet pianofortespil.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Far, vil du ikke vente lidt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Jeg må tale et ord med dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Kan ikke det vente til de andre er gåt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Nej, det kan ikke; for det <app type="alteration"><lem><HIS:hisAdd place="offline">tør</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">kan</HIS:hisDel></HIS:hisRdg></app> hænde at jeg
+<lb/>går før de andre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Går? Vil du gå? Hvad skal <emph>det</emph> sige?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Hvorledes har man her kunnet la&rapo; den famil&typHyp;
+<lb/>je så ynkeligt forkomme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Mener du Ekdahls?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<pb n="14"/>
+<lb/><p>Ja, jeg mener Ekdahls. Gamle Ekdahl stod dig
+<lb/>dog engang så nær. Og én gang i sit liv har han
+<lb/>i al fald nok været dig en svært nyttig mand.</p></HIS:hisSp><note resp="HMS" type="workingNote">Vanskelig å sette inn HU-ref her, men ca denne setningen står nederst på side 28 i førstetrykket.</note>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Åhå, du tænker vel på den gamle historie med
+<lb/>justitssagen<HIS:hisDel rend="overwritten">;</HIS:hisDel>?<note resp="HMS" type="workingNote">Det kan også være et komma som er overskrevet. Dog er kommaet plassert langt nede på linjen; jeg har derfor vurdert tegnet til å være semikolon.</note> De ting er opgjort for længe si&typHyp;
+<lb/>den. Du kan tro han fik sig ordentlig be&typHyp;
+<lb/>talt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Lad så være. Men siden, far; alt det andet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Jeg ved ikke hvad du mener med &lquo;det andet&rquo;.
+<lb/>Der er ikke noget andet! Ikke med et ord hen&typHyp;
+<lb/>vendte han sig til mig mens det endnu var
+<lb/>tid. Han vidste ikke selv, hvor galt det var
+<lb/>fat med ham, før alting kom for dagen, og
+<lb/>da var det jo for sent.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Det er heller ikke det, jeg taler om. Men si&typHyp;
+<lb/>den, bagefter &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja bagefter. Da han kom på fri fod igen,
+<lb/>var han en nedbrudt mand. &dash; Jeg kan for&typHyp;
+<lb/>sikkre dig, Gregers, jeg har gjort alt, hvad
+<lb/>der stod i min magt for at hjælpe ham.
+<lb/>Jeg har skaffet ham arkskrift fra kontoret
+<lb/>og jeg har betalt ham langt, langt over vær&typHyp;
+<lb/>dien for hans arbejde. Ler du af det?
+<lb/>Tror du kanske ikke det er sandt, hvad
+<lb/>jeg siger? I mine bøger står der rigtignok
+<lb/>ikke noget om det; for slige udgifter bogfø&typHyp;
+<lb/>rer jeg aldrig &dash;</p></HIS:hisSp>
+<pb n="15"/>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(smiler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej, der gives vel visse udgifter, som det ik&typHyp;
+<lb/>ke er værd at bogføre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>
+<lb/><HIS:hisStage>(studser.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad mener du med det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Har du bogført, hvad det kosted dig at lade
+<lb/>Hjalmar Ekdahl lære fotografering?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Jeg! Hvorledes bogført?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Jeg ved, at det var dig, som bekosted det. Og
+<lb/>jeg ved også at det var dig, som satte ham så
+<lb/>rundelig i stand til at etablere sig. <HIS:hisDel rend="overstrike">Har du
+<lb/>bogført nogen af de udgifter?</HIS:hisDel></p></HIS:hisSp><pb ed="HU" n="60"/>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Nå, og så heder det endda at jeg ikke har gjort
+<lb/>nok for Ekdahls familje. Jeg kan forsikkre
+<lb/>dig, de mennesker har voldt mig udgifter nok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Har du bogført nogen af de udgifter?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Hvorfor spør&rapo; du om det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Å, det har så sine årsager. Hør, sig mig, &dash;
+<lb/>den tid du tog dig så varmt af din gamle
+<lb/>vens søn, &dash; var ikke det netop just som han
+<lb/>skulde til at gifte sig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, hvor <HIS:hisDel rend="overstrike">k<gap/></HIS:hisDel> pokker, &dash; hvor kan jeg efter så man&typHyp;
+<lb/>ge års forløb &dash; det er vel nu en 18&dash;19 år siden &dash;</p></HIS:hisSp>
+<pb n="16"/>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Det er nu omtrent 17 år siden. Du skrev mig
+<lb/>dengang et brev til, &dash; et forretningsbrev naturlig&typHyp;
+<lb/>vis, &dash; og i en efterskrift stod der ganske kort at
+<lb/>Hjalmar Ekdahl havde giftet sig med en frø&typHyp;
+<lb/>ken Hansen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det var jo ganske rigtig; hun hed så.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Men du skrev ikke noget om at den frøken
+<lb/>Hansen var Gina Hansen, &dash; vor forhenværen&typHyp;
+<lb/>de husjomfru.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>
+<lb/><HIS:hisStage>(ler spotsk men tvungent.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej, for jeg vidste såmænd ikke at du interesser&typHyp;
+<lb/>te dig så særligt for vor forhenværende hus&typHyp;
+<lb/>jomfru.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Det gjorde jeg heller ikke. <HIS:hisStage>(sænker stemmen.)</HIS:hisStage>
+<lb/>Men her var nok andre her i huset, som inter&typHyp;
+<lb/>esserte sig særligt for hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Hvad mener du med <emph>det</emph>? <HIS:hisStage>(bruser imod ham.)</HIS:hisStage>
+<lb/>Du sigter da vel aldrig til mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(sagte men fast.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jo, jeg sigter til dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Og det vover du &dash;! Det understår du dig &dash;! Hvor
+<lb/>kan han, den uforskammede, han, fotografen, &dash;
+<lb/>hvor tør han vove at beskylde mig &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<pb n="17"/>
+<lb/><fw type="gathering" place="top-left">6.</fw>
+<lb/><p>Hjalmar har ikke sagt et ord om de ting.
+<lb/>Jeg ved ikke engang om han har en anelse
+<lb/>om sligt noget &dash;</p></HIS:hisSp><pb ed="HU" n="61"/>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Nå, men hvor har du det da fra? Hvem har
+<lb/>kunnet sige noget sligt om mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Det har min stakkers ulykkelige mor engang
+<lb/>sagt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Din mor! Ja, kunde jeg ikke næsten tænke
+<lb/>det! Hun og du, &dash; I holdt altid sammen imod
+<lb/>mig. Det var hende, som fra først af fik dit sind
+<lb/>vendt bort ifra mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Nej, det var alt det, hun måtte lide og døje til
+<lb/>hun bukked under og gik ynkeligt til grunde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Å, hun har slet ingen ting måttet lide og døje;
+<lb/>&dash; ikke mere end de fleste andre ialfald. Men
+<lb/>overspændte mennesker er der ikke noget
+<lb/>udkomme med. Og at du kunde fæste lid til
+<lb/>en slig beskyldning, &dash; en blot og bar mistanke &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Godt; så vil jeg se at komme til visshed &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Du vil da vel aldrig gi&rapo; dig til at rode op
+<lb/>i gamle rygter og historier? Jeg synes sand&typHyp;
+<lb/>færdig, du i din alder kunde ta&rapo; dig noget
+<lb/>nytt<HIS:hisDel rend="overwritten">g</HIS:hisDel>igere<note resp="HMS" type="workingNote">Det kan også være 'nyt + (overskrevet)ig + tigere'; det er vanskelig å avgjøre</note> til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Vi to har altid havt delte meninger om det
+<pb n="18"/>
+<lb/>nyttige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Både om det nyttige og om alle andre ting.
+<lb/>Gregers, jeg tror ikke der findes den mand i
+<lb/>verden, som er dig så meget imod som jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(hviskende.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jeg har set dig på altfor nært hold.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Du har set mig med din mors øjne; det er
+<lb/>sagen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Og du har aldrig kunnet tilgi&rapo; mig at jeg slæg&typHyp;
+<lb/>ter min mor på, &dash; og så det, at jeg havde et
+<lb/>slags hjerte for hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Hør nu, Gregers; der er jo så mangt og meget,
+<lb/>som skiller imellem os; men vi er jo dog far
+<lb/>og søn alligevel. Jeg s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ynes vi måtte kunne
+<lb/>komme til et slags forståelse med hinanden.
+<lb/>Sådan i det ydre ialfald.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Mener du i det, som man kalder verdens
+<lb/>øjne?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, om du så vil kalde det. Tænk over det. Sy&typHyp;
+<lb/>nes du ikke det måtte kunne la&rapo; sig gøre?
+<lb/>Hvad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(ser på ham med kolde øjne.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nu er der visst noget, du har brug for mig til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<pb n="19"/>
+<lb/><p>I så nært et forhold som vort, har den ene al&typHyp;
+<lb/>tid brug for den anden, Gregers.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Ja, man siger jo så.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Da jeg skrev dig til om at komme hjem, vil
+<lb/>jeg ikke nægte at jeg havde en bitanke med
+<lb/>det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Hm!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, for vort mellemværende, opgøret over din mø&typHyp;
+<lb/>drenearv og alt det andet kunde jo dog til nød
+<lb/>været ordnet skriftligt imellem os. Men nu,
+<lb/>da det jo &dash; desværre &dash; ikke længer er nødven&typHyp;
+<lb/>digt for dig at leve dernede &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Nu, hvad så &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Så vilde jeg gerne ha&rapo; dig hjemme hos mig en
+<lb/>tid. Jeg er en ensom mand, Gregers; har altid følt
+<lb/>mig ensom, &dash; hele mit liv igennem; men mest nu, da
+<lb/>jeg begynder at drage på alderen. Jeg trænger til at
+<lb/>ha&rapo; nogen om mig &dash;.</p></HIS:hisSp><pb ed="HU" n="63"/>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Du har jo fru Sørby.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det har jeg; og hun er så at sige bleven mig
+<lb/>næsten uundværlig. Hun er kvik, har et jævnt
+<lb/>sind; hun liver op i huset, &dash; og det kan jeg så
+<lb/>sårt trænge til &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<pb n="20"/>
+<lb/><p>Nå ja, men så har du det jo altså, som du
+<lb/>ønsker det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, men jeg er ræd, det kan ikke bli&rapo; ved. En
+<lb/>kvinde i slige forholde kommer let i en skæv
+<lb/>stilling lige over for verden; ja, jeg havde nær
+<lb/>sagt at en mand er heller ikke tjent med det.
+<lb/><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel></p></HIS:hisSp><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Å når en mand gir slige middagsselskaber,
+<lb/>som du, så kan han vove adskilligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, men hun, Gregers? Jeg er bange hun ik&typHyp;
+<lb/>ke længer vil finde sig i det. Og selv om hun
+<lb/>gjorde det, selv om hun af hengivenhed for mig
+<lb/>satte sig ud over folkesnak og sligt noget &dash;. Sy&typHyp;
+<lb/>nes da du, Gregers, du med din stærkt udpræge&typHyp;
+<lb/>de retfærdighedsfølelse &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(afbryder ham.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Sig mig én ting; &dash; tænker du på at gifte dig
+<lb/>med hende?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Og hvis jeg nu tænkte på sådant noget? Hvad
+<lb/>så?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det spør&rapo; jeg også. Hvad så?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Vilde det være dig så aldeles uovervindeligt
+<lb/>imod?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Nej, aldeles ikke. Ikke på nogen måde. <HIS:hisDel rend="overstrike">&dash;</HIS:hisDel></p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<pb n="21"/>
+<lb/><fw type="gathering" place="top-left">7.</fw>
+<lb/><p>Ja, for jeg tænkte at det kanske af hensyn
+<lb/>til din mors minde &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(afværger med hånden.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej, nej, nej, lad os ikke bruge bedemands&typHyp;
+<lb/>stil, far. Jeg er ikke overspændt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, hvad du end er eller ikke er, så har du i&typHyp;
+<lb/>alfald lettet en sten fra mit bryst, Gregers.
+<lb/>Det er mig overmåde kært at jeg kan gøre reg&typHyp;
+<lb/>ning på din tilslutning i denne sag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Nu forstår jeg, hvad det er du vil bruge
+<lb/>mig til.</p></HIS:hisSp><pb ed="HU" n="64"/>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Bruge dig til? Hvad er det for et udtryk?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Å lad os ikke være kræsne i valg af ord; &dash;
+<lb/>ikke her på tomandshånd ialfald. &dash; <HIS:hisStage>(ler.)</HIS:hisStage>
+<lb/>Derfor var det altså jeg, død og pine, måtte
+<lb/>indfinde mig i egen person. <HIS:hisDel rend="overstrike">Her</HIS:hisDel> I anled&typHyp;
+<lb/>ning af fru Sørby skal der altså arrange&typHyp;
+<lb/>res familjeliv her i huset; &dash; det blir noget
+<lb/>nyt, det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Hvor tør du sige sligt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Når har her været familjeliv? Men nu har
+<lb/>man behov for en smule af den slags. Ja vel;
+<lb/>jeg kan skønne det. Det vil jo også unægtelig
+<lb/>ta&rapo; sig godt ud når det rygtes at sønnen &dash; på
+<lb/>pietetens vinger &dash; er ilet hjem til den aldren&typHyp;
+<pb n="22"/>
+<lb/>de faders <HIS:hisDel rend="overstrike">højtid</HIS:hisDel><note type="typo">'ø' mangler diakritisk tegn</note> brudgomsdag. <HIS:hisDel rend="overstrike">S</HIS:hisDel> Der hersker
+<lb/>dog altså et smukt kordialt forhold imellem
+<lb/>de to alligevel. Ja naturligvis. Far og søn, &dash; gud
+<lb/>bevar&rapo;s, kan det være andet! Det er jo natu&typHyp;
+<lb/>rens orden &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det burde være naturens orden, Gregers &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Å jeg tror ikke en snus hverken på naturen
+<lb/>eller på dens orden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Hør nu; det vil jeg sige dig at der kan væ&typHyp;
+<lb/>re mangt og meget at klandre ved min livs&typHyp;
+<lb/>førelse &dash; <HIS:hisStage>(med hævet stemme)</HIS:hisStage> men der er
+<lb/>visse ting, som jeg altid kræver respekt for
+<lb/>i mit hus!</p></HIS:hisSp><pb ed="HU" n="65"/>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(bukker let.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det har jeg observeret; og derfor tar jeg også
+<lb/>min hat og går.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Går du &dash;! Ud af huset!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Ja, for der er bare én eneste ting i verden,
+<lb/>som <emph>jeg</emph> har respekt for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>Og hvad er det for noget?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Du vilde le om du hørte det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>.</HIS:spOpener>
+<lb/><p>En ensom mand ler ikke så let, Gregers.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.
+<pb n="23"/>
+<lb/><HIS:hisStage>(peger ind mod billardstuen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Se, far,<note type="typo">prikk over komma; kan være semikolon, umulig å avgjøre.</note> der leger kammerherrerne blinde&typHyp;
+<lb/>buk med fru Sørby. &dash; Godnat og farvel!
+<lb/><HIS:hisStage>(han går ud til højre.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="WERLE"><HIS:spOpener><speaker>Werle</speaker>
+<lb/><HIS:hisStage>(smiler hånlig efter ham.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>He &dash;! Og så siger han at han ikke er over&typHyp;
+<lb/>spændt.</p></HIS:hisSp>
+<lb/><note resp="author" place="margin-right">28.4.84. &dash;</note>
+</div>
+
+<pb n="24"/><pb ed="HU" n="66"/>
+<lb/><note resp="author" place="top-right">2.5.84.</note>
+<div type="act" n="2">
+<lb/><head>Anden akt.</head>
+<lb/><HIS:hisStage>(Hjalmar Ekdahls atelier. Rummet, der er
+<lb/>temmelig stort men tarvelig udstyret, ses at væ&typHyp;
+<lb/>re et loftkammer. Til højre er skråtag med
+<lb/>store glasruder, halvt tildækkede af et blåt for&typHyp;
+<lb/>hæng. Oppe i krogen til højre er indgangsdø&typHyp;
+<lb/>ren; på væggen til venstre er to døre. Midt
+<lb/>på bagvæggen en stor dobbeltdør, indrettet til at
+<lb/>skyde tilside. Foran ved væggen til højre en gam&typHyp;
+<lb/>mel slidt sofa med et bord og et par stole. På
+<lb/>bordet en tændt lampe. Forskellige fotografiske
+<lb/>apparater står omkring i rummet, fotografier
+<lb/>ligger på <sic>borden</sic>; flasker og æsker med forskel&typHyp;
+<lb/>lige kemiske stoffer i en reol på bagvæggen.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Fru Ekdahl sidder på en stol ved bordet
+<lb/>og syr. Hedvig sidder i sofaen og tegner.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hvor meget var det du gav ud til smørret i
+<lb/>dag?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Det var 45 øre.</p></HIS:hisSp><pb ed="HU" n="67"/>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Og så kommer øllet til. Ja se, &dash; der har vi straks
+<lb/>over en krone.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Ja, men så fik far fire kroner og femti for fo&typHyp;
+<lb/>tografierne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<pb n="25"/>
+<lb/><fw type="gathering" place="top-left">8.</fw>
+<lb/><p>Blev det så meget?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Ja, akkurat fire kroner og femti.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Stilhed.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hm, &dash; nu gad jeg rigtig vide, hvorledes din
+<lb/>far har det i selskabet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det skulde være morsomt om vi kunde se
+<lb/>ham.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Gamle Ekdahl, med papirpakken under armen,
+<lb/>kommer ind gennem døren til <HIS:hisDel rend="overstrike">ven<gap/></HIS:hisDel> højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Hvor sent du kommer hjem idag, bedstefar.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Gråberg holdt så længe op; han gør al ting så
+<lb/>vidtløftigt, den mand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Fik far noget nyt hjem at skrive?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja, hele denne pakken her.</p></HIS:hisSp><pb ed="HU" n="68"/>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Det var jo bra&rapo;.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.
+<lb/><HIS:hisStage>(sætter paraplyen fra sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det blir såmænd arbejde for lang tid, det, Gina.
+<lb/><HIS:hisStage>(trækker den ene halvdør i baggrunden lidt tilside.)</HIS:hisStage>
+<lb/>Hys! <HIS:hisStage>(spejder ind i det mørke rum; skyder at&typHyp;
+<lb/>ter døren for.)</HIS:hisStage> He-he-he; de sidder alle sammen
+<lb/>og sover så godt. <HIS:hisStage>(går mod den øverste dør til
+<lb/>venstre.)</HIS:hisStage> Jeg finder vel fyrstikker?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<pb n="26"/>
+<lb/><p>Fyrstikkerne står på kommoden.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Ekdahl går ind.)</HIS:hisStage>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Det var rigtig godt at bedstefar fik alt det at
+<lb/>skrive.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja, stakkers gamle far, så tjener han sig da
+<lb/>en liden skilling.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Og så kan han ikke sidde hele formiddagen
+<lb/>der nede på den fæle madam Eriksens re&typHyp;
+<lb/>stauration.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Det også, ja. Endskønt, &dash; ja, jeg ved ikke, &dash; men
+<lb/>jeg synes næsten, mandfolk er fornøjeligst når
+<lb/>de har drukket noget &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten">N</HIS:hisDel>Uf nej da! Ja, de er nok fornøjeligst; men det
+<lb/>blir så utrygt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hvorledes utrygt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Jeg mener, det blir så utrygt for os andre; en ved
+<lb/>ikke rigtig, hvor en har dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>
+<lb/><HIS:hisStage>(ser på hende.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Når har du lagt mærke til <emph>det</emph>?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Å det kan en da <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> altid lægge mærke til. Både
+<lb/>Molstad og Riser er da mangen gang på en
+<lb/>kant &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<pb n="27"/>
+<lb/><p>Så det var <emph>de</emph> to, du tænkte på.</p></HIS:hisSp><pb ed="HU" n="69"/>
+<lb/><HIS:hisStage>(Gamle <sic>Ekdal</sic> kommer ind igen og vil gå ud
+<lb/>gennem den forreste dør til venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>
+<lb/><HIS:hisStage>(vender sig halvt på stolen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Skal far ha&rapo; noget i køkkenet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja jeg skal. Bliv bare siddende.</p>
+<lb/><HIS:hisStage>(går ud.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Han roder da vel ikke med gløderne derude?
+<lb/>Hedvig, se du efter, hvad han tar sig til<note type="typo">tegnsetting mangler</note></p></HIS:hisSp>
+<lb/><HIS:hisStage>(Ekdahl kommer ind igen med en liden mug&typHyp;
+<lb/>ge med dampende vand.)</HIS:hisStage>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Henter du varmt vand, bedstefar?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja, jeg gør. Jeg skal bruge det. Jeg skal skrive,
+<lb/>og så er blækket blet tykt som en grød.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Men far må da ikke sidde så sent og spolere
+<lb/>øjnene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Det får være det samme med øjnene, Gina.
+<lb/>Jeg har travlt, siger jeg. Jeg vil ikke ha&rapo; nogen
+<lb/>ind til mig.</p>
+<lb/><HIS:hisStage>(går ind i sit værelse.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>,
+<lb/><HIS:hisStage>(sagte.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Kan du skønne, du, hvor han har fåt penge
+<lb/>fra.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker></HIS:spOpener>
+<pb n="28"/>
+<lb/><p>Han har visst fåt af Gråberg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Å langt ifra; Gråberg betaler jo altid til mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Så kanske han har fåt en flaske på borg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Stakker far, de borger nok ikke ham noget.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Hjalmar Ekdahl kommer ind fra højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>
+<lb/><HIS:hisStage>(rejser sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej, er du alt der igen!</p></HIS:hisSp><pb ed="HU" n="70"/>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>
+<lb/><HIS:hisStage>(sætter hatten fra sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja, nu gik nok de fleste.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.
+<lb/><HIS:hisStage>(der har rejst sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Så tidligt, far?</p></HIS:hisSp>
+<join target="HJALMAR_1 HJALMAR_2"/>
+<lb/><HIS:hisSp who="HJALMAR" xml:id="HJALMAR_1"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><p><HIS:hisDel rend="overstrike">Ja</HIS:hisDel>,</p></HIS:hisSp><HIS:hisSp who="HJALMAR" xml:id="HJALMAR_2"><HIS:spOpener><HIS:hisStage>(trækker yderfrakken af.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja, det var jo et middagsselskab.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Lad mig hjælpe dig. <HIS:hisStage>(hænger frakken op.)</HIS:hisStage> Var
+<lb/>der mange der?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Å nej, ikke mange. Det var så en 12&dash;14 personer.
+<lb/><HIS:hisStage>(til Hedvig.)</HIS:hisStage> Er ikke bedstefar kommen hjem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Na</HIS:hisDel><note resp="HMS" type="workingNote">antagelig en påbegynt 'å'</note> Jo, han sidder derinde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Nå, sa&rapo; han noget?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nej, ikke noget videre.</p></HIS:hisSp>
+<pb n="29"/>
+<lb/><fw type="gathering" place="top-left">9.</fw>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Nævnte han ikke noget om &dash;? Jeg synes, jeg hørte
+<lb/>at han havde været inde hos Gråberg. &dash; Jeg vil gå
+<lb/>lidt ind til ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">E</HIS:hisDel><note resp="HMS" type="workingNote">nesten fullført 'E'</note>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nej, nej, det er ikke værd &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Hvorfor ikke det? Sa&rapo; han at han ikke vilde
+<lb/>ha&rapo; mig ind &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Han vil nok ikke ha&rapo; nogen ind; han har været
+<lb/>her og hentet sig varmt vand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Åhå, sidder han og &dash;? <HIS:hisStage>(gør tegn.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja, jeg tror det næsten.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Herregud; stakkers gamle<pb ed="HU" n="71"/> far! Ja, så lad ham
+<lb/>sidde og gøre sig rigtig dygtig tilgode.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Gamle Ekdahl, i husfrakke med tændt to&typHyp;
+<lb/>bakspibe, kommer fra sit værelse.)</HIS:hisStage>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Se, der har vi ham. Jeg syntes nok jeg hørte<note type="typo">'ø' mangler diakritisk tegn</note>
+<lb/>dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Jeg kom nu netop.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Du så mig nok ikke dernede.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Nej, jeg gjorde ikke. Jeg hørte du var gåt igennem &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hvad var det for nogen, alle de folk?</p></HIS:hisSp>
+<pb n="30"/>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Å, det var forskellige. Der var kammerherre Flor
+<lb/>og kammerherre Kaspersen og kammerherre &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hører du det, Gina! Han har været sammen
+<lb/>med bare kammerherrer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nå, der må ha&rapo; været svært fint.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Vilde de ikke ha&rapo; dig til at læse noget op,
+<lb/>far?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Jo, de vilde nok; men de fik mig ikke til det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Fik de dig ikke til det, du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Men det kunde du da gerne ha&rapo; gjort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Nej, en skal ikke straks stå på pinde for alle
+<lb/>og enhver. Jeg gør det i al fald ikke. Og så var
+<lb/>jeg slet ikke oplagt heller.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nej, nej, Hjalmar er ikke så lige til, han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Jeg ved ikke, hvorfor <emph>jeg</emph> just skal sørge for under&typHyp;
+<lb/>holdningen når jeg er ude en gang iblandt. Det
+<lb/>lod jeg dem også forstå. Ja, jeg fandt mig endog&typHyp;
+<lb/>så foranlediget til at gi&rapo; et par af de <HIS:hisDel rend="overwritten">k</HIS:hisDel>herrer en
+<lb/>temmelig drøj tilrettevisning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nej, gjorde du det.</p></HIS:hisSp><pb ed="HU" n="72"/>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker></HIS:spOpener>
+<pb n="31"/>
+<lb/><p>Og det var nogen af kammerherrerne?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja visst var det så. Vi kom i disput om Tokayer&typHyp;
+<lb/>vinen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Rigtig<HIS:hisDel rend="overwritten">,</HIS:hisDel>ja, det er en fin vin.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja, men jeg skal sige dig, ikke alle årgange er
+<lb/>lige fine; det kommer an på hvor meget solvar&typHyp;
+<lb/>me druerne har fåt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru <sic>Ekdal</sic></speaker>.</HIS:spOpener>
+<lb/><p>Nej, du ved da også alting, Ekdahl.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">H</HIS:hisDel>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Og det gav de sig til at disputere med dig om?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja, de<HIS:hisDel rend="overstrike">t</HIS:hisDel> vilde prøve på det; men så <HIS:hisAdd place="offline">fik de den besked</HIS:hisAdd> lod jeg dem
+<lb/>vide at det var akkurat ligedan med kammer&typHyp;
+<lb/>herrer; af dem var heller ikke alle årgange lige
+<lb/>fine &dash; sa&rapo;e jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nej, hvad du kan finde på!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Og det sa&rapo; du dem &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Lige op i øjnene på dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Du, Gina, han sa&rapo;e det lige op i øjnene på dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Nej tænk; lige i øjnene &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.
+<lb/><HIS:hisStage>(stiller sig ved piedestallen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja, jeg stod således; se her, &dash; lænet til kaminen,
+<pb n="32"/>
+<lb/>og legte med den højre hand<HIS:hisDel rend="overwritten">e</HIS:hisDel>ske og så sa&rapo;e jeg
+<lb/>dem det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Lige op i øjnene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Hvor det er morsomt at se far i kjole! Du tar
+<lb/>dig godt ud i kjole, far.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja, gør jeg ikke det? Og den passer aldeles som
+<lb/>den var sy&rapo;d til mig. Lidt trang i armehuller&typHyp;
+<lb/>ne kanske &dash;. <HIS:hisStage>(trækker kjolen af.)</HIS:hisStage> Men nu vil<note resp="HMS" type="workingNote">et ord mangler, antagelig 'jeg'</note>
+<lb/>ha&rapo;e frakken på &dash; <HIS:hisStage>(gør så)</HIS:hisStage><pb ed="HU" n="73"/> det kendes ligesom
+<lb/>mere hjemligt. <HIS:hisStage>(til Gina.)</HIS:hisStage> Husk endelig på at
+<lb/>Molvik får kjolen igen straks imorgen tidlig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Det skal nok bli besørget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>
+<lb/><HIS:hisStage>(sætter sig i sofaen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ah, en sidder dog ingensteds så godt, som i sit
+<lb/>eget sofahjørne, &dash; med foden under sit eget bord &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Og så med et glas øl til piben &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Har vi øl i huset?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det er der nok sørget for.
+<lb/><HIS:hisStage>(går ud i køkkenet.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEDVIG"><HIS:spOpener><speaker>Hedvig</speaker>.</HIS:spOpener>
+<lb/><p>Her er piben og tobakken &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Tak! Jeg har ordentlig læn<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>gtes efter piben. Wer&typHyp;
+<lb/>les cigarer kan være bra&rapo; nok; men en god pibe,
+<pb n="33"/>
+<lb/><fw type="gathering" place="top-left">10.</fw>
+<lb/>det er dog noget andet i længden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>
+<lb/><HIS:hisStage>(kommer med ølflasker og glasse fra køkkenet.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Se så, nu kan du få drikke dig utørst.</p></HIS:hisSp><pb ed="HU" n="76"/>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Det er prægtigt. Kom nu, far, nu skal vi drikke
+<lb/>et glas sammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hum; jeg tror, jeg vil stoppe min pibe først.
+<lb/><HIS:hisStage>(går ind i sit værelse.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.
+<lb/><HIS:hisStage>(smiler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Han vil stoppe piben.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>A ja, ja, ja; lad ham bare, stakkers gamle far.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(det banker på døren til højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Hys, banked det ikke på døren? <sic>hvem</sic> kan det
+<lb/>være?
+<lb/><HIS:hisStage>(går hen og åbner.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(i gangen.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Om forladelse; er det ikke her fotograf Ekdahl
+<lb/>bor?</p></HIS:hisSp><pb ed="HU" n="77"/>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Jo det er.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>
+<lb/><HIS:hisStage>(rejser sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Gregers! Er du der alligevel? Nå så kom ind
+<lb/>da.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>
+<lb/><HIS:hisStage>(kommer ind.)</HIS:hisStage></HIS:spOpener>
+<pb n="34"/>
+<lb/><p>Jeg sa&rapo;e dig jo, jeg vilde komme op til dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Men ikveld &dash;? Er du gåt fra selskabet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Både fra selskabet og fra huset. God aften,
+<lb/>fru Ekdahl; kan De huske mig fra gamle da&typHyp;
+<lb/>ge? Kan De kende mig igen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Å jo, det kan jeg nok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Er du gåt fra huset, <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>siger du.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Ja; jeg blir inat i et hotel, og imorgen tar jeg
+<lb/>mig et logis. Du, Hjalmar, har jo et par væ&typHyp;
+<lb/>relser at leje ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det har vi nok, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<lb/><p>Men det er visst ikke noget for Dem, herr
+<lb/>Werle.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Det skal De ikke være bange for; jeg tænker
+<lb/>nok, jeg blir fornøjet; og prisen skal vi nok
+<lb/>bli&rapo; enige om.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det var jo ganske heldigt for os &dash;. Nå, siden
+<lb/>du er kommen, så vil du kanske sidde ned.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GREGERS"><HIS:spOpener><speaker>Gregers</speaker>.</HIS:spOpener>
+<lb/><p>Tak; her bor I jo som rigtige kunstnere.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HJALMAR"><HIS:spOpener><speaker>Hjalmar</speaker>.</HIS:spOpener>
+<lb/><p>Det er atelieret, som du vel ser &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GINA"><HIS:spOpener><speaker>Fru Ekdahl</speaker>.</HIS:spOpener>
+<pb n="35"/>
+<lb/><p>Men det er nu rummeligere, og derfor så hol&typHyp;
+<lb/>der vi helst til her.</p></HIS:hisSp>
+<pb n="36"/>
+</div>
+</body>
+</text>
+</TEI>

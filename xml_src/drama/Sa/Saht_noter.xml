@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Sa">Sancthansnatten</title>
+<title>Saht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>22.11.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteSa_1"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_1">Prolog</HIS:hisRef>] <hi rend="italic">HIS, tittel mangler, her hentet fra teaterplakaten</hi></note>
+<note resp="editor" xml:id="noteSa_2"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_2">Jfr: Wiese</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_3"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_3">Prom</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_4"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_4">Md<hi rend="raised">m</hi> Hundevadt</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_5"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_5">&rep; Bruun</HIS:hisRef>] <hi rend="italic">tilføyd med gjentagelsestegn foran</hi></note>
+<note resp="editor" xml:id="noteSa_6"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_6">P. N</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_7"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_7">Isachsen</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_8"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_8">Bruun</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_9"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_9">Jfr Johan<HIS:diacrit type="left"/>nesen<HIS:diacrit type="right"/></HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_10"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_10">Bjælkehuus</HIS:hisRef>] <hi rend="italic">BOB hBI,</hi> Bjækehuus <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_11"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_11">Anna, Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne, Anne <hi rend="italic">TarkUiB NT872 &bull; egenhendig endret fra</hi> Anna, Anna</note>
+<note resp="editor" xml:id="noteSa_12"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_12">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872 &bull; egenhendig endret fra</hi> Anna</note>
+<note resp="editor" xml:id="noteSa_13"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_13">bli'er</HIS:hisRef>] <hi rend="italic">endret fra</hi> blier</note>
+<note resp="editor" xml:id="noteSa_14"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_14">&lquo;I</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> I <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_15"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_15">Lide.&rquo;</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Lide. <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_16"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_16">af</HIS:hisRef>] <hi rend="italic">BOB hBI,</hi> at <hi rend="italic">TarkUiB NT872,</hi> ad <hi rend="italic">TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_17"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_17">vel</HIS:hisRef>] <hi rend="italic">endret fra</hi> nu</note>
+<note resp="editor" xml:id="noteSa_18"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_18">Skramleriet </HIS:hisRef>] <hi rend="italic">etter er senere strøket</hi> derinde</note>
+<note resp="editor" xml:id="noteSa_19"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_19">de</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> De <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_20"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_20">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_21"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_21">maa</HIS:hisRef>] endret, opprinnelig tekst uleselig</note>
+<note resp="editor" xml:id="noteSa_22"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_22">Christiania. <hi rend="italic">(&hellip;)</hi> Birk?</HIS:hisRef>] <hi rend="italic">egenhendig på opprinnelig innlimt lapp, endret fra</hi> Christiania, han og jeg er Duus, &dash; vi gaae ofte Arm i Arm og røge vor Cigar &dash; ikke sandt Birk &dash;</note>
+<note resp="editor" xml:id="noteSa_23"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_23">en</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> egen</note>
+<note resp="editor" xml:id="noteSa_24"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_24">Paulsen</HIS:hisRef>] <hi rend="italic">HIS,</hi> Poulsen <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_25"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_25">Min Steddatter. (hvidskende) Stakkels</HIS:hisRef>] <hi rend="italic">umiddelbart endret, opprinnelig tekst uleselig</hi></note>
+<note resp="editor" xml:id="noteSa_26"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_26">velkommen</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> vel-velkommen <hi rend="italic">TarkUiB NT872, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteSa_27"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_27">introdu &dash; at føre sig ind</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> introdu<HIS:diacrit type="left"/>sere<HIS:diacrit type="right"/> sig</note>
+<note resp="editor" xml:id="noteSa_28"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_28">Paulsen</HIS:hisRef>] <hi rend="italic">HIS,</hi> Poulsen <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_29"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_29">Jørgen. &dash; </HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> Senere Nissen</note>
+<note resp="editor" xml:id="noteSa_30"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_30">(Velkommen efter, Du!)</HIS:hisRef>] <hi rend="italic">tilføyd, tilføyelsen er ikke egenhendig, men egenhendig tydeliggjort</hi></note>
+<note resp="editor" xml:id="noteSa_31"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_31">præsentere</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> pæ</note>
+<note resp="editor" xml:id="noteSa_32"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_32"><HIS:diacrit type="left"/>vi<HIS:diacrit type="right"/>lde</HIS:hisRef>] <hi rend="italic">ms. skadet</hi></note>
+<note resp="editor" xml:id="noteSa_33"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_33">med en Smule Fantasi kommer det ud paa eet</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> jeg suponerer det er en Skov</note>
+<note resp="editor" xml:id="noteSa_34"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_34">Juliane <hi rend="italic">(&hellip;)</hi> lære.</HIS:hisRef>] <hi rend="italic">egenhendig på innlimt lapp, endret fra</hi> Juliane: (sagte til Jørgen) Min Gud, hv<HIS:diacrit type="left"/>ilke<HIS:diacrit type="right"/> interessante Ideer han har. Jørgen: (ligeledes) Ja, det troer jeg nok<HIS:diacrit type="left"/>.<HIS:diacrit type="right"/> Birk: (afsides) Hvad! ogsaa hun!</note>
+<note resp="editor" xml:id="noteSa_35"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_35">tilsengs</HIS:hisRef>] <hi rend="italic">endret fra</hi> tilse<gap/>gs</note>
+<note resp="editor" xml:id="noteSa_36"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_36">sandt!</HIS:hisRef>] <hi rend="italic">endret fra</hi> sandt?</note>
+<note resp="editor" xml:id="noteSa_37"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_37">Vrøvl! </HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> (Nissen sætter sig i Loftslugen)</note>
+<note resp="editor" xml:id="noteSa_38"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_38">De</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> de <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_39"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_39">Nissen </HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> reiser sig</note>
+<note resp="editor" xml:id="noteSa_40"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_40">Ho, ho, ho!</HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> trækker sig tilbage</note>
+<note resp="editor" xml:id="noteSa_41"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_41">Han forsvinder. </HIS:hisRef>] <hi rend="italic">egenhendig tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_42"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_42">Birk</HIS:hisRef>] <hi rend="italic">endret fra</hi> <HIS:diacrit type="left"/>Juliane<HIS:diacrit type="right"/></note>
+<note resp="editor" xml:id="noteSa_43"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_43">Fredsens</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> gode</note>
+<note resp="editor" xml:id="noteSa_44"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_44">er <hi rend="italic">(&hellip;)</hi> skal han</HIS:hisRef>] <hi rend="italic">egenhendig på innlimt lapp, endret fra</hi> er et Umiddelbarhedens Bad, so<HIS:diacrit type="left"/>m<HIS:diacrit type="right"/> Umiddelbarhede<HIS:diacrit type="left"/>ns<HIS:diacrit type="right"/> Bad! det <HIS:diacrit type="left"/>var<HIS:diacrit type="right"/> et godt Udtryk, &dash; det skal han</note>
+<note resp="editor" xml:id="noteSa_45"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_45">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_46"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_46">Vise</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_47"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_47">Da føles</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> Han skuer</note>
+<note resp="editor" xml:id="noteSa_48"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_48">Hovedbygningen).</HIS:hisRef>] <hi rend="italic">HIS,</hi> Hovedbygningen) <hi rend="italic">TarkUiB NT872, TarkUiB NT872r,</hi> Hovedbygningen.) <hi rend="italic">BOB hBI</hi></note>
+<note resp="editor" xml:id="noteSa_49"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_49">der</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_50"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_50">Ih, min Gud!</HIS:hisRef>] <hi rend="italic">endret fra</hi> <HIS:diacrit type="left"/>Hvad var det<HIS:diacrit type="right"/></note>
+<note resp="editor" xml:id="noteSa_51"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_51">Sancthanshaugen</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Sancthanhaugen <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_52"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_52">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_53"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_53">overrasket</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> overraket <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_54"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_54">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_55"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_55">Svogerskab</HIS:hisRef>] <hi rend="italic">endret fra</hi> Svog<gap/>rskab</note>
+<note resp="editor" xml:id="noteSa_56"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_56">Baggrunden).</HIS:hisRef>] <hi rend="italic">TarkUiB NT872r,</hi> Baggrunden) <hi rend="italic">TarkUiB NT872,</hi> Baggrunden.) <hi rend="italic">BOB hBI</hi></note>
+<note resp="editor" xml:id="noteSa_57"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_57">Dem</HIS:hisRef>] <hi rend="italic">endret fra</hi> dem</note>
+<note resp="editor" xml:id="noteSa_58"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_58">ved</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> veed <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_59"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_59">Ikke? <hi rend="italic">(&hellip;)</hi> muligt.</HIS:hisRef>] <hi rend="italic">egenhendig på innlimt lapp, endret fra</hi> <HIS:diacrit type="left"/>Ikke? virkelig ikke! Nei jeg veed nok, jeg udtrykker mig ikke populært, men det er netop Princip hos mig og jeg skal give Dem Grunde derfor, seer De, mine Tank<HIS:diacrit type="right"/>er, <HIS:diacrit type="left"/>mine Ideer, ere ikke populære,<HIS:diacrit type="right"/> &dash; <HIS:diacrit type="left"/>jeg supponerer det, &dash; men nu er det mit Valgsprog: Det skjønne fremfor Alt. Men hvad er Skjønhed? Overensstemmelse mellem Indhold og Form &dash; naar nu mine Tanker ikke ere populære, hvorledes<HIS:diacrit type="right"/> &dash; &dash;</note>
+<note resp="editor" xml:id="noteSa_60"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_60">Saa maa De</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> De maa</note>
+<note resp="editor" xml:id="noteSa_61"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_61">Alle, &dash; </HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> men det forholder sig virkelig saa <HIS:diacrit type="left"/>&dash;<HIS:diacrit type="right"/></note>
+<note resp="editor" xml:id="noteSa_62"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_62">De</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> de</note>
+<note resp="editor" xml:id="noteSa_63"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_63">for det har jeg gjort</HIS:hisRef>] <hi rend="italic">egenhendig tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_64"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_64">herunter</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> gaae tilgrunde</note>
+<note resp="editor" xml:id="noteSa_65"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_65">sønderrevne </HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> <HIS:diacrit type="left"/>h<HIS:diacrit type="right"/>eini<HIS:diacrit type="left"/>ske<HIS:diacrit type="right"/></note>
+<note resp="editor" xml:id="noteSa_66"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_66">tydeligere. <hi rend="italic">(&hellip;)</hi> er?</HIS:hisRef>] <hi rend="italic">egenhendig på opprinnelig innlimt lapp, endret fra</hi> tydeligere; &dash; men først, &dash; Frøk<HIS:diacrit type="left"/>en<HIS:diacrit type="right"/> Kvist! &dash; Jeg vil lære Dem hvad Kjærlighed er! Juliane: Nei jeg beer &dash; Paulsen: <HIS:diacrit type="left"/>J<HIS:diacrit type="right"/>a, det er sagt med faa Ord! K<HIS:diacrit type="left"/>jær<HIS:diacrit type="right"/>lig<HIS:diacrit type="left"/>hed er<HIS:diacrit type="right"/> Higen efter Kjærlighed! Dette er min <HIS:diacrit type="left"/>...<HIS:diacrit type="right"/> Tanke, min ubestridelige <HIS:diacrit type="left"/>...<HIS:diacrit type="right"/>n for at min Higen skulde kunne være evig, for <HIS:diacrit type="left"/>at<HIS:diacrit type="right"/> være vis paa ikk<HIS:diacrit type="left"/>e<HIS:diacrit type="right"/> at blive elsket igjen, maatt<HIS:diacrit type="left"/>e<HIS:diacrit type="right"/> jeg altsaa elske haabløst &dash; Juliane: Ja det forstaaer sig. <HIS:diacrit type="left"/>Pauls<HIS:diacrit type="right"/>en: Men min Kjærlighed maatte naturligviis være folkelig &dash; Juliane: Ja Gud bevares &dash; De er jo et dannet Menneske! Paulsen: Ja ja, jeg <HIS:diacrit type="left"/>men<HIS:diacrit type="right"/>er &dash; jeg valgte det Nationaleste vi har. Kan De gjætte, hvad det er? <hi rend="italic">ms. stedvis skadet</hi></note>
+<note resp="editor" xml:id="noteSa_67"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_67">Paulsen</HIS:hisRef>] <hi rend="italic">HIS,</hi> Poulsen <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_68"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_68">Paulsen</HIS:hisRef>] <hi rend="italic">HIS,</hi> Poulsen <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_69"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_69">Paulsen</HIS:hisRef>] <hi rend="italic">HIS,</hi> Poulsen <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_70"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_70">denne </HIS:hisRef>] <hi rend="italic">etter er egenhendig strøket</hi> ulykkelige</note>
+<note resp="editor" xml:id="noteSa_71"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_71">nationale</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> æsthetiske</note>
+<note resp="editor" xml:id="noteSa_72"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_72">Lidenskab</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Lidinskab <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_73"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_73">Ja vil De bare</HIS:hisRef>] <hi rend="italic">egenhendig gjenopprettet</hi></note>
+<note resp="editor" xml:id="noteSa_74"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_74">Jeg <hi rend="italic">(&hellip;)</hi> jeg</HIS:hisRef>] <hi rend="italic">egenhendig på innlimt lapp, endret fra</hi> De vil l<HIS:diacrit type="left"/>et be<HIS:diacrit type="right"/>gribe at med mine æsth<HIS:diacrit type="left"/>et<HIS:diacrit type="right"/>is<HIS:diacrit type="left"/>ke<HIS:diacrit type="right"/> Principer, kunde jeg ikke længer<HIS:diacrit type="left"/>e ved<HIS:diacrit type="right"/>blive at føle for hende, <HIS:diacrit type="left"/>jeg<HIS:diacrit type="right"/></note>
+<note resp="editor" xml:id="noteSa_75"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_75">men <hi rend="italic">(&hellip;)</hi> &lquo;Weltschmerz&rquo;.</HIS:hisRef>] <hi rend="italic">egenhendig på opprinnelig innlimt lapp, endret fra</hi> jeg maatte indtage et negati<HIS:diacrit type="left"/>vt<HIS:diacrit type="right"/> Standpunkt ligeoverfor Mennesk<HIS:diacrit type="left"/>ehe<HIS:diacrit type="right"/>den; jeg begyndte med at nedlæ<HIS:diacrit type="left"/>gge<HIS:diacrit type="right"/> min Sjæl i Theaterkritiker og C<HIS:diacrit type="left"/>or<HIS:diacrit type="right"/>respondentartikler for Provinds<HIS:diacrit type="left"/>pres<HIS:diacrit type="right"/>sen som, &dash; nok sagt &dash; jeg gik best<HIS:diacrit type="left"/>...<HIS:diacrit type="right"/> videre paa denne negative Ba<HIS:diacrit type="left"/>ne.<HIS:diacrit type="right"/> Lidt efter lidt ansatte der sig <HIS:diacrit type="left"/>indeni<HIS:diacrit type="right"/> mig noget Mørkt, noget Djævleblendt, Dæmonisk skulde jeg sagt, &dash; noget vist &dash; lad mig kalde det Menneskeforagt, noget Byronsk, &dash; heraf kommer denne Splittelse, denne Disharmoni, som man bemærker i mit Væsen, paa Overfladen er jeg kold, for ikke at sige iisnende kold, &dash; men her indenfor brænder det, &dash; troe De mig &dash; det brænder &dash; &dash;</note>
+<note resp="editor" xml:id="noteSa_76"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_76">aldrig</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi></note>
+<note resp="editor" xml:id="noteSa_77"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_77">Begeistringens</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Begiestringens <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_78"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_78">sovende).</HIS:hisRef>] <hi rend="italic">HIS,</hi> sovende) <hi rend="italic">TarkUiB NT872,</hi> sovende.) <hi rend="italic">BOB hBI</hi></note>
+<note resp="editor" xml:id="noteSa_79"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_79">faaet</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_80"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_80">sovende).</HIS:hisRef>] <hi rend="italic">HIS,</hi> sovende) <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_81"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_81">(kommer</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> kommer <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_82"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_82">Orreholt</HIS:hisRef>] <hi rend="italic">HIS,</hi> Orreholdt <hi rend="italic">TarkUiB NT872, BOB hBI, TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_83"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_83">Andre</HIS:hisRef>] <hi rend="italic">TarkUiB NT872r,</hi> andre <hi rend="italic">TarkUiB NT872, NBO Ms.4&deg; 927, BOB hBI</hi></note>
+<note resp="editor" xml:id="noteSa_84"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_84">1</HIS:hisRef>] <hi rend="italic">HIS,</hi> <hi rend="italic">TarkUiB NT872 mangler strofenummerering</hi></note>
+<note resp="editor" xml:id="noteSa_85"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_85">Liljen</HIS:hisRef>] <hi rend="italic">endret fra</hi> Lil<gap/></note>
+<note resp="editor" xml:id="noteSa_86"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_86">Natfiolen</HIS:hisRef>] <hi rend="italic">endret fra</hi> Natviolen</note>
+<note resp="editor" xml:id="noteSa_87"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_87">Kjerner</HIS:hisRef>] <hi rend="italic">endret fra</hi> <gap/>jerner</note>
+<note resp="editor" xml:id="noteSa_88"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_88">de</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> De <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_89"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_89">dem</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Dem <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_90"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_90">(komme</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> komme <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_91"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_91">Venstre).</HIS:hisRef>] <hi rend="italic">HIS,</hi> Venstre. <hi rend="italic">TarkUiB NT872,</hi> Venstre.) <hi rend="italic">BOB hBI,</hi> Venstre) <hi rend="italic">TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_92"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_92">(viser</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> viser <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_93"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_93">Dem</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> dem <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_94"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_94">Theorier</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Th<HIS:diacrit type="left"/>i<HIS:diacrit type="right"/></note>
+<note resp="editor" xml:id="noteSa_95"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_95">de</HIS:hisRef>] <hi rend="italic">egenhendig endret fra</hi> h</note>
+<note resp="editor" xml:id="noteSa_96"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_96">Udvæxter</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Extremiteter</note>
+<note resp="editor" xml:id="noteSa_97"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_97">Sphinxer</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Sphi<gap/></note>
+<note resp="editor" xml:id="noteSa_98"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_98">man</HIS:hisRef>] <hi rend="italic">endret, opprinnelig tekst uleselig</hi></note>
+<note resp="editor" xml:id="noteSa_99"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_99">Forgrunden).</HIS:hisRef>] <hi rend="italic">HIS,</hi> Forgrunden) <hi rend="italic">TarkUiB NT872, TarkUiB NT872r,</hi> Forgrunden.) <hi rend="italic">BOB hBI</hi></note>
+<note resp="editor" xml:id="noteSa_100"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_100">kun!</HIS:hisRef>] <hi rend="italic">endret fra</hi> kun, <hi rend="italic">(usikker rekkefølge)</hi></note>
+<note resp="editor" xml:id="noteSa_101"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_101">Paulsen</HIS:hisRef>] <hi rend="italic">endret fra</hi> Palsen</note>
+<note resp="editor" xml:id="noteSa_102"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_102">lifligt</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> lifll</note>
+<note resp="editor" xml:id="noteSa_103"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_103">Bjergkongens</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Bjerkongens <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_104"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_104">Vaaren!&rquo;</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> Vaaren! <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_105"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_105">underfuld &dash;&rquo;</HIS:hisRef>] <hi rend="italic">HIS,</hi> underfuld &dash; <hi rend="italic">TarkUiB NT872,</hi> underfuld &dash; &dash; <hi rend="italic">BOB hBI, TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_106"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_106">&lquo;I</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> I <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_107"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_107">&lquo;Og</HIS:hisRef>] <hi rend="italic">HIS,</hi> &lquo;&lquo;Og <hi rend="italic">TarkUiB NT872, BOB hBI,</hi> Og <hi rend="italic">TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_108"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_108">vil?&rquo;</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> vil? <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_109"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_109">Juliane</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> P</note>
+<note resp="editor" xml:id="noteSa_110"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_110">føiet</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> føie<hi rend="italic">, jf. BOB hBI og TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_111"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_111">Chor <hi rend="italic">(&hellip;)</hi> igjen!</HIS:hisRef>] <hi rend="italic">egenhendig tillegg (ca. 1,5 side), mellom</hi> Alfer <hi rend="italic">og</hi> Anna <hi rend="italic">er ca. 1 side blank</hi></note>
+<note resp="editor" xml:id="noteSa_112"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_112">Huus</HIS:hisRef>] <hi rend="italic">etterfølgende skilletegn mangler, f.eks.</hi> ;</note>
+<note resp="editor" xml:id="noteSa_113"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_113">store</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_114"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_114">sovende).</HIS:hisRef>] <hi rend="italic">HIS,</hi> sovende) <hi rend="italic">TarkUiB NT872,</hi> sovende.) <hi rend="italic">BOB hBI,</hi> sovende) <hi rend="italic">TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_115"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_115">(kommer</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> kommer <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_116"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_116">Aa</HIS:hisRef>] <hi rend="italic">endret fra</hi> aa</note>
+<note resp="editor" xml:id="noteSa_117"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_117">igaaraftes</HIS:hisRef>] <hi rend="italic">endret fra</hi> igaaaftes</note>
+<note resp="editor" xml:id="noteSa_118"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_118">halvt</HIS:hisRef>] <hi rend="italic">endret fra</hi> halv</note>
+<note resp="editor" xml:id="noteSa_119"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_119">gaaet mig som hende</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> gaaet mig hende <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_120"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_120">hjerneløse</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> kjerneløse</note>
+<note resp="editor" xml:id="noteSa_121"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_121">derhenne</HIS:hisRef>] <hi rend="italic">TarkUiB NT872r,</hi> derhenne. <hi rend="italic">TarkUiB NT872,</hi> derhenne &dash; <hi rend="italic">BOB hBI</hi></note>
+<note resp="editor" xml:id="noteSa_122"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_122">sminkede</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> sminkende <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_123"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_123">Au, </HIS:hisRef>] <hi rend="italic">etter er strøket</hi> d<gap/></note>
+<note resp="editor" xml:id="noteSa_124"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_124">sælsomme</HIS:hisRef>] <hi rend="italic">endret fra</hi> sæsomme</note>
+<note resp="editor" xml:id="noteSa_125"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_125">andre</HIS:hisRef>] <hi rend="italic">endret fra</hi> <HIS:diacrit type="left"/>A<HIS:diacrit type="right"/>ndre</note>
+<note resp="editor" xml:id="noteSa_126"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_126">Din</HIS:hisRef>] <hi rend="italic">endret fra</hi> din</note>
+<note resp="editor" xml:id="noteSa_127"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_127">Du!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Du?</note>
+<note resp="editor" xml:id="noteSa_128"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_128">Maneer</HIS:hisRef>] <hi rend="italic">endret fra</hi> Ma<gap/>r</note>
+<note resp="editor" xml:id="noteSa_129"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_129">Afsides</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> (Afsides <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_130"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_130">Godt!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Godt</note>
+<note resp="editor" xml:id="noteSa_131"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_131">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_132"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_132">Hæftighed og halvt for sig selv)</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Hæftighed)</note>
+<note resp="editor" xml:id="noteSa_133"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_133">og</HIS:hisRef>] <hi rend="italic">BOB hBI, TarkUiB NT872r,</hi> og&rquo; <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_134"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_134">Alle: &lquo;</HIS:hisRef>] <hi rend="italic">BOB hBI,</hi> Alle: <hi rend="italic">TarkUiB NT872, TarkUiB NT872r</hi></note>
+<note resp="editor" xml:id="noteSa_135"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_135">ikke</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteSa_136"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_136">Øieblik</HIS:hisRef>] <hi rend="italic">endret fra</hi> Øiblik</note>
+<note resp="editor" xml:id="noteSa_137"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_137">jeg!</HIS:hisRef>] <hi rend="italic">endret fra</hi> jeg?</note>
+<note resp="editor" xml:id="noteSa_138"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_138">mig</HIS:hisRef>] <hi rend="italic">endret fra</hi> mg</note>
+<note resp="editor" xml:id="noteSa_139"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_139">Papirer?</HIS:hisRef>] <hi rend="italic">endret fra</hi> Papirer &dash; <hi rend="italic">(usikker rekkefølge)</hi></note>
+<note resp="editor" xml:id="noteSa_140"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_140">Jørgen</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> B</note>
+<note resp="editor" xml:id="noteSa_141"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_141">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<note resp="editor" xml:id="noteSa_142"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_142">det Du veed!</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Du veed det, Du veed!</note>
+<note resp="editor" xml:id="noteSa_143"><HIS:hisRef type="tcNote" target="Saht.xml" corresp="noteSa_143">Anna</HIS:hisRef>] <hi rend="italic">HIS,</hi> Anne <hi rend="italic">TarkUiB NT872</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

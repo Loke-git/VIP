@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1113b</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1878-79]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ingvald Aarstein</name></respStmt>
+    <respStmt>
+        <resp>Kodet om til TEI-P5, juli 2011</resp>
+        <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+    <respStmt>
+<resp>Opprettet fil, november 2010</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du41113b-1110"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Du41113.xml</p>
+    <p><HIS:hisMsDesc type="workingManuscript" subtype="notes" xml:id="Du41113a-f">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1113a-f</idno>
+        </msIdentifier>
+        <msContents><msItem><author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>[1878-79]</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Du41113: Et dukkehjem (notater og arbeidsmanuskripter)</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler, majuskler</item>
+<item>skrifthelling: steilskrift</item>
+<item>akt/scene:
+	<list>
+	<item>overskrift: midtstilt</item>
+	<item>sceneanvisning:
+		<list>
+		<item>kortere sceneanvisninger: i parentes, midtstilt på egen linje eller som del av løpende tekst</item>
+		<item>lengre sceneanvisninger: i parentes, blokkjustert (41113f)</item>
+		</list>
+	</item>
+	<item>rollenavn: midtstilt</item>
+	<item>avsnitt/replikk: lengre replikker blokkjustert, første linje noe innrykket</item>
+	<item>utheving i replikk: enkel understreking</item>
+	</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+	<list>
+	<item>skillestreker: dobbel skillestrek ved slutten av første og tredje akt (41113f)</item>
+	<item>bindestrek: enkel</item>
+	<item>arksignatur: øverst i venstre hjørne</item>
+	<item>noter/fotnoter: dato påført ved begynnelsen og slutten av hver akt (41113f)</item>
+	</list>
+</item>
+<item>annet:
+	<list>
+	<item>med blyant er enkelte sider paginert (med de usammenhengende tallene 7-8 og siden 2-5): kodet med page-attributt</item>
+	<item>biblioteksignatur med blyant: nederst s. 4 i faksimilene</item>
+	<item>punktummet etter rollenavn er flere steder spesielt i begynnelsen av ms-et skrevet slurvet og ligner en tankestrek. De er dog transkribert som punktum</item>
+	</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+        <list>
+            <headLabel>id=""</headLabel><headItem>speaker</headItem>
+            <label xml:id="HELMER">HELMER</label><item>Stenborg, Helmer, H.</item>
+            <label xml:id="NORA">NORA</label><item>Fru Stenborg, Nora, No, N., N</item>
+            <label xml:id="RANK">RANK</label><item>Doktor Rank, Doktoren, Dr. R., R.</item>
+            <label xml:id="FRULINDE">FRULINDE</label><item>Fru Lind, Frøken Lind, Fru Linde, Fru L., Fr. L., Fr L, Fr L., F. L., F L.</item>
+            <label xml:id="KROGSTAD">KROGSTAD</label><item>Krogstad, Sagfører Krogstad, K., Kr.</item>
+            <label xml:id="BARNEPIGEN">BARNEPIGEN</label><item>Barnepigen, Pigen, P.</item>
+            <label xml:id="STUEPIGEN">STUEPIGEN</label><item>Stuepigen, Pigen, P.</item>
+        </list>
+    </tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Mørkt blekk. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Rød blyant. Bladfoliering.</p></handNote>
+<handNote scribe="h2" xml:id="h2" medium="pencil"><p>Grå blyant. Foliering. Ordning av manuskriptene (a-f).</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+    <change><date>13.08.19</date>
+        <name>ESO</name><title>Siste pb-elementer komentert ut</title>
+       De to siste pb-elementene er kommentert ut. Det aller siste førte til faksimilevisning av side 43 som tilhører 1113c</change>   
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. IKKE VALID: scribe må tillates i fw.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+        <name>SBT</name><title>P5</title>
+        Kodet om til P5.</change>
+    <change><date>10.12.10</date>
+<name>SBT</name><title>Symkronisering</title>
+La inn synkroniseringspunkter mot Du79 og Du41113f; bør ses over igjen.</change>
+<change><date>29.11.10</date>
+<name>SBT</name><title>Opprettet fil</title>
+Fila er opprettet med utgangspunkt i Du41113.xml. Typografibeskrivelsen gjelder hele manuskriptet. Oppdaterte apparatkoding. Fila er validert.</change>
+</revisionDesc>
+</teiHeader>
+
+    <text type="drama" xml:lang="dan-nob" rend="handwritten">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<body>
+<pb n="9"/>
+<lb/><note resp="h2" place="top-right">b</note>
+<pb n="10"/>
+<pb n="11"/><pb ed="HU" n="309"/>
+<div type="act" n="2">
+<div type="workingManuscript">
+<lb/><fw type="gathering" place="top-left"><unclear reason="binding">1.</unclear></fw><fw type="leaf" place="top-right" hand="h1">5</fw>
+<lb/><head><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_29ms"/>Anden akt.</head>
+<lb/><HIS:hisStage>(Samme stue. Oppe i krogen ved pianofortet står
+<lb/>juletræet, det er plukket og med små nedbrændte lys&typHyp;
+<lb/>stumper.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>
+<lb/><HIS:hisStage>(urolig omkring.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nu kom der nogen! <HIS:hisStage>(ved døren)</HIS:hisStage> Nej, der er ingen.
+<lb/>Nej naturligvis; han kommer ikke idag, helligdag, før&typHyp;
+<lb/>ste juledag &dash; og heller ikke imorgen &dash;. Men kanske
+<lb/>&dash; <HIS:hisStage>(åbner)</HIS:hisStage> nej &dash; ingenting i brevkassen &dash; ganske tom.
+<lb/>Ah tosseri! Han gør det naturligvis slet ikke &dash; Det kan
+<lb/>jo ikke ske. Det er umuligt. Jeg har jo tre små børn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>Barnepigen</speaker>
+<lb/><HIS:hisStage>(med en bylt fra venstre)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Her har jeg fundet maskeradeklæderne &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Tak, det var godt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>Pigen</speaker></HIS:spOpener>
+<lb/><p>Men de er svært i uorden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Ja, jeg vilde hen og få fru Linde til at hjælpe
+<lb/>mig lidt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Men i dette stygge vejr &dash; fruen forkøler sig, blir
+<lb/>syg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Folk er medli<unclear reason="writing">dende</unclear> mod syge &dash; Hvorledes har børnene det.</p></HIS:hisSp>
+
+<pb n="12"/>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Å<note resp="editor">'Å' mangler diakritisk tegn.</note> <sic>skakker</sic>, de morer sig så godt de kan.</p></HIS:hisSp><pb ed="HU" n="310"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Spør efter mig. Hvis jeg nu herefter ikke kunde
+<lb/>være så meget sammen med dem som før &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Småbørn vænner sig til alting.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvis jeg var ganske borte fra dem, tror du de vilde
+<lb/>glemme mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Bevares ganske borte &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Er ikke din datter bleven fremmed for dig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Hvorledes ved fru Nora &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>At du også har havt et barn &dash; det har jeg vidst fra jeg
+<lb/>var tolv tretten år &dash; ellers kunde du jo ikke været
+<lb/>amme for <app type="alteration"><lem><HIS:hisAdd place="offline">mig.</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">dig &dash;</HIS:hisDel></HIS:hisRdg></app> Å det må være forfærdeligt at rives
+<lb/>bort fra sit eget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Vi simple folk tager det ikke på den vis. Jeg sy&typHyp;
+<lb/>nes <sic>mi<unclear reason="writing">t</unclear></sic> lille Nora var mit eget barn &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Du må aldrig forlade de små, lov mig det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">N</HIS:hisDel>P.</speaker></HIS:spOpener>
+<lb/><p>Har jeg ikke passet Nora, da hun var en liden pige
+<lb/>og ingen anden moder havde.</p></HIS:hisSp>
+
+<pb n="13"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">6</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Jo jo, de er i gode hænder hos dig. Gå ind til dem. Nu må jeg &dash;
+<lb/>Imorgen skal du få se hvor dejlig jeg skal bli &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BARNEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Ja der blir såmen ingen på hele ballet så dejlig som fru N.</p></HIS:hisSp>
+<lb/><HIS:hisStage>ind til venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_30ms"/>N.</speaker></HIS:spOpener>
+<lb/><p>Å, hvis jeg turde gå ud. Hvis bare ingen kom; hvis<pb ed="HU" n="311"/> der
+<lb/>b<HIS:clarification place="inline">are</HIS:clarification> ikke hændte noget mens jeg er ude &dash; Snak &dash; der
+<lb/>kommer ingen &dash; Bare ikke tænke. Børste af muffen.
+<lb/>Dejlige handsker; dejlige handsker. Slå det hen. 1. 2. 3
+<lb/>4. 5. 6. <HIS:hisStage>(skriger)</HIS:hisStage> Ah, hvem er det.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Fru Linde kommer.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker></HIS:spOpener>
+<lb/><p>Å er det dig, K. Hvor godt at du kom<unclear reason="writing">mer</unclear></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fru L.</speaker></HIS:spOpener>
+<lb/><p>Jeg hører du har været oppe og spurgt efter mig</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>No.</speaker></HIS:spOpener>
+<lb/><p>Hvor snildt at du kommer</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fru L.</speaker></HIS:spOpener>
+<lb/><p>Jeg kommer for at takke din mand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ansat</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fru L.</speaker></HIS:spOpener>
+<lb/><p>Ja &dash; Er han kanske ikke hjemme</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Har det så travlt &dash; Men nu må du hjælpe mig.
+<lb/>Se her. Kostumebal ovenpå i 3. etage hos Stenborg. Jeg
+<lb/>skal være neapolitansk pige og danse tarantella &dash;
+<lb/>lært det dernede &dash; lovet Torvald det &dash; Kan du hjælpe</p></HIS:hisSp>
+
+<pb n="14"/>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fru L.</speaker></HIS:spOpener>
+<lb/><p>Skal forsøge &dash; Men jeg har rent glemt at takke dig for
+<lb/>den hyggelige aften igår &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Å Torvald forstår <HIS:hisAdd place="offline">at</HIS:hisAdd> gøre alt så hyggeligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fru L.</speaker></HIS:spOpener>
+<lb/><p>Du ikke mindre &dash;<pb ed="HU" n="312"/> Men sig mig, er doktor Rank altid så
+<lb/>alvorlig som igår</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Han bærer på en farlig sygdom &dash; Men igår var det
+<lb/>rigtignok påfaldende &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_56ms"/>F. L.</speaker></HIS:spOpener>
+<lb/><p>Han kom<unclear reason="writing">mer</unclear> jo ofte her i huset</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>No</speaker></HIS:spOpener>
+<lb/><p>Hver dag &dash; han hører ligesom til her; jeg tror ikke
+<lb/>han kunde undvære os.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>F. L.</speaker></HIS:spOpener>
+<lb/><p>Hør N. du er i mange stykker som<pb ed="HU" n="313"/> et barn; jeg er jo
+<lb/>adskilligt ældre end du; og lidt mere erfaren &dash; <HIS:hisAdd place="infralinear">Jeg vil sige dig noget</HIS:hisAdd> &dash; Du skulde
+<lb/>se at komme ud af dette med doktor R.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvad <HIS:hisDel rend="overstrike">mener du?</HIS:hisDel> skulde jeg se at komme ud af?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>F L.</speaker></HIS:spOpener>
+<lb/><p>Igår talte du om en rig beundrer som skulde skaffe
+<lb/>dig penge &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Og så.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>F. L.</speaker></HIS:spOpener>
+<lb/><p>Har doktor R. formue?</p></HIS:hisSp>
+
+<pb n="15"/>
+<lb/><fw type="gathering" place="top-left">2.</fw><fw type="leaf" place="top-right" hand="h1">7</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker></HIS:spOpener>
+<lb/><p>Ja det har han &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>Og ingen familje</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej ingen, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Og kommer hver dag i huset</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja det hører du jo.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Men hvor kan han da være så pågående &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Jeg forstår dig aldeles ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>Tror du ikke jeg forstår, det er af ham du har fået
+<lb/>de 1200 sp.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_57ms"/>N.</speaker></HIS:spOpener>
+<lb/><p>Er du fra sans og samling &dash; en ven af os, som kommer
+<lb/>her i huset; hvor kunde det falde dig ind &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>Altså virkelig ikke?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Jeg forsikrer dig. Men, doktor R?<pb ed="HU" n="314"/> Jeg er viss på at, hvis
+<lb/>jeg bad ham &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>F. L.</speaker></HIS:spOpener>
+<lb/><p>N. N. bag din mands ryg &dash; hvorfor taler du ikke
+<lb/>til din mand &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å du forstår ikke det hele, kender ikke Torvald.</p></HIS:hisSp>
+
+<pb n="16"/>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>For alting ikke dr. R.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Kunde aldrig falde mig ind; skønt jeg er viss på han
+<lb/>gjorde det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Men ud af det må du. Dette hemmelighedsvæsen er
+<lb/>nær ved at undergrave al sandfærdighed i forholdet til
+<lb/>din mand &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Og det kan du også sige. Ja jeg må ud af det. Hør,
+<lb/>når man betaler hvad man skylder, så får man
+<lb/>jo sit gældsbevis tilbage?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Ja naturligvis.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Den der havde penge, Kristine &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisAdd place="offline">Skulde ikke din mand &dash;?</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><HIS:hisAdd place="inBetweenLines"><speaker>N.</speaker></HIS:hisAdd></HIS:spOpener>
+<lb/><p>Å der er mange som han &dash; <HIS:hisStage>(nynner)</HIS:hisStage> Bare mod &dash; springe
+<lb/>i det, ikke krybe i det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Men ingen hemmeligheder mere for din mand, N.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisAdd place="inBetweenLines">Kære sæt dig ind i barneværelset
+<lb/>Torvald liker ikke skrædderstas</HIS:hisAdd>
+<lb/>Pyt, en mand behøver ikke at vide alting. Hys der kommer han.
+<lb/><HIS:hisStage>(ud i entreen)</HIS:hisStage> Å er du der, kære Torvald &dash; hvor kold du
+<lb/>er. Har du ikke frosset nede i banken. Nå, det var da
+<lb/>godt</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_58ms"/>H.</speaker></HIS:spOpener>
+<lb/><p>Er sypigen hos dig?</p></HIS:hisSp>
+
+<pb n="17"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">8</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej det er K. hun gør min dragt istand. Å, du kan tro jeg
+<lb/>nok skal tage mig ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Ja jeg tror det var en heldig ide af mig &dash;</p></HIS:hisSp><pb ed="HU" n="315"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Prægtig. Men er jeg ikke også snil som føjer dig; for der
+<lb/>hører dog virkelig mod til &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Du er en liden skælm; du vil mere end gerne</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>&dash; tækkes dig, Torvald.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Smukt sagt. Men jeg vil ikke forstyrre dig &dash; du skal vel
+<lb/>prøve kan jeg tro &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Og du skal vel arbejde? <gap reason="writing"/></p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Ja,</p></HIS:hisSp>
+<lb/><HIS:hisStage>(går mod døren)</HIS:hisStage><note resp="editor">Under sceneanvisningen står to kryss under hverandre.</note>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>&dash; &dash; Skulde R. komme, så finder han mig i det indre
+<lb/>kontor &dash; <HIS:hisStage>(ind i sit værelse.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Doktor R &dash; Ja, han kommer jo på denne tid &dash;
+<lb/>Det må ske. Nu har han snart brevet &dash; Det rin&typHyp;
+<lb/>ger; der er han. Nej, det er ikke ham &dash; Ah, doktor
+<lb/>er det Dem. Bring lampen ind, Helene &dash; Kom her,
+<lb/>doktor; jeg tror min mand har noget at gøre &dash;</p></HIS:hisSp>
+
+<pb n="18"/>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Og De.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å det ved De nok; for Dem har jeg altid tid tilovers.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Tak for det. Det vil jeg gøre brug af så længe jeg kan.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvad mener De med det? Så længe De kan.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Ja. Forskrækker det Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nå, det er et så underligt udtryk &dash; Hvad skulde da
+<lb/>indtræffe?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Ikke andet end hvad jeg længe har været forberedt på.
+<lb/>Men <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> jeg trode rigtignok ikke det skulde komme så snart.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Doktor R., hvad er det De har fået at vide. Sig det.</p></HIS:hisSp><pb ed="HU" n="320"/>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_33ms"/>R.</speaker></HIS:spOpener>
+<lb/><p>Med mig går det nedover. Der er ikke noget at gøre ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N</speaker> <HIS:hisStage>(lettet)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Er det Dem &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Hvem ellers? Det kan ikke nytte at lyve for sig selv.
+<lb/>Jeg har i disse dage foretaget et generalopgør af min
+<lb/>indre status. Dette er den sidste jul jeg oplever, N. idag
+<lb/>om et år ligger jeg og rådner oppe på kirkegården</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å fy hvor stygt De taler.</p></HIS:hisSp>
+
+<pb n="19"/>
+<lb/><fw type="gathering" place="top-left">3.</fw><fw type="leaf" place="top-right" hand="h1">9</fw>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>En styg ting lar sig ikke sige med pene ord. Nå engang
+<lb/>skal man jo deran. Men således at bøde for en an&typHyp;
+<lb/>dens skyld. Er der retfærdighed i dette? Og dog råder der
+<lb/>i hver eneste familje en ubønhørlig gengældelse. Det
+<lb/>er min faders lystige løjtnantsdage, som min arme
+<lb/>rygrad må svie for.</p></HIS:hisSp><pb ed="HU" n="321"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Men kære doktor R &dash; De kan leve længe endnu.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Hm, den ting er jeg nu på det rene med. Det er sidste jul
+<lb/>at jeg er gæst her i huset. Ja hvorledes vil her se ud
+<lb/>om et år &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Den, som vidste det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_59ms"/>R.</speaker></HIS:spOpener>
+<lb/><p>Nå, de som går bort, glemmes snart &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Tror De &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Man slutter nye forbindelser &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker> <HIS:hisStage>(hæftigt)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvem slutter nye forbindelser &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Det vil både De og <HIS:hisDel rend="overwritten">d</HIS:hisDel>Deres mand gøre. Er De ikke alle&typHyp;
+<lb/>rede begyndt. Hvad skulde denne frue Linde her
+<lb/>igår &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ah således; De er skinsyg på Kristine</p></HIS:hisSp>
+
+<pb n="20"/>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Ja det er jeg. Jeg forudser det, hun vil blive min efterfølgerske
+<lb/>her i huset; når jeg er borte vil dette fruentimmer</p></HIS:hisSp><pb ed="HU" n="322"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hys, tal ikke så højt; hun er derinde &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Ser de, ser De.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Bare for at sy på min dragt. Vær nu ikke vred, kære dr.
+<lb/>R. Fy, igår aftes var De så uvenlig imod hende. Vær nu
+<lb/>snil; <HIS:hisDel rend="overwritten">d</HIS:hisDel>De er jo vor første og bedste ven, det ved De nok &dash;
+<lb/>Imorgen skal De få se, hvor smuk jeg s<HIS:hisDel rend="overwritten"><unclear>al</unclear></HIS:hisDel>kal bli på ballet
+<lb/>&dash; R. nu skal jeg vise Dem noget. Se her.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Hvad er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_60ms"/>N.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Silkestrømp</HIS:hisDel>er Se.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Silkestrømper</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Kødfarvede &dash; Nej, nej, nej, De får bare se fodbladet. &dash;
+<lb/>Å jo, De kan gerne få se oventil også.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Tror De at <HIS:hisDel rend="overwritten">D</HIS:hisDel>de strømper vil passe Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvorfor ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nej, jeg vidste ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker> <HIS:hisStage>(slår ham let <gap reason="writing"/> strømperne på kind<unclear reason="endline">et</unclear></HIS:hisStage></HIS:spOpener>
+<lb/><p>Å fy skam <HIS:hisDel rend="overwritten">d</HIS:hisDel>Dem.</p></HIS:hisSp>
+
+<pb n="21"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">10</fw>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nora &dash; fru Helmer &dash; når man skal dø<note resp="editor">'ø' mangler diakritisk tegn.</note>.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>De skal sletikke dø fra os; De skal blive ved at være
+<lb/><sic>Tarvalds</sic> og min bedste og kæreste ven &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Å jeg har aldrig havt lejlighed til at vise Dem mit venskab.
+<lb/>Jeg har blot taget hvad De med fulde hænder har ud&typHyp;
+<lb/>øst over mig, hygge, velvære &dash; jeg havde nær sagt lykke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_61ms"/>N.</speaker></HIS:spOpener>
+<lb/><p>Og hvis jeg nu bad dem om &dash; nej &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Om hvad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">R</HIS:hisDel> N.</speaker></HIS:spOpener>
+<lb/><p>Om et stort bevis på Deres venskab?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Å gør det, N; De ved ikke hvor gerne jeg vilde efterlade
+<lb/>mig noget &dash; en erindring; noget som kunde bevare mig
+<lb/>mod glemsel. Men hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å nej, jeg kan ikke &dash; Nu, da jeg skal sige det, synes det mig en
+<lb/>umulighed &dash; jeg ved ikke, hvorledes De vil dømme om mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Da vil jeg sige Dem en ting. Nu skal De vide, hvad <HIS:hisDel rend="overwritten">d</HIS:hisDel>De aldrig
+<lb/>har anet; <HIS:hisDel rend="overstrike">elle</HIS:hisDel> aldrig har kunnet ane &dash; En døende, som jeg,
+<lb/>kan tale; før har jeg tiet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Dr. R. ti også nu.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nej, de skal vide det; jeg har elsket Dem, N. elsket Dem så
+
+<pb n="22"/>
+<lb/>længe jeg har kendt Dem. Hver stund, jeg har været sammen
+<lb/>med Dem, har været som en stor ubeskrivelig lykke, den eneste
+<lb/>jeg har vidst av at sige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Tal sagte &dash; nogen kunde høre Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Selv Helmer måtte gerne kende hver eneste jeg har rettet
+<lb/>på Dem; når jeg er borte, skal han vide alt; men De skal
+<lb/>vide dette nu, for at de med fuld tillid kan vende
+<lb/>Dem til mig. Jeg vil ikke sige <HIS:hisDel rend="overwritten">d</HIS:hisDel>Dem andet end dette. Ingen
+<lb/>har elsket Dem højere end jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_62ms"/>Nora</speaker>
+<lb/><HIS:hisStage>(går til døren)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Helene, bring lampen ind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nora &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Ak, kære dr. R &dash; det var stygt af Dem</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">N</HIS:hisDel>R.</speaker></HIS:spOpener>
+<lb/><p>Hvad? Hvilket?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvorfor skulde De sige mig dette. Nu var alt så godt;
+<lb/>De<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>t var jo slet ikke nødvendigt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Hvad mener De? Har De vidst &dash;</p></HIS:hisSp>
+<lb/><HIS:hisStage>Pigen kommer med lampen)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker></HIS:spOpener>
+<lb/><p>Tak. Sæt den der på bordet</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Pigen ud)</HIS:hisStage>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nora, jeg spørger Dem, har De vidst &dash; &dash;</p></HIS:hisSp>
+
+<pb n="23"/>
+<lb/><fw type="gathering" place="top-left">4.</fw><fw type="leaf" place="top-right" hand="h1">11</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å jeg ved ikke, hvad jeg har; noget aner man jo, eller &dash;
+<lb/>nej, jeg ved sletikke &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nu så ved De også at De kan regne på mig &dash; Tal nu
+<lb/>ud &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Efter dette?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Å lad mig gøre for Dem, alt, hvad der står i menneskelig
+<lb/>magt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nu kan De intet gøre for mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Nu ikke? Nu da <sic>de</sic> ved &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Netop ikke nu. Å Gud, at en mand dog ikke kan begribe &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Ja, N, jeg burde have begrebet det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>For sent.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Skal jeg gå &dash; for stedse.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_63ms"/>N.</speaker></HIS:spOpener>
+<lb/><p>Nej, det skal De ikke. De skal komme her som før;
+<lb/>Torvald kan ikke undvære Dem</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Men De &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å jeg, jeg &dash; men nu skal <HIS:hisDel rend="overwritten">d</HIS:hisDel>De gå ind til Torvald så&typHyp;
+<lb/>længe &dash;</p></HIS:hisSp>
+
+<pb n="24"/>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Er De vred?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej; men nu skal De gå ind til ham. Han venter
+<lb/>på Dem i det indre kontor.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Når De mindes, hvad jeg har sagt Dem, så skal De også
+<lb/>tænke på at jeg er en døende mand.</p>
+<lb/><HIS:hisStage>(han går ind i <HIS:hisDel rend="overwritten">h</HIS:hisDel>Helmers værelse.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Det var bedst således. Ikke bunden til nogen. Han
+<lb/>kommer ikke. Der sker ikke noget; &dash;</p>
+<lb/><HIS:hisStage>(hun vil gå ind i værelset tilvenstre; i det samme
+<lb/>åbner stuepigen døren til forstuen)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_64ms"/>Pigen</speaker>
+<lb/><HIS:hisStage>(sagte)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Frue.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvad er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Den herre som var her igår hos direktøren &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvilken herre; her var jo så mange &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Han gav sit kort &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ah &dash; hvor er han &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Han kom op køkkentrappen, han vil tale med fruen <HIS:hisAdd place="offline">alene,</HIS:hisAdd></p></HIS:hisSp>
+
+<pb n="25"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">12</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å Gud, nu; jeg jeg kan ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Han sagde han går ikke før han får talt med fruen</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Så lad ham komme ind; Helene, sig intet; det
+<lb/>er en overraskelse for min mand &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener>
+<lb/><p>Ja ja, jeg forstår nok &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å dette forfærdelige &dash; <HIS:hisStage>(hun skyder slåen for H<hi rend="raised">s</hi> dør)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisStage>(Pigen lukker op for K. og lukker igen.)</HIS:hisStage><note resp="editor">Under sceneanvisningen, i venstre marg, står to doble kryss under hverandre.</note>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>Stuepigen</speaker>:</HIS:spOpener><p>Frue</p> <HIS:hisStage>(hvisk<unclear reason="writing">ende,</unclear> rækker et kort)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener><p>Ah &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Noget galt påfærde &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener><p>Nej, nej &dash; det er min dragt &dash; som b<unclear reason="writing">ringes</unclear></p></HIS:hisSp><pb ed="HU" n="326"/>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>D<unclear reason="writing">en</unclear> l<unclear reason="writing">igger</unclear> jo d<unclear reason="writing">er</unclear> &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener><p>Ja &dash; det er en anden</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R</speaker></HIS:spOpener><p>Aha, hem<unclear reason="writing">meligheder</unclear> bag ægt<unclear reason="writing">emandens</unclear> ryg
+<lb/>Så begriber jeg den st<gap reason="writing"/> &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener><p>G<unclear reason="writing">å</unclear> ind til T. &dash; Lad ham ikke komme
+<lb/>ind &dash;; gå, han sidder i det i<unclear reason="writing">ndre</unclear> kontor</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Jeg skal holde på ham &dash;</p></HIS:hisSp>
+</div>
+
+<pb n="26"/>
+<pb n="27"/><pb ed="HU" n="327"/>
+<div type="workingManuscript">
+<lb/><fw type="gathering" place="top-left">a.</fw><fw type="leaf" place="top-right" hand="h1">13</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_65ms"/>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Hvor kan De tænke han har fåt det at vide.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Altså ikke. Syntes heller ikke det ligned min gode T. H. at vise så
+<lb/>meget mod.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Herr K. jeg kræver agtelse for min mand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Bevares. Men når fruen holder det så ængstelig skjult, så antager
+<lb/>jeg De også har fåt lidt bedre oplysning end igår, om hvad De egent&typHyp;
+<lb/>lig har gjort.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker>.</HIS:spOpener>
+<lb/><p>Mere end De kunde lære mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Ja, en så dårlig jurist som jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvad er det De vil mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Jeg har tænkt meget på Dem siden igår. En inkassator,
+<lb/>en vinkelskriver, en &dash; nå, en som jeg, har vel også det, som
+<lb/>kaldes hjerte.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>N.</speaker></HIS:spOpener>
+<lb/><p>Så vis det; tænk på mine små børn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>Deres mand har ikke tænkt på mine, men ligegodt &dash;. Jeg
+<lb/>vil sige Dem, at De ikke skal tage denne sag altfor alvorligt.
+<lb/>Der vil ikke ske nogen påtale fra min side.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å nej, ikke sandt; det vidste jeg nok.</p></HIS:hisSp>
+
+<pb n="28"/>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>En slig pengeforretning med en umyndig er jo ikke strængt taget
+<lb/>bindende engang &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ikke det? Ja ja, det er det samme, jeg skal nok betale alligevel</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_66ms"/>Kr.</speaker></HIS:spOpener>
+<lb/><p>Godt, godt; <HIS:hisAdd place="offline">men</HIS:hisAdd> det var det jeg vilde sige; skulde De derfor gå her
+<lb/>med en eller anden fortvivlet beslutning &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Det gør jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Lad sligt fare. Skulde De kanske tænke på at rejse hem&typHyp;
+<lb/>melig bort &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvor kan De vide det? Hvem har sagt Dem &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Eller kanske det, som værre er &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å tal ikke om det &dash; dette forfærdelige &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Ja, det må være forfærdeligt, især for en så fin dame.
+<lb/>det iskolde vand, sort, dybt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvoraf ved De alt dette &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Og så flyde op til våren når isen smelter &dash; styg, ukend<unclear reason="binding">elig</unclear>
+<lb/>&dash; jeg havde ikke mod til det, og det var endda ved som<unclear reason="binding">mer&typHyp;</unclear>
+<lb/>tid &dash; og nu midtvinters &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Aldrig &dash; jeg får ikke mod til det.</p></HIS:hisSp>
+
+<pb n="29"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">14</fw>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">N</HIS:hisDel>K.</speaker></HIS:spOpener>
+<lb/><p>Det vilde også være en stor dumhed. De har et lykkeligt hjem,
+<lb/>mand og børn som De holder af. Gode venner i mængde, agtelse
+<lb/>hos alle &dash; og så livet for Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å ja ja &dash;, livet kunde være så dejligt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Derfor skal De ikke gå hen og kaste det bort i ube&typHyp;
+<lb/>sindighed; jeg er ræd jeg kom til at skræmme Dem for meget
+<lb/>igår, og derfor vil jeg nu tale med Dem &dash; forberede
+<lb/>Dem</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>På hvad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>Kr.</speaker></HIS:spOpener>
+<lb/><p>Jeg har tænkt nøjere over disse sager. Min stilling er ikke
+<lb/>slig at jeg kan slippe det overtag, jeg nu engang har over Helmer,
+<lb/>jeg skal ikke misbruge det, hvis han er rimelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvad vil De gøre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>Jeg har ikke valgt vejen; det har Deres mand gjort.
+<lb/>Jeg vilde helst ladet mig nøje med skridt for skridt
+<lb/>at vinde almindelig borgerlig agtelse igen. Det går ikke;
+<lb/>godt; med dette papir har jeg min gode T. H. i lom&typHyp;
+<lb/>men;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_67ms"/>N.</speaker></HIS:spOpener>
+<lb/><p>Det skal De aldrig få; <HIS:hisDel rend="overstrike">je</HIS:hisDel></p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>Det skal jeg; inden tre måneder skal jeg være i
+
+<pb n="30"/>
+<lb/>bankens tjeneste igen. Inden et år skal <app type="alteration"><lem><HIS:hisAdd place="offline">jeg</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">det</HIS:hisDel></HIS:hisRdg></app> være direktø&typHyp;
+<lb/>rens højre hånd dernede. Han skal ikke vove at kny.
+<lb/>Det skal bli&rapo;e Nils K. og ikke T. H. som styrer
+<lb/>Aktiebanken</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ved De at dette er hans livs opgave &dash;<HIS:hisAdd place="inBetweenLines">; han opgiver den
+<lb/>aldrig; han vil have frihed
+<lb/>og ingen over sig.</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>Kommer ikke mig ved &dash; <HIS:hisAdd place="inBetweenLines">for Deres skyld må
+<lb/>han bøje sig &dash;</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>Nora</speaker></HIS:spOpener>
+<lb/><p>Nu vel; da har jeg mod til alting.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p><app type="alteration"><lem><HIS:hisAdd place="offline">Drukne Dem i det kolde vand?</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Bah &dash; det har De ikke &dash; så meget har jeg set &dash;</HIS:hisDel></HIS:hisRdg></app></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Jeg gør det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>Hvad nytter det til; jeg har ham endda i lommen
+<lb/>&dash; jeg truer ham med Deres eftermæle. &dash; Se her er
+<lb/>brevet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Giv meg det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>For at besørge det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja ja &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROGSTAD"><HIS:spOpener><speaker>K.</speaker></HIS:spOpener>
+<lb/><p>Tak; men det er kanske sikrest at jeg selv &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>De kommer ikke ind til ham; <HIS:hisDel rend="overwritten">d</HIS:hisDel>De får ikke tale
+<lb/>med ham nu &dash; Det er mig en beroligelse at De
+<lb/>ikke gør dumheder</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Han går; han betænker sig &dash; ah &dash; i brevkassen</p></HIS:hisSp>
+
+<pb n="31"/>
+<lb/><fw type="gathering" place="top-left">b.</fw><fw type="leaf" place="top-right" hand="h1">15</fw>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_68ms"/>Fru Linde</speaker>.
+<lb/><HIS:hisStage>(fra v.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja nu ved jeg ikke mere at rette &dash; skulde vi kan&typHyp;
+<lb/>ske prøve &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>K. kom her &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>F. L.</speaker></HIS:spOpener>
+<lb/><p>N. hvad fejler dig; du ser ud som forstyrret</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Kom her; ser du det brev &dash; der; se, gennem ruden
+<lb/>i brevkassen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>Ja ja, jeg ser det nok &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Det er fra K &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Ah N. det er ham du har lånt penger af &dash;</p></HIS:hisSp><pb ed="HU" n="331"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja, og nu angiver han mig for Torvald &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Angiver</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Der er mere; jeg har skrevet et falsk navn &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Men for himlens skyld &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nu er det bare det jeg vil sige dig &dash; at du skal være mit
+<lb/>vidne &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Hvad, hvor<unclear reason="writing">over</unclear><note type="reading">alternativ lesemåte: 'hvorom'</note>?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_69ms"/>N.</speaker></HIS:spOpener>
+<lb/><p>Hvis jeg skulde gå fra forstanden eller der skulde
+<lb/>tilstøde mig noget &dash; &dash; og hvis nogen skulde komme
+<lb/>og tage skylden på sig &dash;</p></HIS:hisSp>
+
+<pb n="32"/>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L</speaker></HIS:spOpener>
+<lb/><p>Hvad så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Da skal du sige at det ikke er sandt &dash; jeg er ved fuld
+<lb/>forstand nu og jeg siger dig at det var mig alene;
+<lb/>der er ingen anden skyldig end jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Men jeg vil tale med K.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Gå ikke til ham; han er vred på dig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>Ligemeget. Hvor bor han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å hvor ved jeg &dash;? Jo, her er hans kort &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>Helmer</speaker>
+<lb/><HIS:hisStage>(indenfor)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Tør man endnu ikke komme ind &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej nej, vi prøver &dash; du kan ikke tro, hvor smuk
+<lb/>jeg skal bli &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Det er jo lige om hjørnet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja, ja &dash; men alt er forgæves</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Han skal kalde sit brev tilbage &dash; bare forhindre
+<lb/>at din mand &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja gå &dash; Å, hvis du kunde redde os &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>F. L.</speaker></HIS:spOpener>
+<lb/><p>Det må ske.</p></HIS:hisSp>
+</div>
+
+<pb n="33"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">16</fw>
+
+<pb n="34"/>
+<pb n="35"/>
+<div type="workingManuscript">
+<lb/><fw type="gathering" place="top-left">c.</fw><fw type="leaf" place="top-right" hand="h1">17</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker>
+<lb/><HIS:hisStage>(går hen til Hs dør <HIS:hisDel rend="overstrike">og</HIS:hisDel> åbner <HIS:hisDel rend="overwritten">)</HIS:hisDel>og ki<HIS:hisDel rend="overwritten">ger</HIS:hisDel>kker ind)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Torvald!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_70ms"/>H.</speaker> <HIS:hisStage>(indenfor)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nå, tør man nu endelig slippe ind &dash; kom, Rank
+<lb/>nu skal vi da få os &dash; <HIS:hisStage>(i døren<note resp="editor">'ø' mangler diakritisk tegn.</note>)</HIS:hisStage> Men hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nå?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Rank forberedte mig på en storartet forklædning&typHyp;
+<lb/>scene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker> <HIS:hisStage>(i døren)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ja, jeg forstod din hustru så; jeg <HIS:hisDel rend="overstrike"><unclear>har</unclear></HIS:hisDel> tog altså f<HIS:hisDel rend="overstrike">jel</HIS:hisDel> fejl &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Just derfor stængte jeg; der får ingen se mig i min pragt
+<lb/>før imorgen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Men kære N. du ser så anstrængt ud; har du øvet dig
+<lb/>formeget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej sletikke &dash;</p></HIS:hisSp><pb ed="HU" n="333"/>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det blir dog nødvendigt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja højst nødvendigt &dash;; men jeg kan ingen vej komme
+<lb/>uden din hjælp; jeg har glemt det altsammen</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det skal vi nok komme ud af.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja, ja, tag dig af mig, T. lover du mig det. Å, jeg er
+<lb/>så angst &dash; det store selskab &dash;; du må ofre dig gan&typHyp;
+<lb/>ske for mig iaften; hverken pen eller bog i hånden
+<lb/>Hvad? Ikke sandt, kære Torvald.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det lover jeg dig &dash;; iaften skal jeg være til for dig alene
+<lb/>Hm, det er sandt, et må jeg dog først &dash;
+<lb/><HIS:hisStage>(går mod udgangsdøren)</HIS:hisStage></p></HIS:hisSp>
+
+<pb n="36"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Hvor vil du hen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_71ms"/>H.</speaker></HIS:spOpener>
+<lb/><p>Blot se efter om der skulde være kommet breve.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej, nej, Torvald.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Hvad nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nej nej, jeg ber dig T. der er ingen</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Lad mig dog se. <HIS:hisStage>(vil gå)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker>
+<lb/><HIS:hisStage>(ved pi<HIS:hisDel rend="overwritten"><unclear>g</unclear></HIS:hisDel>anoet, slår de første akkord<unclear reason="writing">er</unclear> af Tarantellaen)</HIS:hisStage></HIS:spOpener>
+<lb/><p><gap reason="writing"/></p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker>
+<lb/><HIS:hisStage>(ved døren, standser)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Aha.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Torvald, jeg danser ikke imorgen, hvis jeg ikke får
+<lb/>prøve med dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Er du virkelig så bange, kære N.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja ja &dash; lad meg få prøve med dig &dash; spil for mig,
+<lb/>vejled mig som du plejer</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Gerne, gerne, når du ønsker det &dash;</p>
+<lb/><HIS:hisStage>(sætter sig til pianoet)</HIS:hisStage>
+<lb/><HIS:hisDel rend="overstrike"><p>S</p></HIS:hisDel></HIS:hisSp><HIS:hisSp who="NORA"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_72ms"/>N.</speaker> <HIS:hisStage>(tager tamburinen)</HIS:hisStage></HIS:spOpener><pb ed="HU" n="334"/>
+<lb/><p>Spil for mig; nu er jeg så oplagt til at danse</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Barnet skal få sin vilje.</p>
+<lb/><HIS:hisStage>(Han indleder dansen; Nora <HIS:hisDel rend="overstrike">s<gap/> sit</HIS:hisDel> kaster i al hast
+<lb/>et schavl som drapperi om sig &dash; dansen begynder
+<lb/>doktor R. ser til bag H.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker> <HIS:hisStage>(under dansen)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ikke så voldsomt i begyndelsen &dash;</p></HIS:hisSp>
+
+<pb n="37"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">18</fw>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Jeg kan det ikke anderledes &dash; hold takt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Piano, langsomt, men afmålt &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker>
+<lb/><HIS:hisStage>(danser videre)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Umuligt nu &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Nej, men dette går aldeles ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker> <HIS:hisStage>ler og slår tamburinen)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Sagde jeg dig det ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Jeg kan ikke spille for dig, hvis du ikke dæmper</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Lad mig spille; jeg holder bedre takt med hende</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Ja tag min plads, så skal jeg vejlede &dash;</p>
+<lb/><HIS:hisStage>(R. sætter sig ved pianof<unclear reason="writing">ortet</unclear> og spiller for
+<lb/>N. som fortsætter dansen. Helmer stiller
+<lb/>sig som tilskuer ved ovnen; hun figure<unclear reason="writing">rer</unclear>
+<lb/>imod ham<HIS:hisDel rend="overwritten">.)</HIS:hisDel>; han søger at afbryde hende ved
+<lb/>rettende bemærkninger men forgæves)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisStage>(Fru L. kommer <HIS:hisAdd place="offline">ude</HIS:hisAdd> fra forstuen)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_73ms"/>F. L.</speaker>
+<lb/><HIS:hisStage>(<unclear reason="writing">standser ængstelig ved døren</unclear>)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ah &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N</speaker> <HIS:hisStage>(<HIS:hisAdd place="offline">ler</HIS:hisAdd> d<unclear reason="writing">ansende</unclear>)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Her ser du løjer, K.</p>
+<lb/><HIS:hisStage>(<HIS:hisDel rend="overstrike">hu</HIS:hisDel>n</HIS:hisStage></HIS:hisSp><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Men kæreste N. du danser jo som om det gik på livet
+<lb/>løs &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Det gør det jo også &dash;</p></HIS:hisSp>
+
+<pb n="38"/>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Rank, hold op &dash; dette er den rene galskab &dash; hold op, si&typHyp;
+<lb/>ger jeg.</p></HIS:hisSp>
+<lb/><HIS:hisStage>R. holder inde og N. standser pludselig)</HIS:hisStage>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Kære N. du har jo glemt alt, hvad jeg har lært dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N</speaker> <HIS:hisStage>kaster tamburinen</HIS:hisStage></HIS:spOpener>
+<lb/><p>Var det ikke det jeg sagde dig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Her må sandelig vejledning til &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja, det kan ingen uden du &dash; vejled mig til det sidste &dash;
+<lb/>et ord, T. lov mig, at være bare til for mig alene
+<lb/>til imorgen &dash; til alt er forbi &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Vær ikke bange &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Du skønner det; du åbner ikke brevkassen før imor&typHyp;
+<lb/>gen nat &dash;</p></HIS:hisSp><pb ed="HU" n="335"/>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Aha, er det angsten <HIS:hisDel rend="overstrike"><unclear>for</unclear></HIS:hisDel> for dette menneske &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Ja, der må ikke komme noget stygt ind til os &dash; før
+<lb/>alting er over;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Godt &dash; ingen pen i hånden in<HIS:hisDel rend="overwritten">g<gap/></HIS:hisDel>t<unclear reason="writing">et</unclear> brev læst før
+<lb/>imorgen nat &dash; men så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Da er du fri.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_74ms"/>Stuepigen</speaker></HIS:spOpener>
+<lb/><p>Bordet er dækket &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisAdd place="offline">Vi vil ha'e</HIS:hisAdd> Champagne, Helene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STUEPIGEN"><HIS:spOpener><speaker>Stuepigen</speaker></HIS:spOpener>
+<lb/><p>Godt, frue <HIS:hisStage>(går)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Ah, stort gilde &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Bakkanal &dash;, til langt på nat &dash;</p></HIS:hisSp>
+</div>
+
+<pb n="39"/>
+<div type="workingManuscript">
+<lb/><fw type="gathering" place="top-left">d.</fw><fw type="leaf" place="top-right" hand="h1">19</fw>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Så, så så, ikke denne opskræmte vildhed. Vær nu min
+<lb/>egen lille lærkefugl, som du plejer &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å ja, det skal jeg nok &dash; men gå nu, og De ogs dr:
+<lb/>R. Kristine, hjælp mig at få håret lidt i orden</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RANK"><HIS:spOpener><speaker>R.</speaker>
+<lb/><HIS:hisStage>(sagte idet de går ud)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Der er dog ikke noget <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> &dash; sådant påfærde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Å langtfra, kære; det er ikke andet end denne latterlige
+<lb/>angst &dash; som jeg fortalte dig om.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(de går<note resp="editor">'å' mangler diakritisk tegn.</note> ind)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Nu!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Rejst på landet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Jeg så det på dig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr. L.</speaker></HIS:spOpener>
+<lb/><p>Men han kommer igen imorgen aften; jeg skrev
+<lb/>en seddel til ham &dash;</p></HIS:hisSp><pb ed="HU" n="336"/>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Det skulde du ladet være. Du skal ingenting forhindre
+<lb/>&dash; det er jo dog igrunden en jubel, dette her, at gå og
+<lb/>vente på det vidunderlige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRULINDE"><HIS:spOpener><speaker>Fr L.</speaker></HIS:spOpener>
+<lb/><p>Hvad er det, du venter på?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker></HIS:spOpener>
+<lb/><p>Å, det kan ikke du forstå; gå ind til dem, nu
+<lb/><HIS:hisDel rend="overstrike">g</HIS:hisDel> kommer jeg på øjeblikket</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Fr. L. går ind til højre)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker> <HIS:hisStage>(ser på sit uhr)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Fem. Syv timer til midnat. Så fireogtyve timer
+<lb/>til næste midnat. Da er Tarantellaen ude. Fire&typHyp;
+<lb/>ogtyve og syv? Enogtredive timer at leve i.</p></HIS:hisSp>
+
+<pb n="40"/>
+<lb/><HIS:hisSp who="HELMER"><HIS:spOpener><speaker>Helmer</speaker>
+<lb/><HIS:hisStage>(i døren tilhøjre)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Men hvor blir så lille lærkefuglen af?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORA"><HIS:spOpener><speaker>N.</speaker>
+<lb/><HIS:hisStage>(imod ham med åbne arme)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Her er lærkefuglen!</p></HIS:hisSp>
+</div>
+
+<pb n="41"/>
+<lb/><fw type="leaf" place="top-right" hand="h1">20</fw>
+<!-- pb n="42"/ -->
+<!-- pb/ -->
+</div>
+</body>
+</text>
+</TEI>

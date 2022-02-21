@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">NBO Brevs. 166 (i brev)</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, oktober 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>Annenkollasjon, mars 2007</resp>
+<name xml:id="HIS-AHH">Åshild Haugsland</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, april 2007</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="FH166-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på grunnlag av FH41116.xml (1006)</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="FH166">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Brevs. 166, i brev fra H. Ibsen til Julius Hoffory 27. sept. 1888</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Fruen fra havet</title>
+<title type="sub">Skuespil i fem akter</title>
+<docDate>1888</docDate><note>dateringen stammer fra brevet som teksten er en del av</note>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript, egenhendig. Teksten har er lagt ved et brev fra H. Ibsen til Julius Hoffory 27. sept. 1888 (B18880927JHo)</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Skriftgruppe: antikva</item>
+<item>Manuskriptet består bare av en side som er lagt ved et brev. Siden har tittelopplysninger, rolleliste og set.</item>
+<item>Tittelopplysninger: hovedtitlen er understreket</item>
+<item>Rollelisten: ingen spesiell markering av rollenavn vs. rollebeskrivelse.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label>WANGEL</label><item>Doktor Wangel/-/-</item>
+<label>ELLIDA</label><item>Fru Ellida Wangel/-/-</item>
+<label>BOLETTE</label><item>Bolette/-/-</item>
+<label>HILDE</label><item>Hilde/-/-</item>
+<label>ARNHOLM</label><item>Overlærer Arnholm/-/-</item>
+<label>LYNGSTRAND</label><item>Lyngstrand/-/-</item>
+<label>BALLESTED</label><item>Ballested/-/-</item>
+<label>DENFREMMEDE</label><item>En fremmed mand/-/-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd XI) kodet med pb ed="HU". Dette tekstvitnet dekker siden 51. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle FH-filer.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>fjernet siccing</title>
+Sjekket alle FH-filer for ev. sic-koder og fjernet de jeg fant. Validert. Lager ny visninger.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. Jeg har derfor endret att.verdiene i xptr-kodene i FH-filene til textWitnesses. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>07.09.09</date>
+<name>MW</name><title>Klargjøring til synoptisk visning</title>
+Endret det ene HU-sideskiftet til xptr (samsvar med FH88) og la til en xptr-kode før tittelsiden for synkronisering mot FH88.</change>
+<change><date>17.09.08</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret fra desc til sub i koding av undertitler.</change>
+<change><date>23.04.07</date><name>MW</name><title>Kodekontroll</title>
+Endret et par ting i kodingen som er kommet til nylig:
+fjernet performance-koden og flyttet head-koden innenfor castList;
+endret front til body og fjernet tom body som var juksekodet før (vi er blitt enige om at ms-er som bare inneholder rolleliste og ev. tittelside skal kodes i body).
+Tok ellers hele kodekontrollen. Validert.</change>
+<change><date>14.03.07</date><name>AAH</name><title>2. kollasjon</title>
+2. kollasjon mot original på NBO. Validert og laget ny visningsfil.</change>
+<change><date>24.10.06</date><name>MW</name><title>Oppretting</title>
+Opprettet filen på grunnlag av egen FH41116. Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<pb n="3"/>
+<front>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main"><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_158ms"/>Fruen fra havet.</titlePart>
+<lb/><titlePart type="sub">Skuespil i fem akter.</titlePart>
+</docTitle>
+</titlePage>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_51ms"/>
+<lb/><HIS:hisCastList><head>Personerne:</head>
+<lb/><castItem xml:id="WANGEL">Doktor Wangel, distriktslæge.</castItem>
+<lb/><castItem xml:id="ELLIDA">Fru Ellida Wangel, hans anden hustru.</castItem>
+<lb/><HIS:hisCastGroup rend="braced"><castItem xml:id="BOLETTE">Bolette.</castItem>
+<lb/><castItem xml:id="HILDE">Hilde, halvvoksen.</castItem> <roleDesc>hans døttre af første ægte&typHyp;
+<lb/>skab</roleDesc>.</HIS:hisCastGroup>
+<lb/><castItem xml:id="ARNHOLM">Overlærer Arnholm.</castItem>
+<lb/><castItem xml:id="LYNGSTRAND">Lyngstrand.</castItem>
+<lb/><castItem xml:id="BALLESTED">Ballested.</castItem>
+<lb/><castItem xml:id="DENFREMMEDE">En fremmed mand.</castItem>
+<lb/><castItem>Unge folk fra byen.</castItem>
+<lb/><castItem>Turister.</castItem>
+<lb/><castItem>Sommergæster.</castItem>
+</HIS:hisCastList>
+<lb/><set><p>(Handlingen foregår ved sommertid i en
+<lb/>liden fjordby i det nordlige Norge.)</p></set>
+</front>
+<body><p> </p></body>
+</text>
+</TEI>

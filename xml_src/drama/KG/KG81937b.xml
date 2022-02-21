@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kejser og Galilæer</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1937b</title>
+<title level="a" type="origYear">[1871]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Transkripsjon av faksimile, oktober 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Koding og kollasjonering:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing, november 2001:</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering mot manuskript, februar 2002:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, februar 2002:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer, mai 2003:</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="KG81937b-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på prosjektets transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="KG81937b">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1937b</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Notat og arbeidsmanuskript ("Ved Hulvejen" som åpning av første tekstavsnitt). Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>KEJSER OG GALILÆER: KG81937b</head>
+<item>skriftgruppe: latinsk håndskrift;</item>
+<item>bokstavvariant: minuskler og majuskler;</item>
+<item>skrifthelling: steilskrift;</item>
+<item>avsnitt: venstrestilt;</item>
+<item>generelt:
+<list>
+<item>skriften blir gradvis mer slurvete og stedvis uleselig; det mangler diakritisk tegn over "ø" et sted, bokstaven likevel transkribert som "ø", i overenstemmelse med regulativet; se også "opildnes", hvor i'en er uten prikk og e'en med;</item>
+<item>nederst på andre side er et påbegynt brev til Georg Brandes (se note).</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-brown" scope="major"><p>Ibsens hånd, mørk brun, nærmest sort penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>04.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>17.07.08</date>
+<name>SBT</name><title>Samkjøring med Tones ms.beskr.</title>
+Endret skriftfarge i håndlista fra sort til mørk brun, i samsvar med Tone.</change>
+<change><date>30.03.08</date>
+<name>HB</name><title>Koding og rydding</title>
+Ferdigstilte filen til tekstarkivet i HISe.</change>
+<change><date>06.10.06</date>
+<name>HB</name><title>Kodejusteringer</title>
+Kodet om til text-group-text-struktur siden mset inneholder to typer ms. Ms-koding OK.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>23.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Endret koden 'shy' til entiteten 'typHyp' (filen var åpenbart ikke kommet med i oppdateringen via skript). Validert.</change>
+<change><date>12.05.03</date>
+<name>IAA</name><title>Oppdateringer</title>
+Ny header, handlist, visning.</change>
+<change><date>11.03.02</date>
+<name>IAA</name><title>Endringer</title>
+Endret noen lesemåter etter konferanse med TM og sammenligning med HU, b. 19.</change>
+<change><date>28.02.02</date>
+<name>IAA</name><title>Kodekontroll</title>
+Drøftet lese- og kodemåter med HB. Gjorde mindre endringer i teksten. La inn engelske attributtverdier til div. Foretok kodekontroll og brente cd. Lager ikke id-who-liste osv. i teiheader for utkastet til Julians replikk. La inn ny sourceDesc-koding (msDescription), etter cd-brenning.</change>
+<change><date>22.02.02</date>
+<name>IAA</name><title>Kollasjonering mot manuskript</title>
+Kollasjonert mot manuskript. Endret Barbatia til Barbatio (jf. HU VII, s. 351) og Eusebius til Eusebia (keiserinnen). Tagget deler av transkripsjonen med unclear. Kan 'Ved hulvejen' kodes med noe annet enn head? Gjenstår: gjennomgang av noter pluss vurdering av manuskriptbetegnelser. Validering ok.</change>
+<change><date>22.01.02</date>
+<name>IAA</name><title>Oppdateringer</title>
+Lagt til ny principal og byttet type- med rend-attributt i del.</change>
+<change><date>15.11.01</date>
+<name>HB</name><title>Kollasjonering</title>
+Kollasjonert mot faksimile. Føyd til div-nivåer med foreløpig typologisering samt head-kodet understreket "Ved hulvejen.". OK med replikkoding av utkast til Julians replikk.</change>
+<change><date>26.10.01</date>
+<name>IAA</name><title>Oppretting</title>
+Transkribert og kodet. Jeg har oppfattet den siste innførselen som en replikk og kodet den deretter. OK?</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<group>
+<text><body>
+<pb ed="source" type="page_nopagination" n="1" facs="1" />
+<lb/><div><head>1.</head>
+<lb/><p><HIS:hisStage>Ved hulvejen.</HIS:hisStage> De kejserlige soldater stormer forgæves.
+<lb/>Hærføreren Severus kommer til; det lykkes ham
+<lb/>ikke at få tropperne til at gå frem. Cæsar
+<lb/>Julian kommer; soldaterne vægrer sig frem&typHyp;
+<lb/>deles; han taler til dem, finder det rimeligt
+<lb/>at de er forsagte; minder om nederlagene i
+<lb/>kampen mod Perserne; minder om Barbatios
+<lb/>skammelige flugt; byder dem vige, selv vil han
+<lb/>falde blandt fienderne. Soldaterne opildnes, alle
+<lb/>er rede til at følge ham; de stoler på cæsars
+<lb/>lykke; fanebæreren taler; storm med Julian
+<lb/>i spidsen.</p>
+<lb/><p>En højde i en kornager med udsigt over slagmarken.
+<lb/>Julian og følge på højden. Legaten Sallust er hos ham.
+<lb/>Julian forråder sine bekymringer; det er fare både at sejre
+<lb/>og lide nederlag; han minder om hvorledes han er omrin&typHyp;
+<lb/>get af forrædere; minder om Arketos adfærd ved at lade
+<lb/>ham i stikken ved Sennones.</p>
+<lb/><p>Cæsar Julian taler med varme om kampens glæde, dette
+<lb/>er livet &dash; dette er en slags samliv med guderne, som han
+<lb/>i sin ungdom higede efter.</p>
+<lb/><p>&dash; han udtaler sin glæde over at have Sallust hos sig; der
+<lb/>er mænd om ham, som lægger ondt for ham hos kejseren &dash;</p>
+<lb/><p>&dash; han skildrer slagets gang &dash;</p>
+<lb/><p>&dash; han taler om Helena og det døde barn &dash;</p>
+<lb/><p>&dash; han gribes af hemmelig angst for sejren &dash;</p>
+<pb ed="source" type="page_nopagination" n="2" facs="2" />
+<lb/><p>Modsigende efterretninger om Chnodomar.</p>
+<lb/><p>Man melder hans tilfangetag<unclear reason="writing">else</unclear>.</p>
+<lb/><p>Helena <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> gribes af hans kraftfulde skø<unclear reason="writing">nhed</unclear></p>
+<lb/><p>Han føres for cæsar og beder for sit liv &dash;</p>
+<lb/><p>Helena beder for ham.</p>
+<lb/><p>Cæsar skænker ham livet &dash;</p>
+<lb/><p>Han takker og priser Kejser Julian</p>
+<lb/><p>Råbet g<unclear reason="writing">entages</unclear> af sol<unclear reason="writing">daterne</unclear></p>
+<lb/><p>Udlægges <unclear reason="writing">ondt</unclear> af felth<unclear reason="writing">errerne</unclear></p>
+<lb/><p>Julian <unclear reason="writing">ængstes men trøster</unclear> sig ved Eusebia</p>
+<lb/><p>Bud melder Eusebias død.</p>
+</div></body></text>
+<lb/><figure type="bar"/>
+<text><body><div>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Julian</speaker></HIS:spOpener>
+<lb/><p>I bøge<unclear reason="writing">rne</unclear> søgte jeg livet; i drøm<unclear reason="writing">men</unclear> søgte jeg det &dash; &dash;
+<lb/>så søgte jeg det i den lyse dags virkelighed &dash; virkeligheden
+<lb/>var <HIS:hisDel rend="overstrike">jeg</HIS:hisDel> just drøm<unclear reason="writing">men</unclear> &dash; drøm<unclear reason="writing">men</unclear>, det gådefulde, det
+<lb/>er den sande virkelighed.</p>
+<lb/><p>Kristus skal begraves under vinløv; han skal
+<lb/>overdøves af bacchus-sange</p></HIS:hisSp>
+</div>
+<note resp="editor">Nederst, i motsatt skriveretning, har Ibsen påbegynt et brev til Georg Brandes: <q>Dresden den 25<hi rend="raised">de</hi> November 1871. &dash;&sol;Kære Brandes!</q>. Et brev til Brandes novemberdesember 1871 er ellers ikke kjent.</note>
+</body>
+</text>
+</group>
+</text>
+</TEI>

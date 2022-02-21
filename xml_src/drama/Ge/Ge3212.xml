@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Gengangere</title>
+<title level="a" type="sub">NBO Ms.fol. 3212</title>
+<title level="a" type="origYear">1881</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Kollasjonering og koding</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-NME">Nina Marie Evensen</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Ge3212-0611"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på intern transkripsjon.</p>
+    <p>
+    <HIS:hisMsDesc type="workingManuscript" xml:id="Ge3212">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.fol. 3212</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>Henrik Ibsen</author>
+                <title type="main">Gengangere</title>
+                <title type="sub">Et familjedrama tre akter</title>
+                <docDate>&lquo;1881&rquo;</docDate>
+            </msItem>
+        </msContents>
+        <physDesc>
+            <objectDesc>
+                <p>Egenhendig tittelblad</p>
+            </objectDesc>
+        </physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>latinsk håndskrift; steilskrift</item>
+<item>teksten midtstilt</item>
+<item>hovedtittelen noe større enn øvrig tekst</item>
+<item>foliert med bokstaven "a." i øvre venstre hjørne</item>
+<item>påskrift med blyant nede til høyre: "... U.B. Ibsen-katalog 1928 m. 61."</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+    <language ident="nob"/>
+    <language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort penn.</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+<change when="2011-08-22" who="SBT">
+<title>scribe-attributt</title>
+Erstattet hand-attributt med scribe. Valid fil.</change>
+<change when="2011-08-19" who="SBT">
+<title>Validering</title>
+Oppdaterte etter nytt skjema.</change>
+<change when="2011-08-11" who="SBT">
+<title>Tilpasning</title>
+Endret sti til skjema. La til typeattributt i respStmt.</change>
+<change when="2011-06-24" who="SBT">
+<title>Konvertering til P5</title>
+Har endret kodingen til valid HIS-P5. La inn type- og rend-attributt i text. Får feilmelding på synopticViewPtr.</change>
+<change when="2009-10-21" who="HMS"><title>Ny koding for synoptiske visninger</title>
+Erstattet 'xptr type=synpoticView_msVersions' med 'synopticViewPtr type=synopticView_textWitnesses'. Validert.</change>
+<change when="2009-09-30" who="HMS"><title>Koding til synoptiske visninger</title>
+La inn attributtet ed="faksBase" i pb-koden som viser til faksimilebasen. La inn pb-referanse til TMs ms-betegnelser. Kodet inn xptr-kode til synoptisk visning.</change>
+<change when="2008-02-29" who="HB"><title>sheet -&gt; gathering</title>
+Byttet ut sheet med gathering, etter vedtak om at legg i ms og ark i trykk ikke skal være samme type.</change>
+<change when="2007-10-03" who="HMS"><title>Fra 'desc' til 'sub'</title>
+Endret typeattributt i undertittelen fra 'desc' til 'sub' etter ibsenkodvedtak 16.08.07.</change>
+<change when="2007-10-01" who="HMS"><title>Tallspenn</title>
+Sjekket koding av tallspenn, ingen tallspenn funnet.</change>
+<change when="2006-03-10" who="MW"><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change when="2005-08-12" who="MW"><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change when="2003-10-20" who="IAA"><title>Kodekontroll</title>
+Gjorde kodekontroll. Validerte.</change>
+<change when="2003-10-17" who="NME"><title>Kollasjonering</title>
+Kollasjonerte mot manuskript. Validerte. Klart for kodekontroll.</change>
+<change when="2003-06-02" who="IAA"><title>Kollasjonering og oppretting</title>
+Transkripsjon. Kollasjonerte mot faksimile, kodet og validerte. Klart for andrekollasjon.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<pb n="1" rend="[1]r"/>
+<!--<pb ed="faksBase" n="1"/>-->
+<lb/><fw type="gathering" place="top-left">a.</fw>
+<front>
+<titlePage>
+<docTitle>
+<lb/><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ge_138ms"/><titlePart type="main">Gengangere.</titlePart>
+<lb/><titlePart type="sub">Et familjedrama
+<lb/>i
+<lb/>tre akter</titlePart>
+</docTitle>
+<byline>
+<lb/>af
+<lb/><docAuthor>Henrik Ibsen</docAuthor>.
+</byline>
+<lb/><docDate>1881.</docDate>
+</titlePage>
+</front>
+<body><p>&#160;</p></body>
+</text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Lille Eyolf</title>
+<title level="a" type="sub">Ms.8&deg; 1941</title>
+<title level="a" type="origYear">1894</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, mars 2009</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, aug. 2009</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, nov. 2009</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="LE81941-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på LE94 (0309)</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="LE81941">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1941</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">uten tittel</title>
+<docDate>uten datering</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Egenhendig opptegnelse til begynnelsen av 2. akt.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Bibliotekstempel og -signatur i penn nederst til høyre.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ALLMERS">ALLMERS</label><item>All</item>
+<label xml:id="ASTA">ASTA</label><item>A.</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd XII) kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 227-228. Alle sidetall er oppgitt i n-attributter.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>16.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>03.11.09</date>
+<name>MW</name><title>Kodekontroll</title>
+Kodekontroll utført. Ny visning lages.</change>
+<change><date>05.10.09</date>
+<name>MW</name><title>ref- og ptr-koding</title>
+Etter kodemøte om ref-kodingen oppdaterte jeg forekomster av ref-koder uten target og id. I denne filen gjaldt det et sted hvor koden ble fjernet og det i stedet ble satt inn en editornote om det "mystiske" referansetegnet. Lager ny visning etterpå.</change>
+<change><date>27.08.09</date>
+<name>MW</name><title>2. kollasjon</title>
+Førte inn resultatene etter 2. kollasjon mot original.</change>
+<change><date>10.03.09</date>
+<name>HMS</name><title>Oppretting og 1. kollasjon</title>
+Opprettet fila og tok 1. kollasjon mot faksimile. Validert og laget visning. Klar for 2. kollasjon mot original.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<div type="act" n="2"><pb ed="HU" n="227"/>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1" gathering="1"/>
+<lb/><HIS:hisStage>En liden trang dal i A<hi rend="raised">s</hi> skog nede ved
+<lb/>stranden. Høje gamle træer til vens<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tre
+<lb/>lud<unclear reason="writing">er</unclear></HIS:hisStage>
+<lb/><HIS:hisStage>Nedover bakkedraget i bbg <HIS:hisDel rend="overstrike">slyn</HIS:hisDel> fosser en
+<lb/><HIS:hisRef type="refMark" target="n1" xml:id="nb1">&referenceMark;</HIS:hisRef> bæk<HIS:hisDel rend="overwritten">,</HIS:hisDel>. En sti slynger sig langs bækken.
+<lb/>Til højre står kun enkelte træer, mellem
+<lb/>hvilke fjorden skimtes. Foran ses <HIS:hisDel rend="overstrike">et b<gap/></HIS:hisDel>
+<lb/>hjørnet af et bådskur med en optrukk<unclear reason="writing">en</unclear>
+<lb/>båd.
+<lb/><HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen er plassert under de to avsnittene over.</note><HIS:hisRef type="refMark" target="nb1" xml:id="n1">&referenceMark;</HIS:hisRef> som taber sig mellem stene og træerne til
+<lb/>venstre</HIS:hisAdd></HIS:hisStage>
+<pb ed="HU" n="232"/>
+<lb/><HIS:hisSp who="ASTA"><p>1) tænk, at du kunde være så barnagtig
+<lb/>alligevel</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Var jeg?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja, det var du da. For du skam<unclear reason="writing">med</unclear></p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Kjæmpehøien, 2. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2005</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1854</title>
+<title level="s" type="copyright">&copy; Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ståle Dingstad, Stine Brenna Taugbøl</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Jørgen Fafner, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Else Mundal, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Vigdis Ystad</name></respStmt>
+<respStmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Ståle Dingstad</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Kommentarkoding</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-AMB">Aasta Marie Bjorvand Bjørkøy</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name>Ellen Nessheim Wiger</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-GW">Gunnhild Wiggen</name>
+</respStmt>
+<respStmt>
+<resp>Koding</resp>
+<name>Espen S. Ore</name>
+<name>Hilde Bøe</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="K2ht-1212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på K2ht_bok.xml (K2ht_bok-1207).</p>
+<p>
+<biblStruct xml:id="K254">
+<monogr>
+<author>Henrik Ibsen</author>
+<title level="a" type="main">Kjæmpehøien</title>
+<title level="a" type="desc">Dramatisk Digtning i een Act</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Bergen offentlige bibliotek</idno>
+<idno>q 078.1 B</idno>
+<imprint>
+<pubPlace>Bergen</pubPlace>
+<publisher>Fr. D. Beyer</publisher>
+<HIS:printer>Johan D. Beyer</HIS:printer>
+</imprint>
+<imprint>
+<biblScope unit="issue">7. årgang, 1854</biblScope>
+<date when="1854-01-29">søndag 29. januar 1854</date>
+</imprint>
+</monogr>
+<series>
+<title level="s">Bergenske Blade</title>
+</series>
+<monogr>
+<title level="s">Bergenske Blade</title>
+<title level="a">Kjæmpehøien, [2. scene]</title>
+<imprint>
+<biblScope unit="issue">7. årgang, 1854</biblScope>
+<date when="1854-02-01">onsdag 1. februar 1854</date>
+</imprint>
+</monogr>
+<monogr>
+<title level="s">Bergenske Blade</title>
+<title level="a">Kjæmpehøien, [3. og 4. scene]</title>
+<imprint>
+<biblScope unit="issue">7. årgang, 1854</biblScope>
+<date when="1854-02-05">søndag 5. februar 1854</date>
+</imprint>
+</monogr>
+<monogr>
+<title level="s">Bergenske Blade</title>
+<title level="a">Kjæmpehøien, [5. og 6. scene]</title>
+<imprint>
+<biblScope unit="issue">7. årgang, 1854</biblScope>
+<date when="1854-02-08">onsdag 8. februar 1854</date>
+</imprint>
+</monogr>
+</biblStruct>
+</p>
+<p>
+<listBibl>
+<head>Tekstvitner konsultert i ederingen</head>
+<HIS:hisMsDesc type="promptCopy" xml:id="K241107">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4&deg; 1107</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Kjæmpehøien</title>
+<title type="desc">Dramatisk Digtning i 1 Act</title>
+<docDate>Senest 2. januar 1854</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Sufflørbok, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+<HIS:hisMsDesc type="parts" xml:id="K2238r">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, Universitetet i Bergen</repository>
+<idno>UiB NT238r</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title>Kjæmpehøien</title>
+<docDate>Senest 2. januar 1854</docDate>
+</msItem>
+<msItem n="K2238Blanka"><locus>5 ark</locus><title>Blanka, i &lquo;Kjæmpehøien&rquo;: Dramatisk Digtning i 1 Act af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Asgaut"><locus>1 1/2 ark</locus><title>Asgaut en gammel Viking i &lquo;Kjæmpehøien.&rquo; Dramatisk Digtning i 1 Act. af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Gandalf"><locus>4 1/2 ark</locus><title>Gandalf, Søkonge fra Norge, i &lquo;Kjæmpehøien&rquo;. Dramatisk Digtning i een Act af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Hrolloug"><locus>3/4 ark</locus><title>Hrolloug, i &lquo;Kjæmpehøien&rquo;. Dramatisk Digtning i 1 Act af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Hemming"><locus>1/2 ark</locus><title>Hemming, en ung Skjald i Gandalfs Tjeneste i &lquo;Kjæmpehøien&rquo;. Dramatisk Digtning i een Act af Henrik Ibsen</title></msItem>
+<msItem n="K2238Jostein"><locus>3/4 ark</locus><title>Jostein i &lquo;Kjæmpehøien.&rquo; Dramatisk Digtning i 1 Act. af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Roderik"><locus>1 1/2 ark</locus><title>Roderik, en gammel Eneboer, i &lquo;Kjæmpehøien.&rquo; Dramatisk Digtning i 1 Act. af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Viking1"><locus>1/2 ark</locus><title>Nogle Vikinger, i &lquo;Kjæmpehøien.&rquo; Digtning i 1 Act. af Henrik Ibsen.</title></msItem>
+<msItem n="K2238Viking2"><locus>1/2 ark</locus><title>Nogle Vikinger i &lquo;Kjæmpehøien.&rquo; Digtning i 1 Act. af Henrik Ibsen.</title></msItem>
+</msContents>
+<physDesc><objectDesc><p>9 rollehefter. Ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+<biblStruct xml:id="K2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kæmpehøjen</title>
+<title type="desc">Dramatisk digtning i en akt</title>
+<edition>[Folkeutgave]</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubPlace>København</pubPlace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<HIS:printer>Græbes Bogtrykkeri</HIS:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblScope unit="volume">Bd. 10</biblScope>
+<date>1902</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblStruct>
+<biblStruct xml:id="K204">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kæmpehøjen</title>
+<title type="desc">Dramatisk digtning i en akt</title>
+<idno type="owner">NBO Ibsensenteret</idno>
+<idno>74GA05811</idno>
+<imprint>
+<pubPlace>København</pubPlace>
+<publisher>Gyldendalske Boghandel Nordisk Forlag</publisher>
+<HIS:printer>Græbes Bogtrykkeri</HIS:printer>
+<date>1904</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct xml:id="K2HU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Kæmpehøjen</title>
+<edition>[Hundreårsutgave]</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubPlace>Oslo</pubPlace>
+<publisher>Gyldendal</publisher>
+<HIS:printer>Dreyer, Stavanger</HIS:printer>
+<date>1928-57</date>
+</imprint>
+<imprint>
+<biblScope unit="volume">Bd.1</biblScope>
+<date>1928</date>
+</imprint>
+</monogr>
+<series>
+<editor>Francis Bull, Halvdan Koht og Didrik Arup Seip</editor>
+<title>Hundreårsutgave. Henrik Ibsens samlede verker</title>
+</series>
+</biblStruct>
+</listBibl>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-trykk;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Grunntekstens typografi fins beskrevet i typografibeskrivelsen i grunntekstfilen (K2.xml).</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label>ASGAUT</label><item>Asgaut/Asgaut/Asgaut</item>
+<label>BLANKA</label><item>Blanka/Blanka/Blanka</item>
+<label>GANDALF</label><item>Gandalf/Gandalf/Gandalf</item>
+<label>HEMMING</label><item>Hemming/Hemming/Hemming</item>
+<label>HROLLOUG</label><item>Hrolloug/Hrolloug/-</item>
+<label>JOSTEIN</label><item>Jostein/Jostein/-</item>
+<label>RODERIK</label><item>Roderik/Roderik/Roderik</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd I) kodet med pb ed="HU". Dette tekstvitnet dekker sidene 279-309. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>27.02.14</date><name>SBT</name><title>HISb-sideskift</title>
+La inn sideskift fra bokutgaven.</change>
+<change><date>06.12.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe. Endret stage/dashes til l/dashes.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="edited" xml:lang="dan-nob">
+<group>
+<join target="K21854-9 K21854-10 K21854-11 K21854-12"/>
+<text xml:id="K21854-9" n="1">
+<front>
+<titlePage type="serial" n="1">
+<docTitle>
+<titlePart type="main"><pb rend="noprint"/><cb n="[19v sp. 1]"/><pb ed="HISb" n="295"/><pb ed="HU" n="279"/><anchor type="lemma" xml:id="koK2_1a"/>KJÆMPEHØIEN</titlePart>
+<titlePart type="desc"><anchor type="lemma" xml:id="koK2_1b"/>DRAMATISK DIGTNING I EEN ACT</titlePart></docTitle>
+<byline>AF <docAuthor>HENRIK <HIS:hisRef type="tcNote" xml:id="noteK2_1" target="K2ht_noter.xml" corresp="noteK2_1">IBSEN</HIS:hisRef></docAuthor></byline>
+</titlePage>
+<HIS:hisCastList><head><pb rend="noprint" ed="HU"/><pb ed="HISb"/><pb ed="HU"/>Personerne</head>
+<castItem xml:id="RODERIK"><role><anchor type="lemma" xml:id="koK2_1"/>RODERIK</role>, <roleDesc>en gammel Eneboer</roleDesc></castItem>
+<castItem xml:id="BLANKA"><role><anchor type="lemma" xml:id="koK2_1c"/>BLANKA</role>, <roleDesc>hans Pleiedatter</roleDesc></castItem>
+<castItem xml:id="GANDALF"><role><anchor type="lemma" xml:id="koK2_1d"/>GANDALF</role>, <roleDesc><anchor type="lemma" xml:id="koK2_2"/>Søkonge fra Norge</roleDesc></castItem>
+<castItem xml:id="ASGAUT"><role><anchor type="lemma" xml:id="koK2_2a"/>ASGAUT</role>, <roleDesc>en gammel Viking</roleDesc></castItem>
+<HIS:hisCastGroup>
+<lb/><castItem xml:id="HROLLOUG"><role><anchor type="lemma" xml:id="koK2_2b"/>HROLLOUG</role>,</castItem>
+<lb/><castItem xml:id="JOSTEIN"><role><anchor type="lemma" xml:id="koK2_3"/>JOSTEIN</role></castItem> og
+<lb/><castItem><role>FLERE VIKINGER</role></castItem>
+</HIS:hisCastGroup>
+<castItem xml:id="HEMMING"><role><anchor type="lemma" xml:id="koK2_3a"/>HEMMING</role>, <roleDesc>en ung <anchor type="lemma" xml:id="koK2_3b"/>Skjald i Gandalfs Tjeneste</roleDesc></castItem></HIS:hisCastList>
+<set><p>Handlingen foregaaer paa en liden Ø ved Sicilien, kort før Christendommens Indførelse i Norge.</p></set>
+</front>
+<body>
+<div type="act" n="1" part="I">
+<HIS:hisStage><pb ed="HISb"/><pb rend="noprint" ed="HU"/><pb ed="HU"/>En aaben Plads, omgiven af Træer, nær ved Strandbredden. Til Venstre i Baggrunden en antik Tempelruin. Midt paa Scenen en stor Kjæmpehøi, hvorpaa en <anchor type="lemma" xml:id="koK2_53a"/>Bauta, omvunden af Blomsterkrandse.</HIS:hisStage>
+<div type="scene" n="1">
+<head>1ste Scene</head>
+<HIS:hisStage>Roderik sidder skrivende til Høire. Til Venstre Blanka i en halvt liggende Stilling.</HIS:hisStage>
+<HIS:hisLg rend="poem">
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<HIS:hisLg versetype="strofisk strofegruppe trokeisk firtakter" an="no" met="bi 7|8" rhyme="r|R">
+<HIS:hisLg versetype="strofe" rhyme="A b b A c c D D"><l first="yes" rhyme="A"><anchor type="lemma" xml:id="koK2_4"/>Aftenrødens sidste Luer</l>
+<l rhyme="b">Bølge som et Hav ibrand.</l>
+<l rhyme="b">Der er tempeltyst ved Strand,</l>
+<l rhyme="A">Tyst som under Løvets Buer.</l>
+<l rhyme="c"><cb n="[19v sp. 2]"/>Sommeraftnens milde Fred</l>
+<l rhyme="c"><anchor type="lemma" xml:id="koK2_5"/>Daler som en Due ned,</l>
+<l rhyme="D">Svæver som en Svane over</l>
+<l rhyme="D">Skovens Blomst og Havets Vover.</l></HIS:hisLg>
+<HIS:hisLg versetype="strofe" rhyme="A B B A C d d C"><l rhyme="A">I <anchor type="lemma" xml:id="koK2_6"/>Orangekrattet blunder</l>
+<l rhyme="B">Fortids Guder og Gudinder,</l>
+<l rhyme="B">Høie marmorhugne Minder</l>
+<l rhyme="A">Om en Verden, som gik under;</l>
+<l rhyme="C">Troskab, Tapperheden, Dyden</l>
+<l rhyme="d">Staa forstenet, dødt og rigt, &dash;</l>
+<l rhyme="d">Gives vel et mere ligt</l>
+<l rhyme="C">Billed paa <anchor type="lemma" xml:id="koK2_7"/>det sjunkne <HIS:hisRef type="tcNote" xml:id="noteK2_2" target="K2ht_noter.xml" corresp="noteK2_2">Syden?</HIS:hisRef></l></HIS:hisLg>
+<HIS:hisStage><pb ed="HISb"/>(reiser sig)</HIS:hisStage>
+<HIS:hisLg versetype="strofe" rhyme="a B B a (C d)&sup2;"><l rhyme="a">Men min Fader har fortalt</l>
+<l rhyme="B">Om et Land bag fjerne Bølger,</l>
+<l rhyme="B">Hvor et frodigt Liv sig dølger,</l>
+<l rhyme="a">Ei et meislet eller malt.</l>
+<l rhyme="C"><pb ed="HU"/>Her er Guddomslivet veget,</l>
+<l rhyme="d">Spores kun i Stenens Træk, &dash;</l>
+<l rhyme="C">Der det aander, kraftigt præget,</l>
+<l rhyme="d">Som en Kjæmper stærk og kjæk.</l></HIS:hisLg>
+<HIS:hisLg versetype="strofe" rhyme="(A b)&sup2; (C d)&sup2;"><l rhyme="A">Og naar Aftnens lumre Stilhed</l>
+<l rhyme="b">Tynger knugende mit Bryst,</l>
+<l rhyme="A">See, da stiger Nordens Billed</l>
+<l rhyme="b">For mit Øie sneebelyst.</l>
+<l rhyme="C">Her er smuldrende Ruiner,</l>
+<l rhyme="d">Døsig Dvale tung og blød, &dash;</l>
+<l rhyme="C">Der er styrtende Laviner</l>
+<l rhyme="d">Foraarsliv og Vinterdød!</l></HIS:hisLg>
+<HIS:hisLg versetype="strofe" part="Y" rhyme="A"><l rhyme="A"><anchor type="lemma" xml:id="koK2_8"/>Hvis jeg havde <anchor type="lemma" xml:id="koK2_9"/>Svanehammen</l>
+<l type="dashes">&dash; &dash;</l></HIS:hisLg></HIS:hisLg></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker><cb n="[19v sp. 3]"/>RODERIK</speaker> <HIS:hisStage>efter en Pause, skrivende</HIS:hisStage></HIS:spOpener>
+<l first="yes" rhyme="X">&lquo;<anchor type="lemma" xml:id="koK2_10"/>Da, hedder det, har <anchor type="lemma" xml:id="koK2_11"/>Ragnarok forsonet</l>
+<l rhyme="x">De vilde Kræfter, vakt et luttret Liv;</l>
+<l rhyme="X"><anchor type="lemma" xml:id="koK2_12"/>Alfader, <anchor type="lemma" xml:id="koK2_13"/>Balder og den milde <anchor type="lemma" xml:id="koK2_14"/>Freia</l>
+<l rhyme="x">Skal styre <anchor type="lemma" xml:id="koK2_15"/>Askurs Æt i Fred paany.&rquo;</l>
+<HIS:hisStage>(efter et Øieblik at have betragtet hende)</HIS:hisStage>
+<l rhyme="x">Men Blanka, see, <anchor type="lemma" xml:id="koK2_16"/>nu drømmer du igjen;</l>
+<l rhyme="X">Du stirrer tankefuld igjennem Luften,</l>
+<l part="I">Hvad søger du?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker> <HIS:hisStage>nærmer sig</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Tilgiv mig, gode Fader!</l>
+<l rhyme="X">Jeg fulgte kun et Stykke Vei med Svanen,</l>
+<l rhyme="X">Som fløi paa hvide Vinger over Havet.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l rhyme="x">Og hvis jeg ikke havde standset dig</l>
+<l rhyme="X">I Flugten, du min unge, fagre Svane!</l>
+<l rhyme="x">Hvem veed, hvor langt du da var fløien med,</l>
+<l part="I">Maaskee til <anchor type="lemma" xml:id="koK2_17"/>Thule.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hvorfor ikke det?</l>
+<l rhyme="x">Did <HIS:hisRef type="tcNote" xml:id="noteK2_3" target="K2ht_noter.xml" corresp="noteK2_3">flyver</HIS:hisRef> Svanen jo ved Foraarstid,</l>
+<l rhyme="X"><pb ed="HU"/>Men vender dog hvert Efteraar tilbage.</l>
+<HIS:hisStage>(sætter sig ved hans Fødder)</HIS:hisStage>
+<l rhyme="X">Dog jeg er ingen Svane, kald mig heller</l>
+<l rhyme="x">En fangen Falk, der sidder tam og tro</l>
+<l part="I">Med gylden Ring om Foden.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Nu, og Ringen?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="X">Det er min Kjærlighed til dig, min Fader!</l>
+<l rhyme="x">Ved den du bundet har din unge Falk!</l>
+<l rhyme="x">Den kan ei fly, selv om den vilde det.</l>
+<HIS:hisStage>(reiser sig)</HIS:hisStage>
+<l rhyme="x">Men seer du vel, naar Svanen seiler let</l>
+<l rhyme="X">Henover Bølgen, som en Sky for Vinden,</l>
+<l rhyme="x"><pb rend="noprint"/><cb n="[20r sp. 1]"/>Da maa jeg mindes hvad du har fortalt</l>
+<l rhyme="X">Om Heltelivet i det fjerne Thule.</l>
+<l rhyme="X">Da tykkes mig at Fuglen er en <anchor type="lemma" xml:id="koK2_17a"/>Snekke</l>
+<l rhyme="x">Med Dragehoved og med <anchor type="lemma" xml:id="koK2_18"/>gylden Fløi;</l>
+<l rhyme="x"><pb ed="HISb"/>I Stavnen skuer jeg den unge Helt</l>
+<l rhyme="X">Med <anchor type="lemma" xml:id="koK2_19"/>Kobberhjelmen om de gule Lokker,</l>
+<l rhyme="x">Med Øine blaa, med mandigt hvælvet Bryst,</l>
+<l rhyme="X">Med Sværdet knuget i den stærke Høire.</l>
+<l rhyme="x">Jeg følger Helten paa hans raske Færd,</l>
+<l rhyme="X">Og mine Drømme tumle sig om Snekken,</l>
+<l rhyme="X">Og lege, overgivent som Delphiner,</l>
+<l rhyme="X">I Phantasiens dybe, svale Bølger.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l rhyme="x">Du er en Sværmerske, mit gode Barn;</l>
+<l rhyme="X">Jeg frygter næsten, at din Tanke dvæler</l>
+<l rhyme="X">For tidt hos Folket i det høie Norden.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Og hvis er Skylden, Fader, om saa var?</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="I">Du mener, at jeg selv &dash;?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">O ja, hvad Andet?</l>
+<l rhyme="x">Du lever selv jo kun i Mindet om</l>
+<l rhyme="X">Dit Ungdomsliv blandt Nordens stærke Helte;</l>
+<l rhyme="x">Og <HIS:hisRef type="tcNote" xml:id="noteK2_4" target="K2ht_noter.xml" corresp="noteK2_4">nægt det</HIS:hisRef> ei: saa tidt du melder om</l>
+<l rhyme="X">Den raske Kjæmpefærd, om Dyst og <anchor type="lemma" xml:id="koK2_20"/>Holmgang,</l>
+<l rhyme="X"><pb ed="HU"/>Da luer Kinden og dit Øie gløder,</l>
+<l rhyme="x">Det tykkes mig, du vorder ung paany.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker><pb ed="HISb"/>RODERIK</speaker></HIS:spOpener>
+<l rhyme="x">Vel sandt, men jeg har ogsaa Grund dertil;</l>
+<l rhyme="X">Jeg har jo selv blandt Nordens Helte levet,</l>
+<l rhyme="x">Og alt hvad Mindet hvisker mig om dem,</l>
+<l rhyme="X">Det er jo Blade fra min egen Saga;</l>
+<l rhyme="X">Du derimod, som fostredes i Syden,</l>
+<l rhyme="X">Som aldrig saa de sølvblaa Vinterfjelde,</l>
+<l rhyme="x"><cb n="[20r sp. 2]"/>Som aldrig hørte <anchor type="lemma" xml:id="koK2_21"/>Ludurhornets Klang, &dash;</l>
+<l rhyme="X">Hvor kan det fængsle dig hvad jeg fortæller?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x"><anchor type="ht" xml:id="koK2_ht_9"/>O siig, behøver Mennesket at see</l>
+<l rhyme="X">Og høre Alting med de ydre Sandser?</l>
+<l rhyme="X">Har ikke ogsaa Sjælen Blik og Øre,</l>
+<l rhyme="x">Hvormed den lytte kan og skue grant?</l>
+<l rhyme="x">Med legemlige Øine seer jeg vel</l>
+<l rhyme="X">Den rige Farveglød, som Rosen eier;</l>
+<l rhyme="x">Men Sjælens Blik kan i dens Bæger see</l>
+<l rhyme="X">En deilig Alf med Sommerfuglevinger,</l>
+<l rhyme="X">Som skjælmsk sig skjuler bag de røde Blade</l>
+<l rhyme="X">Og nynner om en lønlig Magt fra Himlen,</l>
+<l rhyme="x">Der skjænkte Blomsten Farvepragt og Duft.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="I">Vel sandt, min Datter!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Fast jeg skulde tro,</l>
+<l rhyme="x">At <anchor type="ht" xml:id="koK2_ht_10"/>just fordi jeg ikke skued selv,</l>
+<l rhyme="X">Saa staaer det Hele mere skjønt for Tanken.</l>
+<l rhyme="X">Saa gaaer det idetmindste dig, min Fader, &dash;</l>
+<l rhyme="X">De gamle Gudesagn og Heltekvæder,</l>
+<l rhyme="x">Dem mindes du og taler om med Lyst</l>
+<l rhyme="X">Og ridser dem paa Pergament med Runer;</l>
+<l rhyme="x"><pb ed="HISb"/>Men hvis jeg spørger om dit eget Liv</l>
+<l rhyme="X">I Nordens Egne, mørknes tidt dit Øie,</l>
+<l rhyme="X">Din Læbe tier og det tykkes stundom</l>
+<l rhyme="X">Som om din Barm blev Hjem for tunge Minder.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker> <HIS:hisStage>reiser sig</HIS:hisStage></HIS:spOpener>
+<l rhyme="x">Nævn ikke mere derom, gode Barn!</l>
+<l rhyme="x"><pb ed="HU"/><anchor type="lemma" xml:id="koK2_21a"/>Hvo er vel den, hvis Ungdomsminder ei</l>
+<l rhyme="x">Er blandede med mangt et bittert Nag?</l>
+<l rhyme="X">Du veed, <anchor type="lemma" xml:id="koK2_22"/>Normannerne er vilde Kjæmper &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Men er da Sydens Kriger mindre grum?</l>
+<l rhyme="X"><cb n="[20r sp. 3]"/>Har du <HIS:hisRef type="tcNote" xml:id="noteK2_5" target="K2ht_noter.xml" corresp="noteK2_5">forglemt</HIS:hisRef> hiin Nat for <HIS:hisRef type="tcNote" xml:id="noteK2_6" target="K2ht_noter.xml" corresp="noteK2_6">ti Aar</HIS:hisRef> siden,</l>
+<l rhyme="X">Dengang de Fremmede paa Kysten landed</l>
+<l part="I">Og plyndrede &dash;</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker> <HIS:hisStage>med synlig Uro</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Nok derom, lad os gaa.</l>
+<l rhyme="x">Det <anchor type="lemma" xml:id="koK2_23"/>lakker alt mod Aftentide; &dash; kom!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>idet de gaae</HIS:hisStage></HIS:spOpener>
+<l part="I">Giv mig din Haand!</l>
+<HIS:hisStage>(standser)</HIS:hisStage>
+<l part="M">Nei vent!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hvad <anchor type="lemma" xml:id="koK2_24"/>fattes dig?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">For første Gang har jeg idag <anchor type="lemma" xml:id="koK2_25"/>forglemt &dash;</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="I">Hvad har du glemt?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>pegende mod Høien</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">See Stenen der og Krandsen!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="I">Det er &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Den gamle, visne fra igaar;</l>
+<l rhyme="X">Jeg har forglemt at bytte den i Aften, &dash;</l>
+<l rhyme="x">Dog &dash; lad mig følge dig til Hytten først,</l>
+<l rhyme="x">Saa gaaer jeg siden ud paa Blomsterfangst:</l>
+<l rhyme="a">Violen dufter bedst, naar Aftnens Dug</l>
+<l rhyme="B">Har badet den i blanke Perlevover,</l>
+<l rhyme="a">Og Rosens Knop er ingentid saa smuk,<note type="met">Urent rim.</note></l>
+<l rhyme="B">Som naar den plukkes mens den barnligt sover.</l></HIS:hisSp>
+<HIS:hisStage>De gaae ud til Venstre i Baggrunden.</HIS:hisStage>
+</HIS:hisLg>
+</div>
+</div>
+</body>
+<back>
+<div type="ref"><p><HIS:hisRef target="K21854-10">(Fortsættes)</HIS:hisRef></p></div>
+</back>
+</text>
+<text xml:id="K21854-10" n="2">
+<front>
+<titlePage type="serial" n="2">
+<docTitle>
+<titlePart type="main"><pb rend="noprint"/><cb n="[21v sp. 1]"/><pb ed="HISb"/>KJÆMPEHØIEN</titlePart>
+<titlePart type="desc">DRAMATISK DIGTNING I EEN ACT</titlePart>
+</docTitle>
+<byline>AF <docAuthor>HENRIK IBSEN</docAuthor></byline>
+<HIS:hisDocImprint><HIS:hisRef target="K21854-9">(Fortsættelse fra forr. No.)</HIS:hisRef></HIS:hisDocImprint>
+</titlePage>
+</front>
+<body>
+<div type="act" n="1" part="M">
+<div type="scene" n="2">
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<head>2den Scene</head>
+<HIS:hisStage>Gandalf og Vikingerne komme fra Høire.</HIS:hisStage>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="I">Her er vi snart ved Stedet.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hvor? lad see!</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="X">Nei vent kun lidt til vi er bagved Skoven.</l>
+<l rhyme="x"><pb ed="HU"/>Paa Klippeskraaningen mod Havet stod</l>
+<l rhyme="x">En Rest af Muren, da vi drog afsted,</l>
+<l rhyme="x">Den staaer der sagtens endnu tænker jeg.</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker></HIS:spOpener>
+<l rhyme="x">Hør, sig os Drot, hvad kan det <anchor type="lemma" xml:id="koK2_26"/>baade os</l>
+<l rhyme="X">At <anchor type="lemma" xml:id="koK2_27"/>traske om som Narre her paa <HIS:hisRef type="tcNote" xml:id="noteK2_7" target="K2ht_noter.xml" corresp="noteK2_7">Holmen?</HIS:hisRef></l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="I">Ja, sig, hvad skal vi?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Tie, skal I, tie!</l>
+<l rhyme="X">Og lystre blindt hvad Eders <anchor type="lemma" xml:id="koK2_28"/>Konning byder.</l>
+<HIS:hisStage><pb ed="HISb"/>(til Asgaut)</HIS:hisStage>
+<l rhyme="x">Det synes mig forresten som I har</l>
+<l rhyme="x">Gjort altfor ryddigt Huus da sidst I var her.</l>
+<l rhyme="x">I kunde sagtens have levnet lidt</l>
+<l part="I">For mig og for min Hævn.</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Du er vor Konning,</l>
+<l rhyme="X">Og Troskab svoer dig dine Mænd paa Thinge;</l>
+<l rhyme="x">Men da vi fulgte dig i <anchor type="lemma" xml:id="koK2_29"/>Ledingsfærd,</l>
+<l rhyme="X">Saa var det for at vinde Ry og Hæder.</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker></HIS:spOpener>
+<l rhyme="X">Og Guld og Skatte, Hrolloug, Guld og Skatte!</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker><cb n="[21v sp. 2]"/>FLERE</speaker></HIS:spOpener>
+<l rhyme="x">Ja, det er Loven, Gandalf, Agt for den!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Jeg kjender Loven vel saa godt som I;</l>
+<l rhyme="x">Men var det ei fra gamle Tider Skik</l>
+<l rhyme="X">Og Vedtægt mellem os, at naar en Frænde</l>
+<l rhyme="x">For Fiendehaand blev fældet og hans Lig</l>
+<l rhyme="X">Laa ubegravet som et <anchor type="lemma" xml:id="koK2_30"/>Rov for Ravnen,</l>
+<l part="I">Saa maatte Blodhævn til?</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>NOGLE</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Jo, saadan er det!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Saa <anchor type="lemma" xml:id="koK2_31"/>værer rede da med Sværd og Skjold,</l>
+<l rhyme="X">I har en Drot at hævne, jeg en Fader.</l></HIS:hisSp>
+<HIS:hisStage>Bevægelse blandt Vikingerne.</HIS:hisStage>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker><pb ed="HISb"/>JOSTEIN</speaker></HIS:spOpener>
+<l part="I">En Drot?</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="M">En Fader?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Vent, jeg vil berette</l>
+<l rhyme="x">Hvad der er hændt. I veed min Fader var</l>
+<l rhyme="X">En vældig Viking. Tolv Aar er det siden</l>
+<l rhyme="X"><pb ed="HU"/>Han sidste Gang en Vaar drog ud i <anchor type="lemma" xml:id="koK2_32"/>Leding</l>
+<l rhyme="X">Med Asgaut der og sine gamle Kjæmper.</l>
+<l rhyme="x">To Aar han flakkede fra Strand til Strand</l>
+<l rhyme="X">Og gjæsted <anchor type="lemma" xml:id="koK2_33"/>Bretland, <anchor type="lemma" xml:id="koK2_33a"/>Valland, ja selv <anchor type="lemma" xml:id="koK2_34"/>Blaaland;</l>
+<l rhyme="x">Til Slutning hærjed han paa <anchor type="lemma" xml:id="koK2_35"/>Sikiløi,</l>
+<l rhyme="X">Og hørte der berette om en Høvding,</l>
+<l rhyme="x">Som boed her paa Holmen i et Slot</l>
+<l rhyme="X">Med stærke Mure bygget op paa Fjeldet</l>
+<l rhyme="x">Og der var kostelige Skatte gjemt.</l>
+<l rhyme="X">Ved Nattetid han landed <anchor type="lemma" xml:id="koK2_36"/>under Stranden,</l>
+<l rhyme="x">Og Borgen hærjed han med Ild og Sværd;</l>
+<l rhyme="x">Selv var han foran som en ægget Bjørn</l>
+<l rhyme="x">Og i <anchor type="lemma" xml:id="koK2_37"/>Berserkergangen saa han ei</l>
+<l rhyme="X"><cb n="[21v sp. 3]"/>Hvordan hans Kjæmper segned rundt omkring ham.</l>
+<l rhyme="x">Og da det første Daggry randt i Øst,</l>
+<l rhyme="x">Laa hele Borgen rygende i Gruus;</l>
+<l rhyme="x">Kun Asgaut stod igjen med nogle Faa.</l>
+<l rhyme="x">Min Fader og vel hundrede med ham</l>
+<l rhyme="X">Var redet gjennem Flammerne til <anchor type="lemma" xml:id="koK2_37a"/>Valhal.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="x">Jeg heiste Snekkens Seil i høien Raa</l>
+<l rhyme="X">Og vendte Stavnen hjemad imod Norden;</l>
+<l rhyme="X">Der søgte jeg forgjæves efter Gandalf,</l>
+<l rhyme="X"><pb ed="HISb"/>Den unge Ørn var fløien over Havet</l>
+<l rhyme="x">Til Island eller <anchor type="lemma" xml:id="koK2_38"/>Færø, blev mig sagt.</l>
+<l rhyme="x">Jeg stævned efter ham, men fandt ham ei,</l>
+<l rhyme="x">Dog Navnet kjendte de saavidt jeg foer;</l>
+<l rhyme="X"><anchor type="lemma" xml:id="koK2_38a"/>Thi skjøndt hans <anchor type="lemma" xml:id="koK2_39"/>Drage fløi som Sky for Stormen,</l>
+<l rhyme="X">Saa fløi hans Rygte dog paa bedre Vinger.</l>
+<l rhyme="x">I Sommer, veed I, traf jeg ham tilslut</l>
+<l rhyme="x">Det var i <anchor type="lemma" xml:id="koK2_40"/>Velskland; jeg beretted ham,</l>
+<l rhyme="X">Hvad der var skeet, hvordan hans Fader endte,</l>
+<l rhyme="X">Og Gandalf svoer ved alle Valhals Guder</l>
+<l rhyme="x">At tage blodig Hævn <anchor type="lemma" xml:id="koK2_41"/>med Ild og Sværd.</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker></HIS:spOpener>
+<l rhyme="X">Det er en gammel Skik og den bør agtes.</l>
+<l rhyme="X"><pb ed="HU"/>Men hvis jeg havde været Konning Gandalf,</l>
+<l rhyme="X">Saa var jeg bleven liggende i Velskland,</l>
+<l part="I">For der var Guld at vinde.</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hæder med!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Det er Jer Troskab mod den faldne Drot.</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker></HIS:spOpener>
+<l rhyme="x">Nu, nu, godt Ord igjen, jeg meente blot &dash;</l>
+<l part="I">Den Faldne kunde vente.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker> <HIS:hisStage>med undertrykt Forbittrelse</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Usle Slægt!</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker><pb rend="noprint"/><cb n="[22r sp. 1]"/>JOSTEIN</speaker></HIS:spOpener>
+<l part="I">Men siden vi nu engang er her &dash;</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker><pb ed="HISb"/>HROLLOUG</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ja</l>
+<l rhyme="X">Saa lad os reise ham et værdigt Minde!</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>NOGLE</speaker></HIS:spOpener>
+<l part="I">Ja, ja!</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>ANDRE</speaker></HIS:spOpener>
+<l part="M">Med Brand og Blod!</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Det kan jeg lide!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Og nu afsted at speide rundt om Øen;</l>
+<l rhyme="X">Thi end i Nat skal Hævnen være <anchor type="lemma" xml:id="koK2_43"/>fuldbragt,</l>
+<l part="I">Hvis ei, saa maa jeg falde selv.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Det svoer han.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Det svoer jeg dyrt ved alle Valhals Guder!</l>
+<l part="I">Og end engang jeg sværger &dash;</l></HIS:hisSp>
+<HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>HEMMING</speaker> <HIS:hisStage>med en Harpe over Skulderen, har under det Foregaaende nærmet sig mellem Kjæmperne, og udbryder bønligt</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Sværg ei, Gandalf!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Hvad gaaer der af Dig?</l></HIS:hisSp>
+<HIS:hisSp who="HEMMING"><HIS:spOpener><speaker><pb ed="HISb"/>HEMMING</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Sværg ei her i Skoven!</l>
+<l rhyme="x">Her kan ei vore Guder høre Dig.</l>
+<l rhyme="X">I Snekkens Stavn, i Nord paa vore Bjerge</l>
+<l rhyme="x">Der høre de Dig nok, men ikke her.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="x">Har Sydens Pestluft smittet ogsaa Dig?</l></HIS:hisSp>
+<HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>HEMMING</speaker></HIS:spOpener>
+<l rhyme="X"><anchor type="ht" xml:id="koK2_ht_3"/>I Velskland hørte jeg de fromme Præster</l>
+<l rhyme="x">Fortælle deiligt om den hvide Christ,</l>
+<l rhyme="x"><cb n="[22r sp. 2]"/>Og hvad de sagde svæver for min Hu</l>
+<l rhyme="X">Ved Nat og Dag, det vil ei meer forsvinde.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Jeg tog Dig med fordi Du alt som Gut</l>
+<l rhyme="X"><pb ed="HU"/>Forraadte Tegn paa rige Skjaldekræfter;</l>
+<l rhyme="x">Du skulde see min djærve Ledingsfærd,</l>
+<l rhyme="X">Og naar Kong Gandalf sad som graanet <anchor type="lemma" xml:id="koK2_43a"/>Gubbe</l>
+<l rhyme="X">Ved <anchor type="lemma" xml:id="koK2_46"/>Egebordet mellem sine Kjæmper,</l>
+<l rhyme="X">Da skulde Drottens unge Skjald forkorte</l>
+<l rhyme="x">Den lange Vinterkveld med Heltekvad,</l>
+<l rhyme="X">Og saa til Slutning sjunge mig mit Drapa;</l>
+<l rhyme="x">Thi Mindet reist af Skjaldetungens Lyn</l>
+<l rhyme="X">Er bedste Bauta over Heltens Gravhøi.</l>
+<l rhyme="x">Gaa nu, slæng Harpen væk og put Dig selv</l>
+<l rhyme="x">I <anchor type="lemma" xml:id="koK2_46a"/>Munkekutten, hvis det lyster Dig!</l>
+<l rhyme="X">Ha, ha, Kong Gandalf faaer en dygtig Sanger!</l></HIS:hisSp>
+<HIS:hisStage>Vikingerne gaae ind i Skoven til Venstre; Hemming følger dem.</HIS:hisStage>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker><pb ed="HISb"/>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="a">Det er en <anchor type="lemma" xml:id="koK2_47"/>muggen Tid vi lever i,</l>
+<l rhyme="x">Det <anchor type="ht" xml:id="koK2_ht_1"/>bærer ned ad Bakke med vor Tro</l>
+<l rhyme="a">Og vore Sæder fra den gamle Tid;</l>
+<l rhyme="X"><anchor type="lemma" xml:id="koK2_48"/>Held mig! min Nakke luder alt af Ælde,</l>
+<l rhyme="x">Mit Øie skal ei skue Nordens Fald;</l>
+<l rhyme="b">Men Du, Kong Gandalf, Du er ung og stærk,</l>
+<l rhyme="C">Og hvor Du færdes i det vide Fjerne,</l>
+<l rhyme="b">Saa kom ihu, at det er Kongeværk</l>
+<l rhyme="C">Om Folkets Guder og dets Kraft at værne!</l></HIS:hisSp>
+<HIS:hisStage>Han følger efter de Øvrige.</HIS:hisStage>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>efter en Pause</HIS:hisStage></HIS:spOpener>
+<l rhyme="x">Han har ei nogen freidig Lid til mig,</l>
+<l rhyme="X">Vel at han gik! Der ligger som en Tyngsel</l>
+<l rhyme="x">Paa mine Skuldre, naar han er mig nær.</l>
+<l rhyme="x">Den gamle Steenmand med de barske Træk!</l>
+<l rhyme="X">Han ligner <anchor type="lemma" xml:id="koK2_48a"/>Asathor, som stod med <anchor type="lemma" xml:id="koK2_49"/>Mjølner</l>
+<l rhyme="X"><cb n="[22r sp. 3]"/>Og Styrkebæltet hugget ud i Graasteen</l>
+<l rhyme="x">I Offerlunden ved min Faders Gaard.</l>
+<l rhyme="x">Min Faders Gaard! Hvo veed hvordan det nu</l>
+<l rhyme="X">Seer ud derhjemme paa de gamle Tomter!</l>
+<l rhyme="X">Ja Fjeld og Skov er sagtens end de samme,</l>
+<l rhyme="X"><pb ed="HU"/>Men Folkets Bryst? &dash; Har det de gamle Strænge?</l>
+<l rhyme="X">Nei, der er falden <anchor type="lemma" xml:id="koK2_50"/>Meeldug over Tiden,</l>
+<l rhyme="x">Og det er den, som suger Nordens Saft</l>
+<l rhyme="X">Og tærer giftigt paa dets bedste Blomster.</l>
+<l rhyme="x">Vel, jeg vil hjemad, redde hvad der end</l>
+<l rhyme="X">Staaer til at redde før det styrter sammen.</l>
+<HIS:hisStage>(efter en Pause, idet han seer sig om)</HIS:hisStage>
+<l rhyme="X">Hvor der er lifligt her i Sydens Lunde,</l>
+<l rhyme="x"><pb ed="HISb"/>Min Graneskov har ei saa stærk en Duft.</l>
+<HIS:hisStage>(han bemærker Høien)</HIS:hisStage>
+<l rhyme="x">Hvad nu? En Kjæmpegrav? Den gjemmer nok</l>
+<l rhyme="X">En Landsmand fra de gamle friske Dage!</l>
+<l rhyme="X">En Kjæmpegrav i Syden! det er <anchor type="lemma" xml:id="koK2_51"/>billigt,</l>
+<l rhyme="x">Thi Syden gav os jo vort Ulivssaar.</l>
+<l rhyme="x">Hvor her er vakkert! Jeg maa tænke paa</l>
+<l rhyme="x">En Vinterkveld, da jeg som liden Gut</l>
+<l rhyme="X">Sad paa min Faders Knæ ved <anchor type="lemma" xml:id="koK2_51a"/>Arneflammen,</l>
+<l rhyme="X">Mens han fortalte mig om vore Guder,</l>
+<l rhyme="x">Om Odin, Balder og den stærke <anchor type="lemma" xml:id="koK2_51b"/>Thor,</l>
+<l rhyme="x">Og da jeg nævnte for ham Freias Lund,</l>
+<l rhyme="x">Saa skildred han mig den som Lunden her;</l>
+<l rhyme="X">Men da jeg vilde vide lidt om Freia,</l>
+<l rhyme="X">Hvordan hun selv saa ud, da smaalo Gubben</l>
+<l rhyme="X">Og satte mig paa Gulvet ned og svared:</l>
+<l rhyme="x">&lquo;Det vil en Kvinde nok fortælle Dig!&rquo;</l>
+<HIS:hisStage>(lyttende)</HIS:hisStage>
+<l rhyme="X">Tys! Fodtrin gjennem Skoven! Rolig Gandalf!</l>
+<l rhyme="x">De bringe <anchor type="lemma" xml:id="koK2_51c"/>Førstegrøden af Din Hævn.</l>
+<HIS:hisStage>(træder tilside saaledes, at han er halvskjult mellem Buskene tilhøire)</HIS:hisStage></HIS:hisSp>
+</HIS:hisLg>
+</div>
+</div>
+</body>
+<back>
+<div type="ref"><p><HIS:hisRef target="K21854-11">(Fortsættes)</HIS:hisRef></p></div></back>
+</text>
+<text xml:id="K21854-11" n="3">
+<front>
+<titlePage type="serial" n="3">
+<docTitle>
+<titlePart type="main"><pb rend="noprint"/><cb n="[23v sp. 1]"/><pb ed="HISb"/>KJÆMPEHØIEN</titlePart>
+<titlePart type="desc">DRAMATISK DIGTNING I EEN ACT</titlePart>
+</docTitle>
+<byline>AF <docAuthor>HENRIK IBSEN</docAuthor></byline>
+<HIS:hisDocImprint><HIS:hisRef target="K21854-10">(Fortsættelse fra forr. No.)</HIS:hisRef></HIS:hisDocImprint>
+</titlePage>
+</front>
+<body>
+<div type="act" n="1" part="M">
+<div type="scene" n="3">
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<head><pb ed="HU"/>3die Scene</head>
+<HIS:hisStage>Gandalf. Blanka (med Egeblade i Haaret og en Kurv med Blomster kommer fra Venstre).</HIS:hisStage>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>beskjæftiget med at flette en Blomsterkrands</HIS:hisStage></HIS:spOpener>
+<l rhyme="X">Der risler Kilder i de grønne Dale,</l>
+<l rhyme="x">Der gynger klare Bølger under Strand;</l>
+<l rhyme="x">Men Kildens Rislen, Bølgens sagte Røst</l>
+<l rhyme="X">Har ei saa stærk en Magt, som hine Blomster,</l>
+<l rhyme="x">Der favnes søsterligen Bryst ved Bryst</l>
+<l rhyme="X">I tætte Klynger rundt om Høiens Side;</l>
+<l rhyme="x">De mane mig ved Nat og Dag herhen,</l>
+<l rhyme="X">Her er det godt at længes og at drømme.</l>
+<l rhyme="X">See nu er Krandsen færdig, Heltens Bauta</l>
+<l rhyme="x">Saa haard og kold skal dølges under den;</l>
+<l rhyme="x">Ja, det er smukt! <HIS:hisStage>(visende mod Høien)</HIS:hisStage> Et undergaaet Liv</l>
+<l rhyme="X">Med Kjæmpekræfter, dybt i Muld begravet,</l>
+<l rhyme="X">Og Mindet som til Efterslægten taler</l>
+<l rhyme="X">En iiskold Kampesteen, som hiin paa Høien;</l>
+<l rhyme="x">Da kommer Kunsten og med venlig Haand</l>
+<l rhyme="x">Den plukker Blomster ved Naturens Bryst,</l>
+<l rhyme="x">Og dækker Mindets haarde Kampesteen</l>
+<l rhyme="X">Med hvide Lilier, duftende <anchor type="lemma" xml:id="koK2_52"/>Kjærminder.</l>
+<HIS:hisStage>(<anchor type="lemma" xml:id="koK2_53"/>hun stiger op paa Høien, hænger Krandsen over Bautastenen og siger derpaa efter en Pause)</HIS:hisStage>
+<l rhyme="x"><pb ed="HISb"/>Nu seiler atter mine Drømmes Flok,</l>
+<l rhyme="X">Som Trækfuglskaren over Havets Bølger;</l>
+<l rhyme="X"><anchor type="ht" xml:id="koK2_ht_4"/>Jeg drages did, hvorhen min Længsel stunder,</l>
+<l rhyme="x">Og villigt følger jeg den skjulte Magt,</l>
+<l rhyme="x">Som har sin <anchor type="lemma" xml:id="koK2_54"/>Kongestol i Sjælens Dyb.</l>
+<l rhyme="x">Jeg staaer i Norden, er en Kjæmpers Brud,</l>
+<l rhyme="X">Og speider som en Ørn fra Fjeldets Tinde.</l>
+<l rhyme="x"><pb ed="HU"/>Bag blanke Bølger dukker Snekken frem;</l>
+<l rhyme="x"><cb n="[23v sp. 2]"/>O flye som Maagen mod din Fædrestrand!</l>
+<l rhyme="X">Jeg er et Sydens Barn jeg kan ei vente; &dash;</l>
+<l rhyme="x">Jeg river <anchor type="lemma" xml:id="koK2_55"/>Egekrandsen af mit Haar,</l>
+<l rhyme="x">Tag den min Helt! den er det andet Bud,</l>
+<l rhyme="X">Der hilser Dig &dash; min Længsel var det Første.</l>
+<HIS:hisStage>(<anchor type="ht" xml:id="koK2_ht_7"/>hun kaster Krandsen. Gandalf træder frem og griber den)</HIS:hisStage>
+<l part="I">Hvad nu? Der staaer &dash;</l>
+<HIS:hisStage>(hun gnider Øinene og stirrer forundret paa ham)</HIS:hisStage>
+<l part="F" rhyme="x">Nei det er ingen Drøm.</l>
+<l rhyme="x">Hvo er Du, Fremmede? Hvad søger Du</l>
+<l part="I">Ved Stranden her?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Stig ned af Høien først</l>
+<l part="I">Saa kan vi tales ved.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>stiger ned</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">See saa, her er jeg!</l>
+<HIS:hisStage>(afsides idet hun betragter ham)</HIS:hisStage>
+<l rhyme="X">Ringbrynjen over Brystet, Kobberhjelmen</l>
+<l rhyme="x">Aldeles som min Fader har fortalt.</l>
+<HIS:hisStage>(høit)</HIS:hisStage>
+<l part="I">Tag Hjelmen af!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="M">Hvorfor?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Saa gjør det dog!</l>
+<HIS:hisStage>(afsides)</HIS:hisStage>
+<l rhyme="X">To klare Øine, Lokker som en Kornmark,</l>
+<l rhyme="x">Aldeles som jeg saa ham i min Drøm.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I"><HIS:hisRef type="tcNote" xml:id="noteK2_8" target="K2ht_noter.xml" corresp="noteK2_8">Hvo</HIS:hisRef> er Du, Kvinde?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Jeg? et fattigt Barn!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Dog vist den Fagreste som Øen eier.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>leende</HIS:hisStage></HIS:spOpener>
+<l rhyme="X"><anchor type="ht" xml:id="koK2_ht_11"/>Den Fagreste? Ja, det kan være muligt,</l>
+<l part="I">Thi her er ingen Anden.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Ingen Anden?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><cb n="[23v sp. 3]"/>BLANKA</speaker></HIS:spOpener>
+<l rhyme="X">Med mindre, at min Fa&rapo;er, &dash; men han er gammel</l>
+<l rhyme="x">Og har et sølvgraat Skjæg saa langt som saa &dash;,</l>
+<l rhyme="X">O nei, saa troer jeg dog <emph>jeg</emph> vinder Prisen.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HU"/>GANDALF</speaker></HIS:spOpener>
+<l part="I">Du har et lystigt Sind.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ei altid, Du!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Men siig mig dog, hvordan det hænger sammen</l>
+<l rhyme="x">Du lever ene med Din Fader her,</l>
+<l rhyme="X"><pb ed="HISb"/>Og jeg har dog saa sikkert hørt berette,</l>
+<l rhyme="X">At Øen skulde være rigt bebygget.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Det var den engang, for en treaars Tid;</l>
+<l rhyme="X">Men &dash; ja det er en sørgelig Fortælling,</l>
+<l rhyme="x">Dog Du skal høre den, ifald Du vil.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Javist jeg vil!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Seer Du, for tre Aar siden &dash;</l>
+<HIS:hisStage>(sætter sig)</HIS:hisStage>
+<l part="I">Kom, sæt Dig ned!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>træder et Skridt tilbage</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Nei, <HIS:hisRef type="tcNote" xml:id="noteK2_9" target="K2ht_noter.xml" corresp="noteK2_9">sid</HIS:hisRef> kun Du, jeg staaer.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">For tre Aar siden kom en væbnet Flok</l>
+<l rhyme="X">Af Røvere, Gud veed hvorfra, til Øen;</l>
+<l rhyme="x">De plyndred rundtomkring, hvor de drog frem</l>
+<l rhyme="x">Og myrded Alt, hvad levende de fandt,</l>
+<l rhyme="X">De Faa, som kunde, redded&rapo; sig ved Flugten</l>
+<l rhyme="x">Og søgte til min Faders Borg, som laa</l>
+<l rhyme="X">Paa Klippepynten ikke langt fra Havet.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Din Faders, siger Du?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Javist, min Faders.</l>
+<l rhyme="X">Det var en skyfuld Aften, da de stormed</l>
+<l rhyme="X">Mod Borgeporten, trængte gjennem Muren,</l>
+<l rhyme="X"><pb rend="noprint"/><cb n="[24r sp. 1]"/>Brød ind i Gaarden, myrdede for Fode;</l>
+<l rhyme="x">Jeg flygtet angstfuld ud i Nattens Mulm</l>
+<l rhyme="X">Og søgte mig et Skjulested i Skoven.</l>
+<l rhyme="X">Jeg saa vort Hjem at hvirvles op i Flammer,</l>
+<l rhyme="X">Jeg hørte Skjoldebrag og bange Dødsskrig.</l>
+<l rhyme="X">Tilsidst blev Alting tyst; thi Alt var myrdet. &dash;</l>
+<l rhyme="x">Den vilde Skare drog mod Stranden ned</l>
+<l rhyme="X">Og seiled bort. Den næste Morgen sad jeg</l>
+<l rhyme="X"><pb ed="HU"/>Paa Klippen ved de rygende Ruiner.</l>
+<l rhyme="X">Jeg var den Eneste de havde skaanet.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Men Du fortalte jo, Din Fader lever.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="X">Min <emph>Pleie</emph>fader; vent, nu skal Du høre!</l>
+<l rhyme="x">Jeg sad paa Klippen sorgfuld og beklemt</l>
+<l rhyme="X">Og lytted til den rædselsfulde Stilhed,</l>
+<l rhyme="X">Da lød det som et dæmpet Suk fra Dybet</l>
+<l rhyme="X">I Klippekløften under mine Fødder;</l>
+<l rhyme="x">Jeg lytted bange, steg tilsidst derned</l>
+<l rhyme="x">Og fandt en Fremmed blødende og bleg.</l>
+<l rhyme="x">Jeg nærmed mig saa bange som jeg var,</l>
+<l part="I">Forbandt hans Saar og pleied ham.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Og han?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="X">Fortalte, da han efterhaanden kom sig,</l>
+<l rhyme="x">At han var dragen med et Kjøbmandsskib</l>
+<l rhyme="x"><pb ed="HISb"/>Herhid til Øen endnu samme Dag,</l>
+<l rhyme="x">Da Borgen plyndredes, var flygtet did</l>
+<l rhyme="X">Og havde kjæmpet kjækt mod Røverflokken,</l>
+<l rhyme="X">Indtil han blødende af Mathed styrted</l>
+<l rhyme="X">I Klippekløften, hvor jeg siden fandt ham,</l>
+<l rhyme="X">Og efter den Tid har vi levet sammen;</l>
+<l rhyme="X">Han bygged os en Hytte dybt i Skoven,</l>
+<l rhyme="X">Og blev mig kjær, o kjær, som ingen Anden;</l>
+<l part="I">Men kom, Du maa dog see ham!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei &dash; nei vent!</l>
+<l rhyme="x">Vi træffe tidsnok sammen, tænker jeg.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><cb n="[24r sp. 2]"/>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Ja, ja da, som Du vil, men Du kan troe;</l>
+<l rhyme="x">Han saa Dig gjerne under Hyttens Tag;</l>
+<l rhyme="X">For Du maa vide, Gjæstfriheden hører</l>
+<l part="I">Ei blot i Norden hjemme.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Norden? Saa</l>
+<l part="I">Du veed da &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hvor Du kommer fra? O ja!</l>
+<l rhyme="x"><pb ed="HU"/><HIS:hisRef type="tcNote" xml:id="noteK2_10" target="K2ht_noter.xml" corresp="noteK2_10">Min</HIS:hisRef> Fader har fortalt om Jer saatidt,</l>
+<l part="I">At jeg ved første Øiekast &dash;</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Og dog,</l>
+<l part="I">Du blev ei bange?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Bange? Hvorfor bange?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Nu, har han ikke sagt &dash; ja, har han ei &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Fortalt at I er djærve Helte? Jo!</l>
+<l rhyme="x">Men hvorfor skulde det forskrække mig?</l>
+<l rhyme="X">Jeg veed, I søger Ry paa fjerne Strande</l>
+<l rhyme="X">I mandig Dyst med drabelige Kjæmper,</l>
+<l rhyme="x">Men jeg har hverken Pantser eller Sværd,</l>
+<l part="I">Hvi skulde jeg vel da &dash;</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei vist, nei vist!</l>
+<l rhyme="X">Men hine Fremmede, som brændte Borgen?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Hvad de?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nu ja, jeg meente blot, har ei</l>
+<l part="I">Din Fader sagt hvorfra de kom?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Nei aldrig.</l>
+<l rhyme="x">De var jo Fremmede for ham som os,</l>
+<l rhyme="x">Men hvis Du vil, saa skal jeg spørge ham.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>hurtigt</HIS:hisStage></HIS:spOpener>
+<l part="I">Nei, lad kun være!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><cb n="[24r sp. 3]"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ah, nu fatter jeg!</l>
+<l rhyme="x">Du vide vil, hvor Du skal søge dem</l>
+<l rhyme="x">Og tage <anchor type="lemma" xml:id="koK2_56"/>Blodhævn som I kalde det.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Ha, Blodhævn! Tak! Du minder mig om <HIS:hisRef type="tcNote" xml:id="noteK2_11" target="K2ht_noter.xml" corresp="noteK2_11">Ordet</HIS:hisRef>;</l>
+<l part="I"><anchor type="lemma" xml:id="koK2_56a"/>Fast havde jeg forglemt &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Men veed Du vel,</l>
+<l part="I">Det er en hæslig Skik.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>gaaende mod Baggrunden</HIS:hisStage></HIS:spOpener>
+<l part="M">Farvel!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Du gaaer?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l>Vi træffes tidsnok. <HIS:hisStage>(standser)</HIS:hisStage> <pb ed="HU"/>Siig mig endnu Eet:</l>
+<l rhyme="x">Hvo hviler under Kjæmpehøien der?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Det veed jeg ei.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Du veed det ei, og dog</l>
+<l rhyme="X">Du slynger Blomster rundt om Heltens Bauta.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Min Fader førte mig en Morgen hid</l>
+<l rhyme="x">Og viste mig den friske Gravhøi, som</l>
+<l rhyme="X">Jeg aldrig forhen havde seet ved Stranden,</l>
+<l rhyme="X">Han bad mig holde Morgenbøn ved Høien</l>
+<l rhyme="x">Og i min Bøn at tænke fromt paa dem,</l>
+<l rhyme="X">Som havde hærjet os med Sværd og Flamme.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l part="I">Og Du?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hver Morgenstund fra den Dag af</l>
+<l rhyme="X">Jeg bad en stille Bøn for deres Frelse;</l>
+<l rhyme="X">Og friske Blomster fletted jeg hver Aften</l>
+<l part="I">Til Krands om Mindestenen.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Sælsomt, sælsomt!</l>
+<l rhyme="x">Hvor kan Du <anchor type="lemma" xml:id="koK2_57"/>bede for Din <anchor type="lemma" xml:id="koK2_57a"/>Avindsmand?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb rend="noprint"/><cb n="[24v sp. 1]"/>BLANKA</speaker></HIS:spOpener>
+<l part="I">Det byder mig min Tro.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>hæftigt</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Den Tro er feig,</l>
+<l rhyme="x">Det er en Tro, som suger Heltens Kraft,</l>
+<l rhyme="X">See derfor døde Kjæmpelivet <anchor type="lemma" xml:id="koK2_58"/>Straadød</l>
+<l part="I">Hos Eder her i Syden!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Men ifald</l>
+<l rhyme="x">Min feige Tro, som nu Du kalder den,</l>
+<l rhyme="X">Blev plantet om i Eders friske Jordbund,</l>
+<l rhyme="x">Da veed jeg vist der spired frem af den</l>
+<l rhyme="X">En Blomsterfylde, riig nok til at dække</l>
+<l part="I">Den nøgne Fjeldvæg.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Lad Du Fjeldet staae</l>
+<l rhyme="X">Med nøgne Vægge til de falde sammen!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Hør! tag mig med derop!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Hvad mener Du?</l>
+<l part="I">Jeg styrer hjemad &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HU"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Ja jeg seiler med Dig;</l>
+<l rhyme="X">Jeg har jo længst i Tankerne gjort Farten</l>
+<l rhyme="x">Didop, hvor Du har hjemme mellem Iis</l>
+<l rhyme="X">Og Snee og store sorte Graneskove!</l>
+<l rhyme="X">Der skulde komme Lystighed i Hallen,</l>
+<l rhyme="x">Ifald jeg maatte raade kan Du troe,</l>
+<l rhyme="x">Thi jeg er munter; &dash; har Du nogen Skjald?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Jeg havde En, men her i Syden har</l>
+<l rhyme="X">Den lumre Luftning slapped Harpens Strenge,</l>
+<l part="I">Den vil ei klinge.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Godt! saa skal jeg være</l>
+<l part="I">Din Skjald.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Og Du? &dash; Du kunde følge med os,</l>
+<l part="I">Forlade Hjem og Fader?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><cb n="[24v sp. 2]"/>BLANKA</speaker> <HIS:hisStage>leende</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Ha, ha, ha!</l>
+<l part="I">Jeg troer Du tager det for Alvor.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Var det</l>
+<l part="I">Da kun dit Skjemt?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ak ja! en tosset Drøm,</l>
+<l rhyme="X">Som tidt jeg drømte før vi saa hinanden,</l>
+<l rhyme="x">Og som jeg vist vil drømme mangen Gang,</l>
+<l part="I">Naar Du <HIS:hisStage><pb ed="HISb"/>(pludselig afbrydende)</HIS:hisStage> Du seer saa stivt paa mig!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Gjør jeg?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Javist, hvad tænker Du paa?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Jeg? paa Intet.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Paa Intet?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ja, jeg veed ei selv paa hvad,</l>
+<l rhyme="x">Dog jo, jeg veed &dash; og Du skal høre det:</l>
+<l rhyme="x">Jeg tænker paa hvordan Du plante vil</l>
+<l rhyme="x">I Norden Dine Blomster, og imens</l>
+<l rhyme="X">Saa falder mig min egen Tro isinde;</l>
+<l rhyme="x"><pb ed="HU"/>Der er et Ord deri som aldrig før</l>
+<l rhyme="x">Jeg fattet har; nu har Du lært mig det.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Hvad mener Du?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Der siges, at <anchor type="lemma" xml:id="koK2_59"/>Valfader</l>
+<l rhyme="X">Faaer kun en Halvdeel af de slagne Kjæmper,</l>
+<l rhyme="x">Den anden Halvdeel hører Freia <HIS:hisRef type="tcNote" xml:id="noteK2_12" target="K2ht_noter.xml" corresp="noteK2_12">til.</HIS:hisRef></l>
+<l rhyme="X">Det har jeg aldrig kunnet ret begribe;</l>
+<l rhyme="x">Men nu, nu fatter jeg &dash; jeg er jo selv</l>
+<l rhyme="X">En slagen Kjæmpe og min bedste Halvdeel</l>
+<l part="I">Blev Freias Eiendom.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker> <HIS:hisStage>studsende</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Hvad skal det sige?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><cb n="[24v sp. 3]"/>GANDALF</speaker></HIS:spOpener>
+<l part="I">Nu, kort og godt, saa viid &dash;</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>hurtigt</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Nei, lad kun være!</l>
+<l rhyme="X">Jeg tør ei dvæle længer her i Aften;</l>
+<l rhyme="x">Min Fader venter, jeg maa gaae; Farvel!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Du gaaer?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage><anchor type="ht" xml:id="koK2_ht_8"/>tager Egekrandsen, som han har ladet falde, slynger den om hans Hjelm</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">See der, Du kan beholde den!</l>
+<l rhyme="X">See, hvad jeg før i mine Drømme gav Dig,</l>
+<l part="I">Det skjænker jeg Dig vaagen nu.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Farvel!</l></HIS:hisSp>
+<HIS:hisStage>Han gaaer hurtig ud til Høire.</HIS:hisStage>
+</HIS:hisLg>
+</div>
+<div type="scene" n="4">
+<head><pb ed="HISb"/>4de Scene</head>
+<join target="BLANKA_1 BLANKA_2"/>
+<HIS:hisLg rend="poem">
+<HIS:hisSp who="BLANKA" xml:id="BLANKA_1"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>alene</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="strofisk strofegruppe trokeisk firtakter" an="no" met="bi 7|8" rhyme="r|R">
+<HIS:hisLg versetype="strofe" rhyme="(A b)&sup2; C D D C"><l first="yes" rhyme="A"><anchor type="lemma" xml:id="koK2_60"/>Han er borte! Lydløst Stille</l>
+<l rhyme="b">Raader paa den øde Kyst.</l>
+<l rhyme="A">Lydløst Stille, Gravens Stille<note type="met">Identisk rim.</note></l>
+<l rhyme="b">Raader ogsaa i mit Bryst.</l>
+<l rhyme="C"><pb ed="HU"/>Kom han da kun for at svinde</l>
+<l rhyme="D">Som et Solstreif gjennem Taagen?</l>
+<l rhyme="D">Ak! snart seiler han som Maagen</l>
+<l rhyme="C">Langt herfra for Nattens Vinde.</l></HIS:hisLg>
+<HIS:hisLg versetype="strofe" part="Y" rhyme="A B B A"><l rhyme="A">Og hvad har jeg saa tilbage?</l>
+<l rhyme="B">Kun en Blomst for mine Drømme,</l>
+<l rhyme="B">Ensomheden for at svømme,</l>
+<l rhyme="A">Som Petrellen om hans Drage</l></HIS:hisLg></HIS:hisLg></HIS:hisSp></HIS:hisLg>
+<HIS:hisSp who="BLANKA" xml:id="BLANKA_2">
+<HIS:hisStage>(Vikingernes Krigsluur høres fra Venstre)</HIS:hisStage>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X|r|R"><l rhyme="X"><anchor type="lemma" xml:id="koK2_61"/>Ha! hvad var det! Et Horn, det kom fra Skoven.</l></HIS:hisLg></HIS:hisSp>
+</div>
+</div>
+</body>
+<back>
+<div type="ref"><p><HIS:hisRef target="K21854-12">(Fortsættes)</HIS:hisRef></p></div>
+</back>
+</text>
+<text xml:id="K21854-12" n="4">
+<front>
+<titlePage type="serial" n="4">
+<docTitle>
+<titlePart type="main"><pb rend="noprint"/><cb n="[25v sp. 1]"/><pb ed="HISb"/>KJÆMPEHØIEN</titlePart>
+<titlePart type="desc">DRAMATISK DIGTNING I EEN ACT</titlePart>
+</docTitle>
+<byline>AF <docAuthor>HENRIK IBSEN</docAuthor></byline>
+<HIS:hisDocImprint><HIS:hisRef target="K21854-11">(Slutning fra forr. No.)</HIS:hisRef></HIS:hisDocImprint>
+</titlePage>
+</front>
+<body>
+<div type="act" n="1" part="F">
+<div type="scene" n="5">
+<head>5te Scene</head>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<HIS:hisStage>Blanka. Gandalf (fra Høire).</HIS:hisStage>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>afsides</HIS:hisStage></HIS:spOpener>
+<l first="yes" part="I">Det er for sildigt!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">O, der er han atter!</l>
+<l part="I">Hvad vil Du?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Skynd Dig, skynd Dig bort herfra!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Hvad mener Du?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Afsted! Her truer Faren!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Hvad Fare?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="M">Døden!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Jeg forstaar Dig ei.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Jeg vilde dulgt det for Dig; derfor gik jeg</l>
+<l rhyme="X">At kalde Folket ned igjen til Snekken</l>
+<l rhyme="x">Og seile bort; Du skulde aldrig vidst &dash;</l>
+<l rhyme="X">Dog Hornet varsler, at det er forsilde;</l>
+<l part="I">De komme hid.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="M">Hvem kommer &dash; hvem?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Saa vid da:</l>
+<l rhyme="X">De Fremmede, som fordum hærjed&rapo; Øen,</l>
+<l part="I">Var Vikinger som jeg.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="M">Fra Norden?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HU"/>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ja.</l>
+<l rhyme="x">Min Fader faldt, og han var deres Drot, &dash;</l>
+<l part="I">Thi maa han hævnes.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="M">Hævnes?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Det er Skik</l>
+<l part="I"><cb n="[25v sp. 2]"/>Og Vedtægt mellem os.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Ha, jeg begriber!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">De komme! Stil Dig bag ved mig.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Væk, <anchor type="lemma" xml:id="koK2_63"/>Blodmand!</l></HIS:hisSp></HIS:hisLg>
+</div>
+<div type="scene" n="6">
+<head><pb ed="HISb"/>6te Scene</head>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<HIS:hisStage>De Forrige. Asgaut, Hemming og Vikingerne (der føre Roderik mellem sig).</HIS:hisStage>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker> <HIS:hisStage>til Gandalf</HIS:hisStage></HIS:spOpener>
+<l rhyme="X">En mager Fangst &dash; dog altid Noget, Gandalf!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">Min Fader!</l> <HIS:hisStage>(kaster sig i hans Arme)</HIS:hisStage></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="M">Blanka! O mit Barn!</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker></HIS:spOpener>
+<l part="F" rhyme="X">En Kvinde!</l>
+<l part="I">Saa faar han Reisefølge.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ja, til <anchor type="lemma" xml:id="koK2_63a"/>Hel!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="X">O Fader, hvorfor har Du aldrig sagt mig &dash;</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l rhyme="X">Tys, tys, min Datter! <HIS:hisStage>(pegende paa Gandalf)</HIS:hisStage> Er det Eders Høvding?</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="x">Saa er det. <HIS:hisStage>(til Gandalf)</HIS:hisStage> Manden kan berette Dig,</l>
+<l rhyme="x">Hvordan Din Fader faldt; thi han var med</l>
+<l rhyme="x">Og slap derfra med Livet, har han sagt.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Ti! Jeg vil Intet høre.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker><pb ed="HISb"/>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Godt, saa lad</l>
+<l part="I">Os tage fat paa Værket.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HU"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Gud! hvad vil de?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>dæmpet</HIS:hisStage></HIS:spOpener>
+<l part="I">Jeg kan ei, Asgaut!</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker> <HIS:hisStage>ligeledes</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Er vor Høvding feig?</l>
+<l rhyme="x">Har <anchor type="lemma" xml:id="koK2_64"/>Kvindens glatte Tunge daaret ham?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Nu ligemeget! Jeg har sagt &dash;</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker><cb n="[25v sp. 3]"/>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Betænk,</l>
+<l rhyme="X">Det gjælder al din Agt blandt Dine Kjæmper.</l>
+<l rhyme="X">Dit Løfte gav Du Valhals høie Guder,</l>
+<l rhyme="X">Og brydes det, saa er Du <anchor type="lemma" xml:id="koK2_65"/>Hvermands Nidding.</l>
+<l rhyme="X">Glem ei, vor gamle Tro er svagt befæsted, &dash;</l>
+<l rhyme="x">Den vakler alt; et Stød kan rokke den,</l>
+<l rhyme="X">Og kommer Stødet ovenfra, fra Drotten,</l>
+<l part="I">Da har den faaet Banesaaret.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ha!</l>
+<l rhyme="x">Det var en ulyksalig Ed, jeg svoer.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker> <HIS:hisStage>til Vikingerne</HIS:hisStage></HIS:spOpener>
+<l part="I">Nu rede, Kjæmper!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Vil I myrde ham,</l>
+<l part="I">Den værgeløse Gubbe?</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Ned med Begge!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="I">O Gud!</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei, Kvinden er for fager! Hun</l>
+<l part="I">Kan følge med paa Snekken.</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker> <HIS:hisStage>leende</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Ja, som <anchor type="lemma" xml:id="koK2_66"/>Skjoldmø.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Tilbage!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Skaaner skaaner kun mit Barn!</l>
+<l rhyme="x">Jeg bringer Eder Drottens Banemand,</l>
+<l part="I">Ifald I skaane hende!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>hurtigt</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Bring os ham,</l>
+<l part="I">Saa er hun fri &dash; ei sandt?</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>VIKINGERNE</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Jo, jo, det er hun!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>til Roderik</HIS:hisStage></HIS:spOpener>
+<l part="I">Hvad lover Du?</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="M">Saa skaf ham hid!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Her staar han!</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>NOGLE</speaker></HIS:spOpener>
+<l part="I">Ha, Gubben der!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb rend="noprint"/><cb n="[26r sp. 1]"/><pb ed="HU"/>GANDALF</speaker></HIS:spOpener>
+<l part="M">O vee!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Nei, nei, Du skal ei &dash;</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l rhyme="X">For denne Haand fandt Vikingen sin Bane;</l>
+<l rhyme="x">Nu hviler han i Kjæmpehøien der!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Min Faders Gravhøi!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Han var stærk og djærv;</l>
+<l rhyme="x">Thi jorded&rapo; jeg ham paa hans Fædres Viis.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Da han er <anchor type="lemma" xml:id="koK2_67"/>høilagt, saa &dash;</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei, ligefuldt</l>
+<l rhyme="x">Den faldne Konning kræver Blod, &dash; slaa til!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="X">Han skuffer Eder! <HIS:hisStage>(til Gandalf)</HIS:hisStage> Har Du ei begrebet,</l>
+<l rhyme="X">Det er kun mig, sin Datter, han vil frelse?</l>
+<l rhyme="x">Dog, hvad forstaar vel Du et kjærligt Sind,</l>
+<l part="I">Der offrer Alt for den, som &dash;</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Jeg forstaar ei?</l>
+<l rhyme="X">Du troer ei, jeg forstaar? <HIS:hisStage>(til Vikingerne)</HIS:hisStage> Han skal ei fældes!</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="I">Hvordan?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">O, Fader! han er god som Du.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker><pb ed="HISb"/>ASGAUT</speaker></HIS:spOpener>
+<l part="I">Du svigter Eden?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei, jeg holder den!</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker></HIS:spOpener>
+<l part="I">Hvad er din Agt?</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="M">Siig frem!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Jeg har jo svoret</l>
+<l rhyme="x">At hævne Drotten eller falde selv.</l>
+<l rhyme="X">Nu vel! han der er fri &dash; jeg gaaer til Valhal!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker> <HIS:hisStage>til Roderik</HIS:hisStage></HIS:spOpener>
+<l part="I">Hvad mener han?</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker><cb n="[26r sp. 2]"/>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Det er Din Agt &dash; du vil &dash;?</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X"><anchor type="lemma" xml:id="koK2_68"/>I holde en af mine Snekker rede,</l>
+<l rhyme="X">Med spændte Seil og Baalet tændt <HIS:hisRef type="tcNote" xml:id="noteK2_13" target="K2ht_noter.xml" corresp="noteK2_13">i</HIS:hisRef> Stavnen;</l>
+<l rhyme="x"><anchor type="lemma" xml:id="koK2_69"/>Paa Fortids Viis jeg vil bestige den!</l>
+<l rhyme="X"><pb ed="HU"/>See, Aftenvinden blæser ud fra Stranden, &dash;</l>
+<l rhyme="X">Paa røde Vinger farer jeg til Valhal!</l></HIS:hisSp>
+<HIS:hisStage>Jostein gaaer ud tilhøire.</HIS:hisStage>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="x">Ha, det er Kvinden, som har <anchor type="lemma" xml:id="koK2_70"/>koglet Dig!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="I">Nei, du maa leve!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Leve? Jeg er tro</l>
+<l rhyme="x">Mod mine Guder, kan ei svige dem.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Din Ed er blodig &dash; Balder hader den.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">O, Balder lever ikke meer iblandt os!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">For Dig han lever; thi dit Sind er mildt.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">Ja, til min Undergang! Det blev <anchor type="lemma" xml:id="koK2_71"/>mit Kald</l>
+<l rhyme="x">Som Drot at værne om vort Kjæmpeliv, &dash;</l>
+<l rhyme="x">Men Kraften svigter mig! Kom Asgaut, Du</l>
+<l rhyme="x">Skal tage Kongespiret af min Haand;</l>
+<l rhyme="x">Du er en Kjæmper af det ægte Malm &dash;</l>
+<l rhyme="X">Paa mig har Sydens Gift alt længe tæret;</l>
+<l rhyme="x">Men kan jeg ikke leve for mit Folk,</l>
+<l part="I">Saa kan jeg dø for det.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Vel talt, Kong Gandalf!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l rhyme="x">Saa er da Loddet kastet! Fald som Helt</l>
+<l rhyme="X">I trofast Kjærlighed til Dine Guder!</l>
+<l rhyme="X">Men nu, da vi maa skilles ad for evigt,</l>
+<l rhyme="X">Saa vid, at naar Du falder selv for Løftet,</l>
+<l rhyme="X">Da har Du ogsaa mig til Døden viet!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l part="I">Hvordan! Til Døden Dig?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Mit Liv var ligt</l>
+<l rhyme="X">En Blomsterknop, i fremmed Jordbund plantet,</l>
+<l rhyme="X">Og derfor blunded den i Svøbet fængslet:</l>
+<l rhyme="x">Da kom en Straale fra det fjerne Hjem, &dash;</l>
+<l rhyme="X"><cb n="[26r sp. 3]"/>O, det var Dig, min Gandalf! <anchor type="ht" xml:id="koK2_ht_6"/>Blomsten aabned</l>
+<l rhyme="x">Sit Bæger, &dash; ak, et flygtigt Øieblik!</l>
+<l rhyme="x">Saa blegned Straalen &dash; Blomsten maatte dø</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l rhyme="x">O, har jeg fattet Dig? Du kunde &dash; Ha,</l>
+<l rhyme="X">Saa er mit Løfte tifold ulyksaligt!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HU"/>BLANKA</speaker></HIS:spOpener>
+<l part="I">Vi mødes atter!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Aldrig, aldrig meer!</l>
+<l rhyme="x">Dig venter Himlen og den hvide Christ.</l>
+<l rhyme="x">Jeg gaar til Valhal; taus jeg sætter mig</l>
+<l rhyme="X">Ved Bordets Ende, nederst imod Døren,</l>
+<l rhyme="x">Thi Hallens Lystighed er ei for mig.</l></HIS:hisSp>
+<HIS:hisSp who="JOSTEIN"><HIS:spOpener><speaker>JOSTEIN</speaker> <HIS:hisStage>kommer tilbage med et Banner i Haanden</HIS:hisStage></HIS:spOpener>
+<l rhyme="x">See, nu er Snekken rede, som Du bød.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="x">Du faar en prægtig Ende! Mangen Helt</l>
+<l part="I">Vil nok misunde Dig.</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>til Blanka</HIS:hisStage></HIS:spOpener>
+<l part="M">Farvel!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Farvel!</l>
+<l rhyme="X">Farvel for Livet og for Evigheden!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker> <HIS:hisStage>kjæmpende med sig selv.</HIS:hisStage></HIS:spOpener>
+<l rhyme="X">Stands, stands! <HIS:hisStage>(kaster sig ned for Blanka)</HIS:hisStage> Barmhjertighed! Tilgiv, tilgiv mig!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">O Gud!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="M">Hvad mener han?</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Alt vil jeg skrifte:</l>
+<l rhyme="x">Min hele Færd imod Dig var Bedrag!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="I">O, Skrækken har forvirret ham!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei, nei!</l>
+<HIS:hisStage>(til Gandalf, efterat have reist sig)</HIS:hisStage>
+<l rhyme="X">Du, unge Drot, er løst ifra Dit Løfte;</l>
+<l rhyme="X">Din Faders Skygge kræver ingen Blodhævn!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Ha! saa forklar!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb rend="noprint"/><cb n="[26v sp. 1]"/>BLANKA</speaker></HIS:spOpener>
+<l part="M">O tal!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Her staar Kong <anchor type="lemma" xml:id="koK2_72"/>Rørek.</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>NOGLE</speaker></HIS:spOpener>
+<l part="I">Den faldne Konning!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="M">Himmel!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>tvivlende</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Du min Fader?</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l rhyme="x">See, Asgaut! Husker Du den Skramme, som</l>
+<l rhyme="x"><pb ed="HU"/>Du gav mig paa vort første Vikingtog,</l>
+<l part="I">Dengang vi kom i Strid om Byttet?</l>
+<HIS:hisStage>Han blotter sin Arm og viser Asgaut den.</HIS:hisStage></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ja,</l>
+<l part="I">Ved Thor, det er Kong Rørek!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>kaster sig i hans Arme</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="X">Fader! Fader!</l>
+<l rhyme="X">Nu har Du andengang mig Livet skjænket.</l>
+<l part="I">O, tag min Tak!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker> <HIS:hisStage>nedslaaet; til Blanka</HIS:hisStage></HIS:spOpener>
+<l part="F" rhyme="x">Og Du &dash; hvad skjænker Du</l>
+<l part="I">Den gamle Røver?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Kjærlighed som før!</l>
+<l rhyme="X">Jeg er din Datter! Har ei tre Aars Ømhed</l>
+<l rhyme="x">Udslettet hver en Blodplet i dit Skjold?</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l rhyme="X">Men saa forklar dog, at Du endnu lever!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Hun redded&rapo; ham.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker><pb ed="HISb"/>RODERIK</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Ja, som en venlig Alf</l>
+<l rhyme="X">Hun heled&rapo; mine Saar og sysled&rapo; om mig;</l>
+<l rhyme="x">Og alt imens fortalte hun saa smukt</l>
+<l rhyme="X">Om Troen hos de stille Folk i Syden,</l>
+<l rhyme="x">At selv mit haarde Bryst blev blødt derved.</l>
+<l rhyme="x">Og Dag for Dag jeg dulgte, hvem jeg var;</l>
+<l part="I">Jeg voved ei &dash;</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Men Kjæmpehøien der?</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker><cb n="[26v sp. 2]"/>RODERIK</speaker></HIS:spOpener>
+<l rhyme="x">Der grov jeg ned min Rustning og mit Sværd.</l>
+<l rhyme="X">Det tyktes mig, som om den vilde Viking</l>
+<l rhyme="x">Var skriinlagt med det Samme. Og mit Barn</l>
+<l rhyme="X">Bad fromt en Bøn for ham hver Dag ved Høien.</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="I">Farvel!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="M">Hvor gaar Du?</l></HIS:hisSp>
+<HIS:hisSp who="ASGAUT"><HIS:spOpener><speaker>ASGAUT</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Nordpaa med min Snekke!</l>
+<l rhyme="x">Nu seer jeg klarlig, min Tid er forbi &dash;</l>
+<l rhyme="x">Og Vikinglivet ogsaa. Jeg vil gaa</l>
+<l rhyme="x">Til Island; <anchor type="ht" xml:id="koK2_ht_2"/>did er end ei Sotten trængt.</l>
+<HIS:hisStage>(til Blanka)</HIS:hisStage>
+<l rhyme="X"><pb ed="HU"/>Du unge Kvinde, tag min Plads hos Drotten!</l>
+<l rhyme="X">Thor kan ei mere &dash; Mjølner er af Lave;</l>
+<l rhyme="x">Nu raade Balder gjennem Dig. &dash; Farvel!</l></HIS:hisSp>
+<HIS:hisStage>Han gaaer.</HIS:hisStage>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker><pb ed="HISb"/>GANDALF</speaker></HIS:spOpener>
+<l rhyme="X">Ja, Balder raader gjennem Dig, min Blanka!</l>
+<l rhyme="X">Nu føler jeg mit Vikinglivs Betydning:</l>
+<l rhyme="X">Det var ei ene Lyst til Ry og Rigdom,</l>
+<l rhyme="x">Som drev mig bort fra mine Fædres Hjem;</l>
+<l rhyme="X">Nei, hvad mig leded&rapo; var <anchor type="ht" xml:id="koK2_ht_5"/>en lønlig Længsel,</l>
+<l rhyme="x">En stille Higen efter Balder. See,</l>
+<l rhyme="X">Nu er min Længsel stillet; Hjem vi fare;</l>
+<l rhyme="x">Der vil jeg leve fredsel blandt mit Folk.</l>
+<HIS:hisStage>(til Vikingerne)</HIS:hisStage>
+<l part="I">Og I vil følge mig?</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>ALLE</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Vi følge Dig!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="I">Og Du, min Blanka?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Jeg? Jeg er jo og</l>
+<l rhyme="X">Et Nordens Barn; thi mellem Eders Bjerge</l>
+<l rhyme="x">Slog jo mit Hjertes bedste Blomster Rod.</l>
+<l rhyme="X">Til Eder stævned&rapo; jeg i mine Drømme,</l>
+<l rhyme="x">Fra Eder hented&rapo; jeg min Kjærlighed!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker></HIS:spOpener>
+<l part="I">Og saa afsted!</l></HIS:hisSp>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker></HIS:spOpener>
+<l part="M">Men Du?</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker>BLANKA</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Du følger os!</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker><cb n="[26v sp. 3]"/>RODERIK</speaker></HIS:spOpener>
+<l rhyme="x">Jeg bliver her. <HIS:hisStage>(peger paa Høien)</HIS:hisStage> Min Gravhøi venter mig.</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker></HIS:spOpener>
+<l part="I">Jeg skulde lade Dig alene?</l></HIS:hisSp>
+<HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>HEMMING</speaker></HIS:spOpener>
+<l part="F" rhyme="x">Nei!</l>
+<l rhyme="X">Vær uden Frygt! Jeg lukke vil hans Øine</l>
+<l rhyme="X">Og sjunge ham et Drapa hist fra Høien;</l>
+<l rhyme="X">Det blier mit sidste Kvad. <HIS:hisStage>(rørt, idet han griber Gandalfs Haand)</HIS:hisStage> <pb ed="HU"/>Farvel min Konge!</l>
+<l rhyme="x">Nu har Du fundet Dig en bedre Skjald.</l></HIS:hisSp>
+<HIS:hisSp who="RODERIK"><HIS:spOpener><speaker>RODERIK</speaker> <HIS:hisStage>med Fasthed</HIS:hisStage></HIS:spOpener>
+<l rhyme="X">Det maa saa være; Du er Drot, min Gandalf,</l>
+<l rhyme="x">Og Du har høie Pligter mod Dit Folk.</l>
+<HIS:hisStage>(lægger deres Hænder sammen)</HIS:hisStage>
+<l rhyme="x">I er den unge Morgenrødes Børn, &dash;</l>
+<l rhyme="X">Drag did, hvor Kongestolen Eder venter;</l>
+<l rhyme="X">Jeg er den Sidste fra <anchor type="lemma" xml:id="koK2_73"/>de sjunkne Tider,</l>
+<l rhyme="x">Min Kongestol er Graven &dash; und mig den!</l></HIS:hisSp>
+<HIS:hisStage>Gandalf og Blanka styrte sig tause i hans Arme. Roderik stiger op paa Høien; Hemming sætter sig med Harpen ved hans Fødder.</HIS:hisStage>
+<HIS:hisSp who="GANDALF"><HIS:spOpener><speaker>GANDALF</speaker> <HIS:hisStage>med Fatning</HIS:hisStage></HIS:spOpener>
+<l part="I">Og nu til Norge!</l></HIS:hisSp>
+<HIS:hisSp who="HROLLOUG"><HIS:spOpener><speaker>HROLLOUG</speaker></HIS:spOpener>
+<l part="M">Hjemad!</l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>ALLE</speaker></HIS:spOpener>
+<l part="F" rhyme="X">Hjem! Til Norge!</l></HIS:hisSp>
+<HIS:hisSp who="BLANKA"><HIS:spOpener><speaker><pb ed="HISb"/>BLANKA</speaker> <HIS:hisStage>begeistret, idet hun river Banneret af Josteins Haand</HIS:hisStage></HIS:spOpener>
+<l rhyme="a">Ja, nu afsted! Mod Nord skal Farten gaae</l>
+<l rhyme="a">Igjennem Storm og Skum paa Bølger blaa.</l>
+<l rhyme="B">Snart dæmrer Dagen over Jøklens Tinde,</l>
+<l rhyme="B">Snart vorder Ledingsfærden kun et Minde!</l>
+<l rhyme="c">Alt sidder Nordens Viking paa sin Høi;</l>
+<l rhyme="c">Forbi er Tiden, da han vældig fløi</l>
+<l rhyme="D">Fra Kyst til Kyst med Vaabenbrag og Flammer!</l>
+<l rhyme="D">I Støvet synker Tordengudens Hammer,</l>
+<l rhyme="e">Og Norden vorder selv en Kjæmpegrav.</l>
+<l rhyme="e">Men glem ei Løftet, som Alfader gav:</l>
+<l rhyme="F">Naar Mos og Blommer dække Høiens Side,</l>
+<l rhyme="F">Skal Heltens Aand paa <anchor type="lemma" xml:id="koK2_74"/>Idavold jo stride! &dash;</l>
+<l rhyme="g"><emph>Saa stiger ogsaa Norden fra sin Grav</emph></l>
+<l rhyme="g"><emph>Til luttret Aandsbedrift paa Tankens Hav!</emph></l></HIS:hisSp></HIS:hisLg>
+</div>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

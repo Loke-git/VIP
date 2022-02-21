@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="desc">Diplomatarisk transkripsjon</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">[trykkfeilsliste til 2. utg.]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting av fil, transkribering, mars 2003:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>Kollasjonering og kodekontroll, april 2003:</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Di41113h-0805"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på egen transkribsjon.</p>
+<p><HIS:hisMsDesc type="notes" xml:id="Di41113h">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4&deg; 1113 h</idno>
+</msIdentifier>
+<msContents>
+<msItem><author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docDate>Uten datering</docDate></msItem></msContents>
+<physDesc><objectDesc><p>Liste over trykkfeil i annen utgave av Digte (1875) som Ibsen ønsker rettet i tredje (1879). På baksiden av bladet står et utkast til Et dukkehjem.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Ms 4&deg; 1113h:</head>
+<item>Verso side 2 (pagina 8) opp ned (i forhold til Du-teksten), av manuskriptet. Inneholder 1/2 side med tekst</item>
+<item>skriftstil: latinsk håndskrift, kun versaler og minuskler;</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>aksenter over o for ø (¨)</item>
+<item>avsnitt: en trykkfeil i hvert 'avsnitt', hengende avsnitt</item>
+<item>paginering angitt med tabelltall (ev. renessansetall?) med punktum og understrekning</item>
+<item>linjenummer angitt med bokstavene te/de etter tallet, disse er hevet og understreket (kodet hi rend='raised')</item>
+<item>to ord er understreket med bølgete strek, kodet med hi</item>
+<item>under trykkfeillisten har en bibliotekar (?) skrevet med blyant og i hakeparenteser: 'Rettelser av trykfeil i Digte 2. Opl. 1875'</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-no"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" medium="pen-black" scope="major"><p>Brunsort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change when="2011-09-03" who="SBT"><title>Lenker</title>
+Endret lenkekoding; valid.</change>
+<change when="2011-08-27" who="SBT"><title>P5</title>
+Gjorde om kodingen til TEI P5.</change>
+<change><date>18.11.10</date>
+<name>SBT</name><title>Oppdatering</title>
+Fjernet metDecl og variantEncoding fra teiHeader.</change>
+<change><date>10.01.08</date>
+<name>HB</name><title>Byttet ut doc med url i xptr</title>
+Byttet ut doc med url i xptr.</change>
+<change><date>30.10.07</date>
+<name>SBT</name><title>Oppdatering</title>
+Gikk gjennom sic/typo-noter i alle Di-filer.</change>
+<change><date>26.10.07</date>
+<name>SBT</name><title>Lenkekoding</title>
+La inn lenke til rettet utgave også (Di79). Kodingen (med to attributtverdier i doc) er ikke avklart ennå.</change>
+<change><date>24.10.07</date>
+<name>SBT</name><title>Oppdatering i alle Di-filer</title>
+Oppdaterte teiHeader (undertitler kodet om fra desc til sub).</change>
+ <change><date>23.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert (dog ikke lenkekodingen).</change>
+<change><date>02.12.03</date><name>SBT</name><title>Oppdatering</title>
+Fjernet metDecl fra teiHeader fordi fila ikke inneholder metrisk notasjon.</change>
+<change><date>27.11.03</date><name>SBT</name><title>Paginering</title>
+La inn n-attributt i pb siden tekstvitnet ikke begynner på s. 1.</change>
+<change><date>15.05.03</date><name>MW</name><title>Kodeendringer</title>
+Endret kodingen ifølge vedtak fra kodemøtet 24. april (handList, title (Uten tittel), titlen på filen endret fra DiDu.. til Di41113h, fjernet gap for annen tekst). Validert.</change>
+<change><date>08.04.03</date><name>MW</name><title>Annenkollasjon og kodekontroll</title>Førte inn resultater fra annenkollasjonen mot originalen. Lar gap-kodingen og andre spørsmål stå til etter kodemøtet 24.04. Kodekontroll: Fjernet transkripsjonen av bibliotekar-noten under trykkfeillisten og beskrev den i stedet i typografibeskrivelsen. Validert.</change>
+<change><date>20.03.03</date><name>IF</name><title>Justering</title>Justering av metDecl, må kanskje endres fordi jeg har foreslått å ta opp innhold i metDecl på kodemøte. Er det ok at bibl. sign. (h3 + bibl. stempel) på framsiden ikke kommer med på noen av de to transkripsjonene?</change>
+<change><date>14.03.03</date><name>IF</name><title>Oppretting av fil</title>Transkriberte tekstsiden, opprettet fil, sammenlignet teiHeader med Du41113h.xml, førte inn lenker i Di75. Førte inn pb og gap for å vise at transkripsjonen nedenfor er et utdrag av manuskriptet. Usikker på om gap skal stå før eller etter teksten, ført inn begge steder, bør se originalen. Filnavnet DiDu er diskutert med CJ, sammenslåingen er gjort for å skille den både fra Du41113h og samtidig vise problemene med å finne den hvis en kun leter i Digte-materiale (faksimiler, bibliotek osv.). Validert. Brukte list i item for å kunne gjengi at det som står i list har egen venstremarg (altså ikke helt tilfeldig hengende innrykk) - men visningen tolker det som at det som står i list også skal innledes med lb, noe som ikke er så heldig - jeg er åpen for andre løsninger. Validert. Gjenstår kontroll av koding og tekst mot original.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="poem" rend="handwritten" xml:lang="da-no">
+<body>
+<pb n="8"/><lb/><fw type="page" place="top-left">8.</fw>
+<list>
+<lb/><item><ptr n="1" xml:id="ref1" target="Di75.xml Di79.xml" corresp="refB1"/>Side 60. <list><item>1<hi rend="raised">ste</hi> vers 5<hi rend="raised">te</hi> linje: men selve Tor &dash; &dash; rettes
+<lb/>til: mens selve Tor &dash; &dash;</item></list></item>
+
+<lb/><item><ptr n="2" xml:id="ref2" target="Di75.xml Di79.xml" corresp="refB2"/>&quot; 158. <list><item>7<hi rend="raised">de</hi> linje: efter ordet stunder sættes kom<note type="typo">Mangler bindestrek.</note>
+<lb/>ma.</item></list></item>
+
+<lb/><item><ptr n="3" xml:id="ref3" target="Di75.xml Di79.xml" corresp="refB3"/>&quot; 160. <list><item>11<hi rend="raised">te</hi> linje: jeg rettes til<unclear reason="writing">:</unclear> sig</item></list></item>
+
+<lb/><item><ptr n="4" xml:id="ref4" target="Di75.xml Di79.xml" corresp="refB4"/>&quot; 169. <list><item>14<hi rend="raised">de</hi> linje udelades tegnet mellem ordene
+<lb/><hi>folder</hi> og <hi>dølger</hi>.</item></list></item>
+
+<lb/><item><ptr n="5" xml:id="ref5" target="Di75.xml Di79.xml" corresp="refB5"/>179. <list><item>2<hi rend="raised">det</hi> vers 1<hi rend="raised">ste</hi> linje: Lad ad sangen &dash; rettes
+<lb/>til: Lad da sangen &dash;</item></list></item>
+</list>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Gildet paa Solhoug</title>
+<title level="a" type="sub">1. versjon, TarkUiB NT348r (rollehefte, Gudmund)</title>
+<title level="a" type="origYear">[1855]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), 2000</resp>
+<name>Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra word-dokument til prosjektspesifikk TEI XML, desember 2000</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering og koding: jan.-nov. 2001</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>oppdateringer</resp>
+<name>Mette Witting</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="G1348r_Gudmund-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på ekstern transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="G1348r_Gudmund">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, UiB</repository>
+<idno>N.T. 348</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docDate>[1855]</docDate>
+</msItem>
+<msItem n="G1348r-Gudmund"><locus/><title/></msItem>
+</msContents>
+<physDesc><objectDesc><p>13 rollehefter, ikke egenhendige. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Gildet paa Solhoug - 13 rollehefter - G1348r:</head>
+<item>skriftgruppe: latinsk håndskrift med innslag av gotisk (lang 's' med hovedhånd, div. bokstaver i skuespillernavn på tittelsider)</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende (venstrehelling brukt til utheving på tittelsider)</item>
+<item>omslag:
+<list>
+<item>rolleheftet til Gudmund: øverst på omslaget står de overstrøkne navnene "Hr Michelsen" og "Roald", deretter rollenavn og tittel ("Gudmund Alfsøn i Gildet paa Solhoug"), nederst på omslaget står det overstrøkne navnet "Jacob Prom"</item>
+<item>rolleheftet til Margit: midt på omslaget står det overstrøkne navnet "Jfr Fougner", deretter "Fru Nielsen"</item>
+<item>de øvrige rolleheftene mangler omslag</item>
+</list>
+<note>Omslagene er ikke kodet inn i fila</note>
+</item>
+<item>tittelside:
+<list>
+<item>først i hvert rollehefte; midtstilt tekst; minuskler og majuskler</item>
+<item>rolleheftene til Gudmund, Margit, Knut og Bengt: tittelrollenavn har større og fetere skrift enn de øvrige tekstopplysningene; stykkets tittel står i anførselstegn og har skrifthelling mot venstre; arkantallet er angitt øverst i høyre hjørne og er understreket med en liten pyntestrek; nederst på tittelsiden er det tilføyd forskjellige navn og datoer med forskjellige penner</item>
+<item>rolleheftene til Andre Gjæster(1), Andre Gjæster(2), En Deel Gjæster, Første Huuskarl, En Karl og En gammel Mand: tittelrollenavn har litt større og litt fetere skrift enn de øvrige tekstopplysningene; tittelsidene mangler arknummerering; alle tittelsidene unntatt En Karls og Første Huuskarls har et navn øverst på siden; rolleheftene til Første Huuskarl, En Karl og En gammel Mand har også overstrøkne navn nederst på tittelsiden</item>
+<item>rolleheftet til En Pige er skrevet av en annen hånd enn de øvrige. Tittelside; midtstilt, understreket tekst; rollenavn og tittel uten markering</item>
+<item>rolleheftene til Signe og En anden Mand mangler tittelside. De respektive id-attributtene er lagt inn før rolleheftenes første who-attributt</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt
+<list>
+<item>rolleheftet til En Pige: enkel understreking</item>
+<item>øvrige rollehefter: dobbel understreking</item>
+</list>
+</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt; dobbel understrekning; ordenstall med hevet "ste", "den" osv (kodet hi med rend-attributt); rolleheftet til En Pige har ingen sceneoverskrifter</item>
+<item>sceneanvisning: enkel understrekning
+<list>
+<item>etter sceneoverskrift: midtstilt; varierende bruk av parenteser</item>
+<item>etter rollenavn: midtstilt under rollenavn; eller som løpende tekst etter rollenavn; i parentes</item>
+<item>mellom replikker: midtstilt på egen linje; eller som løpende tekst etter foregående replikk; i parentes</item>
+<item>i replikker: midtstilt på egen linje eller som løpende tekst; i parentes</item>
+</list>
+</item>
+<item>utheving av rollenavn i sceneanvisning: tykk, separat understrekning. Tegnsetting etter uthevet rollenavn i sceneanvisning er noen ganger uthevet, andre ganger ikke. Slike er konsekvent satt utenfor stageRole.</item>
+<item>rollenavn til prosareplikk:
+<list>
+<item>tittelrollenavn:
+<list>
+<item>a: representert via en horisontal strek i venstre marg på samme linje som replikk (kodet med tomt speaker-element, og rollenavnets who-attributt i sp)</item>
+<item>b: markert (understreket); midtstilt over replikk</item>
+</list>
+</item>
+<item>andre roller: umarkerte i venstre marg på samme linje som replikk</item>
+</list>
+</item>
+<item>rollenavn til versreplikk:
+<list>
+<item>tittelrollenavn: markert (understreket); midtstilt over replikk</item>
+<item>andre rollenavn: umarkerte, midtstilt over replikk</item>
+</list>
+</item>
+<item>retorisk utheving i replikk: understreket</item>
+<item>avsnitt/replikk: rolleinnehavers replikker er umarkerte, mens de øvrige har enkel understrekning</item>
+<item>verslinjer: venstrestilt, innledes alltid med stor bokstav (selv om linja starter midt inne i en setning); verslinjer som er delt mellom flere replikker har gradvis større innrykk (kodet med part-attributter), korte verslinjer i sanger har innrykk (kodet med rend="indent")</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skille og pyntestreker: "krøllpyntestreker" på slutten av hvert rollehefte</item>
+<item>bindestreker: doble, ca. 1 mm</item>
+<item>tankestreker: enkle, ca. 5 mm</item>
+<item>anførselstegn: doble kommaer
+<list>
+<item>venstre: nedre</item>
+<item>høyre: øvre</item>
+</list>
+</item>
+<item>parentes: venstre- og høyrevendte parentesbuer</item>
+<item>sidetall i øvre, ytre hjørne. Vanligvis med etterfølgende punktum; rolleheftene til En Pige, En Karl, En gammel Mand, og Første Huuskarl manlger sidenummerering</item>
+<item>arksignatur: rolleheftene til Gudmund, Margit, Knut og Bengt har arkantall angitt øverst i høyre hjørne på tittelsiden; dette er understreket med en liten pyntestrek (jf. beskrivelsen av tittelsidene)</item>
+</list>
+</item>
+<item>annet:
+<list>
+<item>skriblerier: utført med blyant, hvis ikke annet er notert
+<list>
+<item>rolleheftet til En anden Mand (AndenMand):
+<list>
+<item>s.4, øverst: uavsluttet startparentes (h1)</item>
+<item>s.6, nederst: skribleri</item>
+</list>
+</item>
+<item>rolleheftet til Bengt:
+<list>
+<item>s.7, nedre, høyre hjørne: tegning av mann i profil</item>
+<item>s.9, midt på, høyre side: tegning av hus som er skriblet over</item>
+<item>s.5, 12, 15: skriblerier</item>
+</list>
+</item>
+<item>rolleheftet til En gammel Mand (GammelMand):
+<list>
+<item>siste side (ikke nummerert): tall (regnestykke?)</item>
+</list>
+</item>
+<item>rolleheftet til Andre Gjæster (GjæsterTo):
+<list>
+<item>tittelside: blekkflekk i venstre marg</item>
+</list>
+</item>
+<item>rolleheftet til Gudmund:
+<list>
+<item>tittelside: tittel og rollenavn er skyggebelagt mens rollebeskrivelsen er understreket</item>
+<item>s.3, øverst: skribleri i ruter i venstre hjørne</item>
+<item>s.4, nederst: streker i rutemønster under rollenavnmarkerende horisontal strek</item>
+<item>s.9, blyantfargelegging av sidetall</item>
+<item>s.14: skribleri mellom replikk og rollenavn</item>
+<item>s.15, øverst: skribleri til høyre for Margits rollenavn</item>
+<item>s.26, øverst: skribleri i ruter over Signes rollenavn og replikk</item>
+<item>s.27: skribleri i ruter over scenenummerering</item>
+<item>s.35, midt på: et skriblet "hvis" med svak blyant</item>
+<item>s.37: skribleri over rollenavnmarkerende horisontal strek</item>
+<item>s.38: skribleri under rollenavnmarkerende horisontal strek</item>
+<item>s.39: skribleri under rollenavnmarkerende horisontal strek</item>
+<item>s.43: skriblerier rundt rollenavnmarkerende horisontal strek</item>
+<item>s.47: kryss i margen ved Gudmunds første replikk</item>
+</list>
+</item>
+<item>rolleheftet til Første Huuskarl (Huuskarlen):
+<list>
+<item>rolleheftet er generelt i dårlig stand: løsnet i bindingen, oppfliset i kantene, merke etter brett på langs på hver side, første blad er delt på langs</item>
+</list>
+</item>
+<item>rolleheftet til En Karl (Karlen):
+<list>
+<item>tittelside: tallet 348 (manuskriptnummer) skrevet øverst på siden</item>
+</list>
+</item>
+<item>rolleheftet til Knut:
+<list>
+<item>tittelside: tallet 348 (manuskriptnummer) skrevet øverst på siden</item>
+<item>s.3, øverst: forskjellige navn og initialer er skrevet over rollenavnene: 'G.' over "Bengt", 'Fr. Jensen' over "Margit", 'M' over "Knut" og 'Sør' over "Erik"</item>
+<item>s.3: rollenavnet "Bengt" er understreket og navnet 'Garman' skrevet under</item>
+<item>s.3: rollenavnet "Erik" er understreket og navnet 'Sørensen' skrevet under</item>
+<item>s.9: strek under Gudmunds rollenavn som skrår ned mot replikken</item>
+<item>s.11: Margits rollenavn understreket</item>
+<item>s.11, nedre, venstre hjørne: "NB pas paa" skrevet i margen og streket under. Etterfølgende replikk er også understreket</item>
+<item>s.14-15, blekkflekk</item>
+<item>s.15, Knuts replikk: NB med dobbel understrekning skrevet i margen ved tilføyelse, ansiktsprofil i venstre marg</item>
+</list>
+</item>
+<item>rolleheftet til Margit:
+<list>
+<item>s.20, Margits replikk: halv ramme rundt seks av verselinjene</item>
+</list>
+</item>
+<item>rolleheftet til En Pige:
+<list>
+<item>skrevet med en annen hånd (h3) enn de øvrige rolleheftene, jf. håndlista (kodet med handShift)</item>
+<item>all tekst (inkl tittelside) bortsett fra Pigens replikker er understreket med turkis blyant</item>
+</list>
+</item>
+<item>rolleheftet til Signe:
+<list>
+<item>s.7, Signes replikk: kryss i margen; strek over 'a' i "Margit"</item>
+<item>s.11: Skriblerier øverst på siden</item>
+<item>s.12, Signes replikk: vertikal strek mellom 'harpe' og 'i'</item>
+<item>s.15, Signes replikk: kryss etter replikken</item>
+<item>s.22, Signes replikk: skriblerier over utropstegn</item>
+</list>
+</item>
+<item>rolleheftet til En Deel Gjæster (GjæsterEn):
+<list>
+<item>s.4, venstre marg: "Olav" skrevet med lilla blyant</item>
+</list>
+</item>
+<item>tydeliggjøringer: små tydeliggjøringer av bokstaver (f.eks. ekstra strek på t-er) er ikke kodet inn i teksten.</item>
+</list>
+</item>
+</list>
+</item>
+<item>mangler:
+<list>
+<item>rolleheftene til Erik og Sendebudet mangler. De respektive id-attributtene er lagt inn før de første who-attributtene</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="app-external">
+<list>
+<headLabel>Tekstkilde</headLabel><headItem>Antall varianter i forhold til grunntekst</headItem>
+<label>G156 (grunntekst)</label><item>0</item>
+<label>G1348r</label><item/>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>titlePart id=""</headLabel><headItem>titlePart/speaker<note>I prosareplikker blir ikke rollehefteinnehavers rollenavn angitt, men representert med en horisontal strek i margen, kodet med tomt speaker-element.</note>/stageRole</headItem>
+<label>BENGT</label><item>Bengt Gautesøn/Bengt/De Forrige, Bengt</item>
+<label>ERIK</label><item>-/Erik/Erik fra Hægge, Erik<note>Mangler rollehefte til Erik; rollenavnet finnes derfor ikke i 'titlePart'.</note></item>
+<label>GAMMELMAND</label><item>En gammel Mand/En gammel Mand/den gamle Mand</item>
+<label>GUDMUND</label><item>Gudmund Alfsøn/Gudmund, G/De Forrige, Gudmund Alfsøn, Gudmund</item>
+<label>KNUT</label><item>Knut Gjæsling/Knut/Knut Gjæsling, Knut</item>
+<label>MARGIT</label><item>Margit/Margit, M/De Forrige, Margit</item>
+<label>SENDEBUDET</label><item>-/Sendebudet/Kongens Sendebud<note>Mangler rollehefte til sendebudet; rollenavnet finnes derfor ikke i 'titlePart'.</note></item>
+<label>SIGNE</label><item>-/Signe/De Forrige, Signe<note>Rolleheftet mangler tittelside; rollenavnet finnes derfor ikke i 'titlePart'.</note></item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+<variantEncoding type="external" method="parallel-segmentation" location="internal" n=""/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="KKn" xml:id="KKn" scope="major" medium="pen"><p>Knud Knudsen. Hovedhånd i tolv rollehefter. Blekk.</p></handNote>
+<handNote scribe="h2" xml:id="h2" medium="pencil"><p>Uidentifiserte hender. Enkelte rettelser, både blekk og blyant.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>26.10.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte. Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>07.12.09</date>
+<name>MW</name><title>Status for filen</title>
+G1-filene har i lenger tid (et par år!) vært under arbeid mht. ekstern variantkoding. I forløpet ble det bestemt at rolleheftefilen skulle tas ut av gruppen av filer med eksterne varianter. Derfor er det kodet eksterne varianter inn et stykke på vei i denne filen, men det bør undertrykkes i visning eller fjernes helt. Jeg mener likevel det er best å bruke denne filen videre i HISe da det ble rettet en del feil underveis.</change>
+<change><date>07.12.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Kodet inn ekstern variasjon tom. var. 303. Validert.</change>
+<change><date>27.11.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Kodet inn eksterne varianter tom. variant 101. Validert.</change>
+<change><date>24.11.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Fortsatte innkodingen av eksterne varianter. Måtte endre skrevne apostrofer til entiteten rapo. Kom tom. variant 88. Validert.</change>
+<change><date>21.11.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Begynte innkodingen av eksterne varianter med å legge inn variantdeklarasjon og tagUsage for eksterne varianter. Kodet de første 30 varianter. Validert.</change>
+<change><date>15.11.06</date>
+<name>MW</name><title>Rettelser</title>
+Rettet noen få mellomrom mellom koder i forkant av innkoding av eksterne varianter. Validert.</change>
+<change><date>16.10.06</date>
+<name>MW</name><title>Rettelser</title>
+I forbindelse med ekstern variantkodingen ble det oppdaget tre eksempler på feil rolle knyttet til replikk. det var i Margits rollehefte s. 40, s. 67 og s. 69 at Signe var blitt tildelt Margits replikker. Det er nå rettet.</change>
+<change><date>23.06.06</date>
+<name>HB</name><title>Retting av ms-koding</title>
+Fjernet hand i del/overwritten, sjekket at det lå hand i den tilhørende add-taggen. Sjekket og endret evt. mellomrom mellom del/overwritten og påfølgende add-tagg.</change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>05.12.05</date>
+<name>ENW</name><title>Omkoding</title>
+Kodet om håndskriftsrettelser. Oppdaterte TEI-header. Validert.</change>
+<change><date>19.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Oversikten over rolleheftene i msDescription er satt opp uten titler og sideantall. Validert.</change>
+<change><date>17.02.05</date>
+<name>SBT</name><title>Oppdateringer: firedelte verslinjer, HU-sideskift</title>
+La til n-attributter i de midtre delene av firedelte verslinjer. Endret pb ed="HU" til pb ed="HU".</change>
+<change><date>31.01.03</date>
+<name>MW</name><title>Oppdateringer</title>
+Endret shy-koden til entitet. Fjernet entitetsdefinisjonene fra headeren. Sjekket filen for ulovlige entiteter (fant ingen). TeiHeaderen bør visst kontrolleres. Dessuten endret jeg ikke kodingen av intendert stryking, da kodingen ev. endres på dette punkt. Validert.</change>
+<change><date>24.05.02</date>
+<name>SBT</name><title>Tok vekk edering</title>
+Nytt vedtak om ikke å edere (her: minuskler/majuskler) ved endret rekkefølge (app rend="numbered") i grunnkodinga. Er nå transkribert diplomatarisk.</change>
+<change><date>08.01.02</date>
+<name>SBT</name><title>Validering</title>
+Kodet om "Slutningssang" fra head til stage.</change>
+<change><date>02.01.02</date>
+<name>SBT</name><title>Oppdatering av koding</title>
+Endret koding etter vedtak på kodemøte 07.12.01: la til TMB og TM som principal i teiHeaderen, fjernet nummerering av div, la til manglende div-koding av en scene, flyttet interpunksjonstegn utenfor stageRole (omtalt i typografibeskrivelsen), erstattet app type="corrmarks" til app rend="numbered" ved nummerert omstokking, erstattet type med rend i del. NB: får feilmelding på note i headItem og på head direkte i div (mellom to sp-er). Har gitt beskjed til Hilde.</change>
+<change><date>27.11.01</date>
+<name>SBT</name><title>clarification</title>
+La til place-attributt i clarification.</change>
+<change><date>05.11.01</date>
+<name>SBT</name><title>Korrektur</title>
+Fjernet æ-er i attributtverdier. Fjernet id-attributtene til rollenavnene AndenMand, Pigen, Første Huuskarl og Karl, slik at id-attributtene blir de samme i alle tekstvitnene. Alle rolleheftene har selvfølgelig egne id-attributter. Har gått gjennom alle arbeidsnoter. Oppdaterte teiHeader. Teksten er validert. Brente cd.</change>
+<change><date>02.11.01</date>
+<name>SBT</name><title>Typografibeskrivelse</title>
+Kontrollerte og gjorde noen små endringer i typografibeskrivelsen. Gjenstående arbeid: sjekk rollehefte- og tittelsidekoding. Oppdater teiHeader. Samkjør oversikten over id-attributter med de andre tekstvitnene. Gå gjennom noter.</change>
+<change><date>01.11.01</date>
+<name>SBT</name><title>Kodekontroll</title>
+Utførte sgrep- og textpadsøk. La inn oversikt over rolleheftene i 'bibl'. Oversikten over id-attributter må samkjøres med de andre tekstvitnene. Sjekk rollehefte- og tittelsidekoding. Oppdater teiHeader og kontroller typografibeskrivelsen. Gå gjennom noter. Teksten er validert.</change>
+<change><date>24.-31.10.01</date>
+<name>SBT</name><title>Annenkollasjon</title>
+La inn resultater etter annenkollasjonen. Kontrollerte innføringa. Kodet typografisk informasjon (indent) om verslinjer; husk å føre det inn i typografibeskrivelsen. Gå gjennom rolleheftekoding og tittelsidekoding etter innføring av kollasjonsresultater. Kodekontroll gjenstår. Har gått gjennom apparatkodinga. Har ikke lagt inn HU-sideskift (uklart hvordan vi gjør det med rollehefter.) Legg inn oversikt over rollehefter, med id-attributter i 'bibl'? Se e-post/kodepraksis.</change>
+<change><date>10.09</date>
+<name>HG</name><title>Oppdatering</title>
+Fjernet de fleste noter (noen spørsmål til den som utfører neste kollasjon står igjen), fjernet lg-kodene. Fila er klar for kollasjon nr.2</change>
+<change><date>16.05</date>
+<name>HG</name><title>Oppdatering</title>
+Lagt alle sceneanvisninger som begynner på samme linje som et p/lg-avsnitt inn i det respektive p/lg-avsnittet</change>
+<change><date>03.04</date>
+<name>HG</name><title>tagUsage</title>
+Endret tagUsage - Husk å kontrollere speaker og stageRole via sgrep</change>
+<change><date>06.03.01</date>
+<name>HG</name><title>Lagt inn tagUsage, validert på nytt og laget bok</title>
+La inn tagUsage, validerte teksten på nytt og rettet feil, laget bok</change>
+<change><date>28.02-01.03</date>
+<name>HG</name><title>Oppdatering</title>
+Skrevet typografibeskrivelsen ferdig, gjennomgått arbeidsnoter, kontrollert who-attributtene til gjæsterollene</change>
+<change><date>07.02</date>
+<name>HG</name><title>Validering</title>
+Validert den elektroniske teksten</change>
+<change><date>06.02</date>
+<name>HG</name><title>Oppdatering</title>
+Oppdatert Tei-Header, lagt inn typografibeskrivelse</change>
+<change><date>02.02-05.02</date>
+<name>HG</name><title>Koding</title>
+Kodet rolleheftene til Karlen, Huuskarlen, GjæsterTo og GjæsterEn</change>
+<change><date>31.01-01.02</date>
+<name>HG</name><title>Koding</title>
+Kodet rolleheftene til Bengt, GammelMand og GjæsterEn</change>
+<change><date>22.-26.01</date>
+<name>HG</name><title>Koding</title>
+Kodet Pigens, AndenMands og Knuts rollehefte, lagt inn typografibeskr. for tittelsidene, lagt inn id-attributt for alle rolleheftene og sortert rolleheftene i alfabetisk rekkefølge etter id-attr</change>
+<change><date>15-19.01</date>
+<name>HG</name><title>Koding</title>
+Kodet rolleheftene til Margit og Gudmund. Også her følger kodingen av verse- og prosalinjer sufflørheftet</change>
+<change><date>10.-12.01.01</date>
+<name>HG</name><title>Koding</title>
+Kodet Signes rollehefte. Siden det kan være vanskelig å avgjøre hva som er verse- og prosalinjer i rolleheftet, følger kodingen av disse sufflørheftet. En del sidetall er ikke synlige fra faksimilen, men er likevel lagt inn i kronologisk rekkefølge med etterfølgende note</change>
+<change><date>09.01.01</date>
+<name>SBT</name><title>Oppretting</title>
+Gjorde noen automatiske søk-og-erstatt-endringer. Fila overlates til Helene for videre oppretting og koding</change>
+<change><date>06.12.00</date>
+<name>SBT</name><title>Oppretting</title>
+Konvertering fra word-dokument til TEI/XML-fil (ikke validert). TeiHeaderen må kontrolleres og utfylles (bl.a. er det ikke gjort noen innførsler i håndlista eller i typografibeskrivelsen). Noen transkripsjonstegn står igjen (bl.a. # for endringer og (?) for uklarheter). Disse erstattes av koder underveis i opprettinga. Det ligger også igjen noen harde linjeskift som kan fjernes underveis</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<pb/>
+<front>
+<titlePage>
+<lb/><HIS:hisDocImprint><measure>6 Ark.</measure></HIS:hisDocImprint>
+<docTitle>
+<lb/><titlePart xml:id="GUDMUND">Gudmund Alfsøn,
+<lb/>Margits og Signes Frænde,
+<lb/>i
+<lb/>&lquo;Gildet paa Solhoug.&rquo;
+<lb/>Skuespil i 3 Akter.</titlePart>
+</docTitle>
+</titlePage>
+<lb/><performance><p>Roald
+<lb/>Hr. <HIS:hisDel>Michelsen</HIS:hisDel> Bg. 16/8 79. Reg. <HIS:hisDel>Hr. Schmidt</HIS:hisDel> <HIS:hisDel>5/11 68.</HIS:hisDel> Udleveret til <HIS:hisDel>Hr. Prom 5/12 55.</HIS:hisDel> <HIS:hisDel><unclear>C</unclear><note resp="editor">Kan også være en gotisk 'A'.</note>. Schmidt.</HIS:hisDel> <HIS:hisDel>Wieegen</HIS:hisDel></p></performance>
+</front>
+<pb/>
+<body>
+<pb/>
+<lb/><fw type="page" place="top-right">3.</fw>
+<div type="act" n="1">
+<lb/><head>Første Akt.</head>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<HIS:hisStage>(alene)</HIS:hisStage>
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline" hand="h2"><unclear>Saa <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ringen fryd skal Du deraf faa</unclear></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h2">Vel! jeg faaer at bære mit kongelige Skrud.</HIS:hisDel></HIS:hisRdg></app>
+<lb/><HIS:hisStage>(gaaer)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="BENGT">Bengt</HIS:stageRole> fører <HIS:stageRole who="GUDMUND">Gudmund Alfsøn</HIS:stageRole> ind fra Baggrun&typHyp;
+<lb/>den.</HIS:hisStage>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>min Hustrus Frænde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg takker <app type="external" subtype="interpunction" xml:id="varG1-219"><HIS:hisRdg>Jer;</HIS:hisRdg></app> og hvordan gaaer det hende?
+<lb/>Hun lider dog vel i alle Maader, vil jeg tro?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>for at være fornøiet i sine Kaar.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og Margit, hun er da vel fornøiet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>men sælsomt nok &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>end siden hun blev Frue paa Solhoug</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">4.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(for sig selv.)</HIS:hisStage></HIS:spOpener><p>Jeg vidste det jo nok, saadan
+<lb/>maatte det gaa!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>Hvad siger I, Frænde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg siger, høiligen undrer <app type="external" subtype="interpunction" xml:id="varG1-228"><HIS:hisRdg>mig</HIS:hisRdg></app> hvad I der for&typHyp;
+<lb/>talte om Eders Hustru.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>nu ikke mærke med at jeg &dash;</p></HIS:hisSp>
+</div>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="BENGT GUDMUND">De Forrige</HIS:stageRole>. &dash; <HIS:stageRole who="MARGIT">Margit</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(iler Margit imøde)</HIS:hisStage></HIS:spOpener><p>Margit, kjære Margit!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>saa er det Gudmund Alfsøn. <HIS:hisStage>(rækker ham Haanden)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(modtager ikke Margits Haand.)</HIS:hisStage></HIS:spOpener><p>Og Du kjendte
+<lb/>mig ikke strax igjen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>kan dø i tiende Led imens &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er syv Aar siden vi sidst saaes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>der maa være længere siden</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(seer stivt paa Margit)</HIS:hisStage></HIS:spOpener><p>Jeg kunde fristes til
+<pb/>
+<lb/><fw type="page" place="top-right">5.</fw>
+<lb/>at tro det, men det er <app type="external" subtype="interpunction" xml:id="varG1-245"><HIS:hisRdg>dog</HIS:hisRdg></app> som jeg siger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>&dash; vi holde Gilde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det blev mig sagt, ret som jeg treen ind paa
+<lb/>Thunet. <HIS:hisStage>(<app type="external" subtype="word" xml:id="varG1-253"><HIS:hisRdg>afsides</HIS:hisRdg></app>)</HIS:hisStage> <HIS:hisDel rend="overstrike" hand="h2">Havde jeg vidst det tidligere
+<lb/>var jeg neppe komme</HIS:hisDel>n.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Vil I ikke lægge Eders Kappe bort?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg takker Eder, Fru <app type="external" subtype="interpunction" xml:id="varG1-257"><HIS:hisRdg>Margit,</HIS:hisRdg></app> men det bæres
+<lb/>mig <app type="external" subtype="interpunction" xml:id="varG1-258"><HIS:hisRdg>for</HIS:hisRdg></app> som her er <app type="external" subtype="interpunction" xml:id="varG1-259"><HIS:hisRdg>koldt;</HIS:hisRdg></app> koldere end jeg
+<lb/>havde <app type="external" subtype="interpunction" xml:id="varG1-260"><HIS:hisRdg>ventet?</HIS:hisRdg></app></p></HIS:hisSp>
+<lb/><HIS:hisStage>(Bengt gaaer)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><p>O, Kval og Harm! at maatte lide alt dette.</p></HIS:hisSp>
+</div>
+<div type="scene" n="9">
+<lb/><head>9<hi rend="raised">de</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="MARGIT">Margit</HIS:stageRole>. &dash; <HIS:stageRole who="GUDMUND">Gudmund</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker> <HIS:hisStage>(efter en Pause)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Hvor lider Signe, Eders Søster kjære?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">6.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Jeg takker heel vel!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Pause)</HIS:hisStage>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det blev <app type="external" subtype="interpunction" xml:id="varG1-273"><HIS:hisRdg>sagt</HIS:hisRdg></app> hun skulde være</l>
+<lb/><l part="I">Hos Eder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener>
+<lb/><l>Hun triner vel snart i Stuen herind.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Hun havde fordum saa vennesælt Sind,</l>
+<lb/><l>Hun kjendte ei List eller <app type="external" subtype="interpunction" xml:id="varG1-276"><HIS:hisRdg>Rænke.</HIS:hisRdg></app></l>
+<lb/><l>Naar jeg kommer ihu hendes Øine blaa,</l>
+<lb/><l>Jeg maa paa Guds Engle tænke.</l>
+<lb/><l>Dog, Mangt kan i syv Aars Tid forgaa;</l>
+<lb/><l>Sig mig, &dash; mens fjernt fra Bygden jeg vandred&rapo;,</l>
+<lb/><l>Har ogsaa hun sig saa stærkt forandret?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">7.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>I minder mig om hvordan Tiden tærer &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Margit, heel vel mine Ord I forstaaer.</l>
+<lb/><l>Engang var I mig <app type="external" subtype="word" xml:id="varG1-278"><HIS:hisRdg>Begge</HIS:hisRdg></app> saa blide,</l>
+<lb/><l>I <app type="external" subtype="interpunction" xml:id="varG1-279"><HIS:hisRdg>græd</HIS:hisRdg></app> da jeg skulde fra Bygden ride.</l>
+<lb/><l>Vi loved&rapo; at holde som Søskende sammen</l>
+<lb/><l>I Fryd og i Vee, i Nød og i Gammen.</l>
+<lb/><l>I lyste som en Sol mellem Jomfruer smaa,</l>
+<lb/><l>Saa viden om Lande Eders Ry monne gaa.</l>
+<lb/><l>Fuldt vel er I endnu saa fager en <app type="external" subtype="interpunction" xml:id="varG1-280"><HIS:hisRdg>Kvinde; <HIS:hisAdd place="inline" hand="h2">&dash;</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Men <app type="external" subtype="word" xml:id="varG1-281"><HIS:hisRdg>Solhougs</HIS:hisRdg></app> Frue, kan jeg mærke, har glemt</l>
+<lb/><l>Den fattige Frænde, &dash; saa umildt er I stemt,</l>
+<lb/><l><app type="external" subtype="interpunction" xml:id="varG1-282"><HIS:hisRdg>I</HIS:hisRdg></app> der engang var saa vennesæl til Sinde.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Ja, engang!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">8.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.
+<lb/><HIS:hisStage>(betragter hende deltagende og siger efter en Pause
+<lb/>med dæmpet Stemme.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Eders Huusbond bød os at korte</l>
+<lb/><l>Tiden med at melde om Gammelt og Kjært<HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Der er Sindet og Tankerne lette.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>I Kongens Hal var jeg aldrig saa fro,</l>
+<lb/><l>Som dengang jeg var Smaadreng i den fattige Bo.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>at den gjorde mine Kaar saa gode.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Vel Eder, dersom I kan takke fordi &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>det vil Jer kun lidet fromme!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">9.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvad mener I, Fru Margit?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Hvad der fører Jer hid i min enlige Stue.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>I <app type="external" subtype="interpunction" xml:id="varG1-297"><HIS:hisRdg>veed</HIS:hisRdg></app> hvi jeg kommer, og det er Jer ikke med?</l>
+<lb/><HIS:hisStage>(tager sin Hat)</HIS:hisStage>
+<lb/><l>Guds <app type="external" subtype="interpunction" xml:id="varG1-299"><HIS:hisRdg>Fred</HIS:hisRdg></app> og Farvel da, min ædle Frue!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>I var bleven hvor I var, i Kongens Hal.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>I Kongens Hal<HIS:hisDel rend="overwritten">;</HIS:hisDel>! Kan I spotte min Nød!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener>
+<lb/><l>Er Kongens Mand, eier Gods og Guld &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Bedst maa I <app type="external" subtype="interpunction" xml:id="varG1-302"><HIS:hisRdg>vide</HIS:hisRdg></app> om Lykken er mig <app type="external" subtype="interpunction" xml:id="varG1-303"><HIS:hisRdg>huld,</HIS:hisRdg></app></l>
+<pb/>
+<lb/><fw type="page" place="top-left">10.</fw>
+<lb/><l>I sagde <app type="external" subtype="word interpunction" xml:id="varG1-304"><HIS:hisRdg>for nylig<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app> fuldtvel I vidste</l>
+<lb/><l part="I">Mit <app type="external" subtype="word" xml:id="varG1-305"><HIS:hisRdg>Ærind</HIS:hisRdg></app> paa <app type="external" subtype="word" xml:id="varG1-306"><HIS:hisRdg>Solhoug</HIS:hisRdg></app>!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det veed jeg forsand!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Da kjender I <app type="external" subtype="interpunction" xml:id="varG1-307"><HIS:hisRdg>og</HIS:hisRdg></app> hvad jeg nys maatte <app type="external" subtype="interpunction" xml:id="varG1-308"><HIS:hisRdg>friste<HIS:hisDel hand="h2" rend="overwritten">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">;</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Da veed <app type="external" subtype="interpunction" xml:id="varG1-309"><HIS:hisRdg>I<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app> jeg er en <app type="external" subtype="word" xml:id="varG1-310"><HIS:hisRdg>fred<HIS:hisDel rend="overstrike" hand="h2">lyst</HIS:hisDel><HIS:hisAdd place="offline" hand="h2">løs</HIS:hisAdd></HIS:hisRdg></app> Mand!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Fred<HIS:hisDel rend="overstrike" hand="h2">lyst</HIS:hisDel><HIS:hisAdd place="offline" hand="h2">løs</HIS:hisAdd>, Du Gudmund!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det er jeg forvist!</l>
+<lb/><l>Dog sværger jeg dyrt ved den hellige Christ,</l>
+<lb/><l>Havde jeg kjendt Eders Tanker og Sind,</l>
+<lb/><l>Aldrig var jeg trinet paa <app type="external" subtype="word" xml:id="varG1-312"><HIS:hisRdg>Solhoug</HIS:hisRdg></app> ind!</l>
+<lb/><l>Jeg <app type="external" subtype="interpunction" xml:id="varG1-313"><HIS:hisRdg>meente<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app> I endnu var mild og god,</l>
+<lb/><l>Alt som dengang jeg Eder forlod;</l>
+<pb/>
+<lb/><fw type="page" place="top-right">11.</fw>
+<lb/><l>Men jeg vil ikke <app type="external" subtype="interpunction" xml:id="varG1-314"><HIS:hisRdg>trygle,</HIS:hisRdg></app> Skoven er stor,</l>
+<lb/><l>Og sikker er min Haand og min Bue;</l>
+<lb/><l>Langt heller være Heiens <app type="external" subtype="word" xml:id="varG1-315"><HIS:hisRdg>Steen</HIS:hisRdg></app> mit Bord</l>
+<lb/><l>Og Bjørnehiet min Stue!</l>
+<lb/><HIS:hisStage>(vil gaa)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Slet Intet jeg derom vidste!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Det <app type="external" subtype="interpunction" xml:id="varG1-318"><HIS:hisRdg>er</HIS:hisRdg></app> som jeg siger. Mit Liv staaer paa Spil,</l>
+<lb/><l>Og Livet vil Hvermand friste!</l>
+<lb/><l>Tre Nætter laa jeg som Hunden <app type="external" subtype="interpunction" xml:id="varG1-3319"><HIS:hisRdg>ude<HIS:hisDel hand="h2" rend="overwritten">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">;</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Paa Fjeldet jeg <app type="external" subtype="word" xml:id="varG1-320"><HIS:hisRdg>hvilte</HIS:hisRdg></app> mine mødige <app type="external" subtype="interpunction" xml:id="varG1-321"><HIS:hisRdg>Been<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Og læned&rapo; mit Hoved til Urens Steen.</l>
+<lb/><l>At tigge om Ly, om Bolster og Pude</l>
+<lb/><l>I <app type="external" subtype="word" xml:id="varG1-322"><HIS:hisRdg>Fremmedmandshuus</HIS:hisRdg></app>, det var mig for tungt;</l>
+<lb/><l>Min Tro var jo freidig, mit Haab var ungt!</l>
+<pb/>
+<lb/><fw type="page" place="top-left">12.</fw>
+<lb/><l>Jeg tænkte, naar Du til <app type="external" subtype="word" xml:id="varG1-323"><HIS:hisRdg>Solhoug</HIS:hisRdg></app> kommer,</l>
+<lb/><l>Da er Du frelst fra al din Kvide,</l>
+<lb/><l>Der finder Du Venner, paa dem kan Du <app type="external" subtype="interpunction" xml:id="varG1-324"><HIS:hisRdg>lide &dash;</HIS:hisRdg></app></l>
+<lb/><l>Men Haabet er skjørt som Markens Blommer!</l>
+<lb/><l>Eders Huusbond mødte mig med Horn og Kruus,</l>
+<lb/><l>Han aabnede for mig baade Dør og Porte;</l>
+<lb/><l>Men øde tykkes mig Eders Huus,</l>
+<lb/><l>Hallen er mørk, mine Venner <app type="external" subtype="word" xml:id="varG1-325"><HIS:hisRdg>er</HIS:hisRdg></app> borte.</l>
+<lb/><l>Nu godt, jeg stiger paany tilfjelds!</l>
+<lb/><HIS:hisStage>(<app type="external" subtype="word" xml:id="varG1-326"><HIS:hisRdg>vil</HIS:hisRdg></app> gaa.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener>
+<lb/><l part="I">O, hør mig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Mit Sind er ei som en Træls!</l>
+<lb/><l>Nu tykkes mig Livet en usselig Gave;</l>
+<lb/><l><app type="external" subtype="word" xml:id="varG1-327"><HIS:hisRdg><seg type="transposition" part="I"><seg rend="supralinear" subtype="no" scribe="h2">3</seg><seg subtype="txt">Det</seg></seg> <seg type="transposition" part="M"><seg rend="supralinear" subtype="no" scribe="h2">2</seg><seg subtype="txt">agter</seg></seg> <seg type="transposition" part="F"><seg rend="supralinear" subtype="no" scribe="h2">1</seg><seg subtype="txt">jeg</seg></seg></HIS:hisRdg></app> fast for Intet værd.</l>
+<pb/>
+<lb/><fw type="page" place="top-right">13.</fw>
+<lb/><l><app type="external" subtype="word" xml:id="varG1-328"><HIS:hisRdg>Skrinlagt</HIS:hisRdg></app> har <app type="external" subtype="interpunction" xml:id="varG1-329"><HIS:hisRdg>I, Alt</HIS:hisRdg></app> hvad der var mig kjært,</l>
+<lb/><l>Mit fagreste Haab jeg maatte begrave!</l>
+<lb/><l part="I">Farvel da, Fru Margit!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Ved Gud og Mænd &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Forlyst Dig som før,</l>
+<lb/><l>Lev Du i Gammen og Ære;</l>
+<lb/><l>Saalidet skal Gudmund mørkne din <app type="external" subtype="interpunction" xml:id="varG1-330"><HIS:hisRdg>Dør<HIS:hisDel rend="overwritten">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">;</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Ret aldrig han skal Dig besvære.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Naar den Fred<app type="alteration"><lem><HIS:hisAdd place="offline" hand="h2">løse</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">lyste</HIS:hisDel></HIS:hisRdg></app> meldte sig <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>her som Gjæst.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Du siger &dash;! Hvad skal jeg tænke og tro?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>At Frænder og Venner paa Solhoug bo!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">14.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Men <app type="external" subtype="interpunction" xml:id="varG1-338"><HIS:hisRdg>det</HIS:hisRdg></app> som Du nys &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Men rigt var Haabet i mit Bryst herinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.
+<lb/><HIS:hisStage>(der ufravendt har betragtet Margit)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Og Du <app type="external" subtype="word" xml:id="varG1-341"><HIS:hisRdg><app type="alteration"><lem><HIS:hisAdd place="infralinear" hand="h2"><unclear>arted dig</unclear></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h2">selv var</HIS:hisDel></HIS:hisRdg></app></HIS:hisRdg></app> alt <app type="external" subtype="word" xml:id="varG1-342"><HIS:hisRdg><app type="alteration"><lem><HIS:hisAdd place="offline" hand="h2">til</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h2">dengang</HIS:hisDel></HIS:hisRdg></app></HIS:hisRdg></app> den deiligste Kvinde.</l></HIS:hisSp>
+<HIS:hisAdd place="margin" hand="h2"><lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>M</speaker></HIS:spOpener>
+<lb/><l part="I">saa blev jeg min husbonds viv</l></HIS:hisSp> <HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>G</speaker></HIS:spOpener><l part="F">Ja, Margit</l></HIS:hisSp><note resp="editor">Tilføyelsen er skrevet delvis i margene, delvis over rollenavnet <q>Margit</q>.</note></HIS:hisAdd>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Thi Du maatte mindst af Alle den vide!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Og derfor var <app type="external" subtype="interpunction" xml:id="varG1-351"><HIS:hisRdg>det</HIS:hisRdg></app> Du vendte Dig bort?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Du kom for at spotte min Vaande.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Margit! kunde Du tro &dash;?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">15.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Fred<app type="alteration"><lem><HIS:hisAdd place="offline" hand="h2">løs</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h2">lyst</HIS:hisDel></HIS:hisRdg></app>, sagde Du &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nu er jeg hjemme;</l>
+<lb/><l>Nu lade mig Kongens Mænd med Fred.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener>
+<lb/><l part="I">Sig mig, hvorlunde &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Snart er det sagt.</l>
+<lb/><l>Du <app type="external" subtype="interpunction" xml:id="varG1-357"><HIS:hisRdg>veed</HIS:hisRdg></app> jeg var i de franske <app type="external" subtype="interpunction" xml:id="varG1-358"><HIS:hisRdg>Riger<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Da Kantsleren, Audun fra Hægrenæs, drog</l>
+<lb/><l>Did fra Bergen med et fyrsteligt Tog,</l>
+<lb/><l>At føre Prindsessen med Svende og Piger</l>
+<lb/><l>Og Skatte til Norge som Kongens Brud.</l>
+<lb/><l>Herr Audun var saa fager og prud,</l>
+<lb/><l>Prindsessen var den livsaligste <app type="external" subtype="interpunction" xml:id="varG1-359"><HIS:hisRdg>Kvinde!</HIS:hisRdg></app></l>
+<pb/>
+<lb/><fw type="page" place="top-left">16.</fw>
+<lb/><l>Hendes Øie kunde bede den varmeste <app type="external" subtype="interpunction" xml:id="varG1-360"><HIS:hisRdg>Bøn, &dash;</HIS:hisRdg></app></l>
+<lb/><l>De talte tilhobe, de <app type="external" subtype="word" xml:id="varG1-361"><HIS:hisRdg>hvisked&rapo;</HIS:hisRdg></app> i Løn;</l>
+<lb/><l>Hvorom? Det var svært at finde. &dash;</l>
+<lb/><l>Det var sig en Nat, jeg læned&rapo; mig tyst</l>
+<lb/><l>Op imod Snekkens Side,</l>
+<lb/><l>Mine Tanker stævned&rapo; mod Norges Kyst,</l>
+<lb/><l>Alt med de Maager <app type="external" subtype="interpunction" xml:id="varG1-362"><HIS:hisRdg>hvide<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Da hvisked&rapo; en Stemme bag ved min <app type="external" subtype="interpunction" xml:id="varG1-363"><HIS:hisRdg>Ryg,</HIS:hisRdg></app></l>
+<lb/><l>Jeg vendte mig om, &dash; det var ham og <app type="external" subtype="interpunction" xml:id="varG1-364"><HIS:hisRdg>hende!</HIS:hisRdg></app></l>
+<lb/><l>De saae mig ikke, jeg sad saa tryg,</l>
+<lb/><l>Dog kunde jeg Begge kjende.</l>
+<lb/><l>Hun saae paa ham med et klageligt <app type="external" subtype="interpunction" xml:id="varG1-365"><HIS:hisRdg>Blik,</HIS:hisRdg></app></l>
+<lb/><l>Og hviskede: &lquo;<app type="external" subtype="interpunction" xml:id="varG1-366"><HIS:hisRdg>Ak</HIS:hisRdg></app> dersom Farten gik</l>
+<lb/><l>Mod Syd til de deilige Lande,</l>
+<lb/><l>Og var vi alene paa Snekken, vi To, &dash;</l>
+<lb/><l>Da troer jeg forvist mit Hjerte fandt Ro,</l>
+<pb/>
+<lb/><fw type="page" place="top-right">17.</fw>
+<lb/><l>Da brændte vist ikke min Pande!&rquo; &dash;</l>
+<lb/><l>Han hviskede sagte, hun <app type="external" subtype="word" xml:id="varG1-367"><HIS:hisRdg>svared</HIS:hisRdg></app> ham kjæk,</l>
+<lb/><l>Svared&rapo; med Ord, saa hede, saa vilde,</l>
+<lb/><l>Jeg saae hendes Øine som Stjerner spille,</l>
+<lb/><l>Hun sagde &dash; <HIS:hisStage>(afbrydende<HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd>)</HIS:hisStage> Det greb mig med
+<lb/>Rædsel og Skræk!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Bliv ved!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker></HIS:spOpener>
+<lb/><l part="F">Jeg foer op; de Begge forsvandt;</l>
+<lb/><l>Alene stod jeg paa Skibets Dæk, &dash;</l>
+<lb/><HIS:hisStage>(tager en liden Flaske frem)</HIS:hisStage>
+<lb/><l>Men hvor de havde siddet, denne jeg fandt.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Og den?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">18.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(med dæmpet Stemme)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Den rummer en gaadefuld <app type="external" subtype="interpunction" xml:id="varG1-368"><HIS:hisRdg>Saft,</HIS:hisRdg></app></l>
+<lb/><l>En Draabe deraf i din Uvens Bæger, &dash;</l>
+<lb/><l>Saa sagtelig sygner hans Livsenskraft,</l>
+<lb/><l>Og Intet i Verden ham hjælper og læger!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Men sig mig &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(hviskende)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Den var for Kongen bestemt.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Alle Helgene!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(idet han atter forvarer Flasken)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Troligen har jeg den <app type="external" subtype="interpunction" xml:id="varG1-369"><HIS:hisRdg>gjemt &dash;</HIS:hisRdg></app></l>
+<pb/>
+<lb/><fw type="page" place="top-right">19.</fw>
+<lb/><l>Tre Dage efter var Farten tilende.</l>
+<lb/><l>Saa lønligt flygted&rapo; jeg med mine Svende;</l>
+<lb/><l>Jeg vidste jo <app type="external" subtype="interpunction" xml:id="varG1-370"><HIS:hisRdg>nok<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app> i Kongens Hal</l>
+<lb/><l>Vilde Audun <app type="external" subtype="word" xml:id="varG1-371"><HIS:hisRdg>listeligt</HIS:hisRdg></app> volde mit <app type="external" subtype="interpunction" xml:id="varG1-372"><HIS:hisRdg>Fald<HIS:hisDel rend="overwritten">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">;</HIS:hisAdd></HIS:hisRdg></app></l>
+<lb/><l>Og saadan gik det.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Med al din Nød, nu er Alt ved det Gamle</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Alt? Nei, Margit, dengang var Du fri.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Du mener &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker></HIS:spOpener>
+<lb/><l part="F">Jeg? Intet! Ak, lad mig samle</l>
+<lb/><l>Mine <app type="external" subtype="interpunction" xml:id="varG1-373"><HIS:hisRdg>Tanker<HIS:hisDel rend="overwritten">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">;</HIS:hisAdd></HIS:hisRdg></app> jeg er saa freidig og fro</l>
+<lb/><l>Fordi jeg, som fordum, er hos Eder To.</l>
+<lb/><l>Men sig mig &dash; Signe &dash;?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">20.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Og det er vel ikke gjort i en Fart</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker></HIS:spOpener>
+<lb/><l>Jeg maa <app type="external" subtype="interpunction" xml:id="varG1-375"><HIS:hisRdg>see</HIS:hisRdg></app> om hun endnu kan mig kjende.</l>
+<lb/><HIS:hisStage>(<app type="external" subtype="word" xml:id="varG1-376"><HIS:hisRdg>gaaer</HIS:hisRdg></app> ind til Venstre)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="MARGIT">Margit</HIS:stageRole> (alene)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>har ikke Solen skinnet i tre Aar.</p></HIS:hisSp>
+</div>
+<div type="scene" n="11">
+<head>11<hi rend="raised">te</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="MARGIT">Margit</HIS:stageRole>.&dash; <HIS:stageRole who="SIGNE">Signe</HIS:stageRole> og <HIS:stageRole who="GUDMUND">Gudmund</HIS:stageRole> (fra Venstre)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Har ogsaa hun sig saa stærkt for<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>andret.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Tilvisse! Men at hun sk<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ulde &dash; Nei, nei!</l>
+<lb/><l>Det var dog aldrig faldet mig in<HIS:hisDel rend="erased overwritten"><gap/></HIS:hisDel>d.</l>
+<lb/><HIS:hisStage>(griber Signes Hænder og seer hende ind i Øinene.)</HIS:hisStage>
+<pb/>
+<lb/><fw type="page" place="top-right">21.</fw>
+<lb/><l>Og dog, dit uskyldige Barnesind</l>
+<lb/><l>Læser jeg endnu i Øinene blaa;</l>
+<lb/><l>Hvor kan jeg da længere tvivle derpaa!</l>
+<lb/><l>Jeg maa lee, naar jeg <app type="external" subtype="interpunction" xml:id="varG1-399"><HIS:hisRdg>mindes</HIS:hisRdg></app> hvor tidt jeg har</l>
+<lb/><l>Tænkt Dig saalunde, som dengang jeg bar</l>
+<lb/><l>Dig paa mine <app type="external" subtype="interpunction" xml:id="varG1-400"><HIS:hisRdg>Arme;</HIS:hisRdg></app> da var Du et Barn, &dash;</l>
+<lb/><l>Nu er Du en <app type="external" subtype="interpunction" xml:id="varG1-401"><HIS:hisRdg>Huldre</HIS:hisRdg></app> som kogler og gjækker.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Pas paa &dash; hun hilder Dig i sit Garn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Næsten bæres mig <app type="external" subtype="interpunction" xml:id="varG1-403"><HIS:hisRdg>for<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></HIS:hisRdg></app> som det alt var skeet<HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Nu maa Du mig alle dine Kvæder lære!</l> <HIS:hisStage>(gaaer)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(afsides; idet han seer <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>efter Signe)</HIS:hisStage></HIS:spOpener>
+<pb/>
+<lb/><fw type="page" place="top-left">22.</fw>
+<lb/><l>Sprungen ud, som den fagreste Rosenblomme,</l>
+<lb/><l>Der endnu var Knop ved Dagens Komme!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker> <HIS:hisStage>(kommer med en Harpe)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">See her!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Min Harpe! saa blank som før!</l>
+<lb/><HIS:hisStage>(slaaer nogle Akkorder paa den)</HIS:hisStage>
+<lb/><l>Der er endnu Klang i de gamle Strenge;</l>
+<lb/><l>Nu skal Du ikke længer paa Væggen hænge.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Der kommer vore Gjæster</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(indleder den følgende Sang med nogle Akkorder
+<lb/>paa Harpen.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker></HIS:spOpener>
+<lb/><l part="F">Tys, stille! O, hør!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">23.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(synger)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg><head>1.</head>
+<lb/><l>Jeg vandred&rapo; i Lien saa tung og saa ene,</l>
+<lb/><l>De Smaafugle kviddred&rapo; fra Busker og Grene;</l>
+<lb/><l>Saa listeligt kviddred&rapo; de Sangere smaa:</l>
+<lb/><l>Hør til, hvordan Kjærlighed monne opstaa!</l></HIS:hisLg>
+<lb/><HIS:hisLg><head>2.</head>
+<lb/><l>Den voxer som Egen i Aarene lange,</l>
+<lb/><l>Den næres ved Tanker og Sorger og Sange.</l>
+<lb/><l>Den spirer saa let; i den flygtigste Stund</l>
+<lb/><l>Fæster den Rødder i Hjertets Grund!</l></HIS:hisLg>
+<lb/><HIS:hisStage>(gaaer, under Efterspillet, op mod Baggrunden.)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="12">
+<lb/><head>12<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND MARGIT SIGNE">De Forrige</HIS:stageRole>. <HIS:stageRole who="BENGT">Bengt</HIS:stageRole> og <HIS:stageRole>Gjæster</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisStage>(Gjæsterne <sic>afssynge</sic> et Chor, hvorpaa Tæppet falder)</HIS:hisStage>
+</div>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-left">24.</fw>
+<div type="act" n="2">
+<lb/><head>Anden Akt.</head>
+<div type="scene" n="1">
+<lb/><head>1<hi rend="raised">ste</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="KNUT">Knut</HIS:stageRole> og <HIS:stageRole who="ERIK">Erik</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>for Bruderov og Manddrab. Kom nu! <HIS:hisStage>(gaaer med Erik)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">den</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND">Gudmund</HIS:stageRole> og <HIS:stageRole who="SIGNE">Signe</HIS:stageRole> (komme ned ad en Fodsti
+<lb/>mellem Træerne i Baggrunden.)</HIS:hisStage>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Det lyder som det væneste Strengespil!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Signe, min fagre, min yndelige Lilje!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker><HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd></HIS:spOpener>
+<lb/><l part="I">Jeg, jeg er ham kjær!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det er Ingen som Du!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">25.</fw>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l part="I">Ak, tør jeg tro Dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det tør Du forsandt!</l>
+<lb/><l>Hør mig Signe! Medens Aarene randt<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd></l>
+<lb/><l>Tænkte jeg trolig, baade Vinter og Sommer,</l>
+<lb/><l>Paa Eder To, mine fagreste Blommer!</l>
+<lb/><l>Men jeg kunde ikke ret mine Tanker forstaa<HIS:hisDel rend="overwritten">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">;</HIS:hisAdd></l>
+<lb/><l>Da jeg reiste<HIS:hisAdd place="inline" hand="h2">,</HIS:hisAdd> var Du som Alferne smaa,</l>
+<lb/><l>Som Alferne smaa, der færdes i Skove,</l>
+<lb/><l>Og lege som bedst naar vi drømme og sove.</l>
+<lb/><l>Dog, da jeg trined&rapo; i Solhougs Stue,</l>
+<lb/><l>Da forstod jeg mig selv tilfulde,</l>
+<lb/><l>Forstod at Margit var saa stolt en Frue,</l>
+<lb/><l>Men Du, den Allerdeiligste blandt Ungmøer
+<lb/>hulde!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">26.</fw>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Da fatted&rapo; hun tilfulde baade Gud og hans Ord.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Signe, min deiligste Blomme!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Naar jeg vandrer med Dig under Lide.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Saa mægtig er Elskov; &dash; i Menneskets Bryst</l>
+<lb/><l>Vækker den Tanker og Længsel og Lyst!</l>
+<lb/><l>Men kom, lad os Begge til din Søster gaa ind.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du vil sige hende &dash;?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Alt bør hun kjende.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker></HIS:spOpener>
+<lb/><l>Vil derinde af Blussel brænde!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">27.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Nu godt, jeg gaaer.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>der er Piger og Svende!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Der bier Du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Til Du har talt med hende!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(gaaer ind i Huset; Signe ud til Høire.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="MARGIT">Margit</HIS:stageRole> (alene)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Da agted&rapo; jeg lidet &dash;</l></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="MARGIT">Margit</HIS:stageRole>. &dash; <HIS:stageRole who="GUDMUND">Gudmund</HIS:stageRole> (kommer ud fra Huset.)</HIS:hisStage>
+<pb/>
+<lb/><fw type="page" place="top-left">28.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><p>Margit, er Du der?
+<lb/>Hvi gaaer Du saa alene? Jeg har søgt Dig overalt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Veed Du hvad jeg ønsker?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="M">Nu?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Tro mig &dash;!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hvad fattes Dig Margit, svar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Der kunde jeg brænde og leve med min Ven!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Margit! Margit!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">29.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Hvor lystig at dø paa slig Viis, ei sandt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="I">Du er syg.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Lad mig lee, det gjør mig saa godt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg kan see</l>
+<lb/><l>Du har endnu det samme ustyrlige Sind,</l>
+<lb/><l part="I">Som fordum &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Hun pønsed paa Daad, og see det &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Det er godt</l>
+<lb/><l>Du minder mig derom; jeg vil ikke længer</l>
+<lb/><l>Gjemme paa det, jeg saa lidet trænger.</l>
+<pb/>
+<lb/><fw type="page" place="top-left">30.</fw>
+<lb/><HIS:hisStage>(tager Flasken frem.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Flasken! Du mener?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Jeg gjemte den, fordi</l>
+<lb/><l>Jeg tænkte med den at løse mig fri,</l>
+<lb/><l>Hvis Kongens Mænd skulde komme mig nær.</l>
+<lb/><l>Men alt fra ikvæld har den mistet sit Værd;</l>
+<lb/><l>Nu vil jeg stride med Arm og med Sværd,</l>
+<lb/><l>Byde Frænder og Venner op til det Sidste,</l>
+<lb/><l>For min Frihed og Livet at friste.</l>
+<lb/><l part="I">See der! <HIS:hisStage>(vil kaste Flasken bort.)</HIS:hisStage></l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="M">Nei vent, lad mig faa den!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Du vil?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">31.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker> <HIS:hisStage>(tager Flasken)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="M">Der er den!</l> <HIS:hisStage>(lader som hun kaster den bort.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(gaaer mod Baggrunden og seer ned i Dybet.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Du kasted&rapo; den ud?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Hør, Gudmund!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(nærmer sig)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">Hvad vil Du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Kan Du tyde mig det Kvæde?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.
+<lb/><HIS:hisStage>(seer forskende paa hende)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Jeg veed ikke ret &dash;?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">32.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Kirken kan ei skille dem, som har hinanden kjær!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Alle Helgene! dersom &dash; da er det paa Tide</l>
+<lb/><l>At hun faaer det Hele at vide!</l>
+<lb/><HIS:hisStage>(høit)</HIS:hisStage>
+<lb/><l>Margit, svar mig! Vil Du mit Held?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Om jeg vil?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l n="1" part="M">Ja, jeg mener &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l n="2" part="M">Sig frem!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker></HIS:spOpener>
+<lb/><l part="F">Nu vel.</l>
+<pb/>
+<lb/><fw type="page" place="top-right">33.</fw>
+<lb/><l>Du kunde gjøre mig saa rig og saa fro &dash;!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l part="I">Gudmund!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Hør kun, jeg vil Dig betro &dash;</l>
+<lb/><HIS:hisStage>(afbryder pludselig, idet han hører Stemmer udenfor)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND MARGIT">De Forrige</HIS:stageRole>. &dash; <HIS:stageRole who="SIGNE">Signe</HIS:stageRole>, <HIS:stageRole who="KNUT">Knut</HIS:stageRole>, <HIS:stageRole who="ERIK">Erik</HIS:stageRole> og <HIS:stageRole>flere Gjæster</HIS:stageRole>)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Signe, kjære, kjære Søster! <HIS:hisStage>(gaaer tilbage med Signe)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides; med et Blik til Margit)</HIS:hisStage></HIS:spOpener><p>Ja, saadan er
+<lb/>det raadeligst; Signe og jeg maa herfra. Knut
+<lb/>Gjæsling har jo viist sig som min Ven, han maa
+<lb/>hjælpe mig dermed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>Hør, Gudmund!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker><HIS:hisStage>(smilende)</HIS:hisStage></HIS:spOpener><p>Nu, kommer Du for at sige mig at
+<lb/>Du ikke længer tør lade mig gaa fri?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">34.</fw>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>for en vild, ustyrlig Karl<HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, og hvis ikke Rygtet lyver, saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>men nu skal Du høre &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(gaaer op mod Baggrunden i Samtale med Knut.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Ja, Du fatter det ikke; ligegodt. <HIS:hisStage>(gaaer tilbage.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(kommer atter frem med Knut.)</HIS:hisStage></HIS:spOpener><p>Nu, hvis det
+<lb/>er saadan fat, dersom dette vilde Liv ikke huer
+<lb/>Dig længer, saa vil jeg skjænke Dig det bedste
+<lb/>Raad, som nogen Ven har i Eie: fæst Dig en
+<lb/>fager Ungmø til Viv!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>jeg selv har tænkt paa idag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Held og Lykke da, Knut Gjæsling! Og nu maa
+<lb/>Du vide at ogsaa jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>Gaaer Du ogsaa med slige Tanker?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Javel gjør jeg, &dash; men Kongens Vrede &dash; jeg
+<lb/>er jo fredløs &dash;<HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd></p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">35.</fw>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>Hør kun &dash;! <HIS:hisStage>(fortsætter hviskende)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(gaaer op mod Baggrunden med Knut, samtalende)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>længer nødig at dølge Noget for Dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(kommer atter ned i Forgrunden med Knut.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Tys, hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og der er min! <HIS:hisStage>(rækker Knut Haanden.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>nævne hinanden hvem det er &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Godt! Her paa Solhoug, mellem alle de fagre
+<lb/>Kvinder har jeg fundet den, som &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Alle Helgene!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(til Knut.)</HIS:hisStage></HIS:spOpener><p>Det Samme er ogsaa min Agt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener><p>Gudmund!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisAdd place="inline" hand="h2">(</HIS:hisAdd> og <speaker>Knut</speaker> <HIS:hisStage><HIS:hisDel rend="overstrike" hand="h2">(</HIS:hisDel>hviske paa engang til hinanden, idet
+<lb/>de Begge pege paa Signe)</HIS:hisStage></HIS:spOpener><p>Der er hun!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(studsende)</HIS:hisStage></HIS:spOpener><p>Ja, min!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Signe!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">36.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(studsende)</HIS:hisStage></HIS:spOpener><p>Hvad mener Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>Det er jo hende som jeg vil &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hende?! Signe er min Fæstemø for Gud!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Hende var det! Nei! nei!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides) idet han bliver hende vaer)</HIS:hisStage></HIS:spOpener><p>Margit!
+<lb/>hun har hørt Alt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>Signe fra Gaarden, han eller jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, prøv Du kun, det skal koste Dig saa
+<lb/>blodig en Pande!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Knut og Erik gaa)</HIS:hisStage>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="MARGIT">Margit</HIS:stageRole>. <HIS:stageRole who="SIGNE">Signe</HIS:stageRole>. <HIS:stageRole who="GUDMUND">Gudmund</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener><p>hvad skal alt dette betyde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(hviskende)</HIS:hisStage></HIS:spOpener><p>Vi maa Begge reise fra Solhoug endnu
+<lb/>inat.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener><p>Gud staa mig bi! Du vil &dash;!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">37.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Stille! Ikke et Ord til noget Menneske, ik&typHyp;
+<lb/>ke engang til din Søster.</p></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND MARGIT SIGNE">De Forrige</HIS:stageRole>. <HIS:stageRole who="BENGT">Bengt</HIS:stageRole> og <HIS:stageRole>Gjæsterne</HIS:stageRole> (komme)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>et Eventyr som er lystigt nok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(dæmpet)</HIS:hisStage></HIS:spOpener><p>Margit! <HIS:hisAdd place="inline" hand="h2"><HIS:hisStage>(klagelig.)</HIS:hisStage></HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>det meget bedre end jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Hun truer; jeg maa rive det sidste
+<lb/>Haab fra hende, før bliver hun ikke rolig til&typHyp;
+<lb/>sinds. <HIS:hisStage>(høit til Gjæsterne)</HIS:hisStage> Jeg kjender et Kvæde;
+<lb/>hvis det lyster Eder, saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener><p>Tak, Tak, Gudmund! <HIS:hisStage>(man leirer sig rundtom)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(staaer i Midten.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker> <HIS:hisStage>(synger)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg><head>1.</head>
+<lb/><l>Jeg red mig udi Lunde,</l>
+<pb/>
+<lb/><fw type="page" place="top-left">38.</fw>
+<lb/><l>Jeg seiled&rapo; over Sø;</l>
+<lb/><l>Det var sig i mit væne Hjem,</l>
+<lb/><l>Der fæsted&rapo; jeg min Mø.</l></HIS:hisLg>
+<lb/><HIS:hisLg><head>2.</head>
+<lb/><l>Det var den Alfekvinde,</l>
+<lb/><l>Hun er saa led og gram:</l>
+<lb/><l>Ret aldrig skal den Jomfru skjær</l>
+<lb/><l>Til Kirken følge ham.</l></HIS:hisLg>
+<lb/><HIS:hisLg><head>3.</head>
+<lb/><l>Hør mig, Du Alfekvinde,</l>
+<lb/><l>Lad fare den Besvær;</l>
+<lb/><l>To Hjerter kan ei skilles ad,</l>
+<lb/><l>Der har hinanden kjær<HIS:hisAdd place="inline" hand="h2">.</HIS:hisAdd></l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>men det faaer nu være.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Alle Helgene! hun vil da vel
+<lb/>ikke &dash;!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">39.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Solen lyser ikke mere; alle Stjerner er slukket.</l>
+<lb/><HIS:hisStage>(synker om i Signes Arme.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(paa samme Tid som Signe.)</HIS:hisStage></HIS:spOpener><p>Hjælp! Hjælp!
+<lb/>hun døer!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Almindelig Bevægelse, &dash; hvorpaa Tæppet falder)</HIS:hisStage>
+</div>
+</div>
+<div type="act" n="3">
+<lb/><head>Tredie Akt.</head>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="BENGT">Bengt</HIS:stageRole>. <HIS:stageRole>En Huuskarl</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker>Bengt</speaker>.</HIS:spOpener><p>Hent mig min Faerfaders Øxe. <HIS:hisStage>(De gaa ud.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND">Gudmund</HIS:stageRole> og <HIS:stageRole who="SIGNE">Signe</HIS:stageRole> (komme fra Høire)</HIS:hisStage>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker></HIS:spOpener>
+<lb/><l part="I">Det maa da saa være?</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">40.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Den yderste Nød</l>
+<lb/><l part="I">Tvinger os.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l part="I">Jeg blev hos min Søster.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Og næste Dag</l>
+<lb/><l>Saa kom Knut Gjæsling med Sværd og med Bue,</l>
+<lb/><l>Og løfted&rapo; Dig op paa Gangerens Bag</l>
+<lb/><l>Og gjorde Dig til sin Frue.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker></HIS:spOpener>
+<lb/><l>Ak, lad os fly! Men hvor gaa vi hen?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Ude ved Fjorden har jeg en Ven;</l>
+<lb/><l>Han skaffer os et Skib. Over salte Vande</l>
+<lb/><l>Seile vi ned til de danske Strande;</l>
+<pb/>
+<lb/><fw type="page" place="top-right">41.</fw>
+<lb/><l>Der kan Du tro det er deiligt at bo,</l>
+<lb/><l>Der vil Du finde det fagert at bygge,</l>
+<lb/><l>Der monne de yndeligste Blommer gro</l>
+<lb/><l>Alt under Bøgenes Skygge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Og at Gud hendes Kvide læger<HIS:hisDel rend="overwritten">.</HIS:hisDel><HIS:hisAdd place="inline" hand="h2">!</HIS:hisAdd></l>
+<lb/><HIS:hisStage>(tager et Bæger som staaer paa Bordet.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Det vil vi; vi drikke tilbunds for hende.</l>
+<lb/><HIS:hisStage>(studsende)</HIS:hisStage>
+<lb/><l>Nei, stands! Dette Bæger skulde jeg kjende.</l>
+<lb/><HIS:hisStage>(tager det fra Signe)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker></HIS:spOpener>
+<lb/><l part="I">Det er Margits Bæger!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ved Himlen! Ja,</l>
+<pb/>
+<lb/><fw type="page" place="top-left">42.</fw>
+<lb/><l>Nu mindes jeg! Dengang jeg drog herfra,</l>
+<lb/><l>Monne Vinen i Bægeret gløde;</l>
+<lb/><l>Hun drak mig til paa et frydeligt Møde,</l>
+<lb/><l>Men det blev hende selv til Sorg og Nød.</l>
+<lb/><l>Nei, Signe! Drik ikke Mosten sød</l>
+<lb/><l>Af dette Bæger.</l>
+<lb/><HIS:hisStage>(slaaer Vinen ud af Vinduet.)</HIS:hisStage>
+<lb/><l part="F">Vi maa afsted!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Larm i Baggrunden)</HIS:hisStage>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Tys, tys, jeg hører Stemmer og Fjed!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(lyttende)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">Knut Gjæslings Røst!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l part="I">O, frels os Gud!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">43.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker><HIS:hisAdd place="inline" hand="h2">!</HIS:hisAdd></HIS:spOpener>
+<lb/><l>Vær rolig! Vel skal jeg værge min Brud!</l></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND SIGNE">De Forrige</HIS:stageRole>. <HIS:stageRole who="MARGIT">Margit</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Hvad gjælder det? Er min Huusbond?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Margit! <HIS:hisStage>(Han har fremdeles Bægeret i
+<lb/>Haanden.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Hvem har tømt det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(forvirret.)</HIS:hisStage></HIS:spOpener><p>Tømt &dash;? Jeg og Signe, vi vilde &dash;</p></HIS:hisSp>
+</div>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="GUDMUND MARGIT SIGNE">De Forrige</HIS:stageRole>. <HIS:stageRole>Første Huuskarl</HIS:stageRole>, senere <HIS:stageRole>An&typHyp;
+<lb/>den Huuskarl</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Han, har ogsaa han drukket &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Ha, nu begriber jeg &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener><p>Fældet!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(drager Sværdet.)</HIS:hisStage></HIS:spOpener><p>Endnu ikke, vil jeg haabe.
+<pb/>
+<lb/><fw type="page" place="top-left">44.</fw>
+<lb/><HIS:hisStage>(sagte til Margit)</HIS:hisStage> Vær rolig! Ingen har
+<lb/>drukket af Bægeret der.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Da priset være Gud, som frelste os Alle!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(vil ile ud, men standses af Anden Huuskarl)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Anden Huuskarl</speaker>.</HIS:spOpener><p>Herr Bengt er død!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Altsaa dog fældet!</p></HIS:hisSp>
+</div>
+<div type="scene" n="9">
+<lb/><head>9<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>.&dash; <HIS:stageRole>Gjæster</HIS:stageRole> og <HIS:stageRole>Huuskarle</HIS:stageRole>, som føre
+<lb/><HIS:stageRole who="KNUT">Knut Gjæsling</HIS:stageRole>, <HIS:stageRole who="ERIK">Erik fra Hægge</HIS:stageRole> og <HIS:stageRole>flere af
+<lb/>Knuts Mænd</HIS:stageRole> bundne mellem sig.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>Hvad siger Du til det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Knut! Knut! Hvad har Du gjort?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener><p>saa tal godt for mig hos Kongen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg? Endnu før Daggry maa jeg ud af Lan&typHyp;
+<lb/>det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener><p>Kjære Søster!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">45.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Tak, Margit! Dog, lad os gjøre det kort.
+<lb/><HIS:hisStage>(lyttende)</HIS:hisStage> Tys! jeg hører Hovslag i Gaarden.</p></HIS:hisSp>
+</div>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole>En Karl</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker>.</HIS:spOpener><p>Kongens Mænd!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa er Alt forbi! O, Signe! at miste Dig
+<lb/>nu, det var det Tungeste jeg kunde friste.</p></HIS:hisSp>
+</div>
+<div type="scene" n="11">
+<lb/><head>11<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="SENDEBUDET">Kongens Sendebud</HIS:stageRole> med
+<lb/><HIS:stageRole>Følge</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="SENDEBUDET"><HIS:spOpener><speaker>Sendebudet</speaker>.</HIS:spOpener><p>søger jeg Eder, Gudmund Alfsøn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Godt! Men jeg er skyldfri, det sværger jeg
+<lb/>høit og dyrt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SENDEBUDET"><HIS:spOpener><speaker>Sendebudet</speaker>.</HIS:spOpener><p>Det vide vi Alle!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(Alle)</HIS:hisStage></HIS:spOpener><p>Hvorledes?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SENDEBUDET"><HIS:spOpener><speaker>Sendebudet</speaker>.</HIS:spOpener><p>og rige Forleninger dertil</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">46.</fw>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Signe!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener><p>Gudmund!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men saa sig mig &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SENDEBUDET"><HIS:spOpener><speaker>Sendebudet</speaker>.</HIS:spOpener><p>Audun Hugleiksøn er falden</p></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(Alle)</HIS:hisStage></HIS:spOpener><p>Falden!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Solen staaer op og kaster sit Skjær ind i
+<lb/>Stuen. Margit træder frem mellem Gudmund og Signe)</HIS:hisStage>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Til den helliges Sunnives Kloster jeg gaaer</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(vil tale tilligemed Signe, men afbrydes af Margit.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>At rokke mig Intet formaaer.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>
+<lb/><HIS:hisStage>(forenes med Signe af Margit, idet hun lægger
+<lb/>deres Hænder sammen)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">47.</fw>
+<lb/><HIS:hisSp who="MARGIT"><HIS:spOpener><speaker>Margit</speaker></HIS:spOpener>
+<lb/><l>Eders Pagt er from, den skjærmes af Gud.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUDMUND"><HIS:spOpener><speaker>Gudmund</speaker>.</HIS:spOpener>
+<lb/><l>Signe, min Viv! &dash; See Dagen rinder,</l>
+<lb/><l>Det er vor unge Kjærligheds Dag!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGNE"><HIS:spOpener><speaker>Signe</speaker>.</HIS:spOpener>
+<lb/><l>Som skal svare Dig i Fryd og i Smerte!</l></HIS:hisSp>
+<lb/><HIS:hisStage>Slutningssang.</HIS:hisStage>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Chor</speaker></HIS:spOpener>
+<lb/><l>Over Jorden vogter Lysets Øie,</l>
+<lb/><l>Værner kjærligt om den Frommes Fjed,</l>
+<lb/><l>Sender Trøstens milde Straaler ned; &dash;</l>
+<lb/><l>Lovet være Herren i det Høie!</l></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>    
+
+
+

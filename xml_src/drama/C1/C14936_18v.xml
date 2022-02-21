@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Catilina</title>
+<title level="a" type="sub">1. versjon, NBO Ms.4&deg; 936, bl. 18v</title>
+<title level="a" type="origYear">1849</title>
+<author>Brynjolf Bjarme (pseudonym for Henrik Ibsen)</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingrid Falkenberg, Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Konvertering til prosjektspesifikk TEI XML desember 2000</resp>
+<name>Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Kontroll av transkripsjon</resp>
+<name xml:id="HIS-TM">Tone Modalsli</name>
+<name xml:id="HIS-JGJ">Jon Gunnar Jørgensen</name>
+</respStmt>
+<respStmt>
+<resp>Kontroll av koding</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Koding i prosjektspesifikk TEI SGML, transkripsjon, kollasjonering, koding og korrekturlesing, oktober 1998 til oktober 1999</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="C14936_18v_0912"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc><p>Denne filen bygger på C14936_NBO.xml (C14936_NBO_200711).</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i C14936_NBO.xml.</p>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace></tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen" scope="major"><p>Henrik Ibsen. Sort blekk. Hovedhånd.</p></handNote>
+<handNote scribe="CLD" xml:id="CLD" medium="pen"><p>Christopher L. Due. Sort blekk. Enkelte rettelser i gotisk skrift.</p></handNote>
+<handNote scribe="h3" xml:id="h3" medium="pencil1"><p>Ukjent hånd (trolig bibliotekar), grå blyant. Foliering.</p></handNote>
+<handNote scribe="h4" xml:id="h4" medium="pencil2"><p>Ukjent hånd (trolig også bibliotekar), grå blyant. Rettet foliering av h3.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>12.09.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>21.02.08</date>
+<name>HB</name><title>HISe-xptr-koblinger</title>
+Fjernet tekstkildekoblinger (synopticView_textWitnesses), siden det er tilstrekkelig med ms-koblinger (synopticView_msVersions) i dette verket.</change>
+<change><date>12.02.08</date>
+<name>HB</name><title>Test og rettelser av versjonskoblinger</title>
+Sjekket koblinger mellom versjonene vha nye visninger. Justerte koding og plassering av koblinger der det var nødvendig.</change>
+<change><date>02.02.08</date>
+<name>HB</name><title>Rettelse</title>
+Rettet entitetene rundt foliering i pb.</change>
+<change><date>20.11.07</date>
+<name>HB</name><title>Omkoding av HISe-xptr-koblinger samt ferdigstilling av versjonssplitting</title>
+Kodet om til ny koding av HISe-xptr-koblinger. Fjernet typography og la inn p med henvisning til NBO-fil. Ditto for msDescription. La til opplysning i titleStmt om hvilke blad filen inneholder. Fjernet tagUsage-id-who siden filen ikke inneholder replikker/who-attributter.</change>
+<change><date>16.11.07</date>
+<name>HB</name><title>Splittet fil i tre versjoner for HISe</title>
+Arkiverte pre-splitting-kopi + lagret kopi som inneholder NBOs ordning av mset (=arkivert kopi). Slettet all logg fra tidligere år, bevart i arkivert kopi. Siden group/text/group-strukturen nå er overflødig fjernet jeg den. Filen er ikke valid enda siden sammenkoblingspekerne ikke er kodet om.</change>
+<change><date>15.11.07</date>
+<name>HB</name><title>tallspenn, pb-ms og HISe-koblinger</title>
+Ingen tallspenn, restore eller note/ref. La inn folieringsref i pb + faksimiles. Kodet om xptr-ene til ny standard.</change>
+<change><date>18.09.07</date>
+<name>HB</name><title>desc til sub-omkoding</title></change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Fjernet performance og flyttet head inn i castList</title></change>
+<change><date>31.07.07</date>
+<name>HB</name><title>Ms-koding</title>
+Endret div/type/notes til div/type/relatedToWork i tråd med vedtak på kodemøtet 31.05.07.</change>
+</revisionDesc>
+</teiHeader>
+<text type ="drama" xml:lang="dan-nob" rend="handwritten">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="18" facs="36"/>
+<lb/><HIS:hisDiv type="relatedToWork" n="2"><head>Sceneforandringerne.</head>
+<lb/><HIS:hisDiv type="act" n="1"><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_5ms"/>Første Act. &dash;</head>
+<lb/><HIS:hisDiv type="scene" n="1"><head>1.</head>
+<lb/><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_6001ms"/>Den appiske Vei tætved Rom</head>
+<lb/><p>Catilina; Samtale<unclear reason="writing">n med</unclear> Allebrogerne. &dash;</p></HIS:hisDiv>
+<lb/><HIS:hisDiv type="scene" n="2"><head>2.</head>
+<lb/><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_8000ms"/>Forum.</head>
+<lb/><p>Lentulus, Cethegus m. Fl. . Hentydning til Samesværgelse
+<lb/>Beslut<unclear reason="writing">ning</unclear> at henvende sig til Catilina</p></HIS:hisDiv>
+<lb/><HIS:hisDiv type="scene" n="3"><head>3.</head>
+<lb/><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_4ms"/>Vestas Tempel</head>
+<lb/><p>En Vestalinde. Catilina og Curius komme ubem<unclear reason="writing">ærket</unclear>
+<lb/>ind, den første for at erholde en Sammenkomst <unclear reason="writing">me</unclear>d Ful<unclear reason="endline">via</unclear>
+<lb/>Hun kommer Samtale mellem hende og Catilina,
+<lb/>Catilina ad<unclear reason="writing">vares</unclear> om at Aurelia vil komme, han flygter
+<lb/>Fulvia i hæftigt Oprør, <HIS:hisDel rend="overwritten"><unclear reason="writing">H</unclear></HIS:hisDel>Den Hellige Ild sluk<unclear reason="writing">ker</unclear> &dash; Folket
+<lb/>strø<unclear reason="writing">mmer</unclear> til hun føres bort &dash; &dash; Curius beslutter at redde
+<lb/>hende &dash;</p></HIS:hisDiv>
+<lb/><HIS:hisDiv type="scene" n="4"><head>4.</head>
+<lb/><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_18ms"/>Catilinas Huus</head>
+<lb/><p>Catilina og Aurelia i <HIS:hisDel rend="overwritten">s</HIS:hisDel>Samtale, han er i Bevægelse
+<lb/>&dash; hun formilder ham, en Olding <unclear reason="writing">komme</unclear> ind forat bede om
+<lb/>Hjælp til a<unclear reason="writing">t</unclear> <unclear reason="writing">udløse</unclear> Sønnen af <unclear reason="writing">Gjældsfængsel</unclear> &dash; Catilina
+<lb/>skjænker ham den sidste Sum han har tilbage</p></HIS:hisDiv>
+<lb/><HIS:hisDiv type="scene" n="5"><head>5.</head>
+<lb/><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_24000ms"/>Den underjordiske Hule</head>
+<lb/><p>Fulvia <unclear reason="writing">i</unclear> rasende Fortvivlesle &dash; Curius redder
+<lb/>hende &dash;</p></HIS:hisDiv></HIS:hisDiv>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisDiv type="act" n="2"><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_26ms"/>Anden Act.</head>
+<lb/><HIS:hisDiv type="scene" n="1"><head>1.</head>
+<lb/><head>Catilinas Bolig.</head>
+<lb/><p>Catilina allene uenig med sig selv, Cethegus
+<lb/>har været <HIS:hisDel rend="overwritten">H</HIS:hisDel>hos ham og forberedt ham paa at de
+<lb/><unclear reason="writing">Sammensvorne</unclear> ville indfinde sig &dash; Aurelia <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>kommer
+<lb/>ind erfarer Grunde til Hans Urolighed</p></HIS:hisDiv></HIS:hisDiv></HIS:hisDiv>
+</body>
+</text>
+</TEI>

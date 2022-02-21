@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">NBO Ms 4&deg;1119a, bl.1 &amp; 7</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding">
+<resp>Kollasjonering og koding</resp>
+<name>Helene Grønlien, Henninge Margrethe Solberg</name></respStmt>
+<respStmt>
+<resp>1. kollasjon</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name></respStmt>
+<respStmt><resp>2. kollasjon, koding</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition xml:id="NV41119a_1_7-1211"/>
+</editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på NV41119a_NBO.xml.</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="NV41119a_1_7">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms 4&deg;1119a, bl. 1 og 7</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>Henrik Ibsen</author>
+            <title type="main">Når vi døde vågner</title>
+            <title type="sub"/>
+            <docDate>1899</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Utkast, egenhendig.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+    
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>&projectDesc-tekstkilde;</p>
+</projectDesc>
+<editorialDecl>
+<HIS:typography><p></p>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">
+&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Rød blyant. Ukjent hånd (bibliotekar?). Bladnummerering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>19.12.11</date>
+<name>SBT</name><title>ferdigstilling</title>
+Oppdaterte teiHeader, la inn attributter i text.</change>
+<change><date>15.12.11</date>
+<name>SBT</name><title>P5-konvertering</title>
+Gjenstår: tekstendringer i teiHeader, attributter i text.</change>
+<change><date>04.11.09</date>
+<name>HMS</name><title>Opprettet filen</title>
+Opprettet filen etter splitting av NV41119a_NBO.xml. Justerte teiHeader, bl.a. fjernet jeg id-who-lista, da det ikke er noen rolleliste eller replikker i mset. Validert.</change>
+<!-- Logg fra arkivfil -->
+<change><date>02.11.09</date>
+<name>HMS</name><title>2. kollasjon, koding, splitting av fil, ny id</title>
+Førte inn resultater etter 2. kollasjon mot original. Så over og oppdaterte strukturkodingen. Sjekket og endret id-who-lista. Kodet inn pb-er med TMs msbetegnelser (etter at Mette sjekket blanke sider mot original). Fjernet siccing og arbeids- og typonoter. Splittet denne filen i tre ifølge TMs ms-beskrivelse: NV41119a_1_7.xml, NV41119a_6.xml og NV41119a_2-5.xml. Omdøpte denne fila til NV41119a_NBO. Kodet den om til en text-group-text-struktur med id hver 'text'. Har arkivert en pre_splitt-versjon.</change>
+<change><date>07.10.09</date>
+<name>HG</name><title>Kontroll</title>
+Ført inn resultater etter kollasjon mot original, NBO. Lagt Irenes id inn i rollelista (tagg uten tekstinnhold). Validert, laget visning.</change>
+<change><date>10.09.09</date>
+<name>HG</name><title>Rettelser</title>
+Lagt inn diverse rettelser etter Christians og Tones gjennomgang av manuskriptet. Lagt inn id-verdier i sp.</change>
+<change><date>02.02.09</date>
+<name>HG</name><title>Oppretting</title>
+Opprettet fil på grunnlag av transkripsjon av faksimile.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:id="dan-nob">
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1"/>
+<body>
+<lb/><note resp="author" place="top-right">20.2.99</note>
+<lb/><fw type="leaf" place="top-right" scribe="h1">1</fw>
+<div type="relatedToWork">
+<lb/><head>Notitser og udkast.</head>
+<lb/><p>Første akt foregår om sommeren. Elegant bade&typHyp;
+<lb/>sted ved søkysten.</p>
+<lb/><p>Anden akt oppe på et sanatorium på højfjeldet.</p>
+<lb/><p>Tredje akt mellem isbræer og afgrunde på nedstig&typHyp;
+<lb/>ningen imod vest.</p>
+<lb/><p>Han er billedhugger. Aldrende. Berømt.
+<lb/>Nylig gift. Kommer fra bryllupsrejse. Har taget hende
+<lb/>&lquo;op på et højt berg og vist hende al verdens herlighed&rquo;. Og
+<lb/>så har han vundet hende. Hun er ung, lys og glad.
+<lb/>Begge er de strålende lykkelige. Nu vil han begyn&typHyp;
+<lb/>de at nyde livet.</p>
+<lb/><p>Så er det han ved badestedet møder &lquo;den tidligere&rquo;
+<lb/>Den glemte. Hun som aldrig har glemt. Hvidklædt.
+<lb/>Ledsaget af sin sygeplejerske. Var af rig familie. For&typHyp;
+<lb/>lod hjemmet og rejste bort med ham, den unge, fattige,
+<lb/>ubekendte vordende kunstner. Blev hans model.
+<lb/>Så afbrød hun alt og rejste fra ham. Har siden været
+<lb/>gift med en anden og skilt igen. Så atter gift. Han
+<lb/>begik selvmord. Alt dette ske<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>de i udlandet.</p>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="2"/>
+<div type="castList">
+<lb/><head>Personer i stykket.</head>
+<list>
+<lb/><item><hi rend="underlined">Badelægen</hi>, en yngre, intelligent mand.</item>
+<lb/><item><hi rend="underlined">Inspektøren</hi> ved badet. Vimset. Går om blandt gæs&typHyp;
+<lb/>terne og bærer sladderhistorier fra den ene til den
+<lb/>anden.</item>
+<lb/><item><hi rend="underlined">Den sladderagtige frue</hi> fra hovedstaden. Gælder for
+<lb/>uhyre morsom blandt badegæsterne. Ondskabsfuld
+<lb/>af tankeløshed.</item>
+<lb/><item><hi rend="underlined">Mange badegæster</hi> med <hi rend="underlined">børn</hi>.</item>
+<lb/><item>En tjener i badehotellet.</item>
+<lb/><item>Opvartningspiger.</item>
+<lb/><item>Højfjeldsjægeren</item>
+</list>
+<lb/><figure type="illustration"/><note resp="editor">Her har Ibsen tegnet inn en illustrasjon.</note>
+<lb/><note resp="author" place="bottom">Stubow. Rambow.
+<lb/>Professor Erik Stubow, berømt billedhugger.</note>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="recto" n="7" facs="11"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">7</fw>
+<div type="act" n="1">
+<lb/><head>Scenegang:</head>
+<list>
+<lb/><item>Stubow og Maja.</item>
+<lb/><item>De forrige og Inspektøren.</item>
+<lb/><item>De forrige og den fremmede hvidklægte dame
+<lb/>med sin sygeplejeske. Ind i pavillonen.</item>
+<lb/><item>De forrige, fruen fra hovedstaden og andre damer
+<lb/>Damerne bort efter en kort scene.</item>
+<lb/><item>Højfjeldsjægeren kommer med tjener og hunde
+<lb/>fra dampskibet. Tjeneren og hundene ud til højre.</item>
+<lb/><item>Stubow, Maja, Højfjeldsjægeren og Inspektøren.</item>
+<lb/><item><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> Højfjeldsjægeren og Maja ud til højre.</item>
+<lb/><item>Den fremmede dame fra venstre.</item>
+<lb/><item>Inspek<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tøren går ind i hotellet.</item>
+<lb/><item>Damen og Stubow alene. Samtale.</item>
+<lb/><item>Maja kommer. Damen bort.</item>
+<lb/><item>Stubow og Maja vil rejse til højfjeldssanatoriet.</item>
+</list>
+<lb/><note resp="author" place="bottom">Her i landet er det bare fjeldene som gi&rapo;r genlyd, ikke
+<lb/>menneskene.</note>
+</div>
+    <pb ed="source" type="folio_nopagination" subtype="verso" n="7" facs="12"/>
+</body>
+</text>
+</TEI>

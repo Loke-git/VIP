@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="K2">Kjæmpehøien</title>
+<title>K2ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>06.12.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteK2_1"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_1">Ibsen</HIS:hisRef>] <hi rend="italic">1. utg. har følgende note:</hi> Forfatteren har velvilligen overladt Redactionen denne vakkre, paa det norske Theaters Stiftelsesdag iaar med udeelt Bifald opførte Digtning til Optagelse i Bladet, af hvis Læsere den sikkert vil modtages med megen Interesse.</note>
+<note resp="editor" xml:id="noteK2_2"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_2">Syden?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> Syden. <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_3"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_3">flyver</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> flyner <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_4"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_4">nægt det</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, FU, 2. utg.,</hi> nægtede <hi rend="italic">1. utg.,</hi> nægtet <hi rend="italic">TarkUiB NT238r</hi></note>
+<note resp="editor" xml:id="noteK2_5"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_5">forglemt</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> forgleml <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_6"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_6">ti Aar</HIS:hisRef>] <hi rend="italic">øvrige tidsangivelser i 1. utg. til denne natten er</hi> tre <hi rend="italic">år, i NBO Ms.4&deg; 1107 er</hi> ti <hi rend="italic">rettet til</hi> tre<hi rend="italic">, TarkUiB NT238r, FU og 2. utg. har</hi> ti</note>
+<note resp="editor" xml:id="noteK2_7"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_7">Holmen?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107,</hi> Holmen. <hi rend="italic">1. utg.,</hi> Holmen <hi rend="italic">TarkUiB NT238r,</hi> holmen? <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_8"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_8">Hvo</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> Hvor <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_9"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_9">sid</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> hid <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_10"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_10">Min</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> Men <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_11"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_11">Ordet</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r,</hi> Ondet <hi rend="italic">1. utg.,</hi> ordet <hi rend="italic">FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteK2_12"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_12">til.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, FU, 2. utg.,</hi> til- <hi rend="italic">1. utg.,</hi> til <hi rend="italic">TarkUiB NT238r</hi></note>
+<note resp="editor" xml:id="noteK2_13"><HIS:hisRef type="tcNote" target="K2ht.xml" corresp="noteK2_13">i</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1107, TarkUiB NT238r, FU, 2. utg.,</hi> Vi <hi rend="italic">1. utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="C1">Catilina</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>11.09.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteC1_1"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_1">hed,</HIS:hisRef>] <hi rend="italic">HIS,</hi> hed' <hi rend="italic">1. utg.,</hi> hed <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_2"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_2">hans</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> idag hans <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_3"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_3">ledsag</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> ledsager <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_4"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_4">ædelt</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> Ædelt <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_5"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_5">Catilina</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> Catlilna <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_6"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_6">hende.</HIS:hisRef>] <hi rend="italic">HIS,</hi> hende, <hi rend="italic">1. utg., NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_7"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_7">træder</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> trædet <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_8"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_8">den høre</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> høre den <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_9"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_9">Catilina</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> Catlilna <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_10"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_10">Færgemand</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> Færgemænd <hi rend="italic">1. utg.,</hi> Færgemand <hi rend="italic">viser her til</hi> Charon</note>
+<note resp="editor" xml:id="noteC1_11"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_11">bered</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> bered' <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_12"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_12">Ja</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> Ja ja <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_13"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_13">dine</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> dine gode <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_14"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_14">ifra</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> fra <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_15"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_15">om et</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> om et stolt et <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_16"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_16">Hulen</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> Hulerne <hi rend="italic">1. utg., tidligere omtalt som</hi> Hulen</note>
+<note resp="editor" xml:id="noteC1_17"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_17">Ja! ja! det</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> ja det <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_18"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_18">vor</HIS:hisRef>] <hi rend="italic">HIS,</hi> Vor <hi rend="italic">1. utg., NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_19"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_19">vil</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> vil ei <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_20"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_20">kommen.</HIS:hisRef>] <hi rend="italic">HIS,</hi> kommen <hi rend="italic">1. utg., NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_21"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_21">uveirssvanger</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> ureirssvanger <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_22"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_22">krydsede i min</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> krydsede min <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_23"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_23">de begge spilte</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> de spilte <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_24"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_24">saa</HIS:hisRef>] <hi rend="italic">kanskje feil for det metrisk bedre</hi> saa det <hi rend="italic">NBO Ms.4&deg; 936</hi></note>
+<note resp="editor" xml:id="noteC1_25"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_25">I</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> i <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_26"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_26">Kraft &dash;</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 936,</hi> Kraft <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteC1_27"><HIS:hisRef type="tcNote" target="C1ht.xml" corresp="noteC1_27">Nattens Glød</HIS:hisRef>] <hi rend="italic">HU har rettet til</hi> Lynets Glød <hi rend="italic">etter en angivelig egenhendig rettelse i et eksemplar av 1. utg. Tekst i NBO Ms.4&deg; 936 mangler</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

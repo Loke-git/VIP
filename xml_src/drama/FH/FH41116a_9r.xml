@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1116a, bl. 9r</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, juni - november 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, desember 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, mars 2007</resp>
+<name>Henninge Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="FH41116a_9r-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på FH41116a (FH41116a-0809).</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i FH41116_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label xml:id="HILDE"/><item>-/Hilde/-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort pen.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Bibliotekar? Rød blyant. Foliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle FH-filer.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>fjernet siccing</title>
+Sjekket alle FH-filer for ev. sic-koder og fjernet de jeg fant. Validert. Lager ny visninger.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. Jeg har derfor endret att.verdiene i xptr-kodene i FH-filene til textWitnesses. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>14.09.09</date>
+<name>MW</name><title>Klargjøring til synoptisk visning</title>
+La inn xptr-kode for synkronisering mot FH88.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Klargjøring av filen til synoptisk visning</title>
+Ryddet i strukturkodingen (fjernet text-group-text-strukturen). Sjekket handList og id-who-oversikten.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Splitting av FH4111a</title>
+Splittet FH4111a i åtte deler til synoptisk visning.</change>
+<change><date>24.08.09</date>
+<name>MW</name><title>Blad-/legg-nummerering</title>
+Blad-nummerering lagt inn (i egne 'pb n='), Tones ms-beskrivelse er fulgt.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Flyttet tekstdel til b-delen</title>
+Etter mail fra Tone flyttet jeg legget med tittelside og personliste (fakss. 29-32) fra a- til b-delen. Lager ny visninger.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Transkripsjonsfeil</title>
+Transkripsjonsfeil oppdaget i Karis kontroll av HIS sine lesemåter mot HU sine (blot for en del av stykket) er ført inn.</change>
+<change><date>12.01.09</date>
+<name>HMS</name><title>Endret koding</title>
+Fjernet resp="editor" i ptr-kodene, da vi har vedtatt at dette resp-attributtet er overflødig.</change>
+<change><date>08.12.08</date>
+<name>MW</name><title>Transkripsjon</title>
+Tone så i forbindelse med msbeskrivelen hva som står i overskrivingen og strykingen ved Lyngstrand i rollelisten s. 11. Det er nå rettet til i filen (også i FH41116_NBO) - og ny visninger er laget.</change>
+<change><date>17.09.08</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret fra desc til sub i koding av undertitler.</change>
+<change><date>18.02.08</date>
+<name>HB</name><title>Splitting av fil</title>
+Gjenstår: kontrollere at delingen i a og b er i tråd med Tone Modalslis manuskriptbeskrivelse. Legge inn bladreferanser fra manuskriptbeskrivelsen. Legge inn koblinger til synoptisk visning. * Splittet filen. Arkiverte pre-splittversjon. Opprettet kopi med biliotekets ordning, FH41116_NBO. Opprettet FH41116b. Loggen er forkortet, FH41116_NBO og FH41116_pre_splitt inneholder fullstendig logg. typography og msDesc er fjernet, finnes i FH41116_NBO og FH41116_pre_splitt. Fjernet  type="workingManuscript" fra alle indre text-elementer og la den på ytterste, siden alle text-elementer inneholder samme ms-type. Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="9" facs="17"/>
+<lb/><fw place="top-left">25.</fw><fw type="leaf" place="top-right" scribe="h1">9</fw>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_96ms"/>
+<div type="act" n="3">
+<lb/><head>Tredje akt.</head>
+<lb/><HIS:hisStage>(En afsides liggende del af doktor Wangels
+<lb/>have. Stedet er fugtigt, sumpigt og overskyg&typHyp;
+<lb/>get af store gamle træer. Til højre sés bred&typHyp;
+<lb/>den af en skimlet dam. Et lavt åbent gærde
+<lb/>skiller haven fra fodstien og fjorden i baggrun&typHyp;
+<lb/>den. Længst tilbage fjeldrækkerne og tinderne
+<lb/>hinsides fjorden. Det er sen eftermiddag, hen&typHyp;
+<lb/>imod aften.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Bolette sidder og syr på en stenbænk til ven&typHyp;
+<lb/>stre. Hilde og Lyngstrand, begge med fiskered&typHyp;
+<lb/>skaber, går ved bredden af dammen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="HILDE"><HIS:spOpener><speaker>Hilde</speaker>
+<lb/><HIS:hisStage>gør te</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Historisk-kritisk utgave, elektronisk versjon</title>
+<title level="a" type="main">Fjeldfuglen</title>
+<title level="a" type="sub">Hovedtekst, NBO Ms.4&deg; 935</title>
+<title level="a" type="origYear">1859</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Stine Brenna Taugbøl</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Alvhild Dvergsdal, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Olav Solberg, Stine Brenna Taugbøl, Vigdis Ystad, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respStmt>    
+<respStmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og korrekturlesing</resp>
+<name>Ellen Nessheim Wiger</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Fjht-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Fjht_bok.xml (Fjht-1209).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="Fj4935">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 935</idno>
+</msIdentifier>
+<msContents><msItem>
+<title>Fjeldfuglen</title>
+<author>Henrik Ibsen</author>
+<docDate>1859</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript, egenhendig.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Grunntekstens typografi fins beskrevet i typografibeskrivelsen i grunntekstfilen (Fj4935.xml).</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList&sol;speaker&sol;stageRole</headItem>
+<label>IVAR</label><item>Ivar</item>
+<label>INGEBORG</label><item>Ingeborg</item>
+<label>SVEND</label><item>Svend</item>
+<label>KNUT</label><item>Knut Skytte&sol;Knut&sol;-</item>
+<label>THORGEJR</label><item>Thorgejr&sol;Thorgejr&sol;-</item>
+<label>ALFHILD</label><item>Alfhild&sol;Alfhild&sol;-</item>
+<label>GJÆSTER</label><item>Chor af Bryllupsgjæster&sol;Gjæsterne, Chor af Bryllupsgjæster, Chor af Gjæsterne&sol;Bryllupsgjæster, Gjæsterne</item>
+<label>HOUGFOLK</label><item>Chor af Hougfolk&sol;Chor af Hougfolk, Usynligt Chor af Hougfolk&sol;-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven kodet med pb ed="hu". Dette tekstvitnet dekker sidene 273-290 (bd. 3). Et n-attributt med faktisk sidetall er lagt til ved første forekomst.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl>
+<p>&metDecl;</p>
+</metDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-h1" xml:id="HI-h1" medium="pen1" scope="major" rend="transcribed"><list><label>Sort tekst:</label><item>Henrik Ibsen, brun penn. Første akt, blad 1-11.</item></list></handNote>
+<handNote scribe="HI-h2" xml:id="HI-h2" medium="pen2" rend="transcribed"><list><label>Brun tekst:</label><item>Henrik Ibsen, mørk penn. Andre akt, blad 11-12.</item></list></handNote>
+<handNote scribe="h3" xml:id="h3" medium="pen3" rend="NotTranscribed"><p>Bibliotekar? Rød tusjpenn. Foliering, som er fjernet fra hovedteksten.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>01.03.13</date>
+<name>SBT</name><title>Koding</title>
+Endret fra fineUnderline til underlined i hi og speaker; skiller ikke mellom tykkelse på enkel understreking i HISe.</change>
+<change><date>28.02.13</date>
+<name>SBT</name><title>Håndliste</title>
+Gikk gjennom tekst i håndliste for farging av hender. Rend-attributt viser hvilke hender som skal farges og omtales i e-utgaven.</change>
+<change><date>08.11.12</date>
+<name>SBT</name><title>TEI P5</title>
+Manuelle endringer etter skripting. Valid TEI P5/HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<front>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main"><pb n="[1]r"/><pb ed="hu" n="273"/><app type="alteration"><lem><HIS:hisAdd place="offline">&lquo;Fjeldfuglen&rquo;</HIS:hisAdd></lem><HIS:hisRdg><unclear><HIS:hisDel rend="overstrike"><hi rend="underlined2">Alfhild</hi></HIS:hisDel></unclear></HIS:hisRdg></app></titlePart>
+<titlePart type="desc">
+<lb/><anchor type="lemma" xml:id="koFj_1"/>romantisk Opera
+<lb/>i
+<lb/><HIS:hisAdd place="inline">tre</HIS:hisAdd> <HIS:hisDel rend="overstrike">een</HIS:hisDel> Akt<HIS:hisAdd place="inline">er.</HIS:hisAdd></titlePart>
+</docTitle>
+<byline>
+<lb/>af
+<lb/><docAuthor>Henr: Ibsen</docAuthor>
+</byline>
+<docEdition>
+<lb/>Christiania
+<lb/><date>1859. &dash;</date>
+</docEdition>
+</titlePage>
+<pb n="[1]v"/>
+<titlePage type="main_part">
+<lb/><titlePart type="main"><pb n="[2]r"/><pb rend="noprint" ed="hu"/><unclear><HIS:hisDel rend="overstrike"><hi rend="underlined2">Alfhild</hi></HIS:hisDel></unclear></titlePart>
+</titlePage>
+<lb/><HIS:hisCastList><head><pb n="[2]v"/><pb ed="hu"/><hi rend="underlined2">Personerne.</hi></head>
+<lb/><castItem xml:id="IVAR"><role rend="underlined"><anchor type="lemma" xml:id="koFj_2"/>Ivar</role>, <roleDesc>en gammel rig <anchor type="lemma" xml:id="koFj_3"/>Odelsbonde</roleDesc>.</castItem>
+<lb/><castItem xml:id="INGEBORG"><role rend="underlined"><anchor type="lemma" xml:id="koFj_4"/>Ingeborg</role>, <roleDesc>hans Datter</roleDesc>.</castItem>
+<lb/><castItem xml:id="SVEND"><role rend="underlined"><anchor type="lemma" xml:id="koFj_5"/>Svend</role>, <roleDesc>i hans Tjeneste</roleDesc>.</castItem>
+<lb/><castItem xml:id="KNUT"><role rend="underlined"><anchor type="lemma" xml:id="koFj_6"/>Knut Skytte</role>, <roleDesc>en ung Bonde</roleDesc>.</castItem>
+<lb/><castItem xml:id="THORGEJR"><role rend="underlined"><anchor type="lemma" xml:id="koFj_7"/>Thorgejr</role>, <roleDesc>en Spillemand</roleDesc>.</castItem>
+<lb/><castItem xml:id="ALFHILD"><role rend="underlined"><anchor type="lemma" xml:id="koFj_8"/>Alfhild</role>.</castItem>
+<lb/><castItem xml:id="GJAESTER"><role rend="underlined">Chor af Bryllupsgjæster</role>.</castItem>
+<lb/><castItem xml:id="HOUGFOLK"><role rend="underlined">Chor af <anchor type="lemma" xml:id="koFj_9"/>Hougfolk</role>.</castItem></HIS:hisCastList>
+<lb/><set><p>(<hi rend="underlined">Handlingen foregaar i en Fjeldegn
+<lb/>endel Aar efter <anchor type="lemma" xml:id="koFj_10"/>den sorte Død.</hi>)</p></set>
+</front>
+<pb rend="noprint" ed="hu"/>
+<body>
+<div type="act" n="1" scribe="HI-h1">
+<lb/><head><pb n="[3]r"/><pb ed="hu"/><hi rend="underlined">Første Akt.</hi></head>
+<div type="scene" n="1">
+<lb/><head><hi rend="underlined2">Første Scene.</hi></head>
+<lb/><HIS:hisStage>(<hi rend="underlined">En vild Fjelddal lukket af bratte Bergsider;
+<lb/>ned fra Snefonderne i Baggrunden styrter
+<lb/>en strid Strøm og forsvinder i en Ur til
+<lb/>Høire. Bjerkeskov dækker Berget til <anchor type="lemma" xml:id="koFj_11a"/>Venstre.
+<lb/>Hele Landskabet straaler i stærk Aftenrøde;
+<lb/>lidt efter lidt falder Tusmørket paa.</hi>)</HIS:hisStage>
+<lb/><HIS:hisStage><hi rend="underlined">Thorgejr <anchor type="lemma" xml:id="koFj_12"/>sidder ved Fossen og spiller.</hi></HIS:hisStage>
+<lb/><HIS:hisStage><hi rend="underlined">Alfhild ligger tankefuld mellem Træ-
+<lb/>erne tilvenstre.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined">Thorgejr</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofisk strofe kortvers" an="single" met="bi+ ('5 '5)&sup2; ('5 '4)&sup2;" rhyme="(X A)&sup2; (X b)&sup2;">
+<l first="yes" met="&bue;-&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koFj_13"/>Det Kvad, som kvædes</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;" rhyme="A">I <anchor type="lemma" xml:id="koFj_13a"/>Fossen den stride, &dash;</l>
+<lb/><l met="&bue;-&bue;-&bue;" rhyme="X">Den Slaat, som ljomer</l>
+<lb/><l met="&bue;-&bue;-&bue;" rhyme="A">Langs Bjørkelide, &dash;</l>
+<lb/><l met="&bue;-&bue;-&bue;" rhyme="X">Den Laat, som lokker</l>
+<lb/><l met="&bue;-&bue;-" rhyme="b">I <anchor type="lemma" xml:id="koFj_14"/>Lauv og Bar,</l>
+<lb/><l met="-&bue;&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koFj_14a"/>Tykkes mig kræve</l>
+<lb/><l met="&bue;-&bue;&bue;-" rhyme="b">Et <anchor type="lemma" xml:id="koFj_15"/>Strengeleiksvar!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisStage><hi rend="underlined">Græsvolden aabner sig, Hougfolket kom-
+<lb/>mer <anchor type="lemma" xml:id="koFj_15a"/>sagte frem og lytter.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker rend="underlined"><anchor type="ht" xml:id="koFj_ht_4"/>Chor af Hougfolk</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofisk strofe kortvers" an="no" met="bi 3 3 7 3 3 7" rhyme="a a a b b b"><l first="yes" rhyme="a"><anchor type="lemma" xml:id="koFj_16"/>Hys! hør paa!</l>
+<lb/><l rhyme="a"><anchor type="lemma" xml:id="koFj_17"/>Hougfolk smaa</l>
+<lb/><l rhyme="a">Gjerne vil i Dansen gaa!</l>
+<lb/><l rhyme="b">Sommerkvæld</l>
+<lb/><l rend="indent1" rhyme="b"><pb n="[3]v"/>Duger vel</l>
+<lb/><l rhyme="b">Til et Stævne over Fjeld!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa engang.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg part="Y" versetype="strofisk strofe kortvers" an="single" met="bi+ '5" rhyme="X">
+<l met="&bue;-&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koFj_18"/>Det Kvad som kvædes</l>
+<lb/><l>o. s. v, &dash; o. s. v.</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="hu"/>Alfhild</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">drømmende</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofisk strofe kortvers" an="single" met="bi+ ('5 '5)&sup2; ('5 '4)&sup2;" rhyme="(X A)&sup2; (X b)&sup2;">
+<l first="yes" met="&bue;-&bue;-&bue;" rhyme="X">Det Kvad, som kvædes</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;" rhyme="A">I Fossen den stride, &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;" rhyme="X">Det tykkes mig rumme</l>
+<lb/><l met="&bue;-&bue;-&bue;" rhyme="A">Saa tung en <anchor type="lemma" xml:id="koFj_19"/>Kvide;</l>
+<lb/><l met="&bue;-&bue;-&bue;" rhyme="X">Den Laat, som ljomer</l>
+<lb/><l met="&bue;-&bue;-" rhyme="b">I Lauv og Bar,</l>
+<lb/><l met="-&bue;&bue;-&bue;" rhyme="X">Tykkes mig kræve</l>
+<lb/><l met="&bue;-&bue;-" rhyme="b">Fra <anchor type="lemma" xml:id="koFj_20"/>Bringen Svar!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker rend="underlined">Chor af Hougfolk</speaker>
+<lb/><HIS:hisStage>(<hi rend="underlined">idet de sagte <anchor type="lemma" xml:id="koFj_20a"/>nærme sig.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofisk strofegruppe kortvers" an="single" met="bi+ '5 '5 '5 '5" rhyme="X X X X | A B A B"><HIS:hisLg versetype="strofe" rhyme="X X X X">
+<l first="yes" met="-&bue;&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koFj_21"/>Alfhild, den <anchor type="lemma" xml:id="koFj_21a"/>Væne!</l>
+<lb/><l met="-&bue;-&bue;" rhyme="X">Stille, stille, &dash;</l>
+<lb/><l met="-&bue;&bue;-&bue;" rhyme="X">Væk hende ikke,</l>
+<lb/><l met="-&bue;&bue;-&bue;" rhyme="X">Lad hende drømme!</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B A B"><l met="-&bue;&bue;-&bue;" rhyme="A">Hør Strengen graater,</l>
+<lb/><l met="-&bue;&bue;-&bue;" rhyme="B">Hør Fossen kvæder!</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">Over Lien det laater</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;" rhyme="B">Mens Dandsen vi træder!</l></HIS:hisLg></HIS:hisLg></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:hisStage>(<hi rend="underlined">Thorgejr spiller, Alfhild synes drømmende
+<lb/>at lytte mens Hougfolket danser og gjen-
+<lb/>tager:</hi>)</HIS:hisStage>
+<lb/><HIS:hisLg part="Y" versetype="strofisk strofe kortvers" an="single" met="bi+ '5" rhyme="X">
+<l met="-&bue;&bue;-&bue;" rhyme="A">Hør Strengen graater</l>
+<lb/><l>o. s. v, &dash; o. s. v.</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined"><pb n="[4]r"/>Chor af Bryllupsgjæster</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">udenfor Scenen tilhøire i det Fjerne.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<l first="yes" met="&bue;-&bue;-&bue;-&bue;-" rhyme="x"><anchor type="lemma" xml:id="koFj_22"/>Vaagn op, vaagn op, du kristne Mand!</l>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue; &amp; &bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koFj_23"/><anchor type="lemma" xml:id="koFj_23a"/>Hvi sover du saa tungt og saa længe!</l></HIS:hisLg></HIS:hisSp>
+<lb/><join targets="HOUGFOLK_1 HOUGFOLK_2"/><HIS:hisSp who="HOUGFOLK" xml:id="HOUGFOLK_1"><HIS:spOpener><speaker rend="underlined">Chor af Hougfolk</speaker></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofisk strofe kortvers" an="no" met="bi 3 3 7 3 3 7" rhyme="a a a b b b" part="I"><l rend="indent1" first="yes" rhyme="a"><anchor type="ht" xml:id="koFj_ht_5"/><anchor type="lemma" xml:id="koFj_24"/>Huttetu!</l>
+<lb/><l rend="indent1" rhyme="a">Skræk og Gru</l>
+<lb/><l rend="indent1" rhyme="a">Fylder Hougafolkets <anchor type="lemma" xml:id="koFj_25"/>Hug!<note type="met">Urent rim.</note></l></HIS:hisLg></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa engang.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK" xml:id="HOUGFOLK_2"><HIS:hisLg versetype="strofisk strofe kortvers" an="no" met="bi 3 3 7 3 3 7" rhyme="a a a b b b" part="F"><l rend="indent1" rhyme="b"><anchor type="lemma" xml:id="koFj_26"/>Rap og snygg, &dash;</l>
+<lb/><l rend="indent1" rhyme="b">Hougens Ryg</l>
+<lb/><l rend="indent1" rhyme="b"><anchor type="lemma" xml:id="koFj_26a"/>Dølge dig; der er du tryg!</l></HIS:hisLg>
+<lb/><HIS:hisStage>(<hi rend="underlined">de <anchor type="lemma" xml:id="koFj_27"/>forsvinde.</hi>)</HIS:hisStage></HIS:hisSp>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined"><pb ed="hu"/>Chor af Bryllupsgjæster</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">fremdeles udenfor, men nærmere.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;-&bue;-" rhyme="x"><anchor type="lemma" xml:id="koFj_28"/>Vaagn op, vaagn op, du kristne Mand,</l>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue; &amp; &bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="X">Hvi sover du saa tungt og saa længe!</l></HIS:hisSp></HIS:hisLg>
+</HIS:hisStage>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><HIS:hisDel rend="overstrike">Alfhild</HIS:hisDel></speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined"><HIS:hisDel rend="overstrike">springer op.</HIS:hisDel></hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="X"><HIS:hisDel rend="overstrike">Hør; hvad er det? Opigjennem Dalen</HIS:hisDel></l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;" rhyme="R"><HIS:hisDel rend="overstrike">Drager saa fint et Følge!</HIS:hisDel></l>
+<lb/><l met="-&bue;-&bue;-&bue;&bue;-" rhyme="x"><HIS:hisDel rend="overstrike"><anchor type="lemma" xml:id="koFj_29"/>Aldrig saa jeg sligt før idag;</HIS:hisDel></l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="R"><HIS:hisDel rend="overstrike">Der er de; hvor skal jeg mig dølge!</HIS:hisDel></l>
+<lb/><HIS:hisStage>(<hi rend="underlined">Hun flygter ind i Lien til Venstre.</hi>)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisStage><hi rend="underlined"><HIS:stageRole who="IVAR">Ivar</HIS:stageRole>, <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>, <HIS:stageRole who="SVEND">Svend</HIS:stageRole> og <HIS:stageRole who="GJAESTER">Bryllupsgjæster</HIS:stageRole>
+<lb/>kommer ind fra Høire.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Chor af Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="a"><anchor type="lemma" xml:id="koFj_30"/>See hvor Berget bart og brat</l>
+<lb/><l met="-&bue;-&bue;-&bue;" rhyme="B">Staar i Kveldens Skygge!</l>
+<lb/><l met="-&bue;-&bue;-&bue;&bue;-" rhyme="a">Mørket falder; snart er det Nat;</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;-" rhyme="a"><pb n="[4]v"/>See deroppe; bag <anchor type="lemma" xml:id="koFj_31"/>Koll og Knat</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;" rhyme="B">Blaaner Jøklernes Rygge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="c">Husbond, vilde I lyde mit Ord, &dash;</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;-" rhyme="c">Nedigjen som en Vind <HIS:hisRef type="tcNote" xml:id="noteFj_1" target="Fjht_noter.xml" corresp="noteFj_1">i</HIS:hisRef> <anchor type="lemma" xml:id="koFj_31a"/>foer;</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D"><anchor type="lemma" xml:id="koFj_31b"/>Kom ihu, &dash; det er utrygt herinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="e">Og Sagnet siger at <anchor type="lemma" xml:id="koFj_32"/>Nøkkens Spil</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="e"><anchor type="lemma" xml:id="koFj_32a"/>Kværver hver den som herinde foer vild,</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D">Saa han aldrig kan ud igjen finde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="-&bue;-"><anchor type="lemma" xml:id="koFj_33"/>Vidløs Snak!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l part="M" met="&bue;-">Vend om!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="&bue;-" rhyme="f">Vend om!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="&bue;-&bue;-&bue;">Ja ned til Bygden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l part="M" met="&bue;-">Saa kom!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="&bue;-" rhyme="f">Saa kom!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker></HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="g">Øde laa Dalen i lange Aar;</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="g">Den som I søger, I aldrig naaer, &dash;</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;" rhyme="H">Husbond, dersom I vidste &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="-&bue;-&bue;">Naa, hvad er det?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="-&bue;&bue;-" rhyme="i">Sig du det frit!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined"><pb n="[5]r"/><pb ed="hu"/>Svend</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;-" rhyme="i">Dersom I kjendte bare lidt</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="H">Af det som jeg her maatte <anchor type="lemma" xml:id="koFj_34"/>friste! &dash;</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;" rhyme="X">Jeg jog de vilde Rener</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;" rhyme="J">Paa Vidden langt derinde;</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;" rhyme="X">Da ljomed <anchor type="lemma" xml:id="koFj_34a"/>lydt fra Juvet</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;" rhyme="J">Et Kvad, som fra en Kvinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="k">Forbandet er Dalen, alt fra den Stund</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="k">Da <anchor type="lemma" xml:id="koFj_36"/>Pesten mærked paa Pande og Mund</l>
+<lb/><l rend="indent1" met="&bue;-&bue;&bue;-&bue;" rhyme="J">Den Sidste herinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;-&bue;" rhyme="X">Jeg <anchor type="lemma" xml:id="koFj_37"/>glytted udfor Berget,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="L">Jeg saa i de stride Strømme;</l>
+<lb/><l part="I" met="&bue;-&bue;">Der sad hun &dash; &dash;</l>
+<lb/><HIS:hisStage>(<hi rend="underlined">han viser mod Baggrunden hvor Thorgejr
+<lb/>sidder; Alle faar Øie paa ham og viger
+<lb/>overraskede tilside.</hi>)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F" met="-&bue;-&bue;" rhyme="X">Thorgejr, Thorgejr!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;" rhyme="L">Ja, Husbond, &dash; nu kan I dømme!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="strofisk strofe kortvers" an="no" met="bi 3 4 3 3 4 5" rhyme="a B c a B c">
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">hviskende mellem hverandre.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="indent1" first="yes" rhyme="a"><anchor type="lemma" xml:id="koFj_38"/>Huldrelok,</l>
+<lb/><l rend="indent1" rhyme="B">Kvad fra Fossen</l>
+<lb/><l rend="indent1" rhyme="c">Har han lært!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined">Thorgejr</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">reiser sig og kommer frem.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="indent1" rhyme="a"><pb n="[5]v"/>Rap i Flok</l>
+<lb/><l rend="indent1" rhyme="B">Over Aasen,<note type="met">Urent rim.</note></l>
+<lb/><l rend="indent1" rhyme="c">Har I Livet kjært!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk trokeer" an="no" met="bi 4|5|6|7|8|9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" first="yes" met="4" rhyme="A"><anchor type="lemma" xml:id="koFj_39"/>Hør han truer!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Kvinderne</speaker>.</HIS:spOpener>
+<lb/><l met="7" rhyme="b"><anchor type="lemma" xml:id="koFj_40"/>Vee os dog at vi kom hid!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined">Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="A"><anchor type="lemma" xml:id="koFj_41"/>Hougafolkets Høitidsstuer</l>
+<lb/><l met="7" rhyme="b">Aabner sig ved Nattetid!</l>
+<lb/><l met="8" rhyme="C"><anchor type="lemma" xml:id="koFj_43"/>Hvis I lyster der at danse,</l>
+<lb/><l rend="indent1" met="4" rhyme="D">Jeg skal spille!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="4" rhyme="D">Stille, stille!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Kvinderne</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="C">Hu! Af Skræk jeg knapt kan sandse!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined"><pb ed="hu"/>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="7" rhyme="e">Ned til Bygden! Ned, ja ned!</l>
+<lb/><l met="7" rhyme="e">Her er et forbandet Sted!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined">Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l first="yes" met="&bue;-&bue;-&bue;-&bue;-" rhyme="f"><anchor type="lemma" xml:id="koFj_45"/>Forbandet; ja, I har det sagt!</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="G">Mennesket tør ei færdes herinde!</l>
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="f">Her blev <anchor type="lemma" xml:id="koFj_46"/>længst tilhvile lagt</l>
+<lb/><l met="&bue;-&bue;-&bue;-&bue;" rhyme="G">Den sidste Mand og Kvinde!</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;-" rhyme="h"><anchor type="lemma" xml:id="koFj_47"/>Landfarsotten fra Gaard til Gaard</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="I"><anchor type="lemma" xml:id="koFj_48"/>Feied for Døren og Folket døde;</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="h">Siden <anchor type="lemma" xml:id="koFj_49"/>randt baade Vinter og Vaar,</l>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;-&bue; &amp; &bue;-&bue;-&bue;-&bue;-&bue;" rhyme="I">Men endnu ligger Dalen øde!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk trokeer" an="no" met="bi 4|5|6|7|8|9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="Y" met="4"><anchor type="lemma" xml:id="koFj_50"/>Ned til Bygden, o. s. v.</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined"><pb n="[6]r"/>Thorgejr</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">til Ivar.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="j"><anchor type="lemma" xml:id="koFj_51"/><anchor type="lemma" xml:id="koFj_51a"/>Datter din staar med <anchor type="lemma" xml:id="koFj_51b"/>Guldkrone paa!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">rasende.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="j">Imorgen hun skulde for Alteret gaa;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="K">Men Brudgommen er ei at finde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined">Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;-" rhyme="l">Huldrens Hal har <anchor type="lemma" xml:id="koFj_52"/>en Port saa stærk;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="l">Der glemmes Alverdens Vee og Værk; &dash;</l>
+<lb/><l met="&bue;&bue;-&bue;-&bue;&bue;-&bue; &amp; -&bue;-&bue;-&bue;&bue;-&bue;" rhyme="K">Den som engang sidder derinde</l>
+<lb/><l rend="indent1" met="-&bue;-&bue;" rhyme="M">Aldrig kommer</l>
+<lb/><l met="-&bue;-&bue;&bue;&bue;-&bue;-&bue;" rhyme="M">Ud i Dagen, i den lyse Sommer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="-&bue;&bue;-&bue;" rhyme="M">Aldrig han kommer</l>
+<lb/><l met="-&bue;-&bue;&bue;&bue;-&bue;-&bue;" rhyme="M">Ud i Dagen, i den lyse Sommer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;-&bue;-&bue;-&bue;" rhyme="N">Slaa ham ned, han <anchor type="lemma" xml:id="koFj_52a"/>spaar os i<HIS:hisDel rend="overwritten">d</HIS:hisDel>lde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="-&bue;-&bue;" rhyme="N">Stille, stille!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="o">Længer, længer frem endnu,</l>
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="o">Skjønt vi gaar <anchor type="lemma" xml:id="koFj_53"/>m<unclear reason="writing">e</unclear>d Skræk ihug!</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;" rhyme="P">Knut Skytte, Knut Skytte!</l>
+<lb/><l met="-&bue;-&bue;-&bue;-&bue;" rhyme="P">Tyst paa Bergets Port du <anchor type="lemma" xml:id="koFj_54"/>glytte!</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="Q">Vi raaber dit Navn i <anchor type="lemma" xml:id="koFj_55"/>Kvælden den svale &dash;</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="Q">Blund ikke længer i Huldrens Sale!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(<hi rend="underlined">Thorgejr forsvinder ved Elven; de Øvrige gaar
+<lb/>ud til Venstre; <anchor type="lemma" xml:id="koFj_56"/>Efterspillet glider sagte over
+<lb/>i følgende:</hi>)</HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker rend="underlined"><pb n="[6]v"/>Usynligt Chor af Hougfolk</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="-&bue;&bue;-&bue;" rhyme="M">Aldrig han kommer</l>
+<lb/><l met="-&bue;-&bue;&bue;&bue;-&bue;-&bue;" rhyme="M">Ud i Dagen, &dash; i den lyse Sommer!</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisStage><pb ed="hu"/><hi rend="underlined">Alfhild og Knut kommer tilsyne oppe i
+<lb/>Lien tilvenstre.</hi></HIS:hisStage>
+<HIS:hisLg versetype="stikisk trokeer" an="no" met="bi 4|5|6|7|8|9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><l first="yes" met="8" rhyme="R"><anchor type="lemma" xml:id="koFj_57"/>Hør derborte, langt derborte!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker></HIS:spOpener>
+<lb/><l met="8" rhyme="S">Ja, <anchor type="lemma" xml:id="koFj_58"/>som Laat af Lur og Klokker!</l>
+<lb/><l met="8" rhyme="R">Mænd og Kvinder <anchor type="lemma" xml:id="koFj_59"/>den Forgjorte</l>
+<lb/><l met="6" rhyme="S">Ud af Berget lokker.</l>
+<lb/><l met="8" rhyme="T">Lad dem kvæde, lad dem lokke;</l>
+<lb/><l met="8" rhyme="T">Lad de glemte Minder flokke</l>
+<lb/><l rend="indent1" met="4" rhyme="U">Sig og klinge</l>
+<lb/><l rend="indent1" met="4" rhyme="U">I min <anchor type="lemma" xml:id="koFj_60"/>Bringe, &dash;</l>
+<lb/><l met="8" rhyme="V"><anchor type="lemma" xml:id="koFj_61"/>Lukt er Bygden nedenunder,</l>
+<lb/><l met="6" rhyme="V">Aldrig did jeg <anchor type="lemma" xml:id="koFj_61a"/>stunder!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><l first="yes" met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="W"><anchor type="lemma" xml:id="koFj_62"/><anchor type="lemma" xml:id="koFj_62a"/>Vent som et Vaarkvad i Lærkemunde</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="Y">Mægter du dine Ord at <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>knytte;</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="W">Fugl i Furru og <anchor type="lemma" xml:id="koFj_62b"/>Lauv i Lunde</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="Y"><anchor type="lemma" xml:id="koFj_62c"/>Tykkes mig <anchor type="lemma" xml:id="koFj_62d"/>tystne, tykkes mig lytte!</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="Z">Vist har du hjemme langt derborte</l>
+<lb/><l rend="indent1" met="&bue;-&bue;&bue;-&bue;" rhyme="Z">Bag <anchor type="lemma" xml:id="koFj_63"/>Skogen den sorte!</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="a'">Vist er du <anchor type="lemma" xml:id="koFj_64"/>Svenden fager og god,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B'">Som prises i Sagn og Sange, &dash;</l>
+<lb/><l met="-&bue;-&bue;&bue;&bue;-&bue;&bue;- &amp; &bue;&bue;-&bue;-&bue;-&bue;&bue;-" rhyme="a'">Han som <anchor type="lemma" xml:id="koFj_65"/>Hugen min har stundet imod</l>
+<lb/><l rend="indent1" met="-&bue;-&bue;-" rhyme="B'">I <anchor type="lemma" xml:id="koFj_66"/>Nætter lange!</l>
+<lb/><figure type="num"/>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="c'"><pb n="[7]r"/>I Lien spratt baade <anchor type="lemma" xml:id="koFj_66a"/>Rogn og <anchor type="lemma" xml:id="koFj_66b"/>Hæg,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-" rhyme="d'">Der <anchor type="lemma" xml:id="koFj_67"/>rødned Multer i Myr,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="c'">Jeg hvilte saa lunt under Bergets Væg,</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;-" rhyme="d'">Jeg var Søster til Skogens Dyr;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="e'">Og <anchor type="lemma" xml:id="koFj_68"/>Gubben fra Fossen isøvn mig kvad</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="F'"><anchor type="lemma" xml:id="koFj_69"/>Alt med sine Viser saa <anchor type="lemma" xml:id="koFj_69a"/>vene, &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="e'">Det voldte <anchor type="lemma" xml:id="koFj_70"/>jeg gik baade varm og glad,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="F'">Og glemte jeg var alene!</l>
+<lb/><figure type="num"/>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="g'">Han kvad om en Slægt, jeg aldrig saa, &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-" rhyme="h'">Om Kvinder og stærke Mænd,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="g'"><pb ed="hu"/>Om Noget jeg tidt maa tænke paa &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-" rhyme="h'">Om <anchor type="lemma" xml:id="koFj_71"/>Elskog; sig, kjender du den?</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="i'">Han kvad om en Dal, jeg aldrig har kjendt,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="J'">Han kaldte den <anchor type="lemma" xml:id="koFj_71a"/>Verden den vide, &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="i'">Det voldte jeg gik baade tidligt og sent</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="J'"><anchor type="ht" xml:id="koFj_ht_6"/>Og bar paa en lønlig <anchor type="lemma" xml:id="koFj_71b"/>Kvide!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="k'">Jeg <anchor type="lemma" xml:id="koFj_72"/>aatte Gaard og jeg aatte Guld,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-" rhyme="l'">De gav mig en <anchor type="lemma" xml:id="koFj_73"/>Fæstemø;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="k'">Men endda var Hugen min tung og fuld, &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-" rhyme="l'">Jeg rømte fra Brud og <anchor type="lemma" xml:id="koFj_74"/>Bø!</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="m'">I <anchor type="lemma" xml:id="koFj_74a"/>Vildske jeg vandred; da fandt jeg dig,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="N'">Min fagreste <anchor type="lemma" xml:id="koFj_75"/>Sommerglæde!</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="m'"><anchor type="lemma" xml:id="koFj_76"/>Ret aldrig saa gaar Knut Skyttes Vei</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;" rhyme="N'">Til <anchor type="lemma" xml:id="koFj_77"/>Kristenlandet dernede!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="strofisk strofegruppe trokeer" an="no" met="bi 8 4 8 4 4 4 4 8 8" rhyme="(A B B X C X C A A) | (A B B C C X C A A)">
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>
+<lb/><HIS:hisStage>(<hi rend="underlined">jublende.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l first="yes" rhyme="A"><anchor type="lemma" xml:id="koFj_78"/>Han er funden, han er funden,</l>
+<lb/><l rend="indent1" rhyme="B"><pb n="[7]v"/>Han som længe</l>
+<lb/><l rhyme="B">Lokked <anchor type="lemma" xml:id="koFj_78a"/>bagved Gubbens Strenge;</l>
+<lb/><l rend="indent1" rhyme="X">Han som tyktes</l>
+<lb/><l rend="indent1" rhyme="C">Mig at tale</l>
+<lb/><l rend="indent1" rhyme="X">Gjennem Trost og</l>
+<lb/><l rend="indent1" rhyme="C">Stær <anchor type="lemma" xml:id="koFj_79"/>i Dale!</l>
+<lb/><l rhyme="A">Han er funden, han er funden!</l>
+<lb/><l rhyme="A">Nu er <anchor type="lemma" xml:id="koFj_80"/>Alfhilds Vaar <anchor type="lemma" xml:id="koFj_80a"/>oprunden!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l rhyme="A">Hun er funden, hun er funden!</l>
+<lb/><l rend="indent1" rhyme="B">Fin og fager,</l>
+<lb/><l rhyme="B"><anchor type="lemma" xml:id="koFj_81"/>Sommerlys, som <anchor type="lemma" xml:id="koFj_81b"/>Blom i Ager!</l>
+<lb/><l rend="indent1" rhyme="X">Aldrig vil jeg</l>
+<lb/><l rend="indent1" rhyme="C">Hjemmet savne,</l>
+<lb/><l rend="indent1" rhyme="X">Kan jeg vaagen</l>
+<lb/><l rend="indent1" rhyme="C">Hende favne!</l>
+<lb/><l rhyme="A">Hun er funden, hun er funden!</l>
+<lb/><l rhyme="A">Fagrest Vaar for mig er <anchor type="lemma" xml:id="koFj_81a"/>runden!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa engang.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="hu"/>Alfhild</speaker></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" part="Y"><l rhyme="A">Han er funden, han er funden!</l>
+<lb/><l rend="indent1" rhyme="B">Han som længe</l>
+<lb/><l rhyme="B">Lokked bagved Gubbens Strenge;</l>
+<lb/><l rend="indent1">o. s. v; o. s. v.</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" part="Y"><l rhyme="A">Hun er funden, hun er funden!</l>
+<lb/><l rend="indent1" rhyme="B">Fin og fager,</l>
+<lb/><l rhyme="B">Sommerlys, som Blom i Ager!</l>
+<lb/><l rend="indent1">o. s: v; o. s. v.</l></HIS:hisLg></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisStage><hi rend="underlined"><HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole> og <HIS:stageRole who="SVEND">Svend</HIS:stageRole> er under det Foregaaende
+<lb/>kommet frem oppe i Lien tilvenstre.</hi></HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa engang.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker rend="underlined"><pb n="[8]r"/>Ingeborg</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l rhyme="A">Han er funden, han er funden!</l>
+<lb/><l rend="indent1" rhyme="B">See, en Kvinde</l>
+<lb/><l rhyme="B"><anchor type="lemma" xml:id="koFj_82"/>Monne her ham <anchor type="lemma" xml:id="koFj_83"/>trolddomsb<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>inde!</l>
+<lb/><l rend="indent1" rhyme="X">Hun forvist har</l>
+<lb/><l rend="indent1" rhyme="C"><anchor type="lemma" xml:id="koFj_84"/>Fult ham fristet,</l>
+<lb/><l rend="indent1" rhyme="X">Saa han Sind og</l>
+<lb/><l rend="indent1" rhyme="C">Sands har mistet!</l>
+<lb/><l rhyme="A">Han er funden, han er funden!</l>
+<lb/><l rhyme="A"><anchor type="lemma" xml:id="koFj_85"/>Tungest Dag for mig er runden!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" part="Y"><l rhyme="A">Han er funden, han er funden!</l>
+<lb/><l rend="indent1" rhyme="B">H<HIS:hisDel rend="overwritten"><unclear>u</unclear></HIS:hisDel>an som længe</l>
+<lb/><l rhyme="B">Lokked bagved Gubbens Strenge!</l>
+<lb/><l rend="indent1">o. s. v; o. s. v.</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" part="Y"><l rhyme="A">Hun er funden, hun er funden!</l>
+<lb/><l rend="indent1" rhyme="B">Fin og fager,</l>
+<lb/><l rhyme="B">Sommerlys, som Blom i Ager!</l>
+<lb/><l rend="indent1">o. s. v; o. s. v.</l></HIS:hisLg></HIS:hisSp>
+</HIS:hisStage>
+</HIS:hisLg>
+<lb/><HIS:hisStage>(<hi rend="underlined">Ingeborg og Svend skynde sig usete ud igjen
+<lb/>til Venstre.</hi>)</HIS:hisStage>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.</HIS:spOpener>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><l first="yes" met="-&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue;" rhyme="X"><anchor type="lemma" xml:id="koFj_86"/>Lunt <anchor type="lemma" xml:id="koFj_86a"/>under Bakken vil jeg bygge vor Stue,</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">Her vil vi færdes tilsammen, &dash;</l>
+<lb/><l met="-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="X">Færdes frit som Rener paa Vidden</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;" rhyme="A">Bag <anchor type="lemma" xml:id="koFj_87"/>Jøkulkammen!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="b">Nei, bag Bergets Iskam blaa,</l>
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="b"><pb ed="hu"/>Langt i Livet ud jeg maa!</l>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;-" rhyme="c"><pb n="[8]v"/><anchor type="ht" xml:id="koFj_ht_8"/>Alfhilds Dal er mig nu for trang,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="c">I Verdens Dal, der er Leg og Sang!</l></HIS:hisLg>
+<lb/><figure type="num"/>
+<HIS:hisLg versetype="strofisk strofe kortvers Buchnervers" an="no" met="tri 5 5 7 6 6 6 6 7" rhyme="A A b Cc Cc Dd Dd b">
+<lb/><l rend="indent1" first="yes" rhyme="A"><anchor type="lemma" xml:id="koFj_88"/>Udad i Verden!</l>
+<lb/><l rend="indent1" rhyme="A">Trofast paa Færden</l>
+<lb/><l rhyme="b">Kom og min <anchor type="lemma" xml:id="koFj_89"/>Styrismand bliv!</l>
+<lb/><l rend="indent1" rhyme="Cc">Høit over Heiene</l>
+<lb/><l rend="indent1" rhyme="Cc">Bugter sig Veiene, &dash;</l>
+<lb/><l rend="indent1" rhyme="Dd">Der vi lig svømmende</l>
+<lb/><l rend="indent1" rhyme="Dd">Skyer og strømmende</l>
+<lb/><l rend="indent1" rhyme="b">Bække vil stævne til Liv!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.</HIS:spOpener>
+<HIS:hisLg versetype="strofisk strofe kortvers Buchnervers" an="no" met="tri 5 5 7 6 6 6 6 7" rhyme="A A b Cc Cc Dd Dd b">
+<lb/><l rend="indent1" rhyme="A">Ja, jeg vil følge,</l>
+<lb/><l rend="indent1" rhyme="A"><anchor type="lemma" xml:id="koFj_90"/>Ingen fordølge</l>
+<lb/><l rhyme="b">Skatten, herinde jeg vandt!</l>
+<lb/><l rend="indent1" rhyme="Cc">Hidop skal <anchor type="lemma" xml:id="koFj_91"/>skyndte sig</l>
+<lb/><l rend="indent1" rhyme="Cc">Kvinder at pynte dig;</l>
+<lb/><l rend="indent1" rhyme="Dd"><anchor type="lemma" xml:id="koFj_92"/>Svende skal følges <HIS:clarification place="inline">a</HIS:clarification>d,</l>
+<lb/><l rend="indent1" rhyme="Dd">Prise med høie Kvad<note type="met">Urent rim.</note></l>
+<lb/><l rend="indent1" rhyme="b">Alfhild, den Fagre, <anchor type="lemma" xml:id="koFj_93"/>forsandt!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Chor af Gjæsterne</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">udenfor til Venstre.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofisk strofe trokeer" part="Y" an="no" met="bi 8 8" rhyme="A A"><l rhyme="A"><anchor type="lemma" xml:id="koFj_94"/>Han er funden, han er funden!</l>
+<lb/><l rhyme="A">Nu er <anchor type="lemma" xml:id="koFj_95"/>Hædersdagen <anchor type="lemma" xml:id="koFj_95a"/>runden!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisLg versetype="strofisk strofe kortvers" an="single" met="bi+ '4 '4 '4 '4 '8 '5 '5 '5 '4" rhyme="a b a b c D D D c">
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">der ligesom kommer til sig selv.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="indent1" first="yes" met="-&bue;-" rhyme="a"><anchor type="lemma" xml:id="koFj_96"/>Vee mig; vee!</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-" rhyme="b">Min Drøm er endt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">i høieste Glæde.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/>
+<lb/><l rend="indent1" met="-&bue;-" rhyme="a">See dog, see!</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-" rhyme="b">O, hør hvor <anchor type="lemma" xml:id="koFj_96a"/>veent!</l>
+<lb/><l met="-&bue;-&bue;-&bue;-" rhyme="c">Mænd og Kvinder paa dit Bud</l>
+<lb/><l rend="indent1" met="-&bue;&bue;-&bue;" rhyme="D">Kommer med Kvæder</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;" rhyme="D">I Høitidsklæder</l>
+<lb/><l rend="indent1" met="-&bue;-&bue;" rhyme="D">Dig til Hæder</l>
+<lb/><l rend="indent1" met="&bue;-&bue;&bue;-" rhyme="c">At hente din Brud!</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisStage><pb ed="hu"/><hi rend="underlined"><HIS:stageRole who="IVAR">Ivar</HIS:stageRole>, <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>, <HIS:stageRole who="SVEND">Svend</HIS:stageRole> og <HIS:stageRole who="GJAESTER">Gjæsterne</HIS:stageRole> kom-
+<lb/>mer ind fra Venstre. Alfhild staar noget
+<lb/>afsides tilhøire uden at bemærkes og følger
+<lb/>i høieste Spænding det følgende Optrin
+<lb/>uden dog at høre hvad <anchor type="lemma" xml:id="koFj_96b"/>der handles
+<lb/>om.</hi></HIS:hisStage>
+<HIS:hisLg versetype="stikisk trokeer" an="no" met="bi 4|5|6|7|8|9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined"><anchor type="ht" xml:id="koFj_ht_1"/>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l first="yes" met="8" rhyme="A"><anchor type="lemma" xml:id="koFj_97"/>Nu er <anchor type="lemma" xml:id="koFj_97a"/>Fæstemanden funden</l>
+<lb/><l met="8" rhyme="A">Der han gik som <anchor type="lemma" xml:id="koFj_97b"/>trolddomsbunden!</l>
+<lb/><l rend="indent1" met="4" rhyme="B">Endt er Sorgen;</l>
+<lb/><l met="8" rhyme="B">Spil og Dands fra tidligst Morgen</l>
+<lb/><l met="7" rhyme="c">Lyde skal i Bryllupsgaard!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">til Svend.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l met="7" rhyme="c">See hvor <anchor type="lemma" xml:id="koFj_98"/>hjerteklemt han staar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">til Knut.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I"><anchor type="lemma" xml:id="koFj_99"/>Hvad er mødt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">afsides.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" met="8" rhyme="D">Hvad skal jeg svare!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="D">Siden kan I Tingen klare;</l>
+<lb/><HIS:hisStage><pb n="[9]v"/>(<hi rend="underlined">til Knut.</hi>)</HIS:hisStage>
+<lb/><l rend="indent1" met="8" rhyme="E">Hjemad nu, dit Ord at holde!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">sagte og smærteligt med et Blik paa Alfhild.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l first="yes" met="&bue;-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="E"><anchor type="lemma" xml:id="koFj_100"/>Og hende jeg maa slig <anchor type="lemma" xml:id="koFj_100a"/>Kvide volde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="f">Præsten venter og Dugen er bredt</l>
+<lb/><l rend="indent2" met="&bue;-&bue;-" rhyme="g">Paa Bryllupsbord;</l>
+<lb/><l rend="indent1" met="-&bue;-&bue;&bue;-&bue;-" rhyme="f">Kirkestien er snar og let;</l>
+<lb/><l rend="indent1" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="g">Imorgen skal høres <anchor type="lemma" xml:id="koFj_101"/>i høien Kor</l>
+<lb/><l rend="indent2" met="&bue;-&bue;&bue;-&bue;-" rhyme="g">De hellige Vigselsord!</l>
+<lb/><l rend="indent2" met="&bue;-&bue;&bue;-" rhyme="h">Kom, følg os, &dash; afsted!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisLg versetype="stikisk trokeer" an="no" met="bi 4|5|6|7|8|9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">kjæmpende med sig selv.</hi>)</HIS:hisStage></HIS:spOpener>
+<lb/><l first="yes" met="9" rhyme="h"><anchor type="lemma" xml:id="koFj_102"/>Ja jeg følger; men &dash; hun følger med!</l>
+<lb/><HIS:hisStage>(<hi rend="underlined">han peger paa Alfhild som træder nærmere;
+<lb/>Alle <anchor type="lemma" xml:id="koFj_102a"/>vige sky tilbage.</hi>)</HIS:hisStage>
+</HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="8" rhyme="I">Ha, en Kvinde! Det er hende,</l>
+<lb/><l rend="indent1" met="8" rhyme="I">Som har vidst <anchor type="lemma" xml:id="koFj_103"/>hans Hug at vende</l>
+<lb/><l rend="indent2" met="5" rhyme="j">Fra hans Hjertenskjær!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="7" rhyme="j"><anchor type="lemma" xml:id="koFj_104"/>Ligemeget hvem hun er.</l>
+<lb/><l rend="indent1" met="8" rhyme="K">Med til Bygden skal hun følge!</l>
+<lb/><HIS:hisStage>(<hi rend="underlined">afsides til Knut.</hi>)</HIS:hisStage>
+<lb/><l rend="indent1" met="8" rhyme="K">Hvad dig hendte maa du <anchor type="lemma" xml:id="koFj_104a"/>dølge;</l>
+<lb/><l rend="indent2" met="5" rhyme="j">Husk, din Brud er nær!</l></HIS:hisSp>
+<lb/><join targets="ALFHILD_1 ALFHILD_2"/><HIS:hisSp who="ALFHILD" xml:id="ALFHILD_1"><HIS:spOpener><speaker rend="underlined"><pb ed="hu"/>Alfhild</speaker>.
+<lb/><HIS:hisStage>(<hi rend="underlined">til Thorgejr som ubemærket
+<lb/>har blandet sig i Flokken.</hi>)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa engang.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD" xml:id="ALFHILD_2"><l met="8" rhyme="L"><pb n="[10]r"/>Han er funden, han er funden,</l>
+<lb/><l met="8" rhyme="L">Han som laa lig Guld paa Bunden</l>
+<lb/><l met="5" rhyme="m">Af min <anchor type="lemma" xml:id="koFj_105"/>Tankestrøm!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="I">Det er hende, det er hende,</l>
+<lb/><l part="Y" met="3">Som har vidst o. s. v.</l></HIS:hisSp>
+</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa engang.</hi></HIS:hisStage>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined">Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="N">Vee, da vil din Vaarblom visne;</l>
+<lb/><l met="8" rhyme="N">Da vil Verdens Vinter isne</l>
+<lb/><l met="5" rhyme="m">Over al din Drøm!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="K">Med til Bygden maa hun følge!</l>
+<lb/><l met="8" rhyme="K">Ei i Kirken vil sig dølge</l>
+<lb/><l met="5" rhyme="j">Længe hvem hun er!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined">Knut</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="K"><anchor type="lemma" xml:id="koFj_105a"/>Vee mig; Alfhild med vil følge!</l>
+<lb/><l met="8" rhyme="K">Ei i Kirken kan sig dølge,</l>
+<lb/><l met="5" rhyme="j">Hvem som Bruden er!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="K">Ei jeg vil for Altret følge</l>
+<lb/><l met="8" rhyme="K">Ham, som <anchor type="lemma" xml:id="koFj_105b"/>monne her sig dølge</l>
+<lb/><l met="5" rhyme="j">Hos sin Hjertenskjær!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><l met="8" rhyme="K">Fagre Ingeborg skal følge</l>
+<lb/><l met="8" rhyme="K">Ham som <anchor type="lemma" xml:id="koFj_105c"/>Viv, og jeg maa dølge</l>
+<lb/><l met="5" rhyme="j">Al den Vee <anchor type="lemma" xml:id="koFj_106"/>jeg bær!</l></HIS:hisSp>
+</HIS:hisStage></HIS:hisLg>
+<lb/><HIS:hisStage>(<hi rend="underlined">Tusmørket er nu paa det Høieste og
+<lb/>begynder igjen saa smaat at aftage.
+<lb/>Hougfolket viser sig oppe i Lierne
+<lb/>i Baggrunden.</hi>)</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">paa en-</hi></HIS:hisStage>
+<HIS:hisLg versetype="strofisk strofegruppe trokeer" an="no" met="bi 8 4 8 4 4 4 4 8 8" rhyme="(A B B X C X C A A) | (A B B C C X C A A)">
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb n="[10]v"/><anchor type="ht" xml:id="koFj_ht_2"/>Alfhild</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l first="yes" rhyme="A"><anchor type="lemma" xml:id="koFj_107"/>Han er kommen, han er funden,</l>
+<lb/><l rend="indent1" rhyme="B">Han, som længe</l>
+<lb/><l rhyme="B">Sang til mig fra dine Strenge!</l>
+<lb/><l rend="indent1" rhyme="X">Verdens Lykke</l>
+<lb/><l rend="indent1" rhyme="C"><anchor type="lemma" xml:id="koFj_108"/>Vént m<HIS:clarification place="inline">i</HIS:clarification>g lokker</l>
+<lb/><l rend="indent1" rhyme="X">Gjennem <anchor type="lemma" xml:id="koFj_109"/>Laat af</l>
+<lb/><l rend="indent1" rhyme="C">Lur og Klokker!</l>
+<lb/><l rhyme="A">Han er kommen, han er funden!</l>
+<lb/><l rhyme="A">Nu er <anchor type="ht" xml:id="koFj_ht_7"/><anchor type="lemma" xml:id="koFj_109a"/>Alfhilds Vaar <anchor type="lemma" xml:id="koFj_109b"/>oprunden!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker rend="underlined"><pb ed="hu"/><anchor type="ht" xml:id="koFj_ht_3"/>Knut</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l rhyme="A"><anchor type="lemma" xml:id="koFj_110"/>Tankestjaalen, <anchor type="lemma" xml:id="koFj_110a"/>trolddomsbunden</l>
+<lb/><l rend="indent1" rhyme="B">Gik jeg længe,</l>
+<lb/><l rhyme="B"><anchor type="lemma" xml:id="koFj_111"/>Gad mig ud fra Livet stænge;</l>
+<lb/><l rend="indent1" rhyme="X">Lys og Fred var</l>
+<lb/><l rend="indent1" rhyme="C">I min <anchor type="lemma" xml:id="koFj_111a"/>Bringe,</l>
+<lb/><l rend="indent1" rhyme="X"><anchor type="lemma" xml:id="koFj_111b"/>Kvide nu mig</l>
+<lb/><l rend="indent1" rhyme="C"><anchor type="lemma" xml:id="koFj_112"/>Hart <anchor type="lemma" xml:id="koFj_112a"/>mon stinge;</l>
+<lb/><l rhyme="A">Endt er Skyttens Liv i Lunden;</l>
+<lb/><l rhyme="A"><anchor type="lemma" xml:id="koFj_112b"/>Tungest Dag for mig er <anchor type="lemma" xml:id="koFj_112c"/>runden!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Svend</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B C C X C A A"><l rhyme="A">Han er funden, han er funden!</l>
+<lb/><l rend="indent1" rhyme="B">Her en Kvinde</l>
+<lb/><l rhyme="B"><anchor type="lemma" xml:id="koFj_113"/>Monne <anchor type="lemma" xml:id="koFj_113a"/>fult ham <anchor type="lemma" xml:id="koFj_113b"/>trolddomsbinde!</l>
+<lb/><l rend="indent1" rhyme="C">Fra imorgen,</l>
+<lb/><l rend="indent1" rhyme="C">Fra imorgen</l>
+<lb/><l rend="indent1" rhyme="X">Fast jeg lænkes</l>
+<lb/><l rend="indent1" rhyme="C">Skal til Sorgen!</l>
+<lb/><l rhyme="A"><anchor type="lemma" xml:id="koFj_113c"/>Vee mig, vee, at han blev funden;</l>
+<lb/><l rhyme="A">Tungest Dag for mig er runden!</l></HIS:hisLg></HIS:hisSp></HIS:hisLg>
+</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft"><hi rend="underlined">-gang.</hi></HIS:hisStage>
+<HIS:hisLg versetype="strofisk strofegruppe trokeer" an="no" met="bi 8 4 8 4 4 4 4 8 8" rhyme="(A B B X C X C A A) | (A B B C C X C A A)">
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker rend="underlined"><pb n="[11]r"/>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l rhyme="A">Nu er Prøvens Dag <anchor type="lemma" xml:id="koFj_113d"/>oprunden!</l>
+<lb/><l rend="indent1" rhyme="B">Her du længe</l>
+<lb/><l rhyme="B">Leved af min <anchor type="lemma" xml:id="koFj_114"/>Leik paa Strenge;</l>
+<lb/><l rend="indent1" rhyme="X">Nu du færdes</l>
+<lb/><l rend="indent1" rhyme="C">Skal saa vide,</l>
+<lb/><l rend="indent1" rhyme="X"><anchor type="lemma" xml:id="koFj_115"/>Friste Verdens</l>
+<lb/><l rend="indent1" rhyme="C">Vee og <anchor type="lemma" xml:id="koFj_115a"/>Kvide;</l>
+<lb/><l rhyme="A">Men er Slottet brændt til Grunden,</l>
+<lb/><l rhyme="A">Mig du ser i Trængselsstunden!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker> <hi rend="underlined">og</hi> <speaker rend="underlined">Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B C C X C A A"><l rhyme="A">Nu er <anchor type="lemma" xml:id="koFj_115b"/>Fæstemanden funden!</l>
+<lb/><l rend="indent1" rhyme="B">Her han længe</l>
+<lb/><l rhyme="B">Lyttet har til Trolddomsstrenge;</l>
+<lb/><l rend="indent1" rhyme="C">Men imorgen,</l>
+<lb/><l rend="indent1" rhyme="C">Ja, imorgen</l>
+<lb/><l rend="indent1" rhyme="X"><pb ed="hu"/>Skal vi glemme</l>
+<lb/><l rend="indent1" rhyme="C">Frygt og Sorgen!</l>
+<lb/><l rhyme="A">Ned til Bygden gjennem Lunden</l>
+<lb/><l rhyme="A">Gaar vor Færd i Midnatsstunden!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker rend="underlined">Chor af Hougfolk</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" rhyme="A B B X C X C A A"><l rhyme="A"><anchor type="lemma" xml:id="koFj_116"/>Hil og sæl i Afskedsstunden!</l>
+<lb/><l rend="indent1" rhyme="B">Did, du stævner,</l>
+<lb/><l rhyme="B">Ei at følge dig vi evner!</l>
+<lb/><l rend="indent1" rhyme="X">Efter Lykken</l>
+<lb/><l rend="indent1" rhyme="C">Vil du jage;</l>
+<lb/><l rend="indent1" rhyme="X">Ak, du <anchor type="lemma" xml:id="koFj_117"/>fanger</l>
+<lb/><l rend="indent1" rhyme="C">Vee og Klage!</l>
+<lb/><l rhyme="A">Snart din fagre Drøm er svunden;</l>
+<lb/><l rhyme="A">Gjæst da os i Trængselsstunden!</l></HIS:hisLg></HIS:hisSp></HIS:hisLg>
+</HIS:hisStage>
+<lb/><HIS:hisStage><pb n="[11]v"/>(<hi rend="underlined">Hougfolket vinker med Blomster og <HIS:hisDel rend="overwritten">g</HIS:hisDel>Grene
+<lb/>idet Alfhild med høi Glæde følger de
+<lb/>Bortdragende, som alle gaar ud til
+<lb/>Høire, undtagen Thorgejr, der bliver
+<lb/>tankefuld tilbage ved Elven.</hi>)</HIS:hisStage></div>
+<lb/><figure type="bar"/>
+<div type="scene" n="2">
+<lb/><HIS:hisStage>(<HIS:hisDel hand="HI-h2" rend="overstrike">Dekorationsforandring</HIS:hisDel>.)</HIS:hisStage>
+</div>
+</div>
+<div type="act" n="2" scribe="HI-h2">
+<lb/><head><pb ed="hu"/><hi rend="underlined">2<hi rend="raised">den</hi> Akt</hi>.</head>
+<div type="scene" n="1">
+<lb/><HIS:hisStage>Tunet ved Ivars Gaard. Stuebygningen sees i Mellem-
+<lb/>grunden tilhøjre; Staburet og andre Huse tilven-
+<lb/>stre. I Baggrunden <anchor type="lemma" xml:id="koFj_118"/>en tyk Li med Fjeldrygge
+<lb/>ovenover. Det er mod Aften. &dash;</HIS:hisStage>
+<lb/><HIS:hisStage>Otte Brudepiger kommer fra Staburet med Ingeborg i Brudedragt.</HIS:hisStage>
+<HIS:hisLg versetype="stikisk folkevisevers" an="single" met="bi++ '4|'5|'6|'7|'8|'9" rhyme="r|R|x|X">
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined">Pigerne</speaker>.</HIS:spOpener>
+<lb/><l first="yes" met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A"><anchor type="lemma" xml:id="koFj_119"/>Nu er hun pyntet med Søljer og Krone,</l></HIS:hisSp>
+<lb/><HIS:hisStage>(<anchor type="lemma" xml:id="koFj_119b"/>Otte <anchor type="lemma" xml:id="koFj_119a"/>Brudesvende kommer med Knut Skytte fra Huset)</HIS:hisStage>
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined">Svendene</speaker></HIS:spOpener>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">Nu er han færdig at hente sin Kone.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined">Fælles Kor</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="b">Idag er der <anchor type="lemma" xml:id="koFj_120"/>Gammen i Gildegaard;</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="b">Glemt er hver Sorg som os gnaged igaar.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker></HIS:spOpener>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="c">Værre Sorger mig gnager idag.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker><pb n="[12]r"/>Knut</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" met="-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="c">Sad jeg deroppe bag <anchor type="lemma" xml:id="koFj_121"/>Skavlens Flak &dash;</l>
+<lb/><l rend="indent2" met="-&bue;&bue;-&bue;" rhyme="D">Langt langt deroppe</l>
+<lb/><l rend="indent2" met="&bue;-&bue;&bue;-&bue;" rhyme="D">Bag Granskogens Toppe &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Kor</speaker>.</HIS:spOpener>
+<lb/><l rend="indent1" part="Y" met="&bue;-&bue;&bue;-&bue;">Idag er <HIS:hisAdd place="inline">d<unclear reason="writing">er</unclear></HIS:hisAdd> Gammen o. s. v &dash;</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Ivar og Svend kommer fra Høire.)</HIS:hisStage>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l part="I" met="&bue;-&bue;&bue;-">Er Borddugen bredt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker></HIS:spOpener>
+<lb/><l part="F" met="&bue;-&bue;-" rhyme="e">Ja, Husbond, ja!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="x">Og <anchor type="lemma" xml:id="koFj_122"/>Øllet, skummer det stærkt og <anchor type="lemma" xml:id="koFj_123"/>fedt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l met="&bue;-&bue;-" rhyme="e">Ja, Husbond, ja!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker rend="underlined">Ivar</speaker>.</HIS:spOpener>
+<lb/><l met="-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="F">Kirkevejen er lang at ride, &dash;</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="F">Af<HIS:hisDel rend="overwritten"><unclear>st</unclear></HIS:hisDel>gaarde maa vi ved Nattetide; &dash;</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="g">Færden skal fare med <anchor type="lemma" xml:id="koFj_124"/>Tyriblus</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="g">Fra Bryllupsgaard til <anchor type="lemma" xml:id="koFj_124a"/>det hellige Hus.</l></HIS:hisSp></HIS:hisLg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

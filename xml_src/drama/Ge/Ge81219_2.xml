@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Gengangere]</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1219, s. 5-8</title>
+<title level="a" type="origYear">[1881]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Kollasjonering og koding</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-NME">Nina Marie Evensen</name>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Ge81219_2-0611"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på Ge81219_pre_splitt.</p>
+    <p><HIS:hisMsDesc type="notes" xml:id="Ge81219_2">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.8&deg; 1219:2</idno>
+        </msIdentifier>
+        <msContents>
+            <msItem>
+                <author>[Henrik Ibsen]</author>
+                <title>Uten tittel</title>
+                <docDate>Uviss</docDate>
+            </msItem>
+        </msContents>
+        <physDesc>
+            <objectDesc>
+                <p>Egenhendige notater. Noe anses som ikke tilhørende Gengangere, dette er ikke transkribert (<q>Det uorganiske kommer først...</q>)</p>
+            </objectDesc>
+        </physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Manuskriptet Ms.8 &deg; 1219 består av flere mindre notater som er bundet sammen. Notatene som tilhører Ge (=denne filen) befinner seg på fakss. 5-8, med unntak av andre avsnitt s. 6.</item>
+<item>Flere skriblerier med blyant (tydeliggjøringer i annen hånd): ikke transkribert</item>
+<item>Faks.sidene 5-8 er foliert med sifrene 1-4; folieringen gjort med rød blyant.</item>
+<item>Noe skjødesløs skrift.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort penn.</p></handNote>
+<handNote scribe="h1" medium="pencil-red"><p>Rød blyant. Sidefoliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change when="2011-08-22" who="SBT">
+<title>scribe-attributt</title>
+Erstattet hand-attributt med scribe. IKKE VALID: scribe må tillates i fw.</change>
+<change when="2011-08-19" who="SBT">
+<title>Validering</title>
+Oppdaterte etter nytt skjema.</change>
+<change when="2011-08-11" who="SBT">
+<title>Tilpasning</title>
+Endret sti til skjema. La til typeattributt i respStmt.</change>
+<change when="2011-06-24" who="SBT">
+<title>Konvertering til P5</title>
+Har endret kodingen til valid HIS-P5. La inn type- og rend-attributt i text.Får feilmelding på abbr-attributt i expan.</change>
+<change when="2009-10-21" who="HMS"><title>Oppdaterte sidetallskodinga</title>
+Oppdaterte sidetallskodinga (ed=faksBase + TMs msbetegnelser).</change>
+<change when="2009-06-03" who="HMS"><title>Skilte ut Ge81219_2 fra Ge81219_pre_splitt</title>
+Skilte ut Ge81219_2 fra Ge81219_pre_splitt. Justerte teiHeader. Redigerte loggen, fjernet det som ikke angår Ge81219_2. Har kodet i én 'text' med én 'div' (i samråd med ENW). Validert, laget visning.</change>
+<change when="2007-10-01" who="HMS"><title>Tallspenn</title>
+Sjekket koding av tallspenn; ingen tallspenn funnet.</change>
+<change when="2006-03-08" who="MW"><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change when="2005-08-12" who="MW"><title>Oppdatering</title>
+Oppdaterte teiHeader. Endret anførselstegn til riktig entitet. Validert.</change>
+<change when="2003-10-20" who="IAA"><title>Kodekontroll</title>
+Gjorde kodekontroll. Validerte.</change>
+<change when="2003-10-17" who="NME"><title>Kollasjonering</title>
+Kollasjonerte mot manuskript. Validerte. Klart for kodekontroll.</change>
+<change when="2003-06-02" who="IAA"><title>Kollasjonering og oppretting</title>
+Transkripsjon. Kollasjonerte mot faksimile, kodet og validerte. Klart for andrekollasjon. Husk punktet typography. Ny koding av m med nasalstrek blir ikke validert, derfor gammel attributtverdi. Kodet med flere div'er etter hverandre, men kanskje ville group/text-koding være bedre? Manuskriptet ser jo ut til å være organisert à la KG41111, løse lapper bundet sammen til bok? Forresten: hvordan vet vi at alle disse notatene har sammenheng med Gengangere?</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<!--<pb ed="faksBase" n="5"/>-->
+<pb n="5" rend="[3]r"/>
+<lb/><fw scribe="h1" type="page" place="top-right">1</fw>
+<div type="notes">
+<lb/><p>Stykket blir som et billed på livet. Troen undergravet,
+<lb/>men det går ikke an at sige det. &lquo;Asylet&rquo; &dash; for andres
+<lb/>skyld. De skal bli lykkelige &dash; men dette er
+<lb/>også kun et skin &dash; Alt er gengang<unclear reason="writing">ere</unclear></p>
+<lb/><note type="editor">Kraftig loddrett strek foran de to første av følgende linjer:</note><p>Et hovedpunkt: Hun har været
+<lb/>troende og romantisk &dash; det udviskes
+<lb/>ikke helt ved det senere vundne stand&typHyp;
+<lb/>punkt &dash; &lquo;alt er gengangere&rquo;.</p>
+<lb/><p>Det bringer en Nemesis over afko<choice><expan>mm</expan><abbr>&mbar;</abbr></choice>et
+<lb/>at gifte sig af udenfor liggende grunde
+<lb/>selv religiøse eller moralske</p>
+<lb/><p>Hun, det uægte barn, kan reddes ved
+<lb/>at giftes <unclear reason="writing">med</unclear> &dash; sønnen &dash; men så &dash;?</p>
+<!--<pb ed="faksBase" n="6"/>-->
+<pb rend="[3]v"/>
+<lb/><fw scribe="h1" type="page" place="top-left">2</fw>
+<lb/><p>Han var i ungdommen forfalden og forkommet;
+<lb/>så trådte hun, den religiøst vakte op; hun frelste
+<lb/>ham; hun var rig. Han havde villet gifte sig med
+<lb/>en pige, som ansåes uværdig. Han fik en søn i
+<lb/>sit ægteskab; så vendte han tilbage til pigen;
+<lb/>en datter. &dash;</p>
+<lb/><gap reason="irrelevant"/><note resp="editor">Her står tekst som inngår i utgavens prosamateriale (P81219_2).</note>
+<!--<pb ed="faksBase" n="7"/>-->
+<pb rend="[4]r"/>
+<lb/><fw scribe="h1" type="page" place="top-right">3</fw>
+<lb/><p>Disse nutidens kvinder, mishandlede som
+<lb/>døttre, som søstre, som hustruer, ikke opdragne
+<lb/>efter deres <app type="alteration"><lem>beg<HIS:hisAdd place="inline">avelse</HIS:hisAdd></lem><HIS:hisRdg>beg<HIS:hisDel rend="overwritten">g</HIS:hisDel></HIS:hisRdg></app>, holdt borte fra deres kald,
+<lb/>frataget deres arv, forbittrede i sindet, &dash; disse er
+<lb/>det, som afgi<unclear reason="writing">ver</unclear> mødrene for den unge
+<lb/>generation. Hvad blir følgen?</p>
+<!--<pb ed="faksBase" n="8"/>-->
+<pb rend="[4]v"/>
+<lb/><fw scribe="h1" type="page" place="top-left">4</fw>
+</div>
+</body>
+</text>
+</TEI>

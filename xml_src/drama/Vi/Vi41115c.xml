@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Vildanden]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1115 c</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1884]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, juni 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name></respStmt>
+<respStmt><resp>2. kollasjon, juli 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>Kodekontroll, juli 2007</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Vi41115c-1011"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er delvis basert på intern transkripsjon, delvis på Vi84.xml (10.06) og Vi41115a.xml (06.07).</p>
+    <p><HIS:hisMsDesc type="workingManuscript" xml:id="Vi41115c">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1115 c</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>[Henrik Ibsen]</author>
+            <title>[Uten tittel]</title>
+            <docDate>[1884]</docDate></msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendig arbeidsmanuskript (påbegynt trykkmanuskript) til begynnelsen av første akt.<note>Begynnelsen av l. akt, faksimileside 296-299</note></p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>På faksimileside 296: to påskrifter - 'a)' i rød blyant og 'c)' i grå blyant (bibliotekar(er)?).</item>
+<item>På faksimileside 299: biblioteksopplysninger + -stempel (nederst).</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>label xml:id=""</headLabel><headItem>speaker/stageRole</headItem>
+<label xml:id="EKDAL">EKDAL</label><item>Ekdal/-</item>
+<label xml:id="PETTERSEN">PETTERSEN</label><item>Pettersen/-</item>
+<label xml:id="JENSEN">JENSEN</label><item>Jensen/-</item>
+</list>
+</tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd X) kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 45-47. Alle sidetall er oppgitt i n-attributter.</tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.11</date>
+<name>SBT</name><title>TEI P5</title>
+Oppdaterte koding til TEI P5. Fila er valid.</change>
+<change><date>04.09.08</date>
+<name>SBT</name><title>Rettelser</title>
+Gjorde noen endringer i MsDescription ifm kodekontroll av ht-fil.</change>
+<change><date>06.11.07</date><name>MW</name><title>Oppdateringer</title>
+Bruken av bindestrek og tankestrek ved tallspenn er sjekket. Validert </change>
+<change><date>14.08.07</date>
+<name>MW</name><title>Koding</title>
+Endret typen i fw til 'unknown' og la til note. Validert</change>
+<change><date>03.07.07</date>
+<name>MW</name><title>2. kollasjon og kodekontroll</title>
+Kollasjonerte mot original. Førte inn resultatene (jeg fant ét overflødig mellomrom). Det kom opp noen spørsmål til førstekollasjonisten: typen i foliering har jeg endret fra 'leaf' til 'gathering'. Stemmer det med de ny retningslinjer? Tok samtidig kodekontroll. Validert. Lager ny visning.</change>
+<change><date>22.06.07</date>
+<name>HMS</name><title>Oppretting, 1. kollasjon</title>
+Opprettet filen på grunnlag av Vi41115a.xml og deretter Vi84.xml (da jeg oppdaget at dette mset ligger tett opptil førstetrykket). Gikk gjennom teiHeader. Sjekket og redigerte id-who-lista ('En lejetjener', som har én replikk, er ikke med, jf. førstetrykket og Vi41115a). Laget visning og tok første kollasjon mot faksimile. Resultater er ført inn, validert, ny visning laget. Klar for kollasjon mot original.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="da-nob">
+<body>
+<pb n="296"/>
+<pb ed="HU" n="45"/>
+<lb/><fw type="unknown" place="top-left">2.</fw><note type="workingNote">folieringstypen er satt til ukjent, men det er høyst sannsynlig av typen 'gathering'. Kan kanskje endres?</note>
+<div type="act" n="1">
+<lb/><head>Første akt.</head>
+<lb/><HIS:hisStage>(I grosserer Werles hus. Kostbart og bekvemt
+<lb/>indrettet arbejdsværelse; bogskabe og stoppede
+<lb/>møbler; skrivebord med protokoller og papirer
+<lb/>midt på gulvet; tændte lamper med grønne skær&typHyp;
+<lb/>me, således at værelset er dæmpet belyst. Åben
+<lb/>fløjdør med fratrukne forhæng på bagvæggen.
+<lb/>Indenfor sés en stor elegant stue, stærkt oplyst
+<lb/>af lamper og armstager. Foran til højre i arbejds&typHyp;
+<lb/>værelset fører en liden tapetdør ind til kontorer&typHyp;
+<lb/>ne. Foran til venstre en kamin med glødende
+<lb/>kul i, og længere tilbage en dobbeltdør til spi&typHyp;
+<lb/>sesalen.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Grossererens tjener, Pettersen, i livré og leje&typHyp;
+<lb/>tjener Jensen i sort sætter tilrette i arbejdsværel&typHyp;
+<lb/>set. I den større stue går to&dash;tre andre lejetje&typHyp;
+<lb/>nere omkring, ordner og tænder flere lys. In&typHyp;
+<lb/>de fra spisesalen høres summende samtale og
+<lb/>latter af mange stemmer; der bankes med kni&typHyp;
+<lb/>ven på et glas; stilhed indtræder; en skåltale
+<lb/>holdes; bravoråb, og så atter summende samtale.)</HIS:hisStage>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>
+<lb/><HIS:hisStage>(har tændt en lampe på kaminen <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>og sætter
+<lb/>skærm over.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nej hør bare, De, Jensen; nu står gamlingen
+<lb/>ved bordet og proponerer en lang skål for fru
+<lb/>Sørby.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>,
+<pb n="297"/>
+<lb/><HIS:hisStage>(flytter en lænestol frem.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Er det kanske sandt, som folk siger, at der er no&typHyp;
+<lb/>get imellem dem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Fan&rapo; ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>For han har nok vær&rapo;t en svær buk i sine dage.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Kanske det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>Det er jo for sønnen han holder dette her mid&typHyp;
+<lb/>dagsselskabet, siger de.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Ja. Sønnen kom hjem igår.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>Aldrig har jeg vidst før at gamle Werle havde
+<lb/><HIS:hisDel rend="overstrike">en</HIS:hisDel> <HIS:hisDel rend="overwritten">s</HIS:hisDel>nogen søn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Jo da, han har en søn. Men han holder til
+<lb/>der oppe på Højdals-værket. Han har ikke
+<lb/>været i byen i alle de år jeg har tjent her i
+<lb/>huset.</p></HIS:hisSp><pb ed="HU" n="46"/>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>En lejetjener</speaker>
+<lb/><HIS:hisStage>(i døren til den anden stue.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>De, Pettersen, her er en gammel fyr, som &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Petters<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>en</speaker>
+<lb/><HIS:hisStage>(mumler.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad fan&rapo;, kommer her <emph>nu</emph> nogen.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Gamle Ekdal kommer tilsyne fra højre i stuen.
+<lb/>Han er klædt i en gammeldags kavaj med høj kra&typHyp;
+<lb/>ve; uldne vanter; i hånden en stok og en skind&typHyp;
+<lb/>hue; under armen en pakke i et blåt kardus-omslag.)</HIS:hisStage>
+<pb n="298"/>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>
+<lb/><HIS:hisStage>(går imod ham.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jøss&rapo;, &dash; hvad vil <emph>De</emph> her inde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdal</speaker>
+<lb/><HIS:hisStage>(i døren.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Må så nødvendig ind på kontoret, Pettersen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Kantoret er stængt for en time siden, og &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdal</speaker>.</HIS:spOpener>
+<lb/><p>Hørte det i porten, far. Men Gråberg sidder der
+<lb/>endnu. Vær snil, Pettersen, og lad mig få slippe
+<lb/>ind <emph>den</emph> vejen &dash; <HIS:hisStage>(peger mod tapetdøren.)</HIS:hisStage> Har gåt
+<lb/>den vejen før.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Ja, De får så gøre da. <HIS:hisStage>(åbner døren.)</HIS:hisStage> Men sans
+<lb/>endelig på at De kommer ud igen den rigtige vejen;
+<lb/>for vi har fremmede.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Ekdal</speaker>.</HIS:spOpener>
+<lb/><p>Ved det nok. Tak, Pettersen-far! Gammel ven.
+<lb/>Tak. <HIS:hisStage>(mumler sagte.)</HIS:hisStage> Torsk!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(han går ind i kontoret; Pettersen lukker døren ef&typHyp;
+<lb/>ter ham.)</HIS:hisStage>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>Hører <emph>han</emph> også til kantorfolkene?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Nej, han er bare en, som skriver udenom, når de
+<lb/>har det nødig. <HIS:hisDel rend="overstrike">Å,</HIS:hisDel> <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Men han har såmænd vær&rapo;t en
+<lb/>fin fyr i sin tid, gamle Ekdal.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>Ja han så ud som noget af hvert.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Ja da; han har vær&rapo;t løjtnant, kan De tænke.</p></HIS:hisSp>
+<pb n="299"/>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>Å fan&rapo;; har han vær&rapo;t løjtnant!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Ja gu&rapo; har han så. Men så slog han sig nok
+<lb/>på skoghandel eller hvad det var. De siger at
+<lb/>han skal ha&rapo; gjort grossereren et stygt puds en&typHyp;
+<lb/>gang. For de to var sammen om Højdals-værket
+<lb/>dengang, skønner De. Å, jeg kender godt gamle
+<lb/>Ekdal, jeg. Vi drikker en gang iblandt en bitter
+<lb/>og en flaske bajersk sammen inde hos m<HIS:hisDel rend="overwritten">d</HIS:hisDel>adam
+<lb/>Eriksen.</p></HIS:hisSp><pb ed="HU" n="47"/>
+<lb/><HIS:hisSp who="JENSEN"><HIS:spOpener><speaker>Jensen</speaker>.</HIS:spOpener>
+<lb/><p>Han kan da ikke ha&rapo; stort at spandere for, han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>Pettersen</speaker>.</HIS:spOpener>
+<lb/><p>Jøss&rapo;, Jensen, De kan da vel skønne at det er
+<lb/><emph>mig</emph>, som spanderer. For jeg synes en skal være</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

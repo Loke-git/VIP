@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1116a, bl.1-2, 4, 3</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, juni - november 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, desember 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, mars 2007</resp>
+<name>Henninge Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="FH41116a_1-2_4_3-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på FH41116a (FH41116a-0809).</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i FH41116_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel>
+<label xml:id="ARNHOLM"/><item/>
+<label xml:id="LYNGSTRAND"/><item/>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/>
+<language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort pen.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Bibliotekar? Rød blyant. Foliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle FH-filer.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>endret filnavn</title>
+Endret filnavn fra FH41116a_1-4_7 til FH41116a_1-2_4_3.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>fjernet siccing</title>
+Sjekket alle FH-filer for ev. sic-koder og fjernet de jeg fant. Validert. Lager ny visninger.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. Jeg har derfor endret att.verdiene i xptr-kodene i FH-filene til textWitnesses. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>14.09.09</date>
+<name>MW</name><title>Klargjøring til synoptisk visning</title>
+La inn xptr-koder for synkronisering mot FH88.</change>
+<change><date>07.09.09</date>
+<name>MW</name><title>Splitting av FH4111a_1-4_7-8</title>
+Splittet FH4111a_1-4_7-8 ytterligere i to deler.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Klargjøring av filen til synoptisk visning</title>
+Siden denne versjonen består av to deler fra NBO-filen må strukturkodingen endres noe. Den endres fra en text-group-text-struktur til blot en text og noter om sammenhenger mellom de to opprinnelige deler er fjernet. Sjekket handList og id-who-oversikten.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Splitting av FH4111a</title>
+Splittet FH4111a i åtte deler til synoptisk visning.</change>
+<change><date>24.08.09</date>
+<name>MW</name><title>Blad-/legg-nummerering</title>
+Blad-nummerering lagt inn (i egne 'pb n='), Tones ms-beskrivelse er fulgt.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Flyttet tekstdel til b-delen</title>
+Etter mail fra Tone flyttet jeg legget med tittelside og personliste (fakss. 29-32) fra a- til b-delen. Lager ny visninger.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Transkripsjonsfeil</title>
+Transkripsjonsfeil oppdaget i Karis kontroll av HIS sine lesemåter mot HU sine (blot for en del av stykket) er ført inn.</change>
+<change><date>12.01.09</date>
+<name>HMS</name><title>Endret koding</title>
+Fjernet resp="editor" i ptr-kodene, da vi har vedtatt at dette resp-attributtet er overflødig.</change>
+<change><date>08.12.08</date>
+<name>MW</name><title>Transkripsjon</title>
+Tone så i forbindelse med msbeskrivelen hva som står i overskrivingen og strykingen ved Lyngstrand i rollelisten s. 11. Det er nå rettet til i filen (også i FH41116_NBO) - og ny visninger er laget.</change>
+<change><date>17.09.08</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret fra desc til sub i koding av undertitler.</change>
+<change><date>18.02.08</date>
+<name>HB</name><title>Splitting av fil</title>
+Gjenstår: kontrollere at delingen i a og b er i tråd med Tone Modalslis manuskriptbeskrivelse. Legge inn bladreferanser fra manuskriptbeskrivelsen. Legge inn koblinger til synoptisk visning. * Splittet filen. Arkiverte pre-splittversjon. Opprettet kopi med biliotekets ordning, FH41116_NBO. Opprettet FH41116b. Loggen er forkortet, FH41116_NBO og FH41116_pre_splitt inneholder fullstendig logg. typography og msDesc er fjernet, finnes i FH41116_NBO og FH41116_pre_splitt. Fjernet  type="workingManuscript" fra alle indre text-elementer og la den på ytterste, siden alle text-elementer inneholder samme ms-type. Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1"/>
+<lb/><fw type="gathering" place="top-left">1.</fw><note place="top-right" resp="author">5.6.88.</note>
+<lb/><fw type="leaf" place="top-right" scribe="h1">1</fw>
+<div type="relatedToWork"><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_52ms"/>
+<lb/><head>Udkast.</head>
+<lb/><p>1<hi rend="raised">ste</hi> akt. &dash; Det lille anløbsted for turistdamperne.
+<lb/>Der stoppes kun når rejs<HIS:hisDel rend="overwritten"><unclear>t</unclear></HIS:hisDel>ende skal sættes iland el&typHyp;
+<lb/>ler ombord. Høje, bratte, skyggende fjelde omkring.
+<lb/>Frit, åbent hav ses ikke. Bare den bugtede fjord.
+<lb/>Badehotel. Sanatorium højere oppe. Når styk&typHyp;
+<lb/>ket begynder er det sidste nordgående damp&typHyp;
+<lb/>skibstur for iår. Skibene passerer altid ved mid&typHyp;
+<lb/>natstid. Langsomt, lydløst glider de ind på bugten
+<lb/>og ligeså ud igen.</p>
+<lb/><p>Personerne falder i tre grupper. Først er der ejen&typHyp;
+<lb/>dommelige figurer blandt stedets beboere. Sagfører&typHyp;
+<lb/>en, anden gang gift med hende ude fra det fri, åb&typHyp;
+<lb/>ne hav. Har to unge voksne døtre af første ægte&typHyp;
+<lb/>skab. Fin, fornem, bitter. Fortiden plettet ved en ube&typHyp;
+<lb/>sindig affære. Derfor fremtidig karriere stængt.
+<lb/>Den forkomne skiltemaler med kunstnerdrømme
+<lb/>og lykkelig ved indbildninger. Den gamle gifte kon&typHyp;
+<lb/>torist. Har i sin ungdom skrevet et skuespil, som blev
+<lb/>opført én gang. Filer idelig på det og lever i illusio&typHyp;
+<lb/>nen om at få det udgivet og slå igennem. Gør for
+<lb/>øvrigt intet skridt i så henseende. Regner sig al&typHyp;
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="2"/>
+<lb/>ligevel til de literære i landet. Hustru og børn tror
+<lb/>blindt på &lquo;stykket&rquo;. (Kanske han er timelærer, ikke
+<lb/>kontorist?) &dash; Skrædder Fresvik, den radikale jorde&typHyp;
+<lb/>mormand, som viser sin &lquo;frigjorthed&rquo; i latterlige til&typHyp;
+<lb/>løb til udskejelser, &dash; forbindelser med andres koner;
+<lb/>taler om skilsmisse og lignende.</p>
+<lb/><p>Den anden gruppe danner sommergæsterne
+<lb/>og de svagelige ved sanatoriet. Blandt disse er
+<lb/>den unge syge billedhugger, som skal samle kræf&typHyp;
+<lb/>ter for at overstå den kommende vinter. T<HIS:hisDel rend="overwritten"><unclear>n</unclear></HIS:hisDel>il næste
+<lb/>sommer er der tilsagt ham stipendium og en bestil&typHyp;
+<lb/>ling og anden understøttelse og da kan han rejse
+<lb/>til Italien. Gruer for muligheden af at måtte
+<lb/>dø uden at få se syden og uden at have skabt noget
+<lb/>godt i kunsten. &dash; Hans &lquo;beskytter&rquo; bor i badehotelet.
+<lb/>Tar formynderskabet over den syge. Er principmen&typHyp;
+<lb/>neske. Ingen hjælp, ingen understøttelse iår. Sort
+<lb/>på hvidt for stipendiet, &lquo;så skal vi se til næste år
+<lb/>hvor langt vi kan strække os&rquo;. Hans hustru dum,
+<lb/>hovmodig og taktløs. Sårer, snart frivilligt snart
+<lb/>ufrivilligt, den syge. &dash; Flere bipersoner.</p>
+<lb/><p>Den tredje gruppe består af kommende og gå&typHyp;
+<lb/>ende turister, som griber episodisk ind i hand&typHyp;
+<lb/>lingen.</p>
+<lb/><p>Livet er tilsyneladende lyst, let og kvikt deroppe
+<lb/>under fjeldskyggen og i afsondringens ensformighed.
+<pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="3"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">2</fw>
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Da udkastes den tanke at dette slags liv er et skygge&typHyp;
+<lb/>liv. Ingen handlekraft; ingen kamp for frigørelse.
+<lb/>Bare længsler og ønsker. Således leves der den
+<lb/>korte lyse sommer. Og bagefter &dash; ind i mørket.
+<lb/>Så vågner længselen mod det store verdensliv
+<lb/>derude. Men hvad er der vel vundet ved det? Med
+<lb/>forholdene, med åndsudviklingen vokser kravene
+<lb/>og længslerne og ønskerne. Han eller hun, der står
+<lb/>på højden, begærer fremtidens hemmeligheder og an&typHyp;
+<lb/>del i fremtidens liv og samkvem med de fjerne
+<lb/>kloder. Overalt begrænsning. Deraf tungsindet
+<lb/>som en dæmpet klagende sang over hele men&typHyp;
+<lb/>sketilværelsen og over menneskenes færd. En
+<lb/>lys sommerdag med det store mørke bagefter, &dash; det
+<lb/>er det hele. &dash; &dash;</p>
+<lb/><p>Er menneskets udviklingsvej forfejlet? Hvorfor
+<lb/>er vi kommet til at tilhøre den tørre jord? Hvorfor
+<lb/>ikke luften? Hvorfor ikke havet. Længselen efter
+<lb/>at eje vinger. De ejendommelige drømme at man
+<lb/>kan flyve og at man flyver uden at undres over
+<lb/>det, &dash; hvorledes tydes alt dette? &dash; &dash;</p>
+<lb/><p>Havet skulle vi bemægtige os. Lægge vore byer
+<lb/>svømmende på havet. Flytte de<HIS:hisDel rend="overwritten">n</HIS:hisDel>m mod syd eller
+<lb/>nord alt efter årstiden. Lære at tøjle stormene
+<lb/>og vejret. Noget sådant lyksaligt vil komme. Og
+<lb/><emph>vi</emph>, &dash; som ikke får være med! Ikke &lquo;opleve&rquo; det! &dash; &dash;</p>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" facs="4"/>
+<lb/><p>Havets dragende magt. Længselen efter havet.
+<lb/>Mennesker i slægt med havet. Bundne af havet.
+<lb/>Afhængige af havet. Må tilbage i det. En fiske&typHyp;
+<lb/>art danner et urled i udviklingsrækken. Sidder
+<lb/>rudimenter deraf endnu i menneskesindet? I en&typHyp;
+<lb/>kelte menneskers sind?</p>
+<lb/><p>Billederne af det boltrende liv i havet og af
+<lb/>&lquo;det evig fortabte&rquo;.</p>
+<lb/><p>Havet råder over en stemningernes magt, der
+<lb/>virker som en vilje. Havet kan hypnotisere. Natu&typHyp;
+<lb/>ren overhovedet kan det. Den store hemmelighed er
+<lb/>menneskeviljens afhængighed af &lquo;det viljeløse&rquo;.</p>
+<lb/><p>Hun er kommen ude fra havet, hvor hendes fa&typHyp;
+<lb/>ders præstegård lå. Vokste op derude &dash; ved det fri,
+<lb/>åbne hav. Forlovede sig hemmelig med den unge
+<lb/>letsindige styrmand &dash; udvist søkadet &dash;, som lå vin&typHyp;
+<lb/>teren over for havari med skibet i en udhavn. Måt&typHyp;
+<lb/>te hæve forbindelsen efter faderens ønske. Til dels
+<lb/>også frivilligt. Kunde ikke tilgive, hvad der var kom&typHyp;
+<lb/>met op om hans fortid. Så fordomsfuld var hun
+<lb/>dengang gennem opdragelsen i fædrehjemmet. Er
+<lb/>aldrig siden heller kommet helt ud af fordomsfuld&typHyp;
+<lb/>heden, skønt hun véd det bedre. Står på grænsen
+<lb/>og vakler og tviler. &dash;</p>
+<lb/><p>Hemmeligheden i hendes ægteskab, &dash; det, som
+<lb/>hun knapt tør vedkende sig; knapt tør tænke på:
+<pb ed="source" type="folio_nopagination" subtype="recto" n="4" facs="5"/>
+<lb/><fw type="gathering" place="top-left"><gap reason="binding"/>.</fw><fw type="leaf" place="top-right" scribe="h1">4</fw><note resp="editor">Feil i folieringen med rød pen: '3' og '4' er byttet rundt</note>
+<lb/>Indbildningskraftens dragende magt imod den
+<lb/>forrige. Imod den bortkomne.</p>
+<lb/><p>I grunden &dash; i den uvilkårlige forestilling &dash; er
+<lb/>det <emph>ham</emph>, med hvem hun lever sit ægteskabelige
+<lb/>liv.</p>
+<lb/><p>Men &dash; på den anden side &dash; lever hendes mand
+<lb/>og stedbørnene helt med hende? Har ikke disse
+<lb/>tre ligesom en hel verden af erindringer sig imel&typHyp;
+<lb/>lem? Der er festd<HIS:hisDel rend="overwritten">d</HIS:hisDel>age at fejre, hvis betydning hun
+<lb/>kun kan gætte sig til. Samtaler går istå, &dash; af&typHyp;
+<lb/>brydes når hun kommer ind. Sin forgænger&typHyp;
+<lb/>inde har hun ikke kendt og af finfølelse tales
+<lb/>der ikke om hende når <emph>hun</emph> er tilstede. Der er
+<lb/>et frimureri mellem alle de andre i huset. Hus&typHyp;
+<lb/>jomfruen og tjenestefolkene også. Hun kommer
+<lb/>aldrig ind i det. De andre véd sit. Hun står u&typHyp;
+<lb/>denfor.</p>
+<lb/><p>Hun træffer sammen med &lquo;den fremmede
+<lb/>passagér&rquo;. Så kaldes han af de andre badegæs&typHyp;
+<lb/>ter. Han har engang næret en dyb tilbøjelighed
+<lb/>for h<HIS:hisDel rend="overwritten"><unclear>am</unclear></HIS:hisDel>ende. Det var dengang hun var forlovet med
+<lb/>den unge sømand. Nu er han overarbejdet og skal
+<lb/>bruge søbad. Livet har ikke bragt ham, hvad han
+<lb/>havde ventet. Han er bitter. Skærende i spøg&typHyp;
+<lb/>form.</p><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_164ms"/>
+<lb/><p>Billedhuggeren fortæller. Blev sendt tilsjøs 12
+<pb ed="source" type="folio_nopagination" subtype="verso" n="4" facs="6"/>
+<lb/>gammel.<note resp="editor">'år' mangler sannsynligvis foran 'gammel'</note> Forliste med skibet for 5 år siden. Var
+<lb/>da 17 år. Ved den lejlighed fik han sit knæk. Lå læn&typHyp;
+<lb/>ge i den kolde sjø. Lungebetændelse siden. End&typHyp;
+<lb/>nu ikke rigtig forvundet det. Men en stor lykke var
+<lb/>det alligevel. For derved kunde han komme til at
+<lb/>få blive kunstner. <HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_159ms"/><q type="speech" who="LYNGSTRAND">Tænk, at få modellere i det dej&typHyp;
+<lb/>lige lér, som føjer sig så fint mellem fingrene.</q></p>
+<lb/><p>Hvad han så vil modellere? Gudeskikkel&typHyp;
+<lb/>ser<HIS:hisAdd place="inline">?</HIS:hisAdd> <HIS:hisDel rend="overwritten">e</HIS:hisDel>Eller kanske gamle vikinger?</p>
+<lb/><p>Nej. Ikke sligt noget. Så snart han kan kom&typHyp;
+<lb/>me til vil han prøve på at gøre en stor gruppe.</p>
+<lb/><p>Og hvad skulde så den forestille?</p>
+<lb/><p>Jo, den skulde forestille noget, som han selv
+<lb/>havde oplevet.</p>
+<lb/><p>Og hvad var da det for noget. Det må han
+<lb/>endelig fortælle.</p><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_160ms"/>
+<lb/><p><q type="speech" who="LYNGSTRAND">Jo, det skulde være en ung sjømandskone,
+<lb/>som ligger og sover. Og drømme gør hun også.
+<lb/>Det skal en kunne se på hende.</q></p>
+<lb/><p><q type="speech" who="ARNHOLM">Ikke noget mere.</q></p>
+<lb/><p><q type="speech" who="LYNGSTRAND">Å jo vel. Manden hendes er druk<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>net. Men
+<lb/>så er han kommet hjem alligevel. Ved nattens
+<lb/>tider. Og nu står han dér for sengen og ser på
+<lb/>hende.</q></p>
+<lb/><p>Men i guds navn, &dash; han sa&rapo;e jo, det skulde
+<lb/>være noget, han havde oplevet!</p>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="3" facs="7"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">3</fw><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_73ms"/>
+<lb/><p>Jaha. Han havde også oplevet dette her. På
+<lb/>en måde da.</p>
+<lb/><p><q type="speech" who="ARNHOLM">Oplevet &dash;?!</q></p>
+<lb/><p>Nå ja, &dash; han mener ikke sådan lige til ople&typHyp;
+<lb/>vet, forstår sig. Men alligevel &dash;</p>
+<lb/><p>Og så kommer fortællingen &dash; henkastet og af&typHyp;
+<lb/>brudt &dash; og kaster forfærdelige anelser og forestil&typHyp;
+<lb/>linger ind i hende.</p>
+</div>
+</body>
+</text>
+</TEI>

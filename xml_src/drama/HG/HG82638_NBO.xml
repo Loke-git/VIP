@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+ [
+ <!ENTITY % HIS_entiteter SYSTEM
+ 'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd' >
+ %HIS_entiteter;
+ ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+ <teiHeader xml:lang="nob">
+ <fileDesc>
+<titleStmt>
+<title level="a" type="main">Hedda Gabler</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.8&deg; 2638, bibliotekets innbinding</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1890</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Mette Witting</name></respStmt>
+ <respStmt>
+<resp>Oppretting og 1. kollasjon mot faksimile, januar 2007</resp>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>2. kollasjon mot original, mai 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="HG82638_NBO-1111"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er opprettet på grunnlag av filen HG86238.xml (11.11).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="HG82638">
+ <msIdentifier>
+ <settlement>Oslo</settlement>
+ <repository>Nasjonalbiblioteket</repository>
+ <idno>NBO Ms.8&deg; 2638</idno>
+ </msIdentifier>
+ <msContents><msItem>
+ <author>[Henrik Ibsen]</author>
+ <title>Uten tittel</title>
+ <docDate>[1890]</docDate>
+ </msItem></msContents>
+ <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter (replikkutkast). En innbundet notisbok med to innlagte løse blad og ett visittkort.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Det meste av teksten er skrevet med blyant. Noen få avsnitt/sider med penn, disse er markert i note.</item>
+<item>Teksten er for det meste skrevet vertikalt, horisontal tekst er markert i note.</item>
+<item>Latinsk håndskrift. Ett eksempel på bruk av lang s, 38/8.</item>
+<item>Sidene i selve boka er blad-paginert, av ukjent hånd</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+ <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem xml:id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label xml:id="TESMAN">TESMAN</label><item>-/-/-</item>
+<label xml:id="HEDDA">HEDDA</label><item>-/-/-</item>
+<label xml:id="FRØKENTESMAN">FRØKENTESMAN</label><item>-/-/-</item>
+<label xml:id="FRUELVSTED">FRUELVSTED</label><item>-/-/-</item>
+<label xml:id="BRACK">BRACK</label><item>-/-/-</item>
+<label xml:id="LØVBORG">LØVBORG</label><item>-/-/-</item>
+</list>
+</tagUsage></namespace>
+ <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pencil" scope="major"><p>Blyant. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="HI-2" xml:id="HI-2" medium="pen" scope="major"><p>Penn. Henrik Ibsen. Enkelte avsnitt/sider</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Blyant. Ukjent hånd. Foliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+ <change><date>26.11.2019</date><name>ESO</name><title>pb-koding</title>Endret kodingen i pb fra typen 1r, 1v, 2r osv. til bare pb, men med n-attributt på begynnelsen av hvert av de to body-elementene</change>
+<change><date>10.11.11</date><name>SBT</name><title>Egen NBO-fil</title>
+Denne fila inneholder bibliotekets innbinding av boka. Blad 41 er feilaktig bundet inn foran blad 40. Rettet opp feil i fila som følge av feil rekkefølge på bilder i faksimilebasen. Nå er rekkefølgen som i originalen. Mette (NBO) har sjekket originalen.</change>
+<change><date>04.11.11</date><name>SBT</name><title>Omkoding til HISe og TEI P5</title>
+Utførte enkel kodekontroll. Fjernet doble mellomrom. La inn foliering som en egen hånd etter konsultasjon med Tones manuskriptbeskrivelse. NB: skal spørre Mette om hun kan sjekke rekkefølgen på s. 39v-41r.</change>
+<change><date>21.08.09</date><name>NME</name><title>Endringer</title>
+Endret en lesemåte etter gjennomgang av manuskriptet i forbindelse med overføring til varia.</change>
+<change><date>29.08.07</date><name>AAH</name><title>Endringer</title>
+Noen endringer etter gjennomgang av ms. på NBO med HB. Lagt inn hand=HI-2 ved enkelte div og p som er skrevet med penn. Validert.</change>
+<change><date>29.06.07</date><name>AAH</name><title>Koding</title>
+Endret fra div type=work til div type=relatedToWork. Validert.</change>
+<change><date>22.05.07</date><name>AAH</name><title>q-koding</title>
+Endret noen tidligere q-kodede replikker etter MW og HB gjennomgang i forbindelse med q-kodemøte. La inn noter der det er usikkert om det er replikker. Validert.</change>
+<change><date>09.05.07</date><name>MW</name><title>Transkripsjonsrettelse</title>
+I gjennomlesningen av teksten for markering av replikker (kodet med q) så jeg et par transkripsjonsfeil, som nå er rettet. Ny visning legges ut.</change>
+<change><date>08.05.07</date><name>MW</name><title>2. kollasjon</title>
+Innføring av resultatene etter 2. koll. La inn typen 'work' i noen div, selvom den ikke er vedtatt ennå. Etter endt innføring. Validert</change>
+<change><date>25.04.07</date><name>AAH</name><title>Koding</title>
+Koding. Validert.</change>
+<change><date>14.02.07</date><name>AAH</name><title>Oppretting og 1. kollasjon</title>
+Opprettet filen på grunnlag av transkripsjon av faksimile, NBO Ms.8&deg; 2638. Typografibeskrivelsen og id-who-listen er ikke sjekket. handList må sjekkes. Validert.</change>
+</revisionDesc>
+</teiHeader>
+ <text type="drama" rend="handwritten" xml:lang="da-nob">
+<group>
+<text type="workingManuscript">
+<body>
+<pb/>
+<fw type="leaf" place="top">1</fw>
+<div type="relatedToWork"><note resp="editor">Teksten på siden er skrevet horisontalt.</note>
+<lb/><p>Mine dramatiske teorier udvik&typHyp;
+<lb/>lede for franskmændene. Oversæt&typHyp;
+<lb/>telse af spillemåden ligesom af
+<lb/>sproget. o. s. v.</p>
+<lb/><p>Den gifte dames tiltagende
+<lb/>indbildning at være en betyde&typHyp;
+<lb/>lig personlighed, og som føl&typHyp;
+<lb/>ge deraf nødvendigheden af
+<lb/>at skaffe sig en opsigtvækkende
+<lb/>historie.</p>
+<lb/><p>Forekommer en interessant
+<lb/>kvindeskikkelse i en ny for&typHyp;
+<lb/>tælling eller i et skuespil, tror
+<lb/>hun at det er hende, som er
+<lb/>skildret.</p>
+<lb/><p>De mandlige omgivelser be&typHyp;
+<lb/>styrker hende i denne tro.</p>
+<lb/><p>De to veninder aftaler at
+<lb/>gå i døden sammen. Den
+<pb/><note resp="editor">Teksten på siden er skrevet horisontalt.</note>
+<lb/>ene fuldfører forsættet. Den
+<lb/>anden, som føler hvad <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>der fo&typHyp;
+<lb/>restår hende, har ikke mod
+<lb/>længer. Her omslaget.</p>
+<lb/><p><q type="speech">&lquo;Han har en så væmmelig
+<lb/>måde at gå på når en ser
+<lb/>ham bagfra.</q></p>
+<lb/><p>Hun hader ham fordi han
+<lb/>har et mål, en livsopgave.
+<lb/>Veninden har en sådan, men
+<lb/>tør ikke bruge den Hendes
+<lb/>personlige liv literært be&typHyp;
+<lb/>handlet.</p>
+<lb/><p>I anden akt manuskriptet
+<lb/>som efterlades &dash;</p>
+<pb/>
+<fw type="leaf" place="top">2</fw><note resp="editor">Teksten på siden er skrevet horisontalt.</note>
+<lb/><p>&lquo;Den forlornes&rquo; apologi
+<lb/>for kulturmennesket.
+<lb/>Mustangen og væddeløbs
+<lb/>hesten. Drikker &dash; spiser
+<lb/>paprika. Hus og klæder
+<lb/>Revolution mod natur&typHyp;
+<lb/>lovene &dash; men ikke d<gap/>
+<lb/>ikke før positionen
+<lb/>er sikkret.</p>
+<figure type="bar"/>
+<lb/><p>Tanten gør al</p>
+<pb/><note resp="editor">På denne siden står tekst (om Ibsens forhold til intervjuere) som ikke har med dramaet Hedda Gabler å gjøre. Teksten gjengis ikke her, men inngår i sakprosa- eller variamaterialet.</note>
+<!--SKAL TIL SAKPROSA/VARIA<lb/><p>Hermed vil min omgang med Interw<unclear reason="writing">iere</unclear> være af&typHyp;
+<lb/>sluttet. For fremtiden vil jeg <sic>forstrække</sic> <ref type="refMark" target="n1" xml:id="nb1">&referenceMark;</ref>at <sic>bliver</sic> mis&typHyp;
+<lb/>forstået og <HIS:hisDel rend="overstrike">g</HIS:hisDel> mistydet gennem mine egne bøger
+<HIS:hisAdd place="inline"><note resp="editor">Tilføyelsen står til høyre under resten av teksten</note><lb/><ref type="refMark" target="nb1" xml:id="n1">&referenceMark;</ref>ligesom <unclear reason="writing">hidindtil</unclear></HIS:hisAdd></p>-->
+<pb/>
+<fw type="leaf" place="top">3</fw>
+<lb/><p>Tanten gør allehånde
+<lb/>forblommede spørsmål
+<lb/>for at få vide det, som
+<lb/>ligger hendes interes&typHyp;
+<lb/>serede fantasi nær&typHyp;
+<lb/>mest.</p></div>
+<pb/>
+<pb/>
+<fw type="leaf" place="top-left">4</fw>
+<div type="relatedToWork">
+<lb/><head>Optegnelser.</head>
+<lb/><p>En aften, da Hedda og Tesman sammen med andre
+<lb/>gik hjem fra et selskab yttrede Hedda, da de gik for&typHyp;
+<lb/>bi en smuk villa at der skulde hun gerne ville bo. Hun
+<lb/>mente det, men hun sagde det for at holde samta&typHyp;
+<lb/>len med Tesman igang. <q type="speech" who="HEDDA">&lquo;For han <HIS:hisDel rend="overwritten"><unclear>kund</unclear></HIS:hisDel>kan jo ikke
+<lb/>konversere.</q></p>
+<lb/><p>Villaen var nemlig da tilleje eller til salgs.
+<lb/>Tesman udpegedes som <sic>den</sic> fremtidig berømt
+<pb/>
+<lb/>mand. Og da han så siden erklærte sig, for&typHyp;
+<lb/>talte at også han havde drømt om at kunne
+<lb/>bo der, så slog hun til.</p>
+<lb/><p>Villaen har nemlig også han syntes godt om.</p>
+<lb/><p>Så gifter de sig. Så lejes villaen.</p>
+<lb/><p>Men da Hedda kommer tilbage som ung
+<lb/>frue, med en ukl<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ar følelse af ansvar,
+<lb/>byder det hele hende imod. Hun fatter som
+<lb/>et slags ha<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>d<gap/> til huset netop fordi det
+<pb/>
+<fw type="leaf" place="top-right">5</fw>
+<lb/>er blevet hendes hjem. Hun betror alt dette
+<lb/>til Brack. For Tesman går hun udenom
+<lb/>sagen</p>
+<lb/><p>Begge har de, hver på sin side, sét som
+<lb/>et slags tegn på sympati i den felles kær&typHyp;
+<lb/>lighed til dette hus. Som om de søgte og
+<lb/>drages imod et fælles hjem.</p>
+<lb/><p>Så lejer han villaen. De gifter sig og
+<lb/>rejser udenlands. Han lar den købe og tanten
+<lb/>møblerer den på hans regning. Det er altså
+<pb/>
+<lb/>nu deres hjem. Det er deres, og det er ikke
+<lb/>deres, thi det er ikke betalt. Alt afhænger af
+<lb/>at ha<HIS:hisDel rend="overwritten">m</HIS:hisDel>n får professorstillingen.</p>
+<lb/><p>(Villaen har tilhørt en gammel etats&typHyp;
+<lb/>rådinde, som nu er død)</p>
+<lb/><figure type="bar"/>
+<lb/><p><HIS:hisDel rend="overstrike">&lquo;</HIS:hisDel>Stykket skal dreje sig om &lquo;det uover&typHyp;
+<lb/>kommelige&rquo;, det, at hige og tilstræbe noget
+<lb/>som står imod konventionen, imod det
+<lb/>vedtagne i bevidsthederne, &dash; også i Heddas.</p>
+<pb/>
+<fw type="leaf" place="top-left">6</fw>
+<lb/><p>Historien med hatten bringer
+<lb/>ta<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>nte Rising ud af fatning. Hun
+<lb/>går &dash; &dash; &dash; &dash; At den kunde antages
+<lb/>at tilhøre tjenestepigen, &dash; <q type="speech" who="FRØKENTESMAN">nej, det
+<lb/>går for vidt!</q></p>
+<lb/><p><q type="speech" who="FRØKENTESMAN">Men at den hat, som jeg nu har
+<lb/>havt i over ni år, skulde tages for
+<lb/>tjenestepigens, &dash; nej, det er for galt.</q></p>
+<pb/>
+<lb/><p>Hedda: <q type="speech" who="HEDDA">Skulde <emph>jeg</emph> bry&rapo; mig om at bo her i villaen?
+<lb/>Jeg havde jo aldrig sat min fod indenfor døren.</q></p>
+<lb/><p><q type="speech" who="HEDDA">De grønne vindusluger med hullet i. Kan
+<lb/>De husker det assessor? Det var skåret ud i
+<lb/>form af et hjerte. Nå, de er da heldigvis væk.
+<lb/>Og nypudset er her jo indvendig. Men jeg synes
+<lb/>endda at jeg ligesom kender lugten af lavend&typHyp;
+<lb/>ler og saltede roser. Mangen gang forekom&typHyp;
+<lb/>mer det mig som her lugter lig efter salig
+<lb/>statsrådinden.</q></p>
+<pb/>
+<fw type="leaf" place="top-right">7</fw>
+<lb/><p>Hedda føler sig dæmonisk tiltrukken af
+<lb/>tidens tendenser. Men modet mangler. Det
+<lb/>blir ved teorien, ved de ørkesløse drømmer.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Da Holger L. er faldet tilbage, gir Hedda
+<lb/>ham revolveren. H. L. <q type="speech" who="LØVBORG">Nej tak. Nej så&typHyp;
+<lb/>mænd om jeg vil det. Så heller leve det fattige
+<lb/>livssurrogat tilende.</q></p>
+<pb/>
+<lb/><p><hi rend="underlined">Hedda</hi>. <q type="speech" who="HEDDA">Ja dengang syntes jeg det
+<lb/>måtte være dejligt at bo her og eje det.</q></p>
+<lb/><p><hi rend="underlined">Brack</hi>. <q type="speech" who="BRACK">Men nu siger De Dem jo selv i&typHyp;
+<lb/>mod.</q></p>
+<lb/><p><hi rend="underlined">Hedda</hi>. <q type="speech" who="HEDDA">Ja det kan gerne være. Men
+<lb/>således er det nu alligevel.</q></p>
+<pb/>
+<fw type="leaf" place="top-right">8</fw>
+<lb/><p><hi rend="underlined">Hedda</hi>. <q type="speech" who="HEDDA">Jeg forstår mig ikke på de
+<lb/>opofrende mennesker. Se nu gamle
+<lb/>frøken Rising. Der har hun en lam
+<lb/>sengeliggende søster liggende i huset &dash;
+<lb/>i <sic>årvis</sic>. Tror De hun synes det er
+<lb/>et offer at leve for denne stakkers skab&typHyp;
+<lb/>ning, som er til byrde for sig selv endogså?
+<lb/>Å langt ifra! Tvert imod. Jeg forstår
+<lb/>det ikke.</q></p>
+<pb/>
+<lb/><p><hi rend="underlined">Hedda</hi>. <q type="speech" who="HEDDA">Og så begærlige som de er
+<lb/>efter gifte mænd. Ved De hvad, assessor
+<lb/>De står Dem selv i lyset når De ikke
+<lb/>gifter Dem.</q></p>
+<lb/><p><hi rend="underlined">Brack</hi>: <q type="speech" who="BRACK">Nå jeg kan da næsten om&typHyp;
+<lb/>trent betragte mig som gift</q></p>
+<lb/><p><hi rend="underlined">Hedda</hi>. <q type="speech" who="HEDDA">Å ja visst kan De det &dash; på en
+<lb/>måde &dash; på flere måder sågar &dash;</q></p><note resp="editor">Teksten fortsetter på side 10r.</note>
+<pb/>
+<fw type="leaf" place="top-right">9 [d. v. s. 10]</fw>
+<lb/><p>Den kvindelige fantasi er ikke aktiv og
+<lb/>selvstændig skabende som den mandlige. Den be&typHyp;
+<lb/>høver en liden smule virkelighed til hjælp</p>
+<lb/><figure type="bar"/>
+<lb/><p>Løvborg <sic>hår</sic> bøjet sig mod &lquo;Bohemen&rquo;.
+<lb/>Hedda drages mod den samme si<HIS:hisDel rend="overwritten">g</HIS:hisDel>de, men
+<lb/>vover ikke spranget</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hos Hedda ligger dyb poesi på bunden. Men
+<lb/>omgivelserne skræmmer hende. Tænk,
+<pb/>
+<lb/>at gøre sig latterlig!</p>
+<lb/><figure type="bar"/>
+<lb/><p>For Hedda går det op at hun, meget
+<lb/>mere end Thea, er gåt ifra sin mand.</p>
+<pb/>
+<fw type="leaf" place="top-right">10
+<lb/>[D. v. s. 9]</fw>
+<lb/><p>Brack. <q type="speech" who="BRACK">På flere? Hvorledes me&typHyp;
+<lb/>ner De det?</q></p>
+<lb/><p>Hedda. <q type="speech" who="HEDDA">Nej tak. Det siger jeg ikke</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>Da fru Elfstad siger at første del af Løvborgs
+<lb/>bog handler om den <sic>historisk</sic> udvikling af &lquo;Sam
+<lb/>fundslæren&rquo; og at et nyt bind kommer senere
+<lb/>sér Tesman litt st<HIS:hisDel rend="overwritten">y</HIS:hisDel>udsende på hende.</p>
+<pb/>
+<lb/><p>Virkelige forældre findes der meget få af i
+<lb/>verden. De fleste vokser op under onkel- eller
+<lb/>tante-opdragelse &dash; enten negligeret og <sic>uforstå&typHyp;
+<lb/>etet</sic> eller også forkælet.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hedda forekaster ham at han ikke vover
+<lb/>sig ud for fristelsen. Han svarer at hun gør det
+<lb/>samme på sit område. V<gap/>æddemålet! &dash;
+<lb/>Han taber &dash;! Fru Elvsted er tilstede! Hedda
+<lb/>siger <q type="speech" who="HEDDA">Ingen fare &dash; Han taber.</q></p>
+<pb/>
+<fw type="leaf" place="top-right">11</fw>
+<lb/><p>Det nygifte par kommer hjem i
+<lb/>September, &dash; når sommeren dør.
+<lb/>I 2. akt sidder de i Haven &dash; men med
+<lb/>overtøj på.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Rædselen for at høre sin egen
+<lb/>røst. Noget fremmed, udenforstående</p>
+</div>
+<pb/>
+<div type="relatedToWork">
+<lb/><head>Nyeste plan.</head>
+<lb/><p>Allerede i 1. akt forberedes festligheden i Tes&typHyp;
+<lb/>mans have &dash; og Løvborgs undergang.</p>
+<lb/><p>2. akt. Festen &dash; &dash;</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hedda nægter energisk at være værtinden
+<lb/>Vil ikke fejre deres ægteskab fordi det, (efter
+<lb/>hendes mening intet &dash; ægteskab er)</p>
+<lb/><figure type="bar"/>
+<lb/><p>Holger. <q type="speech" who="LØVBORG">Du ser det ikke. Jeg er skyld
+<lb/>i det ægteskab &dash;</q></p>
+<pb/>
+<fw type="leaf" place="top-right">12</fw>
+<lb/><p>Hedda er udtrykket for damen i hendes stilling
+<lb/>og med hendes karakter. Man gifter sig med Tesman,
+<lb/>men man beskæftiger sin fantasi med Ejlert Løvborg.
+<lb/>Man læner sig tilbage i stolen, lukker øjnene og imagi&typHyp;
+<lb/>nerer sig hans eventyr. &dash; Her den uhyre forskel:
+<lb/>Fru Elfstad &lquo;arbejder på hans moralske forbed&typHyp;
+<lb/>ring&rquo;. For Hedda er han et objekt for fejge, lok&typHyp;
+<lb/>kende drømmerier. I virkeligheden har hun ikke
+<lb/>mod til at være med på sligt. Så kommer erken&typHyp;
+<lb/>delsen af hendes tilstand. Bunden! Begriber
+<lb/>det ikke. Latterligt! Latterligt!</p>
+<pb/>
+<lb/><p>Den traditionelle vildfarelse at <emph>en</emph> mand
+<lb/>passer for <emph>en</emph> kvinde. Hedda bunder i det
+<lb/>konventionelle. Hun gifter sig med Tesman
+<lb/>men hendes fantasi er hos Ejlert Løvborg &dash;
+<lb/>Hun ækles ved dennes flugt fra livet.
+<lb/>Han tror at have rejst sig i hendes agtelse
+<lb/>derved &dash; Thea Elfsted er det konventio&typHyp;
+<lb/>nelle sentimentale, hysteriske spidsbor&typHyp;
+<lb/>geri.</p>
+<pb/>
+<fw type="leaf" place="top-right">13</fw>
+<lb/><p><q type="speech" who="LØVBORG">Disse spidsborgere, fru E. og Tesman
+<lb/>tror at det hænger så sammen at jeg går
+<lb/>ud og drikker mig fuld, og så gør jeg resten
+<lb/>i utilregnelighed. Det er flugten fra
+<lb/>virkeligheden, som er mig en nødvendig&typHyp;
+<lb/>hed.</q></p>
+<pb/>
+<lb/><p><HIS:hisDel rend="overstrike">Efle</HIS:hisDel> E. L. <q type="speech" who="LØVBORG">Giv mig noget &dash; en blomst &dash;
+<lb/>til afsked.</q></p>
+<lb/><p>Hedda rækker ham revolveren.</p>
+<lb/><p>Da kommer Tesman. <q type="speech" who="TESMAN">Er han gået?</q>
+<lb/><q type="speech" who="HEDDA">&lquo;Ja&rquo;.</q> <q type="speech" who="TESMAN">Tror du han endnu vil konkurrere?</q></p>
+<lb/><p><q type="speech" who="HEDDA">Å nej, nu kan du være rolig.</q></p>
+<lb/><figure type="bar"/>
+<pb/>
+<fw type="leaf" place="top-right">14</fw>
+<lb/><p>Tesman fortæller at da de var i Gratz
+<lb/>vilde hun ikke opsøge sine slægtninge</p>
+<lb/><p>Han misforstår hendes ledende
+<lb/>motiver.</p>
+<pb/>
+<lb/><p>I sidste akt da Tesman, fru Elfsted
+<lb/>og frøken<note resp="editor">ø mangler diakritisk tegn</note> Rysing holder rådslagning
+<lb/>spiller Hedda i bagværelset. Hun
+<lb/>standser. Samtalen fortsættes, <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>da
+<lb/>viser hun sig i døren &dash; <q type="speech" who="HEDDA">Godnat &dash;
+<lb/>nu går jeg. Behøver I mig til
+<lb/>noget.</q> Tesman: <q type="speech" who="TESMAN">Nej, slet ikke, god&typHyp;
+<lb/>nat, kære! &dash;</q> Skuddet falder.</p>
+</div>
+<pb/>
+<fw type="leaf" place="top-right">15</fw>
+<div type="act" n="4">
+<lb/><head>Slutning:</head>
+<lb/><p>Alle <sic>iller</sic> ind i bagværelset. Brack
+<lb/>synker lamslået ned i en stol ved
+<lb/>kaminen: <q type="speech" who="BRACK">Men gud forbarme sig, &dash;
+<lb/>sådant <emph>gør</emph> man da ikke!</q></p></div>
+<pb/>
+<div type="relatedToWork">
+<lb/><p>Når Hedda antyder sine meninger
+<lb/>for Brack heder det fra ham: <q type="speech" who="BRACK">Ja, ja
+<lb/>det er uhyre morsomt &dash; ha ha ha!</q></p>
+<lb/><p>Alvoret deri forstår han ikke.</p>
+<pb/>
+<fw type="leaf" place="top-right">16</fw>
+<lb/><p>Det har Hedda ret i: Kærlighed er
+<lb/>det ikke fra Tesmans side. Ikke fra
+<lb/>tantens heller. Så kærlighedsfuld hun
+<lb/>end er.</p>
+<pb/>
+<lb/><p>Ejlert Løvborg er en dobbeltnatur. Det er
+<lb/>en fiktion at man elsker kun <emph>en</emph>. Man elsker
+<lb/>to &dash; eller flere &dash; (frivolt sagt) afvekslende.
+<lb/>Men hvorledes forklare sin egen situa&typHyp;
+<lb/>tion? Fru Elfsted, som tvinger ham ind
+<lb/>i korrektheden, løber bort fra sin <HIS:hisDel rend="overstrike">mand</HIS:hisDel>
+<lb/>mand. Hedda, som ægger ham ud over
+<lb/>grænserne, viger tilbage for tanken på skan&typHyp;
+<lb/>dale.</p>
+<pb/>
+<fw type="leaf" place="top-right">17</fw>
+<lb/><p>Sagen er, hvad hverken han eller fru <HIS:hisDel rend="overstrike">Elfsted
+<lb/>forstår &dash;</HIS:hisDel> Hedda forstår.</p>
+<lb/><p>Tesman læser i de <HIS:hisDel rend="overstrike">to</HIS:hisDel> efterladte manu&typHyp;
+<lb/>skriptstumper om &lquo;de to idealer&rquo;. Fru Elfsted
+<lb/>kan ikke forklare ham, hvad E. L. har
+<lb/>ment.</p>
+<lb/><p>Så kommer det burleske: <HIS:hisDel rend="overstrike">Hvert</HIS:hisDel>
+<lb/>Både T. og fru E. sætter sit fremtidige
+<lb/>liv ind på at tyde gåden.</p>
+<pb/>
+<lb/><p>Tesman tror at Hedda hader E. L.
+<lb/>Fru Elfsted tror det samme.
+<lb/>Hedda ser deres vildfarelse men
+<lb/><app type="alteration"><lem><HIS:hisAdd place="offline">tør</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">kan</HIS:hisDel></HIS:hisRdg></app> <restore type="del" rend="subpunction"><HIS:hisDel rend="overstrike">ikke</HIS:hisDel></restore> bringe dem ud af den.</p>
+<lb/><p>Det er noget skønt at arbeide for et
+<lb/>mål. Selv om det er for en vildfa&typHyp;
+<lb/>relse &dash;</p>
+<pb/>
+<fw type="leaf" place="top-right">18</fw>
+<lb/><p>Hun kan det ikke. Ikke være med
+<lb/>på de andres.</p>
+<lb/><p>Så er det at hun skyder sig.
+<lb/>Det ødelagte manuskript heder:
+<lb/>&lquo;Fremtidskulturens <HIS:hisDel rend="overstrike">filosofi</HIS:hisDel>&rquo;.
+<lb/>sædslære&rquo;.</p>
+<pb/>
+<lb/><p>Tesman holder på at tabe hodet.
+<lb/>Alle hans sam<gap/> betydningsløse
+<lb/>Nye tanker! Nye syn<unclear reason="writing">er</unclear>! En
+<lb/>ny verden!</p>
+<lb/><p>Og <HIS:hisDel rend="overwritten">d</HIS:hisDel>så sidder de der, de ler, og prøver
+<lb/>på at finde ud af det. Kan ikke få rede
+<lb/>i det. &dash;</p>
+<pb/>
+<fw type="leaf" place="top-right">19</fw>
+<lb/><p>Den store jammer i verden er at så
+<lb/>mange ikke har andet at tage sig til
+<lb/>end at jage efter lykke uden at kunne
+<lb/>finde nogen.</p>
+<pb/>
+<lb/><p>&lquo;Af Jochum Tesman har der udviklet
+<lb/>sig en Jørgen Tesman &dash; men der vil gå
+<lb/>lange tider før denne Jørgen afføder
+<lb/>en Georg.</p>
+<pb/>
+<fw type="leaf" place="top-right">20</fw>
+<lb/><p>Billedet: Livsrejsen-jernbanerejsen.
+<lb/>H: <q type="speech" who="HEDDA">Man springer ikke gerne ud af en kupé.</q></p>
+<lb/><p><q type="speech">Nej, når den er i gang.</q></p>
+<lb/><p><q type="speech" who="HEDDA">Ikke gerne heller når den holder stille.
+<lb/>Der er alltid nogen på perronen, som står og
+<lb/>ser på.</q></p>
+<pb/>
+<lb/><p>Hedda: <q type="speech" who="HEDDA">Drømme skandalen, &dash; ja
+<lb/>det forstår jeg nok. Men begå den &dash; nej
+<lb/>nej, nej.</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>Løvborg: <q type="speech" who="LØVBORG">Nu ser jeg det. Mit ideal var
+<lb/>en illusion. De er ikke et hår bedre end
+<lb/>jeg. Nu har jeg ingen ting at leve for.
+<lb/>Undtage<HIS:hisDel rend="overwritten">t</HIS:hisDel>n nydelsen &dash; Udskejelsen &dash; som
+<lb/><HIS:hisDel rend="overwritten">d</HIS:hisDel>De kalder det. &dash; Vent lidt en foræring</q>
+<lb/>(Pistolen.)</p>
+<pb/>
+<fw type="leaf" place="top-right">21</fw>
+<lb/><p>Tesman er nærsynt. Bærer briller.
+<lb/>Nej, den dejlige rose! Så stak han
+<lb/>næsen op i en kaktus. Siden
+<lb/>den tid &dash;!</p>
+</div>
+<pb/>
+<div type="relatedToWork">
+<lb/><HIS:hisDel rend="overstrike"><p>D</p></HIS:hisDel> <head>NB.</head>
+<lb/><p>Det indbyrdes kvindehad. Kvinderne
+<lb/>har ingen indflydelse på de ydre stats&typHyp;
+<lb/>anliggender. Derfor vil de ha &lquo;indflydelse
+<lb/>på sjælene&rquo; Og så har så mange intet livs&typHyp;
+<lb/>mål (mangelen heraf er en arv) &dash;.</p>
+<pb/>
+<fw type="leaf" place="top-right">22</fw>
+<lb/><p>Løvborg og Hedda ved bordet over fotogra&typHyp;
+<lb/>fierne. Han: <q type="speech" who="LØVBORG">Hvorledes er dette muligt.</q> <hi rend="underlined">Hun</hi>: <q type="speech" who="HEDDA">Hvo<unclear reason="writing">r</unclear>&typHyp;
+<lb/>for ikke det?</q> L: <q type="speech" who="LØVBORG">Tesman! Han som De ikke havde
+<lb/>ord nok for at gøre nar af &dash; &dash; &dash;</q> Så kommer
+<lb/>historien om generalens &lquo;unåde&rquo;, afsked o. s. v.
+<lb/>Det forfærdeligste for en baldame ikke at
+<lb/>være feteret for sin egen skyld &dash; &dash; L. <q type="speech" who="LØVBORG">Og Tes&typHyp;
+<lb/>man? Han tog Dem for personens skyld. Det
+<lb/>er ligeså utåleligt at tænke på.</q></p>
+<pb/>
+<lb/><p><q type="speech" who="HEDDA">Netop ved at gifte mig med Tesman synes jeg
+<lb/>at jeg er kommen så usigelig langt bort fra ham.</q></p>
+<lb/><p>Han: <q type="speech" who="LØVBORG"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Sé på hende. Se bare! &dash;</q> Hedda: (stry&typHyp;
+<lb/>ger hende over håret) <q type="speech" who="HEDDA">Ja er hu<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>n ikke dejlig!</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>Mænd og kvinder hører ikke til det samme
+<lb/>århundrede &dash;</p>
+<lb/><p>Stor fordom, det, at man elsker <HIS:clarification place="inline">k</HIS:clarification>un <emph>en</emph>!</p>
+<pb/>
+<fw type="leaf" place="top-right">23</fw>
+<lb/><p>Der er tale mellem Hedda og Brack om
+<lb/>dette at rejse mellem de små universitetsbyer
+<lb/>Hedda: <q type="speech" who="HEDDA">Ja, den lille rejsen gennem Tyrol
+<lb/>regner jo nu ikke &dash;</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>Brack<HIS:hisDel rend="overwritten">:</HIS:hisDel>(til Tesman) <q type="speech" who="BRACK">Men er De da <HIS:hisDel rend="overstrike">da</HIS:hisDel>
+<lb/>blind og døv. Ser De da ikke? Hører De ikke</q></p>
+<lb/><p>T<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>esman: <q type="speech" who="TESMAN">Ah. Tag manuskriptet
+<lb/>med. Læs op for mig!</q></p>
+<pb/>
+<lb/><p>Det dæmoniske i Hedda er: Hun vil øve
+<lb/>indflydelse på en anden &dash; Er det sket, så
+<lb/>foragter hun ham. Manuskriptet?</p>
+<pb/>
+<fw type="leaf" place="top-right">24</fw>
+<lb/><p>I 3. akt <sic>spøger</sic> Hedda fru Elfsted.
+<lb/><q type="speech" who="HEDDA">Men dersom han er slig, hvad er han så
+<lb/>værdt at holde p<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>å &dash;</q> <q type="speech">Ja, ja &dash; &dash; &dash;</q></p>
+<pb/>
+<lb/><p scribe="HI-2">Heddas opdagelse i tredje akt at hendes forhold til
+<lb/>pigen umuligt kan være rigtig.</p>
+<lb/><p>I samtalen med Hedda siger Løvborg<note resp="editor">ø mangler diakritisk tegn</note>
+<lb/><q type="speech" who="LØVBORG">Frøken<note resp="editor">ø mangler diakritisk tegn</note> H &dash; <unclear reason="writing">Frøken</unclear> &dash; Ja &dash; Jeg tror ikke
+<lb/>De er <unclear reason="writing">frue</unclear></q></p>
+<lb/><figure type="bar"/>
+<lb/><p>Hedda: <q type="speech" who="HEDDA">Og nu sidder jeg her og taler
+<lb/>med disse spidsborgere &dash; &dash; Og således
+<lb/>som vi kunde tale &dash; N<unclear reason="writing">ej jeg</unclear> vil ikke sige
+<pb/>
+<fw type="leaf" place="top-right">25</fw>
+<lb/>det, &dash; Tale? Hvad mener De? Liderligt?
+<lb/>Fy. Lad os sige uanstendigt</q></p>
+</div>
+<div type="relatedToWork">
+<lb/><head>NB!!</head>
+<lb/><p>I den store samtale mellem Hedda og E. L.
+<lb/>sker omslaget i stykket. Han: <q type="speech" who="LØVBORG">Hvilken jammer&typHyp;
+<lb/>lighed at indrette sig efter den bestående moral
+<lb/>Idealet vilde være om et nutidsmenneske
+<lb/>kunde leve fremtidens liv. Hvilken jam&typHyp;
+<pb/>
+<lb/>merlighed at stride om en professorpost!</q></p>
+<lb/><p><q type="speech" who="LØVBORG">Hedda, &dash; du dejlige tøs!</q> H. <q type="speech" who="HEDDA">Nå!</q>
+<lb/>E. L. <q type="speech" who="LØVBORG">Ja, jeg siger det. Du dejlige, kolde
+<lb/>&dash; marmorkolde tøs!</q></p>
+<lb/><p><q type="speech" who="LØVBORG">Jeg er ikke udsvævende i grunden
+<lb/>Men virkelighedslivet er ikke leve&typHyp;
+<lb/>ligt &dash;</q></p>
+<pb/>
+<fw type="leaf" place="top-right">26</fw>
+<lb/><p>I 5. akt: Hedda &dash; Det uhyre komi&typHyp;
+<lb/>ske i at de skikkelige mennesker, Tesman
+<lb/>og fru E. søger at flikke stumperne
+<lb/>sammen til et eftermæle for E. L. Han
+<lb/>som så dybt foragter det hele &dash;</p>
+<lb/><p>Livet går for Hedda op i en latterlig&typHyp;
+<lb/>hed som det ikke &lquo;er værd at overvære
+<lb/>til enden&rquo;.</p>
+<pb/>
+<lb/><p>Lyksalighed<HIS:hisDel rend="overwritten">e</HIS:hisDel>sop<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>gaven er at hensætte
+<lb/><sic>nutidsmenesket</sic> i fremtidsforhold</p>
+<lb/><p>L: <q type="speech" who="LØVBORG">Sæt aldrig børn ind i verden H<gap/></q></p></div>
+<pb/>
+<fw type="leaf" place="top-right">27</fw>
+<div type="relatedToWork" scribe="HI-2">
+<lb/><p>Når Brack taler om et &lquo;trekantet&rquo; forhold, tænker
+<lb/>Hedda på hvad der forestår og taler forblommet om det.
+<lb/>Brack forstår det ikke.</p>
+<lb/><p>Brack udstår ikke at komme i huse, hvor der er
+<lb/>små børn. <q type="speech" who="BRACK">&lquo;Børn skulde ikke ha&rapo; lov til at være til
+<lb/>før de er en 14&dash;15 år&rquo;. Det vil sige pigebørn&rquo; Men
+<lb/>gutter da? Skulde slet ikke ha&rapo; lov til at være til &dash;
+<lb/>eller ialfald opfostres udenfor huset &dash;</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>H. taler om at også <sic>hende</sic> har børn altid været
+<lb/>en gru.</p>
+<pb/>
+<lb/><p>Hedda sætter sig stærkt om end uklart op imod
+<lb/>den mening at man <sic>skal</sic> eller elske &lquo;familjens&rquo;.
+<lb/>Tanterne er for hende ingenting.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Det at være som en skriftefader for E. L. har
+<lb/>for H. været en befrielse. Hendes sympati har
+<lb/>hemmeligt været på hans side &dash; Men dette stygge
+<lb/>at det alt sammen kom frem for offentligheden
+<lb/>Da trak hun sig ud af det.</p>
+</div>
+<pb/>
+<fw type="leaf" place="top-right">28</fw>
+<div type="relatedToWork">
+<lb/><head>Hovedpunkter:</head>
+<lb/><p>1.) De er ikke alle skabte til at være mødre.</p>
+<lb/><p>2.) Det sandselige drag er i dem, men de
+<lb/>har skræk for skandalen.</p>
+<lb/><p>3.) De forn<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>emmer at der er livsopgaver
+<lb/>i tiden, men de kan ikke få tag i dem.</p></div>
+<pb/>
+<div type="relatedToWork">
+<lb/><p>Og så er Tesman ikke egent&typHyp;
+<lb/>lig fagmand, men han er speci&typHyp;
+<lb/>alist. Middela<unclear reason="writing">lderen</unclear> er d<unclear reason="writing">ød</unclear> &dash;</p>
+<pb/>
+<fw type="leaf" place="top-right">29</fw>
+<lb/><p>T. <q type="speech" who="TESMAN">Nej der <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>sér du også et stort
+<lb/>fortrin ved mit studium. Jeg
+<lb/>kan tabe manuskriptet og skrive
+<lb/>det om &dash; ingen <unclear reason="writing">inspiration</unclear></q></p>
+<pb/>
+<lb/><p>Hedda er helt optaget af det barn
+<lb/>som skal komme, men når det
+<lb/>er kommet gruer hun for hvad
+<lb/>der vil følge &dash;</p>
+<pb/>
+<fw type="leaf" place="top-right">30</fw>
+<lb/><p>Det må komme ind i stykket at Hedda
+<lb/>siger at hun ikke gerne på rejsen steg
+<lb/>ud af en kupé. <q type="speech" who="BRACK">Hvorfor ikke.</q> <q type="speech" who="HEDDA">Nej,
+<lb/>jeg viser ikke gerne mine ben &dash;</q></p>
+<lb/><p><q type="speech" who="BRACK">Ah, fru H. De <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> lar sig dog san&typHyp;
+<lb/>delig se.</q> <q type="speech" who="HEDDA">Ja, men alligevel ikke</q></p>
+<pb/>
+<lb/><p><q type="speech" who="BRACK">Skudt sig! Skudt sig.</q></p>
+<lb/><p>Brack (vakler ned i lænestolen)
+<lb/><q type="speech" who="BRACK">Men du godeste gud &dash; sligt
+<lb/>Noget <emph>gør</emph> man da ikke!</q></p>
+</div>
+<pb/>
+<fw type="leaf" place="top-right">31</fw>
+<div type="relatedToWork">
+<lb/><head>NB!!</head>
+<lb/><p>Ejlert Løvborgs tanke er at der må skaffes
+<lb/>tilveje et kammeratskabsforhold mellem
+<lb/><sic>man</sic> og kvinde, hvoraf det sande åndige men&typHyp;
+<lb/>neske kan <sic>framgå</sic>. Det øvrige som <gap/>
+<lb/>bedriver, ligger udenfor som det uvæsent&typHyp;
+<lb/>lige. Dette er det, som omgivelserne ikke
+<lb/>forstår. Han er for dem en udsvævende
+<lb/>person. I det indre ikke</p>
+<pb/>
+<lb/><p>Kan e<HIS:hisDel rend="overwritten">t</HIS:hisDel>n mand ikke have flere
+<lb/>venner, hvorfor da ikke også
+<lb/>flere <emph>veninder</emph>?</p>
+<pb/>
+<fw type="leaf" place="top-right">32</fw>
+<lb/><p>Det er netop den i omgang med kvin&typHyp;
+<lb/>delige &lquo;venner&rquo; eller &lquo;kammerater&rquo; <HIS:hisDel rend="overstrike">som hos
+<lb/>ham</HIS:hisDel> opsamlede sandselighed, som hos ham
+<lb/>får udtryk gennem hans udskejelser</p>
+<pb/>
+<lb/><p><q type="speech" who="LØVBORG">Nu går jeg<HIS:hisDel rend="overwritten">!</HIS:hisDel>. Har De da ikke en liden
+<lb/>ting at gi&rapo; mig med &dash; &dash;? De har blom&typHyp;
+<lb/>ster &dash; så mange andre ting.</q> (Historien med
+<lb/>pistolen f<gap/>) &dash; <q type="speech">De bruger
+<lb/>den så ikke alligevel &dash;</q></p>
+<pb/>
+<fw type="leaf" place="top-right">33</fw>
+<lb/><p>Og da så Hedda, 4. akt får
+<lb/>vide at han har &lquo;sku<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>dt sig&rquo; da <unclear reason="writing">jubler</unclear>
+<lb/>hun op &dash; <q type="speech" who="HEDDA">Han havde <unclear reason="writing">modet</unclear>.</q></p>
+<lb/><p>Her er resten af manuskriptet</p>
+</div>
+<pb/>
+<div type="relatedToWork">
+<lb/><head>Slutning</head>
+<lb/><p>Livet er ikke sørgeligt &dash; Livet
+<lb/>er latterligt &dash; Og <emph>det</emph> kan
+<lb/>ikke bæres.</p>
+<pb/>
+<fw type="leaf" place="top-right">34</fw>
+<lb/><p>Har De læst i romanerne? Alle
+<lb/>de som går til grunde &dash; gennem <gap/>
+<lb/>d<gap/> &dash; ikke i ma<gap/> &dash; Det lat&typHyp;
+<lb/>terlige &dash; det barokke &dash;</p></div>
+<div type="relatedToWork" scribe="HI-2">
+<pb/>
+<lb/><p>Hedda yttrer i samtalen med Thea i første akt: <q type="speech" who="HEDDA">Jeg
+<lb/>begriber ikke at man kan forelske sig i en ugift
+<lb/>mand &dash; eller en uforlovet &dash; eller en uforelsket &dash;
+<lb/>på andet hold &dash;</q> <ref type="refMark" target="n2" xml:id="nb2">1)</ref></p>
+<lb/><p>Hedda: <q type="speech" who="HEDDA">Kære T. var der da nogen anden deropppe,
+<lb/>som han var &dash; som han stræbte efter.</q> Th. <q type="speech" who="FRUELVSTED">Nej &dash;</q>
+<lb/>H. <q type="speech" who="HEDDA">Ja, hvad tiltrækkende kunde der da være ved
+<lb/>ham for dig.</q></p>
+<HIS:hisAdd place="inline"><lb/><ref type="refMark" target="nb2" xml:id="n2">1)</ref><q type="speech" who="FRUELVSTED">Men herre gud, T var jo ugift.</q> H. <q type="speech" who="HEDDA">Ja,
+<lb/>han var det.</q> Th. <q type="speech" who="FRUELVSTED"><unclear reason="damage">Men hvor kan du så sige <gap/></unclear>
+<lb/>du tog ham dog.</q> H. <q type="speech" who="HEDDA">Ja jeg gjorde det.</q> Th. <q type="speech" who="FRUELVSTED">Ja</q>
+<lb/><ref type="refMark" target="n3" xml:id="nb3">2)</ref></HIS:hisAdd>
+<pb/>
+<fw type="leaf" place="top-right">35</fw>
+<HIS:hisAdd place="inline"><lb/><p><q type="speech" who="FRUELVSTED">hvor kan du så sige at &dash;</q> <q type="speech">Nå &dash; &dash; &dash;</q></p></HIS:hisAdd>
+<lb/><p>Brack forstår godt at det er det indelukkede
+<lb/>hos H., hendes hysteri, som egentlig er det moti&typHyp;
+<lb/>verende i hele hendes handlemåde.</p>
+<lb/><p>H: har på sin side en anelse om at Brack
+<lb/>gennemskuer hende, men tror ikke at
+<lb/>hun forstår det.</p>
+<HIS:hisAdd place="inline"><lb/><ref type="refMark" target="nb3" xml:id="n3">2)</ref><q type="speech" who="FRUELVSTED">Men nu er <gap/> han jo en gift mand.</q> H. <q type="speech" who="HEDDA">Ja, men
+<lb/>ikke en andens.</q></HIS:hisAdd></div>
+<pb/>
+<pb/>
+<fw type="leaf" place="top-right">36</fw>
+<div type="relatedToWork">
+<lb/><p scribe="HI-2">H: <q type="speech" who="HEDDA">Det, at ta&rapo; noget fra en anden, det synes
+<lb/>jeg må være så dejligt.</q></p>
+<lb/><p>Da H. taler med B., 5 akt om de to, som
+<lb/>sidder der for at flikke manuskriptet sam&typHyp;
+<lb/>men uden at ånden er der, brister hun i lat&typHyp;
+<lb/>ter, &dash; Så pianospillet &dash; så d &dash;</p>
+<pb/>
+<lb/><p>Mændene &dash; i de ubeskriveligste situa&typHyp;
+<lb/>tioner <gap/> de latterlige</p>
+</div>
+<div type="relatedToWork">
+<lb/><head>NB!</head>
+<lb/><p>Det er egentlig hele <emph>mandens</emph> liv
+<lb/>hun vil leve. Men så kommer be&typHyp;
+<lb/>tænkelighedene. De nedarvede og de
+<lb/>indplantede.</p>
+<pb/>
+<fw type="leaf" place="top-right">37</fw>
+<lb/><p>Tantekærligheden. &dash; De fleste menne&typHyp;
+<lb/>sker som fødte af mandlige og kvinde&typHyp;
+<lb/>lige tanter.</p></div>
+<pb/>
+<div type="relatedToWork" scribe="HI-2">
+<lb/><p>Det er om de &lquo;underjordiske kræfter og magter&rquo; der
+<lb/>handles. Kvinden som grubearbejder: Nihilisme.
+<lb/>Far og mor tilhørende forskellige tidsaldrer. Den
+<lb/>kvindelige underjordiske revolution i tænkningen
+<lb/>Slavefrygten udad imod det ydre.</p>
+</div>
+<pb/>
+<fw type="leaf" place="top-right">38</fw>
+<div type="relatedToWork">
+<lb/><head>NB!!</head>
+<lb/><p><q type="speech" who="LØVBORG">Hvorfor skal jeg følge en samfunnsmoral, som jeg véd,
+<lb/>ikke vil holde ud en halv menneskealder til. Når jeg skejer
+<lb/>ud, som de kalder det, så er det en flugt fra det samtidi&typHyp;
+<lb/>ge. Ikke fordi jeg finder nogen fryd i udskejelsen
+<lb/>Dertil stikker jeg for dybt i det bestående. &dash;</q></p>
+<lb/><p><q type="speech" who="LØVBORG">Thea, det lille fæ, forstår ingen ting af det. Men
+<lb/>hun er bare dejlig alligevel. Der er en ubevidst
+<lb/>fremtidsside i hende.</q></p>
+<pb/>
+<lb/><p><q type="speech">Hvad er det Tesman arbejder på?</q></p>
+<lb/><p>Hedda: <q type="speech" who="HEDDA">Det er en bog om den brabantske
+<lb/>husflid i middelalderen</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>Jeg må anstelle mig som idiot for at bli
+<lb/>forstået. Lade, som om jeg vil rehabilitere
+<lb/>mig i mobbens &dash; nutids-mobbens øjne.</p>
+<pb/>
+<fw type="leaf" place="top-right">39</fw>
+<lb/><p><q type="speech" who="LØVBORG">Da jeg havde kastet denne nye bog fra mig,
+<lb/>da stod et nyt stort strålende arbejde frem
+<lb/>for mig. Der må <emph>De</emph> hjælpe. Jeg behøver
+<lb/>kvinder, Hedda &dash;! I middelalderen var
+<lb/>kvindesamvittigheden slig beskaffen
+<lb/>at en kvinde fik nag om hun opdaged
+<lb/>at hun var gift med sit søskenbarn &dash;</q></p>
+<pb/>
+<lb/><p><q type="speech" who="BRACK">Skulde da ikke fremtiden rette sig
+<lb/>mod det store, det gode, det skønne<note resp="editor">'ø' mangler diakritisk tegn</note>, som
+<lb/>Tesman siger.</q></p>
+<lb/><p><q type="speech" who="HEDDA">Ja! Men det store, det gode, det skønne<note resp="editor">'ø' mangler diakritisk tegn</note>
+<lb/>blir ikke fremtiden det, som vi nu
+<lb/>tænker os &dash;</q></p>
+<pb/><note resp="editor">Blad 41 er feilaktig bundet inn foran blad 40.</note>
+<fw type="leaf" place="top-right">41</fw>
+<lb/><p>Hedda. Slank middelhøj skikkelse. Ædelt formet
+<lb/>fornemt ansigt med en fin voksfarvet hud. Øjnene
+<lb/>har et tilsløret udtryk. Håret mellembrunt
+<lb/>Ikke synderlig stærk hårvækst. Klædt i løs
+<lb/>morgenkjole, hvid med blå besætning.
+<lb/>Ro over manererne.</p>
+<lb/><p>Øjnene stålfarvede, med et mat skær.</p>
+<pb/>
+<lb/><p>Fru Elfsted spædt bygget Øjnene <HIS:hisAdd place="offline">runde, litt fremstående</HIS:hisAdd>
+<lb/>næsten vandblå. Spædt ansigt med blø&typHyp;
+<lb/>de træk. <HIS:hisDel rend="overstrike">Ri</HIS:hisDel> nervøse trækninger, for&typHyp;
+<lb/>skræmt udtryk. &dash;</p>
+<pb/>
+<fw type="leaf" place="top-right">40</fw>
+<lb/><p>H: <q type="speech" who="HEDDA">Der var især en rødhåret en, som jeg har
+<lb/>set på gaden.</q> Br. <q type="speech" who="BRACK">Jeg véd, hvem De mener &dash;</q>
+<lb/>H. <q type="speech" who="HEDDA">De kaldte hende &dash;. Det var sådant et
+<lb/>smukt navn &dash;</q> Br. <q type="speech" who="BRACK">Det navnet kender
+<lb/>jeg også. Men hvoraf kan <HIS:hisDel rend="overwritten">d</HIS:hisDel>De nu vide
+<lb/>at det var så smukt.</q> H: <q type="speech" who="HEDDA">Å, De er
+<lb/>dum, assessor.</q></p>
+<pb/>
+<lb/><p>Passagéren og kufferten på jern&typHyp;
+<lb/>banestationen. T. bestemmer, hvor&typHyp;
+<lb/>hen han vil, løser sin billet derefter
+<lb/>Kufferten besørges &dash;</p>
+<pb/>
+<fw type="leaf" place="top-right">42</fw>
+<lb/><p>Se foran i bogen. E. L<hi rend="raised">s</hi> tanke
+<lb/>om kammeratskabsforholdet
+<lb/>mellem mand og kvinde &dash; Red&typHyp;
+<lb/>ningstanken!</p>
+<pb/>
+<lb/><p>Kan vi for samfundets skyld
+<lb/>ikke få lov til at leve sædeligt
+<lb/>med dem (kvinderne) så lever
+<lb/>vi usædeligt</p>
+<pb/>
+<fw type="leaf" place="top-right">43</fw>
+<lb/><p>Tesman: <q type="speech" who="TESMAN">Det nye i E. L<hi rend="raised">s</hi> bog
+<lb/>er læren om udvikling på grund&typHyp;
+<lb/>lag af kammeratskab mellem
+<lb/>mand og kvinde.</q></p>
+<pb/>
+<lb/><p>Heddas grundfordring er:
+<lb/><q type="speech" who="HEDDA">Jeg vil vide alt, men holde
+<lb/>mig ren!</q></p>
+<pb/>
+<fw type="leaf" place="top-right">44</fw>
+<lb/><p><q type="speech" who="HEDDA">Alt vil jeg vide &dash; vide &dash;
+<lb/>vide &dash; &dash;</q></p>
+<lb/><figure type="bar"/>
+<lb/><p>H.</p>
+<lb/><p>H. <q type="speech" who="HEDDA">Gid jeg kunde ha&rapo; levet
+<lb/>som han!</q></p>
+<pb/>
+<lb/><p>Er det noget om <gap/> <gap/>
+<lb/><gap/> det for noget? &dash;</p>
+<lb/><p>Væddemålet om brugen af begge pistolene</p>
+<pb/>
+<fw type="leaf" place="top-right">45</fw>
+<lb/><p>Frk T. <q type="speech" who="FRØKENTESMAN">Ja, ja, dette er <HIS:hisDel rend="overstrike">livet?</HIS:hisDel> sandhedens og
+<lb/>livets hus. Nu vil jeg gå hjem til sygdommens
+<lb/>og dødens <sic>Hus</sic>. Gud velsigne jer begge to.
+<lb/>Herefter kommer jeg hver dag herud og
+<lb/>spør Berte hvorledes det står til &dash;</q></p>
+<pb/>
+<lb/><p>I 3. akt er det at H. siger til E. L. at
+<lb/>hun bryr sig ikke om de store forholde &dash; ikke om
+<lb/>de store tanker heller &dash; men om den store menneskelige
+<lb/>frihed. &dash; Og så har hun ikke modet &dash;</p>
+<lb/><p>De to idealer! Tesman: <q type="speech" who="TESMAN">Hvad
+<lb/>i guds navn mener han med det.
+<lb/>Hvad? Hvad har vi med idealer
+<lb/>at gøre?</q></p>
+<pb/>
+<fw type="leaf" place="top-right">46</fw>
+<lb/><p>Den nye bog handler om &lquo;de to idealer&rquo;
+<lb/>Thea kan ingen besked give.</p>
+<note resp="editor">Sidene 46v-79v er blanke.</note>
+<pb/>
+<fw type="leaf" place="top-right">80</fw><note resp="editor">På denne siden står regnskapsnotater som ikke er gjengitt her.</note>
+<pb/><note resp="editor">Skrevet opp-ned.</note>
+<lb/><p>Hun har respekt for hans kund&typHyp;
+<lb/>skaber, øje for hans noble karakter,
+<lb/>men hun generer sig over hans
+<lb/>ubetydelige latterlige væsen,
+<lb/>spotter over hans opførsel og
+<lb/>yttringer.</p></div></body></text>
+ 
+<text type="workingManuscript"><body>
+<pb n="94"/>
+<div type="relatedToWork"><note resp="editor">Teksten står på baksiden av et visittkort.</note>
+<lb/><p>Da E. L. siger til H. at han ikke
+<lb/>kan tilstå for Thea hvor hendes og hans
+<lb/>bog er kommen bort, siger H. <q type="speech" who="HEDDA">Jeg tror
+<lb/>ikke, der er et sandt ord i det.</q> E. L.
+<lb/><q type="speech" who="LØVBORG">Nej, men så forfærdeligt, føler jeg,
+<lb/>vil hun se det.</q></p>
+<pb/><note resp="editor">Skrevet på visittkort, &lquo;Natalie von Eperjesy&rquo;.</note>
+<lb/><p>E. L: <q type="speech" who="LØVBORG">Umuligt at kalde Dem fru
+<lb/>T. For mig blir De altid H. G,</q></p>
+<lb/><p>Både frøken T. og B. har sét, hvad
+<lb/>der forestår H. &dash; T. derimod råber
+<lb/><q type="speech" who="TESMAN">Nej herre gud, det havde jeg ingen anelse
+<lb/>om.</q></p><note resp="editor">Sammen med manuskriptet ligger to blad med personlige notater, som ikke tilhører dramaet Hedda Gabler. Disse gjengis i sakprosa- eller variamaterialet.</note></div></body></text>
+<!--SKAL TIL SAKPROSA/VARIA<text type="notes"><body>
+<pb/><note>personlige notater, på løs lapp, brevkladd? Skal til varia.</note>
+<div type="notes">
+<lb/><p>Hermed har jeg både for øje&typHyp;
+<lb/>blikket og for al fremtid sagt
+<lb/>hvad jeg har at sige det norske
+<lb/>studentersamfund.</p>
+<pb/><note>personlige notater, brevkladd? Skal til varia.</note>
+<lb/><p>Hverken mine svenske
+<lb/>eller mine danske eller
+<lb/>mine tyske landsmænd
+<lb/>vilde tiltro mig noget
+<lb/>sligt.</p>
+<pb/><note>personlige notater, klokkeslett, adresse på hotell i Basel. Skal til varia.</note>
+<lb/><p><gap/>ll Basiléa</p>
+<lb/><p>90.55</p>
+<lb/><p>Kl. 2.30.</p>
+<lb/><p>Hoteller i Basel:
+<lb/>Gasthof zu den drei Königen
+<lb/>Schweizerhof.</p>
+<pb/><note>personlige notater, brevkladd? Skal til varia.</note>
+<lb/><p>Jeg bruger <unclear reason="writing">ikke talerør</unclear>
+<lb/>Norrmænd sk<unclear reason="writing">ønner</unclear> ikke dette.
+<lb/>Men der er ingen af mine
+<lb/>landsmænd som forstår
+<lb/>mig mindre end Nordmænd</p></div>
+</body></text>-->
+</group></text></TEI>

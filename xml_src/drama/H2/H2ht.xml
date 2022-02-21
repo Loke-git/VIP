@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Hærmændene på Helgeland, 2. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: NBO Ms.8&deg; 1935</title>
+<title level="s" type="copyright">&copy; Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Ellen Nessheim Wiger, Mette Witting</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Else Mundal, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Aasta Marie Bjorvand Bjørkøy (manusred.), Erlend Lønnum (manusred.)</name></respStmt>    
+<respStmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Verskoding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Karl Johan Sæth</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Transkripsjon</resp>
+<name>Karl Johan Sæth</name>
+</respStmt>
+<respStmt>
+<resp>Korrekturkollasjon, januar 2005</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="H2ht-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på H2ht_bok.xml (H2ht_bok-1006).</p>
+<p>
+<HIS:hisMsDesc type="workingManuskript" xml:id="HH81935">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1935</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title>[Hærmændene på Helgeland]</title>
+<docDate>[1893]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Egenhendig, ufullført operautkast (begynnelsen av 1. akt).</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Grunntekstens typografi fins beskrevet i typografibeskrivelsen i grunntekstfilen (HH81935.xml).</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="DAGNY">DAGNY</label><item>Dagny</item>
+<label xml:id="ORNULF">ORNULF</label><item>Ørnulf, Ø</item>
+<label xml:id="SIGURD">SIGURD</label><item>Sigurd, S</item>
+<label xml:id="SONNER">SONNER</label><item>Sønnerne, Øs. sønner, Ø. sønner</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd. 19) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 36-38. Et n-attributt med faktisk sidetall er lagt til ved første forekomst.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes><handNote scribe="HI" xml:id="HI" medium="pen" scope="major"><p>Henrik Ibsen. Sort penn; venstrehellende skrift.</p></handNote></handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>02.06.14</date>
+<name>SBT</name><title>HISb-sideskift</title>
+La inn sideskift fra bokutgaven.</change>
+<change><date>13.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Gjorde manuelle endringer etter skripting.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<lb/><fw type="gathering" place="top-left"><pb n="[1]r"/><pb ed="HISb" n="479"/>1.</fw>
+<div type="act" n="1">
+<lb/><head><pb ed="HU" n="36"/>Første akt.</head>
+<HIS:hisLg versetype="stikisk femfotsjambe" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker><anchor type="lemma" xml:id="koH2_1"/>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><l first="yes" part="I"><anchor type="lemma" xml:id="koH2_1a"/><anchor type="lemma" xml:id="koH2_2"/>Vig marken, <anchor type="lemma" xml:id="koH2_3"/>hærmand!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><anchor type="lemma" xml:id="koH2_4"/>Sigurd</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="a">Aldrig vég jeg før!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l rhyme="a">Du skal og må! <anchor type="lemma" xml:id="koH2_5"/>Tag vare, hvad du <app type="alteration"><lem><HIS:hisAdd place="offline">gør</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">må</HIS:hisDel></HIS:hisRdg></app>!</l>
+<lb/><l rhyme="x">Jeg trænger skurets ly for mine mænd.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l part="I" realMet="bi- &bue;-&bue;-&bue;-&bue;--"><anchor type="lemma" xml:id="koH2_5a"/><anchor type="ht" xml:id="koH2_ht_2"/>Jeg for en <anchor type="lemma" xml:id="koH2_6"/>mødig kvinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Mer værd</l>
+<lb/><l part="I">er mine mænd end dine kvinder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Så?</l>
+<lb/><l rhyme="b">Står ransmænd da så højt i pris her nord?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><l rhyme="b">Dyrt skal du bøde for de <anchor type="lemma" xml:id="koH2_7"/>hånske ord.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><pb ed="HISb"/>S.</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Nej, du skal ligge kold før solen rinder.</l>
+<lb/><HIS:hisStage>(kamp)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Op alle Sigurds mænd! Min husbond <anchor type="lemma" xml:id="koH2_8"/><HIS:hisRef type="tcNote" xml:id="noteH2_1" target="H2ht_noter.xml" corresp="noteH2_1">stride</HIS:hisRef></l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker><pb ed="HU"/><anchor type="lemma" xml:id="koH2_9"/>Hornblæser</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Til våben alle! <anchor type="lemma" xml:id="koH2_10"/>Stimænd myldrer frem.</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisSp who="SONNER"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">Ø. sønn</HIS:hisDel>er</speaker>.</HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overstrike">Til hjæl</HIS:hisDel>p</p></HIS:hisSp>
+<HIS:hisLg versetype="stikisk femfotsjambe" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><pb n="[1]v"/>Sigurd</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Bliv hvor I er. Jeg magter ham alene.</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisSp who="SONNER"><HIS:spOpener><speaker>Øs. sønner</speaker>.</HIS:spOpener>
+<lb/><p rend="indent2"><anchor type="ht" xml:id="koH2_ht_3"/>Til hjælp for <anchor type="lemma" xml:id="koH2_11"/>gubben!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk femfotsjambe" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<lb/><l rhyme="x"><anchor type="lemma" xml:id="koH2_11a"/>Ej nærmere! Jeg selv vil fælde ham.</l></HIS:hisLg>
+<lb/><p rend="indent2"><anchor type="ht" xml:id="koH2_ht_4"/>Dit blod vil jeg sé!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker></HIS:spOpener>
+<lb/><p rend="alignRight">Se først dit eget.</p>
+<lb/><HIS:hisStage>(kamp)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker><pb ed="HISb"/>Ø.</speaker></HIS:spOpener>
+<lb/><p>Godt var det hugget, <anchor type="lemma" xml:id="koH2_12"/>hermand &dash;</p>
+<HIS:hisLg rend="poem"><HIS:hisLg versetype="strofisk strofe" an="no" met="bi (6 6)&sup2;" rhyme="(X A)&sup2;">
+<lb/><l rend="indent2" first="yes" rhyme="X"><anchor type="lemma" xml:id="koH2_13"/><anchor type="lemma" xml:id="koH2_14"/>Snygt du sværdet <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>svinger.</l>
+<lb/><l rend="indent1" rhyme="A">Hvast du véd at ramme.</l>
+<lb/><l rend="indent1" rhyme="X">Sigurd selv, <anchor type="lemma" xml:id="koH2_15"/>hin stærke,</l>
+<lb/><l rend="indent1" rhyme="A"><anchor type="lemma" xml:id="koH2_16"/>står for dig til skamme.</l></HIS:hisLg></HIS:hisLg></HIS:hisSp>
+<HIS:hisLg versetype="stikisk femfotsjambe" an="single" met="bi '10|'11" rhyme="x|X|r|R">
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><l first="yes" rhyme="X"><anchor type="lemma" xml:id="koH2_16a"/>Nå, da er Sigurds skam ham selv til
+<lb/><seg type="indent" rend="alignRight">hæder!</seg></l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p>Ha, Sigurd er det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SONNER"><HIS:spOpener><speaker>Sønnerne</speaker>.</HIS:spOpener>
+<lb/><p rend="indent2">Selve Sigurd er det!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Mændene</speaker>.</HIS:spOpener>
+<lb/><p>Ja, Sigurd viking! Selve Sigurd er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p>Viking! Hvassere ramte du mig
+<lb/><anchor type="lemma" xml:id="koH2_17"/>da du raned Dagny, min datter.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>S.</speaker> og <speaker>hans mænd</speaker>.</HIS:spOpener>
+<lb/><p rend="indent2">Ørnulf fra fjordene <HIS:hisDel rend="overwritten">&dash;<unclear>!</unclear></HIS:hisDel>her!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker><pb ed="HISb"/>Dagny</speaker></HIS:spOpener>
+<lb/><p>Min far! Mine brødre alle!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>S.</speaker></HIS:spOpener>
+<lb/><p>Vær ikke ræd. Jeg værger dig vel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p><HIS:hisDel rend="overwritten"><unclear>S</unclear></HIS:hisDel>Lidet det trænges! Jeg kendte dig straks
+<lb/>Jeg vil fred og forlig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><pb n="[2]r"/>S.</speaker></HIS:spOpener>
+<lb/><p>Jeg også helst. Hvis så det kan <anchor type="lemma" xml:id="koH2_18"/>sig føje.</p>
+<lb/><p rend="indent3">Sig frem dit krav.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ø.</speaker></HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koH2_19"/><anchor type="ht" xml:id="koH2_ht_1"/>Fem vintre er det siden <anchor type="lemma" xml:id="koH2_20"/>Gunnar <anchor type="lemma" xml:id="koH2_21"/>herse
+<lb/>og du til Island kom.</p>
+<lb/><p rend="indent3">I fik mit <anchor type="lemma" xml:id="koH2_22"/>gæstevenskab
+<lb/>og <anchor type="lemma" xml:id="koH2_23"/>fredlyst havn for <anchor type="lemma" xml:id="koH2_24"/>eders skibe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koH2_25"/>Ilde vi lønned dig, Gunnar og jeg.
+<lb/>Jeg véd det. Jeg véd det vel, Ørnulf.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Hjørdis, min fosterdatter, tog Gunnar.
+<lb/><pb ed="HU"/>Og du tog <HIS:hisDel rend="overwritten">d</HIS:hisDel>Dagny, mit eget barn.
+<lb/><pb ed="HISb"/>Så sejled I over hav med dem begge.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Lad høre, hvad <anchor type="lemma" xml:id="koH2_26"/>bod du kræver for ranet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koH2_27"/><anchor type="ht" xml:id="koH2_ht_5"/>Tre hundred i sølv. Med det er din ger-
+<lb/><seg type="indent" rend="alignRight">ning sonet.</seg></p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koH2_28"/>Billige kår. Dem tar jeg imod.
+<lb/>Og frivillig lægger jeg gaver til sølvet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker>.</HIS:spOpener>
+<lb/><p>Å, tak, du min <anchor type="lemma" xml:id="koH2_29"/>bolde husbond!
+<lb/>Tak, tak for dit fredssind og højsind.
+<lb/>Nu er jeg så gl<HIS:clarification place="inline">a</HIS:clarification>d, som aldrig på længe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>
+<lb/><HIS:hisStage>(til Ørnulf)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nu kan du lide på mig så trygt,
+<lb/><seg type="indent" rend="indent2">som på dine egne sønner.</seg></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker></HIS:spOpener>
+<lb/><p>Ret nu vil jeg <anchor type="lemma" xml:id="koH2_30"/>friste, <anchor type="lemma" xml:id="koH2_31"/>hvor god du er mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker><pb n="[2]v"/><pb ed="HISb"/>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Så gerne jeg tjener dig, Ørnulf.
+<lb/><seg type="indent" rend="indent3">Men sig mig, &dash; <app type="alteration"><lem><HIS:hisAdd place="offline">med</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">i</HIS:hisDel></HIS:hisRdg></app> hvad?</seg></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Med råd og med dåd. <HIS:hisRef type="tcNote" xml:id="noteH2_2" target="H2ht_noter.xml" corresp="noteH2_2">Hid</HIS:hisRef> er jeg kommen
+<lb/>for at søge Gunnar herse.
+<lb/><seg type="indent" rend="indent2"><anchor type="lemma" xml:id="koH2_32"/>Ransbod skal han give for Hjørdis.</seg></p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Gunnar? Gunnar! Er Gunnar her!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DAGNY"><HIS:spOpener><speaker>Dagny</speaker>.</HIS:spOpener>
+<lb/><p>Og Hjørdis! Å sig, hvor de er at finde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Vel sidder de hjemme på Gunnars
+<lb/><seg type="indent" rend="alignRight">gård,</seg>
+<lb/>ikke <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> langt fra her. <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel></p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>
+<lb/><HIS:hisStage>(stille, bevæget)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Det vidste jeg ikke. <HIS:hisDel rend="overstrike"><HIS:hisStage>(f<unclear>a</unclear></HIS:hisStage></HIS:hisDel>
+<lb/><HIS:hisStage>(fatter sig)</HIS:hisStage>
+<lb/><pb ed="HISb"/>Vidt har jeg <anchor type="lemma" xml:id="koH2_33"/>faret i viking siden sidst.
+<lb/><anchor type="ht" xml:id="koH2_ht_6"/>Har tjent konger i mange fremmede
+<lb/><seg type="indent" rend="alignRight">lande.</seg>
+<lb/>Hid kom jeg idag ved <anchor type="lemma" xml:id="koH2_34"/>lysings-tid,
+<lb/><HIS:hisRef type="tcNote" xml:id="noteH2_3" target="H2ht_noter.xml" corresp="noteH2_3">fordeven</HIS:hisRef> af uvejr, langt ud fra min vej.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>At vi to mødtes var et værk af <anchor type="lemma" xml:id="koH2_35"/>de vældige.
+<lb/>Af de<HIS:hisDel rend="overwritten">n</HIS:hisDel>m som råder højt over skyerne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SIGURD"><HIS:spOpener><speaker>Sigurd</speaker>.</HIS:spOpener>
+<lb/><p>Agter du at <anchor type="lemma" xml:id="koH2_36"/>fare med læmpe mod Gunnar?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ORNULF"><HIS:spOpener><speaker>Ørnulf</speaker>.</HIS:spOpener>
+<lb/><p>Ifald han sig føjer. For bod skal han gi&rapo;
+<lb/><seg type="indent" rend="alignRight">mig.</seg></p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

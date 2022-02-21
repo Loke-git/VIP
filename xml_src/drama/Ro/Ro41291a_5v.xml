@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Rosmersholm</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1291a, bl.5[v]</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og første kollasjon, juni-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respStmt>
+<respStmt><resp>2. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Ro41291a_5v-0312"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på Ro41291a_pre_splitt (Ro41291a-0909).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Ro41291a_5v">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1291a-b</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>[Rosmersholm]</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>NBO Ms.4&deg; 1291a-b er bundet inn i samme bokbind.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Transkripsjonsnormaliseringer: Ikke noe å bemerke.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>23.03.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+<change><date>28.09.09</date>
+<name>HMS</name><title>Opprettet filen</title>
+I forbindelse med koding til synoptiske visninger: Skilte ut denne filen fra Ro41291a_5r.xml, som opprinnelig het Ro41291a.xml. Laget visning. Logginnførslene under dreier seg om Ro41291a.xml i sin helhet. Logginnførsler fra før 15.02.08 finnes i Hv-Ro41291ab_NBO.xml.</change>
+<change><date>aug. 09</date>
+<name>HMS</name><title>Sidetallskoding</title>
+Kodet inn sidetall som følger ms-beskrivelsen (blad).</change>
+<change><date>15.02.08</date>
+<name>HB</name><title>Utskilling pga. verkstilhørighet</title>
+Materiale knyttet til Ro (fakss. 5-6) skilt ut fra Hv-Ro41291ab_NBO.xml. Fjernet tagUsage gi="pb-ed-HU-n", siden ingen tekst her kan synkroniseres vha HU-taggene. Oppdaterte typography. Fjernet variantEncoding, siden mset ikke har app-elementer.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="page_nopagination" n="5" subtype="verso" facs="6"/>
+<div type="relatedToWork">
+<lb/><p>Hun er intrigant og hun elsker ham.
+<lb/>Hun vil bli&rapo; hans hustru og urokkelig
+<lb/>forfølger hun dette mål. Da kommer
+<lb/>han efter det og hun vedkender sig det åbent.
+<lb/>Så er der ingen livslykke mere for ham.
+<lb/>Det dæmoniske vækkes af smerten og bit&typHyp;
+<lb/>terheden. Han vil dø, og hun skal dø med
+<lb/>ham. Hun gør det.</p>
+</div>
+</body>
+</text>
+</TEI>

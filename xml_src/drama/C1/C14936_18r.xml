@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Catilina</title>
+<title level="a" type="sub">1. versjon, NBO Ms.4&deg; 936, bl. 18r</title>
+<title level="a" type="origYear">1849</title>
+<author>Brynjolf Bjarme (pseudonym for Henrik Ibsen)</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingrid Falkenberg, Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Konvertering til prosjektspesifikk TEI XML desember 2000</resp>
+<name>Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Kontroll av transkripsjon</resp>
+<name xml:id="HIS-TM">Tone Modalsli</name>
+<name xml:id="HIS-JGJ">Jon Gunnar Jørgensen</name>
+</respStmt>
+<respStmt>
+<resp>Kontroll av koding</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Koding i prosjektspesifikk TEI SGML, transkripsjon, kollasjonering, koding og korrekturlesing, oktober 1998 til oktober 1999</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="C14936_18r_0912"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc><p>Denne filen bygger på C14936_NBO.xml (C14936_NBO_200711).</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i C14936_NBO.xml.</p>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace></tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen" scope="major"><p>Henrik Ibsen. Sort blekk. Hovedhånd.</p></handNote>
+<handNote scribe="CLD" xml:id="CLD" medium="pen"><p>Christopher L. Due. Sort blekk. Enkelte rettelser i gotisk skrift.</p></handNote>
+<handNote scribe="h3" xml:id="h3" medium="pencil1"><p>Ukjent hånd (trolig bibliotekar), grå blyant. Foliering.</p></handNote>
+<handNote scribe="h4" xml:id="h4" medium="pencil2"><p>Ukjent hånd (trolig også bibliotekar), grå blyant. Rettet foliering av h3.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>12.09.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>12.02.08</date>
+<name>HB</name><title>Test og rettelser av versjonskoblinger</title>
+Sjekket koblinger mellom versjonene vha nye visninger. Justerte koding og plassering av koblinger der det var nødvendig.</change>
+<change><date>02.02.08</date>
+<name>HB</name><title>Rettelse</title>
+Rettet entitetene rundt foliering i pb.</change>
+<change><date>20.11.07</date>
+<name>HB</name><title>Omkoding av HISe-xptr-koblinger samt ferdigstilling av versjonssplitting</title>
+Kodet om til ny koding av HISe-xptr-koblinger. Fjernet typography og la inn p med henvisning til NBO-fil. Ditto for msDescription. La til opplysning i titleStmt om hvilke blad filen inneholder. Fjernet tagUsage-id-who siden filen ikke inneholder replikker/who-attributter.</change>
+<change><date>16.11.07</date>
+<name>HB</name><title>Splittet fil i tre versjoner for HISe</title>
+Arkiverte pre-splitting-kopi + lagret kopi som inneholder NBOs ordning av mset (=arkivert kopi). Slettet all logg fra tidligere år, bevart i arkivert kopi. Siden group/text/group-strukturen nå er overflødig fjernet jeg den. Filen er ikke valid enda siden sammenkoblingspekerne ikke er kodet om.</change>
+<change><date>15.11.07</date>
+<name>HB</name><title>tallspenn, pb-ms og HISe-koblinger</title>
+Ingen tallspenn, restore eller note/ref. La inn folieringsref i pb + faksimiles. Kodet om xptr-ene til ny standard.</change>
+<change><date>18.09.07</date>
+<name>HB</name><title>desc til sub-omkoding</title></change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Fjernet performance og flyttet head inn i castList</title></change>
+<change><date>31.07.07</date>
+<name>HB</name><title>Ms-koding</title>
+Endret div/type/notes til div/type/relatedToWork i tråd med vedtak på kodemøtet 31.05.07.</change>
+</revisionDesc>
+</teiHeader>
+<text type ="drama" xml:lang="dan-nob" rend="handwritten">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="18" facs="35"/>
+<lb/><fw type="leaf" place="top-right" hand="h3"><HIS:hisDel rend="overstrike">16</HIS:hisDel> <HIS:hisAdd place="inline" hand="h4">18</HIS:hisAdd></fw>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisDiv type="relatedToWork" n="1"><HIS:hisDel rend="diagonalOverstrike"><HIS:hisDiv type="act" n="1"><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_26ms"/>Anden Act. &dash;</head>
+<lb/><HIS:hisDiv type="scene" n="1"><head>Et Værelse i Catilinas Huus</head>
+<lb/><p>Lentunus og Cethegus hav<unclear reason="writing">e</unclear> meddeelt ham deres Venn<unclear reason="writing">ers</unclear>
+<lb/>Beslut<unclear reason="writing">ning</unclear> &dash; og opfordret ham til at sætte sig i Spid&typHyp;
+<lb/>sen for Foretagendet men han afslaaer det og de ga<unclear reason="writing">ae</unclear>
+<lb/>bort &dash; &dash; Monolog &dash; Furia træder <unclear reason="writing">frem</unclear> &dash; han
+<lb/>opflammes til Raseri og styrter afsted til de
+<lb/>Sammensv<unclear reason="writing">ornes</unclear> Samlingssted. &dash;</p></HIS:hisDiv>
+<lb/><HIS:hisDiv type="scene" n="2"><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_37000ms"/>En Taverne</head>
+<lb/><p>De Sammensvorne ere forsamlede &dash;
+<lb/>L &amp; C. træder ind og berette Udfaldet af deres Sen&typHyp;
+<lb/>delse og L. tilbyder sig at stille sig i Spidsen
+<lb/>for <HIS:hisDel rend="overwritten">f</HIS:hisDel>Foretagendet &dash; hvilket ogsaa bifaldes
+<lb/>imidlertid <HIS:hisDel rend="overwritten">træd</HIS:hisDel>styrter Catilina rasende ind
+<lb/>tilbyder sig at være Anfører og alle slutte
+<lb/>sig med Glæde til ham, der tales om
+<lb/>Sammensværgelsen og Cethegus begiver sig
+<lb/>til Allebrogerne for at forman<unclear reason="writing">e</unclear> dem til
+<lb/>at deeltage i Sammsværgelsen &dash;</p></HIS:hisDiv>
+<lb/><HIS:hisDiv type="scene" n="3"><head><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="C1_44000ms"/>En Have<unclear reason="writing">,</unclear> i Baggrunden Catilinas Huus</head>
+<lb/><p>Curius gaaer op og ned for at bevogte Indg<unclear reason="endline">angen</unclear>
+<lb/>&dash; Furia træder frem &dash; <HIS:hisDel rend="overwritten"><unclear reason="writing">Sam</unclear></HIS:hisDel>hæftig Samtale &dash;, <unclear reason="writing">han</unclear>
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>erklærer hende sin brændende Kjærlighed og hun fordre<unclear reason="writing">r</unclear>
+<lb/>at han skal som Beviis paa denne <HIS:hisDel rend="overwritten">op</HIS:hisDel>angive
+<lb/>Sammensværgelsen &dash; Kamp <unclear reason="writing">mellem</unclear> Kjærlighed
+<lb/>og Pligt &dash;, den Første seirer og han gaa<unclear reason="writing">er</unclear>
+<lb/>bort &dash; Furia allene &dash; Allebrogerne kom<unclear reason="endline">me</unclear>
+<lb/>ud tal<unclear reason="writing">e</unclear>nde om <unclear reason="writing">Sammensværgelse</unclear> &dash; hun fremstiller
+<lb/>sig &dash; advarer dem, de forskrækkes &dash; og beslutte
+<lb/>at trække sig tilbage Catilina kommer ud &dash; Momolog
+<lb/>Aurelia opsøger ham og vil overtale ham til at opgive
+<lb/>det hele &dash; forgjæves &dash; og hun beslutter at følge ham hun
+<lb/>gaar ud &dash; Catilina allene &dash; hun kommer bevæbnet til&typHyp;
+<lb/>bage &dash; de Sammensvorne samle sig &dash; Furia
+<lb/>er iblandt dem &dash; de ile alle afsted &dash;</p></HIS:hisDiv></HIS:hisDiv></HIS:hisDel><q/><!-- 16.11.07 HB: q er juksekoding lagt inn av valideringshensyn --></HIS:hisDiv>
+</body>
+</text>
+</TEI>

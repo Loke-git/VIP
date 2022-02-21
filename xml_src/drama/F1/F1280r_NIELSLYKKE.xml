@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fru Inger til Østeraad</title>
+<title level="a" type="sub">1. versjon, TarkUiB NT280r (rollehefte, Niels Lykke)</title>
+<title level="a" type="origYear">1854</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Bjørg Harvey, Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), oktober 2000</resp>
+<name>Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Koding og korrektur, oktober 2000 - januar 2001</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="F1280r_NIELSLYKKE-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Filen bygger på ekstern transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="F1280r_NIELSLYKKE">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Teatermuseet, Univ. i Bergen</repository>
+<idno>N. T. 280</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Fru Inger til Østeraad</title>
+<title type="sub">historisk Drama i 5 Akter</title>
+<docDate>1854</docDate>
+</msItem>
+<msItem n="NIELSLYKKE"><locus>112 sider</locus><title>«Niels Lykke, dansk Ridder»</title></msItem>
+</msContents>
+<physDesc><objectDesc><p>Rollehefte, ikke egenhendig. Se for øvrig Tone Modalslis manuskriptbeskrivelse</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Fru Inger til Østeraad - 10 rollehefter - F1280r:</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>Omslag: Rolleheftene til Fru Inger, Eline, Niels Steensøn og Olaf Skaktavl er omfattende med tekst, på størrelse med en kladdebok, og har blått omslag med etikett. Niels Steenssøns etikett skiller seg ut, da den inneholder rolletittel og dramatittel, begge med dobbel understrekning. Den inneholder, i likhet med de andre, også informasjon om skuespiller(e). Etikettene til Fru Inger, Eline og Olaf Skaktavl inneholder i tillegg dato, 29/8 61.</item>
+<item>tittelside:
+<list>
+<item>foran stykket:
+teksten er midtstilt.
+I rolleheftet til Fru Inger er tittelbladet revet ut.
+Tittelrollen er skrevet med større skrift og bredere penn enn rollebeskrivelsen og tekstopplysningene. I rolleheftet til En Soldat og Niels Steenssøn står dramatittel med samme skrift som tittelrollen. I Niels Lykkes, Niels Steenssøns og Olaf Skaktavls rollehefter står tittelrollen i anførselstegn. Dramaets tittel står i anførselstegn i alle rolleheftene. Øverst i høyre hjørne står det hvor mange ark det respektive rolleheftet består av (1 ark består her av 4 blad, 8 sider). I Bjørns, Elines, Finns, Niels Lykkes, Niels Steenssøns og Olaf Skaktavls hefte er opplysningen om arkantall understreket. I de tilfellene der arkantallet ikke er understreket, er det kodet med 'hi'. Rolleheftet til En Soldat mangler øvre del av tittelsiden, slik at ev. opplysninger om arkantall er tapt.
+Nederst på tittelsidene er det i alle rolleheftene, bortsett fra i En Soldats og Niels Lykkes limt inn en lapp. Det ser ut til å sitte igjen lim etter en slik lapp i Niels Lykkes rollehefte. På samme sted står teksten "af/Henr. Ibsen." - denne har antakeligvis vært skjult av lappen, og er det kanskje også i de andre rolleheftene.
+I alle rolleheftene er det tilføyd, ev. på innlimt lapp, med forskjellige penner navn på skuespillere og datoer for én (En Soldat, Niels Lykke), to (Bjørn, Niels Steenssøn) eller tre (Einar, Eline, Finn, Jens Bjelke, Olaf Skaktavl) oppsetninger. Dato mangler i Niels Lykkes rollehefte. Det står 2 datoer for Eline og Olaf Skaktavl, selv om de har 3 skuespillernavn. Det står "Reg." en eller flere ganger.
+Henrik Ibsens signatur står nederst i venstre hjørne på tittelsiden. Dette er den opprinnelige plassering kun i rolleheftet til En Soldat, et rollehefte som har første datering 16/12 54, i motsetning til de andres som er 10/12 54. I alle de andre rolleheftene er plasseringen midstilt under dramatittelen, men i samme skrift som resten, ikke signatur, og med teksten «af/Henr. Ibsen.». Med unntak av rolleheftet til «En Soldat», er det er limt en lapp over det midtstilte forfatternavnet i alle rolleheftene. Teksten under er tydelig ved gjennomlysning av papiret. I rolleheftet til «Niels Lykke» er lappen falt av, men det er tydelige spor etter lim og væteskade etter en slik lapp, i tillegg til at det gjenstår tekst utenfor, nedenfor området. Teksten som gjenstår er Ibsens signatur og en dato, men ikke skuespillernavn. I rolleheftene til «Eline», «Finn», «Jens Bjelke», «Niels Lykke», «Niels Steenssøn» og «Olaf Skaktavl» er Ibsens signatur understreket. Den eldste teksten er vanligvis overstrøket, slik at bare det som gjelder for den siste oppsetningen står igjen. I rolleheftet til «Fru Inger» er tittelbladet revet ut. I rolleheftene til Eline, Finn, Jens Bjelke, Niels Lykke, Niels Steenssøn og Olaf Skaktavl er Ibsens signatur understreket.
+Den eldste teksten er vanligvis overstrøket, slik at bare det som gjelder for den siste oppsetningen står igjen.
+</item>
+<item>etter stykket: Finns rollehefte inneholder en ekstra tittelside på bakre omslag. Her står tittelrollen med litt større skrift og er dessuten understreket. Denne tittelsiden er kodet i 'back'.</item>
+</list>
+</item>
+<item>situasjonsbeskrivelse: står på baksiden av tittelsiden. Teksten er umarkert. I Einars rollehefte har situasjonsbeskrivelsen innrykk første linje. i Elines rollehefte står den i parenteser. Rolleheftene til En Soldat og Fru Inger mangler situasjonsbeskrivelse.</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt, enkel eller dobbel understreking</item>
+<item>sceneanvisning: uten parentes, understreket, midtstilt</item>
+<item>utheving av rollenavn i sceneanvisning: separat eller dobbel/tykk understreking. Ikke alle rollenavn i sceneanvisninger er uthevet.</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt, enkel eller dobbel understreking, ordenstall med hevet "ste", "den" osv. (kodet med 'hi')</item>
+<item>sceneanvisning: understreket. Sceneanvisninger uten understrekning er kodet med 'rend="deviation"'.
+<list>
+<item>etter sceneoverskrift: med eller uten parentes</item>
+<item>mellom replikker: i parentes, midtstilt på egen linje, eller som løpende tekst etter foregående replikk</item>
+<item>i replikker: i parentes, som løpende tekst</item>
+</list>
+</item>
+<item>utheving av rollenavn i sceneanvisning: separat eller dobbel/tykk understreking. Ikke alle rollenavn er uthevet.</item>
+<item>rollenavn: plassert i venstre marg
+<list>
+<item>tittelrolle: markert med en horisontal strek (navnet står ikke). Inne i 'speaker' er det satt en entitet for rollenavnet. I stilarket gis det en kommando om at entiteten skal vises som rollenavn i "krøllklammer" i visningen</item>
+<item>andre roller: navnet står umarkert. Understrekede navn er kodet med 'rend="deviation"'</item>
+</list>
+</item>
+<item>prosareplikk: på samme linje som rollenavnet
+<list>
+<item>tittelrollens replikker: umarkerte</item>
+<item>andre rollers replikker: understreket. Manglende understrekning er kodet med 'rend="deviation"'.</item>
+</list>
+</item>
+<item>utheving i replikk: understreket</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skille- og pyntestreker: "krøllpyntestreker" etter hver akt</item>
+<item>bindestreker: doble</item>
+<item>anførselstegn: doble øvre kommaer</item>
+<item>parenteser: i En Soldats rollehefte brukes disse tegnene: /:[...]:/. I de øvrige heftene er det brukt alminnelige parentesbuer. Alle er gjengitt som alminnelige parentesbuer i den kodede teksten.</item>
+<item>sidetall: i øvre, ytre hjørne. Vanligvis med punktum etter</item>
+<item>noter: i parentes, som løpende tekst. Inneholder teksten "2den Gang." (brukes ved gjentakelser, der den første forekomsten ikke er gjengitt). Kodet med 'note resp="author"'</item>
+</list>
+</item>
+<item>skriblerier
+<list>
+<item>tegninger:
+<list>
+<item>ansikter i blyant: s. 17 (Bjørn), tittelside (Niels Steenssøn)</item>
+<item>helfigurer i blyant: s. 29, 36 (Niels Steenssøn), s. 15 (Olaf Skaktavl)</item>
+<item>geometriske blyanttegninger: s. 3 (Jens Bjelkes), s. 45, 90 (Niels Lykke)</item>
+<item>kruseduller: s. 5, 7 (Niels Lykke, blyant), 11 (Niels Steenssøn, blyant), s. 31 (blyant, etter stykkets slutt, Olaf Skaktavl), s. 31, 35 (Fru Inger)</item>
+<item>briller(?): s. 17 (Olaf Skaktavl)</item>
+<item>blyantsirkler: s. 29 (Fru Inger)</item>
+</list>
+</item>
+<item>blyantstreker: s. 8, 17, 18 (Eline), 104 (Niels Lykke), s. 7, 9, 15, 23, 24, 25, 31, 35 86, 95 (Fru Inger)</item>
+<item>vertikale streker mellom ord (markerer at det er to ord?): s. 58 (Eline), s. 39, 48, 95, 102, 103, 105 (Fru Inger), s. 8 (Jens Bjelke), s. 44, 57 (Niels Lykke)</item>
+<item>dobbeltkryss: i ventre marg s. 18 (Bjørn)</item>
+<item>blyantkryss: s. 8, 13 (Eline), s. 14, 15, 26, 35 (Fru Inger)</item>
+<item>krøllstreker: langs hele venstre marg i blyant s. 45 (Niels Lykke), s. 16 (Olaf Skaktavl), langs hele venstre marg i blyant s. 7 (Fru Inger), s. 23-25 (Fru Inger)</item>
+<item>tall: tallrekke nedover på s. 7 (Fru Inger), tre åttetall og tre andre tegn på s. 25 (Fru Inger)</item>
+<item>ringer over bokstaver (s, u, o, y) i Finns rollehefte</item>
+<item>tydeliggjøring: det forekommer en del ekstra streker på t-ene og tydeliggjøringer av enkeltbokstaver. Disse er ikke kodet spesielt.</item>
+<item>avsmittet blekk som kan feilleses som tankestreker, understrekninger o.l. finnes gjennomgående i heftene, bl.a. s 13, 67 i Fru Ingers rollehefte</item>
+<item>tekst:
+<list>
+<item>"NB" i blyant: 2 ggr. på s. 47 (Eline), s. 90 (Niels Lykke), s. 39 (Fru Inger)</item>
+<item>"48-49 Parquit(?)/til Butiken./Toldboden/8-9- Bul[...] L-" i blyant på tittelsiden i rolleheftet til Finn. Alt untatt "Toldboden" er overstreket med blyant.</item>
+<item>"Louise Birgithe/Bergithe/Bergitte"(?) strek ned til  sceneanv. "halvsagte, idet hun aabner brevet", blyant, s. 8 (Fru Inger)</item>
+<item>"1888" s. 25 (Fru Inger)</item>
+<item>"Parnasset" i venstre marg på s. 67 (Fru Inger)</item>
+<item>"strøget." i venstre marg på s. 70 (Fru Inger)</item>
+<item>Initialer ("ST"?), s. 23 (Olaf Skaktavl, penn)</item>
+<item>Fleuri...densen(?) s. 36 (Eline, penn)</item>
+</list>
+</item>
+</list>
+</item>
+<item>hender: &lt;item&gt;hender: I «Niels Lykkes» rollehefte er understrekningene (av overskrifter, sceneanvisninger, replikker og rollenavn), samt streken i margen som markerer tittelrollen, gjennomgående utført (el. tydeliggjort) av h2 (blyant). Dette er ikke kodet spesielt.
+<list>
+<item>I «Jens Bjelkes» rollehefte er det ingen endringer av h3. H2 har gjort én endring (s. 5). Kan være Ibsens håndskrift?</item>
+<item>I «Einars» rollehefte ser det ut som at to hender har gjort endringer. Alle de mange pennendringer er gjennomgående utført av en h3 som ikke er identisk med h3 i de andre heftene, likeså de svært få blyantendringer som er gjort av en anderledes h2 (blyant) (se s.7). De er kodet som h2 og h3. H3s endringer følger 1874-utgaven. F.eks. er F1s: «See saa, nu er vi væbnede, og saa afsted!» endret til F2s «Nok, nok, I gode bønder; nu mener jeg vi er vel rustede. Nu kan vi lægge i vej!», «(Landse)stagen» for «Landse» osv. H3 har en tynn penn, litt spiss og slurvete skrift, bolle-å, j for y, minuskel forbokstav i substantiv. Vanskelig å si noe om h2. Ikke strek over u-en.</item>
+<item>«Finns» rollehefte har to ekstra blad i annet papir og med annen skrift og med -74-utgavens skrivemåte av Østeraad/Østråt. Skriften kan ligne på skriften til retterhånden i Einars rollehefte, og følger f2s tekst, eks. rettingen s. 8 («det veed jeg nu ikke saa ligetil» (som i f1) endret til «det er der nok ikke mange som véd» (som i f2)). Endringene og de to ekstra bladene er derfor antagelig ikke opprinnelige.</item>
+<item>Skriften har dessuten bue, nesten en ring, over s og u., og 'anførselstegn'.</item>
+</list>
+</item>
+<item>skader
+<list>
+<item>Einars hefte er blitt brettet, og har så store slitasjer i bretten at skriften der er uklar og nesten alle bladene brekker. Siste blad har brukket i bretten, og den ytterste delen, med 1 1/2 siders tekst, mangler. </item>
+<item>Finns rollehefte er brettet i to, og er skadet i bretten.</item>
+<item>Olaf Skaktavls rollehefte er brettet i to, og er skadet i bretten.</item>
+<item>Bjørns rollehefte er brettet i to.</item>
+<item>Jens Bjelkes rollehefte er også brettet i to, men er ikke så skjør i bretten som de foregående.</item>
+<item>øvre halvdel av tittelbladet til En Soldats rollehefte er revet av</item>
+<item>tittelsiden mangler (avrevet) i rolleheftet til Fru Inger, gjenstår en flik. Gjennomgående slitt med rifter og bretter i kantene på hvert blad. Øverste, ytre del av s. 99-100 i Fru Ingers rollehefte er klippet ut. Det ser ut til å være gjort for å fjerne tekst, for sidetall er påført under tomrommet. Noen løse blad.</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="castItem">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker/stageRole</headItem>
+<label>BJORN</label><item>Bjørn/Bjørn</item>
+<label>EINAR</label><item>Einar/Einar</item>
+<label>ELINE</label><item>Eline/Eline</item>
+<label>SOLDAT</label><item>En Soldat, Soldaten/</item>
+<label>FINN</label><item>Finn/Finn</item>
+<label>FRUINGER</label><item>Fru Inger, Inger/Fru Inger, Inger Gyldenløve</item>
+<label>BJELKE</label><item>Bjelke, Bjælke(sic)/Jens Bjelke</item>
+<label>NIELSLYKKE</label><item>Lykke, Niels Lykke, Nils(sic) Lykke/Niels Lykke</item>
+<label>STEENSSON</label><item>Steenssøn, Steensøn, Steen, Steens/Niels Steenssøn, Niels Steensøn, Steenssøn</item>
+<label>SKAKTAVL</label><item>Skaktavl, Skakt, Olaf Skaktavl/Olaf Skaktavl, Skaktavl</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven er ikke ført inn (skulle vært kodet med pb ed="HU"). Dette tekstvitnet dekker sidene 121-228.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="JPr" xml:id="JPr" medium="pen" scope="major"><p>Jacob Prom. Hovedhånd i 9 hefter.</p></handNote>
+<handNote scribe="HI" xml:id="HI" medium="pen"><p>Henrik Ibsen. Signert, samt påført dato for utlevering og navn på skuespiller på tittelbladene.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pen"><p>En eller flere uidentifiserte hender. Blyant og blekk. Rettelser.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte (Niels Lykke). Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>03.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change>
+<date>15.06.08</date>
+<name>HB</name><title>Kodeoppdatering</title>
+Validerte filen. Oppdaterte koding etter punktene i avsnittet om teiHeader i ms-filer i dokumentet HISe-forberedende_koding_og_notater.html.
+</change>
+<change><date>17.12.07</date>
+<name>HB</name><title>Fjernet space</title>
+Fjernet space på s. 17 i Finns rollehefte, og erstattet elementet med rend="deviation".</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Lar performance stå siden det ikke er benyttet til å omslutte castList, men til opplysninger om skuespillere osv.</title></change>
+<change><date>23.06.06</date>
+<name>HB</name><title>Retting av ms-koding</title>
+Fjernet hand i del/overwritten, sjekket at det lå hand i den tilhørende add-taggen. Sjekket og endret evt. mellomrom mellom del/overwritten og påfølgende add-tagg.</change>
+<change><date>20.04.06</date>
+<name>ENW</name><title>Omkoding</title>
+Ferdig med omkoding av håndskriftsrettelser. Validert.</change>
+<change><date>15.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Ikke valid pga. gammel ms-koding.</change>
+<change><date>18.01.06</date>
+<name>ENW</name><title>Omkoding</title>
+Begynt omkoding av håndskriftsrettelser. Oppdaterte TEI-header. Samkjørte handList med TMs ms.besk., merk at jeg har lagt til en gruppe med uidentifiserte hender (rettelser i blekk og blyant) som TM ikke har tatt med. Validert.</change>
+<change><date>16.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Fikk ikke validert pga. gammel koding og et par feil. Blir vel rettet i manuskriptgjennomgangen.</change>
+<change><date>23.02.05</date>
+<name>ENW</name><title>Feilretting</title>
+Rettet en gal lesemåte s. 106 (vare/være) oppdaget under edering av F1. Endret koding av msContents i msDescription.</change>
+<change><date>24.09.03</date>
+<name>HB</name><title>Feilretting</title>
+Ga filen nytt navn og ny attributtverdi i tråd med HIS' praksis. Rettet feil i koding. Gjenstående feil skyldes dtd'en og er oversendt dtd-ansvarlig.</change>
+<change><date>29.10.02</date><name>IF</name><title>Oppdatering</title>La inn msDescription og oppdaterte sourcedesc ellers, la inn metDecl, endret elementet shy til entitet, endret corrmarks til numbered eller restore. Fjernet appSpan i Elines r. 5. akt, scene 1. Ikke lagt inn HUs sideskift. Validert</change>
+<change><date>16.09.02</date><name>IF</name><title>Oppdatering</title>Oppdaterte doctype. Endret docImprint til note type=skribble på tittelsidene</change>
+<change><date>29.01.02</date><name>IF</name><title>Kontroll av tekst og koding. Oppdatering av koding.</title>Tekst- og kodekontroll ferdig. Tekstkontroll mot manuskriptet. Standardiserte teksten i typo-notene. Sjekket interpunksjon i forhold til emph. Endret type= til rend= i del og ved corrmarks. Endret nummererte div til unummererte. La til place="inline" ved clarification. Type="Parts" i bibl. ble ikke validert, derfor unnlatt. La inn oversikt over rolleheftene i note i bibl. Selv om det ble validert, endret jeg \p rend=deviation\ til \p\hi\, fordi \p rend\ hverken står i kodepraksis eller attributtverdilista. Fjernet id-attributt i titlepage, fordi det ikke ble validert når det er id-attributt i text (unntatt når attributtet står med minuskler) - det står heller ikke noe om dette i kodepraksis eller attributtverdilista. Sgmls godkjente heller ikke who-attributt i titlepage. Ikke lagt inn HUs paginering. La til c:\SGML\TEI\ibsen-xml.dtd. og resp TM i teiHeader. Ved de 2 utstrykningene som er markert med korrekturtegn, har jeg lagt til appSpan, og plassert corrmarks der, da corrmarks ifølge ny kodepraksis ikke lenger kan settes direkte i delSpan. Validert.</change>
+<change><date>24.10.00-08.01.01</date><name>SBT</name><title>Etablering</title>
+Konverterte manuskripttranskripsjonen fra word-format til TEI XML. Leste korrektur på teksten mot faksimile. Må kontrolleses mot manuskriptene. En del av teksten er skjult på faksimilene, bak bretter, i linninger osv. Her har jeg kodet med 'gap', 'unclear' eller 'note'. Kontrollér med ms. og fjern ev. disse kodene etterpå. Har skrevet typografibeskrivelse. Har lagt til foliering. Håndlista: har ikke skilt mellom ulike penner, bare mellom penn og blyant. Opplysninger om arkantall på tittelsidene er kodet innenfor 'measure' i 'docImprint'. Scenenummereringa i rolleheftet til En Soldat avviker fra den i de øvrige rolleheftene og i sufflørboka. Avvikene er siccet, og de ideelle scenenumrene (dvs. de som samsvarer med de øvrige heftene) er oppført i n-attributtet til 'div'. Siden Fru Ingers rollehefte mangler tittelside, er id-attributtet hennes lagt inn i første 'sp' (ved siden av who-attributtet) der Fru Inger opptrer i sitt rollehefte. I det store apparatet i Fru Ingers rollehefte (s. 65-73) har jeg måttet juksekode litt for å få det validert. Begynnelses- og sluttagger til 'p' og 'sp' er lagt til før og etter innførselen av nye 'speakere'. Har brukt stor/liten forbokstav som kriterium for hvorvidt sceneanv. i slutten av replikker skal stå i eller utenfor 'p'. Tittelrollene i rolleheftene er bare gjengitt med en horisontal strek i margen. Disse er gjengitt som tomme speakere. I stilarket vil de vises som rollenavn innenfor skarpe klammer. Alle avvik (manglende understreking eller dobbel understreking i stedet for enkel understreking) er kodet med 'hi' eller 'rend="deviation"'. Burde vi spesifisere avvikene nærmere, f.eks. med "underlineddb"? Har ikke noen attributtverdi for manglende understreking. Teksten er validert. Har lagd bok.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" xml:lang="dan-nob" rend="handwritten">
+<front>
+<pb/>
+<titlePage>
+<note resp="author"><measure>14 Ark.</measure></note>
+<docTitle>
+<lb/><titlePart>&lquo;Niels Lykke&rquo;
+<lb/>dansk Ridder
+<lb/>i
+<lb/>&lquo;Fru Inger til Østeraad;&rquo;
+<lb/>historisk Drama i 5 Akter
+</titlePart>
+</docTitle>
+<byline>
+<lb/>af
+<lb/><docAuthor>Henr. Ibsen.</docAuthor></byline>
+</titlePage>
+<performance>
+<p>10/12. 54 &dash; Henr: Ibsen</p>
+</performance>
+<pb/>
+<lb/><set><p>Handlingen foregaaer paa Herresæ&typHyp;
+<lb/>det Østeraad ved Trondhjemsfjor&typHyp;
+<lb/>den i Aaret 1528. &dash;</p></set>
+</front>
+<body>
+<pb/>
+<lb/><fw type="page" place="top-right">3.</fw>
+<div type="act" n="2">
+<lb/><head>Anden Akt. &dash;</head>
+<div type="scene" n="1">
+<lb/><head>Første Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER">Fru Inger</HIS:stageRole>. <HIS:stageRole who="SKAKTAVL">Skaktavl.</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisAdd place="inline" hand="h1"><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Den Fremmede skal I snart faa i Tale. &dash;</p></HIS:hisSp></HIS:hisAdd>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker rend="deviation">Skaktavl</speaker>.</HIS:spOpener><p>Nu, hvis I saa lyster.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(De gaa.)</HIS:hisStage>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">den</hi> Scene.</head>
+<lb/><HIS:hisStage>(Finn fører <HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> og Jens
+<lb/>Bjelke ind fra Høire.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(til Finn.)</HIS:hisStage></HIS:spOpener><p>Og vi kan da
+<lb/>sikkert forlade os paa dig i
+<lb/>Et og Alt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker rend="deviation">Finn</speaker>.</HIS:spOpener><p>at være paalidelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Vel, vel, det har han ogsaa
+<pb/>
+<lb/><fw type="page" place="top-right">4.</fw>
+<lb/>sagt mig. Altsaa, først og frem&typHyp;
+<lb/>mest &dash; er nogen Fremmed kom&typHyp;
+<lb/>men herhid til Østeraad før
+<lb/>os i Aften?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>Finn</speaker>.</HIS:spOpener><p>siden kom der En.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides til Bjelke.)</HIS:hisStage></HIS:spOpener><p>Han er her.
+<lb/><HIS:hisStage>(høit til Finn.)</HIS:hisStage> Vil du kunne
+<lb/>gjenkjende ham? Har du
+<lb/>seet ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>Finn</speaker></HIS:spOpener><p>for Fru Inger og hun &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu, hvad hun? Han er dog
+<lb/>vel ikke allerede <sic>bort</sic> igjen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>Finn</speaker>.</HIS:spOpener><p>sine egne Stuer, for &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er godt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>har vi ham sikkert.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">5.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Mener du? <HIS:hisStage>(til Finn.)</HIS:hisStage>
+<lb/>Hør, siig mig, gives der her
+<lb/>paa Gaarden nogen anden Ud&typHyp;
+<lb/>gang end gjennem Porten? Jeg
+<lb/>mener, kan Nogen slippe use&typHyp;
+<lb/>et bort fra Østeraad, naar
+<lb/>Borgeporten holdes lukket?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>Saa, for Djævlen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er godt, du kan gaa!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FINN"><HIS:spOpener><speaker>Finn</speaker>.</HIS:spOpener><p>strax være ved Haanden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Godt. <HIS:hisStage>(peger mod Døren.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole>. <HIS:stageRole who="BJELKE">Jens Bjelke</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>Feldttog for os Beggeto.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hm! Ikke for mig, haaber
+<pb/>
+<lb/><fw type="page" place="top-right">6.</fw>
+<lb/>jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>efter mit eget Hoved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Den Anger kommer
+<lb/>vel silde, min Bro'er.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>slaaet løs, &dash; stormet Gaarden <unclear reason="writing">&dash;</unclear></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men i det Sted aabner man
+<lb/>Porten nok saa høfligt for os;
+<lb/><HIS:hisAdd place="inline" hand="h1">&dash;</HIS:hisAdd> pas paa, hvis jeg kjender Fru
+<lb/>Inger ret, saa beværter hun
+<lb/>os paa det Bedste.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>komne mere mandstærke, saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja saa havde hun alligevel
+<lb/>modtaget os som kjærkomne
+<lb/>Gjæster. Men læg vel Mærke
+<lb/>til at isaafald havde Sagen
+<lb/>gjort Opsigt. Bonden vilde
+<pb/>
+<lb/><fw type="page" place="top-right">7.</fw>
+<lb/>holdt det for en Voldshand&typHyp;
+<lb/>ling mod Fru Inger; hun
+<lb/>var da atter stegen i Almu&typHyp;
+<lb/>ens Gunst, og, seer du, det er
+<lb/>ikke raadeligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>havde den hele Historie.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nuvel, siden du ikke synes
+<lb/>om den V<HIS:clarification place="inline" hand="h1">e</HIS:clarification>nding Sagen har
+<lb/>faaet, saa overlad Slagmar&typHyp;
+<lb/>ken til mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>Hvad vil du gjøre?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Kløgt og List udretter maa&typHyp;
+<lb/>skee her hvad Magt ikke
+<lb/>er istand til. Nu, ærligt
+<lb/>talt, jeg har allerede havt
+<lb/>noget Sligt i Tankerne lige&typHyp;
+<lb/>fra igaar da vi mødtes i
+<pb/>
+<lb/><fw type="page" place="top-left">8.</fw>
+<lb/>Trondhjem. See derfor var det
+<lb/>jeg formaaede dig til &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>en Ræv bag Øret!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, men seer du, her gjøres
+<lb/>netop Ræven behov, hvis Vaab&typHyp;
+<lb/>nene skal være lige paa beg&typHyp;
+<lb/>ge Sider. &dash; Du har nu me&typHyp;
+<lb/>re end engang viist hvad du
+<lb/>duer til, jeg har nu ogsaa
+<lb/>Lyst til at prøve mig selv
+<lb/>og see her er Leiligheden for
+<lb/>Haanden. &dash; Kongen af Dan&typHyp;
+<lb/>mark, min Herre, har be&typHyp;
+<lb/>troet mig mere end et van&typHyp;
+<lb/>skeligt Hverv og jeg har kla&typHyp;
+<lb/>ret mig ganske godt fra det,
+<lb/>men &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">9.</fw>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>i de tre Riger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Aa jeg takker. Men seer du,
+<lb/>hidtil var det kun Mænd jeg
+<lb/>havde at maale mig med og
+<lb/>det vil ikke sige stort; her
+<lb/>derimod gjælder det at besnæ&typHyp;
+<lb/>re en Kvinde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>var mig huld og god!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, det gjælder Kvinder i Tyve&typHyp;
+<lb/>aarsalderen og derunder, men
+<lb/>Fru Inger er henimod de
+<lb/>femti og derhos snu som in&typHyp;
+<lb/>gen Anden. Lykkes det mig
+<lb/>at beseire hende, saa er jeg
+<lb/>sikker paa mig selv og tør da
+<lb/>paatage mig hvilket Hverv
+<lb/>det saa skal være. Nu, ikke
+<pb/>
+<lb/><fw type="page" place="top-left">10.</fw>
+<lb/>sandt, du overlader Fru Inger
+<lb/>til mig? Kom ihu, dengang
+<lb/>du gjæstede Danerhoffet, saa
+<lb/>veg jeg Pladsen for dig hos
+<lb/>mere end een Ungmø.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>frem død eller levende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Lyslevende skal du have
+<lb/>ham, jeg agter ikke at
+<lb/>slaa ham ihjel. Men nu
+<lb/>maa du altsaa tilbage til
+<lb/>dine Folk; hold Landeveien
+<lb/>besat, skulde jeg mærke noget<HIS:hisDel rend="overstrike">,</HIS:hisDel>
+<lb/>Mistænkeligt saa skal du uop&typHyp;
+<lb/>holdelig faa Kundskab derom.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>hvordan slipper jeg ud?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Karlen derinde hjælper dig
+<pb/>
+<lb/><fw type="page" place="top-right">11.</fw>
+<lb/>nok afsted, men i al Stilhed &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>Naa god Lykke!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Lykken har aldrig svigtet mig
+<lb/>i Kamp med Kvinder, skynd
+<lb/>dig nu!</p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage>Niels Lykke (alene.)</HIS:hisStage>
+<lb/><HIS:hisAdd place="inline" hand="h1"><HIS:hisStage>(Efter en Pause.)</HIS:hisStage></HIS:hisAdd>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa staaer jeg da omsider paa
+<lb/>Østeraad, paa dette gamle Her&typHyp;
+<lb/>resæde, som et Barn for to
+<lb/>Aar siden fortalte mig saa&typHyp;
+<lb/>meget om. Lucia &dash; ja for
+<lb/>to Aar siden var hun endnu
+<lb/>et Barn, og nu, nu er hun
+<lb/>død. <HIS:hisStage>(Med Skuldertræk.)</HIS:hisStage> Blom&typHyp;
+<lb/>sterne <HIS:hisDel rend="overstrike" hand="h1">h</HIS:hisDel>visne tidligt her i
+<pb/>
+<lb/><fw type="page" place="top-left">12</fw>
+<lb/>Norden. En Jomfru kommer
+<lb/>til Skade, hun faaer et Knæk,
+<lb/>og saa er det forbi, engang
+<lb/>for Alle. &dash; Jeg gad vide om
+<lb/>det er af Harm og Blussel
+<lb/>over at hun mister hvad man
+<lb/>kalder Æren, eller om det skul&typHyp;
+<lb/>de være af Sorg og Smerte,
+<lb/>fordi hun finder Svig hos den
+<lb/>Mand hun har hengivet sig
+<lb/>til? Nu, i begge Tilfælde er
+<lb/>hun en Taabe, og en Taabe
+<lb/>meer eller mindre i Verden,
+<lb/>det &dash; <HIS:hisStage>(smilende, efter en Pause.)</HIS:hisStage>
+<lb/>Hm, min unge Livsvaar har
+<lb/>været rig nok; hvert Foraar
+<lb/>har jeg seet en Rosenknop sprin
+<pb/>
+<lb/><fw type="page" place="top-right">13.</fw>
+<lb/>ge i Frø, hver Høst har jeg
+<lb/>seet en Lilie visne! <HIS:hisStage>(Seer sig
+<lb/>om i Værelset.)</HIS:hisStage> Jeg kjender
+<lb/>mig igjen som om jeg var
+<lb/>født her. Derinde er Ridder&typHyp;
+<lb/>salen, og nedenunder, neden&typHyp;
+<lb/>under er &dash; Gravkjælderen; der
+<lb/>ligger nok Lucia ogsaa. &dash;
+<lb/>Dersom jeg havde nogen stærk
+<lb/>Tro, saa kunde jeg bilde mig
+<lb/>ind, at da jeg satte Foden inden&typHyp;
+<lb/>for Østeraads Porte, saa vendte
+<lb/>hun sig i Kisten; da jeg treen
+<lb/>over Borggaarden, løftede hun
+<lb/>paa Laaget, og da jeg nys
+<lb/>nævnte hendes Navn var det li&typHyp;
+<lb/>gesom om Noget manede hende
+<pb/>
+<lb/><fw type="page" place="top-left">14.</fw>
+<lb/>herop fra Ligkjælderen; maaskee
+<lb/>famler hun sig nu op ad Trap&typHyp;
+<lb/>pen, Svededugen er hende ivei&typHyp;
+<lb/>en, men hun famler sig frem
+<lb/>alligevel. Maaskee staaer hun
+<lb/>nu derinde i Riddersalen og
+<lb/>seer paa mig gjennem Dørspr<unclear reason="endline">ek</unclear>&typHyp;
+<lb/>ken. Kom nærmere, Barn! jeg
+<lb/>er ikke af de Forknytte; kom
+<lb/>nærmere! Jeg troer jeg har el&typHyp;
+<lb/>sket dig engang! Snak lidt
+<lb/>med mig; &dash; Fru Inger lader
+<lb/>mig vente; du har hjulpet mig
+<lb/>at fordrive <HIS:hisAdd place="offline">saa</HIS:hisAdd> mangen <HIS:hisDel rend="overstrike">en</HIS:hisDel> kjede&typHyp;
+<lb/>lig Stund, jeg erindrer <HIS:hisAdd place="offline">det</HIS:hisAdd> godt;
+<lb/>det Bedste ved Kjærligheden er
+<lb/>Erindringerne og jeg &dash; har
+<pb/>
+<lb/><fw type="page" place="top-right">15.</fw>
+<lb/>mange Erindringer. <HIS:hisStage>(Han fører
+<lb/>Haanden til Panden og gaaer et
+<lb/>Par Gange frem og tilbage.)</HIS:hisStage> See
+<lb/>saa! &dash; Rigtig, der er det sto&typHyp;
+<lb/>re Vindu med Silkeforhænget,
+<lb/>der er det Inger Gyldenløve
+<lb/>pleier at staa og stirre udover
+<lb/>Landeveien, som om hun ven&typHyp;
+<lb/>ter paa En, der aldrig kom&typHyp;
+<lb/>mer; &dash; Lucia har fortalt mig
+<lb/>det. &dash; Derinde <HIS:hisStage>(pegende mod
+<lb/>Døren til Venstre.)</HIS:hisStage> der er
+<lb/>Søster Elines Stue &dash; Søster Eline?
+<lb/>Ja rigtig, saa hedder hun. Hun
+<lb/>er jo saa mærkværdig, denne
+<lb/>Søster Eline, &dash; saa kløgtig og
+<lb/>saa djærv! Skade at hun
+<pb/>
+<lb/><fw type="page" place="top-left">16.</fw>
+<lb/>har seet saa forbandet lidt til
+<lb/>Verden; hun har nok aldrig væ&typHyp;
+<lb/>ret udenfor Østeraads Enemær&typHyp;
+<lb/>ker. Hun skal forresten være
+<lb/>fager &dash; trind som et overmo&typHyp;
+<lb/>dent Æble rimeligviis! Naa, naa<unclear reason="endline">.</unclear>
+<lb/>I skal faa beholde Søster Eli&typHyp;
+<lb/>ne uskadt naar jeg reiser;
+<lb/>Markblomster falde ikke i min
+<lb/>Smag, Stængelen er for bøielig,
+<lb/>de ligesom takke for Æren
+<lb/>naar man bryder dem. <HIS:hisStage>(Be&typHyp;
+<lb/>tragter en Blomsterkost, som han
+<lb/>bærer paa Brystet.)</HIS:hisStage> Disse Stak&typHyp;
+<lb/>ler plukkede jeg <HIS:hisAdd place="offline">dog</HIS:hisAdd> idag, da jeg
+<lb/>for første Gang satte Foden in&typHyp;
+<lb/>denfor Østeraads Grændser. Det
+<lb/>var de Sidste, der havde holdt
+<pb/>
+<lb/><fw type="page" place="top-right">17.</fw>
+<lb/>sig mod Efterhøsten; &dash; Østeraads
+<lb/>fagre Vaarblomst gik under i
+<lb/>en Uveirsnat for to Somre si&typHyp;
+<lb/>den. &dash; <HIS:hisStage>(Pause.)</HIS:hisStage> Hvorledes vil
+<lb/>Fru Inger modtage mig? Vil
+<lb/>hun brænde Gaarden af over
+<lb/>Hovedet paa os Allesammen
+<lb/>inat? Vil hun lade en Fald&typHyp;
+<lb/>dør i Gulvet aabne for at
+<lb/>opsluge mig? Eller kanhæn&typHyp;
+<lb/>de hun nøies med at stikke
+<lb/><HIS:hisAdd place="inline">mig</HIS:hisAdd> en Kniv i Nakken naar
+<lb/>jeg sidder ved Aftensbordet?
+<lb/>Sandelig, hun skulde have
+<lb/>min Agtelse, dersom hun faldt
+<lb/>paa noget Sligt. <HIS:hisStage>(lyttende.)</HIS:hisStage>
+<lb/>Naa, der faa vi nok snart
+<pb/>
+<lb/><fw type="page" place="top-left">18.</fw>
+<lb/>at see &dash;</p></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole>. <HIS:stageRole who="FRUINGER">Fru Inger.</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>min Hilsen, Herr Ridder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ah, Østeraads Frue &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>mig vide Eders Komme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ikke meer end min Skyldig&typHyp;
+<lb/>hed; jeg havde Grunde til
+<lb/>at formode at mit Komme
+<lb/>vilde overraske Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>som Gjæst paa Østeraad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og endnu mindre havde I
+<lb/>ventet at han skulde komme
+<lb/>som Ven?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>i Graven vover I endnu &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">19.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Tillad, Fru Inger, i det Punkt
+<lb/>komme vi neppe til Enighed,
+<lb/>thi I tager ikke med i Be&typHyp;
+<lb/>regningen hvad jeg ved samme
+<lb/>Leilighed tabte. Mine Hensig&typHyp;
+<lb/>ter vare ærlige, jeg var træt
+<lb/>af mit ubundne Liv, jeg
+<lb/>har levet mig tilbunds i Li&typHyp;
+<lb/>vet, skal jeg sige Eder; jeg
+<lb/>var dengang tredive Aar gam&typHyp;
+<lb/>mel, jeg trængte til at faa
+<lb/>en Hustru, ung fager og
+<lb/>from; læg saa dertil den Lyk&typHyp;
+<lb/>ke at blive Fru Inger Gyl&typHyp;
+<lb/>denløves Svigersøn &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>vel komme en Leilighed &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">20.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I truer mig Fru Inger? Jeg
+<lb/>har rakt Eder min Haand <HIS:hisDel rend="overstrike">paa</HIS:hisDel>
+<lb/>til Forsoning, I vægrer Eder
+<lb/>ved at modtage den; der er da
+<lb/>altsaa fra nu af Krig mellem
+<lb/>os?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>fordum havde været anderledes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Fra Eders Side kanhænde.
+<lb/>Jeg har aldrig været Eders A&typHyp;
+<lb/>vindsmand, skjøndt jeg vel som
+<lb/>Kongen af Danmarks Under&typHyp;
+<lb/>saat, havde skjellig Grund
+<lb/>dertil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Stilling er vanskelig, Niels Lykke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det fatter jeg tilfulde; Eders
+<lb/>Folk har et gammelt Krav
+<lb/>paa Eder, et Krav som man
+<pb/>
+<lb/><fw type="page" place="top-right">21.</fw>
+<lb/>siger at I kun halvveis har
+<lb/>gjort fyldest.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>der fører Eder hid.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Strax, Fru Inger! Hensigten
+<lb/>med min Sendelse hertil Lan&typHyp;
+<lb/>det kan vel ikke være Eder
+<lb/>ubekjendt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>med den norske Adel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ganske vist!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>derfor I gjæster Østeraad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>For endeel derfor; dog kom&typHyp;
+<lb/>mer jeg ingenlunde for at
+<lb/>kræve nogen mundtlig Forsik&typHyp;
+<lb/>kring af Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Nuvel?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hør mig Fru Inger! I sagde
+<lb/>selv for nylig at Eders Stilling
+<pb/>
+<lb/><fw type="page" place="top-left">22.</fw>
+<lb/>er vanskelig; I staaer mellem to
+<lb/>Partier som begge kun halvveis
+<lb/>vove at forlade sig paa Eder.
+<lb/>Eders Interesser maa nødvendig&typHyp;
+<lb/>viis knytte Jer til os; til de
+<lb/>Misfornøiede er I derimod bun&typHyp;
+<lb/>den ved Landsmandsskabet og
+<lb/>hvem veed, maaskee ogsaa ved
+<lb/>et eller andet hemmeligt
+<lb/>Baand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Christ! skulde han vide!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Hun er urolig. Rigtig,
+<lb/>der stikker Noget under. <HIS:hisStage>(høit.)</HIS:hisStage>
+<lb/>I indseer vist selv at denne
+<lb/>Stilling i Længden ikke er til
+<lb/>at udholde. Sæt nu det stod
+<lb/>i min Magt at udfri Eder
+<lb/>af disse Forholde som &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">23.</fw>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Eders Magt, siger I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Først og fremst, Fru Inger!
+<lb/>maa jeg bede Eder ikke at
+<lb/>lægge nogen Vægt paa de let&typHyp;
+<lb/>sindige Ord jeg fornylig lod
+<lb/>falde. Tro ikke jeg noget Øie&typHyp;
+<lb/>blik har tabt af Tankerne
+<lb/>den Gjæld jeg staaer i til E&typHyp;
+<lb/>der. Sæt at det længe havde
+<lb/>været min Agt saavidt mu&typHyp;
+<lb/>ligt at gjøre godt igjen hvad
+<lb/>jeg har forbrudt; sæt at det
+<lb/>var derfor jeg havde skaffet
+<lb/>mig denne Sendelse herop.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Jeg forstaaer Eder ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg tager maaskee ikke feil
+<lb/>naar jeg formoder at I ligesaa
+<pb/>
+<lb/><fw type="page" place="top-left">24.</fw>
+<lb/>godt som jeg kjender de Urolig&typHyp;
+<lb/>heder, der true med at bryde
+<lb/>løs i Sverrig. I veed, eller I
+<lb/>ahner ialfald at disse Urolig&typHyp;
+<lb/>heder have et større Maal end
+<lb/>det man almindeligviis tillæg&typHyp;
+<lb/>ger dem, og I vil derfor begribe
+<lb/>at vor Konge ikke roligt kan
+<lb/>see Begivenhederne gaa deres
+<lb/>egen Gang, ei sandt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Bliv ved!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(forskende, efter en Pause.)</HIS:hisStage></HIS:spOpener><p>Der
+<lb/>gives et tænkeligt Tilfælde, som
+<lb/>kunde sætte Gustav Vasas Thro&typHyp;
+<lb/>ne i Fare.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Hvor vil han hen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det Tilfælde nemlig, at der i
+<lb/>Sverrig skulde findes en Mand,
+<lb/>som paa Grund af sin Byrd
+<pb/>
+<lb/><fw type="page" place="top-right">2<HIS:hisDel rend="overwritten">8</HIS:hisDel>5.</fw>
+<lb/>havde Krav paa at kaares til
+<lb/>Folkets Styrer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>I vel ville søge &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Søge? Manden er
+<lb/>allerede funden!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Nei, nei, umuligt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og han staaer Jer for nær,
+<lb/>min Frue! til at Eders Tan&typHyp;
+<lb/>ke ikke skulde falde paa
+<lb/>ham. <HIS:hisStage>(Betragter hende stivt.)</HIS:hisStage>
+<lb/>Den afdøde Grev Sture har
+<lb/>efterladt sig en Søn &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>saa veed I da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(studsende.)</HIS:hisStage></HIS:spOpener><p>Fat Eder, min Frue!
+<lb/>og lad mig tale tilende. Den&typHyp;
+<lb/>ne unge Mand har hidtil
+<lb/>levet stille hos sin Moder,
+<lb/>Steen Sture<unclear reason="writing">s</unclear> Enke.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">2<HIS:hisDel rend="overwritten">9</HIS:hisDel>6.</fw>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>nær havde jeg røbet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu derimod er han traadt aa&typHyp;
+<lb/>benlyst frem; i Dalarne har
+<lb/>han viist sig som Bøndernes
+<lb/>Leder; deres Antal voxer med
+<lb/>hver Dag, og, som I maaskee
+<lb/>veed, finder de Venner blandt
+<lb/>Almuen paa denne Side af
+<lb/>Grændsefjeldene.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Agt at underkue dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisAdd place="offline" hand="h1"><HIS:hisStage>(dæmpet)</HIS:hisStage></HIS:hisAdd></HIS:spOpener><p>Vil I ogsaa forholde Eder
+<lb/>uvirksom ifald det var min
+<lb/>Agt at staa dem bi?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>skal jeg forstaa Jer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I har altsaa ikke fattet, hvad
+<lb/>jeg den hele Tid har sigtet
+<lb/>til? Nuvel, ærligt og ligefrem
+<lb/>vil jeg da sige Eder Alt. Vid
+<pb/>
+<lb/><fw type="page" place="top-right">27.</fw>
+<lb/>da at Kongen og hans Raad til&typHyp;
+<lb/>fulde har indseet hvorledes der
+<lb/>i Længden intet sikkert Fod&typHyp;
+<lb/>fæste findes for os i Norge saa&typHyp;
+<lb/>længe Folket troer sig foruret&typHyp;
+<lb/>tet og undertrykt. Vi have
+<lb/>fuldelig begrebet at en ærlig
+<lb/>Forbundsfælle er bedre end en
+<lb/>tvungen Undersaat, og vi øn&typHyp;
+<lb/>ske derfor intet heller, end at
+<lb/>kunne løsne de Baand, der i&typHyp;
+<lb/>grunden binde os ligesaameget
+<lb/>som Eder; men I vil vist og&typHyp;
+<lb/>saa indsee at Nordmændenes
+<lb/>Sindelag mod os gjør et saa&typHyp;
+<lb/>dant Skridt altfor betænke&typHyp;
+<lb/>ligt, saalænge vi ikke have
+<lb/>en paalidelig Støtte i Ryggen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Nuvel?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">28.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Denne Støtte er nærmest at sø&typHyp;
+<lb/>ge i Sverrig; men vel at mær&typHyp;
+<lb/>ke, ei saalænge Gustav Vasa
+<lb/>sidder ved Roret, thi hans Regn&typHyp;
+<lb/>skab med Danmark er endnu
+<lb/>ikke opgjort og vil vel heller
+<lb/>aldrig blive det. En ny Drot
+<lb/>derimod, som havde Folket
+<lb/>paa sin Side, og som skyldte
+<lb/>Danmarks Bistand sin Krone.
+<lb/>&dash; Nu, I begynder at forstaa
+<lb/>mig? Da kunde vi med Tryg&typHyp;
+<lb/>hed sige til vore norske Brød&typHyp;
+<lb/>re, tager Eders gamle arvede
+<lb/>Rettigheder tilbage, vælger Eder
+<lb/>en Styrer efter eget Tykke,
+<lb/>vær vore Venner i Nøden ligesom
+<lb/>vi ville være Eders! Læg ellers
+<lb/>vel Mærke til, Fru Inger! at
+<pb/>
+<lb/><fw type="page" place="top-right">29.</fw>
+<lb/>dette Høimod igrunden ikke er
+<lb/>saa stort, som det synes; thi I
+<lb/>vil selv indsee, at vi, langtfra
+<lb/>at svækkes, snarere ville styr&typHyp;
+<lb/>kes derved. Og da jeg nu har
+<lb/>talt aabenhjertig med Eder, saa
+<lb/>lad ogsaa I enhver Mistro
+<lb/>fare, altsaa &dash; <HIS:hisStage>(bestemt.)</HIS:hisStage> den Rid&typHyp;
+<lb/>dersmand fra Sverrig, som kom
+<lb/>hid en Timestid før jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>I veed det da allerede?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Tilfulde! Det er ham jeg sø&typHyp;
+<lb/>ger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>føre ham til Eder.
+<lb/><HIS:hisStage>(gaaer.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> (alene.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ret saa, Niels Lykke<HIS:hisDel rend="overwritten">;</HIS:hisDel>! ret saa!
+<pb/>
+<lb/><fw type="page" place="top-left">30.</fw>
+<lb/>&dash; nu er Dysten vunden! Sandelig
+<lb/>det kostede mig mindre end jeg
+<lb/>havde tænkt, og nu gaaer hun
+<lb/>uden videre hen for at føre
+<lb/>Grev Sture sammen med mig!
+<lb/>Tilvisse, jeg maa have talt ind&typHyp;
+<lb/>trængende, som ud af hendes eget
+<lb/>Hjerte, thi da jeg første Gang
+<lb/>nævnte Steen Stures Søn saa
+<lb/>jeg tydelig hvorledes hun blev
+<lb/>greben af Angst og var nær&typHyp;
+<lb/>ved at segne om. Er Fru
+<lb/>Inger troskyldig gaaet i Fæl&typHyp;
+<lb/>den, saa vil vel ikke Niels
+<lb/>Sture gjøre Vanskeligheder; han
+<lb/>skal jo kun være en Dreng
+<lb/>endnu, ham vil det ikke falde
+<lb/>vanskeligt at blende. Med mit
+<lb/>Løfte om Bistand drager han
+<pb/>
+<lb/><fw type="page" place="top-right">31.</fw>
+<lb/>afsted, uheldigviis snappes han
+<lb/>op paa Veien og det hele Fore&typHyp;
+<lb/>havende er kvalt. Er nu Al&typHyp;
+<lb/>ting for saavidt gaaet godt, saa
+<lb/>kan det heller ikke skade at
+<lb/>gaa et Skridt videre og virke
+<lb/>lidt for os selv; man kunde
+<lb/>gjerne lade et eller andet Ord
+<lb/>falde om at den unge Grev
+<lb/>Sture har været her, at en dansk
+<lb/>Udsending har havt en hemme&typHyp;
+<lb/>lig Sammenkomst med Fru In&typHyp;
+<lb/>ger, at som Følge heraf Junker
+<lb/>Niels blev sna<HIS:hisDel rend="overwritten">t</HIS:hisDel>ppet op af sine
+<lb/>Forfølgere tæt udenfor Østeraads
+<lb/>Porte. Inger Gyldenløves Anseel&typHyp;
+<lb/>se hos Almuen være saa stor
+<lb/>den vil, mod et saadant Stød
+<pb/>
+<lb/><fw type="page" place="top-left">32.</fw>
+<lb/>skal den have svært for at staa
+<lb/>sig. &dash; Men, alle Djævle<HIS:hisDel rend="overwritten">;</HIS:hisDel>! om jeg
+<lb/>havde forregnet mig! Om Fru
+<lb/>Inger skulde have ahnet Uraad
+<lb/>&dash; kanhænde han allerede i
+<lb/>dette Øieblik er smuttet os af
+<lb/>Hænderne! Ah, nei, det har
+<lb/>ingen Nød, der komme de nok.</p></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole>. <HIS:stageRole who="FRUINGER">Fru Inger</HIS:stageRole> og <HIS:stageRole who="SKAKTAVL">Olaf
+<lb/>Skaktavl</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Her bringer jeg den I venter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>For Helvede! Hvad skal
+<lb/>det sige?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>I har meddeelt mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa? Nu ja &dash; <HIS:hisStage>(afsides.)</HIS:hisStage> Holder
+<lb/>hun mig for Nar eller er det en
+<pb/>
+<lb/><fw type="page" place="top-right">33.</fw>
+<lb/>Misforstaaelse? Jeg tør ikke lade
+<lb/>mig mærke med Noget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Lid til Eders Bistand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ikke det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>veed hvem han er &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvem han er? Javist veed jeg
+<lb/>&dash; <HIS:hisStage>(afsides.)</HIS:hisStage> Djævlen maa vide det
+<lb/>og ikke jeg</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>til dette Møde, saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Peder Kantsler? Hvad
+<lb/>kan han mene?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Hoved med at gruble.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei det er Ret. Lad os for Al&typHyp;<lb/>ting ikke det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>I har at bringe mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Javist, nu er jeg just lige ved
+<lb/>det.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">34.</fw>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Noget om Papirer, som &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Papirerne? Naa ja &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>altsaa hos Jer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Naturligviis! <HIS:hisStage>(afsides, ladende
+<lb/>som om han søger dem.)</HIS:hisStage> Hvad
+<lb/>Djævlen griber jeg til? Det bedste
+<lb/>var maaskee at røbe Misfor&typHyp;
+<lb/>staaelsen; dog nei, her tør væ&typHyp;
+<lb/>re Opdagelser at gjøre. <HIS:hisStage>(høit.)</HIS:hisStage>
+<lb/>Ah, jeg seer Fru Inger lader
+<lb/>Aftensmaaltidet anrette; ved Bo&typHyp;
+<lb/>det kun<HIS:hisDel rend="overwritten">n</HIS:hisDel>de vi tale om vore
+<lb/>Anliggender.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Godt, som I vil!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Saa vinder jeg Tid og
+<lb/>kan komme efter hvordan Sager&typHyp;
+<lb/>ne staaer. <HIS:hisStage>(høit.)</HIS:hisStage> Og imidlertid
+<lb/>kunde vi faa at vide hvad An&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">35.</fw>
+<lb/>deel Fru Inger agter at tage i
+<lb/>vort Forehavende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Ingen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ingen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>forlade sig trygt paa mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Denne Bebreidelse rammer ik&typHyp;
+<lb/>ke mig; jeg troer Eder blindt,
+<lb/>derom beder jeg Eder være for&typHyp;
+<lb/>sikkret.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Tiltro glæder mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Fordømt, om hun skulde
+<lb/>trække sig tilbage. Indlader
+<lb/>hun sig med Ufredsstifterne,
+<lb/>er hun i vor Magt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>drikker tilbunds. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(drikker.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Døden for min Uven!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">36.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(kaster Bægeret. &dash;)</HIS:hisStage></HIS:spOpener><p>Ha, jeg er for&typHyp;
+<lb/>giftet!</p></HIS:hisSp>
+</div>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER NIELSLYKKE SKAKTAVL">De Forrige</HIS:stageRole> <HIS:stageRole who="ELINE">Eline.</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Min Datter Eline!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Eline? Saaledes havde
+<lb/>jeg ikke tænkt mig hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>det er Niels Lykke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(sagte til Fru Inger.)</HIS:hisStage></HIS:spOpener><p>Hvorle&typHyp;
+<lb/>des, hun kjender mig? Skulde
+<lb/>Lucia &dash;? Skulde hun vide &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Niels Lykke see ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(til Eline.)</HIS:hisStage></HIS:spOpener><p>Nuvel, I har gjættet
+<lb/>rigtig, og da jeg saaledes paa
+<lb/>en Maade er Eder bekjendt,
+<lb/>saa vil I ikke nægte mig den
+<pb/>
+<lb/><fw type="page" place="top-right">37.</fw>
+<lb/>Blomsterkost I bærer ved Eders
+<lb/>Bryst; saalænge den er frisk
+<lb/>og duftende, eier jeg i den et
+<lb/>Billede af Eder selv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>ingen Blomst for Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(idet han byder hende sin
+<lb/>egen Buket.)</HIS:hisStage></HIS:spOpener><p>Ah, men saa vil
+<lb/>I dog ikke forsmaa denne rin&typHyp;
+<lb/>ge Gave, de første Blomster
+<lb/>jeg fandt da jeg satte Foden
+<lb/>paa <sic>Øteraads</sic> Grund. Læg vel
+<lb/>Mærke til, min ædle Jomfru,
+<lb/>skulde jeg byde Eder en Skjænk
+<lb/>der var Eder fuldkommen vær&typHyp;
+<lb/>dig, saa maatte det være en
+<lb/>Fyrstekrone.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>at smede Lænken færdig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(idet han tager Blomsterne, som
+<pb/>
+<lb/><fw type="page" place="top-left">38.</fw>
+<lb/>Eline kastede for ham, op og stir&typHyp;
+<lb/>rer henrykt efter Eline.)</HIS:hisStage></HIS:spOpener><p>Guds
+<lb/>hellige Blod! hvor hun er
+<lb/>stolt og fager!</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+<div type="act" n="3">
+<lb/><head>Tredie Akt.</head>
+<div type="scene" n="1">
+<lb/><HIS:hisStage>Eline alene.</HIS:hisStage>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker><note resp="editor">replikkmarkør (for Eline) mangler</note></speaker></HIS:spOpener><p>&dash; Guds hellige Blod! hvor hun &dash;
+<lb/><HIS:hisStage>(gaaer mod Baggrunden og seer
+<lb/>ud Vinduet.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">den</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ELINE">Eline</HIS:stageRole>. <HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> fra Høire.
+<lb/>(Han bærer endnu Blomsterne ved
+<lb/>Brystet.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(for sig selv.)</HIS:hisStage></HIS:spOpener><p>&lquo;Sov vel paa Østeraad,
+<pb/>
+<lb/><fw type="page" place="top-right">39.</fw>
+<lb/>Herr Ridder!&rquo; sagde Inger Gyl&typHyp;
+<lb/>denløve, da hun reiste sig fra
+<lb/>Bordet og lod mig alene. Sov
+<lb/>vel &dash; ja, det er snart nok sagt,
+<lb/>men derudenfor &dash; Himmel og
+<lb/>Hav i Oprør, nedenunder i
+<lb/>Gravkjælderen det unge Blod
+<lb/>paa Baaren, to Rigers Fremtid
+<lb/>i min Haand og paa mit
+<lb/>Bryst en vissen Blomsterkost,
+<lb/>som en Kvinde har slængt for
+<lb/>mine Fødder; sandelig, jeg
+<lb/>frygter stærkt for at Søvnen
+<lb/>vil melde sig noget seent. <HIS:hisStage>(Be&typHyp;
+<lb/>mærker Eline, der vil gaa ind
+<lb/>til Venstre.)</HIS:hisStage> Der er hun; det
+<lb/>stolte Øie lader tankefuldt;
+<lb/>ah; hvis jeg turde vove &dash; <HIS:hisStage>(høit.)</HIS:hisStage>
+<pb/>
+<lb/><fw type="page" place="top-left">40.</fw>
+<lb/>Jomfru Eline!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Hvi forfølger I mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I feiler, jeg forfølger Eder ikke,
+<lb/>jeg er selv forfulgt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Er I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Af mangehaande Tanker; derfor
+<lb/>gaaer det med Søvnen som
+<lb/>med Eder, den flyer mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>et Hav i Storm &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Et Hav i Storm? Det
+<lb/>kan jeg ogsaa finde hos Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker></HIS:spOpener><p>Hos mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Vort første Møde har forvis&typHyp;
+<lb/>set mig derom.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>besværer Eder derover?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei ingenlunde; men jeg ønske
+<lb/>de dog at see Eder mildere
+<pb/>
+<lb/><fw type="page" place="top-right">41.</fw>
+<lb/>stemt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>det vil lykkes Eder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg er vis derpaa; thi jeg brin&typHyp;
+<lb/>ger Eder et kjærkomment Bud&typHyp;
+<lb/>skab.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Og hvilket?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Mit Farvel!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>I forlader Østeraad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Endnu i Nat!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>min Hilsen, Herr Ridder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Eline Gyldenløve! Jeg har
+<lb/>ingen Ret til at holde Eder
+<lb/>tilbage, men det er uædelt der&typHyp;
+<lb/>som I nægter at høre hvad
+<lb/>jeg har at sige Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>hører Eder, Herr Ridder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg veed, I hader mig.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">42.</fw>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>usvækket, som jeg mærker.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men jeg veed ogsaa, at jeg til&typHyp;
+<lb/>fulde har fortjent dette Had.
+<lb/>Usømmelige og krænkende vare
+<lb/>de Ord, hvormed jeg tydede
+<lb/>paa Eder i min Skrivelse til
+<lb/>Fru Inger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>jeg har ikke læst dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men Indholdet er Eder idet&typHyp;
+<lb/>mindste ikke ubekjendt; jeg
+<lb/>veed Eders Moder har ikke
+<lb/>ladet Eder blive i Uvidenhed
+<lb/>derom. I veed, jeg priste den
+<lb/>Mand heldig der kaaredes
+<lb/>til Fru Ingers Svigersøn; I
+<lb/>veed hvad Haab jeg nærede
+<lb/>&dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>I agter at tale, saa &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">43.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg agter at tale derom alene
+<lb/>for at undskylde min Færd,
+<lb/>ikke af andre Grunde, det
+<lb/>sværger jeg Eder. Hvis mit Ryg&typHyp;
+<lb/>te, som jeg har Grund til at
+<lb/>formode, er naaet til Eder, for&typHyp;
+<lb/>inden jeg selv fremstillede mig
+<lb/>paa Østeraad, saa maa I og&typHyp;
+<lb/>saa kjende mit Liv tilstræk&typHyp;
+<lb/>keligt til ikke at forundre Eder
+<lb/>over, at jeg i deslige Sager
+<lb/>gaaer noget dristigt tilværks.
+<lb/>Jeg har kjendt mange Kvinder,
+<lb/>Eline Gyldenløve! men Ingen
+<lb/>af dem har givet mig An&typHyp;
+<lb/>ledning til at klage over
+<lb/>Ubarmhjertighed. Under slige
+<lb/>Omstændigheder, seer I, bliver
+<pb/>
+<lb/><fw type="page" place="top-left">44.</fw>
+<lb/>man noget magelig, man kom&typHyp;
+<lb/>mer ud af Vanen med at be&typHyp;
+<lb/>tjene sig af Omveie &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>samme Malm som hine.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Forlad mig, Jomfru
+<lb/>Eline! jeg havde Grund dertil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>forhen været i Norge?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(med let Forvirring.)</HIS:hisStage></HIS:spOpener><p>I Norge?
+<lb/>Nei vist ikke; men desuagtet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>jeg havde ældre Grunde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(urolig.)</HIS:hisStage></HIS:spOpener><p>Ældre Grunde? Hvad
+<lb/>mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>I agter at anvende den.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I dømmer mig uretfærdigt,
+<lb/>dersom I dømmer efter hvad
+<lb/>Rygtet har sagt Eder; muligt,
+<lb/>at der er Sandhed i Alt hvad
+<pb/>
+<lb/><fw type="page" place="top-right">45.</fw>
+<lb/>I har hørt, men Grunden der&typHyp;
+<lb/>til kjender I ikke. Som sytten&typHyp;
+<lb/>aarig Junker begyndte jeg min
+<lb/>lystige Færd; jeg har levet fem&typHyp;
+<lb/>ten Aar siden den Tid; man&typHyp;
+<lb/>gen Blomst har jeg plukket,
+<lb/>men endnu fleer har de fagre
+<lb/>Kvinder frivilligt skjænket mig;
+<lb/>I er den første, der foragteligt
+<lb/>slængte dem for mine Fødder.
+<lb/>Tro ikke at jeg beklager mig,
+<lb/>nei tvertimod, jeg ærer Eder
+<lb/>derfor saaledes som jeg endnu
+<lb/>aldrig har æret nogen Kvinde,
+<lb/>men hvad jeg klager over er
+<lb/>at Skjæbnen ikke tidligere har
+<lb/>ført mig Eder imøde. <HIS:hisStage>(Med
+<lb/>stigende Varme.)</HIS:hisStage> Eline Gylden&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-left">46.</fw>
+<lb/>løve! Eders Moder har fortalt
+<lb/>mig om Eder; &dash; medens Livet
+<lb/>gik sin urolige Gang fjernt
+<lb/>herfra, da vandrede I paa det
+<lb/>eensomme Østeraad, stille med
+<lb/>Eders Digten og Eders Drømme;
+<lb/>see derfor vil I forstaa hvad
+<lb/>jeg har at sige Eder. Viid
+<lb/>da, at ogsaa jeg levede saa&typHyp;
+<lb/>ledes medens jeg endnu var
+<lb/>Dreng; det er fra den Tid, jeg
+<lb/>eier mine fagreste Minder;
+<lb/>jeg tænkte mig, at naar jeg
+<lb/>traadte ud i den store, vide
+<lb/>Verden, da vilde jeg der møde
+<lb/>en ædel og herlig Kvinde, hvis
+<lb/>Kjærlighed skulde gjøre mig
+<lb/>stærk og vise mig Veien til
+<pb/>
+<lb/><fw type="page" place="top-right">47.</fw>
+<lb/>et berømmeligt Maal. &dash; <HIS:hisStage>(Med
+<lb/>Overgangen i Stemmen.)</HIS:hisStage> Jeg be&typHyp;
+<lb/>drog mig, Eline Gyldenløve!
+<lb/>Ungdomshaabet er en skamme&typHyp;
+<lb/>lig Bedrager, ligesaa falsk som
+<lb/>Rygtet har skildret Eder Niels
+<lb/>Lykke selv. Endnu forinden
+<lb/>jeg var bleven Mand havde
+<lb/>jeg grundigen lært at forag&typHyp;
+<lb/>te Eders letfærdige Kjøn og
+<lb/>at skatte dem Alle tilhobe
+<lb/>som Skabninger, der kun fortjen&typHyp;
+<lb/>te at besnæres og forlades, og
+<lb/>det har jeg ogsaa ærligt gjort.
+<lb/><HIS:hisStage>(heftigere.)</HIS:hisStage> Er det da min Skyld<unclear reason="endline">?</unclear>
+<lb/>Hvorfor vare <HIS:hisDel rend="overstrike">d</HIS:hisDel><HIS:hisDel rend="overwritten">e</HIS:hisDel>ikke de Andre
+<lb/>ligesom I? Jeg veed, Eders
+<lb/>Fædrelands Skjæbne hviler Eder
+<pb/>
+<lb/><fw type="page" place="top-left">48.</fw>
+<lb/>tungt paa Sinde; I kjender
+<lb/>den Andeel jeg har i Forholdene
+<lb/>&dash; der siges Niels Lykke er falsk
+<lb/>som Havskummet; nok muligt,
+<lb/>men er han det, da har Kvin&typHyp;
+<lb/>den lært ham at være det. Hav&typHyp;
+<lb/>de jeg tidligere fundet hvad
+<lb/>jeg søgte, havde jeg tidligere
+<lb/>truffet en Kvinde, stolt, ædel
+<lb/>og høisindet som I, da var
+<lb/>min Bane blevet en heel an&typHyp;
+<lb/>den, da havde jeg fulgt min
+<lb/>Ungdoms Kald til at stride
+<lb/>med <app type="alteration"><lem><HIS:hisAdd place="offline">bedre</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">andre</HIS:hisDel></HIS:hisRdg></app> Vaaben; kanhæn&typHyp;
+<lb/>de at jeg da i dette Øieblik hav<gap reason="binding"/>
+<lb/>de staaet ved Eders Side som
+<lb/>et ædelt Folks Talsmand; thi
+<lb/>en Kvinde er det Mægtigste
+<pb/>
+<lb/><fw type="page" place="top-right">49.</fw>
+<lb/>i Verden, og først ved hende bli&typHyp;
+<lb/>ver Manden tilfulde hvad han
+<lb/>er istand til at blive.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>saa lifligt som hans Ord.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(efter forskende at have betrag&typHyp;
+<lb/>tet hende.)</HIS:hisStage></HIS:spOpener><p>Hvor ofte har I
+<lb/>vel ikke siddet her paa Øster&typHyp;
+<lb/><HIS:hisDel rend="overstrike">r</HIS:hisDel>aad eensom med Eders vexlen&typHyp;
+<lb/>de Tanker; da er det blevet
+<lb/>Eder trangt om Brystet, Loft
+<lb/>og Vægge har ligesom skrum&typHyp;
+<lb/>pet sig sammen og knuget
+<lb/>Eders Sind; da har I længtes
+<lb/>udad, da har det lystet Eder
+<lb/>at flyve langt herfra, uden
+<lb/>at I selv vidste hvorhen. Hvor&typHyp;
+<lb/>ofte har I ikke vandret een&typHyp;
+<lb/>som ved Fjorden, I har eiet
+<pb/>
+<lb/><fw type="page" place="top-left">50.</fw>
+<lb/>en Verden i Eders Drømme, en
+<lb/>Verden, saa fager og riig, som
+<lb/>kun Tanken mægter at skabe
+<lb/>den; men den har ikke været
+<lb/>Eder nok, &dash; en prægtig Snek<gap reason="damage"/>
+<lb/>med Riddere og Damer, med
+<lb/>Sang og Strengeleg er gleden
+<lb/>Eder forbi langt derude, et
+<lb/>dunkelt Rygte om store Begi&typHyp;
+<lb/>venheder er naaet til Eder, &dash;
+<lb/>da har I følt en Higen i E&typHyp;
+<lb/>ders Bryst, en ubetvingelig
+<lb/>Længsel efter at vide hvad
+<lb/>der var hiinsides Søen og de
+<lb/>fjerne Bjerge. Men I har ikke
+<lb/>forstaaet hvad der fattedes
+<lb/>Eder; I har stundom meent
+<lb/>det var Eders Fædrelands Lod,
+<pb/>
+<lb/><fw type="page" place="top-right">51.</fw>
+<lb/>der fyldte Eder med alle de
+<lb/>urolige Tanker; I bedrog Eder
+<lb/>selv; en syttenaarig Jomfru
+<lb/>har andet at gruble over.
+<lb/>Eline Gyldenløve! har I aldrig
+<lb/>tænkt Eder hemmelige Kræfter
+<lb/>i Naturen, er det aldrig fal&typHyp;
+<lb/>det Eder ind at der gives en
+<lb/>stærk og uforklarlig Magt, som
+<lb/>knytter Menneskenes Skjæbne
+<lb/>til hinanden? Naar I drømte
+<lb/>om det brogede Liv derude i
+<lb/>den vide Verden, naar I drøm&typHyp;
+<lb/>te om Ridderspil og lystige
+<lb/>Fester, saa I da aldrig i Eders
+<lb/>Drømme en Ridder, <HIS:hisAdd place="offline" hand="h1">der stod med Smiil paa Læben og med Bitterhed i Hjertet midt i den lystige Færd</HIS:hisAdd> der engang
+<lb/>havde drømt fagert som I, om
+<lb/>en Kvinde, ædel og herlig, og
+<pb/>
+<lb/><fw type="page" place="top-left">52.</fw>
+<lb/>som han forgjæves søgte blandt
+<lb/>alle dem der omgav ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Hvoraf veed I &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad jeg har sagt Eder, har
+<lb/>jeg læst i Eders Øine.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>anderledes end de Andre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Der er en Ting i Verden som
+<lb/>kunde forstyrre et Menneskes
+<lb/>Tanker, naar vi gruble derover
+<lb/>og det er Tanken om hvad
+<lb/>der kunde skeet hvis Alt
+<lb/>havde føiet sig saa eller saa.
+<lb/>Havde jeg mødt Eder paa min
+<lb/>Vei medens mit Livstræ endn<unclear reason="endline">u</unclear>
+<lb/>var grønt og frodigt, saa hav&typHyp;
+<lb/>de I maaskee i denne Stund
+<lb/>siddet som &dash; Men tilgiv mig,
+<lb/>min ædle Jomfru, disse faa Mi&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">53</fw>
+<lb/>nutters Samtale har bragt mig
+<lb/>til at glemme vor gjensidige
+<lb/>Stilling; det var som om en løn&typHyp;
+<lb/>lig Stemme fra først af havde
+<lb/>sagt mig, at med Eder kun&typHyp;
+<lb/>de jeg tale aabent uden Smi&typHyp;
+<lb/>ger og uden Forstillelse.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Det kan I.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nuvel og denne Aabenhjertig&typHyp;
+<lb/>hed har maaskee allerede
+<lb/>saa halvt om halvt forsonet
+<lb/>os med hinanden; ja jeg er
+<lb/>endnu dristigere i mit Haab,
+<lb/>kanhænde den Tid endnu kan
+<lb/>komme, da I vil mindes den
+<lb/>fremmede Ridder uden Had
+<lb/>og uden Bitterhed i Sjælen.
+<lb/>Nu, nu, misforstaa mig ikke,
+<pb/>
+<lb/><fw type="page" place="top-left">54.</fw>
+<lb/>jeg mener ikke nu strax, men
+<lb/>engang, senere hen i Tiden;
+<lb/>og for at gjøre Eder dette mindre
+<lb/>svært og da jeg engang er be&typHyp;
+<lb/>gyndt at tale aabenhjertigt og
+<lb/>ligefrem med Eder, saa lad
+<lb/>mig sige<HIS:hisDel rend="overstrike">r</HIS:hisDel> Jer &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Herr Ridder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Ah, jeg mærker at
+<lb/>mit Brev endnu sætter Eder
+<lb/>i Skræk; men vær I fuldkom&typHyp;
+<lb/>men rolig; jeg kunde give Tu&typHyp;
+<lb/>sinder til dersom det var uskre&typHyp;
+<lb/>vet, thi &dash; ja, da jeg veed, det
+<lb/>just ikke vil gjøre Eder syn&typHyp;
+<lb/>derlig ondt at høre, saa kan
+<lb/>jeg jo ligesaagodt sige det lige&typHyp;
+<lb/>ud: jeg elsker Eder ikke og
+<lb/>vil aldrig komme til at elske
+<pb/>
+<lb/><fw type="page" place="top-right">55.</fw>
+<lb/>Eder. Vær I derfor, som sagt, fuld&typHyp;
+<lb/>kommen tryg, jeg skal ingensin&typHyp;
+<lb/>de gjøre Forsøg paa at &dash; men
+<lb/>hvad fattes Eder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>I med disse Blomster?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Disse? Er det ikke Strids&typHyp;
+<lb/>handsken som Eders fortørne&typHyp;
+<lb/>de Kjøn gjennem Eder har
+<lb/>tilkastet Niels Lykke? Naar
+<lb/>jeg atter sid<HIS:hisDel rend="overwritten"><unclear>er</unclear></HIS:hisDel>der mellem de fag&typHyp;
+<lb/>re Fruer i Danerkongens
+<lb/>Gaard, naar Strengelegen tier
+<lb/>og der er Stilhed i Salen, da vil
+<lb/>jeg tage mine Blomster frem og
+<lb/>fortælle et Eventyr om den unge
+<lb/>Kvinde der sidder eensom i
+<lb/>den mørke Bjelkehal fjernt
+<lb/>i Norden. <HIS:hisStage>(Afbrydende, idet
+<lb/>han ærbødigt bøier sig.)</HIS:hisStage> Men
+<pb/>
+<lb/><fw type="page" place="top-left">56.</fw>
+<lb/>jeg frygter at jeg altfor længe
+<lb/>opholder Husets ædle Datter. Vi
+<lb/>sees ikke mere, thi endnu før
+<lb/>Daggry er jeg afsted; &dash; jeg
+<lb/>byder Eder altsaa mit Farvel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Eder mit, Herr Ridder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I er atter saa tankefuld, Eline
+<lb/>Gyldenløve! er det atter Eders
+<lb/>Fædrelands Skjæbne, der nager
+<lb/>Eder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>ikke paa mit Fædreland.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa er det Tiden med al dens
+<lb/>Kamp og Nød der ængster
+<lb/>Eder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>ikke saa, I sagde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg gaaer til Danmark.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Danmark herfra Salen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(pegende paa Vinduet tilvenstre.)</HIS:hisStage></HIS:spOpener>
+<pb/>
+<lb/><fw type="page" place="top-right">57.</fw>
+<lb/><p>Ja, fra dette Vindu<HIS:hisDel rend="overstrike">e</HIS:hisDel>. Hist mod
+<lb/>Syd ligger Danmark.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>meer end hundrede Miil?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Meget mere? Havet ligger
+<lb/>mellem Danmark og Eder<HIS:hisDel rend="overwritten">?</HIS:hisDel>!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Havet standser den ikke.
+<lb/><HIS:hisStage>(gaaer.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>Niels Lykke</speaker> <HIS:hisStage>(alene.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvis jeg vilde offre to Dage
+<lb/>derpaa, eller blot een, saa var
+<lb/>hun i min Vold, ligesaa&typHyp;
+<lb/>godt som alle de Andre. Der
+<lb/>er ellers et sjeldent Stof i
+<lb/>denne unge Kvinde; hun er
+<lb/>stolt, &dash; skulde jeg virkelig be&typHyp;
+<lb/>slutte mig til &dash; nei, heller yd&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-left">58.</fw>
+<lb/>myge hende; Kvindens bedste
+<lb/>Seiersfryd er at beseires, det un&typHyp;
+<lb/>der jeg hende ikke. <HIS:hisStage>(Efter en
+<lb/>Pause.)</HIS:hisStage> Sandelig, troer jeg ikke,
+<lb/>at hun har sat mit Blod i
+<lb/>Hede, hun har slaaet fastere
+<lb/>Rødder i mit Sind end jeg
+<lb/>herefterdags havde tænkt mig
+<lb/>muligt; men ligemeget jeg
+<lb/>rykker hende op med Roden<HIS:hisDel rend="overstrike" hand="h1">,</HIS:hisDel><HIS:hisAdd place="inline" hand="h1">.</HIS:hisAdd>
+<lb/><HIS:hisAdd place="inline" hand="h1">&dash;</HIS:hisAdd> <HIS:hisDel rend="overwritten">d</HIS:hisDel><HIS:hisAdd place="inline" hand="h1">D</HIS:hisAdd>et er den høie Tid at jeg tæn&typHyp;
+<lb/>ker paa at klare mig ud af
+<lb/>al den Vilderede jeg her har
+<lb/>rodet mig ind i. <HIS:hisStage>(Sætter sig
+<lb/>i en Stol til Høire.)</HIS:hisStage> Jeg for
+<lb/>maaer neppe at overskue Sager&typHyp;
+<lb/>nes sande Stilling; lad see &dash;
+<lb/>Baade Skaktavl og Inger Gylden
+<pb/>
+<lb/><fw type="page" place="top-right">59.</fw>
+<lb/>løve synes blinde for den Mistro
+<lb/>de udsættes for, naar det rygtes
+<lb/>at jeg er med i Forbundet. &dash;
+<lb/>Eller skulde Fru Inger virkelig
+<lb/>have fattet min Hensigt, skul&typHyp;
+<lb/>de hun have forstaaet at mi&typHyp;
+<lb/>ne Løfter kun vare beregnede
+<lb/>paa at lokke Niels Sture frem
+<lb/>af sit Smuthul? <HIS:hisStage>(springer op.)</HIS:hisStage>
+<lb/>Fordømt! hvad skal jeg isaa&typHyp;
+<lb/>fald gribe til? Er jeg virke&typHyp;
+<lb/>lig selv bleven narret? Det er
+<lb/>høist rimelig, at Grev Sture slet
+<lb/>ikke findes paa Østeraad; kan&typHyp;
+<lb/>hænde at Rygtet om hans Flugt
+<lb/>kun har været en Krigslist og
+<lb/>at han i dette Øieblik sidder
+<lb/>velbeholden blandt sine Venner,
+<pb/>
+<lb/><fw type="page" place="top-left"><HIS:hisDel rend="overwritten">5</HIS:hisDel>60.</fw>
+<lb/>medens jeg &dash; <HIS:hisStage>(gaar heftig op og
+<lb/>ned af Gulvet.)</HIS:hisStage> At jeg ogsaa skul&typHyp;
+<lb/>de være saa sikker i min Sag;
+<lb/>havde jeg Grev Sture her, saa
+<lb/>var han inden en Time i Forva&typHyp;
+<lb/>ring, dermed var det hele Foreha&typHyp;
+<lb/>vende kvalt og jeg var følgelig
+<lb/>løst fra mine Løfter; men nu
+<lb/>derimod &dash; Seent eller tidligt
+<lb/>vil Fru Inger gjennemskue mi&typHyp;
+<lb/>ne Hensigter, hun vil naturlig&typHyp;
+<lb/>viis ikke lægge Dølgsmaal paa
+<lb/>min Færd, og saa staaer jeg der
+<lb/>til Spot for hele Landet; <HIS:hisDel rend="overwritten">s</HIS:hisDel>istedet&typHyp;
+<lb/>for at lokke Fru Inger i Fælden,
+<lb/>har jeg gavnet hendes Sag paa
+<lb/>det Bedste, hendes Gunst hos
+<lb/>Almuen vil stige, og &dash; ha! jeg
+<lb/>kunde fristes til at give mig
+<pb/>
+<lb/><fw type="page" place="top-right">61.</fw>
+<lb/>den første den bedste Djævel i
+<lb/>Vold, der skaffede mig Kløer&typHyp;
+<lb/>ne i Grev Sture. Hvad nu!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Niels <sic>Steensøn</sic> viser sig udenfor.)</HIS:hisStage>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole>. <HIS:stageRole who="STEENSSON">Niels <sic>Steensøn</sic></HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker><sic>Steensøn</sic></speaker>.</HIS:spOpener><p>endelig er jeg her da.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Hvad skal dette sige?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Guds Fred, Herre!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Tak, Herre! Det er ellers en
+<lb/>særegen Indgang I der har
+<lb/>valgt Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>som Bjørne ved Juletider.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Takker Gud! En god Samvit&typHyp;
+<lb/>tighed er den bedste Hovedpu&typHyp;
+<lb/>de, veed I vel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg hamrede og dundrede, saa &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">62.</fw>
+<HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa slap I dog ikke ind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>springe gjennem Vinduet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ah, for Djævlen! der
+<lb/>falder mig noget ind; skulde
+<lb/>det være &dash; <HIS:hisStage>(høit.)</HIS:hisStage> Saa det er
+<lb/>Eder da saa magtpaaliggende
+<lb/>at komme til Østeraad inat?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>vente paa mig skal jeg sige Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Jeg giver mit Liv paa
+<lb/>at det er Niels Sture! <HIS:hisStage>(høit.)</HIS:hisStage>
+<lb/>Saa Fru Inger venter Eder alt&typHyp;
+<lb/>saa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>om det ikke er ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ganske rigtig, her har
+<lb/>vi Manden!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>hører I til Huset?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg? Ja forsaavidt som jeg fra
+<pb/>
+<lb/><fw type="page" place="top-right">63.</fw>
+<lb/>iaftes er Fru Ingers Gjæst.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg vil lade ham begynde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Her gjælder det at fam&typHyp;
+<lb/>le sig frem; dersom han lige&typHyp;
+<lb/>som Skaktavl kun er halvveis
+<lb/>underrettet, saa kunde jeg lok&typHyp;
+<lb/>ke Adskilligt ud af ham.
+<lb/><HIS:hisStage>(Høit.)</HIS:hisStage> Jeg haaber at I snart
+<lb/>vil kunne stedes for Husets
+<lb/>Frue; thi saavidt jeg veed er
+<lb/>hun endnu ikke gaaen tilsengs.
+<lb/>Men nu kan I jo imidlertid
+<lb/>sætte Jer ned og hvile Eder ud
+<lb/>saalænge. See her er endnu en
+<lb/>Flaske Viin tilovers, lidt at spi&typHyp;
+<lb/>se finder I vel ogsaa. Nu,
+<lb/>tag for Eder, I kan trænge til
+<lb/>at styrke Jer.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">64.</fw>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker><sic>Steensøn</sic></speaker>.</HIS:spOpener><p>Vand i fire, fem Dage &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(betragter ham smilende.)</HIS:hisStage></HIS:spOpener><p>Ja, det
+<lb/>falder tungt nok, naar man er
+<lb/>vant til at sidde til Høibords
+<lb/>i grevelige Sale.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>han sige med det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men nu kan I jo hvile Eder
+<lb/>ud her paa Østeraad saalæn&typHyp;
+<lb/>ge som I lyster.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>ikke saasnart afsted igjen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, jeg veed ikke; det maa
+<lb/>I vel selv bedst kun<HIS:hisDel rend="overwritten">d</HIS:hisDel>ne svare
+<lb/>paa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>her for det Første, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men I er ikke i Et og Alt Eders
+<lb/>egen Herre, der gives andre Plig&typHyp;
+<lb/>ter, andre Hensyn &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker><sic>Steensøn</sic></speaker>.</HIS:spOpener><p>Feldtfod, saa &dash; Eders Skaal, Herre.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">65.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Paa Feldtfod! Den Pral&typHyp;
+<lb/>hans! Han er voxet op i sin
+<lb/>Moders Kakkelovns<HIS:hisDel rend="overwritten"><unclear>g</unclear></HIS:hisDel>krog; det veed
+<lb/>jeg bedre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>nødig vil slaa løs.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Slaa løs?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Fremmede ud af Landet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja, det har I Ret i; men nu
+<lb/>faaer I gjøre hvad I kan,
+<lb/>saa gaaer det nok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>stort hjælpe om jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Da er det dog sælsomt at I
+<lb/>gjæster hende, naar I ikke har
+<lb/>bedre Haab.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>kjender I Fru Inger?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Naturligviis, siden jeg er hendes
+<lb/>Gjæst, saa &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">66.</fw>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker><sic>Steensøn</sic></speaker>.</HIS:spOpener><p>hendes Skygge engang.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men I veed dog at fortælle &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>hørt af Peder Kantsler &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I vilde sagt noget Mere.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>kan være det Samme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(leer.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Hvoraf leer I Herre?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Af Ingenting, Herre!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>har her paa Gaarden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hør skulde det nu ikke være
+<lb/>paa Tiden at kaste Masken?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Nu kommer han.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa lad kun al Forstillelse fa&typHyp;
+<lb/>re; I er kjendt, Grev Sture!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg er ikke Grev Sture.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Virkelig ikke! Hvem er I da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>er Niels Steenssøn!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">67.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Men <HIS:hisDel rend="overstrike">er</HIS:hisDel> I er ikke
+<lb/>Steen Stures Søn? Navnet slaaer
+<lb/>ialfald til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>ledsaget ham hvor han færdedes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Han er snedigere end
+<lb/>jeg havde tænkt mig. <HIS:hisStage rend="deviation">(Høit.)</HIS:hisStage>
+<lb/>Nu godt, I er altsaa ikke
+<lb/>Niels Sture, men I kommer
+<lb/>dog fra Sverrig, Peder Kants&typHyp;
+<lb/>ler har skikket Eder hid for
+<lb/>at finde en Fremmed, som &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Som alt er funden!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(noget usikker.)</HIS:hisStage></HIS:spOpener><p>Og som I ikke
+<lb/>kjender.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg er ikke Grev Sture.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Alvorligt, Herre?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>nægte det, hvis saa var.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">68.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men hvor er da Grev Sture?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>det er just Hemmeligheden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(hviskende.)</HIS:hisStage></HIS:spOpener><p>Som er Eder bekjendt,
+<lb/>ikke saa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>har at meddele Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Mig? Nu da, hvor er han?</p></HIS:hisSp>
+<lb/><HIS:hisStage>Steenssøn <HIS:hisAdd place="inline" hand="h1">(</HIS:hisAdd>peger opad.<HIS:hisAdd place="inline" hand="h1">)</HIS:hisAdd> &dash;</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Deroppe! Fru Inger holder
+<lb/>ham skjult paa Loftet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Niels Sture er himlet!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Død! Hvor?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>for tre Uger siden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ah, I bedrager mig; for fem,
+<lb/>sex Dage<HIS:hisDel rend="overstrike" hand="h1">r</HIS:hisDel> siden drog han
+<lb/>over Grændsen ind i Norge.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Ah, det har været mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men kort Tid iforveien havde
+<lb/>Greven viist sig i Dalarne.
+<pb/>
+<lb/><fw type="page" place="top-right">69.</fw>
+<lb/>Almuen som allerede var uro&typHyp;
+<lb/>lig gjorde formeligt Oprør og
+<lb/>kaarede ham til Drot. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Det var jo ogsaa mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Eder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg vilde møde en Fremmed &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Rigtig, det er mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Huusfolk paa Sture Slot.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg forstaaer, Greven var Ho&typHyp;
+<lb/>vedet for Bondepartiet; hvis
+<lb/>hans Død rygtedes, saa vilde
+<lb/>de gaa fra hinanden og der
+<lb/>blev Intet af det Hele.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>ikke paa de Ting.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men hvorledes kunde det falde
+<lb/>Eder ind at give Jer ud for
+<lb/>G<HIS:hisDel rend="overwritten"><unclear>er</unclear></HIS:hisDel>reven?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>forsøge hvordan det er.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">70.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu, og hvad tog I Jer saa vi&typHyp;
+<lb/>dere for?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>skulde det rigtig bryde løs.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og det faldt Eder ikke ind, at
+<lb/>I handlede ubesindigt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>rigtignok for seent.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det gjør mig ondt for Eder, min
+<lb/>unge Ven, men I vil snart
+<lb/>komme til at spore Følgerne
+<lb/>af Eders Daarskab. I er for&typHyp;
+<lb/>fulgt, Kongens Mænd har
+<lb/>sat efter Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Kløerne i Grev Sture hahaha.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(alvorligt.)</HIS:hisStage></HIS:spOpener><p>Saa er det ude med
+<lb/>Eders Liv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>er jo ikke Grev Sture.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men I har kaldt Folket til Vaa
+<lb/>ben, I har gjort oprørske
+<pb/>
+<lb/><fw type="page" place="top-right">71.</fw>
+<lb/>Løfter og vækket Ufred i Landet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jo kun for Spøg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Kong Gustav vil see Sagen paa
+<lb/>en anden Maade.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>i Hælene paa mig endnu.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Men hvad har I saa videre
+<lb/>at sige mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>faaer leveret Eder Pakken.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Pakken?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Javist, I veed jo &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ah, ja rigtig. Papirerne fra
+<lb/>Peder Kantsler.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>See her ere de.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Breve og Pergamenter
+<lb/>til Olaf Skaktavl! <HIS:hisStage>(høit.)</HIS:hisStage> De ere
+<lb/>aabne, saa kjender I vel Indhol&typHyp;
+<lb/>det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg har mine Grunde.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">72.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og hvilke?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>aldrig har lært det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu ja, den Grund er gyldig nok.
+<lb/><HIS:hisStage>(gjennemsøger Papirerne.)</HIS:hisStage> Aha,
+<lb/>Oplysninger, mere end tilstrække&typHyp;
+<lb/>lige for at komme efter hvad
+<lb/>der er i Gjære. Denne lille
+<lb/>Pakke med Silkesnoren om &dash;
+<lb/><HIS:hisStage>(undersøger Udskriften.)</HIS:hisStage> Ogsaa til
+<lb/>Olaf Skaktavl. Skulde jeg &dash;?
+<lb/>Jeg veed jo rigtignok allerede
+<lb/>hvad jeg behøver at vide, men
+<lb/>alligevel, &dash; har jeg nu den hele
+<lb/>Kvæld igjennem ageret Eierman&typHyp;
+<lb/>den til alt dette her, saa tør
+<lb/>jeg vel ogsaa &dash; <HIS:hisStage>(aabner Pakken
+<lb/>og vedbliver idet han gjennem
+<lb/>løber Indholdet.)</HIS:hisStage> Fra Peder Kants&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">73.</fw>
+<lb/>ler, ja, det kunde jeg næsten tæn&typHyp;
+<lb/>ke. Han er haardt i Betryk,
+<lb/>skriver han, thi &dash; ja, ganske rig&typHyp;
+<lb/>tig, her staaer det; den unge Jun&typHyp;
+<lb/>ker Sture er gaaen til sine Fæ&typHyp;
+<lb/>dre just idetsamme Uroligheder&typHyp;
+<lb/>ne skulde bryde løs. &lquo;Men end&typHyp;
+<lb/>nu kan der raades Bod paa
+<lb/>Alting!&rquo; Hvad nu! <HIS:hisStage>(studser og
+<lb/>læser videre for sig selv.)</HIS:hisStage> &lquo;I maa
+<lb/>da vide, Olaf Skaktavl! at den
+<lb/>der bringer Eder dette Brev er
+<lb/>en Søn af &dash;&rquo; Himmel og Jord!
+<lb/>læser jeg ogsaa ret; ja ved Kristi
+<lb/>Blod! det staaer der! <HIS:hisStage>(Med et
+<lb/>Blik til Niels Steenssøn)</HIS:hisStage> Han
+<lb/>skulde være &dash; ha, hvis det var
+<lb/>saaledes. <HIS:hisStage>(læser videre.)</HIS:hisStage> &lquo;Jeg har
+<pb/>
+<lb/><fw type="page" place="top-left">74.</fw>
+<lb/>fostret ham fra han var aarsgam&typHyp;
+<lb/>mel, men til denne Dag har jeg
+<lb/>stadigen nægtet at give ham tilba&typHyp;
+<lb/>ge, fordi jeg tænkte mig, at jeg i
+<lb/>ham skulde have et sikkert Gid&typHyp;
+<lb/>sel for Fru Ingers Troskab mod
+<lb/>os og mod vore Venner; men
+<lb/>dertil har han kun lidet baadet
+<lb/>os. I vil maaskee forun<HIS:clarification place="inline" hand="h1">d</HIS:clarification>re
+<lb/>Eder over at jeg ikke betroede
+<lb/>Eder denne Hemmelighed den&typHyp;
+<lb/>gang I var hos mig her i Sver&typHyp;
+<lb/>rig, men isaafald vil jeg ær&typHyp;
+<lb/>ligt tilstaa Eder at jeg frygte&typHyp;
+<lb/>de for I skulde beholde ham
+<lb/>i samme Øiemed som jeg. Nu
+<lb/>derimod da I er stædet til Møde
+<lb/>med Fru Inger og venteligen har
+<pb/>
+<lb/><fw type="page" place="top-right">75.</fw>
+<lb/>forvisset Eder om hvor uvillig
+<lb/>hun er til at tage sig af vore
+<lb/>Anliggender, saa vil I skjønne
+<lb/>at det er klogest, saasnart skee
+<lb/>kan<unclear reason="ink">,</unclear> at give hende tilbage
+<lb/>hvad hendes er; vel turde det
+<lb/>da hænde sig at Taknemme&typHyp;
+<lb/>ligheden &dash; dette er nu vort sid&typHyp;
+<lb/>ste Haab.&rquo; &dash; Ha, ha, hvilket
+<lb/>Brev! Det er Guld værd.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Jern i Ilden, siges der.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Hvad skal jeg beslutte
+<lb/>mig til? Jeg har tusinde An&typHyp;
+<lb/>slag, men de lege Blindebuk i
+<lb/>mit Hoved; det Ene snubler
+<lb/>over det Andet. <HIS:hisStage>(Grublende.)</HIS:hisStage> I&typHyp;
+<lb/>fald jeg &dash; o nei, hvad vilde det
+<lb/>lede til! Men dersom &dash; dersom
+<pb/>
+<lb/><fw type="page" place="top-left">76.</fw>
+<lb/>jeg &dash; ha, ja det var et Indfald!
+<lb/>Lykkes det, saa reddes jeg ud
+<lb/>af al min Forlegenhed og Fru
+<lb/>Inger er mig vis. Sandelig, jeg
+<lb/>vil vove det. <HIS:hisStage>(Høit.)</HIS:hisStage> Et Ord, min
+<lb/>unge Ven!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>om Spillet gaaer godt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ja det skulde jeg mene. Jeg
+<lb/>har bare Herrekort paa Haan&typHyp;
+<lb/>den, Damer og Knægter og &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg nu ikke mere at bestille?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I? Jo det skulde jeg mene. I
+<lb/>hører med til Spillet. I er Kon&typHyp;
+<lb/>ge og Trumf ovenikjøbet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>som I lovede mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ophøielsen? Hvilken?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Fingre i mig, spaaede I saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Sandt nok, men lad ikke det
+<pb/>
+<lb/><fw type="page" place="top-right">77.</fw>
+<lb/>anfægte Jer længer. Det staaer
+<lb/>nu til Eder selv om I inden
+<lb/>en Maaned skal bære Hampe&typHyp;
+<lb/>snoren, eller en gylden Kjæde
+<lb/>om Halsen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Og det staaer til mig selv?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(nikker.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg skal bære mig ad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det skal jeg; dog først sværge
+<lb/>I mig en dyr Ed paa at in&typHyp;
+<lb/>tet levende Menneske i den
+<lb/>vide Verden skal erfare hvad
+<lb/>jeg betroer Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>ti Eder om I vil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(strengt.)</HIS:hisStage></HIS:spOpener><p>Alvor, Herre! Jeg spøger
+<lb/>ikke med Jer!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg er alvorlig.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">78.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I Dalarne kaldte I Eder Greve&typHyp;
+<lb/>søn, ikke saa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>ærligt skriftet for Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I forstaaer mig ikke. Hvad I
+<lb/>dengang sagde var Sandhed!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Men saa siig mig da &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Først Eders Ed, den helligste,
+<lb/>den ubrydeligste I kjender.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Jomfru Marias Billede.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(trækker paa Skulderen)</HIS:hisStage></HIS:spOpener><p>Jomfru
+<lb/>Maria er bleven affældig paa
+<lb/>den sidste Tid; har I ikke
+<lb/>hørt hvad Munken i Witten&typHyp;
+<lb/>berg paastaaer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Kjætter siger Peder Kantsler.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu ja, lad os ikke strides der&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">79.</fw>
+<lb/>om. <HIS:hisStage>(afsides.)</HIS:hisStage> For mig kan rig&typHyp;
+<lb/>tignok den ene Ed være lige&typHyp;
+<lb/>saa god som den anden; men
+<lb/>jeg maa være sikker paa ham;
+<lb/>det er slemme Tider vi leve i;
+<lb/>de kjære Helgener er ikke læn&typHyp;
+<lb/>ger at stole paa. <HIS:hisStage>(Med et
+<lb/>Blik paa Niels Steenssøn, idet
+<lb/>han seer sig om i Salen.)</HIS:hisStage>
+<lb/>Men for Fanden! han er jo
+<lb/>neppe tyve Aar endnu; naar
+<lb/>Folk er i den Alder, saa plei&typHyp;
+<lb/>er de gjerne have den Idee,
+<lb/>at der gives Et <app type="alteration"><lem><HIS:hisAdd place="offline">eller</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">og</HIS:hisDel></HIS:hisRdg></app> Andet som
+<lb/>er helligt i Verden. Lad mig
+<lb/>see, skulde her ikke <HIS:hisStage>(bemærker
+<lb/>et Billede som hænger paa en
+<lb/>af Loftstøtterne.)</HIS:hisStage> Aha, see
+<pb/>
+<lb/><fw type="page" place="top-left">80</fw>
+<lb/>der, jeg kunde aldrig finde
+<lb/>noget Bedre. <HIS:hisStage>(Høit.)</HIS:hisStage> Saa sværg
+<lb/>mig da Taushed, indtil jeg
+<lb/>selv løser Eders Tunge, Taus&typHyp;
+<lb/>hed saasandt I haaber Him&typHyp;
+<lb/>lens Salighed for Eder selv og
+<lb/>for ham som der hænger afbil&typHyp;
+<lb/>ded.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Men Krist i Himlen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>det er jo mig selv!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er den gamle Steen Sture,
+<lb/>saaledes som han i sine yng&typHyp;
+<lb/>re Aar gik og stod her i Li&typHyp;
+<lb/>vet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>var det ikke saa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa var det.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">81.</fw>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>jeg har det! Jeg er &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I er hans Søn, den sidste Æt&typHyp;
+<lb/>ling af Steen Stures Stamme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Jeg Steen Stures Søn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ogsaa paa Moders Side er I
+<lb/>odelsbaaren. Peder Kantsler
+<lb/>bedrog Eder, da han sagde at
+<lb/>en fattig Bondekone havde be&typHyp;
+<lb/>troet Eder til ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>kan jeg da ogsaa tro &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Alt, hvad jeg siger Eder, kan
+<lb/>I tro, men kom vel ihu, at
+<lb/>det er Alt til Eders eget For&typHyp;
+<lb/>dærv, dersom I glemmer hvad
+<lb/>I svoer ved Eders Faders Sa&typHyp;
+<lb/>lighed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>siig mig, hvem er I?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">82.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Mit Navn er Niels Lykke!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>den danske Rigsraad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Netop!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Hvordan kommer I &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afbrydende.)</HIS:hisStage></HIS:spOpener><p>Til at modtage
+<lb/>Budsendelsen fra Peder Kants&typHyp;
+<lb/>ler? Det undrer Eder nok.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>vor bittreste Avindsmand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og derfor mistroer I mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Fanden maatte gruble!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Deri gjør I ret; følger I Eders
+<lb/>eget Hoved, saa er Bastesnoren
+<lb/>Eder ligesaa vis som Greve&typHyp;
+<lb/>navnet og den gyldne Kjede,
+<lb/>dersom I forlader Eder paa
+<lb/>mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>nok klare mig selv.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">83.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er godt. Følg mig nu her&typHyp;
+<lb/>ind i Kammeret, saa skal I
+<lb/>faa vide hvordan Alt hænger
+<lb/>sammen og hvad I videre har
+<lb/>at gjøre.</p> <HIS:hisStage>(Gaaer ud til Høire.)</HIS:hisStage></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+<div type="act" n="4">
+<lb/><head>Fjerde Akt. &dash;</head>
+<div type="scene" n="2">
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER">Fru Inger.</HIS:stageRole> <HIS:stageRole who="SKAKTAVL">Olaf Skaktavl</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Stille, Olaf Skaktavl! vær nu besin&typHyp;
+<lb/>dig, der kommer han!</p></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER SKAKTAVL">De Forrige</HIS:stageRole>. <HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> <hi>fra Høire</hi>.</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Hun kneiser som en Gran
+<lb/>paa Fjeldet, men vent, &dash; vent,
+<lb/>nu brygger det til Uveir, og
+<pb/>
+<lb/><fw type="page" place="top-left">84.</fw>
+<lb/>det skal knække dig! <HIS:hisStage>(Høit.)</HIS:hisStage> Min
+<lb/>ædle Frue har ladet mig kalde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>forlade os endnu i Nat.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Desværre, mit Hverv paa Øster&typHyp;
+<lb/>raad er jo tilende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>har faaet mine Papirer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ganske sandt. Næsten havde
+<lb/>jeg glemt det Vigtigste af mit
+<lb/>Ærinde; men det er ogsaa vor
+<lb/>høie Værtindes Skyld. Ved Bor&typHyp;
+<lb/>det forstod hun saa kløgtigt
+<lb/>og saa behageligt at syssel&typHyp;
+<lb/>sætte sine Gjæster &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>saa maatte han &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvilket Frue?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>gaaet forud for hans Komme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(til Olaf Skaktavl.)</HIS:hisStage></HIS:spOpener><p>Papirerne
+<pb/>
+<lb/><fw type="page" place="top-right">85.</fw>
+<lb/>fra Peder Kantsler! I vil her fin&typHyp;
+<lb/>de fuldstændige Lister over vore
+<lb/>Tilhængere i Sverrig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Det er godt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Brevet beholder jeg for
+<lb/>mig selv. <HIS:hisStage>(Høit.)</HIS:hisStage> Og nu veed jeg
+<lb/>ikke her er meer for mig at
+<lb/>gjøre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>jeg dog nødig tro.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I mener?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>at kjende Fruen paa Østeraad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Tilvisse, &dash; Fru Ingers Ry er alt&typHyp;
+<lb/>for udbredt til at jeg ikke læn&typHyp;
+<lb/>ge skulde have higet efter at
+<lb/>see hende Ansigt til Ansigt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>behageligt Ophold i vort Huus.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg tvivler hverken om Eders eller
+<pb/>
+<lb/><fw type="page" place="top-left">86.</fw>
+<lb/>Eders Datters gode Sindelag mod
+<lb/>mig; thi derom er jeg allerede ved
+<lb/>vore første Sammenkomster til&typHyp;
+<lb/>fulde bleven forvisset; men I
+<lb/>vil vistnok erkjende, at min
+<lb/>Nærværelse andetsteds er uom&typHyp;
+<lb/>gjængelig fornøden, naar jeg
+<lb/>desuagtet maa erklære det for
+<lb/>umuligt at forlænge mit Op&typHyp;
+<lb/>hold paa Østeraad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Vidnerne til Eders Nederlag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Der kunde være skj<unclear reason="ink">æ</unclear>llig Grund
+<lb/>for Eder til at formode Sligt,
+<lb/>men Tingen er, at jeg endnu
+<lb/>ikke anseer Slaget <HIS:hisDel rend="overstrike">for</HIS:hisDel> som
+<lb/>tabt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>den ikke skal vantrives.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Isaafald vilde mit Ophold paa
+<pb/>
+<lb/><fw type="page" place="top-right">87.</fw>
+<lb/>Østeraad neppe lede til Noget,
+<lb/>thi jeg agter intet yderligere
+<lb/>Forsøg at gjøre paa at rokke
+<lb/>Eders Beslutning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>af Eders Gang til Østeraad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(smilende.)</HIS:hisStage></HIS:spOpener><p>Spaaer I det, Fru
+<lb/>Inger?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>. <HIS:hisAdd place="offline" hand="h1"><HIS:hisStage>(utaalmodig.)</HIS:hisStage><note resp="editor">Det er ikke angitt nøyaktig hvor tilføyelsen skal inn.</note></HIS:hisAdd></HIS:spOpener><p>at stride under Eders Banner.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I taler viseligen, Frue! og for ei
+<lb/>at udsætte mig for Spot, endvide&typHyp;
+<lb/>re, for ei at bryde den gode
+<lb/>Forstaaelse med mine Venner i
+<lb/>Sverrig, saa nødes jeg til &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Nu gaaer han i Fælden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei, min ædle Frue! jeg nødes
+<lb/>til at komme overeens med Eder
+<lb/>endnu i denne Time. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>nu ikke skulde lykkes?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">88.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det vil lykkes!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Eders Sag, som det lader.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad vædde vi, at Seiren er min?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>mod Eders Knæspænder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Østeraad Gaard er ikke længer
+<lb/>Eders.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Hvad nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Væddemaalet modtager jeg ikke;
+<lb/>thi om et Øieblik skjænker
+<lb/>I mig gjerne den og mere
+<lb/>til for at fri Eder ud af Sna&typHyp;
+<lb/>ren, hvori ikke jeg men I
+<lb/>selv er hild<HIS:hisDel rend="overstrike" hand="h1">r</HIS:hisDel>et. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>blive noget lystig, Herr Ridder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Den bliver lystigere endnu, idet&typHyp;
+<lb/>mindste for mig. I bryster Eder
+<lb/>af at have gjennemskuet mig,
+<lb/>I overdynger mig med Bitterhed,
+<lb/>Haan og Spot; &dash; ha! I skulde
+<pb/>
+<lb/><fw type="page" place="top-right">89.</fw>
+<lb/>vogte Eder for at vække min
+<lb/>Hævnlyst; thi jeg kan med to
+<lb/>Ord bøie Eder i Knæ for mine
+<lb/>Fødder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>disse to Ord &dash; <note resp="author">(2<hi rend="raised">den</hi> Gang.)</note></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Er Hemmeligheden om Eders
+<lb/>og Steen Stures Søn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Hvad siger I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(løfter Fru Inger op.)</HIS:hisStage></HIS:spOpener><p>Kom til Eder
+<lb/>selv og lad os tale besindigt
+<lb/>sammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>suste forbi mine Øren?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I har hørt ret.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>hvor er han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hos sin Pleiefader!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det vil ei være fornødent, saa&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-left">90</fw>
+<lb/>fremt I kun &dash;</p></HIS:hisSp>
+<HIS:hisAdd place="margin" hand="h1">
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Mand i sin fagreste Kraft.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ganske sandt; og efter hvad jeg har ladet mig
+<lb/><emph>sige</emph>, kom han i et hemmeligt Ærinde til Norge;
+<lb/>&dash; Ingen uden I turde <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>vide at han var velsin&typHyp;
+<lb/>det mod Eders Parti. &dash;</p></HIS:hisSp></HIS:hisAdd><note resp="editor">Tilføyelsen er skrevet i øvre høyre hjørne.</note>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>gjennem tyve lange Aar?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nuvel, det staaer i Eders Magt
+<lb/>at ende denne Angst; dersom
+<lb/>I forsoner begge Partier, saa behø&typHyp;
+<lb/>ver intet af dem at tilegne sig
+<lb/>Eders Barn, som Borgen for Eders
+<lb/>Troskab.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>hvad fordrer I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>At I kalder Eders Landsmænd til
+<lb/>Vaaben for at understøtte de
+<lb/>Misfornøiede i Sverrig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Videre!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>At I virker for at den unge
+<lb/>Grev Sture kan blive indsat i
+<lb/>sin Slægts Rettigheder som Sver&typHyp;
+<lb/>rigs Styrer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>være vel tjent dermed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Kan I betænke Eder, min Frue?
+<pb/>
+<lb/><fw type="page" place="top-right">91.</fw>
+<lb/>I skjælver for Eders Barns Sikker&typHyp;
+<lb/>hed, hvor kan I da ønske noget
+<lb/>Bedre end at see hans <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Halvbro&typHyp;
+<lb/>der <app type="alteration"><lem><HIS:hisAdd place="offline" hand="h1">som Konge.</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike" hand="h1">paa Thronen</HIS:hisDel>?</HIS:hisRdg></app></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Vel sandt, vel sandt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Med mindre der skulde være
+<lb/>andre Anslag i Gjære.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Hvad mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>At Inger Gyldenløve pønsede
+<lb/>paa at blive &dash; Kongemoder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>om Grev Sture er villig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Derom kan han selv forvisse Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Han selv, og naar?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I denne Time.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker></HIS:spOpener><p>Hvad siger I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Me<HIS:hisDel rend="overstrike" hand="h1">e</HIS:hisDel>d eet Ord, at Grev Sture be&typHyp;
+<lb/>finder sig paa Østeraad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Her?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">92.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(til Fru Inger.)</HIS:hisStage></HIS:spOpener><p>Det er Eder maaskee
+<lb/>berettet at jeg red selv anden gjen&typHyp;
+<lb/>nem Porten; Greven var min Føl&typHyp;
+<lb/>gesvend.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>min Forsikkring om Bistand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Skriftlig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Som I begjærer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Endelig seirer jeg da!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Stille! Lad mig raade!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ah, raadslaa kun med
+<lb/>hinanden saa meget I lyster,
+<lb/>nu er al Fare forbi; om et Øie&typHyp;
+<lb/>blik har jeg hendes skrevne Ord,
+<lb/>der stempler hende som Oprører&typHyp;
+<lb/>ske saafremt det gjøres fornø&typHyp;
+<lb/>dent. Endnu i Nat maa jeg
+<lb/>skikke et hemmeligt Bud til
+<lb/>Jens Bjelke. Jeg kan nu med
+<lb/>god Samvittighed forsikkre ham
+<pb/>
+<lb/><fw type="page" place="top-right">93.</fw>
+<lb/>om, at den unge Greve ikke er he<unclear>r.</unclear>
+<lb/>Og saa imorgen naar Veien er tryg,
+<lb/>da tager jeg ham derinde med
+<lb/>mig til Trondhjem, mit Skib fører
+<lb/>ham videre til Danmark og vi
+<lb/>kan da foreskrive Fru Inger
+<lb/>hvilke Betingelser vi lyster. Hvis
+<lb/>ikke denne Streg gjør mit Navn
+<lb/>berømt, saa er der ikke længere
+<lb/>Sands blandt Menneskene for hvad
+<lb/>der er stort i Verden.</p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER NIELSLYKKE SKAKTAVL">De Forrige</HIS:stageRole>. <HIS:stageRole who="STEENSSON">Niels Steenssøn</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steenss</speaker>.</HIS:spOpener><p>Herr Ridder, Herr Ridder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Uforsigtige! Hvad vil I her?
+<lb/>Har jeg ikke sagt I skulde
+<lb/>vente derinde til jeg kaldte paa
+<lb/>Jer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>I har vel forberedt hende.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">94.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Javist har jeg, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hun erkjender Eder ei som Søn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>maa hun vide Besked om.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I forstaaer mig ikke; Fru Inger
+<lb/>tvivler ingenlunde om at I er
+<lb/>hendes Barn; men, &dash; ja see Eder
+<lb/>om; see al denne Rigdom, see
+<lb/>alle disse mægtige Forfædre, hvis
+<lb/>Billeder hænge rundt om Vægge&typHyp;
+<lb/>ne og endelig hun selv, denne
+<lb/>stolte Kvinde, der er vant til
+<lb/>at byde som en Dronning, troer
+<lb/>I, det kan være hende kjært,
+<lb/>at vise den fattige, uvidende
+<lb/>Svend for Menneskenes Øine,
+<lb/>og sige: see her, denne er min
+<lb/>Søn!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">95.</fw>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>I maa jo vide det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>I skal vinde Land og Rige; men
+<lb/>fornemmeligen maa I vel vogte
+<lb/>Eder for at saare hendes Øren
+<lb/>ved at nævne et Ord om Slægt&typHyp;
+<lb/>skab eller Sligt. Hun vil betrag&typHyp;
+<lb/>te Eder som om I virkelig
+<lb/>var Grev Sture, indtil I selv
+<lb/>gjør Eder værdig til at kaldes
+<lb/>hendes Søn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>men saa siig mig da &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Stille! Stille!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Her er mit Ord!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg takker Eder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Ah, det er &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Grev Sture!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>har baade Kraft og Villie.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">96.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(lyttende.)</HIS:hisStage></HIS:spOpener><p>Vaabenlarm og Støi<HIS:hisDel rend="overwritten">!</HIS:hisDel>?
+<lb/>Det er Nogen som kommer hid,
+<lb/>hvad skal dette sige?</p></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER NIELSLYKKE STEENSSON">De Forrige</HIS:stageRole>. <HIS:stageRole who="SKAKTAVL">Skaktavl</HIS:stageRole>, <HIS:stageRole who="BJORN">Bjørn</HIS:stageRole>,
+<lb/><HIS:stageRole who="FINN">Finn</HIS:stageRole>, <HIS:stageRole>Huuskarle</HIS:stageRole> og <HIS:stageRole>Tjenere</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener><p>Hil Grev Sture!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Det ulmer stærkere un&typHyp;
+<lb/>der Asken end jeg havde tænkt
+<lb/>mig; paa Skrømt har jeg ma&typHyp;
+<lb/>net Oprørsdjævlen frem; vee,
+<lb/>vee mig! om han voxte mig o&typHyp;
+<lb/>ver Hovedet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>da har jeg vundet Land og Rige.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ja, <emph hand="h1">hvis</emph> hun seer ham
+<lb/>igjen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SKAKTAVL"><HIS:spOpener><speaker>Skaktavl</speaker>.</HIS:spOpener><p>Alle ere rede.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">97.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvordan? Er det Eders Agt allere&typHyp;
+<lb/>de nu i Nat &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>I dette Øieblik.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei, nei! umuligt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Som jeg siger!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(sagte til Niels Steenssøn.)</HIS:hisStage></HIS:spOpener><p> Lyd
+<lb/>hende ikke!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Jeg vil, jeg maa!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(sagte.)</HIS:hisStage></HIS:spOpener><p>Men det er Eders Fordærv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>hun har Ret til at befale.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(bydende.)</HIS:hisStage></HIS:spOpener><p>Og jeg?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>men hun er min Moder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Og Jens Bjelke som lu&typHyp;
+<lb/>rer paa Veien! Fordømt! han
+<lb/>snapper mig Byttet af Hænder&typHyp;
+<lb/>ne! <HIS:hisStage>(til Fru Inger.)</HIS:hisStage> Vent til
+<lb/>imorgen!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">98.</fw>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>Tilhest!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Den Ulykkelige! han veed
+<lb/>ikke hvad han gjør. <HIS:hisStage>(til Fru
+<lb/>Inger.)</HIS:hisStage> Nu, siden det saa skal
+<lb/>være, lev vel! <HIS:hisStage>(vil gaa.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Herr Ridder! ikke saa!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>vide at gjøre Eder uskadelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(lægger uvilkaarlig Haanden paa
+<lb/>Sværdet.)</HIS:hisStage></HIS:spOpener><p>Fru Inger!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>førend Seieren er vor!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Død og Djævelen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>det Klogeste I kan gjøre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ha, jeg er overlistet!
+<lb/>Hun har været snedigere end
+<lb/>jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>tak, min trofaste Ven!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">99.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(hviskende til Finn, hvem han ube&typHyp;
+<lb/>mærket har kaldet til sig.)</HIS:hisStage></HIS:spOpener><p>Alt&typHyp;
+<lb/>saa afsted over Hals og Hoved!
+<lb/>En Fjerdingvei herfra ligge Sven&typHyp;
+<lb/>skerne i Baghold. Du beretter
+<lb/>Jens Bjelke, hvad jeg har fortalt
+<lb/>dig om Grev Stures Død; den
+<lb/>unge Mand <emph>der</emph> maa ikke an&typHyp;
+<lb/>tastes &dash; hans Liv er mig Tu&typHyp;
+<lb/>sinder værd.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>vente til Seiersbudskabet ko<choice><expan>mm</expan><abbr>&mbar;</abbr></choice>er.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Djævel!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="STEENSSON"><HIS:spOpener><speaker>Steens</speaker>.</HIS:spOpener><p>ikke komme til at vente længe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er godt, det er godt! <HIS:hisStage>(afsides.)</HIS:hisStage>
+<lb/>Alt kan endnu vindes, hvis mit
+<lb/>Bud blot kommer betids nok
+<lb/>til Jens Bjelke.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Huuskarlene</speaker>.</HIS:spOpener><p>Finn!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">100.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Der brast mit sidste Anker!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Hvem seirer?</p>
+<lb/><HIS:hisStage>(gaaer med de andre.)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> alene.</HIS:hisStage>
+<lb/><HIS:hisAdd place="inline"><HIS:hisStage>(Efter en Pause.)</HIS:hisStage></HIS:hisAdd>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvem? Ja vee hende! Seieren
+<lb/>bliver dyrekjøbt. Jeg vadsker
+<lb/>mine Hænder; hun er selv den
+<lb/>som myrder ham, ikke jeg.
+<lb/>Men mit Bytte undslipper mig
+<lb/>ligefuldt og Oprøret er igang.
+<lb/>Ha, det er et dumdristigt, et
+<lb/>afsindigt Spil jeg har indladt
+<lb/>mig i! Tys der ride de allere&typHyp;
+<lb/>de gjennem Porten, og jeg staar
+<lb/>tilbage som en Fange, &dash; ingen
+<lb/>Mulighed for at slippe bort!
+<pb/>
+<lb/><fw type="page" place="top-right">101.</fw>
+<lb/>Inden en halv Time falde Sven&typHyp;
+<lb/>skerne over ham, han har tre&typHyp;
+<lb/>dive velbevæbnede Ryttere med
+<lb/>sig, det vil gaa paa Livet løst.
+<lb/>Men hvis de nu alligevel fange
+<lb/>de ham levende? &dash; Var jeg
+<lb/>blot fri, saa kunde jeg indhen&typHyp;
+<lb/>te Svenskerne inden de naaede
+<lb/>Grændsen og faa ham udleve&typHyp;
+<lb/>ret. &dash; Fordømt! Skulde der da
+<lb/>ingen Udvei være? <HIS:hisStage>(gaaer hur&typHyp;
+<lb/>tig frem og tilbage, men stand&typHyp;
+<lb/>ser pludselig og lytter.)</HIS:hisStage> Hvad
+<lb/>er det? Sang og Strengeleg! Det
+<lb/>kommer fra Elines Kammer;
+<lb/>hun er altsaa oppe endnu.
+<lb/><HIS:hisStage>(Som om han pludselig faaer et
+<lb/>Indfald.)</HIS:hisStage> Eline! Ha hvis det gik
+<lb/>an? I Havsnød frister man
+<pb/>
+<lb/><fw type="page" place="top-left">102.</fw>
+<lb/>jo ethvert Redningsmiddel! Og
+<lb/>hvorfor skulde det ikke lade sig
+<lb/>gjøre? Er jeg ikke endnu mig
+<lb/>selv? I Visen hedder det:</p>
+<lb/><HIS:hisLg versetype="stanza"><l>&lquo;Hver en skjøn Jomfru sukker saa mod:</l>
+<lb/><l>Gud give Niels Lykke var mig huld
+<lb/>og god!&rquo;</l></HIS:hisLg>
+<lb/><p>Og hun? &dash; Ja, ja, Eline skal
+<lb/>frelse mig!</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+<div type="act" n="5">
+<lb/><head>Femte Akt. &dash;</head>
+<div type="scene" n="1">
+<lb/><HIS:hisStage>Fru Inger alene.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>søge Fred og Hvile! &dash; Kongemoder!
+<lb/><HIS:hisStage>(gaaer.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">den</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> <hi>og</hi> <HIS:stageRole who="ELINE">Eline</HIS:stageRole> (komme
+<lb/>ud fra Døren. tilvenstre i For&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">103.</fw>
+<lb/>grunden. <HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> har en li&typHyp;
+<lb/>den Lygte i Haanden.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(efter at han speidende har seet
+<lb/>sig om.)</HIS:hisStage></HIS:spOpener><p>Alt er stille; jeg maa
+<lb/>afsted.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>førend du forlader mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(omfavner hende.)</HIS:hisStage></HIS:spOpener><p>Eline!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>du aldrig meer til Østeraad?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvor kan du tvivle derpaa? Er
+<lb/>du ikke fra nu af min Trolo&typHyp;
+<lb/>vede? Men vil du ogsaa være
+<lb/>mig tro, vil du ikke forglem&typHyp;
+<lb/>me mig inden vi atter mødes</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>tro i al Evighed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu, ved min Ridderære! saa
+<lb/>skal du ogsaa inden Aaret er
+<lb/>omme sidde som Frue i Niels
+<lb/>Lykkes Borg.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">104.</fw>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Lov mig Intet!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvad fattes dig? Hvorfor ryster du
+<lb/>saa sørgmodig med Hovedet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>og Kvinden et Legetøi?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Eline, hør mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>forklare mig al Livets Herlighed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(afsides, idet han sætter Lygten paa
+<lb/>Bordet tilvenstre.)</HIS:hisStage></HIS:spOpener><p>Jeg veed ikke
+<lb/>hvordan det er fat, men det fore&typHyp;
+<lb/>kommer mig som om hun har
+<lb/>podet en frisk og frodig Green
+<lb/>i mit fortørrede Livstræ. Er
+<lb/>det saaledes at føle Kjærlighed,
+<lb/>o, da har jeg aldrig vidst det
+<lb/>forinden i Kvæld. Hvorfor var
+<lb/>dog ingen af de Andre som
+<lb/>hun? Men skulde det endnu væ&typHyp;
+<lb/>re for sildigt? &dash; Vee mig!
+<pb/>
+<lb/><fw type="page" place="top-right">105.</fw>
+<lb/>Lucia! Lucia! <HIS:hisStage>(synker ned i Sto&typHyp;
+<lb/>len.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Hvad fattes dig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>O, Intet, Intet<HIS:hisDel rend="overwritten">;</HIS:hisDel>! Eline, jeg vil
+<lb/>skrifte ærligt for dig. Mine Ord
+<lb/>have været Bedrag indtil denne
+<lb/>Time, og til Hundrede har jeg
+<lb/>sagt hvad jeg i denne Nat
+<lb/>har tilhvisket dig, &dash; men tro mig
+<lb/>&dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p><HIS:hisAdd place="offline" hand="h1">Livsens Brød</HIS:hisAdd> min Stolthed fra denne Stund.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei, nei! ikke for mine Fød&typHyp;
+<lb/>der, men ved min Side er din
+<lb/>Plads, og det, hvor høit end Skjæb<unclear reason="binding">&typHyp;</unclear>
+<lb/>nen falder paa at stille mig.
+<lb/>Ja, Eline! Du har ført mig
+<lb/>paa en bedre Vei, og dersom
+<lb/>det engang i Tiden falder i min
+<lb/>Lod at fuldføre en berømmelig
+<pb/>
+<lb/><fw type="page" place="top-left">106.</fw>
+<lb/>Daad i Livet, da skal Hæderen
+<lb/>være din, ligesaafuldt som min.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>altid tilbage til mit Buur.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(reiser sig.)</HIS:hisStage></HIS:spOpener><p>Saa byder jeg ogsaa
+<lb/>Forgangenheden Trods. See her,
+<lb/>tag denne Ring og vær min
+<lb/>for Gud og Mennesker, min,
+<lb/>selv om de Døde skulde faa
+<lb/>urolige Drømme derover.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>hvad er det som &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det er Intet! Kom nu, lad
+<lb/>mig sætte Ringen paa din Fin&typHyp;
+<lb/>ger. See saa, nu har jeg fæstet
+<lb/>dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>hvad jeg har feilet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og give sit Minde til vor Pagt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>undtagen Een.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Undtagen Een?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">107.</fw>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>jeg havde en Søster &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Lucia!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Du kjendte hende?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nei, nei! jeg har kun hørt hen&typHyp;
+<lb/>de nævne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>nu er hun i Himlen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Og Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Jeg hader ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Er der Barmhjertighed i dit
+<lb/>Sind, saa forlad ham hvad
+<lb/>han har syndet; tro mig,
+<lb/>han bærer Straffen i sit eget
+<lb/>Bryst.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>tys, kan du høre?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Hvilket?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>drønner som Hestetrampen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ha, det er dem! Vee mig, som
+<lb/>glemmer &dash; jeg maa afsted! jeg
+<pb/>
+<lb/><fw type="page" place="top-left">108.</fw>
+<lb/>maa afsted!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Forklar mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Imorgen; thi ved Gud! da
+<lb/>kommer jeg tilbage. Nu hurtig,
+<lb/>hvor er Løngangen som du
+<lb/>nævnte?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>see her er Lemmen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Gravkjælderen<HIS:hisDel rend="overwritten">?</HIS:hisDel>! <HIS:hisStage>(afsides.)</HIS:hisStage> Ligegodt,
+<lb/>han maa reddes!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Rytterne nærme sig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Nu velan! <HIS:hisStage>(begynder at stige
+<lb/>ned.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>det er Lucias &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(stiger hurtig op og lukker Lem&typHyp;
+<lb/>men til.)</HIS:hisStage></HIS:spOpener><p>Lucias! Fy!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Det var Liglugten, som gjorde
+<lb/>mig svimmel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Det banker paa Porten.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ha det er forsildigt!</p></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-right">109.</fw>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ELINE NIELSLYKKE">De Forrige</HIS:stageRole>. <HIS:stageRole who="BJORN">Bjørn</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ELINE"><HIS:spOpener><speaker>Eline</speaker>.</HIS:spOpener><p>Hvad han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Er han falden?</p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ELINE NIELSLYKKE">De Forrige</HIS:stageRole>. <HIS:stageRole who="FRUINGER">Fru Inger</HIS:stageRole>. <HIS:stageRole>To Huus&typHyp;
+<lb/>karle</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Det var altsaa Snaren!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Inger Gyldenløve! tro mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Tilsagn, der kan fælde mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(idet han tager Papiret frem
+<lb/>og river det istykker.)</HIS:hisStage></HIS:spOpener><p>Her
+<lb/>er Eders Tilsagn; jeg behol&typHyp;
+<lb/>der Intet som kan vidne <app type="alteration"><lem><HIS:hisAdd place="offline">mod</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">om</HIS:hisDel></HIS:hisRdg></app>
+<lb/>Eder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>Hvad gjør I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Jeg beskjærmer Jer fra denne
+<pb/>
+<lb/><fw type="page" place="top-left">110.</fw>
+<lb/>Stund! Har jeg forsyndet mig
+<lb/>mod Eder, nu ved Himlen!
+<lb/>saa vil jeg ogsaa oprette min
+<lb/>Brøde! Men afsted maa jeg, om
+<lb/>jeg saa skal aabne mig Veien
+<lb/>med Sværdet. Eline! siig hende
+<lb/>Alt! og I, Fru Inger, lad vort
+<lb/>Regnskab være glemt! Vær høi&typHyp;
+<lb/>modig! Tro mig, I skal ei kom&typHyp;
+<lb/>me til at fortryde det! <HIS:hisStage>(Han
+<lb/>iler ud til Høire i Baggrunden)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="9">
+<lb/><HIS:hisStage><HIS:stageRole who="FRUINGER">Fru Inger.</HIS:stageRole> <HIS:stageRole who="BJORN">Bjørn.</HIS:stageRole></HIS:hisStage>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>med Gud jeg havde at stride.</p></HIS:hisSp>
+</div>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene<unclear>.</unclear></head>
+<lb/><HIS:hisStage><HIS:stageRole who="BJORN FRUINGER">De Forrige</HIS:stageRole><unclear>.</unclear> <HIS:stageRole who="NIELSLYKKE">Niels Lykke</HIS:stageRole> (kom&typHyp;
+<lb/>mer hurtig ind fra Høire.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Han er frelst! Jeg har Jens
+<pb/>
+<lb/><fw type="page" place="top-right">111.</fw>
+<lb/>Bjelkes Løfte; over Stok og Steen
+<lb/>jog jeg afsted til jeg fandt ham.
+<lb/>Fru Inger, viid, at &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>mine Døttre, jeg seer dem ikke<unclear>.</unclear></p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Guds Blod! hvad er her ske&typHyp;
+<lb/>et?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker>.</HIS:spOpener><p>der var ikke Plads for to.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Ha, dertil er det altsaa kom&typHyp;
+<lb/>met! Det er Guds Dom over
+<lb/>min Færd!</p></HIS:hisSp>
+</div>
+<div type="scene" n="11">
+<lb/><head>11<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="BJORN FRUINGER NIELSLYKKE">De Forrige</HIS:stageRole>. Soldaterne med
+<lb/>Kisten. Jens Bjelke og Solda&typHyp;
+<lb/>ter.</HIS:hisStage>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p><emph>Han selv</emph> &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Tys!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="SOLDAT"><HIS:spOpener><speaker>En Soldat</speaker>.</HIS:spOpener><p>Ring han bar om sin Hals.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">112.</fw>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(hviskende.)</HIS:hisStage></HIS:spOpener><p>Ti! ti!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BJELKE"><HIS:spOpener><speaker>Bjelke</speaker>.</HIS:spOpener><p>Inger Gyldenløves Søn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker></HIS:spOpener><p>Saa er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUINGER"><HIS:spOpener><speaker>Inger</speaker></HIS:spOpener><p>en Grav hos mit Barn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NIELSLYKKE"><HIS:spOpener><speaker>&dash;</speaker> <HIS:hisStage>(gaaer hurtigt ud til Høire. &dash;</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>
+
+

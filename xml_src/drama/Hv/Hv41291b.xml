@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Hvide heste</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1291b</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Inger Marie Kjølstadmyr, Henninge Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og første kollasjon, juni-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respStmt>
+<respStmt><resp>2. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Hv41291b-0108"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på Ro41291_pre_splitt (Ro41291-0907).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Hv41291b">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1291b</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Uten forfatternavn</author>
+<title>Uten tittel</title>
+<docDate>Uten datering</docDate>
+</msItem></msContents>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Se typografibeskrivelsen i arkivert Ro41291_pre_splitt.xml</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ROSMER"/><item>Boldt-Rømer, Rosenhjelm, R.</item>
+<label xml:id="REBEKKA"/><item>Frøken Radeck</item>
+<label xml:id="KROLL"/><item>Hekmann, H.</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Blyant. Bibliotekar(?). Opplysning om ms-del ('b') side 7.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>02.04.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>HMS</name><title>Ny koding til synoptisk visning; fjerning av arbeids- og typonoter samt siccing</title>
+Erstattet 'xptr type=synopticView_msVersions' med 'synopticViewPtr type="synopticView_textWitnesses'. Fjernet siccing, arbeidsnoter og typonoter.</change>
+<change><date>27.08.09</date>
+<name>HMS</name><title>Koding til synoptisk versjonsvisning</title>
+Kodet inn sidetall som følger ms-beskrivelsen (legg/blad). Kodet inn xptr-koder og lagde synoptiske visninger.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>Fjernet fw type="msPart"</title>
+Fjernet fw type="msPart", siden bokstavene likevel ikke skal kodes.</change>
+<change><date>31.01.08</date>
+<name>HMS</name><title>Små endringer etter kontroll</title>
+Noen små endringer i teiHeader etter kontroll av filsplittingen.</change>
+<change><date>09.01.08</date>
+<name>HB</name><title>Splittet Ro41291_pre_splitt i Hv41291a, Hv41291b og Hv41291c samt Ro41291d og e</title>
+Splittet Ro41291_pre_splitt i Hv41291a, Hv41291b og Hv41291c samt Ro41291d og e. Den opprinnelige Ro41291_pre_splitt-filen arkiveres. Legger en samlet typografibeskrivelse i arkivert Ro41291_pre_splitt. Påbegynt ny logg, tidligere logg finnes i arkivert Ro41291_pre_splitt. Oppdatert tagUsage, handList, sourceDesc, titleStmt, editionStmt.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="1" facs="7" gathering="1"/>
+<lb/><fw type="gathering" place="top-left">1.</fw>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_345ms"/>
+<div type="act" n="1">
+<lb/><head>Første akt.</head>
+<lb/><HIS:hisStage>(Dagligstue hos Bol<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>dt-Rømer. Stuen
+<lb/>er gammeldags men hyggelig. På væggen
+<lb/>til højre en stor kakkelovn; længere tilbage
+<lb/>en dør. På bagvæggen dobbeltdør til for&typHyp;
+<lb/>stuen. På væggen til venstre to vinduer
+<lb/>med potteblomster i karmene. Ved det for&typHyp;
+<lb/>reste vindu et bord med symaskine; i hjør&typHyp;
+<lb/>net til højre en sofa med bord og lænestole.
+<lb/>På væggene hænger gamle familjeportrætter
+<lb/>forestillende officerer og prester. Det er efter
+<lb/>middagstid. Solen skinner ind på gulv&typHyp;
+<lb/>tæppet.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Boldt-Rømer sidder i en gyngestol for&typHyp;
+<lb/>an kakkelovnen og læser i et tidsskrift. Frø&typHyp;
+<lb/>ken Badeck sidder henne ved vinduet og
+<lb/>syer ved maskinen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>
+<lb/><HIS:hisStage>(har ladt bogen synke.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hm, det er dog underligt alligevel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>,
+<lb/><HIS:hisStage>(ser hen på ham.)</HIS:hisStage></HIS:spOpener>
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="1" facs="8" gathering="1"/>
+<lb/><p>Hvilket, mener De?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Det er dog underligt for mig at sidde her &dash;
+<lb/>nu i påskeugen &dash; og slet ikke ha&rapo; nogen ting
+<lb/>at ta&rapo; vare på; ikke noget at bære ansvar for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Men føler De ikke <emph>det</emph> som en lettelse?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Jo, det kan De vel tænke. Det er jo også ba&typHyp;
+<lb/>re i førstningen &dash;. Hvor er småpigerne
+<lb/>henne idag?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>De er nok nede på mølledammen og lø&typHyp;
+<lb/>ber på skøjter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>
+<lb/><HIS:hisStage>(rejser sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jeg har ikke villet sige det før. Lidt mor<HIS:hisDel rend="overwritten"><unclear>o</unclear></HIS:hisDel>skab
+<lb/>må de jo også ha&rapo;. Men det er mig så inder&typHyp;
+<lb/>lig imod at de løber der nede på dammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Å, det har såmænd ingen fare. Der er jo ik&typHyp;
+<lb/>ke så dybt; og desuden så er <HIS:hisDel rend="overstrike">ikke</HIS:hisDel> isen gan&typHyp;
+<lb/>ske sikker.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Det ved jeg nok; det er jo ikke <emph>det</emph>, jeg
+<lb/>tænker på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frø<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ken Radeck</speaker><HIS:hisDel rend="overwritten">.</HIS:hisDel>,
+<lb/><HIS:hisStage>(ser hen på ham.)</HIS:hisStage></HIS:spOpener>
+
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="2" facs="9" gathering="1"/>
+<lb/><p>Nå, det er for &dash; det andets skyld?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Ja. Jeg synes det er noget uhyggeligt i at <HIS:hisAdd place="offline">børnene</HIS:hisAdd>
+<lb/><HIS:hisDel rend="overstrike">d</HIS:hisDel>e løber <HIS:hisAdd place="offline">der nede</HIS:hisAdd> og tumler sig og støjer lige over det
+<lb/>sted, som var deres mors ligseng.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Men det har jo ikke småpigerne nogen re&typHyp;
+<lb/>de på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Nej; men vi har rede på det &dash; desværre; og der&typHyp;
+<lb/>for kan jeg ikke gøre mig fri for &dash;. Nå, nå,
+<lb/>jeg ved jo godt at det er noget intetsigende no&typHyp;
+<lb/>get; bare en slags fordom, eller hvad vi skal kal&typHyp;
+<lb/>de det; men alligevel &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Altså dog ikke kommet ud over sligt no&typHyp;
+<lb/>get endnu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Helt kommer jeg visst aldrig ud over
+<lb/>sligt noget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Så skulde De prøve om De ikke komme
+<lb/>tilbage, did, hvor De stod før.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Did? Aldrig i verden gør jeg det! Det hver&typHyp;
+<lb/>ken kan jeg eller vil jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Bedst havde det i al fald været for Dem
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="2" facs="10" gathering="1"/>
+<lb/>om De aldrig var kommen ud af det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Og det kan <emph>De</emph> sige? Til <emph>mig</emph>? Til mig, som
+<lb/>aldrig har havt en lykkelig stund før jeg
+<lb/>vandt frem til frigørelse i sindet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Å det er nok langt frem endnu før De vin&typHyp;
+<lb/>der fuld frigørelse. Jeg tror Det havde været
+<lb/>bedst for Dem om jeg aldrig var kommen
+<lb/>indenfor Deres dør.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad havde jeg så været nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.
+</HIS:spOpener>
+<lb/><p>Hvad De før var.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det er sandt. Et menneske uden synsvid&typHyp;
+<lb/>de; uden nogensomhelst forståelse af det
+<lb/>virkelighedens liv, som kæmper og arbejder
+<lb/>rundt omkring os. <HIS:hisDel rend="overstrike">&dash; Se</HIS:hisDel>; <HIS:hisDel rend="overstrike">der kommer rek&typHyp;
+<lb/>toren</HIS:hisDel>.</p></HIS:hisSp><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Nå, men alli<HIS:hisDel rend="overwritten">B</HIS:hisDel>gevel; så blød, som De er;
+<lb/>og så alt det nedarvede<HIS:hisDel rend="overwritten">;</HIS:hisDel>, som har sat sine
+<lb/>mærker i Dem. Å nej, det går ikke så let &dash;.
+<lb/><HIS:hisStage>(ser ud.)</HIS:hisStage> Se; der kommer rektoren.</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_452ms"/><lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Hvem kommer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Deres <HIS:hisDel rend="overwritten">v</HIS:hisDel>svoger.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="1" facs="11" gathering="2"/>
+<lb/><fw type="gathering" place="top-left">2.</fw>
+<lb/><HIS:hisStage>(Rektor Hekmann kommer fra forstuen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Hekmann</speaker>.</HIS:spOpener>
+<lb/><p>Men hvad er der, som står i aviserne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Er aviserne kommet?</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_453ms"/><lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Hekmann</speaker>.</HIS:spOpener>
+<lb/><p>Ja, og der står at du frasiger dig dit embede.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har længe tænkt på det. Jeg kan ikke bli
+<lb/>s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tående. Det er umuligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Hekmann</speaker>.</HIS:spOpener>
+<lb/><p>Det er <HIS:clarification place="inline">jo</HIS:clarification> så rimeligt at du ikke kan gå med på
+<lb/>disse mørke pietistiske retninger, som har fåt
+<lb/>overhånd i så mange kredse. Men er det da ikke
+<lb/>din pligt at arbejde imod &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><app type="alteration"><lem><HIS:hisAdd place="offline"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Rosenhjelm</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Hekmann</HIS:hisDel></HIS:hisRdg></app></speaker>.</HIS:spOpener>
+<lb/><p>Ikke som prest. Jeg kan ikke bli stående i den
+<lb/>stilling.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det <HIS:hisDel rend="overwritten">s</HIS:hisDel>forstår jeg ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Jeg skulde aldrig tat kirgeligt embede. Det var
+<lb/>jo heller ikke med min gode vilje. Men det lå jo
+<lb/>i slægtens traditionen. Prester og militære har
+<lb/>afvekslet, &dash; far efter søn. Og da nu far var offi&typHyp;
+<lb/>cer, så var det ganske som naturligt at jeg tog
+<lb/>fat på teologien. Jeg syntes selv dengang at det
+<lb/>var i sin orden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Og nu havde du jo levet dig så fast ind i det.
+<lb/>Hvad vil du nu ta&rapo; dig til &dash; nu midt i din kraf&typHyp;
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="1" facs="12" gathering="2"/>
+<lb/>tigste alder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Jeg har jo hele den store gårdsdrift &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det fylder ikke din tid ud; du har jo både for&typHyp;
+<lb/>valter og forpagtere. Nej nu hjælper ingen und&typHyp;
+<lb/>skyldninger mere. Nu skal og må du gribe ind
+<lb/>i det offentlige liv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Det har jeg også tænkt på, &dash; på min måde.</p></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Ro_454ms"/><lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Ikke på nogen særlig måde. Ind i partiets ræk&typHyp;
+<lb/>ker må du. Du ser vel, hvor inderlig det behøve<unclear reason="writing">s</unclear>.
+<lb/>Vælg dig en specialitet. Tred op imod denne Mor&typHyp;
+<lb/>tensgård som vigler op hele den uvidende mæng&typHyp;
+<lb/>de. Og nu hører jeg han tænker på at få et blad i&typHyp;
+<lb/>stand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Så. Ja manden er begavet. Han både skriver og taler
+<lb/>godt for sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Å kære, det er <HIS:clarification place="inline">e</HIS:clarification>n let sag når man ikke tar det nøje
+<lb/>med sandheden og med det faktiske.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Ja jeg kender så lidt til det faktiske i de h<HIS:clarification place="inline">en</HIS:clarification>se<unclear reason="writing">en&typHyp;</unclear>
+<lb/>der.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Men det gør jeg. Og jeg har havt anledning til at
+<lb/>kontrollere denne Mortensgård. Han er en af de
+<lb/>samvittighedsløseste rabulister vi har, på dis&typHyp;
+<lb/>se kanter. Og det vil sige meget, kan du tro.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="2" facs="13" gathering="2"/>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Men skulde det ikke være så at disse radikale
+<lb/>har udrettet adskilligt godt i de seneste år?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det indrømmer jeg aldrig i evighed ikke. De?
+<lb/>Hvad godt skulde de kunne udrette? Kan der
+<lb/>flyde noget godt af så urene kilder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Men har vi ret til at dømme så afgjort om
+<lb/>kilderne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Driv nu ikke humaniteten for vidt, min kære
+<lb/>Rosenhjelm. Og hvad er det for noget godt, du <HIS:hisDel rend="overstrike">sig</HIS:hisDel>&typHyp;
+<lb/>har opdaget. Sigter du kanske til massehøv&typHyp;
+<lb/>dingernes statskup.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>De ting forstår jeg mig ikke på. Men jeg synes
+<lb/>der er kommet ligesom lidt mere slevstændig&typHyp;
+<lb/>hed ind i de enkeltes tænkning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Og det regner du for noget godt hos så ubefæs&typHyp;
+<lb/>tede og ufærdige mennesker? Jeg tror du tar
+<lb/>betydelig fejl. Og <HIS:hisDel rend="overwritten">s</HIS:hisDel>jeg må sige at det højlig undrer
+<lb/>mig at høre slige ord fra dig. Du som dog har
+<lb/>arvet hele din slægts agtelse for autoritet og
+<lb/>for god lovlig orden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Hvem ved, &dash; man kan kanske ikke helt und&typHyp;
+<lb/>gå at smittes af den tid man lever i.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Det håber jeg dog aldrig skal bli tilfældet med
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="2" facs="14" gathering="2"/>
+<lb/>nogen af os to. Vi vil bli ved at stå rene. Ikke
+<lb/>sandt, Rosenhjelm?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>At stå ren, så vidt muligt, er unægtelig opga&typHyp;
+<lb/>ven for enhver.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Nå, og så skabe renhed omkring sig, eller i alt
+<lb/>fald, holde uhumskheden borte.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Det er jeg så visst med på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Nå så må du også være med på at gribe ind,
+<lb/>ta&rapo; del i det offentlige liv, bekæmpe alle disse u&typHyp;
+<lb/>heldsvangre tendenser &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Men kære, når man nu slet ikke er skabt for
+<lb/>det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>I et kultiveret samfund er enhver skabt for
+<lb/>at være statsborger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>E<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>nhver?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Jeg mener naturligvis enhver, som har de for&typHyp;
+<lb/>nødne forudsætninger, enhver, som besidder
+<lb/>et visst kvantum af dannelse og indsigter,
+<lb/>jeg fordrer ikke egentlig lærdom. Men alminde&typHyp;
+<lb/>lig dannelse og kundskab burde man dog vir&typHyp;
+<lb/>kelig kunne forlange. Se, det var <emph>det</emph>, som det vilde
+<lb/>være så inderlig velgørende at få gjort indly&typHyp;
+<lb/>sende for masserne.</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

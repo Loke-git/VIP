@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kejser og Galilæer</title>
+<title level="a" type="sub">Kgl.Bibl.Kbh. Collin 262, 4&deg;, II, 3 (trykkfeilliste)</title>
+<title level="a" type="origYear">[1873]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ellen Nessheim Wiger, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Transkripsjon, kollasjon og koding, oktober 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjon og kodekontroll, oktober 2002:</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="KG4262II3Trykkfeilliste-1012"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på internt transkribert materiale.</p>
+<p>
+<HIS:hisMsDesc type="notes" xml:id="KG4262II3Trykkfeilliste">
+<msIdentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Collin 262, 4&deg;, II, 3</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docDate>[1873]</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Trykkfeilliste til KG, egenhendig. Bundet inn sammen med trykkmanuskriptet. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Trykkfeilliste KG:</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>skrifthelling: steilskrift</item>
+<item>bokstavvariant: majuskler og minuskler</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>overskrift: enkel understreking; midtstilt</item>
+<item>avsnitt: sidehenvisningene er venstrejustert, rettelsene er noe innrykket</item>
+</list>
+</item>
+<item>understrekningen i siste punkt er kodet med hi rend="underlined"</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" scope="major" medium="pen-brown"><p>Ibsens hånd, brun penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>04.10.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>17.07.08</date>
+<name>SBT</name><title>Samkjøring med Tones ms.beskr.</title>
+Noen mindre endringer i håndlista.</change>
+<change><date>07.03.08</date>
+<name>HB</name><title>Lenking av 1. utg., trykkfeilliste og 2. utg.</title>
+Kodet opp for lenking av 1. utg., trykkfeilliste og 2. utg., og laget visninger til versjonsvisningen. Filen er valid.</change>
+<change><date>10.01.08</date>
+<name>HB</name><title>Byttet ut doc med url i xptr</title>
+Byttet ut doc med url i xptr.</change>
+<change><date>01.06.07</date>
+<name>HB</name><title>Kodejusteringer</title>
+Flyttet head inn i list. Oppdaterte DTD-referansen og la inn referanse til standardstilarket, tekstkilde_drama_ms.xsl. Laget ny visning. Filen er valid.</change>
+<change><date>20.04.07</date>
+<name>HB</name><title>Kodeoppdatering</title>
+Endret attributtverdier i hand og id i håndlista i tråd med kodepraksis.</change>
+<change><date>02.10.06</date>
+<name>HB</name><title>Kodejusteringer</title>
+Kodejusteringer (xptr) i forbindelse med oppretting av hovedtekst. Erstattet repetisjonstegn med entitet. Ingen ms-koding.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert (dog ikke lenkekodingen mellom førstetrykket og trykkfeillisten).</change>
+<change><date>23.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert (dog ikke lenkekodingen mellom førstetrykket og trykkfeillisten).</change>
+<change><date>30.10.02</date>
+<name>ENW</name><title>CD-brenning</title>
+Brenner CD.</change>
+<change><date>24.10.02</date>
+<name>ENW</name><title>2. kollasjon og kodekontroll</title>
+Kollasjonert teksten mot ms. Har i samråd med IAA kommet fram til at label-kodingen er det mest hensiktmessige i denne filen. Utført kodekontroll. Korrekturlest og rettet/lagt til småting i typografibeskrivelsen.</change>
+<change><date>16.10.02</date>
+<name>IAA</name><title>Oppretting</title>
+Opprettet filen. Koding påvirket av F281939 (bruken av xptr) og av KG41111 (bruken av label og item). I tre av innførslene (2, 3, 5) lurer jeg på om det også burde benyttes tabellkoding som i KG41111. Typografibeskrivelsen foreløpig ufullstendig. Kontroll nødvendig også av xptr-elementene i KG.xml. Filen validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb n="460"/>
+<list>
+<lb/><head>Rettelser:</head>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_1"/>Side 25</label><item>står &dash; &dash; glade år, hine seks
+<lb/>rettes til gl: år, hine sex</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_2"/>&rep; 36</label><item>synes at stå Hotklædningen
+<lb/>rettes til Hofklædningen</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_3"/>&rep; 40</label><item>synes at stå hotkrybet
+<lb/>rettes til hofkrybet</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_4"/>&rep; 247</label><item>står &dash; &dash; store farbroder Konstanzios
+<lb/>rettes til &dash; store farbroder Konstantin</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_5"/>&rep; 328</label><item>står Harilion
+<lb/>rettes til Hilarion</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_6"/>&rep; 339</label><item>står &dash; &dash; dragt og herlighed
+<lb/>rettes til &dash; pragt og herlighed</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_7"/>&rep; 367</label><item>står &dash; fra Heliopolis under fra Libanon
+<lb/>rettes til &dash; fra H: under Libanon</item>
+<lb/><label><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KG_8"/>&rep; 376</label><item><hi rend="underlined">i anmærkn</hi>: står &dash; et stykke derfra, imod
+<lb/>venstre, er en stenkumm<unclear reason="writing">e</unclear>
+<lb/>rettes til &dash; et stykke derfra, imod højre,
+<lb/>o. s. v. &dash;</item>
+</list>
+</body>
+</text>
+</TEI>

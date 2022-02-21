@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="KE">Kongs-Emnerne</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>23.08.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteKE_1"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_1">Gange lovede</HIS:hisRef>] <hi rend="italic">HIS,</hi> Gang lovede <hi rend="italic">1. utg., NBO Ms.8&deg; 1923,</hi> gange lovede <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.</hi></note>
+<note resp="editor" xml:id="noteKE_3"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_3">Ingebjørg</HIS:hisRef>] <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> Ingeborg <hi rend="italic">1. utg., NBO Ms.8&deg; 1923</hi></note>
+<note resp="editor" xml:id="noteKE_4"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_4">hvormange</HIS:hisRef>] <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> Hvormange <hi rend="italic">1. utg., NBO Ms.8&deg; 1923</hi></note>
+<note resp="editor" xml:id="noteKE_5"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_5">ud</HIS:hisRef>] <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> nd <hi rend="italic">1. utg., NBO Ms.8&deg; 1923</hi></note>
+<note resp="editor" xml:id="noteKE_6"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_6">Kong Skule</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 1923, 2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> Paal Flida <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteKE_7"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_7">Skule</HIS:hisRef>] <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> Sknle <hi rend="italic">1. utg., NBO Ms.8&deg; 1923</hi></note>
+<note resp="editor" xml:id="noteKE_8"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_8">Dagfinn</HIS:hisRef>] <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> Dagfiun <hi rend="italic">1. utg., NBO Ms.8&deg; 1923</hi></note>
+<note resp="editor" xml:id="noteKE_9"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_9">Skule</HIS:hisRef>] <hi rend="italic">2.&dash;8. utg., FU, 9.&dash;10. utg.,</hi> Sknle <hi rend="italic">1. utg., NBO Ms.8&deg; 1923</hi></note>
+<note resp="editor" xml:id="noteKE_10"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_10">1</HIS:hisRef>] <hi rend="italic">sangene &lquo;Kor af munke og nonner&rquo; og &lquo;Koret fra kirken&rquo; ble fremført i begynnelsen av første akt (jf. grunntekstens s. 1 og 3)</hi></note>
+<note resp="editor" xml:id="noteKE_11"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_11">3<hi rend="raised">die</hi> akt</HIS:hisRef>] <hi rend="italic">&lquo;Munkenes sang&rquo; ble fremført i begynnelsen av tredje akt (jf. grunntekstens s. 72 og 75)</hi></note>
+<note resp="editor" xml:id="noteKE_12"><HIS:hisRef type="tcNote" target="KEht.xml" corresp="noteKE_12">5<hi rend="raised">te</hi> akt</HIS:hisRef>] <hi rend="italic">&lquo;Kvindernes sang&rquo; ble fremført helt til slutt i femte akt (jf. grunntekstens s. 217)</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

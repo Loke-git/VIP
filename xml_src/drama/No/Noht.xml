@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Historisk-kritisk utgave, elektronisk versjon</title>
+<title level="a" type="main">Norma</title>
+<title level="a" type="sub">hovedtekst, 1. utg.</title>
+<title level="a" type="origYear">1851</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ståle Dingstad, Stine Brenna Taugbøl</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Hallvard Ystad, Mette Witting</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Kristin Bakken, Alvhild Dvergsdal, Jørgen Fafner, Narve Fulsås, Nils Grinde, Dag Gundersen, Live Hov, Arnbjørn Jakobsen, Else Mundal, Olav Solberg, Stine Brenna Taugbøl, Eivind Tjønneland</name></respStmt>
+<respStmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Ståle Dingstad</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering</resp>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+<name xml:id="HIS-GW">Gunnhild Wiggen</name>
+</respStmt>
+<respStmt>
+<resp>Koding</resp>
+<name>Espen S. Ore</name>
+</respStmt>
+<respStmt>
+<resp>Kommentarkoding</resp>
+<name xml:id="HIS-AMB">Aasta Marie Bjorvand Bjørkøy</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Noht-1212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Noht_bok.xml (No-1207).</p>
+<p>
+<biblStruct xml:id="No51">
+<monogr>
+<author>Henrik Ibsen</author>
+<title level="a" type="main">Norma</title>
+<title level="a" type="sub">eller en Politikers Kjærlighed</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Universitetsbiblioteket i Oslo</idno>
+<idno xml:id="Nof1">NA/A b 65/si</idno>
+<idno type="owner">Universitetsbiblioteket i Oslo</idno>
+<idno xml:id="Nof2">Schw 19</idno>
+<idno type="owner">Bergen offentlige bibliotek</idno>
+<idno xml:id="Nof3">h 050 A552</idno>
+<imprint>
+<pubPlace>Kristiania</pubPlace>
+<publisher>N. F. Axelsen</publisher>
+<HIS:printer>A. Th. Nissens Bogtrykkeri</HIS:printer>
+</imprint>
+<imprint>
+<biblScope unit="issue">2. kvartal, nr. 9</biblScope>
+<date when="1851-06-01">1. juni 1851</date>
+</imprint>
+</monogr>
+<series>
+<editor>Henrik Ibsen, Paul Botten-Hansen, Aasmund Olavsson Vinje</editor>
+<title level="s">Andhrimner</title>
+</series>
+<monogr>
+<title level="s">Andhrimner</title>
+<title level="a">Norma, [2. og 3. akt]</title>
+<imprint>
+<biblScope unit="issue">2. kvartal, nr. 10</biblScope>
+<date when="1851-06-08">8. juni 1851</date>
+</imprint>
+</monogr>
+</biblStruct>
+</p>
+<p>
+<listBibl>
+<head>Tekstvitner konsultert i ederingen</head>
+<biblStruct xml:id="NoHU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Norma</title>
+<edition>Hundreårsutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubPlace>Oslo</pubPlace>
+<publisher>Gyldendal</publisher>
+<HIS:printer>Dreyer, Stavanger</HIS:printer>
+<date>1928-57</date>
+</imprint>
+<imprint>
+<biblScope unit="volume">Bd.1</biblScope>
+<date>1928</date>
+</imprint>
+</monogr>
+<series>
+<editor>Francis Bull, Halvdan Koht og Didrik Arup Seip</editor>
+<title>Hundreårsutgave. Henrik Ibsens samlede verker</title>
+</series>
+</biblStruct>
+</listBibl>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-trykk;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Grunntekstens typografi fins beskrevet i typografibeskrivelsen i grunntekstfilen (No.xml).</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-base">&Ibsen-keys;</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker</headItem>
+<label>NORMA</label><item>Norma</item>
+<label>ADALGISA</label><item>Adalgisa</item>
+<label>SEVERUS</label><item>Severus</item>
+<label>ARIOVIST</label><item>Ariovist</item>
+<label>DRUIDER</label><item>Chor af Druider/Chor af Druider (og Druidinder), Druiderne, En søvndrukken Druide, En vaagen Druide, Første, En Anden, En Tredie</item>
+<label>DRUIDINDER</label><item>Do. af Druidinder/Chor af (Druider og) Druidinder</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven kodet med pb ed="HU". Dette tekstvitnet dekker sidene 325-340 (bd. 1). Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+<language ident="lat"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>19.12.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="edited" xml:lang="dan-nob">
+<group>
+<join targets="No1851-9 No1851-10"/>
+<text xml:id="No1851-9" n="1">
+<front>
+<titlePage type="serial" n="1">
+<docTitle>
+<titlePart type="main"><pb rend="noprint"/><cb n="137"/><pb ed="HU" n="325"/><anchor type="lemma" xml:id="koNo_1a"/>NORMA</titlePart>
+<titlePart type="sub">ELLER EN POLITIKERS KJÆRLIGHED</titlePart>
+<titlePart type="desc"><anchor type="lemma" xml:id="koNo_1b"/>MUSIK-TRAGEDIE I TRE AKTER</titlePart>
+</docTitle>
+</titlePage>
+<div type="preface">
+<head><pb rend="noprint" ed="HU"/><pb ed="HU"/>Fortale</head>
+<p><anchor type="lemma" xml:id="koNo_1"/><anchor type="ht" xml:id="koNo_ht_16"/>Forleden Dag befandt jeg mig paa Storthingsgalleriet; <cb n="138"/>den Sag, der diskutteredes, var af samme Natur som de fleste, og jeg kan derfor ikke længere erindre, hvorom den dreiede sig. <anchor type="lemma" xml:id="koNo_2"/>Da <rs type="person" corresp="peJSchy">Schydtz</rs> tilfældigviis talede og jeg saaledes ikke havde Noget at fæste min Opmærksomhed til, <anchor type="lemma" xml:id="koNo_3"/>lod jeg Phantasien frit Spillerum, og overgav mig til denne behagelige <anchor type="lemma" xml:id="koNo_4"/>Svævenom halvt paa Virkelighedens, halvt paa Uvirkelighedens <anchor type="lemma" xml:id="koNo_5"/>Gebet, hvortil vi i ledige Timer saa gjerne overlade os, naar Sjælen enten føler sig trættet eller den <anchor type="lemma" xml:id="koNo_6"/>Yderverden, der omgiver os, fremkalder det tilbørlige søvndyssende Indtryk. Jeg tænkte som saa: I disse 106 Hoveder <anchor type="lemma" xml:id="koNo_7"/>dels med, dels uden Parykker findes <anchor type="lemma" xml:id="koNo_8"/>Kvintessentsen af al den Fortrinlighed, af al den aandelige Begavelse, som gamle <rs type="place" corresp="plN">Norge</rs> har at opvise ligefra <rs type="place" corresp="plNord">Nordkap</rs> til <rs type="place" corresp="plLin">Lindesnæs</rs>, ligefra <rs type="place" corresp="plSvi">Svinesund</rs> til <rs type="place" corresp="plSta">Stavanger</rs> (hvorfra <rs type="person" corresp="peTN"><anchor type="lemma" xml:id="koNo_9"/>Natvig</rs> jo er valgt). Her findes Genialiteten, Veltalenheden, Patriotismen, Liberaliteten sammendynget i kompakte Masser. Og af alle disse fortrinlige Egenskaber have selv de sjeldneste Forekomstformer deres Repræsentanter, saaledes <HIS:hisRef type="tcNote" xml:id="noteNo_1" target="Noht_noter.xml" corresp="noteNo_1">repræsenteres</HIS:hisRef> f. Ex. en vis Nuance af Genialiteten ved <rs type="person" corresp="peHTS"><anchor type="lemma" xml:id="koNo_10"/>Skjerkholdt</rs>, en vis dito af Veltalenheden ved <rs type="person" corresp="peJCCP"><anchor type="lemma" xml:id="koNo_11"/>Parneman</rs>, o. s. v., o. s. v. <anchor type="lemma" xml:id="koNo_12"/>Den lyriske Begavelse finder naturligviis sit Udtryk gjennem Natvig, der saaledes paa en vis Maade danner Formidlingsledet mellem Poesien og Politiken.</p>
+<p>I denne Retning fortsatte jeg mine Betragtninger i <pb ed="HU"/>nogle Timer, indtil Schydtz blev færdig og min uforstyrrede Tankeflugt saaledes afbrødes.</p>
+<p><anchor type="lemma" xml:id="koNo_13"/><anchor type="ht" xml:id="koNo_ht_2"/><anchor type="ht" xml:id="koNo_ht_3"/>Om Aftenen saa jeg &lquo;Norma&rquo;, og pludselig gik der et Lys op for mig: &lquo;<rs type="org" corresp="orgStort">Storthinget</rs> er en dramatisk begavet <anchor type="lemma" xml:id="koNo_14"/>Korporation!&rquo; Jeg vil ikke søge at gjøre hverken mig selv eller Læseren Rede for den Slutningsrække, der ledede mig til dette Resultat, <anchor type="lemma" xml:id="koNo_14a"/>thi <anchor type="lemma" xml:id="koNo_14b"/>hvo kjender vel ikke <anchor type="ht" xml:id="koNo_ht_1"/>Tonernes Magt, hvo veed vel ikke, at det er Musiken givet <anchor type="lemma" xml:id="koNo_15"/>med Alexandersværdet at overhugge Tanketraadens gordiske Knuder, med Lynfart at skyde os fremad paa den <anchor type="lemma" xml:id="koNo_16"/>logiske Spiralvandring og stille os paa et Punkt, som vi mindst havde ventet? Men jo nøiere jeg betragtede Sagen, desto klarere og mere indlysende blev den mig. <rs type="person" corresp="peHHolm"><anchor type="lemma" xml:id="koNo_17"/>Holmboe</rs> er den agtværdige Fader i <anchor type="ht" xml:id="koNo_ht_4"/>Skuespillet, <rs type="person" corresp="peUAM"><anchor type="lemma" xml:id="koNo_18"/>Motzfeldt</rs>, <rs type="person" corresp="peOVL"><anchor type="lemma" xml:id="koNo_19"/>Lange</rs> og <rs type="person" corresp="peATH"><anchor type="lemma" xml:id="koNo_20"/>Harris</rs> <anchor type="lemma" xml:id="koNo_21"/>den gamle vrantne Onkel, som har tabt Følelsen for Livets Poesi, men som dog er god at have i Baghaanden, hvormeget hans prosaiske Verdensviisdom end optræder <HIS:hisRef type="tcNote" xml:id="noteNo_2" target="Noht_noter.xml" corresp="noteNo_2">fiendtlig</HIS:hisRef> mod de unge Elskendes phantastiske Planer og <anchor type="lemma" xml:id="koNo_22"/>Luftkasteller. Oppositionen overhovedet er Koketten, som enhver ung <anchor type="lemma" xml:id="koNo_23"/>Fusentast gjerne <anchor type="lemma" xml:id="koNo_24"/>courer <pb rend="noprint"/><cb n="139"/>for men som han dog sædvanligviis til Slutning betænker sig paa at tage til Kone (især da hendes Medbeilerinde gjerne bringer ham en klækkeligere Medgift). <rs type="person" corresp="peABS"><anchor type="lemma" xml:id="koNo_25"/>Stabell</rs> er naturligviis <anchor type="lemma" xml:id="koNo_26"/><anchor type="ht" xml:id="koNo_ht_5"/>Intriguestykkets Helt, han er en af disse ægte dramatiske Charakterer, som <rs type="person" corresp="peJLHe"><anchor type="lemma" xml:id="koNo_27"/>Heiberg</rs> omtaler, <anchor type="ht" xml:id="koNo_ht_12"/>&lquo;som man mere maa gjætte sig til end anskue og som omsider ved Stykkets Slutning standse der, hvor man af Begyndelsen at dømme mindst skulde vente det.&rquo;</p>
+<p>Disse Betragtninger var det, som bevægede mig til at arrangere <anchor type="ht" xml:id="koNo_ht_8"/>Operaen <rs type="work" corresp="woNo">&lquo;Norma eller en Politikers Kjærlighed,&rquo;</rs> hvis Text medfølger aftrykt, og som jeg herved tilbyder Thinget til Opførelse ved en eller anden festlig Leilighed. Musiken maa det selv sørge for, og da det <pb ed="HU"/>jo eier <anchor type="lemma" xml:id="koNo_28"/>Virtuoser paa alle mulige Instrumenter ligefra Trompet til Tromme og Basun, saa vil dette forhaabentlig ikke falde vanskeligt. Rigtignok veed jeg, at Thinget &lquo;<anchor type="lemma" xml:id="koNo_29"/>indtil videre&rquo; har fuldt op at bestille, men det var jo dog ikke umuligt, at <rs type="person" corresp="peKongO1">hans Majestæt</rs> kunde befrygte farlige Følger af disse overvættes Anstrængelser, især i <anchor type="lemma" xml:id="koNo_30"/>Hundedagene, og dersom altsaa Thinget en skjøn Dag skulde blive bevilget Ferie &lquo;indtil videre,&rquo; saa vilde det være godt, om det havde en nyttig og behagelig Tidsfordriv at <anchor type="lemma" xml:id="koNo_31"/>divertere sig med.</p>
+</div>
+<HIS:hisCastList><head><pb rend="noprint" ed="HU"/><pb ed="HU"/>Personerne</head>
+<castItem xml:id="NORMA"><role><anchor type="lemma" xml:id="koNo_32a"/>NORMA</role> (udføres af) <actor><anchor type="lemma" xml:id="koNo_32"/>Oppositionen</actor></castItem>
+<castItem xml:id="ADALGISA"><role><anchor type="lemma" xml:id="koNo_32b"/>ADALGISA</role>, <roleDesc>hendes gode Veninde</roleDesc> &dash; <actor><anchor type="lemma" xml:id="koNo_33"/>Regjeringspartiet</actor></castItem>
+    <castItem xml:id="SEVERUS"><role><anchor type="lemma" xml:id="koNo_33a"/>SEVERUS</role>, <roleDesc>begge Damers Elsker</roleDesc> &dash; <actor>en «<anchor type="lemma" xml:id="koNo_34"/>Liberal» (eller i Mangel deraf: Hr. Stabell)</actor></castItem>
+<castItem xml:id="ARIOVIST"><role><anchor type="lemma" xml:id="koNo_34a"/>ARIOVIST</role>, <roleDesc>Normas Fader, en gammel <anchor type="lemma" xml:id="koNo_35"/>Druide<HIS:hisRef type="refMark" target="n1" xml:id="nb1">*)</HIS:hisRef></roleDesc> &dash; <actor><anchor type="lemma" xml:id="koNo_36"/>Hr. Ueland</actor></castItem>
+<castItem><role>NORMAS OG <HIS:hisRef type="tcNote" xml:id="noteNo_3" target="Noht_noter.xml" corresp="noteNo_3"><anchor type="lemma" xml:id="koNo_39"/>SEVERS</HIS:hisRef> <anchor type="lemma" xml:id="koNo_38"/>TO <anchor type="lemma" xml:id="koNo_40"/>SVINDSOTTIGE SØNNER</role> &dash; <actor>Addressen af 1848</actor>.
+<actor>Do. af 1851</actor></castItem>
+<castItem xml:id="DRUIDER"><role><anchor type="lemma" xml:id="koNo_40a"/>CHOR AF DRUIDER</role> &dash; <actor>Fornuftige Oppositionsmænd samt Skjerkholdt</actor></castItem>
+<castItem xml:id="DRUIDINDER"><role>DO. AF DRUIDINDER</role> &dash; <actor>de Stumme i Thinget</actor></castItem></HIS:hisCastList>
+<note resp="narrator" place="bottom"><HIS:hisRef type="refMark" target="nb1" xml:id="n1">*)</HIS:hisRef>(NB. Druiderne vare <anchor type="lemma" xml:id="koNo_36a"/>hedenske Hunde, der ligesom Uglerne og Flaggermusene helst dreve deres <anchor type="lemma" xml:id="koNo_37"/>Spil i mørke Skove, hvor Oplysningen (fra Sol og Maane) vanskelig kunde trænge ind.)</note>
+</front>
+<body>
+<div type="act" n="1">
+<head type="act"><cb n="140"/><pb rend="noprint" ed="HU"/><pb ed="HU"/>FØRSTE AKT</head>
+<HIS:hisStage>En tyk Skov med tilbørligt Halvmørke, i Baggrunden &lquo;norske Klipper&rquo;; <anchor type="lemma" xml:id="koNo_41"/>Blaaveis og <anchor type="lemma" xml:id="koNo_42"/>Frihedskokarder blomstre i Granernes Ly. <anchor type="lemma" xml:id="koNo_43"/>Midt paa Scenen en hellig Afgudssteen, hvori &lquo;Frihedsværket&rquo; er indfattet i Glas og Ramme.</HIS:hisStage>
+<div type="scene" n="1">
+<head>Første Scene</head>
+<HIS:hisStage>Ariovist, Druider og Druidinder komme med Trompeterne i Spidsen.</HIS:hisStage>
+<HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>ARIOVIST</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l first="yes" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="a"><anchor type="lemma" xml:id="koNo_44"/>Her staae vi paa Frihedens frieste Jord,</l>
+<l met="&bue;&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="a">I det gamle, ja, i det ældgamle Nor!</l></HIS:hisLg>
+<HIS:hisStage>(afsides)</HIS:hisStage>
+<p>Ja, for Norge er Død og Pine et ældgammelt Land.</p></HIS:hisSp>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="DRUIDER DRUIDINDER"><HIS:spOpener><speaker><anchor type="ht" xml:id="koNo_ht_10"/>CHOR AF DRUIDER OG DRUIDINDER</speaker></HIS:spOpener>
+<l first="yes" realMet="bi- ----" rhyme="b"><anchor type="lemma" xml:id="koNo_45"/>Ja, ja, ja, ja!</l>
+<l realMet="bi- ----" rhyme="b">Ja, ja, ja, ja!<note type="met">Identisk rim.</note></l></HIS:hisSp>
+<HIS:hisSp><HIS:spOpener><speaker>ALLE</speaker></HIS:spOpener>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="a">Ja i det gamle, det ældgamle Nor!</l></HIS:hisSp>
+<HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>ARIOVIST</speaker></HIS:spOpener>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="C">Saa stærk som <anchor type="lemma" xml:id="koNo_46a"/>Egens kneisende Stamme</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="C">Staar &lquo;Frihedsværket&rquo; i Glas og Ramme! &dash;</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="D">Det staar der saa fast i Stenen indfattet,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="D"><anchor type="ht" xml:id="koNo_ht_14"/>(Desværre det <HIS:hisRef type="tcNote" xml:id="noteNo_4" target="Noht_noter.xml" corresp="noteNo_4">bliver</HIS:hisRef> ei tilfulde skattet) &dash; &dash; &dash;</l></HIS:hisSp>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker><anchor type="ht" xml:id="koNo_ht_11"/>CHOR AF DRUIDER</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="D"><anchor type="ht" xml:id="koNo_ht_15"/>Desværre, det blier ei tilfulde skattet!</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" realRhyme="X"><anchor type="lemma" xml:id="koNo_46b"/>Desværre, desværre, desværre, desværre!!!</l></HIS:hisSp>
+<HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>ARIOVIST</speaker></HIS:spOpener>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="E"><anchor type="lemma" xml:id="koNo_47"/>Men vi maae vaage, og vi maae bede,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="E">Og om vor Helligdom maae vi frede;</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="f">For raa Barbarer vil rive den ned,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="f">Vil flytte den hen paa et andet Sted,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="g">Hvor Solen skinner den hele Dag,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="H">(Og Maanen til visse Tider om Natten)</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="g">Og derfor er det en afgjort Sag</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="H"><pb ed="HU"/>At vi maae værne om Frihedsskatten!</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="i">Ja, Noget maa gjøres, den Sag er klar!</l></HIS:hisSp>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>DRUIDERNE</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="i">Ja Noget maa gjøres, men hvad, o svar!</l></HIS:hisSp>
+<HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>ARIOVIST</speaker></HIS:spOpener>
+<l met="&bue;-&bue;-&bue;-&bue;-&bue;" rhyme="J">Ja, seer I, Børn! her just det gjælder,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="k">At handle ret efter Alles Sind!</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="k">Jeg lagde <HIS:hisRef type="tcNote" xml:id="noteNo_5" target="Noht_noter.xml" corresp="noteNo_5">den</HIS:hisRef> helst i et dirkfrit Skrin</l>
+<l met="&bue;&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="J">Under Laas og Slaa i en sikker Kjælder,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="l"><pb rend="noprint"/><cb n="141"/>Saa kan man den finde, naar Verden forgaar,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="l">Saa fersk og ny som den var igaar,<note type="met">Identisk rim.</note></l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="M">Thi <anchor type="lemma" xml:id="koNo_48"/>Norges Fjelde, (det veed I alle),</l>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="M">Vil staae, naar hele Verden mon falde,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="N">Men kom, lad os gaae en Smule til Siden,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="N">At hvile os ud, samle Kræfter til Striden;</l>
+<HIS:hisStage>(afsides)</HIS:hisStage>
+<l met="bi++ &bue;&bue;&bue;-&bue;&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="N"><anchor type="lemma" xml:id="koNo_49"/>Det var desuden mit Princip alt fra jeg var liden,</l>
+<l met="bi++ &bue;-&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;&bue;-&bue;" rhyme="N">At holde mig en Hestelængde bagud for Tiden.<HIS:hisRef type="refMark" target="n2" xml:id="nb2">*)</HIS:hisRef></l></HIS:hisSp>
+<HIS:hisStage>De gaae.</HIS:hisStage></HIS:hisLg>
+</div>
+<div type="scene" n="2">
+<head>Anden Scene</head>
+<HIS:hisStage>Severus kommer ind i <anchor type="lemma" xml:id="koNo_50"/>morgenbladsk deklamatorisk Bevægelse.</HIS:hisStage>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l met="&bue;-&bue;&bue;-&bue;-&bue;-" realRhyme="x"><anchor type="lemma" xml:id="koNo_50a"/>O skyggende Skov, du i dit Skjød</l>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" realRhyme="X">Gjemmer vor Helligdom, Frihedsværket! &dash;</l></HIS:hisLg>
+<HIS:hisStage>(seer sig om)</HIS:hisStage>
+<p>For Fanden, de ere jo alt borte; saa kunde jeg have sparet det hele Vrøvl.</p>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l first="yes" met="-&bue;-&bue;-&bue;-&bue;" rhyme="A">Tys, forsigtig maa man være,</l>
+<l met="&bue;-&bue;-&bue;-&bue;-&bue;" rhyme="A">Det er min gamle gyldne Lære,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">O, vee, hvis Norma mig her skulde finde,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">Hvem veed hvad hun vel kunde faae i Sinde!</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">Hun er en høist <HIS:hisRef type="tcNote" xml:id="noteNo_6" target="Noht_noter.xml" corresp="noteNo_6">erritabel</HIS:hisRef> Kvinde,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="c"><pb ed="HU"/>Og skjønt hun tit nok er vant til sligt,</l>
+<note resp="narrator" place="bottom"><HIS:hisRef type="refMark" target="nb2" xml:id="n2">*)</HIS:hisRef>Man vil bemærke at de Vers, der fremsiges afsides, ere anderledes byggede, end de, der <anchor type="lemma" xml:id="koNo_49a"/>maa høres af Alle og Enhver; dette er ingenlunde nogen Skjødesløshed, men med Forsæt iagttaget, da vel underrettede Personer ville vide, at vore politiske Skuespillere endog til Dagligbrug betjene sig af et særegent Versemaal, naar de tale afsides.</note>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="c">Hun holder dog strængt paa Moral og Pligt,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="d">Og derfor maa jeg, som nylig sagt,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="d"><foreign xml:lang="lat"><anchor type="lemma" xml:id="koNo_51"/>Politico modo</foreign> ta&rapo;e mig i Agt,</l>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="E">Ofre tilbørligt paa hendes Alter,</l>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="E">Røge med <anchor type="lemma" xml:id="koNo_52"/>Virak i <anchor type="lemma" xml:id="koNo_53"/>Bladets Spalter.</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="f">Men hvem kommer der i den dunkle Skov?</l>
+<l met="&bue;&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="G">Adalgisa er det, mit Hjerte banker,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="G">Knapt raader jeg meer over mine Tanker,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="f">For lønlige Længsler er jeg et Rov!</l></HIS:hisLg></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<head>Tredie Scene</head>
+<HIS:hisStage>Severus, Adalgisa.</HIS:hisStage>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>ADALGISA</speaker> <HIS:hisStage>Recitativ</HIS:hisStage></HIS:spOpener>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" realRhyme="x"><anchor type="lemma" xml:id="koNo_53a"/>Eftersom du, <anchor type="lemma" xml:id="koNo_54"/>S. T. o Severus!</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" realRhyme="x">Har her mig i Lunden et Stævne sat,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" realRhyme="X"><cb n="142"/>Saa skulde jeg herved ikke undlade</l>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-" realRhyme="x">Tjenstligst at melde min Ankomst for dig!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="a">O, søde Stemme, o tryllende Ord! &dash;</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="a">Saa hør da hvad i mit Hjerte boer!</l></HIS:hisLg>
+<HIS:hisStage>(vil knæle, men betænker sig)</HIS:hisStage>
+<p>Dog nei, <anchor type="lemma" xml:id="koNo_55"/>unter uns gesagt, veed du virkelig ikke, hvad jeg har paa Hjerte?</p></HIS:hisSp>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>ADALGISA</speaker></HIS:spOpener>
+<l first="yes" met="-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="b">Som en ærbar og sædelig Mø</l>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="C">Holder jeg strængt paa Form og <anchor type="lemma" xml:id="koNo_56"/>Dekorum.</l>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="C">Hjertet er ikke det rette Forum</l>
+<l part="I" met="&bue;-">Hos mig &dash; &dash;</l></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker></HIS:spOpener>
+<l part="F" met="&bue;-&bue;-&bue;-" rhyme="b"><anchor type="lemma" xml:id="koNo_57"/>O vee mig, da maa jeg dø!</l>
+<l met="-&bue;&bue;-&bue;-&bue;-" rhyme="d"><anchor type="lemma" xml:id="koNo_58"/>Laer du ei Naade gaae for Ret,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="d">Da staar jeg der sandelig nok saa net,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="E">Jeg veed jo, at mine Synder er mange,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="E">(Thi Bladets Spalter er saare lange);</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="f">Men den, som staar paa Omvendelsens Vei,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="f"><anchor type="lemma" xml:id="koNo_59"/>Ham veed jeg vist du forstøder ei!</l></HIS:hisSp>
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker><pb ed="HU"/>ADALGISA</speaker></HIS:spOpener>
+<l met="&bue;&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="g">Og hvor kan jeg vel paa din Ærlighed tro,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="g">Naar saadan paa engang du courer for To!</l></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="h">Ha, Norma du mener, o tro ikke sligt!</l></HIS:hisSp>
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>ADALGISA</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="I">Hun har jo dog været din Ungdoms <anchor type="lemma" xml:id="koNo_60"/>Flamme.</l></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="I">Det var hun, det maa jeg bekjende med Skamme,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="h">Nu er det forbi, det var kun et Digt,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="j">Det var kun en flygtig, poetisk Drøm,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="j">En bristende Boble paa Livets Strøm.</l>
+<l met="&bue;&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="K"><anchor type="lemma" xml:id="koNo_61"/>Ja, jeg vil dig min Forvildelse male, &dash;</l>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="K"><anchor type="lemma" xml:id="koNo_62"/>Reent ud af Skjægget maa her jeg tale:</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="K">Jeg hørte engang til <anchor type="lemma" xml:id="koNo_63"/>de <HIS:hisRef type="tcNote" xml:id="noteNo_7" target="Noht_noter.xml" corresp="noteNo_7">Radikale,</HIS:hisRef></l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="K">(Som gaae under Navn af de Liberale),</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="K">Som tale haanligt om gyldne Sale,</l>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="K">Som skrue sig op med &lquo;<anchor type="lemma" xml:id="koNo_64"/>Klipper&rquo; og &lquo;Dale,&rquo;</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="K">Som fast <anchor type="lemma" xml:id="koNo_65"/>germanisk forstaae at prale</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="K">Med Norden, som vaagnede af sin Dvale,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="K">Og jubler omkap med Vaarens Svale</l>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="K">Paa Frihedsdagen, &dash; kort, til de Gale!</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="L"><pb rend="noprint"/><cb n="143"/>Men nu er jeg kjed af længer at ride</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="L">Min gamle <anchor type="lemma" xml:id="koNo_66"/>Kjæphest; for det Solide</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="m">Jeg sværmer grundig; &dash; &dash; du mig forstaar!</l></HIS:hisSp>
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>ADALGISA</speaker> <HIS:hisStage>overvældet</HIS:hisStage></HIS:spOpener>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="m"><anchor type="lemma" xml:id="koNo_67"/>Kom til mit Bryst, du gjenfundne Faar!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisStage>Rørende Omfavnelse; Tæppet gaar for Velanstændighedens Skyld ned.</HIS:hisStage>
+</div>
+</div>
+</body>
+<back>
+<div type="ref"><p><HIS:hisRef target="No1851-10">(Forts.)</HIS:hisRef></p></div>
+</back>
+</text>
+<text xml:id="No1851-10" n="2">
+<front>
+<titlePage type="serial" n="2">
+<docTitle>
+<titlePart type="main"><pb rend="noprint"/><cb n="156"/>NORMA</titlePart>
+<titlePart type="sub">ELLER EN POLITIKERS KJÆRLIGHED</titlePart>
+<titlePart type="desc">MUSIK-TRAGEDIE I TRE AKTER</titlePart>
+</docTitle>
+<HIS:hisDocImprint><HIS:hisRef target="No1851-9">(Slutning fra forrige <HIS:hisRef type="tcNote" xml:id="noteNo_8" target="Noht_noter.xml" corresp="noteNo_8">Nummer</HIS:hisRef>)</HIS:hisRef></HIS:hisDocImprint>
+</titlePage>
+</front>
+<body>
+<div type="act" n="2">
+<head type="act"><pb ed="HU"/>ANDEN AKT</head>
+<HIS:hisStage>Et Lønkammer, hvor man kan snakke sammen i al Gemytlighed.</HIS:hisStage>
+<div type="scene" n="1">
+<head>Første Scene</head>
+<HIS:hisStage>Norma kommer med sine to Børn.</HIS:hisStage>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="a">De skjælve, de vakle, de arme Smaa,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="a">Paa egne Been kan de neppe staae;</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">Det er dog en sørgelig Ting at være</l>
+<l met="-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">Moder med en saa liden Ære.</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="c"><pb rend="noprint"/><cb n="157"/>De haste jo alt fra Fødselen af</l>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-" rhyme="c">Med <anchor type="lemma" xml:id="koNo_68"/>Syvmiilsstøvler mod deres Grav;</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="d">Severus er Skyld i den hele Sag,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="d">(Han kunde jo have faret i Mag),</l>
+<l met="-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="E">Sikkerlig havde jeg da været Moder</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="E">Til tvende sunde og stærke Poder.</l></HIS:hisSp></HIS:hisLg>
+</div>
+<div type="scene" n="2">
+<head>Anden Scene</head>
+<HIS:hisStage>De Forrige, Adalgisa.</HIS:hisStage>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>ADALGISA</speaker> <HIS:hisStage>afsides</HIS:hisStage></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="A">Der er hun; nu kan jeg tilgavns dog plage</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">Den arme Taabe; hvor vil hun ei klage,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="b">Gebærde sig, tænker jeg, næsten som gal,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="b">Naar op jeg træder som hendes Rival?</l>
+<HIS:hisStage>(høit)</HIS:hisStage>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="C">Ei er det dig, min bedste Veninde!</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="C">Hvor herligt, at her jeg skulde dig finde,</l>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-" rhyme="d">Og dine Smaa, de leve endnu!</l></HIS:hisSp>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker><pb ed="HU"/>NORMA</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="d">De leve; ja vist, men det Liv er en Gru!</l></HIS:hisSp>
+<HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>ADALGISA</speaker></HIS:spOpener>
+<l met="&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="E">Ja det er høist beklageligt, Kjære,</l>
+<l met="&bue;&bue;-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="E">Men hvor kan det anderledes vel være,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="f">Severus spiller et fiffigt Spil,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="f">Han er dig utro, om saa du vil,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="g">Og kun hvor Troskab og Kjærlighed boer,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="g">Der voxer <anchor type="lemma" xml:id="koNo_69"/>Afkommen stærk og stor.</l></HIS:hisSp>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="h">Hvad, utro? O nei kom ikke med Sligt,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="h">Det er kun Opspind, det er kun Digt;</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="h">Han veed jo dog hvad der er hans Pligt &dash;</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="i">Det har han <anchor type="lemma" xml:id="koNo_70"/>ofte i Bladet sagt.</l>
+<HIS:hisStage>(betænker sig)</HIS:hisStage>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="i">Men Et har dog min Mistænksomhed <HIS:hisRef type="tcNote" xml:id="noteNo_9" target="Noht_noter.xml" corresp="noteNo_9">vakt.</HIS:hisRef></l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="J">Han sniger sig om i Lunden <HIS:hisRef type="tcNote" xml:id="noteNo_10" target="Noht_noter.xml" corresp="noteNo_10">herinde.</HIS:hisRef></l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="J">Hvem veed hvad han egentlig har i Sinde. &dash;</l></HIS:hisSp></HIS:hisLg>
+</div>
+<div type="scene" n="3">
+<head>Tredie Scene</head>
+<HIS:hisStage>De Forrige. Severus (kommer uden at bemærke Norma).</HIS:hisStage>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker> <HIS:hisStage>omfavner Adalgisa</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l met="-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="A">Elskede! du paa disse Steder!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel kortvers" an="single" met="bi+ '5" rhyme="R">
+<l first="yes" met="&bue;-&bue;&bue;-&bue;" rhyme="A"><anchor type="lemma" xml:id="koNo_71"/>Forræder, Forræder!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker> <HIS:hisStage>forbløffet</HIS:hisStage></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l first="yes" met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" realRhyme="x"><anchor type="lemma" xml:id="koNo_71a"/>Ih, Gud bevare&rapo;s, <anchor type="lemma" xml:id="koNo_72"/>Madam! er <HIS:hisRef type="tcNote" xml:id="noteNo_11" target="Noht_noter.xml" corresp="noteNo_11">De</HIS:hisRef> her!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel kortvers" an="single" met="bi+ '5" rhyme="R">
+<l first="yes" met="&bue;-&bue;&bue;-&bue;" rhyme="A">Forræder! Forræder!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l first="yes" met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">Tys, vær dog stille, jeg beder, jeg beder!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker><cb n="158"/>NORMA</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel kortvers" an="single" met="bi+ '5" rhyme="R">
+<l first="yes" part="Y" met="&bue;">For &dash; &dash;</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>SEVERUS</speaker> <HIS:hisStage>hidsig</HIS:hisStage></HIS:spOpener>
+<p>Nei, vil du nu bare holde Mund, det gaar saagu ikke an for dannede Mænd at lytte til ufornuftige Kvinders Skrig over Ting, som de ikke forstaae.</p>
+<HIS:hisStage>(hvisker ud til en Maskinkarl)</HIS:hisStage>
+<p>Aa, lad Tæppet gaae ned, dette er jo en skandaløs Scene.</p></HIS:hisSp>
+<HIS:hisStage>Tæppet siger: &lquo;Det har De saagu Ret i&rquo;, hvorpaa det gaar hurtigt ned.</HIS:hisStage>
+</div>
+</div>
+<div type="act" n="3">
+<head type="act"><pb ed="HU"/>TREDIE AKT</head>
+<HIS:hisStage><anchor type="ht" xml:id="koNo_ht_9"/>Samme Skov som i første Akt.</HIS:hisStage>
+<div type="scene" n="1">
+<head>Første Scene</head>
+<HIS:hisStage>Det er allerede langt paa Dagen, men de fleste af Druiderne, der, som bekjendt, altid holde sig et Stykke bagud for Tiden, ligge endnu under Træerne i dyb Søvn; Nogle ere dog vaagnede, da Allarmtrommer og <anchor type="ht" xml:id="koNo_ht_13"/>vilde Hyl høres bag Scenen ligesom i &lquo;<anchor type="lemma" xml:id="koNo_73"/>Huldrens Hjem&rquo;.</HIS:hisStage>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>EN VAAGEN DRUIDE</speaker></HIS:spOpener>
+<l first="yes" met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="a">Hvad er det for Larm, hvad er det for Skrig.</l></HIS:hisSp>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>EN ANDEN</speaker></HIS:spOpener>
+<l met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="a">Det er sikkert Signal til en blodig Krig,</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="b">Hør kun det vilde forbitrede Skraal,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="b">Du veed jo, at <anchor type="lemma" xml:id="koNo_74"/>Norma vil gjøre Kaal</l>
+<l met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="c">Paa Severus, &dash; det hørte jeg selv hun svor.</l></HIS:hisSp>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>FØRSTE</speaker></HIS:spOpener>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-" rhyme="c">Nu ja, den Skade er ikke saa stor,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D">Han er jo i Grunden ei nogen af Vore,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="D">Jeg troer knapt jeg offrede ham en Taare,</l>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="D">Selv om han livløs laa paa sin Baare!</l></HIS:hisSp></HIS:hisLg>
+</div>
+<div type="scene" n="2">
+<head>Anden Scene</head>
+<HIS:hisStage>De Forrige. Norma (kommer ind i <anchor type="lemma" xml:id="koNo_75"/>Berserkergang, som om Nogen havde foreslaaet at forbedre Grundloven).</HIS:hisStage>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l met="-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="a">Vaagn dog, Druider! o kom, o kom!</l>
+<l met="-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="a">Alle som Een, &dash; her holder jeg Dom.</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisStage>Druiderne fare op i stor Forskrækkelse.</HIS:hisStage>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>EN SØVNDRUKKEN DRUIDE</speaker> <HIS:hisStage>forbitret</HIS:hisStage></HIS:spOpener>
+<p>Gaa ad Regjeringen til! Hvad er det for Spektakel!</p></HIS:hisSp>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>EN ANDEN</speaker> <HIS:hisStage>forskrækket</HIS:hisStage></HIS:spOpener>
+<p>Har Høvdingen opløst de Vises Raad?</p></HIS:hisSp>
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker><pb ed="HU"/>EN TREDIE</speaker> <HIS:hisStage>klagende</HIS:hisStage></HIS:spOpener>
+<p><anchor type="lemma" xml:id="koNo_77"/>Mine tre Dalere om Dagen! Farvel, Farvel, du skjønne Tid!</p></HIS:hisSp>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<l first="yes" met="-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">Kom dog til Eder selv, jeg beder!</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">Det gjælder Severus, den frække Forræder!</l></HIS:hisLg></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<head>Tredie Scene</head>
+<HIS:hisStage>Severus føres frem, indviklet i sin egen Snare.</HIS:hisStage>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="A">Der er <HIS:hisRef type="tcNote" xml:id="noteNo_12" target="Noht_noter.xml" corresp="noteNo_12">han,</HIS:hisRef> nu skal vor <anchor type="lemma" xml:id="koNo_78"/>Standret sættes,</l>
+<l part="I" met="&bue;-&bue;&bue;-&bue;">Bekjend dine Synder &dash;</l></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker><pb rend="noprint"/><cb n="159"/>SEVERUS</speaker> <HIS:hisStage>afsides</HIS:hisStage></HIS:spOpener>
+<l part="F" met="-&bue;&bue;-&bue;" rhyme="A">Ah, hvor jeg lettes &dash;</l>
+<l met="-&bue;&bue;-&bue;-&bue;-&bue;" rhyme="B">Listen er noget drøi i Længden,</l>
+<l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="A">Saa vinder jeg Tid, maaskee kan jeg reddes.<note type="met">Urent rim.</note></l>
+<HIS:hisStage>(høit)</HIS:hisStage>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">Nu vel, jeg bekjender da først, at Mængden</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="c">Var engang <anchor type="lemma" xml:id="koNo_79"/>den Guldkalv jeg ofrede til,</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="c">Det var kun et fiffigt beregnet Spil.</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker></HIS:spOpener>
+<p>Ha, da skal du døe &dash;</p>
+<HIS:hisStage>(hæver Dolken med oppositionelt Raseri, men støder naturligviis ikke til. Adalgisa kommer i det Samme i en Engels Skikkelse og forvandler ham til en Halvgud, eller, som man nutildags udtrykker sig, til en Minister)</HIS:hisStage></HIS:hisSp>
+<HIS:hisLg versetype="stikisk knittel" an="single" met="bi+ '8|'9" rhyme="r|R">
+<HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>DRUIDERNE</speaker> <HIS:hisStage>forbløffede</HIS:hisStage></HIS:spOpener>
+<l first="yes" met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-&bue;" realRhyme="X"><anchor type="lemma" xml:id="koNo_79a"/>Hva &dash; hvad behager ærbødigste Tjener! &dash;</l>
+<HIS:hisStage>(bukke dybt)</HIS:hisStage></HIS:hisSp>
+<HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker><cb n="160"/>SEVERUS</speaker> <HIS:hisStage>med imponerende Holdning</HIS:hisStage></HIS:spOpener>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;-&bue;" rhyme="D"><anchor type="lemma" xml:id="koNo_80"/>Da af vor vise <anchor type="lemma" xml:id="koNo_81"/>Lykurg det sagt er:</l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="e">&lquo;<anchor type="lemma" xml:id="koNo_82"/>Der hersker den skjønneste Enighed</l>
+<l met="&bue;-&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D">Imellem Statens forskjellige Magter,&rquo;<note type="met">Urent rim.</note></l>
+<l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="e">Saa haaber jeg, jeg kan <anchor type="lemma" xml:id="koNo_83"/>gaae bort i Fred!</l></HIS:hisSp></HIS:hisLg>
+<HIS:hisSp who="NORMA"><HIS:spOpener><speaker>NORMA</speaker> <HIS:hisStage>forekommende</HIS:hisStage></HIS:spOpener>
+<p>Ih, ja Gud bevare&rapo;s, hvor kan <HIS:hisRef type="tcNote" xml:id="noteNo_13" target="Noht_noter.xml" corresp="noteNo_13">Deres</HIS:hisRef> Velbaarenhed troe andet &dash; &dash;</p></HIS:hisSp>
+<HIS:hisStage>Severus gaar.</HIS:hisStage>
+<HIS:hisStage>Tæppet falder.</HIS:hisStage>
+<HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>ARIOVIST</speaker> <HIS:hisStage>bliver staaende i en grublende Stilling</HIS:hisStage></HIS:spOpener>
+<HIS:hisStage>(afsides)</HIS:hisStage>
+<p>Det var da Fanden til Historie; hvem veed om ikke ogsaa jeg &dash; &dash; &dash; nu ja, kommer Tid, kommer Raad! &dash; &dash; &dash;</p></HIS:hisSp>
+<HIS:hisStage>Ende.</HIS:hisStage>
+</div>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

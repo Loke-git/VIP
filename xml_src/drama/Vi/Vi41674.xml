@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Vildanden]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1674</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[Udatert]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>2. kollasjon, juni 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name></respStmt>
+<respStmt><resp>Kodekontroll, juli 2007</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Vi41674-1011"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på intern transkripsjon.</p>
+    <p><HIS:hisMsDesc type="notes" xml:id="Vi41674">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1674</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>[Henrik Ibsen]</author>
+            <title>[Uten tittel]</title>
+            <docDate>[Udatert]</docDate></msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendige notater.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Skriftgruppe: antikva, venstrehellende</item>
+<item>Overskrift: noe forstørret</item>
+<item>Manuskriptet består av ett dobbeltblad uten foliering. Noen opptegnelser i blyant (bibliotekar?) i venstre marg på første side samt helt nederst til høyre på samme side. Rødt bibliotekstempel øverst på første side. Disse er ikke transkribert.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort pen.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.11</date>
+<name>SBT</name><title>TEI P5</title>
+Oppdaterte koding til TEI P5. Fila er valid.</change>
+<change><date>08.02.08</date><name>HMS</name><title>Rettelse</title>
+Siste side, 4. linje nedenfra: Erstattet tanskestrek med bindestrek og fjernet mellomrom før og etter streken i 'A. K-d'. Er imidlertid usikker på om bindestrek er OK eller om det burde vært tankestrek, har satt inn note.</change>
+<change><date>06.11.07</date><name>MW</name><title>Oppdateringer</title>
+Bruken av bindestrek og tankestrek ved tallspenn er sjekket. Validert </change>
+<change><date>03.07.07</date>
+<name>MW</name><title>Kodekontroll</title>
+Tok kodekontroll. Validert. Lager ny visning.</change>
+<change><date>29.06.07</date>
+<name>HMS</name><title>2. kollasjon</title>
+Tok 2. kollasjon mot original, førte inn kollasjonsresultater. Strukturkodet i henhold til nye vedtak. Validert og klar for kodekontroll.</change>
+<change><date>19.04.06</date>
+<name>MW</name><title>1. kollasjon</title>
+Tok 1. kollasjon mot faksimile. Validert.</change>
+<change><date>18.04.06</date>
+<name>MW</name><title>Oppretting</title>
+Opprettet fil og transkriberte mot faksimile. Klar for 1. kollasjon mot faksimile. Validert.</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" rend="handwritten" xml:lang="da-nob">
+<body>
+<pb n="1"/>
+<div type="relatedToWork">
+<lb/><head>Optegnelser:</head>
+<lb/><p>&lquo;Fribårne mænd&rquo; er en floskel.
+<lb/>Der findes ingen. Ægteskabet, forholdet
+<lb/>mellem mand og kvinde, har fordærvet
+<lb/>slægten, sat slavemærket på alle.</p>
+<lb/><p>E. L. er kommen til det resultat at
+<lb/>forbedring gennem frigørelse er umulig.
+<lb/>Skabelsesværket var mislykket fra først
+<lb/>af. Han er en seminaristisk pessimist,
+<lb/>uden fremfærd, en ørkesløs drømmer.</p>
+<lb/><p>Fædrelandskærlighed og deslige er
+<lb/>et gennemgangsstandpunkt.</p>
+<lb/><p>Det er utilstedeligt at videnskabsmænd
+<lb/>piner dyr ihjæl; lad lægerne experimen&typHyp;
+<lb/>tere med journalister og politikere.</p>
+<lb/><p>Det moderne samfund er ikke et men&typHyp;
+<lb/>neskesamfund; det er bare et mandfolk&typHyp;
+<lb/>samfund.</p>
+<lb/><p>Når frihedsmændene vil gennemfø&typHyp;
+<lb/>re en forbedring i kvindernes samfunds&typHyp;
+<lb/>stilling, så forhører de sig først om den
+<lb/>offentlige mening &dash; mændene &dash; billiger
+<lb/>det. Det er det samme som at spørge
+<lb/>ulvene om de billiger nye beskyttel&typHyp;
+<lb/>sesmidler for fårene.</p>
+<lb/><p>Mangen doktrinær rabulist går lidt
+<lb/>efter lidt over til at bli bedstefar til
+<lb/>sig selv. (Drachmann f. ex.)</p>
+<pb n="2"/>
+<lb/><p>E. L<hi rend="raised">s</hi> ægteskab med den ufærdige
+<lb/>hustru er på en vis bleven et &lquo;sandt
+<lb/>ægteskab&rquo; derved at han under sam&typHyp;
+<lb/>livet er sunket eller i al fald ikke
+<lb/>vokset. Nu kan han ikke undvære
+<lb/>hende. &dash; Med hende er det gåt ligeså.</p>
+<lb/><p>Han må ud i selskab blandt de fi&typHyp;
+<lb/>ne; men det trætter og anspænder
+<lb/>ham. Han tyr tilbage til de tran&typHyp;
+<lb/>ge hjemlige forhold.</p>
+<lb/><p>Han har, ligesom bogtr. A, skim&typHyp;
+<lb/>tet ind i en højere verden; det er
+<lb/>hans ulykke.</p>
+<lb/><p>Ved at civiliseres undergår menne&typHyp;
+<lb/>sket den samme forandring som bar&typHyp;
+<lb/>net ved at udvikle sig til voksen.
+<lb/>Instinktet svækkes, men den logi&typHyp;
+<lb/>ske evne udvikles. Den voksne har
+<lb/>mistet evnen til at lege med dukker.</p>
+<lb/><p>&lquo;Den sjette sans&rquo;. Magnetisk ind&typHyp;
+<lb/>virkning er E. L<hi rend="raised">s</hi> yndlingstanke.</p>
+<lb/><p>Vi gør løjer med de 34 fædrelan&typHyp;
+<lb/>de i Tyskland; men de lige så man&typHyp;
+<lb/>ge i Europa er lige så latterlige.
+<lb/>Nord-Amerika hjælper sig med et, &dash;
+<lb/>eller &dash; indtil videre &dash; med to.</p>
+<lb/><p>Hans fine natur tillader ham ikke
+<lb/>åbent at tilstå at han ikke tror på
+<lb/>fædrelandskærlighed og sligt noget.</p>
+<lb/><p>Desværre, vore bedste tanker tænkes
+<lb/>af vore værste kæltringer.</p>
+<pb n="3"/>
+<lb/><p>Fotografen, den mislykkede digter,
+<lb/>E. L. drømmer om socialistisk revo&typHyp;
+<lb/>lution, fremtidens revolution, viden&typHyp;
+<lb/>skabens. Forgift i frokosten &dash; &dash; &dash;.</p>
+<lb/><p>Sybariten A. K. nyder fattigdom&typHyp;
+<lb/>men og elendigheden æstetisk indig&typHyp;
+<lb/>neret. Han nyder sine besøg hos den
+<lb/>forkomne skolekammerat, uden klart
+<lb/>at være sig det bevidst.</p>
+<lb/><p>At ønske og at ville. Vore værste
+<lb/>skavanker kommer af at vi forblan&typHyp;
+<lb/>der de to ting.</p>
+<lb/><p>Hvilke vrøvlere! De hævder majo&typHyp;
+<lb/>ritetens ret, og dog er de stemmeberet&typHyp;
+<lb/>tigede en liden vilkårligt begrænset
+<lb/><sic>minioritet</sic>.</p>
+<lb/><p>Alt bestående, kunst, poesi, o s. v.<note type="typo">punktum mangler etter 'o'</note> går
+<lb/>tilgrunde i nye kategorier ligesom
+<lb/>barnesindet i den voksnes ånd.</p>
+<lb/><p>Frigørelse består i at skaffe indi&typHyp;
+<lb/>viderne ret til at frigøre sig, hver ef&typHyp;
+<lb/>ter sit eget behov.</p>
+<lb/><p>Episode med den dødssyge indflet&typHyp;
+<lb/>tes. Deininger benyttes som model.</p>
+<lb/><p>Kunstnerinder og kvinder, som
+<lb/>driver handel, søger at dølge deres køn.
+<lb/>På sine billeder, skilte o. s. v. sætter de
+<lb/>bare forbogstavet til fornavnet for at
+<lb/>folk skal tro det er mænd, f. ex. <HIS:hisDel rend="overwritten">E</HIS:hisDel>M. Sm:
+<lb/>E. Zogb: o. s. v.</p>
+<pb n="4"/>
+<lb/><p>E. L. er socialistisk sindet; men
+<lb/>han tør ikke vedstå det; han er fa&typHyp;
+<lb/>miljefar, altså ikke uafhængig.</p>
+<lb/><p>De stemmeberettigede blandt os er
+<lb/>i minoriteten. Har da minoriteten
+<lb/>ret?</p>
+<lb/><p>Samvittigheden er ikke noget sta&typHyp;
+<lb/>bilt. Den varierer hos de forskellige
+<lb/>individer og i de vekslende tider. Bon&typHyp;
+<lb/>dens er gammeldags, aflægs. Det er mel&typHyp;
+<lb/>lem de aflægse og de vordende samvit&typHyp;
+<lb/>tigheder at partikam<HIS:hisDel rend="overwritten">m</HIS:hisDel>pene føres.</p>
+<lb/><p>Der vil danne sig en ny adel. Det vil
+<lb/>ikke blive fødselens eller pengenes, heller
+<lb/>ikke evnernes eller kundskabernes. Frem&typHyp;
+<lb/>tidens adel vil blive sindets og viljens
+<lb/>adel.</p>
+<lb/><p>Kristendommen demoraliserer og
+<lb/>hæmmer på forskellig vis både mænd
+<lb/>og kvinder.</p>
+<lb/><p>Man siger at selvmord er umoralsk.
+<lb/>Men nu at leve et langsomt selvmords&typHyp;
+<lb/>liv &dash; af hensyn til sine omgivelser?<note type="workingNote">Det kan vøre nytt avsnitt her, vanskelig å avgjøre. Innholdsmessig logisk med nytt avsnitt, men manglende (tydelig) innrykk på linjen under kan tyde på at det ikke er nytt avsnitt?</note>
+<lb/>A. K-d<note resp="HMS" type="workingNote">evt. tankestrek?</note>: Ligge godt mæt og tilpakket
+<lb/>i en blød seng, høre regnen plaske og
+<lb/>tænke på besværlige rejser i uvejr og
+<lb/>kulde &dash; det er en stor nydelse.</p>
+</div>
+</body>
+</text>
+</TEI>

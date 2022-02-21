@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Hvide heste &amp; Rosmersholm</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1291a-b</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt><resp>Oppretting og første kollasjon, juni-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respStmt>
+<respStmt><resp>2. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Hv-Ro41291ab_NBO-0312"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på Ro41291_pre_splitt (Ro41291-0907).</p>
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="Hv-Ro41291ab_NBO">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 1291a-b</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>[Hvide heste &amp; Rosmersholm]</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>NBO Ms.4&deg; 1291a-b er bundet inn i samme bokbind.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Overskrifter:
+<list>
+<item>ved akt: forstørret</item>
+</list>
+</item>
+<item>Rollenavn:
+<list>
+<item>over replikk: ingen spesiell markering</item>
+</list>
+</item>
+<item>Utheving:
+<list>
+<item>i replikk: uthevede ord er understreket</item>
+<item>i sceneanvisninger ('stageRole'): ingen markering</item>
+</list>
+</item>
+<item>Topp- og bunntekst:
+<list>
+<item>foliering: Egenhendig leggfoliering øverst til venstre, tallet og punktumet er understreket og skråstilt (fra og med faksimilens side 7). Bibliotekar(er)s (?) bladfoliering fra faksimilens side 1 t.o.m. side 5 - i blyant øverst til høyre. En bibliotekshånd (?) har skrevet 'b' i blyant øverst side 7, antagelig for å markere hvor b-delen av mset begynner</item>
+</list>
+</item>
+<item>Transkripsjonsnormaliseringer: Ikke noe å bemerke.</item>
+<item>Annet:
+<list>
+<item>Diverse bibliotekspåskrifter og -stempler: på fremre limte forsatsblad, på fremre løse forsatsblad og på bladet mellom forsatsbladet og første ms-side</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ROSMER"/><item>Boldt-Rømer, Rosenhjelm, R.</item>
+<label xml:id="REBEKKA"/><item>Frøken Radeck</item>
+<label xml:id="KROLL"/><item>Hekmann, H.</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>En eller flere blyanter. Bibliotekar(er)? Bladfoliering fra faksimilens side 1 t.o.m. side 7, opplysning om ms-del ('b') side 7.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>23.03.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>HMS</name><title>Fjernet siccing og noter</title>
+Fjernet siccing og arbeids- samt typonoter.</change>
+<change><date>01.10.09</date>
+<name>HMS</name><title>Sidetallskoding</title>
+La til ed=faksBase i faksimilebasens pb. Kodet inn egne pb for msbetegnelsene til Tone. Validert, laget visning.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>Fjernet fw type="msPart"</title>
+Fjernet fw type="msPart", siden bokstavene likevel ikke skal kodes.</change>
+<change><date>15.02.08</date>
+<name>HB</name><title>Oppdatering knyttet til verkstilhørighet</title>
+Endret navnet på fila slik at det inkl verksbetegnelsen for Ro, siden mset også inneholder materiale som kan knyttes til Ro snarere enn Hv. Fjernet tagUsage gi="pb-ed-HU-n", siden ingen tekst her kan synkroniseres vha HU-taggene.</change>
+<change><date>31.01.08-04.02.08</date>
+<name>HMS</name><title>Små endringer etter kontroll</title>
+Noen små endringer i teiHeader etter kontroll av filsplittingen, spesielt i id-who-lista.</change>
+<change><date>09.01.08</date>
+<name>HB</name><title>Skilte ut Hv-Ro41291ab_NBO fra arkivert Ro41291_pre_splitt</title>
+Skilte ut Hv-Ro41291ab_NBO fra arkivert Ro41291_pre_splitt. Den opprinnelige Ro41291_pre_splitt-filen arkiveres som pre-splitt-versjon. Tilpasset typografibeskrivelsen, handList og tagUsage her til Hv-Ro41291ab_NBO, lar den komplette ligge i Ro41291_pre_splitt. Lar loggen være uavkortet her og i Ro41291_pre_splitt.</change>
+<change><date>17.12.07</date>
+<name>MW</name><title>hand-koding</title>
+La inn hand-attributt ved det som filologene vurderte som en andre skriveomgang med en sort pen og mer slurvete skrift enn hovedhånden. Kodingen må senere kontrolleres av en annen forsk.medarb. Validert</change>
+<change><date>03.10.07</date>
+<name>HMS</name><title>Fra 'desc' til 'sub'</title>
+Endret typeattributt fra 'desc' til 'sub' ved tittelsidenes undertittel (jf. ibsenkodvedtak 16.08.07) - dvs. side 15 og 72. Ny visning laget med nytt stilark.</change>
+<change><date>28.09.07</date>
+<name>HMS</name><title>Tomme sider</title>
+Oppdaget rot med tomme sider på slutten av de forskjellige permene. Etter å ha dobbeltsjekket de tomme sidene mot original kodet jeg 'pb/'-er slik at det ble riktig. Laget ny foreløpig visning, men ny visning må lages igjen når ref-koding vises OK.</change>
+<change><date>25.09.07</date>
+<name>HMS</name><title>Koding</title>
+Noen endringer etter kodekontrollen/prat med MW: la inn type=refMark der jeg har kodet med 'ptr'. Har ikke lagt inn type der jeg har kodet med 'ref' da det ikke er avklart om det er nødvendig ennå. Siccing av 'portemonæen' to steder: har latt siccingen stå da jeg ikke finner ordet med én 'n' i ODS. Fjernet mellomrom mellom to punktum side 44 og 233 (det står typonote begge steder). Validert. Laget foreløpig visning (ref-koding vises ikke som den skal).</change>
+<change><date>24.09.07</date>
+<name>MW</name><title>Kodekontroll og blanke sider</title>
+Før jeg begynte kodekontrollen sjekket jeg blanke sider i manuskriptet først og sist. Det er to blanke til slutt som ble kodet inn.
+Utførte kodekontrollen. Følgende har jeg endret i filen under kodekontrollen:
+a. teiHeader: kantete paranteser rundt titlen og forfatternavn i titleStmt er fjernet; 'uten forfatternavn' er det nå notert i sourceDesc; i id-who-listen er innførslen for stageRole fjernet siden det ikke finnes i filen;
+b. HU-sideskift: i sjekken fant jeg frem til fire steder hvor jeg mener HU-sideskift kan settes inn. Samtidig fjernet jeg en note om usikkerhet ved HU-sideskiftet n=426.
+c. lb-koding: noen steder (før vanlige sp og før en head-kode) manglet det lb-kode. De er nå satt inn;
+d. Strukturkoding: oversiktsdokumentet er rask gjennomsett (siden det er blitt jobbet så mye med det for nylig sjekker jeg det ikke nærmere);
+d. Forekomstene av anførselstegn brukt i teiHeader og noter for attributtverdier er endret til enkle anførselstegn, siden de ikke kan oppfattes som koding mens de doble anførselstegn kan;
+Validert. (Det bør lages ny visningsfil når stilarket er lagt ut med ny visning for ref- og prt-koding)</change>
+<change><date>17.09.07</date>
+<name>HMS</name><title>ref-koding</title>
+Ferdigstilte filen for kodekontroll. Dvs: etter kodemøtet i dag kodet jeg tilføyelsen med bare ett referansetegn side 232 samt krysset side 97 (som referansetegn) - begge steder med 'ptr'. Validert. Filen er klar for kodekontroll.</change>
+<change><date>29.08.07</date>
+<name>HMS</name><title>Tilføyelser med referansetegn; linjeskift i tilføyelser</title>
+Kodet om tilføyelser med referansetegn etter kodemøte 27.08.07. Gjelder side 96, 216, 230, 242. Gjenstår: avklare tilføyelsen med bare ett referansetegn side 232 samt krysset (som er et referansetegn?) side 97. Gjennomgikk 'margin'- og 'inBetweenLines'-tilføyelser og sjekket at det alltid er lagt inn linjeskift ved første linje i tilføyelsen.</change>
+<change><date>14.08.07-24.08.07</date>
+<name>HMS</name><title>Strukturkoding, hender, diverse småtterier</title>
+Etter møte med HB og kikk på original: Vedtok å ikke splitte opp fila etter msets bokstavinndeling. Strukturkoding: Hele mset er kodet i text-group-text (med 9 'text'). Vi vedtok å ha 'div' innenfor alle 'text'ene. Replikkutkastene sist i mset (s. 236 og utover) er kodet i to 'text' (ny 'text' på siste ms-side, der én replikk står i blyant), med ny 'div' hver gang Ibsen begynner på replikkutkast på et nytt sted i verket. Har sett på msets hender; endret noen detaljer, spes. side 70. Har kodet om konvolutten side 70 etter mailveksling og vedtak på ibsenkod (14.-15.08.07). Side 173: omkodet tilføyelsen som splitter Rosmers replikk (se note ved tekststedet). Stokket om på rekkefølgen side 237-239, se note ved tekststedet. Der teksten i arbeidmset er fordelt på flere akter i den endelige utgaven, har jeg nå satt inn note (i stedet for å ha flere tall i 'div type="act" n='). Har gått gjennom arbeidsnoter og redigert noen av dem. Har gått gjennom tilføyelser kodet med 'margin', hadde fem marg-tilfeller der tilføyelsen bare består av ett eller noen få ord. Har endret attributtverdi to av stedene (s. 190 og 216), men satt inn note, da tilføyelsen jo faktisk står i margen. Side 96 (to steder) og 242 beholdt jeg 'margin', se note på tekststedet. Har endret folieringstype side 15 fra 'unknown' til 'gathering', se forklaring i note ved tekststedet.</change>
+<change><date>03.08.07</date>
+<name>HMS</name><title>Tanketrek og bindestrek</title>
+Gikk gjennom bruk av tankestek og hard bindestrek. Har gjort følgende rettelser: fra bindestrek til tankestrek (uten mellomrom) i tallspenn side 102 ('tre-fire' og 'to-tre'); fra gal bruk av dash for typHyp ved linjeskift side 36 (nest siste linje) og s. 41 (linje 5); fjernet mellomrom før tankestrek i avbrytelser s. 85 og s. 127 (har lagt inn arbeidsnoter her da jeg er noe usikker).</change>
+<change><date>02.08.07</date>
+<name>HMS</name><title>Foliering</title>
+Så på de gjenstående spørsmålene ang. foliering etter mailveklsing med HB. Har satt inn den nye attributtverdien 'msPart' i 'fw type=' side 7, og 'unknown' i den egenhendige folieringen side 15 (har hørt med Tone Modalsli, som ikke hadde sett en slik foliering før; se note ved tekststedet).</change>
+<change><date>29.06.07</date>
+<name>HMS</name><title>Endret attributtverdi</title>
+Endret attributtverdi i 'div' fra den foreløpige 'workRelated' til den nylig vedtatte 'relatedToWork'.</change>
+<change><date>25.06.07</date>
+<name>HMS</name><title>Tilføyelser med notelignende tegn</title>
+Endret koding ved tekststeder som har tilføyelser markert med notelignende tegn. Hadde fulgt kodepraksis' detaljkapittel her (6.3.2), ikke ms-kapitlets 10.2.10 (ms-kapitlet er nå fulgt). De notelignende tegnene er nå transkribert diplomatarisk. Det gjenstår noen spørsmål tilknyttet denne kodingen, HB ser på dette.</change>
+<change><date>18.06.07-19.06.07</date>
+<name>HMS</name><title>unclear-koding</title>
+Tok vekk 'unclear reason=binding'-koding rundt bindestreker som er kommet under falsen (?), men som likevel skimtes. Feks. side 213, linje 4 og 5. Har avklart de siste transkripsjonsdetaljene. Gjenstår: se på foliering, hender og div/text-koding med HB; evt dele mset i flere filer etter inndeling i bokstaver (a-e).</change>
+<change><date>08.06.07</date>
+<name>HMS</name><title>Strukturkoding i replikkutkastene</title>
+Strukturkoding i replikkutkastene (Ro41291 e): Har sett på dette; har nå hele Ro41291 e innenfor én 'text' med nye 'div' hver gang Ibsen begynner på replikkutkast på et annet sted i verket. Er usikker; bør dette deles inn i flere 'text'? Må ses på med en filolog. Det gjenstår også to spørsmål vedr. aller siste replikkutkast (i blyant) samt replikkutkastet til Kroll side 237. Har for øvrig satt inn to tall i n-attributtet i 'div' side 63, da den påfølgende teksten er å finne i akt 2 og 3 i førstetrykket.</change>
+<change><date>06.06.07</date>
+<name>HMS</name><title>Replikkutkastene</title>
+Har sett nærmere på replikkutkastene side 236-244. Utredet forholdet mellom s. 237-239 i en note.</change>
+<change><date>01.06.07</date>
+<name>HMS</name><title>Foliering, id-who, unclear/gap</title>
+Gikk gjennom folieringen. Endringer: fra 'leafdb' til 'gathering' s. 7-11, s. 17-67, s. 72-234, s. 236-244. Noen folieringsspørsmål gjenstår. Sjekket id-who-listen i teiHeader, gjorde et par rettelser. Gikk gjennom de tilfellene der jeg hadde brukt 'unclear' rundt nesten fullførte bokstaver (feks i strykninger) - erstattet disse med 'gap' (dvs erstattet 'unclear'+bokstav med 'gap').</change>
+<change><date>31.05.07</date>
+<name>HMS</name><title>Strukturkoding</title>
+Gjennomgikk strukturkoding i mset etter kodemøte i dag. Strukturkoding på replikkutkastene (fra og med side 236) er jeg ikke ferdig med, trenger å diskutere med en filolog. Har satt inn noter ved disse replikkutkastene om hvor lignende replikker er å finne i førstetrykket. (Men i resten av mset viser jeg til HU, beklager inkonsekvens, men det var lettest slik!) Har ellers gått gjennom plassering av pb- og fw-tagger.</change>
+<change><date>30.05.07</date>
+<name>HMS</name><title>Avsluttet innføring av kollasjonsresultater</title>
+Avsluttet innføring av kollasjonsresultater etter andre kollasjon. Har dobbeltsjekket at alle kollasjonsnotater er sett. En del spørsmål gjenstår, noe må sjekkes mot original. Gikk gjennom margtilføyelser og satte inn editor-note om tilføyelsenes plassering. Gikk gjennom setninger der ord/deler av setningen mangler (dvs der setningen ikke gir mening slik den står) og satte inn note om hva førstetrykket har (dersom førstetrykket har tilsvarende setning).</change>
+<change><date>29.05.07</date>
+<name>HMS</name><title>Fjernet performance</title>
+Fjernet performance-kodingen.</change>
+<change><date>04.05.07</date>
+<name>HMS</name><title>Påbegynte innføring av kollasjonsresultater</title>
+Påbegynte innføringen av resultatene fra Mettes og Åshilds kollasjon mot original. Jeg har lagt inn sider som ikke er fotografert i faksimilebasen ved hjelp av pb-elementer uten nummerering (sidene er ellers nummerert med faksimilens sidetall).</change>
+<change><date>05.03.07</date>
+<name>HMS</name><title>Endret koding</title>
+Endret koding der 'add' sto uten strukturkoding (side 96, 97, 233 og 241). Validert, laget ny visning til 2. kollasjon.</change>
+<change><date>21.02.07-28.02.07</date>
+<name>HMS</name><title>Endret kodingen</title>
+Endret kodingen der 'del' sto alene rundt strykninger før rollenavn og sceneanvisninger (dvs der 'del' sto uten strukturkoding). Sjekket (og endret der det var nødvendig) mellomrom i forbindelse med forfatternoter merket med asterisk. Gikk gjennom kodingen av 'diagonalOverstrike' etter prat med HB og MW. Gikk gjennom bruken av forfatternoter i alternative formuleringer; endret disse til 'add' side 190, 210, 233 (jf maildiskusjon). Validert. Laget ny visning.</change>
+<change><date>20.02.07</date>
+<name>HMS</name><title>Gjorde om koding</title>
+Gjorde om koding side 70 etter e-postutveksling om konvoluttkoding. Handshift bør ses på, jf. arbeidsnote side 70.</change>
+<change><date>01.02.07</date>
+<name>HMS</name><title>Rettet 'Å' + note til 'A'</title>
+Side 244, første replikk: Rettet utropet fra 'Å'+ note om manglende diakritisk tegn til 'A' uten note etter diskusjon om dette på møte om ekstern variasjon (avsluttende møte for G2 og OL2).</change>
+<change><date>16.01.07</date>
+<name>HMS</name><title>sp-koding</title>
+La inn en sp-kode (uten 'spOpener' og 'speaker') rundt den nederste replikken s. 237, denne har ingen rollenavn i mset, men tilhører Kroll i førstetrykket.</change>
+<change><date>02.01.07</date>
+<name>HMS</name><title>HU-ref.</title>
+Sjekket og førte inn HU-sidetall. Har plassert referansene så godt jeg kan der teksten er tilnærmet lik den endelige utgaven, dvs der det vil være relevant å synkronisere visningen av arbeidsmset med de andre vitnene. Har også satt inn referanse der det bare er en replikk eller to som er lik (dvs. at de omkringliggende replikkene skiller seg fra den endelige utgaven, men det er likevel på ca samme sted i handlingsutviklingen). Slik jeg har satt det inn nå, viser ikke det oppgitte HU-sidetallet nødvendigvis til sideskift i HU - det kan også vise til et tekststed hvor som helst på den oppgitte siden. Hvis dette ikke er OK, bør det evt gjøres noe med.</change>
+<change><date>19.12.06</date>
+<name>HMS</name><title>Koderetting</title>
+Ved margtilføyelser: plasserte linjeskift-koden inni add (i stedet for foran) etter prat med MW og HB. Fjernet dessuten noen resp='editor'-noter om manglende tilføyelsestegn (på steder der det ikke er tvil om hvor tilføyelsen skal inn).</change>
+<change><date>14.12.06</date>
+<name>HMS</name><title>Koderetting</title>
+Rettet typen foliering (Ibsens) fra 'sheet' til 'leafdb' etter prat med MW og SBT. Bør likevel sjekkes mot original når 2.kollasjon tas.</change>
+<change><date>vår 2006 - 28.11.06</date>
+<name>HMS</name><title>Oppretting og første kollasjon</title>
+Opprettet fil med teiHeaderopplysninger ang. NBO Ms.4&deg; 1291. Transkriberte fra faksimile. Tok første kollasjon mot faksimile. Var en rask tur på NBO for å se på mset - det er innbundet i 4 permer: a-b (=t.o.m. faksimileside 14), c (t.o.m. faksimileside 69), d (t.o.m. faksimileside 235 og e (resten, replikkutkast). Bør denne filen deles opp deretter? Ellers noen kommentarer: (1) Har ikke kommentert 'vanlige' mangler som manglende punktum etter rollenavn, manglende anførselstegn o.l. (Men har lagt inn noen slike kommentarer der det er mest påfallende.) Det er fint om andrekollasjonisten kan følge med på om det er noen ting jeg ikke har kommentert, som bør kommenteres. Har siccet de feilstavede ordene jeg har sett. (2) Andrekollasjonisten kan også gjerne se godt på overskrivninger, overstrykninger og lesemåter generelt, samt bruken av attributtverdier i 'place'. Overskrevne bokstaver jeg ikke har klart å tyde, er foreløpig transkribert med 'gap'. (3) 'ref target' fungerer foreløpig ikke i visningen, dette må ses på på nytt. (4) Hand-koding vises ikke, andrekollasjonisten kan gjerne notere de forskjellige hendene slik at dette kan kontrolleres mot kodingen. (5) Enkelte uønskede linjeskift forekommer også i visningen, f.eks. er det foreløpig ikke mulig både å replikk-kode og å ha rollenavnet på samme linje som replikkteksten i visningen. Ved tilføyde replikker: Fint om den som tar andre kollasjon sjekker at disse replikkene er replikk-kodet, også når rollenavn er forkortet og står på samme linje som replikkteksten. (6) Typen foliering bør kontrolleres mot original. (7) Eventuelle blanke ark i mset er ikke fotografert i faksimilebasen og bør noteres av andrekollasjonisten. Validert og klar for annen kollasjon.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<group>
+<text>
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="1" facs="1"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">1</fw>
+<div type="relatedToWork">
+<lb/><head>&lquo;Hvide heste&rquo;.</head>
+<lb/><p><hi rend="underlined">Han</hi>, den fine fornemme natur,
+<lb/>som er slået om til et frisindet syns&typHyp;
+<lb/>punk og som alle hans tidligere ven&typHyp;
+<lb/>ner og bekendte har trukket sig til&typHyp;
+<lb/>bage fra. Enkemand; har været ulyk&typHyp;
+<lb/>kelig gift med en tungsindig halvt
+<lb/>sindssyg kone, som til slut drukne&typHyp;
+<lb/>de sig.</p>
+<lb/><p><hi rend="underlined">Hun</hi>, hans to døttres opdragerinde,
+<lb/>frigjort, varmblodig, noget hensyns&typHyp;
+<lb/>løs men under en fin form. Betrag&typHyp;
+<lb/>tes af omgivelserne som husets onde
+<lb/>ånd; er genstand for mistydning og
+<lb/>ba<HIS:hisDel rend="overwritten">d</HIS:hisDel>gvaskelse.</p>
+<lb/><p><hi rend="underlined">Ældste datter</hi>; holder på at bukke
+<lb/>under for uvirksomheden og ensom&typHyp;
+<lb/>heden; rig begavelse uden anven&typHyp;
+<lb/>delse derfor.</p>
+<lb/><p><hi rend="underlined">Yngre datter</hi>; iagttagende; opduk&typHyp;
+<lb/>kende lidenskaber.</p>
+<lb/><p>Journalisten; geni, landstryger.</p>
+</div>
+</body>
+</text>
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="1" facs="2"/>
+<note resp="editor">På denne siden har Ibsen skrevet et utkast til brevet til Den frisinnede Studenterforening 21.desember 1885og til en nyttårshilsen.</note>
+
+<text>
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="2" facs="3"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">2</fw>
+<div type="relatedToWork">
+<lb/><head>Udkast.</head>
+<lb/><p>I prestegårdens dagligstue. S: og frø&typHyp;
+<lb/>ken B: i samtale. Studenten kommer fra
+<lb/>spadsertur. <HIS:hisDel rend="overstrike">Amtmanden og datter på besøg
+<lb/>og med invitation</HIS:hisDel>. Den gamle forhenværende
+<lb/>provisor i ærende; bort. Familjen samlet.
+<lb/>Ritmesteren. Amtmanden med datter på
+<lb/>visit og med invitation; den modtages; da
+<lb/>skal omslaget åbenbares. Familjen alene;
+<lb/>talen falder på de hvide heste.</p>
+</div>
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="2"/>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="3"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">3</fw>
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="3"/>
+<pb n="[3]v"/>
+</body>
+</text>
+
+<text>
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="4" facs="4"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">4</fw>
+<lb/><head>Udkast.</head>
+<div type="act" n="1">
+<lb/><head>1. akt.</head>
+<lb/><p>I herregårdens dagligstue ud over efter&typHyp;
+<lb/>middagen. Presten og frøkenen;</p>
+</div>
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="4"/>
+</body>
+</text>
+
+<text>
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="5" facs="5"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">5</fw>
+<div type="castList">
+<list>
+<lb/><item>Johannes Rosmer.</item>
+<lb/><item>Rebekka West.</item>
+<lb/><item>Rektor Gylling.</item>
+<lb/><item>Ulrik Hekman.</item>
+<lb/><item>Peder Mortensgård.</item>
+<lb/><item>Madam Helset.</item>
+</list>
+</div>
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="5" facs="6"/>
+<div type="relatedToWork">
+<lb/><p>Hun er intrigant og hun elsker ham.
+<lb/>Hun vil bli&rapo; hans hustru og urokkelig
+<lb/>forfølger hun dette mål. Da kommer
+<lb/>han efter det og hun vedkender sig det åbent.
+<lb/>Så er der ingen livslykke mere for ham.
+<lb/>Det dæmoniske vækkes af smerten og bit&typHyp;
+<lb/>terheden. Han vil dø, og hun skal dø med
+<lb/>ham. Hun gør det.</p>
+</div>
+</body>
+</text>
+
+<text>
+<body>
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="1" facs="7" gathering="1"/>
+<lb/><fw type="gathering" place="top-left">1.</fw>
+<div type="act" n="1">
+<lb/><head>Første akt.</head>
+<lb/><HIS:hisStage>(Dagligstue hos Bol<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>dt-Rømer. Stuen
+<lb/>er gammeldags men hyggelig. På væggen
+<lb/>til højre en stor kakkelovn; længere tilbage
+<lb/>en dør. På bagvæggen dobbeltdør til for&typHyp;
+<lb/>stuen. På væggen til venstre to vinduer
+<lb/>med potteblomster i karmene. Ved det for&typHyp;
+<lb/>reste vindu et bord med symaskine; i hjør&typHyp;
+<lb/>net til højre en sofa med bord og lænestole.
+<lb/>På væggene hænger gamle familjeportrætter
+<lb/>forestillende officerer og prester. Det er efter
+<lb/>middagstid. Solen skinner ind på gulv&typHyp;
+<lb/>tæppet.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Boldt-Rømer sidder i en gyngestol for&typHyp;
+<lb/>an kakkelovnen og læser i et tidsskrift. Frø&typHyp;
+<lb/>ken Badeck sidder henne ved vinduet og
+<lb/>syer ved maskinen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>
+<lb/><HIS:hisStage>(har ladt bogen synke.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hm, det er dog underligt alligevel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>,
+<lb/><HIS:hisStage>(ser hen på ham.)</HIS:hisStage></HIS:spOpener>
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="1" facs="8" gathering="1"/>
+<lb/><p>Hvilket, mener De?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Det er dog underligt for mig at sidde her &dash;
+<lb/>nu i påskeugen &dash; og slet ikke ha&rapo; nogen ting
+<lb/>at ta&rapo; vare på; ikke noget at bære ansvar for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Men føler De ikke <emph>det</emph> som en lettelse?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Jo, det kan De vel tænke. Det er jo også ba&typHyp;
+<lb/>re i førstningen &dash;. Hvor er småpigerne
+<lb/>henne idag?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>De er nok nede på mølledammen og lø&typHyp;
+<lb/>ber på skøjter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>
+<lb/><HIS:hisStage>(rejser sig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jeg har ikke villet sige det før. Lidt mor<HIS:hisDel rend="overwritten"><unclear>o</unclear></HIS:hisDel>skab
+<lb/>må de jo også ha&rapo;. Men det er mig så inder&typHyp;
+<lb/>lig imod at de løber der nede på dammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Å, det har såmænd ingen fare. Der er jo ik&typHyp;
+<lb/>ke så dybt; og desuden så er <HIS:hisDel rend="overstrike">ikke</HIS:hisDel> isen gan&typHyp;
+<lb/>ske sikker.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Det ved jeg nok; det er jo ikke <emph>det</emph>, jeg
+<lb/>tænker på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frø<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ken Radeck</speaker><HIS:hisDel rend="overwritten">.</HIS:hisDel>,
+<lb/><HIS:hisStage>(ser hen på ham.)</HIS:hisStage></HIS:spOpener>
+
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="2" facs="9" gathering="1"/>
+<lb/><p>Nå, det er for &dash; det andets skyld?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Ja. Jeg synes det er noget uhyggeligt i at <HIS:hisAdd place="offline">børnene</HIS:hisAdd>
+<lb/><HIS:hisDel rend="overstrike">d</HIS:hisDel>e løber <HIS:hisAdd place="offline">der nede</HIS:hisAdd> og tumler sig og støjer lige over det
+<lb/>sted, som var deres mors ligseng.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Men det har jo ikke småpigerne nogen re&typHyp;
+<lb/>de på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Nej; men vi har rede på det &dash; desværre; og der&typHyp;
+<lb/>for kan jeg ikke gøre mig fri for &dash;. Nå, nå,
+<lb/>jeg ved jo godt at det er noget intetsigende no&typHyp;
+<lb/>get; bare en slags fordom, eller hvad vi skal kal&typHyp;
+<lb/>de det; men alligevel &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Altså dog ikke kommet ud over sligt no&typHyp;
+<lb/>get endnu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Helt kommer jeg visst aldrig ud over
+<lb/>sligt noget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Så skulde De prøve om De ikke komme
+<lb/>tilbage, did, hvor De stod før.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Did? Aldrig i verden gør jeg det! Det hver&typHyp;
+<lb/>ken kan jeg eller vil jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Bedst havde det i al fald været for Dem
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="2" facs="10" gathering="1"/>
+<lb/>om De aldrig var kommen ud af det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Og det kan <emph>De</emph> sige? Til <emph>mig</emph>? Til mig, som
+<lb/>aldrig har havt en lykkelig stund før jeg
+<lb/>vandt frem til frigørelse i sindet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Å det er nok langt frem endnu før De vin&typHyp;
+<lb/>der fuld frigørelse. Jeg tror Det havde været
+<lb/>bedst for Dem om jeg aldrig var kommen
+<lb/>indenfor Deres dør.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Hvad havde jeg så været nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.
+</HIS:spOpener>
+<lb/><p>Hvad De før var.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Ja, det er sandt. Et menneske uden synsvid&typHyp;
+<lb/>de; uden nogensomhelst forståelse af det
+<lb/>virkelighedens liv, som kæmper og arbejder
+<lb/>rundt omkring os. <HIS:hisDel rend="overstrike">&dash; Se</HIS:hisDel>; <HIS:hisDel rend="overstrike">der kommer rek&typHyp;
+<lb/>toren</HIS:hisDel>.</p></HIS:hisSp><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Nå, men alli<HIS:hisDel rend="overwritten">B</HIS:hisDel>gevel; så blød, som De er;
+<lb/>og så alt det nedarvede<HIS:hisDel rend="overwritten">;</HIS:hisDel>, som har sat sine
+<lb/>mærker i Dem. Å nej, det går ikke så let &dash;.
+<lb/><HIS:hisStage>(ser ud.)</HIS:hisStage> Se; der kommer rektoren.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Boldt-Rømer</speaker>.</HIS:spOpener>
+<lb/><p>Hvem kommer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="REBEKKA"><HIS:spOpener><speaker>Frøken Radeck</speaker>.</HIS:spOpener>
+<lb/><p>Deres <HIS:hisDel rend="overwritten">v</HIS:hisDel>svoger.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="1" facs="11" gathering="2"/>
+<lb/><fw type="gathering" place="top-left">2.</fw>
+<lb/><HIS:hisStage>(Rektor Hekmann kommer fra forstuen.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Hekmann</speaker>.</HIS:spOpener>
+<lb/><p>Men hvad er der, som står i aviserne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Er aviserne kommet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Hekmann</speaker>.</HIS:spOpener>
+<lb/><p>Ja, og der står at du frasiger dig dit embede.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>Rosenhjelm</speaker>.</HIS:spOpener>
+<lb/><p>Jeg har længe tænkt på det. Jeg kan ikke bli
+<lb/>s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tående. Det er umuligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>Hekmann</speaker>.</HIS:spOpener>
+<lb/><p>Det er <HIS:clarification place="inline">jo</HIS:clarification> så rimeligt at du ikke kan gå med på
+<lb/>disse mørke pietistiske retninger, som har fåt
+<lb/>overhånd i så mange kredse. Men er det da ikke
+<lb/>din pligt at arbejde imod &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker><app type="alteration"><lem><HIS:hisAdd place="offline"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Rosenhjelm</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Hekmann</HIS:hisDel></HIS:hisRdg></app></speaker>.</HIS:spOpener>
+<lb/><p>Ikke som prest. Jeg kan ikke bli stående i den
+<lb/>stilling.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det <HIS:hisDel rend="overwritten">s</HIS:hisDel>forstår jeg ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener>
+<lb/><p>Jeg skulde aldrig tat kirgeligt embede. Det var
+<lb/>jo heller ikke med min gode vilje. Men det lå jo
+<lb/>i slægtens traditionen. Prester og militære har
+<lb/>afvekslet, &dash; far efter søn. Og da nu far var offi&typHyp;
+<lb/>cer, så var det ganske som naturligt at jeg tog
+<lb/>fat på teologien. Jeg syntes selv dengang at det
+<lb/>var i sin orden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Og nu havde du jo levet dig så fast ind i det.
+<lb/>Hvad vil du nu ta&rapo; dig til &dash; nu midt i din kraf&typHyp;
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="1" facs="12" gathering="2"/>
+<lb/>tigste alder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Jeg har jo hele den store gårdsdrift &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det fylder ikke din tid ud; du har jo både for&typHyp;
+<lb/>valter og forpagtere. Nej nu hjælper ingen und&typHyp;
+<lb/>skyldninger mere. Nu skal og må du gribe ind
+<lb/>i det offentlige liv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Det har jeg også tænkt på, &dash; på min måde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Ikke på nogen særlig måde. Ind i partiets ræk&typHyp;
+<lb/>ker må du. Du ser vel, hvor inderlig det behøve<unclear reason="writing">s</unclear>.
+<lb/>Vælg dig en specialitet. Tred op imod denne Mor&typHyp;
+<lb/>tensgård som vigler op hele den uvidende mæng&typHyp;
+<lb/>de. Og nu hører jeg han tænker på at få et blad i&typHyp;
+<lb/>stand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Så. Ja manden er begavet. Han både skriver og taler
+<lb/>godt for sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Å kære, det er <HIS:clarification place="inline">e</HIS:clarification>n let sag når man ikke tar det nøje
+<lb/>med sandheden og med det faktiske.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Ja jeg kender så lidt til det faktiske i de h<HIS:clarification place="inline">en</HIS:clarification>se<unclear reason="writing">en&typHyp;</unclear>
+<lb/>der.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Men det gør jeg. Og jeg har havt anledning til at
+<lb/>kontrollere denne Mortensgård. Han er en af de
+<lb/>samvittighedsløseste rabulister vi har, på dis&typHyp;
+<lb/>se kanter. Og det vil sige meget, kan du tro.</p></HIS:hisSp>
+
+<pb ed="source" type="folio_nopagination" subtype="recto"  n="2" facs="13" gathering="2"/>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Men skulde det ikke være så at disse radikale
+<lb/>har udrettet adskilligt godt i de seneste år?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Det indrømmer jeg aldrig i evighed ikke. De?
+<lb/>Hvad godt skulde de kunne udrette? Kan der
+<lb/>flyde noget godt af så urene kilder?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Men har vi ret til at dømme så afgjort om
+<lb/>kilderne.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener>
+<lb/><p>Driv nu ikke humaniteten for vidt, min kære
+<lb/>Rosenhjelm. Og hvad er det for noget godt, du <HIS:hisDel rend="overstrike">sig</HIS:hisDel>&typHyp;
+<lb/>har opdaget. Sigter du kanske til massehøv&typHyp;
+<lb/>dingernes statskup.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>De ting forstår jeg mig ikke på. Men jeg synes
+<lb/>der er kommet ligesom lidt mere slevstændig&typHyp;
+<lb/>hed ind i de enkeltes tænkning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Og det regner du for noget godt hos så ubefæs&typHyp;
+<lb/>tede og ufærdige mennesker? Jeg tror du tar
+<lb/>betydelig fejl. Og <HIS:hisDel rend="overwritten">s</HIS:hisDel>jeg må sige at det højlig undrer
+<lb/>mig at høre slige ord fra dig. Du som dog har
+<lb/>arvet hele din slægts agtelse for autoritet og
+<lb/>for god lovlig orden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Hvem ved, &dash; man kan kanske ikke helt und&typHyp;
+<lb/>gå at smittes af den tid man lever i.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Det håber jeg dog aldrig skal bli tilfældet med
+
+<pb ed="source" type="folio_nopagination" subtype="verso"  n="2" facs="14" gathering="2"/>
+<lb/>nogen af os to. Vi vil bli ved at stå rene. Ikke
+<lb/>sandt, Rosenhjelm?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>At stå ren, så vidt muligt, er unægtelig opga&typHyp;
+<lb/>ven for enhver.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Nå, og så skabe renhed omkring sig, eller i alt
+<lb/>fald, holde uhumskheden borte.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Det er jeg så visst med på.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Nå så må du også være med på at gribe ind,
+<lb/>ta&rapo; del i det offentlige liv, bekæmpe alle disse u&typHyp;
+<lb/>heldsvangre tendenser &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>Men kære, når man nu slet ikke er skabt for
+<lb/>det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>I et kultiveret samfund er enhver skabt for
+<lb/>at være statsborger.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ROSMER"><HIS:spOpener><speaker>R</speaker></HIS:spOpener>
+<lb/><p>E<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>nhver?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="KROLL"><HIS:spOpener><speaker>H</speaker></HIS:spOpener>
+<lb/><p>Jeg mener naturligvis enhver, som har de for&typHyp;
+<lb/>nødne forudsætninger, enhver, som besidder
+<lb/>et visst kvantum af dannelse og indsigter,
+<lb/>jeg fordrer ikke egentlig lærdom. Men alminde&typHyp;
+<lb/>lig dannelse og kundskab burde man dog vir&typHyp;
+<lb/>kelig kunne forlange. Se, det var <emph>det</emph>, som det vilde
+<lb/>være så inderlig velgørende at få gjort indly&typHyp;
+<lb/>sende for masserne.</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main" xml:id="C1">Catilina</title>
+<title level="a" type="sub">Forord til 1. utg.</title>
+<title level="a" type="origYear">1850</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Mette Witting, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Opprettet fil på grunnlag av B1844-1871ht.xml og B1850gt.xml.</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="C1_forord-0912"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på 1844-1871ht.xml og B1850gt.xml (september 2012). Bare forordet, ikke brevteksten inngår i denne fila.</p>
+<p>
+    <HIS:hisMsDesc type="letter" xml:id="B18500105OS">
+        <msIdentifier>
+            <settlement>Grimstad</settlement>
+            <repository>Ibsenhuset og Grimstad bymusem</repository>
+            <idno/>
+        </msIdentifier>
+        <HIS:letterinfo corresp="B18500105OS">
+            <name role="sender"><HIS:hisRef type="person" target="Navneregister_HISe.xml#peHI">HENRIK IBSEN</HIS:hisRef></name>
+            <name role="recipient"><HIS:hisRef type="person" target="Navneregister_HISe.xml#peOS">OLE CARELIUS SCHULERUD</HIS:hisRef></name>
+            <origDate when="1850-01-05">5. januar 1850</origDate>
+            <origPlace><HIS:hisRef type="place" target="Navneregister_HISe.xml#plGri">GRIMSTAD</HIS:hisRef></origPlace>
+        </HIS:letterinfo>
+    </HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-trykk;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>12.09.12</date>
+<name>SBT</name><title>Opprettet fil</title>
+Opprettet fil på grunnlag av B1844-1871ht.xml. Bare forordet, ikke brevteksten, er med i denne fila.</change>
+</revisionDesc>
+</teiHeader>
+    
+<text type ="drama" xml:lang="dan-nob" rend="handwritten">
+<pb/>
+<body>
+<div type="preface">
+<lb/><head>Forord.</head>
+<lb/><p>&lquo;Nærværende Stykke var oprindelig bestemt for Scenen,
+<lb/>Theaterdirectionen har imidlertid ikke fundet Stykke
+<lb/>skikket hertil. <app type="alteration"><lem><HIS:hisAdd place="offline">Uagtet</HIS:hisAdd></lem><HIS:hisRdg><app type="alteration"><lem><HIS:hisDel rend="overstrike"><HIS:hisAdd place="offline"><gap/></HIS:hisAdd></HIS:hisDel></lem><HIS:hisRdg><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel></HIS:hisRdg></app></HIS:hisRdg></app> Forfatteren har Grund
+<lb/>til at antage, at Hovedaarsagerne til Stykkets Af&typHyp;
+<lb/>viisning ikke skrive sig fra indre Mangler
+<lb/>ved Samme, <app type="alteration"><lem><HIS:hisAdd place="offline">er det dog</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Det er derfor</HIS:hisDel></HIS:hisRdg></app> ikke uden med en saare
+<lb/>naturlig Ængstelse at <app type="alteration"><lem><HIS:hisAdd place="offline">han</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Forfatteren</HIS:hisDel></HIS:hisRdg></app> fremlægger sit
+<lb/>Arbeide for Publicum, hvorhos han dog forven&typHyp;
+<lb/>ter den skaansomme Bedømmelse, som en
+<lb/>Begynders første Fremtræden billigviis kan
+<lb/>gjøre Fordring paa.</p>
+</div>
+</body>
+</text>
+</TEI>
+

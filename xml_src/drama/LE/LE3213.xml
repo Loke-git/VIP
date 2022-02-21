@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Lille Eyolf</title>
+<title level="a" type="sub">NBO Ms.fol.3213</title>
+<title level="a" type="origYear">1894</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, mars 2009</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, august 2009</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, november 2009</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="LE3213-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på intern transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="LE3213">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.fol.3213</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">uten tittel</title>
+<docDate>uten datering</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Bl. 23 av den midlertidige renskriften NBO 4&deg; 1117b.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>Blyantnotater av fremmed penn (øverst), bibliotekstempel og signaturpåskrift s. 1. Ikke transkribert.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ALLMERS">ALLMERS</label><item>Allmers</item>
+<label xml:id="RITA">RITA</label><item>Fru Allmers</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+    <change><date>27.07.17</date>
+        <name>NME</name><title>Tok ut fragment</title>
+        Fjernet fragmentet igjen, etablerte egen fil.</change>
+      <change><date>30.05.17</date>
+        <name>NME</name><title>Lagt til fragment</title>
+        La inn transkripsjon av andre del av det manglende legget i NB 41117b for andrekollasjon. </change>
+    <change><date>16.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>03.11.09</date>
+<name>MW</name><title>Kodekontroll</title>
+Kodekontroll utført. Lager ny visning.</change>
+<change><date>27.08.09</date>
+<name>MW</name><title>2. kollasjon</title>
+Førte inn resultatene etter 2. kollasjon mot original.</change>
+<change><date>03.03.09</date>
+<name>HMS</name><title>Oppretting og 1. kollasjon</title>
+Opprettet fila, transkriberte teksten fra faksimile. Kollasjonerte mot faksimile. Har ikke kodet inn HU-sideskift, finner ikke igjen teksten i den endelige utgaven. Validert, laget visning. Klar for annenkollasjon mot original.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body><note type="workingNote">Lenkekodes til riktig sted i LE41117b?</note>
+<div type="act" n="2">
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1" gathering="23."/>
+<lb/><fw type="gathering" place="top-left">23.</fw>
+<lb/><HIS:hisSp who="RITA"><p>Ja, men barnet kan da ikke være alting
+<lb/>for en heller!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+<lb/><p>Hvem véd, Rita.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker>.</HIS:spOpener>
+<lb/><p>Nej, nej, nej, &dash; vi blir da ved at være menne&typHyp;
+<lb/>sker, vi også. Vil leve vort eget liv<HIS:hisAdd place="inline">.</HIS:hisAdd> &dash; <HIS:hisDel rend="overwritten">o</HIS:hisDel>Om vi end
+<lb/>får et barn, så &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+<lb/><p>Vort eget liv, ja. Men vort eget liv <HIS:hisDel rend="overstrike">h</HIS:hisDel><gap/> skulde
+<lb/>just være barnet. Bare barnet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker>.</HIS:spOpener>
+<lb/><p>Hvorfor har da ikke Eyolf været <emph>det</emph> for dig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker>.</HIS:spOpener>
+<lb/><p>Egenkærligheden har vel været for stærk i
+<lb/>mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+<lb/><p>Ja, ser du <emph>det</emph>! Men kom så ikke her og kræv af
+<lb/>mig, hvad du ikke selv kan.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+<lb/><p>Jeg kræver jo ingenting. Jeg vil bare at vi skal
+<lb/>se os selv tilbunds. Det er samvittigheden, som
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" facs="2"/>
+<lb/>nager os mere end sorgen og savnet. An&typHyp;
+<lb/>geren over det som vi aldrig kan komme til at
+<lb/>gøre godt igen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+<lb/><p>Å, om jeg havde ham her! Kunde ta&rapo; ham i
+<lb/>armene. Kysse ham og klappe ham og trykke
+<lb/>ham!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+<lb/><p>Hvorfor?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+<lb/><p>Hvorfor? Fordi jeg holder af ham, vel?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+<lb/><p>Jeg tror ikke det er derfor, Rita.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+<lb/><p>Hvorfor ellers?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener>
+<lb/><p>Fordi du går og vånder dig i anger. Og vil gøre
+<lb/>dig fri.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>Fru Allmers</speaker></HIS:spOpener>
+<lb/><p>Hvorledes er det da gået til! Å, jeg forstår
+<lb/>det ikke!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allmers</speaker></HIS:spOpener></HIS:hisSp>
+     <lb/>
+    
+    <!-- her hører det manglende legget i 41117b til -->
+ 
+</div>
+</body>
+</text>
+</TEI>

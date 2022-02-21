@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[De unges Forbund] (kladd til vedlegg i tapt brev)</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1937a</title>
+<title level="a" type="origYear">udatert</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respStmt>
+<respStmt>
+<resp>Transkripsjon fra faksimile, august 2001</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og kodekontroll, august-september 2001</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Synkroniseringskoding + koding av mansuskriptbetegnelser, desember 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="UF81937a-0912"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på (intern) transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="UF81937a">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket, avdeling Oslo</repository>
+<idno>NBO Ms.8&deg; 1937a</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript, egenhendig, ett blad. Kladd til vedlegg i tapt brev (rollebesetning med ønsker om skuespillere til oppsetning av &lquo;De unges Forbund&rquo;). På motsatt side et arbeidsmanuskript (notater til forord) til &lquo;Kejser og Galilæer&rquo; (KG81937a). Se for øvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>UF81937a</head>
+<item>skriftgruppe: latinsk håndskrift, majuskler og minuskler</item>
+<item>rollebesetning:
+<list>
+<item>overskrift: omtrent midtstilt</item>
+<item>rollelisteinnførsel: venstrestilt. Rolleinnehaver, og ev. rollebeskrivelse, står til venstre, skuespillernavn står til høyre. Mellom rolleinnehaver/rollebeskrivelse og skuespillernavn står en eller flere tankestreker</item>
+<item>situasjonsbeskrivelse: blokkstilt, førsteinnrykk ca 7 mm</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>tankestrek: enkel strek av varierende lengde el. "krøllstrek" (minner om dobbelt anførselstegn)</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList</headItem>
+<label>ASLAKSEN</label><item>Bogtrykker Aslaksen</item>
+<label>BASTIAN</label><item>Bastian Monsen</item>
+<label>ERIK</label><item>Erik Brattsberg</item>
+<label>FJELDBO</label><item>Doktor Fjeldbo</item>
+<label>HEJRE</label><item>Daniel Hejre</item>
+<label>HELLE</label><item>Kandidat Helle</item>
+<label>KAMMERHERREN</label><item>Kammerherre Brattsberg</item>
+<label>LUNDESTAD</label><item>Gaardbruger Lundestad</item>
+<label>MADAM-R</label><item>Madam Rundholmen</item>
+<label>MONSEN</label><item>Propietær Monsen</item>
+<label>RAGNA</label><item>Ragna</item>
+<label>RINGDAL</label><item>Værksf[...] Ringdal</item>
+<label>SELMA</label><item>Selma</item>
+<label>STENSGAARD</label><item>Sagfører Stensgaard</item>
+<label>THORA</label><item>Thora</item>
+<label>KAMMERHERREPIGE</label><item>En tjenestepige</item>
+<label>OPVARTER</label><item>En oppvarter</item>
+<label>MADAM-R-PIGE</label><item>En pige</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote xml:id="HI" scribe="HI" medium="pen-brown" scope="major"><p>Henrik Ibsen, hovedhånd, brun penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>28.09.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>05.11.09</date>
+<name>EFS</name><title>Synkroniseringskoding + koding av manuskriptbetegnelser</title>
+La inn legg- og bladnummerering. NB på versosiden av blad 2 er det et utkast til en redegjørelse for Kejser og Galilæer (jfr. Tone Modalis manuskriptbeskrivelse), men dette er ikke transkribert eller kommentert i denne filen. Burde det inn en editor-note? Ev. lenkekoding? La inn ett synopticViewPtr-element. Validert.</change>
+<change><date>17.07.08</date>
+<name>SBT</name><title>Samkjøring med Tones ms.beskr.</title>
+Endret pennefarge fra svart til brun etter samkjøring med Tones ms.beskr. Venter med å innføre Tones system for paginering/foliering/leggnummerering til dette tas opp samlet i høst.</change>
+<change><date>10.04.07</date>
+<name>HB</name><title>Strukturkoding</title>
+Flyttet head inn i castList, lot lb bli stående foran castList-starttaggen og plasserte head på samme linje av valideringshensyn. Validert. Ny visning.</change>
+<change><date>09.03.07</date>
+<name>HB</name><title>Struktur- og ms-omkoding</title>
+Oppdaterte ms-kodinga. Kodet om grunnstrukturen i tråd med nye vedtak på ibsenkod; rollelista + set plasseres rett i body, set blir tillatt i body. Validerte fila. * Det er ikke laget ny visning.</change>
+<change><date>10.11.06</date>
+<name>HB</name><title>Kodejustering og ms-omkoding</title>
+teiHeader: Flyttet ms-info fra typography til matDesc.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert.</change>
+<change><date>19.08.05</date>
+<name>MW</name><title>Kodeoppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>14.05.03</date>
+<name>IAA</name><title>Oppdateringer</title>
+Fornyet handlist og validerte mot ny dtd.</change>
+<change><date>04.07.02</date>
+<name>EN</name><title>Ny dtd</title>
+Validert mot ny dtd.</change>
+<change><date>19.04.02</date>
+<name>EN</name><title>Kodeendringer</title>
+Erstattet bibl med msDescription i sourceDesc. Validert.</change>
+<change><date>02.01.02</date>
+<name>EN</name><title>Kodeendringer</title>
+Løste (i samråd med HB) valideringsproblemet ved å legge inn et tomt p-element i div i body.</change>
+<change><date>20.12.01</date>
+<name>EN</name><title>Kodeendringer</title>
+Erstattet div1 med div. Erstattet type-attributtet i del med rend. La inn principal TM. NB! div i body blir ikke validert - feilmelding er sendt til HB.</change>
+<change><date>04.10.01</date>
+<name>EN</name><title>id-attributter</title>
+Ga id/who attributter til tjenestepikene og oppvarteren. Validert</change>
+<change><date>11.09.01</date>
+<name>EN</name><title>2. kollasjon, korrektur og kodekontroll</title>
+Kollasjonert den elektroniske teksten mot manuskriptet. Rettet koding et par steder: La de 4 siste listeinnførselene og situasjonsbeskrivelsen inn i add (NB! muligens kan alle tilføyelsene i manuskriptet være gjort av en annen hånd, men jeg tør ikke si det sikkert og legger derfor ikke inn noen h2.), fjernet noen unclear-elementer og trakk lesbare bokstaver ut av unclear andre steder. Korrekturlest typografibeskrivelsen. Sjekket (og rettet et par småting i) TEI-headeren. Utført kodekontroll. Validert filen.</change>
+<change><date>24.08.01</date>
+<name>SBT</name><title>Typografibeskrivelse</title>
+Beskrev typografien etter faksimile. Klar for annenkollasjon mot original og kodekontroll.</change>
+<change><date>22.08.01</date>
+<name>SBT</name><title>Validering</title>
+La etter vedtak på kodemøtet 21.08. til en body, med div1 inni, for å få teksten validert. Typografibeskrivelsen er ikke ferdig.</change>
+<change><date>09.08.01</date>
+<name>SBT</name><title>Oppretting</title>
+Transkriberte tekst fra faksimile. Foreløpig kodet som rolleliste. Ikke validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<front>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="1" facs="1" gathering="1"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="UF_355ms"/>
+<lb/><HIS:hisCastList><head>Rollebesættning.</head>
+<lb/><castItem xml:id="KAMMERHERREN">Kammerherre Brattsberg &dash; &dash; <actor>Wolf</actor>.</castItem>
+<lb/><castItem xml:id="ERIK">Erik Brattsberg, hans Søn, <HIS:hisAdd place="inline">Cand. ju<unclear reason="writing">r</unclear>, Gross<unclear reason="writing">erer</unclear> &dash;</HIS:hisAdd> <actor>Abelsted</actor>.</castItem>
+<lb/><castItem xml:id="THORA">Thora, Kammerherrens Datter &dash; <actor>Fru Juel</actor>.</castItem>
+<lb/><castItem xml:id="SELMA">Selma, Erik Brattsbergs Frue &dash; <actor>Fru Gundersen</actor>.</castItem>
+<lb/><castItem xml:id="FJELDBO">Doktor Fjeldbo, Værkslæge &dash; &dash; <actor>Gundersen</actor>.</castItem>
+<lb/><castItem xml:id="STENSGAARD">Sagfører Stensgaard &dash; &dash; <actor>Reimers</actor>.</castItem>
+<lb/><castItem xml:id="MONSEN">Proprietær Monsen &dash; &dash; <actor>Bucher</actor>.</castItem>
+<lb/><castItem xml:id="BASTIAN">Bastian Monsen &dash; &dash; <actor>Selmer</actor>.</castItem>
+<lb/><castItem xml:id="RAGNA">Ragna &dash; &dash; &dash; <actor>Fru Isachsen</actor>.</castItem>
+<lb/><castItem xml:id="HELLE">Kandidat Helle &dash; &dash; <actor>H. Brun</actor>.</castItem>
+<lb/><castItem xml:id="RINGDAL"><HIS:hisAdd place="inline">Værksf<gap reason="writing"/></HIS:hisAdd> Ringdal &dash; &dash; <actor><HIS:hisDel rend="overstrike">Juel</HIS:hisDel><HIS:hisDel rend="overwritten">.</HIS:hisDel>Nilsen</actor></castItem>
+<lb/><castItem xml:id="LUNDESTAD">Gaardbruger Lundestad &dash; <actor>Isachsen</actor>.</castItem>
+<lb/><castItem xml:id="HEJRE">Daniel Hejre &dash; &dash; <actor>J. Brun</actor>.</castItem>
+<lb/><castItem xml:id="MADAM-R">Madam Rundholmen &dash; <actor>Fru Wolf</actor>.</castItem>
+<lb/><castItem xml:id="ASLAKSEN">Bogtrykker Aslaksen &dash; <actor>Juel</actor>.</castItem>
+<HIS:hisAdd place="margin">
+<lb/><castItem xml:id="KAMMERHERREPIGE">En Tjenestepige hos K<unclear reason="writing">ammer</unclear>h<unclear reason="writing">erren</unclear></castItem>
+<lb/><castItem xml:id="OPVARTER">En Oppvarter &dash;</castItem>
+<lb/><castItem xml:id="MADAM-R-PIGE">En Pige hos Mad<unclear reason="writing">am</unclear> Rundhol<unclear reason="writing">men</unclear></castItem>
+<lb/><castItem type="list">Folk af Almu<unclear reason="writing">en</unclear>, Gjæster hos K<unclear reason="writing">ammerherren</unclear>, o. s v. o s. v &dash;</castItem>
+</HIS:hisAdd>
+</HIS:hisCastList>
+<lb/><set><HIS:hisAdd place="margin"><p>Handling<unclear reason="writing">en</unclear> forega<unclear reason="writing">a</unclear>r p<unclear reason="writing">aa</unclear> Værket i Nærheden af en Kjøbstad i
+<lb/>det syd<unclear reason="writing">ø</unclear>stlige Norge.</p></HIS:hisAdd></set>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="1" gathering="1"/>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="2" facs="2" gathering="1"/>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="2" gathering="1"/>
+</front>
+<body><p> </p></body>
+</text>
+</TEI>

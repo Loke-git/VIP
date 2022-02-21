@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Kjærlighedens Komedie]</title>
+<title level="a" type="sub">UBiT Ms Oct. 375 b</title>
+<title level="a" type="origYear">[1862]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ellen Nessheim Wiger, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Klargjøring for HISe</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respStmt>
+<respStmt>
+<resp>Omgjøring av KK til KK8375b, juli-oktober 2001:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer, januar 2002:</resp>
+<name>Ingvald Aarstein</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, korrektur og koding, juli-oktober 2001 og mars-juni 2002:</resp>
+<name>Ingvald Aarstein</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="KK8375b-0812"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på KK8375_UBIT.xml (KK8375_UBIT-0109).</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker/stageRole</headItem>
+<label xml:id="FRUHALM">FRUHALM</label><item>Fru Halm, Fruen/-</item>
+<label xml:id="SVANHILD">SVANHILD</label><item>Svanhild/-</item>
+<label xml:id="ANNA">ANNA</label><item>Anna/-</item>
+<label xml:id="FALK">FALK</label><item>Falk</item>
+<label xml:id="LIND">LIND</label><item>Lind</item>
+<label xml:id="GULDSTAD">GULDSTAD</label><item>Guldstad/-</item>
+<label xml:id="STYVER">STYVER</label><item>Pasop, Styver/-</item>
+<label xml:id="FRKSKJAERE">FRKSKJAERE</label><item>Frøken Skjære, Frøken S., Frøken/-</item>
+<label xml:id="STRAAMAND">STRAAMAND</label><item>Straamand, Præsten/-</item>
+<label xml:id="FRUSTRAA">FRUSTRAA</label><item>Fru Straamand/-</item>
+<label xml:id="OPPASSER">OPPASSER</label><item>Oppasseren, Opp:/-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-n">Sideskiftene i manuskriptet er kodet med pb n="". Nummereringen (i n-attributtet) viser til faksimilesidene.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Mørkebrunt blekk. En rettelse med blyant.</p></handNote>
+<handNote scribe="JDL" xml:id="JDL" medium="pen-black"><p>Johan Daniel Landmark. UBiTs bibliotekar har skrevet på omslagene til og lappene som følger del to og tre. Penn og blyant.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>26.08.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>24.01.09</date>
+<name>HB</name><title>Laget KKs versjonsvisninger</title>
+Laget versjonsvisning av KK41394-KK8375a, KK8375a-KK8375b, KK8375a-KK8375c. * Oppdaterte koding i henhold til retningslinjer. Sjekket også mot TMs ms-beskrivelse. Loggen og typografibeskrivelsen er bevart i KK8375_UBiT.xml og KK8375_pre_splitt.xml.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<pb n="137"/>
+<div type="act" n="1">
+<div type="scene" n="2">
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>
+<lb/><HIS:hisStage>(kommer ud paa Trappen med et Tørklæde paa Arm<unclear reason="writing">en</unclear> og
+<lb/>vil gaa ud i Baggrunden men standser:)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">De seer saa vist paa mig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja der er Trækket;</l>
+<lb/><l><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_160ms"/><app type="alteration"><lem><HIS:hisAdd place="offline">I Øjets Hav det</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Det Smærtens Drag som</HIS:hisDel></HIS:hisRdg></app> skygger <app type="alteration"><lem><HIS:hisAdd place="offline">over</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">dybt paa</HIS:hisDel></HIS:hisRdg></app> Bunden</l>
+<lb/><l><app type="alteration"><lem><HIS:hisAdd place="infralinear">Det leger Skjul med Spottens Alf</HIS:hisAdd><HIS:hisAdd place="offline">Det tumler <unclear>sig</unclear> i Leg med Spot</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">I Øjet, og som leger stilt</HIS:hisDel></HIS:hisRdg></app> om Munden &dash;</l>
+<lb/><l part="I">Det er der &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="F"><emph>Hvad</emph>? De gjør mig halvt forskrækket.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="I">De heder Svanhild?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja det ved De vel.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l>Men ved <emph>De</emph>, Frøken, at det Navn er latterligt?</l>
+<lb/><l>Gjør mig til Vilje &dash; kast det bort ikveld.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">Falk</HIS:hisDel></speaker>.</HIS:spOpener></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">Tilføyd i høyre marg.</note>
+<lb/><HIS:hisSp><l>Det var et Indgreb i Forældres Rettig<gap reason="damage"/>
+<lb/>heder</l></HIS:hisSp>
+</HIS:hisAdd>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>Fy, det var egenmægtigt &dash; lidet datterligt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_1652ms"/>Hm, &lquo;Svanhild&rquo;, Svanhild &dash; &dash; hvorfor fik <sic>de</sic> sligt</l>
+<lb/><l>Memento mori alt fra De var liden?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="I">Er det <app type="alteration"><lem><HIS:hisAdd place="offline">saa</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">da</HIS:hisDel></HIS:hisRdg></app> stygt <HIS:hisDel rend="overwritten">&dash;</HIS:hisDel>?<note resp="editor">Usikker rekkefølge i overskrivningen.</note></l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l part="F"><HIS:hisAdd place="inline">Aa</HIS:hisAdd> <HIS:hisDel rend="overstrike">Nej</HIS:hisDel> dejligt som et Digt</l>
+<lb/><l>Men altfor stort og strængt og stærkt for Tiden.</l>
+<lb/><l>Hvor kan en Nutidsfrøken fylde ud</l>
+<lb/><l>Den Tanke Navnet Svanhild i sig fatter</l>
+<lb/><l>Nej kast det bort som et forældet Skrud.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>De tænker nok paa Sagakongens Datter</l>
+<lb/><l><HIS:hisDel rend="overstrike"><unclear>Hvem</unclear> <gap/> <unclear>Heste</unclear></HIS:hisDel></l>
+<lb/><l>Som skyldfri knustes under Heste<HIS:hisDel rend="overwritten">hov</HIS:hisDel>ns Hov;</l>
+<lb/><l>Men sligt er jo <HIS:hisDel rend="overstrike">hos os</HIS:hisDel> forbudt i <HIS:hisDel rend="overstrike">Loven</HIS:hisDel> <HIS:hisDel rend="overwritten">&dash;</HIS:hisDel>vor Tids Lov &dash;</l>
+<pb n="138"/>
+<lb/><l>Nej højt i Sadlen<HIS:hisDel rend="overstrike">.</HIS:hisDel> i <HIS:hisDel rend="overstrike">I</HIS:hisDel> min <sic>min</sic> stille Tanke,</l>
+<lb/><l>Jeg drømte tidt mig baaren paa dens Ryg,</l>
+<lb/><l>Jog ud i Verden vidt, jog kjæk og tryg,</l>
+<lb/><l>Mens Vinden slog som Frihedsflag dens Manke!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l>Ja det er <HIS:hisDel rend="overstrike">Sag</HIS:hisDel> gammelt; i den stille Tanke</l>
+<lb/><l>Der ændser Ingen af os Grind og Skranke &dash;</l>
+<lb/><l>Der ræddes ingen for at bruge Sporen &dash;</l>
+<lb/><l>I <app type="alteration"><lem><HIS:hisAdd place="offline">Gjerning</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Praxis</HIS:hisDel></HIS:hisRdg></app> holder vi os smukt til Jorden</l>
+<lb/><l>Thi Livet er <HIS:hisDel rend="overstrike">os</HIS:hisDel> dog igrunden <HIS:hisAdd place="offline">Hvermand</HIS:hisAdd> kjært,</l>
+<lb/><l>Og der er Ingen som et Dødsspring vover.</l></HIS:hisSp><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_161ms"/>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l><HIS:hisAdd place="inline">Jo</HIS:hisAdd> <HIS:hisDel rend="overstrike">Nej</HIS:hisDel> peg paa Maalet og jeg sætter over,</l>
+<lb/><l>Men da maa Maalet være Springet værd.</l>
+<lb/><l>Et Kalifornien bag Ørkensandet,</l>
+<lb/><l>Hvis ikke, blir man hvor man er, i Landet</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l>Naa, jeg forstaar Dem; det er <emph>Tidens</emph> Fejl.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>Ja netop Tidens; hvorfor sætte Sejl,</l>
+<lb/><l>Hvor ingen Luftning stryger over Fjorden</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>
+<lb/><HIS:hisStage>(<gap reason="writing"/>)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Ja <unclear reason="writing">hvorfor</unclear> slide Pidsken eller Sporen</l>
+<lb/><l>Naar ingen gylden Indsats staar som Skjænk</l>
+<lb/><l>til den der rejser sig fra Bord og Bænk</l>
+<lb/><l>Og jager fremad b<unclear reason="writing">aaren</unclear> højt i Sadlen</l>
+<lb/><l>Slig Færd for Færdens Skyld tilhører Adlen,</l>
+<lb/><l>Og Adelsfærd i vor Tid kaldes Tant</l>
+<lb/><l part="I">Saa var nok Meningen?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker></HIS:spOpener>
+<lb/><l part="F">Ja ganske sandt</l>
+<lb/><l>Se Pæretræet som ved Gjærdet staar</l>
+<lb/><l>Hvor det er goldt og blomsterløst iaar</l>
+<lb/><l><seg type="transposition" subtype="words_numbered"><seg rend="supralinear" subtype="no">4</seg><seg subtype="word">Ifjor</seg> <seg rend="supralinear" subtype="no">1</seg><seg subtype="word">De</seg> <seg rend="supralinear" subtype="no">2</seg><seg subtype="word">skulde</seg> <seg rend="supralinear" subtype="no">3</seg><seg subtype="word">set</seg></seg>; <app type="alteration"><lem><HIS:hisAdd place="offline">da</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">hvor det</HIS:hisDel></HIS:hisRdg></app> stod <HIS:hisAdd place="offline">det</HIS:hisAdd> kjækt</l>
+<lb/><l>Med Kronen krøget under Frugtens Vægt</l></HIS:hisSp>
+<pb n="139"/>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l>Det vil jeg tro, men hvad er deraf Læren</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_1653ms"/>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>Aa iblandt andet at det fast er frækt</l>
+<lb/><l>Naar vor Tids Zakarias kræver Pæren.</l>
+<lb/><HIS:hisAdd place="inBetweenLines"><l>Har Træet overblomstret sig ifjor</l>
+<lb/><l>o. s. v.</l></HIS:hisAdd></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:hisAdd place="inBetweenLines"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener></HIS:hisAdd>
+<lb/><l>Jeg vidste nok, De fandt <app type="alteration"><lem><HIS:hisAdd place="offline">Idéens</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">det rette</HIS:hisDel></HIS:hisRdg></app> Spor igjen, &dash;</l>
+<lb/><l>I Romantiken, agter i Historien.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>Ja vor Tids Dyd er af en anden Slags;</l>
+<lb/><l><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_1654ms"/>Hvem <app type="alteration"><lem><HIS:hisAdd place="offline">falder for Idéen</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">ruster sig til Korstog</HIS:hisDel></HIS:hisRdg></app> nutildags &dash;</l>
+<lb/><HIS:hisAdd place="inBetweenLines"><l>Hvem er Personens Indsats vel tillags.</l></HIS:hisAdd>
+<lb/><l part="I">Hvor findes Helte</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Falk</speaker></HIS:spOpener>
+<lb/><l part="F">Og hvor er Valkyrien</l></HIS:hisSp><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_162ms"/>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker></HIS:spOpener>
+<lb/><l><app type="alteration"><lem><HIS:hisAdd place="offline">Valkyrien savnes ej</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Ak ingen af dem her</HIS:hisDel></HIS:hisRdg></app> i dette Land!</l>
+<lb/><l>Da Troen truedes ifjor i Syrien</l>
+<lb/><l>Gik <emph>De</emph> da did som Korsets svorne Mand;</l>
+<lb/><l>Nej, paa Papiret var De varm som Taler,</l>
+<lb/><l>Og sendte Kirketidenden en Daler.</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Pause. Svanhild betragter ham en Stund, nærmer sig og
+<lb/>spørger blidt)</HIS:hisStage>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="I">Falk, er De vred<HIS:hisDel rend="overwritten">,</HIS:hisDel>?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Nej vist, jeg gaar og sturer,</l>
+<lb/><l part="I">Se det er alt.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker></HIS:spOpener>
+<lb/><l part="F">De er som to Naturer,</l>
+<lb/><l part="I"><app type="alteration"><lem><HIS:hisAdd place="offline">To uforligte &dash;</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">I Et forent</HIS:hisDel>, &dash;</HIS:hisRdg></app></l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja det ved jeg vel</l></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">Tilføyd i høyre marg.</note>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker></HIS:spOpener>
+<lb/><l part="I">Men Grunden?</l></HIS:hisSp>
+</HIS:hisAdd>
+<lb/><HIS:hisSp who="FALK"><l part="F">Grunden? J<unclear reason="writing">o</unclear> fordi jeg hader</l>
+<lb/><l>At gaa omkring med frækt udringet Sjæl</l>
+<lb/><l>Som Godtfolks Kjærlighed i alle Gader;</l>
+<lb/><l>At gaa omkring med blottet Hjertevarme,</l>
+<lb/><l>Som unge Kvinder gaar med nøgne Arme</l>
+<pb n="140"/>
+<lb/><l>De var den eneste &dash; De, Svanhild &dash; De &dash;</l>
+<lb/><l>Slig tænkte jeg &dash; naa den Ting er forbi &dash;</l>
+<HIS:hisAdd place="margin"><note resp="editor">Tilføyd vertikalt i venstre marg.</note>
+<lb/><HIS:hisStage>(vender sig efter Svanhild der gaar over mod Lysthuset og
+<lb/>ser ud.)</HIS:hisStage>
+</HIS:hisAdd>
+<lb/><l part="I">De lytter &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="F">Til en anden Røst, som taler;</l>
+<lb/><l>Tys<HIS:hisDel rend="overwritten">,</HIS:hisDel>! hører De? Hver Kveld naar Solen daler</l>
+<lb/><l>Da kommer flyvende en liden <sic>Tugl</sic> &dash;</l>
+<lb/><l>Se <emph>der</emph> &dash; der kom den frem af Løvet Skjul &dash; &dash;</l>
+<lb/><l>Ved De hvad fuldt og fast jeg tror? Hver Den</l>
+<lb/><l>Som her paa Jord blev nægtet Sangens <HIS:hisDel rend="overstrike">Evne</HIS:hisDel> Gave</l>
+<lb/><l>Han fik af Gud en liden Fugl til Ven,</l>
+<lb/><l><seg type="transposition" subtype="words_numbered"><seg rend="infralinear" subtype="no"><HIS:hisDel rend="overstrike">2</HIS:hisDel></seg><seg subtype="phrase">For <emph>En</emph></seg> <seg rend="infralinear" subtype="no"><HIS:hisDel rend="overstrike">1</HIS:hisDel></seg><seg subtype="phrase"><HIS:hisDel rend="overwritten">k</HIS:hisDel>Kun skabt</seg></seg> og for den <HIS:hisDel rend="overwritten">e</HIS:hisDel>Enes Have</l></HIS:hisSp><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_163ms"/>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l>Da gjælder det at Fugl og Ejer mødes,</l>
+<lb/><l>Skal ej dens Sang <app type="alteration"><lem><HIS:hisAdd place="offline">i fremmed Have</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">paa for døve Ører</HIS:hisDel></HIS:hisRdg></app> ødes.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>Ja det er sandt; men jeg har fundet mi<HIS:hisDel rend="overwritten">t</HIS:hisDel>n &dash;</l>
+<lb/><l>Jeg fik ej Ordets Magt, ej Sangerstemme,</l>
+<lb/><l>Men kviddrer <HIS:hisDel rend="overwritten">f</HIS:hisDel>Fuglen i sit grønne Gjemme</l>
+<lb/><l>Det er som Digte <app type="alteration"><lem><HIS:hisAdd place="offline">daled</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">spired</HIS:hisDel></HIS:hisRdg></app> i mit Sind, &dash;</l>
+<lb/><l><HIS:hisDel rend="overstrike">Vel san</HIS:hisDel>dt &dash;</l>
+<lb/><l>Nu ja &dash; de dvæler ej &dash; de flyver bort &dash;</l>
+<lb/><l>...</l>
+<lb/><l>O Gud! Der slog De den; hvad har De gjort!</l>
+<lb/><HIS:hisStage><HIS:hisDel rend="overstrike">(iler ud</HIS:hisDel>)</HIS:hisStage>
+<lb/><HIS:hisStage>(iler ud)</HIS:hisStage>
+<lb/><l part="I">O det var syndigt! syndigt!</l>
+<lb/><HIS:hisStage>(dækker <gap reason="writing"/>)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l part="F">Nej kun <HIS:hisDel rend="overstrike">Lige</HIS:hisDel> Øie</l>
+<lb/><l><HIS:hisDel rend="overwritten">Li</HIS:hisDel>For <app type="alteration"><lem><HIS:hisAdd place="offline">Øje</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Lige</HIS:hisDel></HIS:hisRdg></app>, Svanhild, <HIS:hisAdd place="offline">ikkun</HIS:hisAdd> Tand for Tand, <HIS:hisDel rend="overstrike">og Øje</HIS:hisDel></l>
+<lb/><l><HIS:hisDel rend="overstrike">For Øje</HIS:hisDel> &dash;</l>
+<lb/><l>Nu faar De in<HIS:hisDel rend="overwritten">tet</HIS:hisDel>gen <app type="alteration"><lem><HIS:hisAdd place="offline">Hilsen</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Budskab</HIS:hisDel></HIS:hisRdg></app> fra det Høje,</l>
+<lb/><l>Og ingen Gave mer fra Sangens Land.</l>
+<lb/><l>Se det er Hævnen over Deres <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Værk &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="I">Mit Værk!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja Deres; indtil denne Time</l>
+<pb n="141"/>
+<lb/><l>Slog i mit Bryst en Sangfugl kjæk og stærk &dash;</l>
+<lb/><l>Se nu kan Klokken over Begge kime;</l>
+<lb/><l part="I"><app type="alteration"><lem><HIS:hisAdd place="offline">Den <HIS:hisDel rend="overstrike">slog</HIS:hisDel><HIS:hisAdd place="offline">har</HIS:hisAdd> <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>De dræbt</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Om den den san</HIS:hisDel>g,</HIS:hisRdg></app></l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker></HIS:spOpener>
+<lb/><l part="M">Har <HIS:hisDel rend="overwritten">Du</HIS:hisDel>Jeg! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja da De slog</l>
+<lb/><l>Min <HIS:hisDel rend="overstrike">stærke</HIS:hisDel>, <HIS:hisDel rend="overstrike">glade,</HIS:hisDel> <app type="alteration"><lem><HIS:hisAdd place="offline">unge</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">stolte</HIS:hisDel></HIS:hisRdg></app>, glade <app type="alteration"><lem><HIS:hisAdd place="offline">Sejerstro</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Tro</HIS:hisDel></HIS:hisRdg></app> til Jorden!</l>
+<lb/><l part="I">D<HIS:hisDel rend="overwritten">e</HIS:hisDel>a <app type="alteration"><lem><HIS:hisAdd place="offline">De</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">er</HIS:hisDel></HIS:hisRdg></app> <emph>forlove<HIS:hisDel rend="overwritten">t</HIS:hisDel>d</emph> <HIS:hisDel rend="overwritten">&dash;</HIS:hisDel>Dem!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="F">Men <HIS:hisDel rend="overstrike">saa</HIS:hisDel> sig mig dog &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker>.</HIS:spOpener>
+<lb/><l><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Aa ja, <app type="alteration"><lem><HIS:hisAdd place="offline">den Ting</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Historien</HIS:hisDel></HIS:hisRdg></app> er <app type="alteration"><lem><HIS:hisAdd place="offline"><HIS:hisDel rend="overstrike">ganske</HIS:hisDel></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">jo</HIS:hisDel></HIS:hisRdg></app> <HIS:hisAdd place="offline">sagtens</HIS:hisAdd> i sin Orden.</l>
+<lb/><l><HIS:hisDel rend="overwritten">D</HIS:hisDel>Han <app type="alteration"><lem><HIS:hisAdd place="offline">tar</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">faar</HIS:hisDel></HIS:hisRdg></app> Examen <app type="alteration"><lem><HIS:hisAdd place="offline"><HIS:hisDel rend="overstrike">jo</HIS:hisDel></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">og</HIS:hisDel></HIS:hisRdg></app> <app type="alteration"><lem><HIS:hisAdd place="offline">faar</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">kommer</HIS:hisDel></HIS:hisRdg></app> <HIS:hisAdd place="offline">sig</HIS:hisAdd> strax <HIS:hisDel rend="overwritten">i</HIS:hisDel>en Stilling &dash;</l>
+<lb/><l>Han gaar jo til Amerika som Præst</l></HIS:hisSp><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="KK_164ms"/>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l>Og arver nok en ganske vakker Skilling</l>
+<lb/><l part="I">Ja, for det er vel Lind De mener?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l part="F">Bedst</l>
+<lb/><l part="I">Maa De vel vide &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, som Brudens Søster</l>
+<lb/><l part="I">Bør <emph>jeg</emph> jo &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l part="M"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Gud! Det er ej Dem<HIS:hisDel rend="overstrike">!</HIS:hisDel>&dash; &dash;!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker></HIS:spOpener>
+<lb/><l part="F">Som høster</l>
+<lb/><l>Den Lykkens Overflod? Ak nej desværre &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FALK"><HIS:spOpener><speaker>Falk</speaker></HIS:spOpener>
+<lb/><l>Det er ej Dem! O priset være Gud</l>
+<lb/><HIS:hisAdd place="inBetweenLines"><l><HIS:hisDel rend="overstrike">Jeg faar ej se Dem som en Andens Brud</HIS:hisDel> &dash;</l></HIS:hisAdd>
+<lb/><l>O han er god og kjærlig dog, Vorherre!</l>
+<pb n="142"/>
+<lb/><l>Jeg faar ej se Dem som en Andens Brud!</l>
+<lb/><l>Det var kun Smærtens Lys han vilde tænde &dash;</l>
+<lb/><l part="I">O hør mig Svanhild &dash; hør mig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVANHILD"><HIS:spOpener><speaker>Svanhild</speaker>
+<lb/><HIS:hisStage>(peger raskt mod Baggr)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F"><HIS:hisDel rend="overstrike">Stille</HIS:hisDel> &dash; <HIS:hisDel rend="overwritten">s</HIS:hisDel>Sé derhenne!</l>
+<lb/><HIS:hisStage>(gaar henimod Huset)</HIS:hisStage></HIS:hisSp>
+</div>
+</div>
+</body>
+</text>
+</TEI>

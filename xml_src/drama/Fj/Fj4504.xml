@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fjeldfuglen</title>
+<title level="a" type="desc">UBiT Ms. 504, 4&deg;</title>
+<title level="a" type="origYear">1860</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respStmt>
+<respStmt>
+<resp>Omgjøring av FjHU til Fj4504, oktober 2000:</resp>
+<name>Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Koding, kollasjonering og korrekturlesing, høsten 2000:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Fj4504-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Bygger på FjHU.xml (FjHU-1000).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="Fj4504">
+<msIdentifier>
+<settlement>Trondheim</settlement>
+<repository>Thv. Boecks saml., Gunnerusbiblioteket, Universitetsbiblioteket i Trondheim</repository>
+<idno>UBiT Ms. 504, 4&deg;</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Fjeldfuglen,</title>
+<title type="sub">romantisk Opera i een Akt</title>
+<docDate>1860</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript: egenhendig renskrift av første akt. Se for øvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Fj4504</head>
+<item>latinsk håndskrift med innslag av gotisk 's', høyrehellende, majuskler og minuskler</item>
+<item>tittelblad: (nesten) midtstilt
+<list>
+<item>hovedtittel: større skrift, i anførselstegn</item>
+</list>
+</item>
+<item>rolleliste:
+<list>
+<item>overskrift: midtstilt, dobbel understreking</item>
+<item>rollelisteinnførsel: venstrejustert
+<list>
+<item>rollebeskrivelse: enkel understreking</item>
+<item>rolleinnehaver: dobbel understreking</item>
+</list>
+</item>
+<item>situasjonsbeskrivelse: første linje såvidt innrykket, enkel understreking, parenteser</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt, dobbel understreking</item>
+<item>sceneanvisninger: enkel understreking
+<list>
+<item>sceneanvisning 1 (etter sceneoverskrift, mellom replikker): blokkstilt, med og uten parenteser</item>
+<item>sceneanvisning 2 (etter rollenavn, inne i replikker, korte sceneanvisninger etter replikker): stort sett midtstilt på egen linje, parenteser</item>
+<item>sceneanvisning 3 ("omsluttende"): i yttermarg, uten parenteser. Kodet med rend="braced".</item>
+<item>sceneanvisning 4 (sist i manuskriptet): større skrift, dobbel understreking, parenteser. Kodet med rend="deviation".</item>
+</list>
+</item>
+<item>rollenavn: midtstilt, dobbel understreking. Bindeordet 'og' mellom to rollenavn er i de fleste tilfellene umarkert og rollenavnene er markert hver for seg, men det forekommer også at hele sekvensen er markert samlet.</item>
+<item>verslinjer: lengre linjer er venstrejustert, men innrykket i forhold til lengre sceneanvisninger. Enkelte kortere linjer har ekstra innrykk (kodet med rend="indent"). Oppdelte verselinjer er henholdsvis venstrestilt (part="I"), midtstilt (part="M") og høyrestilt (part="F").</item>
+<item>utheving i sceneanvisning: noen rollenavn er markert med tykkere eller dobbel understreking</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>skillestreker:
+<list>
+<item>skigard: mellom verselinjegrupper i replikk</item>
+<item>trippel strek: til slutt i akten. Midterste strek tykkere. 7 cm</item>
+</list>
+</item>
+<item>bindestreker: Enkel strek plassert etter første og før andre del av ordet. I noen tilfeller ser bindestreken(e) mest ut som store punktum, 1 mm</item>
+<item>tankestrek: 4-5 mm</item>
+<item>anførselstegn: dobbel komma øvre</item>
+<item>parenteser: buede med to prikker eks. (: og :)</item>
+</list>
+</item>
+<item>ekstra: Sist i manuskriptet har M. A. Udbye skrevet noen ord om når og hvorfor han fikk manuskriptet av Ibsen i 1861. Se faksimile. Ibsens brev til Udbye er limt rundt manuskriptet.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label>IVAR</label><item>Ivar</item>
+<label>INGEBORG</label><item>Ingeborg</item>
+<label>SVEND</label><item>Svend</item>
+<label>KNUT</label><item>Knut Skytte/Knut/-</item>
+<label>THORGEJR</label><item>Thorgeir/Thorgejr/-</item>
+<label>ALFHILD</label><item>Alfhild/Alfhild/-</item>
+<label>GJÆSTER</label><item>Kor af Bryllupsgjæster/Gjæsterne, Kor af Bryllupsgjæster, Kor af Gjæsterne/Bryllupsgjæster, Gjæsterne</item>
+<label>HOUGFOLK</label><item>Kor af Hougfolk/Kor af Haugfolk, Kor af Hougfolk, Usynligt Kor af Hougfolk/-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="stage">Replikker og verselinjer som skal framføres samtidig (markert med klamme og felles sceneanvisning) er kodet innenfor samme sceneanvisning (stage rend="braced") med 'paa engang' i egen sceneanvisning. Denne sceneanvisningen er plassert før sekvensen og kodet som stage rend="bracedLeft".</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes><handNote scribe="HI-1" xml:id="HI-1" medium="pen-brown" scope="major"><p>Henrik Ibsen. Mørkebrunt blekk.</p></handNote></handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>08.11.12</date>
+<name>SBT</name><title>TEI P5</title>
+Manuelle endringer etter skripting. Valid TEI P5/HISe.</change>
+<change>
+<date>15.06.08</date>
+<name>HB</name><title>Innkoding av synkroniseringskoblinger</title>
+Validerte filen. Oppdaterte koding etter punktene i avsnittet om teiHeader i ms-filer i dokumentet HISe-forberedende_koding_og_notater.html. Kodet inn synkroniseringskoblinger. Lagde visning og oppsett for versjonsvisning.
+</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Fjernet performance og flyttet head inn i castList</title></change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>18.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering gjenstår</title>
+Typologisering gjenstår; hva slags type er dette mset? * Fjernet siste pb/ed/HU som var feilplassert siden HU mangler siste del av teksten. Oppdatert teiHeader.</change>
+<change><date>15.06.05</date>
+<name>HB</name><title>Rettet transkripsjonsfeil</title>
+Endret fra 'o' til 'ø' i tegn som mangler tødler, men hvor ordet skal (og kun kan) leses med 'ø'. Fjernet siccing av vaklende ortografi.</change>
+<change><date>03.06.05</date>
+<name>HB</name><title>Lenket sammen delt replikk</title>
+Lenket sammen delt replikk med id-verdier og join.</change>
+<change><date>26.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Siden dette ms-et ikke inneholder offline-tilføyelser er offline-kontrollen unødvendig.</change>
+<change><date>15.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Omkoding av ms-endringer i henhold til revidert kodepraksis. * Ny plassering av sideskifts-tagger innført + lagt inn n-attributt i pb siden tekstkilden ikke er foliert. Forkortet figure til tom tagg. SGREP-søk for kodeoversikt utført. Kodet om overwritten, overstrike/overwritten. Sjekket og kodet om apparater generelt. Sjekket at del dekker kun faktisk kodet tekst. Endret type/braced til rend/braced + innført den nye kodeløsningen for disse sceneanvisningene.</change>
+<change><date>26.09.02</date>
+<name>ENW</name><title>Oppdatering</title>
+Endret dokumentheaderen: fjernet entiteter og la inn ny lenke til dtden. La inn principal CJ. Erstattet shy-elementer med shy-entiteter. Validert.</change>
+<change><date>13.05.02</date>
+<name>SBT</name><title>Manuskriptbeskrivelse</title>
+Endret teksttype fra 'renskrift av første akt' til 'arbeidsmanuskript'.</change>
+<change><date>02.04.02</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret koding av manuskriptbeskrivelse i teiHeaderen.</change>
+<change><date>11.12.01</date>
+<name>SBT</name><title>Oppdatering</title>
+Oppdaterte koding etter vedtak på kodemøte 07.12. Førte inn TM som håndskriftsansvarlig i teiHeaderen. Fjernet nummerering av 'div'. Flyttet tegnsetting utenfor 'role'. Erstattet type i 'del' med rend.</change>
+<change><date>26.10.01</date>
+<name>EN</name><title>HU-sideskift</title>
+Lagt inn sideskiftene fra HU (som senere skal brukes til synkronisering av tekstvitner). Validert.</change>
+<change><date>24.08.01</date>
+<name>EN</name><title>Koding av verslinjer</title>
+Fjernet lg-kodingen. La inn rend="indent" ved innrykkede verslinjer. Validert.</change>
+<change><date>15.05.01</date>
+<name>EN</name><title>Sceneanvisninger, tagUsage og småpirk</title>
+stage: sjekket plassering av sceneanvisninger sist i replikker (jf. vedtak på kollasjonistmøtet 14.05.01). tagUsage: endret "castItem" til "id-who" i gi-attributtet, samt la inn navneformene i rollelisten. Småpirk: la inn principal = ESO i headeren. Validert.</change>
+<change><date>22.11.00</date>
+<name>SBT</name><title>Kodekontroll</title>
+Rettet opp noe småtteri i typografibeskrivelsen. La inn manglende variantapparatdeklarasjon i teiHeaderen. Brente cd.</change>
+<change><date>20.11.00</date>
+<name>SBT</name><title>Korrektur</title>
+Førte inn korrektur etter kollasjon mot manuskriptet. Har ikke kontrollert typografibeskrivelse eller koding.</change>
+<change><date>03.11.00</date>
+<name>EN</name><title>Innføring av kollasjonsnotater</title>
+Kollasjonert mot faksimiler og ført inn kollasjonsnotatene. Har ikke kodet Udbyes "etterord", men nevnt den i typografibeskrivelsen (og tekstutredningen). Filen klar til 2. runde.</change>
+<change><date>16.10.00</date>
+<name>EN</name><title>Etablering av Fj4504</title>
+Begynt etableringen av Fj4504 på basis av FjHU-filen. Fjernet HUs sideskift og paginering. La inn renskriftens sideskift og endret linjeskift i sceneanvisninger etc.. Fjernet HU-spesifikke opplysninger i TEI-headeren.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<front>
+<titlePage type="main">
+<pb ed="source" type="page_nopagination" subtype="recto" n="1" facs="1" /><lb/><docTitle><titlePart type="main"><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_273ms"/>&lquo;Fjeldfuglen&rquo;,</titlePart>
+<lb/><titlePart type="desc">romantisk Opera
+<lb/>i
+<lb/>een Akt</titlePart></docTitle>
+<byline><lb/>af
+<lb/><docAuthor>Henr: Ibsen.</docAuthor></byline>
+<docEdition><lb/>Kristiania.
+<lb/><date>18<HIS:hisDel rend="overwritten"><gap/>9</HIS:hisDel>60.</date></docEdition></titlePage>
+<pb ed="source" type="page_nopagination" subtype="verso" n="1"/>
+<pb ed="source" type="page_nopagination" subtype="recto" n="2"/><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_274ms"/>
+<pb ed="source" type="page_nopagination" subtype="verso" n="2" facs="2" /><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_275ms"/><lb/><HIS:hisCastList><head>Personerne:</head>
+<lb/><castItem xml:id="IVAR"><role>Ivar</role>, <roleDesc>en gammel rig Odelsbonde</roleDesc>.</castItem>
+<lb/><castItem xml:id="INGEBORG"><role>Ingeborg</role>, <roleDesc>hans Datter</roleDesc>.</castItem>
+<lb/><castItem xml:id="SVEND"><role>Svend</role>, <roleDesc>i hans Tjeneste</roleDesc>.</castItem>
+<lb/><castItem xml:id="KNUT"><role>Knut Skytte</role>, <roleDesc>en ung Bonde</roleDesc>.</castItem>
+<lb/><castItem xml:id="THORGEJR"><role>Thorgeir</role>, <roleDesc>en Spillemand</roleDesc>.</castItem>
+<lb/><castItem xml:id="ALFHILD"><role>Alfhild</role>.</castItem>
+<lb/><castItem xml:id="GJAESTER">Kor af Bryllupsgjæster.</castItem>
+<lb/><castItem xml:id="HOUGFOLK">Kor af Hougfolk.</castItem></HIS:hisCastList>
+<lb/><set><p>(Handlingen foregaar i en Fjeldegn
+<lb/>endel Aar efter den sorte Død.)</p></set>
+</front>
+<body>
+<div type="act" n="1">
+<div type="scene" n="1">
+<pb ed="source" type="page_nopagination" subtype="recto" n="3" facs="3" /><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_277ms"/><lb/><head>Første Scene.</head>
+<lb/><HIS:hisStage>(En vild Fjelddal lukket af bratte Bergsider;
+<lb/>ned fra Snefonderne i Baggrunden styrter en
+<lb/>strid Strøm og forsvinder i en Ur til
+<lb/>Høire. Bjerkeskov dækker Berget til Venstre.
+<lb/>Hele Landskabet straaler i stærk Aftenrøde;
+<lb/>lidt efter lidt falder Tusmørket paa.)</HIS:hisStage>
+<lb/><HIS:hisStage>Thorgejr sidder ved Fossen og spiller.</HIS:hisStage>
+<lb/><HIS:hisStage>Alfhild ligger tankefuld mellem Træerne til&typHyp;
+<lb/>venstre.</HIS:hisStage>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Det Kvad, som kvædes</l>
+<lb/><l>I Fossen den stride, &dash;</l>
+<lb/><l>Den Slaat, som ljomer</l>
+<lb/><l>Langs Bjørkelide, &dash;</l>
+<lb/><l>Den Laat, som lokker</l>
+<lb/><l>I Lauv og Bar,</l>
+<lb/><l>Tykkes mig kræve</l>
+<lb/><l>Et Strengeleiksvar!</l></HIS:hisSp>
+<lb/><HIS:hisStage>Græsvolden aabner sig, Hougfolket kommer
+<lb/>sagte frem og lytter: &dash;</HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker>Kor af Haugfolk</speaker>:</HIS:spOpener>
+<lb/><l>Hys! hør paa!</l>
+<lb/><l>Hougfolk smaa</l>
+<lb/><l>Gjerne vil i Dansen gaa!</l>
+<lb/><l>Sommerkvæld</l>
+<pb ed="source" type="page_nopagination" subtype="verso" n="3" facs="4" /><lb/><l>Duger vel</l>
+<lb/><l>Til et <sic>Stævn</sic> over Fjeld!</l></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa engang.</HIS:hisStage>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Det Kvad som kvædes</l>
+<lb/><l>o. s. v. o. s. v.</l></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_278ms"/><lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>
+<lb/><HIS:hisStage>(drømmende)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Det Kvad, som kvædes</l>
+<lb/><l>I Fossen den stride, &dash;</l>
+<lb/><l>Det tykkes mig rumme</l>
+<lb/><l>Saa tung en Kvide;</l>
+<lb/><l>Den Laat, som ljomer</l>
+<lb/><l>I Lauv og Bar,</l>
+<lb/><l>Tykkes mig kræve</l>
+<lb/><l>Fra Bringen Svar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker>Kor af Hougfolk</speaker>.
+<lb/><HIS:hisStage>(idet de sagte nærme sig)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Alfhild, den Væne!</l>
+<lb/><l>Stille, stille, &dash;</l>
+<lb/><l>Væk hende ikke,</l>
+<lb/><l>Lad hende drømme!</l>
+<lb/><l>Hør Strengen graater,</l>
+<lb/><l>Hør Fossen kvæder!</l>
+<lb/><l>Over Lien det laater</l>
+<lb/><l>Mens Dandsen vi træder!</l></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:hisStage>(Thorgejr spiller, Alfhild synes drømmende
+<lb/>at lytte mens Hougfolket danser og gjen&typHyp;
+<lb/>tager)</HIS:hisStage>
+<lb/><l>Hør Strengen graater</l>
+<lb/><l>o. s. v. o. s. v.</l></HIS:hisSp>
+<pb ed="source" type="page_nopagination" subtype="recto" n="4" facs="5" /><lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Kor af Bryllupsgjæster</speaker>.
+<lb/><HIS:hisStage>(udenfor Scenen tilhøjre i det Fjerne.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Vaagn op, vaagn op, du kristne Mand!</l>
+<lb/><l>Hvi sover du saa tungt og saa længe!</l></HIS:hisSp>
+<lb/><join target="HOUGFOLK_1 HOUGFOLK_2"/><HIS:hisSp who="HOUGFOLK" xml:id="HOUGFOLK_1"><HIS:spOpener><speaker>Kor af Hougfolk</speaker>. &dash;</HIS:spOpener>
+<lb/><l>Huttetu!</l>
+<lb/><l>Skræk og Gru</l>
+<lb/><l>Fylder Hougafolkets Hug!</l></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa engang.</HIS:hisStage>
+<lb/><HIS:hisSp who="HOUGFOLK" xml:id="HOUGFOLK_2"><l>Rap og snygg, &dash;</l>
+<lb/><l>Hougens Ryg</l>
+<lb/><l>Dølge dig; der er du tryg!</l>
+<lb/><HIS:hisStage>(de forsvinde)</HIS:hisStage></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_279ms"/><lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Kor af Bryllupsgjæster</speaker>.
+<lb/><HIS:hisStage>(fremdeles udenfor, men nærmere.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Vaagn op, vaagn op, du kristne Mand,</l>
+<lb/><l>Hvi sover du saa tungt og saa længe!</l></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.
+<lb/><HIS:hisStage>(springer op)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Hør; hvad er det? Opigjennem Dalen</l>
+<lb/><l>Drager saa fint et Følge!</l>
+<lb/><l>Aldrig saa jeg sligt før idag;</l>
+<lb/><l>Der er de; &dash; hvor skal jeg mig dølge!</l>
+<lb/><HIS:hisStage>(Hun flygter ind i Lien til Venstre)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisStage><HIS:stageRole who="IVAR">Ivar</HIS:stageRole>, <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>, <HIS:stageRole who="SVEND">Svend</HIS:stageRole> og <HIS:stageRole who="GJAESTER">Bryllupsgjæ&typHyp;
+<lb/>ster</HIS:stageRole> kommer ind fra Højre.</HIS:hisStage>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Kor af Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>See hvor Berget bart og brat</l>
+<lb/><l>Staar i Kveldens Skygge!</l>
+<lb/><l>Mørket falder; snart er det Nat;</l>
+<pb ed="source" type="page_nopagination" subtype="verso" n="4" facs="6" /><lb/><l>See deroppe; bag Koll og Knat</l>
+<lb/><l>Blaaner Jøklernes Rygge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Husbond, vilde I lyde mit Ord, &dash;</l>
+<lb/><l>Nedigjen som en Vind I foer;</l>
+<lb/><l>Kom ihu, &dash; det er utrygt herinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l>Og Sagnet siger at Nøkkens Spil</l>
+<lb/><l>Kværver hver den som herinde foer vild,</l>
+<lb/><l>Saa han aldrig kan ud igjen finde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.</HIS:spOpener>
+<lb/><l part="I">Vidløs Snak!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l part="M">Vend om!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F">Vend om!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker><note type="typo">Manglende punktum.</note></HIS:spOpener>
+<lb/><l part="I">Ja ned til Bygden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l part="M">Saa kom!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F">Saa kom!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Øde laa Dalen i lange Aar;</l>
+<lb/><l>Den som I søger, I aldrig naar, &dash;</l>
+<lb/><l>Husbond, dersom I vidste &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.</HIS:spOpener>
+<lb/><l part="I">Naa, hvad er det?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F">Sig du det frit!</l></HIS:hisSp>
+<pb ed="source" type="page_nopagination" subtype="recto" n="5" facs="7" /><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_280ms"/><lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Dersom I kjendte bare lidt</l>
+<lb/><l>Af<HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> det som jeg her maatte friste! &dash;</l>
+<lb/><l>Jeg jog de vilde Rener</l>
+<lb/><l>Paa Vidden langt derinde;</l>
+<lb/><l>Da ljomed lydt fra Juvet</l>
+<lb/><l>Et Kvad, som fra en Kvinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Forbandet er Dalen, alt fra den Stund</l>
+<lb/><l>Da Pesten mærked paa Pande og Mund</l>
+<lb/><l>Den Sidste herinde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Jeg glytted udfor Berget,</l>
+<lb/><l>Jeg saa i de stride Strømme;</l>
+<lb/><l part="I">Der sad hun &dash; &dash;</l>
+<lb/><HIS:hisStage>(han viser mod Baggrunden hvor Thorgejr
+<lb/>sidder; Alle faar Øie paa ham og viger
+<lb/>overraskede tilside.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l part="F">Thorgejr, Thorgejr!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Ja, Husbond, &dash; nu kan I dømme!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.
+<lb/><HIS:hisStage>(hviskende mellem hverandre.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Huldrelok,</l>
+<lb/><l>Kvad fra Fossen</l>
+<lb/><l>Har han lært!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.
+<lb/><HIS:hisStage>(reiser sig og kommer frem.)</HIS:hisStage></HIS:spOpener>
+<pb ed="source" type="page_nopagination" subtype="verso" n="5" facs="8" /><lb/><l>Rap i Flok</l>
+<lb/><l>Over Aasen,</l>
+<lb/><l>Har I Livet kjært!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker>Svend</speaker> og <speaker>Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l>Hør han truer!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Kvinderne</speaker>.</HIS:spOpener>
+<lb/><l>Vee os dog at vi kom hid!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Hougafolkets Høitidsstuer</l>
+<lb/><l>Aabner sig ved Nattetid!</l>
+<lb/><l>Hvis I lyster der at dandse,</l>
+<lb/><l>Jeg skal spille!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.</HIS:spOpener>
+<lb/><l>Stille, stille!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Ingeborg</speaker> og <speaker>Kvinderne</speaker>.</HIS:spOpener>
+<lb/><l>Hu! af Skræk jeg knapt kan sandse!</l></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_281ms"/><lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Ned til Bygden! Ned, ja ned!</l>
+<lb/><l>Her er et forbandet Sted!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Forbandet; ja, I har det sagt!</l>
+<lb/><l>Mennesket tør ei færdes herinde!</l>
+<lb/><l>Her blev længst tilhvile lagt</l>
+<lb/><l>Den sidste Mand og Kvinde!</l>
+<lb/><l>Landfarsotten fra Gaard til Gaard</l>
+<lb/><l>Feied for Døren og Folket døde;</l>
+<lb/><l>Siden randt baade Vinter og Vaar,</l>
+<lb/><l>Men endnu ligger Dalen øde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Ned til Bygden o. s. v.</l></HIS:hisSp>
+<pb ed="source" type="page_nopagination" subtype="recto" n="6" facs="9" /><lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.
+<lb/><HIS:hisStage>(til Ivar)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Datter din staar med Guldkrone paa!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.
+<lb/><HIS:hisStage>(rasende)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Imorgen hun skulde for Alteret gaa;</l>
+<lb/><l>Men Brudgommen er ei at finde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Huldrens Hal har en Port saa stærk;</l>
+<lb/><l>Der glemmes Alverdens Vee og Værk; &dash;</l>
+<lb/><l>Den som engang sidder derinde</l>
+<lb/><l>Aldrig kommer</l>
+<lb/><l>Ud i Dagen, i den lyse Sommer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Aldrig han kommer</l>
+<lb/><l>Ud i Dagen, i den lyse Sommer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.</HIS:spOpener>
+<lb/><l>Slaa ham ned, han spaar os ilde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker>Ingeborg</speaker> og <speaker>Svend</speaker><note type="typo">Manglende punktum.</note></HIS:spOpener>
+<lb/><l>Stille, stille!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Længer, længer frem endnu,</l>
+<lb/><l>Skjønt vi gaar med Skræk ihug!</l>
+<lb/><l>Knut Skytte, Knut Skytte!</l>
+<lb/><l>Tyst paa Bergets Port du glytte!</l>
+<lb/><l>Vi raaber dit Navn i Kvælden den svale &dash;</l>
+<lb/><l>Blund ikke længer i Huldrens Sale!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Thorgejr forsvinder ved Elven; de Øvrige gaar
+<lb/>ud til Venstre; Efterspillet glider sagte over
+<lb/>i følgende<unclear reason="ink">.</unclear>)</HIS:hisStage>
+<pb ed="source" type="page_nopagination" subtype="verso" n="6" facs="10" /><lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker>Usynligt Kor af Hougfolk</speaker>.</HIS:spOpener>
+<lb/><l rend="indent">Aldrig han kommer</l>
+<lb/><l>Ud i Dagen, &dash; i den lyse Sommer!</l></HIS:hisSp>
+<lb/><HIS:hisStage><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_282ms"/>(Alfhild og Knut kommer tilsyne oppe i
+<lb/>Lien tilvenstre)</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Hør derborte, langt derborte!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Ja, som Laat af Lur og Klokker!</l>
+<lb/><l>Mænd og Kvinder den Forgjorte</l>
+<lb/><l>Ud af Berget lokker.</l>
+<lb/><l>Lad dem kvæde, lad dem lokke;</l>
+<lb/><l>Lad de glemte Minder flokke</l>
+<lb/><l>Sig og klinge</l>
+<lb/><l>I min Bringe, &dash;</l>
+<lb/><l>Lukt er Bygden nedenunder,</l>
+<lb/><l>Aldrig did jeg stunder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Vent som et Vaarkvad i Lærkemunde</l>
+<lb/><l>Mægter du dine Ord at knytte;</l>
+<lb/><l>Fugl i Furru og Lauv i Lunde</l>
+<lb/><l>Tykkes mig tystne, tykkes mig lytte!</l>
+<lb/><l>Vist har du hjemme langt derborte</l>
+<lb/><l>Bag Skogen den sorte!</l>
+<lb/><l>Vist er du Svenden fager og god,</l>
+<lb/><l>Som prises i Sagn og Sange, &dash;</l>
+<lb/><l>Han som Hugen min har stundet imod</l>
+<lb/><l rend="indent">I Nætter lange!</l>
+<lb/><figure type="bar"/>
+<pb ed="source" type="page_nopagination" subtype="recto" n="7" facs="11" /><lb/><l>I Lien spratt baade Rogn og Hæg,</l>
+<lb/><l>Der rødned Multer i Myr,</l>
+<lb/><l>Jeg hvilte saa lunt under Bergets Væg,</l>
+<lb/><l>Jeg var Søster til Skogens Dyr;</l>
+<lb/><l>Og Gubben fra Fossen isøvn mig kvad</l>
+<lb/><l>Alt med sine Viser saa vene, &dash;</l>
+<lb/><l>Det voldte jeg gik baade varm og glad,</l>
+<lb/><l>Og glemte jeg var alene!</l>
+<lb/><figure type="bar"/>
+<lb/><l>Han kvad om en Slægt, jeg aldrig saa, &dash;</l>
+<lb/><l>Om Kvinder og stærke Mænd,</l>
+<lb/><l><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_283ms"/>Om Noget jeg tidt maa tænke paa &dash;</l>
+<lb/><l>Om Elskog; sig, kjender du den?</l>
+<lb/><l>Han kvad om en Dal, jeg aldrig har kjendt,</l>
+<lb/><l>Han kaldte den Verden den vide, &dash;</l>
+<lb/><l>Det voldte jeg gik baade tidligt og seent</l>
+<lb/><l>Og bar paa en lønlig Kvide!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Jeg aatte Gaard og jeg aatte Guld,</l>
+<lb/><l>De gav mig en Fæstemø;</l>
+<lb/><l>Men endda var Hugen min tung og fuld, &dash;</l>
+<lb/><l>Jeg rømte fra Brud og Bø!</l>
+<lb/><l>I Vildske jeg vandred; da fandt jeg dig,</l>
+<lb/><l>Min fagreste Sommerglæde!</l>
+<lb/><l>Ret aldrig saa gaar Knut Skyttes Vej</l>
+<lb/><l>Til Kristenlandet dernede!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>
+<lb/><HIS:hisStage>(jublende)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Han er funden, han er funden,</l>
+<pb ed="source" type="page_nopagination" subtype="verso" n="7" facs="12" /><lb/><l rend="indent">Han som længe</l>
+<lb/><l>Lokked bagved Gubbens Strenge;</l>
+<lb/><l rend="indent">Han som tyktes</l>
+<lb/><l rend="indent">Mig at tale</l>
+<lb/><l rend="indent">Gjennem Trost og</l>
+<lb/><l rend="indent">Stær i Dale!</l>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l>Nu er Alfhilds Vaar oprunden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Hun er funden, hun er funden!</l>
+<lb/><l rend="indent">Fin og fager,</l>
+<lb/><l>Sommerlys, som Blom i Ager!</l>
+<lb/><l rend="indent">Aldrig vil jeg</l>
+<lb/><l rend="indent">Hjemmet savne,</l>
+<lb/><l rend="indent">Kan jeg vaagen.</l>
+<lb/><l rend="indent">Hende favne!</l>
+<lb/><l>Hun er funden, hun er funden!</l>
+<lb/><l>Fagrest Vaar for mig er runden!</l></HIS:hisSp>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa engang.</HIS:hisStage>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_284ms"/><lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l rend="indent">Han som længe</l>
+<lb/><l>Lokked bagved Gubben<unclear reason="ink">s</unclear> Strenge;</l>
+<lb/><l rend="indent">o. s. v. o. s. v.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Hun er funden, hun er funden!</l>
+<lb/><l rend="indent">Fin og fager,</l>
+<lb/><l>Sommerlys, som Blom i Ager!</l>
+<lb/><l rend="indent">o. s. v; o. s. v.</l></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisStage><HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole> og <HIS:stageRole who="SVEND">Svend</HIS:stageRole> er under det Foregaaende
+<lb/>kommet frem oppe i Lien tilvenstre. &dash;</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa engang.</HIS:hisStage>
+<pb ed="source" type="page_nopagination" subtype="recto" n="8" facs="13" /><lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker>Ingeborg</speaker> og <speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l rend="indent">Se, en Kvinde</l>
+<lb/><l>Monne her ham trolddomsbinde!</l>
+<lb/><l rend="indent">Hun forvist har</l>
+<lb/><l rend="indent">Fult ham fristet,</l>
+<lb/><l rend="indent">Saa han Sind og</l>
+<lb/><l rend="indent">Sands har mistet!</l>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l>Tungest Dag for mig er runden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l rend="indent">Han som længe</l>
+<lb/><l>Lokked bagved Gubbens Strenge!</l>
+<lb/><l rend="indent">o. s. v; o. s. v.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Hun er funden; hun er funden!</l>
+<lb/><l rend="indent">Fin og fager,</l>
+<lb/><l>Sommerlys, som Blom i Ager!</l>
+<lb/><l rend="indent">o. s. v. o. s. v.</l></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisStage>(Ingeborg og Svend skynde sig usete ud i&typHyp;
+<lb/>gjen til Venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Lunt under Bakken vil jeg bygge vor Stue,</l>
+<lb/><l>Her vil vi færdes tilsammen, &dash;</l>
+<lb/><l>Færdes frit som Rener paa Vidden</l>
+<lb/><l rend="indent">Bag Jøkulkammen!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Nei, bag Bergets Iskam blaa</l>
+<lb/><l><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_285ms"/>Langt i Livet ud jeg maa!</l>
+<pb ed="source" type="page_nopagination" subtype="verso" n="8" facs="14" /><lb/><l>Alfhilds Dal er mig nu for trang</l>
+<lb/><l>I Verdens Dal, der er Leg og Sang!</l>
+<lb/><figure type="bar"/>
+<lb/><l>Udad i Verden!</l>
+<lb/><l>Trofast paa Færden</l>
+<lb/><l>Kom og min Styrismand bliv!</l>
+<lb/><l>Høit over Heiene</l>
+<lb/><l>Bugter sig Veiene, &dash;</l>
+<lb/><l>Der vi lig svømmende</l>
+<lb/><l>Skyer og strømmende</l>
+<lb/><l>Bække vil stævne til Liv!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Ja, jeg vil følge,</l>
+<lb/><l>Ingen fordølge</l>
+<lb/><l>Skatten, herinde jeg vandt!</l>
+<lb/><l>Hidop skal skyndte sig</l>
+<lb/><l>Kvinder at pynte dig;</l>
+<lb/><l>Svende skal følges ad,</l>
+<lb/><l>Prise med høie Kvad</l>
+<lb/><l>Alfhild, den Fagre, forsandt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Kor af Gjæsterne</speaker>
+<lb/><HIS:hisStage>(udenfor til Venstre)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l>Nu er Hædersdagen runden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.
+<lb/><HIS:hisStage>(der ligesom kommer til sig selv.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Vee mig; vee!</l>
+<lb/><l>Min Drøm er endt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.
+<lb/><HIS:hisStage>(i højeste Glæde)</HIS:hisStage></HIS:spOpener>
+<pb ed="source" type="page_nopagination" subtype="recto" n="9" facs="15" /><lb/><l>See dog, see!</l>
+<lb/><l>O, hør hvor veent!</l>
+<lb/><l>Mænd og Kvinder paa dit Bud</l>
+<lb/><l>Kommer med Kvæder</l>
+<lb/><l>I Høitidsklæder</l>
+<lb/><l>Dig til Hæder</l>
+<lb/><l>At hente din Brud!</l></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_286ms"/><lb/><HIS:hisStage><HIS:stageRole who="IVAR">Ivar</HIS:stageRole>, <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>, <HIS:stageRole who="SVEND">Svend</HIS:stageRole> og <HIS:stageRole who="GJAESTER">Gjæsterne</HIS:stageRole> kommer
+<lb/>ind fra Venstre. Alfhild staar noget
+<lb/>afsides tilhøjre uden at bemærkes og følger
+<lb/>i høieste Spænding det følgende Optrin u&typHyp;
+<lb/>den dog, at høre hvad der handles om.</HIS:hisStage>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Nu er Fæstemanden funden</l>
+<lb/><l>Der han gik som trolddomsbunden!</l>
+<lb/><l>Endt er Sorgen;</l>
+<lb/><l>Spil og Dands fra tidligst Morgen</l>
+<lb/><l>Lyde skal i Bryllupsgaard!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.
+<lb/><HIS:hisStage>(til Svend.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>See hvor hjerteklemt han staar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>
+<lb/><HIS:hisStage>(til Knut.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">Hvad er mødt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>. &dash;
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Hvad skal jeg svare!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Siden kan I Tingen klare;</l>
+<pb ed="source" type="page_nopagination" subtype="verso" n="9" facs="16" /><lb/><HIS:hisStage>(til Knut.)</HIS:hisStage>
+<lb/><l>Hjemad nu, dit Ord at holde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.
+<lb/><HIS:hisStage>(sagte og smærteligt med et Blik paa Alfhild)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Og hende jeg maa slig Kvide volde!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Præsten venter og Dugen er bredt</l>
+<lb/><l rend="indent">Paa Bryllupsbord;</l>
+<lb/><l>Kirkestien er snar og let;</l>
+<lb/><l>Imorgen skal høres i højen Kor</l>
+<lb/><l>De hellige Vigselsord!</l>
+<lb/><l>Kom, følg os, &dash; afsted!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.
+<lb/><HIS:hisStage>(kjæmpende med sig selv)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Ja jeg følger; men &dash; hun følger med!</l>
+<lb/><HIS:hisStage>(han peger paa Alfhild som <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>træder nærmere<note type="typo">Manglende tegnsetting.</note>
+<lb/>Alle vige sky tilbage.)</HIS:hisStage>
+</HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Ha, en Kvinde! Det er hende,</l>
+<lb/><l>Som har vidst hans Hug at vende</l>
+<lb/><l>Fra hans Hjertenskjær!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="IVAR"><HIS:spOpener><speaker>Ivar</speaker>.</HIS:spOpener>
+<lb/><l>Ligemeget hvem hun er.</l>
+<lb/><l>Med til Bygden skal hun følge!</l>
+<lb/><HIS:hisStage>(afsides til Knut.)</HIS:hisStage>
+<lb/><l>Hvad dig hendte maa du dølge;</l>
+<lb/><l>Husk, din Brud er nær!</l></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_287ms"/><lb/><join target="ALFHILD_1 ALFHILD_2"/><HIS:hisSp who="ALFHILD" xml:id="ALFHILD_1"><HIS:spOpener><speaker>Alfhild</speaker>.
+<lb/><HIS:hisStage>(til Thorgejr som ubemærket
+<lb/>har blandet sig i Flokken.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<pb ed="source" type="page_nopagination" subtype="recto" n="10" facs="17" />
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa engang.</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD" xml:id="ALFHILD_2"><l>Han er funden, han er funden,</l>
+<lb/><l>Han som laa lig Guld paa Bunden</l>
+<lb/><l>Af min Tankestrøm!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER"><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Det er hende, det er hende,</l>
+<lb/><l>Som har vidst o. s. v.</l></HIS:hisSp>
+</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa engang.</HIS:hisStage>
+<lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Vee, da vil din Vaarblom visne;</l>
+<lb/><l>Da vil Verdens Vinter isne</l>
+<lb/><l>Over al din Drøm!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER IVAR"><HIS:spOpener><speaker>Ivar</speaker> og <speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Med til Bygden maa hun følge!</l>
+<lb/><l>Ei i Kirken vil sig dølge</l>
+<lb/><l>Længe hvem hun er!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Vee mig; Alfhild med vil følge!</l>
+<lb/><l>Ei i Kirken kan sig dølge,</l>
+<lb/><l>Hvem som Bruden er!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l>Ei jeg vil for Altret følge</l>
+<lb/><l>Ham, som monne her sig dølge</l>
+<lb/><l>Hos sin Hjertenskjær!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SVEND"><HIS:spOpener><speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Fagre Ingeborg skal følge</l>
+<lb/><l>Ham som Viv, og jeg maa dølge</l>
+<lb/><l>Al den Vee jeg bær!</l></HIS:hisSp>
+</HIS:hisStage>
+<lb/><HIS:hisStage>(Tusmørket er nu paa det Højeste og
+<lb/>begynder igjen saa smaat at aftage. &dash;
+<lb/>Hougfolket viser sig oppe i Lierne i
+<lb/>Baggrunden)</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">paa en&typHyp;</HIS:hisStage>
+<pb ed="source" type="page_nopagination" subtype="verso" n="10" facs="18" /><lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Han er kommen, han er funden,</l>
+<lb/><l rend="indent">Han, som længe</l>
+<lb/><l>Sang til mig fra dine Strenge!</l>
+<lb/><l rend="indent">Verdens Lykke</l>
+<lb/><l rend="indent">Vént mig lokker</l>
+<lb/><l rend="indent">Gjennem Laat af</l>
+<lb/><l rend="indent">Lur og Klokker!</l>
+<lb/><l>Han er kommen, han er funden!</l>
+<lb/><l>Nu er Alfhilds Vaar oprunden!</l></HIS:hisSp>
+<HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_288ms"/><lb/><HIS:hisSp who="KNUT"><HIS:spOpener><speaker>Knut</speaker>.</HIS:spOpener>
+<lb/><l>Tankestjaalen, <sic>troldomsbunden</sic></l>
+<lb/><l rend="indent">Gik jeg længe,</l>
+<lb/><l>Gad mig ud fra Livet stænge;</l>
+<lb/><l rend="indent">Lys og Fred var</l>
+<lb/><l rend="indent">I min Bringe,</l>
+<lb/><l rend="indent">Kvide nu mig</l>
+<lb/><l rend="indent">Hart mon stinge;</l>
+<lb/><l>Endt er Skyttens Liv i Lunden;</l>
+<lb/><l>Tungest Dag for mig er runden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG SVEND"><HIS:spOpener><speaker>Ingeborg</speaker> og <speaker>Svend</speaker>.</HIS:spOpener>
+<lb/><l>Han er funden, han er funden!</l>
+<lb/><l rend="indent">Her en Kvinde</l>
+<lb/><l>Monne fult ham trolddomsbinde!</l>
+<lb/><l rend="indent">Fra imorgen,</l>
+<lb/><l rend="indent">Fra imorgen</l>
+<lb/><l rend="indent">Fast jeg lænkes</l>
+<lb/><l rend="indent">Skal til Sorgen!</l>
+<lb/><l>Vee mig, vee, at han blev funden;</l>
+<lb/><l>Tungest Dag for mig er runden!</l></HIS:hisSp>
+</HIS:hisStage>
+<HIS:hisStage rend="braced"><HIS:hisStage rend="bracedLeft">&typHyp;gang.</HIS:hisStage>
+<pb ed="source" type="page_nopagination" subtype="recto" n="11" facs="19" /><lb/><HIS:hisSp who="THORGEJR"><HIS:spOpener><speaker>Thorgejr</speaker>.</HIS:spOpener>
+<lb/><l>Nu er Prøvens Dag oprunden!</l>
+<lb/><l rend="indent">Her du længe</l>
+<lb/><l>Leved af min Leik paa Strenge;</l>
+<lb/><l rend="indent">Nu du færdes</l>
+<lb/><l rend="indent">Skal saa vide,</l>
+<lb/><l rend="indent">Friste Verdens</l>
+<lb/><l rend="indent">Vee og Kvide;</l>
+<lb/><l>Men er Slottet brændt til Grunden,</l>
+<lb/><l>Mig du ser i Trængselsstunden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GJAESTER IVAR"><HIS:spOpener><speaker>Ivar</speaker> og <speaker>Gjæsterne</speaker>.</HIS:spOpener>
+<lb/><l>Nu er Fæstemanden funden!</l>
+<lb/><l rend="indent">Her han længe</l>
+<lb/><l>Lyttet har til Trolddomsstrenge;</l>
+<lb/><l rend="indent">Men imorgen,</l>
+<lb/><l rend="indent">Ja, imorgen</l>
+<lb/><l rend="indent"><HIS:synopticViewPtr type="synopticView_msVersions" xml:id="Fj_289ms"/>Skal vi glemme</l>
+<lb/><l rend="indent">Frygt og Sorgen!</l>
+<lb/><l>Ned til Bygden gjennem Lunden</l>
+<lb/><l>Gaar vor Færd i Midnatsstunden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="HOUGFOLK"><HIS:spOpener><speaker>Kor af Hougfolk</speaker>.</HIS:spOpener>
+<lb/><l>Hil og sæl i Afskedsstunden!</l>
+<lb/><l rend="indent">Did, du stævner,</l>
+<lb/><l>Ei at følge dig vi evner!</l>
+<lb/><l rend="indent">Efter Lykken</l>
+<lb/><l rend="indent">Vil du jage;</l>
+<lb/><l rend="indent">Ak, du fanger</l>
+<lb/><l rend="indent">Vee og Klage!</l>
+<lb/><l>Snart din fagre Drøm er svunden;</l>
+<lb/><l>Gjæst da os i Trængselsstunden!</l></HIS:hisSp>
+</HIS:hisStage>
+<pb ed="source" type="page_nopagination" subtype="verso" n="11" facs="20" /><lb/><HIS:hisStage>(Hougfolket vinker med Blomster og Grene
+<lb/>idet Alfhild med høi Glæde følger de
+<lb/>Bortdragende, som alle gaa ud til Høire,
+<lb/>undtagen Thorgejr, der bliver tankefuld
+<lb/>tilbage ved Elven.)</HIS:hisStage>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisStage rend="deviation">(Dekorationsforandring.)</HIS:hisStage>
+</div>
+</div>
+</body>
+</text>
+</TEI>

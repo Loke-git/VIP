@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="No">Norma</title>
+<title>No: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>19.12.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteNo_1"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_1">repræsenteres</HIS:hisRef>] <hi rend="italic">HIS,</hi> repræsenterers <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_2"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_2">fiendtlig</HIS:hisRef>] <hi rend="italic">HIS,</hi> fientlig <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_3"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_3">Severs</HIS:hisRef>] <hi rend="italic">HIS,</hi> Severs, <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_4"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_4">bliver</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> blier<hi rend="italic">, jf. neste verslinje</hi></note>
+<note resp="editor" xml:id="noteNo_5"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_5">den</HIS:hisRef>] <hi rend="italic">HIS,</hi> dem <hi rend="italic">1. utg.,</hi> den <hi rend="italic">viser til</hi> Frihedsskatten</note>
+<note resp="editor" xml:id="noteNo_6"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_6">erritabel</HIS:hisRef>] <hi rend="italic">kanskje tilsiktet feil for</hi> irritabel</note>
+<note resp="editor" xml:id="noteNo_7"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_7">Radikale,</HIS:hisRef>] <hi rend="italic">HIS,</hi> Radikale. <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_8"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_8">Nummer</HIS:hisRef>] <hi rend="italic">HIS,</hi> Numer <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_9"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_9">vakt.</HIS:hisRef>] <hi rend="italic">HIS,</hi> vakt <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_10"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_10">herinde.</HIS:hisRef>] <hi rend="italic">HIS,</hi> herinde <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_11"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_11">De</HIS:hisRef>] <hi rend="italic">HIS,</hi> de <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_12"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_12">han,</HIS:hisRef>] <hi rend="italic">HIS,</hi> han <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNo_13"><HIS:hisRef type="tcNote" target="Noht.xml" corresp="noteNo_13">Deres</HIS:hisRef>] <hi rend="italic">HIS,</hi> deres <hi rend="italic">1. utg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

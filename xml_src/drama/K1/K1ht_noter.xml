@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="K1">Kjæmpehøien, 1. hovedversjon</title>
+<title>K1ht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt>
+<resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nesshiem Wiger</name>
+</respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>04.12.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteK1_1"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_1">Act</HIS:hisRef>] <hi rend="italic">etter er senere strøket</hi> af Brynjolf Bjarme</note>
+<note resp="editor" xml:id="noteK1_2"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_2">Hrolloug</HIS:hisRef>] <hi rend="italic">endret fra</hi> Hrollaug</note>
+<note resp="editor" xml:id="noteK1_3"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_3">Kjæmpehøi</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Kjæmpehøi,</note>
+<note resp="editor" xml:id="noteK1_4"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_4">Bautasteen;</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Bautasteen,</note>
+<note resp="editor" xml:id="noteK1_5"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_5">maalløs</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteK1_6"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_6">Blodig skal synke til Jord</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Synke skal blodig til Jord</note>
+<note resp="editor" xml:id="noteK1_7"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_7">Blodig</HIS:hisRef>] <hi rend="italic">endret fra</hi> Blodigt</note>
+<note resp="editor" xml:id="noteK1_8"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_8">Hemming</HIS:hisRef>] <hi rend="italic">HIS,</hi> Hemming Hemming <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_9"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_9">Gandalf</HIS:hisRef>] <hi rend="italic">HIS,</hi> Gandalf Gandalf <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_10"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_10">Farvetinder</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> Farvetinter<hi rend="italic">, jf. HU</hi></note>
+<note resp="editor" xml:id="noteK1_11"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_11">Hemming</HIS:hisRef>] <hi rend="italic">HIS,</hi> Hemming Hemming <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_12"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_12">Blanka</HIS:hisRef>] <hi rend="italic">HIS,</hi> Blanka Blanka <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_13"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_13">Slægtninge</HIS:hisRef>] <hi rend="italic">endret fra</hi> Slægtninge,</note>
+<note resp="editor" xml:id="noteK1_14"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_14">Blanka</HIS:hisRef>] <hi rend="italic">HIS,</hi> Blanka Blanka <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_15"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_15">hid</HIS:hisRef>] <hi rend="italic">endret fra</hi> ind</note>
+<note resp="editor" xml:id="noteK1_16"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_16">Bernhard</HIS:hisRef>] <hi rend="italic">HIS,</hi> Bernhard Bernhard <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_17"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_17">Bernhard</HIS:hisRef>] <hi rend="italic">HIS,</hi> Bernhard Bernhard <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_18"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_18">Hvis Pleiefader jeg alt længst har været.</HIS:hisRef>] <hi rend="italic">tilføyd</hi></note>
+<note resp="editor" xml:id="noteK1_19"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_19">herinde</HIS:hisRef>] <hi rend="italic">endret fra</hi> derinde</note>
+<note resp="editor" xml:id="noteK1_20"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_20">Blanka</HIS:hisRef>] <hi rend="italic">HIS,</hi> Blanka Blanka <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_21"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_21">Blod</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Bld</note>
+<note resp="editor" xml:id="noteK1_22"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_22">Helas</HIS:hisRef>] <hi rend="italic">HIS,</hi> Heilas <hi rend="italic">NBO Ms.8&deg; 2586</hi></note>
+<note resp="editor" xml:id="noteK1_23"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_23">Strand</HIS:hisRef>] <hi rend="italic">HIS,</hi> Stand <hi rend="italic">NBO Ms.8&deg; 2586</hi></note>
+<note resp="editor" xml:id="noteK1_24"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_24">langt</HIS:hisRef>] <hi rend="italic">HIS,</hi> lang <hi rend="italic">NBO Ms.8&deg; 2586</hi></note>
+<note resp="editor" xml:id="noteK1_25"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_25">Nord</HIS:hisRef>] <hi rend="italic">endret fra</hi> Nor</note>
+<note resp="editor" xml:id="noteK1_26"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_26">Gandalf</HIS:hisRef>] <hi rend="italic">HIS,</hi> Gandalf Gandalf <hi rend="italic">NBO Ms.8&deg; 2586, kustode ved sideskift</hi></note>
+<note resp="editor" xml:id="noteK1_27"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_27">O, milde Baldur!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Ha, hvad er det!?</note>
+<note resp="editor" xml:id="noteK1_28"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_28">Blanka</HIS:hisRef>] <hi rend="italic">endret fra</hi> Bernhard</note>
+<note resp="editor" xml:id="noteK1_29"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_29">Gamle!</HIS:hisRef>] <hi rend="italic">endret fra</hi> Gamle<gap/></note>
+<note resp="editor" xml:id="noteK1_30"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_30">Alterfoden</HIS:hisRef>] <hi rend="italic">endret fra</hi> Afterfoden</note>
+<note resp="editor" xml:id="noteK1_31"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_31">Barskhed</HIS:hisRef>] <hi rend="italic">umiddelbart endret fra</hi> Blanka</note>
+<note resp="editor" xml:id="noteK1_32"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_32">Hrolloug</HIS:hisRef>] <hi rend="italic">endret fra</hi> Kjæmperne</note>
+<note resp="editor" xml:id="noteK1_33"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_33">Hrolloug</HIS:hisRef>] <hi rend="italic">endret fra</hi> Hroll<HIS:diacrit type="left"/>a<HIS:diacrit type="right"/>ug</note>
+<note resp="editor" xml:id="noteK1_34"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_34">urokkeligt</HIS:hisRef>] <hi rend="italic">endret fra</hi> u<gap/>kkeligt</note>
+<note resp="editor" xml:id="noteK1_35"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_35">ad.</HIS:hisRef>] <hi rend="italic">HIS,</hi> ad.» <hi rend="italic">NBO Ms.8&deg; 2586</hi></note>
+<note resp="editor" xml:id="noteK1_36"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_36">Dag!»</HIS:hisRef>] <hi rend="italic">HIS,</hi> Dag! <hi rend="italic">NBO Ms.8&deg; 2586</hi></note>
+<note resp="editor" xml:id="noteK1_37"><HIS:hisRef type="tcNote" target="K1ht.xml" corresp="noteK1_37">Nord</HIS:hisRef>] <hi rend="italic">senere endret fra</hi> Nor</note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

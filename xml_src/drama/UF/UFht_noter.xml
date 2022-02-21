@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="UF">De unges Forbund</title>
+<title>UF: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>27.09.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change></revisionDesc>
+</teiHeader>
+<text><body><div type="tcNote">
+<note resp="editor" xml:id="noteUF_1"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_1">Gjæster,</HIS:hisRef>] <hi rend="italic">HIS,</hi> Gjæster. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> gæster, <hi rend="italic">3.&dash;6. utg., FU,</hi> gæster. <hi rend="italic">NBO Ms.8&deg; 1924</hi></note>
+<note resp="editor" xml:id="noteUF_2"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_2">forhindre.</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, II.1, 2. utg., NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> forhindre <hi rend="italic">1. utg.,</hi> forhindre &dash; <hi rend="italic">NBO Ms.4&deg; 1109a, NBO Ms.4&deg; 1109b</hi></note>
+<note resp="editor" xml:id="noteUF_4"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_4">synger</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 3.&dash;6. utg., FU,</hi> synge <hi rend="italic">1.&dash;2. utg., NBO Ms.8&deg; 1924</hi></note>
+<note resp="editor" xml:id="noteUF_5"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_5">Levnetsløb.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> Levnetsløb <hi rend="italic">1. utg.,</hi> levnetsløb. <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> Levnetsløb &dash; <hi rend="italic">NBO Ms.4&deg; 1109a</hi></note>
+<note resp="editor" xml:id="noteUF_6"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_6">Dem.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg., NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> Dem <hi rend="italic">1. utg.,</hi> Dem; <hi rend="italic">NBO Ms.4&deg; 1109a</hi></note>
+<note resp="editor" xml:id="noteUF_7"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_7">der</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg., NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> er <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteUF_8"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_8">Monsen,</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> Monsen <hi rend="italic">1.&dash;2. utg.</hi></note>
+<note resp="editor" xml:id="noteUF_9"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_9">ubønhørligt</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109a, NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg., NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> uhønhønligt <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteUF_10"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_10">ti Tusend</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, II.1,</hi> ti tusend <hi rend="italic">1. utg., NBO Ms.8&deg; 1924, 2.&dash;6. utg., FU</hi> to tusend <hi rend="italic">NBO Ms.4&deg; 1109b</hi></note>
+<note resp="editor" xml:id="noteUF_11"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_11">Folk.</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> folk. <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> Folk <hi rend="italic">1. utg.,</hi> Folk &dash; <hi rend="italic">NBO Ms.4&deg; 1109a,</hi> Folk! <hi rend="italic">NBO Ms.4&deg; 1109b</hi></note>
+<note resp="editor" xml:id="noteUF_12"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_12">ogsaa.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, 2. utg.,</hi> ogsaa <hi rend="italic">1. utg.,</hi> også. <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU</hi></note>
+<note resp="editor" xml:id="noteUF_13"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_13">Herr Principals</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, II.1,</hi> Principals <hi rend="italic">1.&dash;2. utg.,</hi> principals <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> Principals <hi rend="italic">endret fra</hi> Herr Principals <hi rend="italic">NBO Ms.4&deg; 1109b</hi></note>
+<note resp="editor" xml:id="noteUF_14"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_14">taaleligt.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> taaleligt <hi rend="italic">1. utg.,</hi> tåleligt. <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> taaleligt &dash; <hi rend="italic">NBO Ms.4&deg; 1109a</hi></note>
+<note resp="editor" xml:id="noteUF_15"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_15">er</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109a, NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> ere <hi rend="italic">1.&dash;2. utg.</hi></note>
+<note resp="editor" xml:id="noteUF_16"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_16">Øjne.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> Øjne <hi rend="italic">1. utg.,</hi> øjne. <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU,</hi> Øjne &dash;, <hi rend="italic">NBO Ms.4&deg; 1109a</hi></note>
+<note resp="editor" xml:id="noteUF_17"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_17">Ærlighed.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> Ærlighed <hi rend="italic">1. utg.,</hi> ærlighed. <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU</hi></note>
+<note resp="editor" xml:id="noteUF_18"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_18">Skudsmaal</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1, 2. utg.,</hi> Skudsmaa <hi rend="italic">1. utg.,</hi> skudsmål <hi rend="italic">NBO Ms.8&deg; 1924, 3.&dash;6. utg., FU</hi></note>
+<note resp="editor" xml:id="noteUF_20"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_20">Alder.</HIS:hisRef>] Alder <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteUF_19"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_19">Frihedsdagens</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1109a, NBO Ms.4&deg; 1109b, KBK Collin 262, 4&deg;, II.1,</hi> Frihedssdagens <hi rend="italic">1.&dash;2. utg.,</hi> frihedsdagens <hi rend="italic">3.&dash;6. utg., FU,</hi> frihedssdagens <hi rend="italic">NBO Ms.8&deg; 1924</hi></note>
+<note resp="editor" xml:id="noteUF_21"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_21">gjælde.</HIS:hisRef>] gjælde <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteUF_22"><HIS:hisRef type="tcNote" target="UFht.xml" corresp="noteUF_22">med,</HIS:hisRef>] med <hi rend="italic">ekspl. 2</hi></note>
+<p/>
+</div></body></text>
+</TEI>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+        <fileDesc>
+            <titleStmt>
+                <title level="s" type="main">Henrik Ibsens skrifter</title>
+                <title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+                <title level="a" type="main">Lille Eyolf</title>
+                <title level="a" type="sub">LE_a_privat</title>
+                <title level="a" type="origYear">1894</title>
+                <author>Henrik Ibsen</author>
+                <funder>&funder;</funder>
+                <editor>&editor;</editor>
+                <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen</name></respStmt>
+                <respStmt>
+                    <resp>Oppretting/1. kollasjon, mai-juni 2017</resp>
+                    <name xml:id="HIS-NME">Nina Marie Evensen</name>
+                </respStmt>
+                <respStmt>
+                    <resp>2. kollasjon, juli 2017</resp>
+                    <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition xml:id="LE_a_privat-0517"/></editionStmt>
+            <publicationStmt>
+                <publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+                <distributor xml:id="HISe">Universitetet i Oslo</distributor>
+                <date when="2017" xml:id="HISe-date">2017</date>
+                <pubPlace>Oslo</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Denne filen bygger på intern transkripsjon.</p>
+                <p>
+                    <HIS:hisMsDesc type="workingManuscript" xml:id="LE_a_privat">
+                        <msIdentifier>
+                            <settlement>Oslo</settlement>
+                            <repository>I privat eie</repository>
+                            <idno><!-- Arnt Dehli --></idno>
+                        </msIdentifier>
+                        <msContents><msItem>
+                            <author>Henrik Ibsen</author>
+                            <title type="main">uten tittel</title>
+                            <docDate>uten datering</docDate>
+                        </msItem></msContents>
+                        <physDesc><objectDesc><p>Det manglende dobbelblad 2 i Ms.4° 1117a. Beskrevet i HIS 9K, 433.</p></objectDesc></physDesc>
+                    </HIS:hisMsDesc>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+            <editorialDecl>
+                    <HIS:typography>
+                        <list>
+                            <item>Rollenavn: det er ikke konsekvent om rollenavn er understreket eller ikke, så understrekede rollenavn er kodet med hi rend=underlined.</item>
+                            <item>Tilføyde sceneanvisninger i margen: det er en del eksempler på tilføyde sceneanvisninger i venstre marg rett ved rollenavnet det tilhører. Disse er av visningshensyn nå kodet med 'add place=offline' rett etter rollenavnet og ikke diplomatarisk med 'add place=margin'.</item>
+                        </list>
+                    </HIS:typography>
+                    <stdVals><p>&stdVals;</p></stdVals>
+                    <p>&editorialDecl;</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+                    <list>
+                        <headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+                        <label xml:id="ALLMERS">ALLMERS</label><item/>
+                        <label xml:id="RITA">RITA</label><item/>
+                        <label xml:id="EYOLF">EYOLF</label><item/>
+                        <label xml:id="ASTA">ASTA</label><item/>
+                        <label xml:id="BORGHEJM">BORGHEJM</label><item/>
+                        <label xml:id="ROTTEJOMFRUEN">ROTTEJOMFRUEN</label><item/>
+                    </list>
+                </tagUsage></namespace>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (bd XII) er lagt inn.</tagUsage></namespace>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+            </tagsDecl>
+            <variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nob"/>
+                <language ident="dan-nob"/>
+            </langUsage>
+            <handNotes>
+                <handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>11.07.17</date>
+                <name>NME</name><title>2. kollasjon</title>
+                La inn kollasjonsresultater fra Stine. Sjekk evt. kobling via ettall i margen. </change>
+            <change><date>26.05.17</date>
+                <name>NME</name><title>Oppretting og 1. kollasjon</title>
+                Opprettet fila, transkriberte teksten fra faksimile. Kollasjonerte mot faksimile. Validert, laget visning. Klar for annenkollasjon mot original. </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+
+    
+        <body>
+              <div type="act" n="2">
+                  <pb ed="HU" n="231"/>
+                  <pb ed="source" type="folio_pagination" subtype="recto" n="1" facs="1" gathering="2"/>                
+                  <lb/><fw type="gathering" place="top-left">2.</fw>
+                  <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker> <HIS:hisStage>(livfulder<unclear reason="writing">e</unclear>)</HIS:hisStage></HIS:spOpener><p>Å, du sled såmænd, du også, &dash;
+                    <lb/>lille E.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Uf, du skal ikke minde mig om det dum&typHyp;
+                    <lb/>me tøj me<HIS:clarification place="inline">d</HIS:clarification> navnet.</p></HIS:hisSp>
+                <lb/><pb ed="HU" n="232"/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Nå, hvis du havde været en gut, så skulde
+                    <lb/>du jo ha&#x2019; hedt E.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja, <emph>hvis</emph>, ja. Men da du var ble&#x2019;t student,
+                    <lb/><HIS:hisAdd place="margin">1.)</HIS:hisAdd>, &dash; tænk, at jeg kunde skamme mig over at du
+                    <lb/>ikke havde nogen bror. Bare en søster.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Og så t<HIS:hisDel rend="overwritten"><unclear>a</unclear></HIS:hisDel>rak du mine gamle klær på<note type="typo">ring over å mangler</note> dig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja men <HIS:hisAdd place="offline">det var</HIS:hisAdd> bare når vi var hjemme alene.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><HIS:hisDel rend="overstrike">Ja</HIS:hisDel>, <speaker>All.</speaker></HIS:spOpener><p>Ja, og så så<note resp="editor">mulig dittografi</note> kaldt<note resp="editor">feil for kaldte</note> vi dig E.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underlined">A</speaker></HIS:spOpener><p>Men det har du da vel al<HIS:hisDel rend="overwritten"><unclear>r</unclear></HIS:hisDel>drig fortalt til R.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>J<HIS:hisDel rend="overwritten">e</HIS:hisDel>o jeg tror jeg har fortalt hede<note resp="editor">feil for hende</note> det en gang</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Nej, men hvor kunde du da gøre det.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Å ser du, &dash; man fortæller jo sin hustru
+                    <lb/>alting &dash; <HIS:hisDel rend="overstrike">sågodtsom</HIS:hisDel></p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja man gør vel det, kan jeg tænke.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker rend="underlined">All</speaker> <HIS:hisStage>(ligesom vågnende, griber sig til panden og 
+                    <lb/><HIS:hisDel rend="overstrike">re</HIS:hisDel> springer op)</HIS:hisStage></HIS:spOpener><p>Ah, &dash; at jeg kan sidde her og &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker><HIS:hisStage>(rejser sig, ser bekymret på ham)</HIS:hisStage></HIS:spOpener><p>Hvad er det med 
+                    <lb/>dig<HIS:hisDel rend="overstrike">)</HIS:hisDel>?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Han kom næsten bort for mig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Eyolf!</p></HIS:hisSp>
+                <lb/><pb ed="HU" n="233"/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Her sad jeg o<HIS:hisDel rend="overwritten">f</HIS:hisDel>g fordybed mig i mind<HIS:hisDel rend="overwritten">r</HIS:hisDel>erne. Og han 
+                    <lb/>var ikke med.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Jo, Alf<unclear reason="writing">red</unclear>, lille E. var bag det alt samm<unclear reason="writing">en</unclear></p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allm</speaker></HIS:spOpener><p>Han var det ikke. Han gled ud af mit sind. 
+                    <lb/>Ud af mine tanker. Jeg så ham ikke for mig mens 
+                    <lb/><HIS:hisDel rend="overstrike">je</HIS:hisDel> vi s<HIS:hisDel rend="overwritten">å</HIS:hisDel>ad og talte sammen. Glemte ham rent den stund.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Å men du må da også hvile lidt ud i sorgen.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Nej, det har jeg ikke lov til. Ikke ret til heller. 
+                    <lb/><HIS:hisAdd place="offline"><HIS:hisStage>(mod venstre)</HIS:hisStage></HIS:hisAdd> Jeg har at dvæle der ude, hvor han driver nede
+                    <lb/>på dybet.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Alf<unclear reason="writing">red</unclear>, Alfr<unclear reason="writing">ed</unclear> &dash; Kom ikke til fjorden!</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Al<HIS:hisDel rend="overwritten">f</HIS:hisDel>l.</speaker></HIS:spOpener><p>Jeg må til ham &dash; slip mig. Jeg vil ha&#x2019; fat i båden</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Kom ikke til fjorden, siger jeg.</p></HIS:hisSp>
+                
+                  <pb ed="source" type="folio_pagination" subtype="verso" n="1" facs="2" gathering="2"/>                
+                  <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker> <HIS:hisStage>(slap)</HIS:hisStage></HIS:spOpener><p>Nej nej, jeg skal ikke. Lad mig bare være.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><HIS:hisAdd place="offline"><HIS:hisStage>(fører ham hen mod bordet)</HIS:hisStage></HIS:hisAdd><speaker>A.</speaker></HIS:spOpener><p>Du <emph>må</emph> hvile tankerne, A. Kom her og sæt dig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker> <HIS:hisStage>(vil sætte sig på bænken)</HIS:hisStage></HIS:spOpener><p>Ja, ja, som du vil da.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Nej, du skal ikke sætte dig der.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Jo, lad mig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Nej, for så sidder du bare og ser udover &dash; <HIS:hisStage>(nøder
+                    <lb/>ham ned på en stol med ry<HIS:clarification place="inline">g</HIS:clarification>gen mod højre.)</HIS:hisStage> Se så, nu
+                    <lb/>sidder du godt <HIS:hisStage>(sætter sig selv på bænken)</HIS:hisStage> Og så skal
+                    <lb/>vi tale sammen igen.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Det gjorde godt at få dulme savnet og sorgen
+                    <lb/>et øjebli<HIS:hisDel rend="overwritten">g</HIS:hisDel>k.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Du <emph>må</emph> det, A</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Men synes du ikke at jeg er forfærdelig slap og
+                    <lb/>sløv, at jeg <emph>kan</emph> det.</p></HIS:hisSp>
+                <lb/><pb ed="HU" n="234"/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A<HIS:hisDel rend="overstrike">ll</HIS:hisDel>m</speaker></HIS:spOpener><p>Å nej da. For det<!-- strek, apostrof? --> er visst umuligt at kredse be-
+                    <lb/>standig om et og det samme.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Ja, for mig er det umuligt. Før du kom <HIS:hisAdd place="offline">sad jeg her</HIS:hisAdd> og
+                    <lb/>led så usigelig i denne jagende og nagende sorg &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja.</p></HIS:hisSp> <HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Og 
+                    vil du så tro det, A &dash;?</p></HIS:hisSp> <HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underline">A</speaker></HIS:spOpener><p>Nå?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Så greb jeg mig i at tænke på, hvad vi skulde
+                    <lb/>ha&#x2019; til middag &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker> <HIS:hisAdd place="offline"><HIS:hisStage>(beroligende)</HIS:hisStage></HIS:hisAdd></HIS:spOpener><p>Ja, ja, bare der er hvile i det så &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Ja, <HIS:hisAdd place="offline"><HIS:hisDel rend="overstrike">Og det 
+                    du</HIS:hisDel> s</HIS:hisAdd> tænk, jeg syntes der <emph>var</emph> ligesom hvile i det.
+                    <lb/><HIS:hisStage>(rækker hende hånden over bordet)</HIS:hisStage> Hvor godt det er 
+                    <lb/>at jeg har dig, A. Det er jeg så glad for. Midt i sorgen.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Du skal først og fremst være glad for at du har R.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>R. er jeg ikke i slægt med. Det er ikke som at 
+                    <lb/>ha&#x2019; en søster.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A</speaker> <HIS:hisStage>(spændt)</HIS:hisStage></HIS:spOpener><p>Siger du det, A?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allm</speaker></HIS:spOpener><p>Ja, <emph>vor</emph> slægt er noget for sig selv. Altid så har
+                    <lb/>vi havt lyse forbogstaver i navnene <HIS:hisAdd place="infralinear">Husker du, vi talte så tidt om det 
+                        <lb/>før.</HIS:hisAdd> Og alle har vi de
+                    <lb/>samme slags øjne.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Synes du, jeg også har &dash;?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Nej, det er sandt. Ikke egentlig du. Du ligner
+                    <lb/>ikke far. Slægter mere på din mor, du. Men alli<HIS:clarification place="inline">g</HIS:clarification>evel</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Alligevel &dash;?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Samlivet, tror jeg, har præget os begge to efter
+                    
+                    <pb ed="source" type="folio_pagination" subtype="recto" n="2" facs="3" gathering="2"/>                
+                    <lb/>hinandens billede. I sindet, mener jeg.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Å det må du aldrig sige. 
+                    <HIS:hisAdd place="offline"><HIS:hisStage>(varmt bevæget)</HIS:hisStage></HIS:hisAdd> Det <pb ed="HU" n="235"/>er mig alene, som
+                    <lb/>har taget mit præg efter dig. Og det er dig som jeg 
+                    <lb/>skylder alt, alt godt i verden.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Å, du skylder mig ingenting A.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Alt skylder jeg dig. Det må du da kunne sige
+                    <lb/>dig selv. Intet offer har været dig for tungt.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Å<HIS:hisDel rend="overwritten">,</HIS:hisDel> hvad, offer. Jeg har bare holdt af dig, A. Lige
+                    <lb/>fra du var et lidet barn. &dash; Og så syntes jeg <HIS:hisAdd place="offline">altid</HIS:hisAdd>, at jeg
+                    <lb/>havde så megen uret at gøre god igen også.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Uret! Du.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allm</speaker></HIS:spOpener><p>Ikke just for egen regning. Men &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Men &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>For fars.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A</speaker> <HIS:hisStage>(farer op fra bænke<HIS:hisDel rend="overwritten">t</HIS:hisDel>n)</HIS:hisStage></HIS:spOpener><p>For &dash; fars! 
+                    <HIS:hisStage>(sætter sig igen)</HIS:hisStage> Hvad mener
+                    <lb/>du med det, A!</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Far var aldrig rigtig snil imod dig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underlined">A</speaker></HIS:spOpener><p>Å sig da ikke det.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Jo, for det er sandt. <HIS:hisAdd place="offline">Han holdt ikke af dig. Ikke 
+                    <lb/>som han skulde</HIS:hisAdd> Og hård var han ofte
+                    <lb/>imod din mor også. Ialfald i de sidste årene</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underlined">A.</speaker> <HIS:hisStage>(undvigende <HIS:hisAdd place="offline">sagte</HIS:hisAdd>)</HIS:hisStage></HIS:spOpener><p>Mor var jo så meget, meget yngre
+                    <lb/>end ham. Husk på det.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker rend="underlined">All.</speaker></HIS:spOpener><p>Tror du ikke at de passed rigtig sam<unclear reason="writing">men</unclear></p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Kanske de ikke gjorde det.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Ja, men alligevel &dash;. Far som ellers var så
+                    <lb/><HIS:hisDel rend="overstrike">og</HIS:hisDel> blød og varm. Så venlig imod alle mennesker &dash;</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underlined">A</speaker> <HIS:hisStage>(stille)</HIS:hisStage></HIS:spOpener><p>Mor var vel heller ikke altid, som
+                    <lb/>hun skulde være.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Var ikke din mor!</p></HIS:hisSp>
+                <lb/><pb ed="HU" n="236"/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Kanske ikke altid.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Imod far, mener du.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underlined">A</speaker></HIS:spOpener><p>Ja.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>Allm</speaker></HIS:spOpener><p>Det mærked jeg da aldrig noget til.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker rend="underlined">A</speaker> <HIS:hisStage>(k<HIS:hisDel rend="overwritten">l</HIS:hisDel>æmpende med gråden, <HIS:hisDel rend="overstrike"><restore type="del" rend="subpunction">rejser sig</restore></HIS:hisDel>)</HIS:hisStage></HIS:spOpener><p>Å kære A, &dash;
+                    <lb/>lad dem hvile, &dash; de som borte er.</p></HIS:hisSp>
+                <lb/><HIS:hisStage>(Hun går henover mod højre)</HIS:hisStage>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A</speaker><note resp="editor">feil for All.</note> <HIS:hisStage>(står op)</HIS:hisStage></HIS:spOpener><p>Ja, lad dem hvile. <HIS:hisStage>(vrider hænder<unclear reason="writing">ne</unclear>)</HIS:hisStage>
+                    
+                    <pb ed="source" type="folio_pagination" subtype="verso" n="2" facs="4" gathering="2"/>                
+                    <lb/>Men de, som borte er, &dash; de lar ikke <emph>os</emph> hvile, Asta.
+                    <lb/>Hverken dag eller nat.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Med tiden vil det kendes mildere, Alf<unclear reason="writing">red</unclear></p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Kanske det. Men hvorledes jeg skal vinde over
+                    <lb/>disse forfærdelige første dage &dash;. Nej, det skønner jeg ikke</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Gå op til R.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker> <HIS:hisStage>(hæftig)</HIS:hisStage></HIS:spOpener><p>Nej, nej, nej, &dash; snak ikke til mig om <emph>det</emph>!
+                    <lb/><HIS:hisAdd place="offline"><HIS:hisStage>(griber hendes hånd)</HIS:hisStage></HIS:hisAdd> &dash; <HIS:hisDel rend="overstrike">L</HIS:hisDel> <HIS:hisStage>(mildere)</HIS:hisStage> Lad mig få bli&#x2019; her sammen med dig</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja, jeg skal ikke gå fra dig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Tak for det <HIS:hisStage>(ser ud over fj)</HIS:hisStage> Hvor er E. henne
+                    <lb/>nu? Kan nogen sige mig det? Ingen i hele verden.
+                    <lb/>Jeg ved bare det ene forfærdelige, at jeg ikke har
+                    <lb/>ham længer.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ASTA"><HIS:spOpener><speaker>A</speaker> <HIS:hisStage>(ser op mod venstre, 
+                    <HIS:hisDel rend="overstrike">slipper had</HIS:hisDel><HIS:hisAdd place="offline">trækker h. til sig</HIS:hisAdd> slipper hans hånd)<note resp="editor">manglende ring over å</note></HIS:hisStage></HIS:spOpener><p>Nu kommer de.</p></HIS:hisSp>
+                <lb/><HIS:hisStage>(Fru All og inge<unclear reason="writing">niør</unclear> B. komm<unclear reason="writing">er</unclear> nedad skogst<unclear reason="writing">ien</unclear><HIS:hisDel rend="overstrike">)</HIS:hisDel>
+                    <lb/>Hun er mørkt klædt, med sort slør over hodet.)</HIS:hisStage>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker> <HIS:hisStage>(går hende imøde)</HIS:hisStage></HIS:spOpener><p>Hvorledes har du det, R.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">A</HIS:hisDel>R.</speaker> <HIS:hisStage>(går forbi ham)</HIS:hisStage></HIS:spOpener><p>Å, spørg ikke.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Hvad vil du her?</p></HIS:hisSp>
+                <lb/><pb ed="HU" n="237"/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Bare se <HIS:hisDel rend="overstrike">t</HIS:hisDel> efter dig. Hvad ta&#x2019;r du dig til?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Ikke noget. A. kom ned til mig.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Ja, men før A. kom? Du har været borte fra
+                    <lb/>mig hele formiddagen</p></HIS:hisSp>                
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Jeg har siddet her og set ud over vandet</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Uh, &dash; at du kan det!</p></HIS:hisSp>                
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Jeg er helst alene nu.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R</speaker> <HIS:hisStage>(går urolig omkring)</HIS:hisStage></HIS:spOpener><p>Og så sidde stille. På en
+                    <lb/>en<note resp="editor">dittografi</note> og sa<unclear reason="writing">mm</unclear>e plet.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All.</speaker></HIS:spOpener><p>Jeg har jo ingen verdens ting at gå efter</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Jeg kan ikke holde det ud nogetsteds. <HIS:hisDel rend="overstrike">Mi</HIS:hisDel>
+                    <lb/>Mindst her ved vandet. <HIS:hisStage>(til B)</HIS:hisStage> Synes ikke De
+                    <lb/>han skulde gå op med os andre?</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="BORGHEJM"><HIS:spOpener><speaker>B</speaker> <HIS:hisStage>(til All)</HIS:hisStage></HIS:spOpener><p>Jeg tror det vilde være bedre.</p></HIS:hisSp>   
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Nej, nej, lad mig heller være hvor jeg er.</p></HIS:hisSp>
+                <lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Så blir jeg hos dig, A.</p></HIS:hisSp>                
+                <lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>All</speaker></HIS:spOpener><p>Nå ja, så gør det da.</p></HIS:hisSp>
+                <lb/>
+                
+</div>
+</body>
+</text>
+</TEI>

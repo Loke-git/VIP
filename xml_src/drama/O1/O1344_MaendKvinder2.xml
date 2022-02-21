@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Olaf Liljekrans</title>
+<title level="a" type="sub">første hovedversjon, TarkUiB NT344r (rollehefte, Mænd og Kvinder m.fl.)</title>
+<title level="a" type="origYear">1856</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Bjørg Harvey, Helene Grønlien, Ellen Nessheim Wiger</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), vinter 2001:</resp>
+<name>Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra word-dokument til prosjektspesifikk TEI XML, april 2001:</resp>
+<name>Helene Grønlien</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering. koding og korrektur: april-oktober 2001:</resp>
+<name>Helene Grønlien</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+<name>Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="O1344-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på ekstern transkripsjon av faksimiler.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="O1344">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Bergen Museum</repository>
+<idno>Teaterarkivet UiB NT344r</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Olaf Liljekrans</title>
+<title type="sub">Skuespil i 3 Akter</title>
+<docDate>1856</docDate>
+</msItem>
+<msItem n="MaendKvinder2"><locus>9 s</locus><title>Mænd, Kvinder og Spillemænd, (Slægtninge af Arne,) i &lquo;Olaf Liliekrans.&rquo; Skuespil i 3 Akter af Henr. Ibsen.</title></msItem>
+</msContents>
+<physDesc><objectDesc><p>Rollehefte, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Olaf Liljekrans - 12 rollehefter (OL344):</head>
+<item>h1-rolleheftene ("Alfhild", "Hemming", "Ingeborg", "Bryllupsgjaester", "Første Svend", "Anden Svend", "Mænd, Kvinder...1", "Mænd, Kvinder...2", "Terner1" og "Terner2"):
+<list>
+<item>skriftgruppe: latinsk håndskrift med innslag av gotiske bokstaver (gjelder særlig sceneanvisninger)</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>omslag:
+<list>
+<item>"Alfhild": rosa papiromslag med etikett merket med tittel (blyant) og 'Mdm Bruun' (sort penn)</item>
+<item>"Hemming": rosa papiromslag med etikett merket med rollenavn og tittel (blyant); mellom rollenavn og tittel er navnet 'Hr: H. Nielsen' tilføyd med sort penn; bak i innbindingsfellen; krusedull øverst til venstre</item>
+<item>"Ingeborg": rosa papiromslag med etikett merket rollenavn, 'Mdam Isachsen' og tittel</item>
+</list>
+</item>
+<item>tittelside: midtstilt, unntak: arkantall er høyrestilt i alle h1-rolleheftene
+<list>
+<item>"Alfhild":
+<list>
+<item>tittelrolle: stor skift</item>
+<item>hovedtittel: større skrift enn deltittel og forfatter</item>
+<item>arkantall: øverst høyre hjørne; dobbel understreking</item>
+<item>øvrig tekst: ingen markering</item>
+</list>
+</item>
+<item>Øvrige h1-rollehefter:
+<list>
+<item>tittelrolle: dobbel understreking; i noen av rolleheftene større og/eller fetere skrift</item>
+<item>tilleggsopplysninger (om tittelrollen): variererer mellom umarkert (i "Hemming" og "Ingeborg"), enkel understreking (i "Bryllupsgjaester", "Første Svend", "Anden Svend", "Mænd, Kvinder...2", "Terner1" og "Terner2") og dobbel understreking (i "Mænd, Kvinder...1")</item>
+<item>hovedtittel: enkel understreking; halvstor skrift</item>
+<item>øvrig tekst (deltittel, 'af' og forfatternavn): ingen markering</item>
+<item>arkantall: øverst høyre hjørne; dobbel understreking</item>
+<item>skuespilleropplysninger (ikke i "Bryllupsgjaester", "Terner1" og "Terner2"): tilnærmet midtstilt nederst på siden; i "Hemming" er navn og dato skrevet med blyant</item>
+</list>
+</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt; dobbel understrekning</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt; dobbel understrekning; ordenstall med hevet "ste", "den" osv. (kodet hi rend="raised"), liten krussedull under hevet skrift (ikke kodet)</item>
+<item>sceneanvisning: enkel understrekning; med og uten parenteser; del av løpende tekst eller midtstilt på egen linje</item>
+<item>uthevning i sceneanvisning:
+<list>
+<item>tykk(ere), enkel understreking av rollenavn er kodet med stageRole (NB! de fleste rollenavn i sceneanvisning er ikke markerte); noen få forekomster av dobbel understreking, kodet stageRole rend="underlined2"</item>
+<item>tykk(ere), enkel understreking av ord som IKKE er rollenavn er kodet med hi; dobbel og trippel understreking forekommer også, kodet henholdsvis hi rend="underlined2" og hi rend="underlined3"</item>
+</list>
+</item>
+<item>rollenavn:
+<list>
+<item>tittelrollenavn: representert via en horisontal strek i venstre marg på samme linje som replikken begynner (kodet med tomt speaker-element, og rollenavnets who-attributt i sp. Dersom rollenavnet mangler who-attributt, kan det tomme speaker-elementet identifiseres via rolleheftets id-attributt siden det alltid vil være identisk med dette)</item>
+<item>andre rollenavn: umarkerte i venstre marg på samme linje som replikken begynner; avvik: noen steder er rollenavnet understreket (både enkel og dobbel understreking forekommer) og/eller står på egen linje (eventuelt på linje med innledende sceneanvisning), kodet rend-attributt i speaker</item>
+</list>
+</item>
+<item>avsnitt/replikk: rolleinnehavers replikker er umarkerte, mens de øvrige har enkel understreking, verslinjer innledes av stor forbokstav</item>
+<item>utheving i replikk: enkel understreking</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>dobbel skillestrek: midtstilt
+<list>
+<item>på tittelsidene: 1-3 cm</item>
+<item>sist i akt 1 og 2 i "Alfhild", "Hemming", "Ingeborg" og "Første Svend" (kun i 1. akt): 1-2 cm</item>
+</list>
+</item>
+<item>"pyntekrussedull": midtstilt
+<list>
+<item>på tittelsiden i "Terner2": ca 5 cm</item>
+<item>med blyant nederst på tittelsiden i "Hemming": ca 12 cm</item>
+<item>sist i heftene (ikke i "Mænd, Kvinder...1" og "Mænd, Kvinder...2"): 4,5-14 cm</item>
+</list>
+</item>
+<item>bindestreker: doble komma, nedre</item>
+<item>tankestreker: horisontal strek, lengde varierer</item>
+<item>anførselstegn: dobbel komma, øvre; i "Alfhild" forekommer dobbel komma, nedre ett sted</item>
+<item>parentes: "vanlige" buede</item>
+<item>sidenummerering (bare i "Alfhild"): annenhver side nummerert; øverste, ytterste hjørne</item>
+</list>
+</item>
+<item>Skriblerier:
+<list>
+<item>"Alfhild":
+<list>
+<item>s.16, Alfhilds tredje replikk; skribleri</item>
+<item>s.59, Alfhilds fjerde replikk; skribleri</item>
+</list>
+</item>
+<item>"Ingeborg":
+<list>
+<item>s.8-10, 1.akt, 7.scene: blyantrammer rundt replikker og sceneanvisninger mellom Ingeborgs sang</item>
+</list>
+</item>
+<item>"Første Svend":
+<list>
+<item>tittelsiden: '344' skrevet med blyant øverst til høyre</item>
+<item>første akt, 3. scene, Anden Svends andre replikk: skribleri over horisontal strek som markerer rollenavn</item>
+<item>andre akt, 11. scene: blyantskribleri over horisontal strek som markerer rollenavn ved andre, tredje, fjerde og femte replikk</item>
+</list>
+</item>
+<item>"Anden Svend":
+<list>
+<item>bakside av tittelside: skriblet "Latter" i parentes med svak, utydelig skrift</item>
+<item>2.akt, scene 11: blyantskribleri over strek som markerer rollenavn</item>
+</list>
+</item>
+<item>"Bryllupsgjæster:"
+<list>
+<item>tittelsiden: '344' skerevt med blyant midt øverst</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+</item>
+<item>h2-rolleheftet ("Fru Kirsten"):
+<list>
+<item>skriftgruppe: latinsk håndskrift med innslag av gotisk 's'</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: svakt høyrehellende</item>
+<item>tittelside: midtstilt
+<list>
+<item>tittelrolle + 'i': høyrehellende, stor skift</item>
+<item>hovedtittel: venstrehellende</item>
+<item>deltittel + forfatter: høyrehellende</item>
+<item>arkantall: øverst i høyre hjørne, pyntestrek under</item>
+<item>skuespilleropplysninger: høyrejustert</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>aktoverskift: midtstilt; dobbel understreking</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>sceneoverskift: midtstilt; dobbel understreking</item>
+<item>sceneanvisninger: varierende bruk av parenteser; enkel understreking; som oftest del av avsnitt eller midtstilt på egen linje</item>
+<item>rollenavn til prosareplikk:
+<list>
+<item>tittelrollenavn: representert via en horisontal strek i venstre marg på samme linje som replikken begynner (kodet med tomt speaker-element, og rollenavnets who-attributt i sp)</item>
+<item>andre rollenavn: i venstre marg på samme linje som replikken begynner</item>
+</list>
+</item>
+<item>rollenavn til versreplikk: alle rollenavn skrevet ut; midtstilt før replikk; tykk, enkel understreking</item>
+<item>replikk: tittelrollens replikker umarkerte, andre replikker er markert med enkel understreking
+<list>
+<item>prosareplikk: avsnitt i lengre replikker markert med innrykk</item>
+<item>versreplikk: hver verslinje innledes med stor forbokstav uansett syntaks</item>
+</list>
+</item>
+<item>utheving i sceneanvising: rollenavn har av og til tykk(ere) enkel understreking (kodet med stageRole); ett tilfelle av stageRole midtstilt på egen linje, kodet stageRole rend="centre"</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>pyntestrek:
+<list>
+<item>under arkantall på tittelside: 2,7 cm</item>
+<item>nederst på tittelside: 14,5 cm</item>
+</list>
+</item>
+<item>"pyntekrussedull"
+<list>
+<item>sist i 3. akt/stykket: ca 14 cm</item>
+</list>
+</item>
+<item>bindestreker: dobbel horisontal strek</item>
+<item>tankestreker: horisontal strek, lengde varierer</item>
+<item>anførselstegn:
+<list>
+<item>venstre: dobbel komma, nedre</item>
+<item>høyre: dobbel komma, øvre</item>
+</list>
+</item>
+<item>parentes: "vanlige" buede</item>
+<item>sidenummerering: øverste, ytterste hjørne</item>
+</list>
+</item>
+</list>
+</item>
+<item>h3-rolleheftet ("Olaf"):
+<list>
+<item>skriftgruppe: latinsk håndskrift med noen få innslag av gotisk 's'</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>omslag: rosa papiromslag; på etiketten er 'Olaf Liljekrans' skrevet med blyant; biblioteksstempel nederst til venstre</item>
+<item>tittelside: hovedtittel + deltittel høyrejustert, "af" midtstilt, forfatter litt venstrejustert; ingen markering</item>
+<item>akt:
+<list>
+<item>aktoverskift: midtstilt; enkel understreking i 1. akt, dobbel understreking i 2. og 3. akt</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>sceneoverskift: midtstilt; varierer mellom enkel og dobbel understreking</item>
+<item>sceneanvisninger: vekslende bruk av parenteser; enkel understreking; lengre sc. anv. er venstrejustert, for korte sc. anv. varierer justeringen.</item>
+<item>rollenavn til prosareplikk:
+<list>
+<item>tittelrollenavn: representert via en horisontal strek i venstre marg på samme linje som replikken begynner (kodet med tomt speaker-element, og rollenavnets who-attributt i sp)</item>
+<item>andre rollenavn: enkel understreking; i venstre marg på samme linje som replikken begynner</item>
+</list>
+</item>
+<item>rollenavn til versreplikk: alle rollenavn skrevet ut; midtstilt før replikk; enkel understreking</item>
+<item>replikk: tittelrollens replikker umarkerte, andre replikker er markert med enkel understreking
+<list>
+<item>prosareplikk: avsnitt i lengre replikker markert med innrykk</item>
+<item>versreplikk: hver verslinje innledes med stor forbokstav</item>
+</list>
+</item>
+<item>utheving i sceneanvising: rollenavn har av og til tykk(ere) enkel understreking (kodet med stageRole)</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>"pyntekrussedull"
+<list>
+<item>på tittelbladet: ca 9 cm</item>
+<item>sist i aktene: ca 12 cm</item>
+</list>
+</item>
+<item>bindestreker: dobbel komma, nedre</item>
+<item>tankestreker: horisontal strek, lengde varierer</item>
+<item>anførselstegn: dobbel komma, øvre</item>
+<item>parentes: skråstreker</item>
+<item>sidenummerering: øverste, ytterste hjørne, av og til med strek under og punktum etter; NB! bare noen få sider i dette rolleheftet er nummerert</item>
+</list>
+</item>
+<item>skriblerier:
+<list>
+<item>s.4, 1.akt, 8.scene: skråstrek nederst i venstre hjørne</item>
+<item>s.5, 1.akt, 8.scene: blyantskribleri i Olafs replikk</item>
+<item>s.7, 1.akt, 8.scene: en av Hemmings replikker har ekstra blyantunderstrekning</item>
+<item>s.29, 2.akt: skribleri over aktangivelse</item>
+<item>s.33, 2.akt: en av Fru Kirstens replikker er understreket med blyant</item>
+<item>s.37, 2.akt, Olafs replikk: Kryss i venstremarg over første bokstav</item>
+<item>s.47, 2.akt, 11. scene: Alfhilds replikk er understreket med blyant</item>
+<item>s.61, 3.akt, Ingeborgs replikk: strek over 'd' i "med" slik at den framstår som strungen</item>
+<item>s.66 3.akt, Olafs replikk: strek over 'b' i "betenke"</item>
+<item>siste side: dekket av skriblerier, samt følg. skrevet på tvers av arket: "Lene, du blier Møen for Mange"</item>
+</list>
+</item>
+</list>
+</item>
+<item>Annet (gjelder alle rolleheftene):
+<list>
+<item>Stilltiende rettelser: manglende prikk over 'i' er rettet stilltiende (Fru Kirstens rollehefte, s 28 nederst).</item>
+<item>Rettskriving: Rolleheftet til Olaf følger en litt annen rettskrivning enn de øvrige (bl.annet Act for Akt).</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>titlePart id=""</headLabel><headItem>titlePart/speaker/stageRole</headItem>
+<label>ALFHILD</label><item>Alfhild</item>
+<label>ARNE</label><item>-/Arne/Arne, Arne fra Guldvik</item>
+<label>FRUKIRSTEN</label><item>Fru Kirsten Liljekrans/Fru Kirsten, Fruen, Kirsten/Fru Kirsten, Fruen, Kirsten</item>
+<label>HEMMING</label><item>Hemming</item>
+<label>INGEBORG</label><item>Ingeborg/Ingeborg, Ingeb/Ingeborg</item>
+<label>OLAF</label><item>-/Olaf/Olaf, Olaf Liljekrans, Olaf Liliekrans</item>
+<label>THORGJERD</label><item>-/Thorgjerd, Thorgj, Thorg/Thorgjerd<note>Rolleheftene til Thorgjerd og Arne mangler; id-attributt for disse er derfor lagt inn i sp/stageRole ved første forekomst (replikk eller stageRole).</note></item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="AI-1" xml:id="AI-1" medium="pen-black" scope="major"><p>Andreas Isachsen: hovedhånd i 10 av heftene. Mørk brun penn.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>02.11.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte. Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>15.12.09</date>
+<name>SBT</name><title>Notegjennomgang</title>
+Gikk gjennom og fjernet noter; har ikke lagd ny visning.</change>
+<change><date>02.12.09</date>
+<name>SBT</name><title>Metrikk</title>
+Kodet om et prosaavsnitt til vers. Lagde nye visninger.</change>
+<change>
+<date>15.06.08</date>
+<name>HB</name><title>Kodeoppdatering</title>
+Validerte filen. Oppdaterte koding etter punktene i avsnittet om teiHeader i ms-filer i dokumentet HISe-forberedende_koding_og_notater.html.
+</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Lar performance stå siden det ikke er benyttet til å omslutte castList, men til opplysninger om skuespillere osv.</title></change>
+<change><date>23.06.06</date>
+<name>HB</name><title>Retting av ms-koding</title>
+Fjernet hand i del/overwritten, sjekket at det lå hand i den tilhørende add-taggen. Sjekket og endret evt. mellomrom mellom del/overwritten og påfølgende add-tagg.</change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>23.11.05</date>
+<name>ENW</name><title>Omkoding</title>
+Kodet om håndskriftsrettelser. Oppdaterte TEI-header. Endret handlist så den er i tråd med TMs beskrivelse, men lot skillet mellom AI-1 og AI-2 stå siden det er snakk om forskjellige skriveredskaper. Validert. NB! siden manuskriptet ikke er paginert/sidefoliert må n-attributtet i pb fylles ut vha skript.</change>
+<change><date>19.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert (dog ikke delSpan og delIntended som ikke er tillatt i dtd-en mer).</change>
+<change><date>21.01.05</date><name>SBT</name><title>Oppdatering</title>
+Endret to replikker fra vers til prosa (samkjøring med hovedtekst).</change>
+<change><date>16.12.04</date><name>IF</name><title>Oppdatering</title>
+Oppdaterte tekst og koder i teiHeader (unntatt i typografibeskrivelsen) etter ny kodepraksis. Nye koder er stdVals, metDecl og variantEncoding. La inn entiteter for standardtekster. La inn resp Kodeteknisk støtte og utvikling. Samkjørte ms-opplysninger mot TMs. Endret idno etter TM (fra N.T. 344 til Teaterarkivet UiB NT344r). Fjernet hånd h5 (Brun penn, to rettelser Alfhilds rollehefte (s. 34). Ibsen?). Lot h4 stå, selv om det ikke eksisterer hos TM, fordi h4 er blyant i motsetning til de andre hendene. Usikker på om den da kan kodes med first, eller om heller h4 skal endres til h1 slik TM beskriver, og i så fall skrive at endringer av h1 er i blekk og blyant. Ikke lagt inn lenke til hennes ms-beskrivelse. Lagt inn restore og delIntended i Alfhilds rollehefte s. 55. Validert.</change>
+<change><date>10.02.03</date><name>ENW</name><title>Oppdatering</title>
+La inn ny dokumentheader. Oppdaterte principal-listen. Erstattet shy-elementer med shy-entiteter. Kodet intenderte strykninger med app rdg rundt del. Kodet om usikre apparater ved overskriving av bokstav/tegn (nå begge lesemåter i rdg og desc-attributt i app). Validert.</change>
+<change><date>03.-04.04.02</date><name>SBT</name><title>Oppdatering</title>
+Endret koding av manuskriptbeskrivelse i teiHeaderen. Fjernet æ, ø og å i attributtverdier.</change>
+<change><date>18.12.01</date>
+<name>SBT</name><title>Oppdatering</title>
+Oppdterte koding etter vedtak påkodemøte 07.12: førte inn manuskriptansvarlig i teiHeaderen, fjernet nummerering i div, endret type med rend i del, endret type="corrmarks" med rend="numbered" og rend="corrmarks" i app.</change>
+<change><date>05.12.01</date>
+<name>SBT</name><title>Feilretting</title>
+Flyttet 'figure' direkte i 'titlePage' og 'note' inn i 'front' for å få validert teksten.</change>
+<change><date>26.11.01</date>
+<name>SBT</name><title>Oppdatering</title>
+La inn place-attributt i clarification. Oppdaterte teiHeader. Brente cd.</change>
+<change><date>25.10.01</date>
+<name>EN</name><title>Korrektur</title>
+Korrekturlest innføring av kollasjonsresultatene. Kodekontroll. Validert.</change>
+<change><date>24.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Olaf Liljekrans" mot originalmanuskriptet og ført inn kollasjonsresultatet. Korrekturlest typografibeskrivelsen: splittet beskrivelsen i tre hoveddeler (en for hver hovedhånd).</change>
+<change><date>23.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Første Svend", "Hemming", "Ingeborg", "Mænd, Kvinder...1" og "Mænd, Kvinder...2" mot originalmanuskriptet og ført inn kollasjonsresultatet.</change>
+<change><date>18.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Fru Kirsten" mot originalmanuskriptet og ført inn kollasjonsresultatet.</change>
+<change><date>11.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Alfhild", "Anden Svend", "Brullupsgjæster", "Terner1" og "Terner2" mot originalmanuskriptet og ført inn kollasjonsresultatet.</change>
+<change><date>10.10.01</date>
+<name>EN</name><title>Koding</title>
+Fjernet blanke mellom spOpener og p/l i sp. La inn manglende blanke mellom speaker og stage i spOpener. Ordnet rekkefølgen på rolleheftene etter hovedhender (og fjernet overflødige handShift-elementer) og rettet oversikten i bibl.</change>
+<change><date>05.10.01</date>
+<name>HG</name><title>Oppdatering</title>
+Lagt inn oversikt over alle rolleheftene i sourceDesc, lagt inn det andre eksemplaret til rolleheftene "Terner" og "MændKvinderSpillemænd"</change>
+<change><date>03.09.01</date>
+<name>HG</name><title>who-attributter</title>
+Fjernet who-attributt til småroller som ikke har who-attributt i de øvrige OL-filene</change>
+<change><date>14.08.01</date>
+<name>HG</name><title>Oppdatering</title>
+Fjernet lg-koding, gjennomgått arbeidsnoter og rettet opp evnt. feilkoding</change>
+<change><date>04.07.01</date>
+<name>HG</name><title>Flikking</title>
+Validert fila på ny, rettet opp feil, korrekturlest typografibeskr.</change>
+<change><date>01.06/05.06.01</date>
+<name>HG</name><title>Oppdatert TeiHeader, lagt inn typografibeskr.</title>
+Oppdaterte teiHeader og la inn typografibeskr.</change>
+<change><date>mai.01</date>
+<name>HG</name><title>Koding</title>
+Kollasjonerer den konverterte teksten kronologisk opp mot faksimilen, kodingen av vers- og prosareplikker, samt part-attributt i verselinjer følger sufflørheftet</change>
+<change><date>23-25.04.01</date>
+<name>HG</name><title>Oppretting</title>
+Konvertert fra Word-dokument til TEI/XML-fil. Fila er validert. Transkripsjonstegnet # vil bli erstattet underveis i kodinga. Harvyes egne kommentarer er lagt inn i resp-noter som må kontrolleleres underveis, evt. føres inn i typografibeskrivelsen</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<pb/>
+<front>
+<titlePage>
+<lb/><HIS:hisDocImprint><measure>1 1/4 Ark.</measure></HIS:hisDocImprint>
+<docTitle>
+<lb/><titlePart type="main">Mænd, Kvinder og Spillemænd,
+<lb/>(Slægtninge af Arne,)
+<lb/>i
+<lb/>&lquo;Olaf Liliekrans.&rquo;</titlePart>
+<lb/><titlePart type="desc">Skuespil i 3 Akter</titlePart></docTitle>
+<byline>
+<lb/>af
+<lb/><docAuthor>Henr. Ibsen</docAuthor>.</byline>
+<lb/><figure type="bar"/>
+</titlePage>
+<lb/><performance><p>Rolle for 2<hi rend="raised">den</hi> Gjæst = Hr: P. Nielsen.</p></performance>
+</front>
+<pb/>
+<pb/>
+<body>
+<div type="act" n="1">
+<lb/><head>Første Akt.</head>
+<div type="scene" n="1">
+<lb/><head>1<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined2">Chor</speaker>.</HIS:spOpener><p>&dash; saa tungt og saa længe!</p></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(<HIS:stageRole>Arnes Slægtninge</HIS:stageRole>, <HIS:stageRole>Mænd</HIS:stageRole>, <HIS:stageRole>Kvinder</HIS:stageRole>
+<lb/><hi>og</hi> <HIS:stageRole>Spillemænd</HIS:stageRole> <sic>rise</sic> sig, tilligemed
+<lb/>Arne, paa den anden Side af Elven, til&typHyp;
+<lb/>høire i Baggrunden. De ere alle i Høi&typHyp;
+<lb/>tidsdragt.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>En</speaker></HIS:spOpener><p>&dash; See her gaar Veien!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Anden</speaker></HIS:spOpener><p>&dash; Nei her!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Tredie</speaker>.</HIS:spOpener><p>&dash; Vist ikke! her maa det være!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>&dash; saa ikke det strax?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(gaa over Elven og komme ned i
+<lb/>Forgrunden.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Fru Kirsten Lilliekrans!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(forbausede:)</HIS:hisStage></HIS:spOpener><p>Fru Kirsten!</p></HIS:hisSp>
+<pb/>
+</div>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole>Fru Kirsten</HIS:stageRole> <hi>og</hi> <HIS:stageRole>Følge</HIS:stageRole>.</HIS:hisStage>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">d</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole> <hi>og</hi> <HIS:stageRole>Piger</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>&dash; der bryder sit Ord, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Hvad nu? Siig frem!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>&dash; være I, at I sviger mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(truende, idet Flere trække deres Knive
+<lb/>og styrte ind paa Fru Kirstens Folk:)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hævn! Hævn over Liliekransætten!</p>
+<lb/><HIS:hisStage>(<HIS:stageRole who="ARNE">Arne</HIS:stageRole> søger at berolige dem.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>&dash; Brudgommen saavelsom Bruden</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Olaf!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>&dash; fra Hjem og Brud!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Flygtet!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>Olaf er bjergtagen!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Bjergtagen!</p></HIS:hisSp>
+<pb/>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>&dash; seer I ikke, hvem det er?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(hviskende mellem hverandre:)</HIS:hisStage></HIS:spOpener><p>Thor&typHyp;
+<lb/>gjerd Spillemand! Den gale Thorgjerd!</p></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="THORGJERD">Thorgjerd</HIS:stageRole>.</HIS:hisStage>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage>De Forrige, uden Thorgjerd.</HIS:hisStage>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Imorgen drikke vi Bryllup!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(<hi rend="underlined2">gaa</hi> i forskjellige Grupper ud til begge
+<lb/>Sider.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+<div type="scene" n="12">
+<lb/><head>12<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="OLAF">Olaf</HIS:stageRole>. <HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole>. <HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>&dash; vakt mig, nu er Alting ude!</p></HIS:hisSp>
+</div>
+<div type="scene" n="13">
+<lb/><head>13<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(kommer med Arne, Ingeborg og
+<lb/>Hemming.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker></HIS:spOpener><p>&dash; tage Vare derpaa!</p></HIS:hisSp>
+<pb/>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(<hi rend="underlined2">gaa</hi> tilvenstre med de Andre.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+</div>
+<div type="act" n="2">
+<lb/><head>Anden Akt.</head>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">d</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ARNE">Arne</HIS:stageRole>. <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>&dash; Mørkets Gjerning at gifte sig!</p></HIS:hisSp>
+</div>
+<div type="scene" n="9">
+<lb/><head>9<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(kommer efterhaanden ind fra forskjel&typHyp;
+<lb/>lige Sider med Kirsten, Olaf, Ingeborg
+<lb/>og Hemming.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fru Kirsten</speaker>.</HIS:spOpener><p>Ei sandt, det love vi?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Det love vi! <HIS:hisStage>(Gjensidige Haandtag
+<lb/>mellem Brudeparrets Slægtninge.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>Det love vi da?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Det love vi! <HIS:hisStage>(Haandtag som før.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>Derom ere vi jo enige?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Det love og vidne vi! <HIS:hisStage>(Haandtag
+<lb/>som før.)</HIS:hisStage></p></HIS:hisSp>
+<pb/>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Vee! nu forstaar jeg &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Hemming og Alfhild! Fjeldjenten!</p>
+<lb/><HIS:hisStage>(Latter og Hvisken.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Beskjæmmet!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Frille!</p></HIS:hisSp>
+</div>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Her er jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Hvordan &dash; hun tager Olaf!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Almindelig Forbauselse.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>Siig hende det selv, min Søn!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(nærme sig mørke og truende.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Du er en listig Hund!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(<hi rend="underlined2">gaa</hi> stille og forstemte ud tilhøire.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+</div>
+<div type="act" n="3">
+<lb/><head>Tredie Akt.</head>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>. <HIS:stageRole who="OLAF">Olaf</HIS:stageRole>.</HIS:hisStage>
+<pb/>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>&dash; bare ikke for Alteret!</p></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(komme med Arne, Fruen og Fl: fra
+<lb/>Høire.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>&dash; følge Lyden til vi samles!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(gaa til forskjellige Sider.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">d</hi> Scene</head>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>&dash; hist er kun Gravens Læ!</p></HIS:hisSp>
+</div>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">d</hi> Scene</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(komme tilbage fra forskjellige Sider
+<lb/>med Arne, Fruen o. Fl:)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fruen</speaker>.</HIS:spOpener><p>Den Vedtægt kjende I?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Ja, ja!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Jeg frelser og ægter hende!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(staa som forstenede, med Udraabet.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Olaf Liliekrans!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Ere I med paa det?</p></HIS:hisSp>
+<pb/>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(de Unge.)</HIS:hisStage></HIS:spOpener><p>Ja, ja!</p></HIS:hisSp>
+</div>
+<div type="scene" n="9">
+<lb/><head>9<hi rend="raised">d</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>. <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Hemming har fundet mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/> <HIS:hisStage>(forbausede:)</HIS:hisStage></HIS:spOpener><p>Ingeborg og Hemming!
+<lb/>Heroppe!</p></HIS:hisSp>
+</div>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">d</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="THORGJERD">Thorgjerd</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="THORGJERD"><HIS:spOpener><speaker>Thorgjerd</speaker>.</HIS:spOpener><p>&dash; folksomt i Dalen idag.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Thorgjerd Spillemand!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Min Fader!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker/></HIS:spOpener><p>Hendes Fader!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><l>&dash; i Himmelens Karm!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(<HIS:stageRole rend="underlined2">Gruppe</HIS:stageRole>.)</HIS:hisStage>
+</div>
+</div>
+</body>
+</text>
+</TEI>
+
+

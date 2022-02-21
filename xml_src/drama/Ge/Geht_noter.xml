@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xml:lang="nob" xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Ge">Gengangere</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+    <name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt>
+    <resp>Omgjøring til elektronisk versjon</resp>
+<name>Stine Brenna Taugbøl</name></respStmt>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort s&aring; enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+    <change when="2011-08-19" who="SBT">
+        <title>Validering</title>
+        Oppdaterte etter nytt skjema.</change>
+    <change when="2011-08-11" who="SBT"><title>Endret sti til skjema.</title></change>
+<change when="2011-06-22" who="SBT"><title>Konvertering til HIS-P5</title></change>
+<change when="2010-03-17" who="SBT"><title>Splittet fila i en bokfil og en HIS-fil.</title></change>
+</revisionDesc>
+</teiHeader>
+<text><body><div type="tcNote">
+<note resp="editor" xml:id="noteGe_1"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_1">Åhå</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 953, FU, 3.&tu20;utg.,</hi> Ahå <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_2"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_2">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_3"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_3">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1114, NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_4"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_4">kommunale</HIS:hisRef>] <hi rend="italic">HIS,</hi> komunale <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_5"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_5">Manders?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1114, NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.,</hi> Manders. <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_6"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_6">på</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.,</hi> paa <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_7"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_7">varmblodige</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 953, FU, 3.&tu20;utg.,</hi> varmblodigede <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_8"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_8">vakkert</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1114,</hi> vakker <hi rend="italic">1.&tu20;utg., NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_9"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_9">Å</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1114, NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.,</hi> A <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_10"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_10">et bekymret</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 953,</hi> bekymret <hi rend="italic">1.&dash;2.&tu20;utg., FU, 3.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_11"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_11">naget</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1114, NBO Ms.8&deg; 953, FU, 3.&tu20;utg.,</hi> noget <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteGe_12"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_12">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteGe_13"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_13">Å</HIS:hisRef>] <hi rend="italic">ekspl. 2&dash;3, NBO Ms.4&deg; 1114, NBO Ms.8&deg; 953, 2.&tu20;utg., FU, 3.&tu20;utg.,</hi> A <hi rend="italic">ekspl. 1</hi></note>
+<note resp="editor" xml:id="noteGe_14"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_14">dette!</HIS:hisRef>] dette? <hi rend="italic">ekspl. 2</hi></note>
+<note resp="editor" xml:id="noteGe_15"><HIS:hisRef type="tcNote" target="Geht.xml" corresp="noteGe_15">håret,</HIS:hisRef>] håret <hi rend="italic">ekspl. 2</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

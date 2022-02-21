@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Lille Eyolf</title>
+<title level="a" type="sub">Ms 2114/1</title>
+<title level="a" type="origYear">1894</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Ellen Nessheim Wiger, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, mars 2009</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, mai 2009</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, november 2009</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="LE42114-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på LE94 (0309).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="LE42114">
+<msIdentifier>
+<settlement>Oslo/London</settlement>
+<repository>Schøyen-samlingen</repository>
+<idno>Ms 2114/1</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Uten tittel</title>
+<docDate>Uten datering</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Replikkutkast til 1. akt</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<item>ikke kodet: mange av prikkene over "i" og "j" mangler</item>
+<item>ikke kodet: påskrift med blyant i øvre høyre hjørne s. 1: manuskriptsignatur "ms 2114/1", under signaturen står noen utydelige tall/bokstaver, kan være "1.50" eller "I.50"</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="ALLMERS">ALLMERS</label><item>A.</item>
+<label xml:id="RITA">RITA</label><item>R.</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd XII) kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 218-219. Alle sidetall er oppgitt i n-attributter.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="ink-brown" scope="major"><p>Henrik Ibsen. Brunsort blekk. Hovedhånd s. 1.</p></handNote>
+<handNote scribe="HI-2" xml:id="HI-2" medium="pencil" rend="orange"><p>Henrik Ibsen. Grå blyant.  Hovedhånd s. 2.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>16.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>16.11.09</date>
+<name>MW</name><title>Farger i handList</title>
+La inn attributtverdier med farger i handList.</change>
+<change><date>03.11.09</date>
+<name>MW</name><title>Kodekontroll</title>
+Kodekontroll utført. Lager ny visning.</change>
+<change><date>18.05.09</date>
+<name>ENW</name><title>2. kollasjon + endring av id/filnavn</title>
+Kollasjonert mot original i Schøyen-samlingen og ført inn resultatene. Lagt inn opplysninger om hender i handList + handShift mellom s. 1 og 2 i teksten. Endret bibl i teiheader. Endret id og filnavn fra LE42696 til LE42114 i fil og statusrapport. Validert, laget visning.</change>
+<change><date>09.03.09</date>
+<name>HMS</name><title>Oppretting og 1. kollasjon</title>
+Opprettet fila. Kollasjonerte mot kopien. Har ikke ført inn blekktype i handlist i og med jeg oppretter mot kopi. Notater på kopien tilsier at HI har skrevet både med blekk og med blyant, må altså sjekkes og kodes når original ses. Har foreløpig skrevet i teiHeader at grunnlag=kopi, dette må endres hvis vi ser original. Validert, laget visning. Klar for annenkollasjon.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<div type="act" n="1">
+    <pb ed="source" type="folio_pagination" subtype="recto" n="[1]" facs="1" gathering="1"/> 
+<lb/><head>1<hi rend="raised">ste</hi> Akt.</head><note resp="editor">Overskriften står skråstilt i venstre hjørne.</note>
+<lb/><pb ed="HU" n="218"/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Du R. &dash; tror du der er noget imellem de to.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Jeg ved ikke hvad jeg skal sige. Før trode
+<lb/>jeg det. Men A. er ble&rapo;t mig så uforklarlig
+<lb/>i den sidste tid.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A</speaker></HIS:spOpener><p>Så? Er hun det? Mens jeg var borte?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Ja, i de sidste par uger synes jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Og du tror ikke at hun <HIS:hisDel rend="overstrike">bryr</HIS:hisDel> nu læ<HIS:hisDel rend="overwritten"><unclear>r</unclear></HIS:hisDel>nger
+<lb/>bry&rapo;r sig <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>vi<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>dere om ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Ikke alvorligt. Ikke helt og holdent. Det
+<lb/>tror jeg ikke. <HIS:hisStage>(ser på ham)</HIS:hisStage> Vilde det være
+<lb/>dig imod, ifald hun gjorde det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ikke egentlig imod. Men husk på at jeg
+<lb/>har ansvar for A. For hendes livs lykke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Å hvad &dash; ansvar! A. er da vel voksen.
+<lb/>Hun forstår da <HIS:hisDel rend="overstrike">vel</HIS:hisDel> <HIS:hisDel rend="overwritten"><unclear>a</unclear></HIS:hisDel>sagtens at vælge selv,
+<lb/>skulde jeg tro.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja, vi får jo håbe det, R.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p><HIS:hisDel rend="overstrike">Jeg for min part skulde gerne sé a</HIS:hisDel>t
+<lb/><pb ed="source" type="folio_pagination" subtype="verso" n="1" facs="1" gathering="1"/><HIS:hisDel rend="overstrike">der blev et pår</HIS:hisDel><pb ed="HU" n="219"/> Jeg for min part tror nu
+<lb/>sletikke noget ondt om B.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Nej kære, &dash; det gør jo ikke jeg heller.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker><HIS:hisDel rend="overwritten">A</HIS:hisDel>R.</speaker></HIS:spOpener><p>Og jeg skulde svært gerne sé at der blev
+    <pb ed="source" type="folio_pagination" subtype="verso" n="[1]" facs="1" gathering="1"/> 
+    
+<handShift new="HI-2"/>
+<lb/>et par af ham og A.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Ja hvorfor egentlig det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Jo, for så måtte hun rejse langt bort med
+<lb/>ham. Og kunde aldrig komme herud ligesom
+<lb/>nu.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Hvad! Kunde du ønske at bli&rapo; A kvit!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker></HIS:spOpener><p>Ja, ja, Alfred!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALLMERS"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener><p>Men hvorfor i alverden &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RITA"><HIS:spOpener><speaker>R.</speaker><HIS:hisStage>(slår armene <HIS:hisDel rend="overstrike">om</HIS:hisDel> lidenskabelig om ham)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Jo for så havde jeg dig for mig selv alene</p></HIS:hisSp>
+    <pb ed="source" type="folio_pagination" subtype="recto" n="[2]" facs="1" gathering="1"/> 
+    <!-- <pb n="[2]v"/> -->
+</div>
+</body>
+</text>
+</TEI>

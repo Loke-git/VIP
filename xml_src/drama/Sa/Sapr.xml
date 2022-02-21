@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Sancthansnatten]</title>
+<title level="a" type="sub">grunntekst, 1. utg. (prolog)</title>
+<title level="a" type="origYear">1853</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen, Ingvald Aarstein</name></respStmt>
+<respStmt>
+<resp>Oppretting, koding og kollasjonering</resp>
+<name xml:id="HIS-NME">Nina Marie Evensen</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Kodeoppdateringer, mai 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Sapr-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på DHU-0903.</p>
+<p>
+<biblStruct xml:id="Sapr">
+<analytic>
+<author>Henrik Ibsen</author>
+<title level="a" type="main">[Prolog]</title>
+<title level="a" type="sub">[til Sancthansnatten]</title>
+</analytic>
+<monogr>
+<title level="s">Bergens Stiftstidende</title>
+<title level="a" type="main">[Prolog]</title>
+<title level="a" type="sub">[til Sancthansnatten]</title>
+<imprint>
+<pubPlace>Bergen</pubPlace>
+<publisher>Johan P. Petersen</publisher>
+<HIS:printer>Trykt hos Chr. Dahl, R. S.</HIS:printer>
+<biblScope unit="issue">14. årgang, nr. 1</biblScope>
+<date when="1853-01-05">5. januar 1853</date>
+</imprint>
+</monogr>
+<series>
+<title level="s">Bergens Stiftstidende</title>
+</series>
+<idno type="owner">Bergen Offentlige Bibliotek</idno>
+<idno xml:id="Saprf1">hvlb.q 078.1 B</idno>
+<idno type="owner">Nasjonalbiblioteket avd. Rana</idno>
+<idno xml:id="Saprf2">EOO 00031892</idno>
+<idno type="owner">Bergen Offentlige Bibliotek</idno>
+<idno xml:id="Saprf3">fhB49811 1853</idno>
+</biblStruct>
+</p>
+<p>
+<listBibl>
+<head>Tekstkilder inkludert i det eksterne variantapparatet</head>
+<biblStruct xml:id="Sapr84">
+<analytic>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+</analytic>
+<monogr>
+<author>Tharald Blanc</author>
+<title>Norges Første Nationale Scene (Bergen 1850-1863)</title>
+<imprint>
+<pubPlace>Kristiania</pubPlace>
+<publisher>Alb. Cammermeyer</publisher>
+<HIS:printer>Det Mallingske Bogtrykkeri</HIS:printer>
+<date>1884</date>
+</imprint>
+</monogr>
+<idno type="owner">Ibsensenteret</idno>
+</biblStruct>
+</listBibl>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-trykk;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>[Prolog til Sancthansnatten]</head>
+<item>skriftgruppe: fraktur</item>
+<item>bokstavvariant: majuskler og minuskler</item>
+<item>skriftstørrelse: 10 pkt</item>
+<item>tankestreker: 3 mm, 0,5 pkt</item>
+<item>mellomrom foran kolon, semikolon, spørsmålstegn og utropstegn (ikke kodet)</item>
+<item>Diktet er satt opp i strofeform, med 8 3/4 strofer i den midterste av avisens tre spalter, og 2 1/4 strofer i den tredje spalten; teksten er venstrestilt, noe innrykket fra margen (ca. 1 cm).</item>
+<item>Diktet kommer i etterkant av en anmeldelse av førsteoppførelsen av Sancthansnatten; det er ingen luft mellom anmeldelsen og prologen, og diktet mangler egen overskrift; overgangen til neste artikkel markeres også svakt, bare med tankestrek.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">Sideskiftene fra Hundreårsutgaven (b. 2) er kodet med pb ed="HU". Dette tekstvitnet dekker sidene 19-22. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>23.11.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe.</change>
+<change><date>04.04.06</date>
+<name>MW</name><title>Ekstern variasjon</title>
+Kodet inn ekstern variasjon fra kollasjonen mot Sapr84. La til opplysninger om Sapr84 i sourceDesc i listBibl. Validert.</change>
+<change><date>07.03.06</date>
+<name>MW</name><title>Oppdatering</title>
+Endret ordlyden i edition i sourceDesc så den stemmer overens med tittelbladet.</change>
+<change><date>19.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc og entiteten i projectDesc. Validert</change>
+<change><date>18.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert.</change>
+<change><date>13.05.04</date>
+<name>MW</name><title>Rettet i metrikkoding</title>
+Endret an=N til an=no. Validert</change>
+<change><date>07.05.04</date>
+<name>MW</name><title>Oppdatering av teiHeader</title>
+La til felt om tekstvitnetype i titleStmt. TeiHeader rettet mot Saht</change>
+<change><date>04.05.04</date><name>MW</name><title>oppdatering</title>
+Oppdaterte teiHeader. Validert</change>
+<change><date>30.04.04</date><name>MW</name><title>oppdatering</title>
+Satte inn ny bibl i teiHeader</change>
+<change><date>23.04.04</date><name>NME</name><title>oppdatering</title>
+Førte inn biblioteksignatur for eksemplar Saprf2.</change>
+<change><date>23.01.04</date><name>NME</name><title>oppdatering</title>
+Førte inn en metrikk-rettelse. Validerte og lagde visningsfil. Brente cd.</change>
+<change><date>19.12.03</date><name>NME</name><title>oppdatering</title>
+Validerte og lagde visningsfil.</change>
+<change><date>16.12.03</date><name>NME</name><title>oppdatering</title>
+Førte inn opplysninger om eksemplar 3.</change>
+<change><date>11.12.03</date><name>NME</name><title>kollasjon</title>
+Førte inn opplysninger om eksemplar 2, og kollasjonerte denne.</change>
+<change><date>26.11.03</date><name>IAA</name><title>2. kollasjon</title>
+Så over tei-header og kollasjonerte teksten. La inn side- og kolonneskift og HU-sidetall. Gjorde kodekontroll. Gjenstår: føre inn opplysninger om eksemplarene som er brukt ved kollasjonering.</change>
+<change><date>25.11.03</date><name>NME</name><title>prologen</title>
+Reviderte Tei-header</change>
+<change><date>19.11.03</date><name>NME</name><title>prologen</title>
+Kopierte teksten fra HU. Kollasjonerte mot Bergens Stiftstidende (Saprf1), rettet en HU-feil.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="printed" xml:lang="dan-nob">
+<body>
+<pb/><pb ed="HU" n="19"/>
+<cb rend="middle"/>
+<lb/><HIS:hisLg versetype="strofisk strofegruppe anakreontisk trok&#xE9;" an="no" met="bi ((7 8)2 (7 8)2) | ((7 8)2 7 8 8 7)" rhyme="((a B)2 (c D)2) | ((a B)2 c D D c)"><HIS:hisLg versetype="strofe" met="(7 8)2 7 8 8 7" rhyme="(a B)2 c D D c"><l first="yes" rhyme="a">Hvor vi gaa paa Livets Vei</l>
+<lb/><l rhyme="B">Følger os et Ord, som binder</l>
+<lb/><l rhyme="a">Mangen blaa Forglemmigei</l>
+<lb/><l rhyme="B">I vor <app type="external" subtype="word" xml:id="varSapr-1"><HIS:hisRdg wit="Sapr">Krands</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Krans</HIS:hisRdg></app> af gamle Minder &dash;</l>
+<lb/><l rhyme="c">For vor <app type="external" subtype="interpunction" xml:id="varSapr-2"><HIS:hisRdg wit="Sapr">Længsel,</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Længsel</HIS:hisRdg>
+</app> for vort Savn</l>
+<lb/><l rhyme="D">Staar det som en stille Trøster,</l>
+<lb/><l rhyme="D">Hviskende med kjendte Røster; &dash;</l>
+<lb/><l rhyme="c">Dette Ord er Hjemmets Navn.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Saa Du ei, hvor Svalen drog</l>
+<lb/><l rhyme="B"><app type="external" subtype="word" xml:id="varSapr-3"><HIS:hisRdg wit="Sapr">Seent</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Sent</HIS:hisRdg></app> om Høst mod Sydens Sommer?</l>
+<lb/><l rhyme="a">Men til næste Foraar dog</l>
+<lb/><l rhyme="B">Atter den til Norden kommer.</l>
+<lb/><l rhyme="c">Reden, hvor dens Moder sang,</l>
+<lb/><l rhyme="D">Kan den aldrig mer forglemme;</l>
+<lb/><l rhyme="c">Didhen af en lønlig Trang</l>
+<lb/><l rhyme="D">Drives den: der har den hjemme.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Færdes Du paa fremmed <app type="external" subtype="interpunction" xml:id="varSapr-4"><HIS:hisRdg wit="Sapr">Strand, &dash;</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Strand,</HIS:hisRdg>
+</app></l>
+<lb/><l rhyme="B"><app type="external" subtype="word" xml:id="varSapr-5"><HIS:hisRdg wit="Sapr">Fly'r</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Flyr</HIS:hisRdg></app> din Længsel over Havet</l>
+<lb/><l rhyme="a">Mod det kjære gamle <app type="external" subtype="interpunction" xml:id="varSapr-6"><HIS:hisRdg wit="Sapr">Land,</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Land</HIS:hisRdg>
+</app></l>
+<lb/><l rhyme="B">Fjernt bag Bølgerne begravet.</l><pb ed="HU"/>
+<lb/><l rhyme="c">Didhen, hvor din Vugge stod,</l>
+<lb/><l rhyme="D">Vandrer Du i vaagne Drømme,</l>
+<lb/><l rhyme="c">Bytter gjerne Druens Blod</l>
+<lb/><l rhyme="D">For en Drik af Fjeldets Strømme.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Sidder Du en Vinterkveld</l>
+<lb/><l rhyme="B">Ensom paa <app type="external" subtype="word" xml:id="varSapr-7"><HIS:hisRdg wit="Sapr">dit</HIS:hisRdg><HIS:hisRdg wit="Sapr84">det</HIS:hisRdg></app> stille Kammer,</l>
+<lb/><l rhyme="a">Øsende af Mindets Væld,</l>
+<lb/><l rhyme="B">Stirrende i Ovnens Flammer; &dash;</l>
+<lb/><l rhyme="c">Stævner ikke Tankens Flugt</l>
+<lb/><l rhyme="D">Mod den gamle Ammestue,</l>
+<lb/><l rhyme="c">Hvor Du engang fromt og smukt</l>
+<lb/><l rhyme="D">Sad som Barn ved Arnens Lue?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 7 8 8 7" rhyme="(a B)2 c D D c"><l rhyme="a">Og din Barndoms Eventyr</l>
+<lb/><l rhyme="B">Og de gamle Melodier,</l>
+<lb/><l rhyme="a">Som i Livets Larm og Styr</l>
+<lb/><l rhyme="B">Under Glemselskaaben tier, &dash;</l>
+<lb/><l rhyme="c"><app type="external" subtype="word" xml:id="varSapr-8"><HIS:hisRdg wit="Sapr">See</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Se</HIS:hisRdg></app>, de stige atter frem,</l>
+<lb/><l rhyme="D">Minde Dig om <app type="external" subtype="word" xml:id="varSpar-9"><HIS:hisRdg wit="Sapr">svundne</HIS:hisRdg><HIS:hisRdg wit="Sapr84">gamle</HIS:hisRdg></app> Dage,</l>
+<lb/><l rhyme="D">Medens dine Tanker drage</l>
+<lb/><l rhyme="c">Til det stille Moderhjem.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Hjemmets Magt, som i vor Barm</l>
+<lb/><l rhyme="B">Trofast følger os til Graven,</l>
+<lb/><l rhyme="a">Raader ogsaa stærk og varm</l>
+<lb/><l rhyme="B">Som en Sol i Kunstnerhaven.</l>
+<lb/><l rhyme="c">Skal en Blomme trives der,</l>
+<lb/><l rhyme="D">Hjemlig Jordbund maa den favne;</l>
+<lb/><l rhyme="c">Ellers vil sit Farveskjær &dash;</l>
+<lb/><l rhyme="D">Blommens bedste Pryd &dash; den savne.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Og hvor er ei Hjemmet rigt?</l>
+<lb/><l rhyme="B">Som en Hæk med Roser røde,</l><pb ed="HU"/>
+<lb/><l rhyme="a">Som et fromt og deiligt Digt</l>
+<lb/><l rhyme="B">Bølger Livet os imøde.</l>
+<lb/><l rhyme="c">Er ei Folkets stille Færd</l>
+<lb/><l rhyme="D">Høit i Li og dybt i Dale</l>
+<lb/><l rhyme="c"><app type="external" subtype="interpunction" xml:id="varSapr-10"><HIS:hisRdg wit="Sapr">Billeder,</HIS:hisRdg><HIS:hisRdg wit="Sapr84">Billeder</HIS:hisRdg>
+</app> som vel er værd,</l>
+<lb/><l rhyme="D">At en Kunstnerhaand dem male?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Sydens Slette pranger vel</l>
+<lb/><l rhyme="B">Med Oranger og Plataner,</l>
+<lb/><l rhyme="a">Men paa Nordens stolte Fjeld</l>
+<lb/><l rhyme="B">Voxe dog de ranke Graner &dash;</l>
+<lb/><l rhyme="c">Er ei deres Hvælving lun,</l>
+<lb/><l rhyme="D">Har den ikke Duft og Skygge?</l>
+<lb/><l rhyme="c">Hvi skal Kunsten sit Paulun</l>
+<lb/><l rhyme="D">Blot i Sydens Lund da bygge?</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Sæterjentens klare Lur</l>
+<lb/><l rhyme="B">Klinger i de grønne Lier;</l>
+<lb/><l rhyme="a">Huldren slaar i Fjeldets Ur</l>
+<lb/><l rhyme="B">Klagelige Melodier.</l>
+<lb/><l rhyme="c">Vaarliglet er Jentens Bryst,</l>
+<lb/><l rhyme="D">Huldrens Barm har Længsler stærke &dash;</l>
+<cb rend="right"/>
+<lb/><l rhyme="c">Denne Kval og denne Lyst</l>
+<lb/><l rhyme="D">Er just Folkesindets Mærke.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 7 8 8 7" rhyme="(a B)2 c D D c"><l rhyme="a">Og blir Barmen os for trang,</l>
+<lb/><l rhyme="B">Kan den ei sin Fylde gjemme, &dash;</l>
+<lb/><l rhyme="a">Maa vi lette den i Sang;</l>
+<lb/><l rhyme="B">Fryd og Vemodssuk faa Stemme.</l>
+<lb/><l rhyme="c"><app type="external" subtype="word" xml:id="varSapr-11"><HIS:hisRdg wit="Sapr"><emph>Da</emph></HIS:hisRdg><HIS:hisRdg wit="Sapr84">Da</HIS:hisRdg></app> vi søge Kunstens Hjem;</l>
+<lb/><l rhyme="D">Thi det er jo der, at Folket</l>
+<lb/><l rhyme="D">Kræve kan sit Liv fortolket</l>
+<lb/><l rhyme="c">Og forklaret stillet frem.</l></HIS:hisLg><pb ed="HU"/>
+<lb/><HIS:hisLg versetype="strofe" met="(7 8)2 (7 8)2" rhyme="(a B)2 (c D)2"><l rhyme="a">Men det er ei hver en Fugl,</l>
+<lb/><l rhyme="B">Som fik Lærkens Skjaldetunge,</l>
+<lb/><l rhyme="a">Og den prøver fra sit Skjul</l>
+<lb/><l rhyme="B">Dog saa godt den kan at <app type="external" subtype="interpunction" xml:id="varSapr-12"><HIS:hisRdg wit="Sapr">sjunge.</HIS:hisRdg><HIS:hisRdg wit="Sapr84">sjunge,</HIS:hisRdg>
+</app></l>
+<lb/><l rhyme="c">Tag med Skaansel da imod,</l>
+<lb/><l rhyme="D">Hvad <app type="external" subtype="word" xml:id="varSapr-13"><HIS:hisRdg wit="Sapr">iaften</HIS:hisRdg><HIS:hisRdg wit="Sapr84">i Aften</HIS:hisRdg></app> her Dem <app type="external" subtype="interpunction" xml:id="varSapr-14"><HIS:hisRdg wit="Sapr">bydes;</HIS:hisRdg><HIS:hisRdg wit="Sapr84">bydes,</HIS:hisRdg>
+</app></l>
+<lb/><l rhyme="c">Husk, at ikkun Fod for Fod</l>
+<lb/><l rhyme="D">Kan en Kunstnerbane brydes!</l></HIS:hisLg></HIS:hisLg>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">Rypen i Justedal</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: NBO Ms.4&deg; 932</title>
+<title level="s" type="copyright">&copy; Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Stine Brenna Taugbøl</name></respStmt>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respStmt>
+<respStmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Alvhild Dvergsdal, Jørgen Fafner, Narve Fulsås, Dag Gundersen, Arnbjørn Jakobsen, Egil Kraggerud, Olav Solberg, Stine Brenna Taugbøl, Vigdis Ystad, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respStmt>
+<respStmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og korrekturlesing</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen M. Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="RJht-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på RJht_bok.xml (RJht_bok-1207).</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="RJ4932">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4&deg; 932</idno>
+</msIdentifier>
+<msContents><msItem>
+<title>Rypen i Justedal</title>
+<author>Henrik Ibsen</author>
+<docDate>1850</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Arbeidsmanuskript. Egenhendig.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+<p>
+<listBibl>
+<head>Tekstkilder konsultert i ederingen</head>
+<biblStruct xml:id="RJHU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Rypen i Justedal</title>
+<edition>Hundreårsutgave</edition>
+<idno>Ekspl. 1</idno>
+<idno type="owner">Henrik Ibsens skrifter</idno>
+<imprint>
+<pubPlace>Oslo</pubPlace>
+<publisher>Gyldendal</publisher>
+<HIS:printer>Dreyer, Stavanger</HIS:printer>
+<date>1928-57</date>
+</imprint>
+<imprint>
+<biblScope unit="volume">Bd. 3</biblScope>
+<date>1929</date>
+</imprint>
+</monogr>
+<series>
+<editor>Francis Bull, Halvdan Koht og Didrik Arup Seip</editor>
+<title>Hundreårsutgave. Henrik Ibsens samlede verker</title>
+</series>
+</biblStruct>
+</listBibl>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-ht-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography><p>Grunntekstens typografi fins beskrevet i typografibeskrivelsen i grunntekstfilen (RJ4932.xml).</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label>BENGT</label><item>Bengt af Bjerkehoug/Bengt, Bengt Alfsen/-</item>
+<label>BJORN</label><item>Bjørn</item>
+<label>MERETA</label><item>Mereta</item>
+<label>EINAR</label><item>Einar</item>
+<label>ALFHILD</label><item>Alfhild</item>
+<label>MOGENS</label><item>Mogens</item>
+<label>KNUD</label><item>Knud/Knud, Harald/-</item>
+<label>PAAL</label><item>Paal</item>
+<label>INGEBORG</label><item>Ingeborg</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven kodet med pb ed="HU". Dette tekstvitnet dekker sidene 239-272 (bd. 3). Et n-attributt med faktisk sidetall er lagt til ved første forekomst.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<metDecl><p>&metDecl;</p></metDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="h1" xml:id="h1" medium="pen1" scope="major" rend="transcribed"><list><label>Sort tekst:</label><item>Henrik Ibsen, sort penn. Hele manuskriptet.</item></list></handNote>
+<handNote scribe="h2" xml:id="h2" medium="pencil" rend="NotTranscribed"><p>Blyant. Strøkne tall i omrokkering på 18r. Forøvrig også noe blyantkluss rundtom i manuskriptet. Ikke transkribert.</p></handNote>
+<handNote scribe="h3" xml:id="h3" medium="pen2" rend="NotTranscribed"><p>Rød penn. Brukt i ikke-egenhendig foliering, som er fjernet fra hovedteksten.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>05.06.14</date>
+<name>SBT</name><title>HISb-sideskift</title>
+La inn sideskift fra bokutgaven.</change>
+<change><date>28.02.13</date>
+<name>SBT</name><title>Håndliste</title>
+Gikk gjennom tekst i håndliste for farging av hender. Rend-attributt viser hvilke hender som skal farges og omtales i e-utgaven.</change>
+<change><date>08.11.12</date>
+<name>SBT</name><title>TEI P5</title>
+Manuelle endringer etter skripting. Valid TEI P5/HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<front>
+<titlePage type="main">
+<docTitle>
+<lb/><titlePart type="main"><pb n="[1]r"/><pb ed="HISb" n="191"/><pb ed="HU" n="239"/><anchor type="lemma" xml:id="koRJ_1"/>Rypen i Justedal,</titlePart>
+<lb/><titlePart type="desc"><anchor type="lemma" xml:id="koRJ_2"/>nationalt Skuespil
+<lb/>i
+<lb/>fire Acter,</titlePart>
+</docTitle>
+<lb/><byline>af
+<lb/><docAuthor><anchor type="lemma" xml:id="koRJ_3"/>Brynjolf Bjarme</docAuthor>.</byline>
+<lb/><figure type="bar"/>
+<lb/><docDate>1850.</docDate>
+</titlePage>
+<pb rend="noprint" ed="HU"/>
+<HIS:hisCastList>
+<lb/><castItem xml:id="BENGT"><pb n="[1]v"/><pb ed="HISb"/><pb ed="HU"/><anchor type="lemma" xml:id="koRJ_4"/>Bengt af Bjerkehoug, en rig <anchor type="lemma" xml:id="koRJ_5"/>Odelsbonde.</castItem>
+<lb/><castItem xml:id="BJORN"><anchor type="lemma" xml:id="koRJ_6"/>Bjørn, hans Søn.</castItem>
+<lb/><castItem xml:id="MERETA"><anchor type="lemma" xml:id="koRJ_7"/>Mereta hans Pleiedatter og <anchor type="lemma" xml:id="koRJ_8"/>Myndling.</castItem>
+<lb/><castItem xml:id="EINAR"><anchor type="lemma" xml:id="koRJ_9"/>Einar en ung Odelsbonde.</castItem>
+<lb/><castItem xml:id="ALFHILD"><anchor type="lemma" xml:id="koRJ_10"/>Alfhild, en ung Pige.</castItem>
+<lb/><castItem xml:id="MOGENS"><anchor type="lemma" xml:id="koRJ_11"/>Mogens, Præst &dash;</castItem>
+<lb/><castItem xml:id="KNUD"><anchor type="lemma" xml:id="koRJ_12"/>Knud, en gammel Spillemand.</castItem>
+<lb/><castItem xml:id="PAAL"><anchor type="lemma" xml:id="koRJ_13"/>Paal, en gammel Jæger.</castItem>
+<lb/><HIS:hisCastGroup rend="paragraph"><castItem xml:id="INGEBORG"><anchor type="lemma" xml:id="koRJ_14"/>Ingeborg</castItem> og <castItem>flere Tjenestefolk paa Bjerkehoug</castItem>.</HIS:hisCastGroup></HIS:hisCastList>
+</front>
+<pb rend="noprint" ed="HU"/>
+<body>
+<div type="act" n="1">
+<lb/><head><pb n="[2]r"/><pb ed="HISb"/><pb ed="HU"/><hi rend="underlined">Første Act.</hi></head>
+<lb/><HIS:hisStage>Vild Fjeldegn; til <anchor type="lemma" xml:id="koRJ_14c"/>Venstre en gammel
+<lb/><anchor type="lemma" xml:id="koRJ_14a"/>Sæterhytte, i Baggrunden høie Fjelde der
+<lb/>hæve sig over hinanden. Bjørn og Paal
+<lb/><anchor type="lemma" xml:id="koRJ_14b"/>komme ned fra Lien med Buer og an-
+<lb/>dre Jagtredskaber paa Ryggen; det er Aften. &dash;</HIS:hisStage>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l first="yes" rhyme="x"><anchor type="ht" xml:id="koRJ_ht_5"/><anchor type="lemma" xml:id="koRJ_15"/>Vi <anchor type="lemma" xml:id="koRJ_15a"/>faa nok skynde os ifald vi skal</l>
+<lb/><l rhyme="x">naa frem til Bjerkehoug <anchor type="lemma" xml:id="koRJ_16"/>ilyse, Bjørn!</l>
+<lb/><l part="I">snart er det mørkt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Det haster ikke, <HIS:hisDel rend="overwritten"><unclear>Paal,</unclear></HIS:hisDel>kom</l>
+<lb/><l rhyme="X">og sæt dig her paa Hellen, lad os hvile.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="I"><anchor type="lemma" xml:id="koRJ_17"/>Ei, er du træt?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Det <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>er ei derfor, Paal!</l>
+<lb/><l rhyme="X">men her er jo saa kjøligt og saa vakkert</l>
+<lb/><l rhyme="x">see her hvor Fjeldet skinner rødt som Guld</l>
+<lb/><l rhyme="X"><pb ed="HISb"/>man skulde tro at det var <anchor type="lemma" xml:id="koRJ_18"/>Haugafolket</l>
+<lb/><l rhyme="x"><pb n="[2]v"/>som viste os sin hele rige Skat.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">See nu er du igjen paa disse Tanker</l>
+<lb/><l rhyme="x">om Haugafolk og <anchor type="lemma" xml:id="koRJ_19"/>Huldre og Gud veed</l>
+<lb/><l part="I">hvad Alt det heder &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Troer du da ei</l>
+<lb/><l part="I">at saadant findes meer?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Jo at det findes,</l>
+<lb/><l rhyme="x">det veed jeg sagtens vel saa godt som du</l>
+<lb/><l rhyme="X">men netop derfor skulde du ei snakke</l>
+<lb/><l rhyme="x">om saadant <anchor type="lemma" xml:id="koRJ_20"/>nu ved Solenedgang, Bjørn.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X">Du mener at det kunde være muligt</l>
+<lb/><l part="I">det viste sig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja hvorfor ikke det</l>
+<lb/><l part="I">sligt har jeg seet før &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/><pb ed="HU"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="M">Har du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja vist</l>
+<lb/><l part="I">og det for ikke længe siden &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Hvor?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Her lige Nord i Sæteren, der var jeg</l>
+<lb/><l part="I">en Lørdagskvæl i Sommer</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Du v<HIS:hisDel rend="overwritten"><gap/>l</HIS:hisDel>ar vel</l>
+<lb/><l part="I"><pb n="[3]r"/>paa Frieri &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Saa var det nok omtrent,</l>
+<lb/><l rhyme="X"><anchor type="lemma" xml:id="koRJ_21"/>hun <anchor type="lemma" xml:id="koRJ_21a"/>Gunborg som engang saanær var bleven</l>
+<lb/><l rhyme="x">min <anchor type="lemma" xml:id="koRJ_21b"/>Fæstemø, &dash; det blev nu intet af, &dash;</l>
+<lb/><l part="I">hun ligger der tilsæters &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X"><anchor type="lemma" xml:id="koRJ_22"/>Hun, den Gamle</l>
+<lb/><l part="I">vi mødte der imorges &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu, ja vist</l>
+<lb/><l rhyme="X">hun er da ei saa gammel, og desuden</l>
+<lb/><l rhyme="x">saa koger hun slig prægtig Rømmegrød</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Ja, det kan være, &dash; men hvad saa du da?</l></HIS:hisSp>
+<lb/><HIS:hisStage>(han tager Nisten frem medens Paal
+<lb/>fortsætter.)</HIS:hisStage>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nu skal du høre, &dash; vent nu bare lidt;</l>
+<lb/><l rhyme="x">det var i Kvældingen omtrent som nu,</l>
+<lb/><l rhyme="X">jeg trasked opad saa i egne Tanker &dash;</l>
+<lb/><l rhyme="x">men aller bedst jeg gik saa fløi der op</l>
+<lb/><l rhyme="X">en Rype tæt ved mig i Graneholtet</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Og saa?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg spændte Buen i en Fart</l>
+<lb/><l part="I">&dash; men væk var Fuglen &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja det troer jeg gjerne</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Ja hør nu bare <HIS:hisStage>(med la<HIS:hisDel rend="overwritten"><unclear>d</unclear></HIS:hisDel>v Stemme)</HIS:hisStage> da jeg saa mig om</l>
+<lb/><l rhyme="x"><pb n="[3]v"/>stod <anchor type="lemma" xml:id="koRJ_22a"/>Huldra høit i Lien netop der</l>
+<lb/><l rhyme="X">paa samme Sted hvor Rypen just blev borte.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="I"><anchor type="ht" xml:id="koRJ_ht_14"/>Aa, det har sagtens været Gunborg &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Saa,</l>
+<lb/><l rhyme="X">troer du da ei at jeg kan skjelne Huldra</l>
+<lb/><l rhyme="x">ifra <anchor type="lemma" xml:id="koRJ_23"/>et christent Menneske, &dash; nei nei, &dash;</l>
+<lb/><l rhyme="x">jeg ved nok hvem det var, &dash; og Rypen da? &dash;</l>
+<lb/><l rhyme="X">ja jeg tør bande paa det var en <anchor type="lemma" xml:id="koRJ_24"/>Troldfugl.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Men hvordan saa hun ud, hun var vel vakker?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Ja hun var vel nok skabt, det maa jeg sige &dash;</l>
+<lb/><l rhyme="X">men det saa jeg nu ikke vidre efter &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Du løb din Vei?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja det er nok det bedste</l>
+<lb/><l rhyme="x"><pb ed="HISb"/>i slige Tilfælde; Folk sige jo,</l>
+<lb/><l rhyme="x">at Huldra passer paa; naar det kan skee</l>
+<lb/><l rhyme="X">saa lokker hun de <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>raske Karle til sig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Det er nok helst de unge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu, ja vel,</l>
+<lb/><l rhyme="X">jeg er da ingen Gamling endnu heller,</l>
+<lb/><l rhyme="x">for tredive Aar tilbage var jeg kun</l>
+<lb/><l part="I">en Unggut endnu, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja det kan nok være.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb n="[4]r"/>Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Ja tredive Aar er sagtens ingen Alder.</l>
+<lb/><l rhyme="x">Jo, jo, det var nok bedst jeg gik min Vei,</l>
+<lb/><l rhyme="x">du mindes hvordan det gik <anchor type="lemma" xml:id="koRJ_25"/>Eivind Bolt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="X"><anchor type="ht" xml:id="koRJ_ht_15"/>Ja <anchor type="lemma" xml:id="koRJ_26"/>Huldren lokked ham jo ind i Fjeldet,</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Og lod ham blive der i mange Aar,</l>
+<lb/><l rhyme="x">og da han endelig kom ud igjen</l>
+<lb/><l rhyme="X"><pb ed="HISb"/>saa kjendte Ingen ham i Bygden mere.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nu ja, hvad Skade var der vel i det?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Du havde <anchor type="lemma" xml:id="koRJ_26b"/>maaskee Lyst at følge med</l>
+<lb/><l part="I">hvis Huldra lokked dig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja hvorfor ikke!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Jeg tænkte det; &dash; jeg har nok længe mærket</l>
+<lb/><l rhyme="x">at i den sidste Tid stod al din <anchor type="lemma" xml:id="koRJ_26a"/>Hu</l>
+<lb/><l rhyme="X">til <anchor type="lemma" xml:id="koRJ_27"/>Sagn og Eventyr og derfor flakker</l>
+<lb/><l rhyme="x"><pb ed="HU"/>du her omkring fra Morgen og til Kvæl;</l>
+<lb/><l rhyme="X">igaar da jeg traf paa dig, &dash; hør, hvor havde</l>
+<lb/><l part="I">du været da?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu, kan du gjætte det?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="I">Vel høit tilfjelds som ellers!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb n="[4]v"/><pb ed="HISb"/>Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Endnu længer, &dash;</l>
+<lb/><l part="I">i Justedalen! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Gud forlade dig! &dash;</l>
+<lb/><l rhyme="X">I Justedalen, der hvor ingen <anchor type="lemma" xml:id="koRJ_27a"/>Skytte</l>
+<lb/><l rhyme="x">har sat sin Fod i mange Herrens Aar;</l>
+<lb/><l rhyme="X">den ligger øde siden <anchor type="lemma" xml:id="koRJ_28"/>Svartedauen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Jeg ved det nok &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Og Folk fortæller jo</l>
+<lb/><l rhyme="X">at <anchor type="lemma" xml:id="koRJ_29"/>det skal spøge der og at de Døde</l>
+<lb/><l rhyme="x">som <anchor type="lemma" xml:id="koRJ_29a"/>ligge <anchor type="lemma" xml:id="koRJ_30"/>ubegravne, <anchor type="lemma" xml:id="koRJ_31"/>gaa igjen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Det kan nok være!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Har du intet seet?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Nei intet seet, &dash; men hørt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Hvad, &dash; har du hørt, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Nu, Suus fra Granetop og Fuglekvidder</l>
+<lb/><l rhyme="x">og sligt som altid høres her tilfjelds &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="I">Og ikke andet?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb n="[5]r"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Lad os ikke snakke</l>
+<lb/><l rhyme="x">om <HIS:hisDel rend="overwritten">sligt</HIS:hisDel>saadant nu saa seent paa Kvælden, Paal!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Folk siger <anchor type="ht" xml:id="koRJ_ht_16"/>Huldren eier hele Dalen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Gjør Huldren?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja, og at hun gjæter der</l>
+<lb/><l part="I">sin hele Buskap, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Det kan gjerne være</l>
+<lb/><l part="I">jeg saa ei <HIS:hisDel rend="overwritten">n</HIS:hisDel>Noge<HIS:hisDel rend="overwritten">t</HIS:hisDel>n, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja da har jeg dog</l>
+<lb/><l rhyme="X">hørt <anchor type="lemma" xml:id="koRJ_32"/>Sæterjenterne herom fortælle</l>
+<lb/><l rhyme="x">at de om Sommerkvællen tit har hørt</l>
+<lb/><l rhyme="X">at Huldren blæste paa sin <anchor type="lemma" xml:id="koRJ_33"/>Luur deroppe.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bjørn</speaker> <HIS:hisStage>springer op</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Det høre de?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu ja, &dash; <anchor type="lemma" xml:id="koRJ_33a"/>hvad fattes dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Aa det var ingen Ting; men <anchor type="lemma" xml:id="koRJ_33b"/>sige de</l>
+<lb/><l rhyme="X">at de kan høre <anchor type="lemma" xml:id="koRJ_34"/>Huldrelok fra <HIS:hisRef type="tcNote" xml:id="noteRJ_1" target="RJht_noter.xml" corresp="noteRJ_1">Lien.</HIS:hisRef></l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Det er ei længer siden end igaar</l>
+<lb/><l rhyme="X">jeg hørte det <HIS:hisDel rend="overwritten"><unclear>af</unclear></HIS:hisDel>paa Sæteren hernede;</l>
+<lb/><l rhyme="x">seer du det gamle <anchor type="lemma" xml:id="koRJ_35"/>Sél som staar forladt</l>
+<lb/><l rhyme="X"><pb n="[5]v"/>det er fordi at ingen Jente <anchor type="lemma" xml:id="koRJ_35a"/>vover</l>
+<lb/><l part="I">at ligge her tilfjelds &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Forunderligt!</l>
+<lb/><l rhyme="X"><pb ed="HISb"/>Men lad os tage os <anchor type="lemma" xml:id="koRJ_36"/>et Drag af Hornet</l>
+<lb/><l rhyme="x">det haster ei vi kan jo hvile <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>her</l>
+<lb/><l part="I">saagodt som andetsteds</l>
+<lb/><HIS:hisStage>(han drikker og rækker
+<lb/>Paal Hornet.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nu, som du <anchor type="lemma" xml:id="koRJ_37"/>tykkes!</l>
+<lb/><HIS:hisStage>(han drikker)</HIS:hisStage>
+<lb/><l rhyme="x">Du er da bleven rent som folkesky</l>
+<lb/><l rhyme="X">og trives ingensteds som her i Skogen;</l>
+<lb/><l rhyme="x">nu, hver sin Lyst, ifald det <anchor type="lemma" xml:id="koRJ_38a"/>huer dig</l>
+<lb/><l rhyme="X">at blive her inat, saa vil jeg søge</l>
+<lb/><l rhyme="x">en Bænk at hvile paa i <anchor type="lemma" xml:id="koRJ_38b"/>Sælet der.</l>
+<lb/><HIS:hisStage>(han reiser sig.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="A">Ja gaa du kun, &dash; jeg sidder her paa Hellen</l>
+<lb/><l part="I">og pudser Rusten af min Bue, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Vel!</l>
+<lb/><l rhyme="A">men skynd dig kun, det er alt seent paa Kvælden.</l>
+<lb/><HIS:hisStage><pb ed="HISb"/>(han gaar ind i
+<lb/>Selet.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> <HIS:hisStage>efter
+<lb/>en Pause</HIS:hisStage>.</HIS:spOpener>
+<lb/><l rhyme="x">Nei alt hvad jeg end strider derimo<HIS:hisDel rend="overwritten">m</HIS:hisDel>d,</l>
+<lb/><l rhyme="X">jeg kan ei blive fri for disse Tanker!</l>
+<lb/><l rhyme="x">Har jeg da ikke hørt saa tydeligt</l>
+<lb/><l rhyme="X">hvordan hun lokked med sin Luur fra Lien;</l>
+<lb/><l rhyme="x">og fra den første Gang jeg hørte det</l>
+<lb/><l rhyme="X"><pb n="[6]r"/>da forekom det mig som jeg blev dreven</l>
+<lb/><l rhyme="x"><pb ed="HU"/>af en usynlig Magt derop; &dash; hver Dag</l>
+<lb/><l rhyme="X">jeg maatte vandre did, selv mod min Villie.</l>
+<lb/><l rhyme="x">&dash; Hør, lød det ei, <HIS:hisStage>(lytter)</HIS:hisStage> &dash; nei, det var kun <anchor type="lemma" xml:id="koRJ_39"/>en Gjøg</l>
+<lb/><l rhyme="X">som sang deroppe, høit i Furutoppen,</l>
+<lb/><l rhyme="x">det skal betyde Lykke siger man,</l>
+<lb/><l rhyme="x">nu, gid det var saavel, &dash; tys, hvad er <HIS:hisRef type="tcNote" xml:id="noteRJ_2" target="RJht_noter.xml" corresp="noteRJ_2">det?</HIS:hisRef></l>
+<lb/><l rhyme="X">jeg hører Fodtrin, &dash; det er vist <anchor type="lemma" xml:id="koRJ_40"/>en Skytte!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><anchor type="ht" xml:id="koRJ_ht_21"/><anchor type="lemma" xml:id="koRJ_41"/>Harald</speaker> <HIS:hisStage>(kommer fra Lien med sin
+<lb/><HIS:hisRef type="tcNote" xml:id="noteRJ_3" target="RJht_noter.xml" corresp="noteRJ_3"><anchor type="lemma" xml:id="koRJ_42"/>Gig</HIS:hisRef> i Haanden.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I"><pb ed="HISb"/>Godkvæl!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Godkvæl igjen, &dash; hvor skal du hen</l>
+<lb/><l part="I">saa seent paa Kvælden &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nedad imod Bygden!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Du boer vel over paa den anden Kant</l>
+<lb/><l part="I">af Fjeldet?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja, det kan du gjerne sige,</l>
+<lb/><l rhyme="x">dog ikke mere der end andetsteds,</l>
+<lb/><l rhyme="X">mit Hjem er hvorsomhelst det kan sig træffe.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Hvorledes mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg vanker om</l>
+<lb/><l rhyme="X">og <anchor type="lemma" xml:id="koRJ_43"/>bier ingensteds ret meget længe,</l>
+<lb/><l rhyme="x">jeg er en Spillemand, som du nok seer</l>
+<lb/><l rhyme="X"><pb n="[6]v"/>og synger hvorsomhelst man <anchor type="lemma" xml:id="koRJ_43a"/>gider høre.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Og du har intet Hjem?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Er der ei Ly</l>
+<lb/><l rhyme="X">da, under hvert et Træ i Granelien?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Ja, du har Ret, naar man er ung saa gaar</l>
+<lb/><l part="I">det sagtens an; &dash; men &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Snak dog ei om Alder!</l>
+<lb/><l rhyme="X">vid, man kan gjerne leve hundred&rapo; Vintre</l>
+<lb/><l rhyme="x">og endda være lige ung, min Gut!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Du taler underligt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Det kan nok være, &dash;</l>
+<lb/><l rhyme="x">det er fordi du ikke skjønner mig; &dash;</l>
+<lb/><l rhyme="X">men jeg maa nok begive mig paa Veien. &dash;</l>
+<lb/><l rhyme="x">&dash; Gaaer ikke denne Sti til Bjerkehoug?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Til Bjerkehoug? Ja, skal du did iaften?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Harald</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Saa var min <anchor type="lemma" xml:id="koRJ_43c"/>Agt, jeg har ei været der</l>
+<lb/><l rhyme="X">paa mange Aar og derfor vil jeg gjerne</l>
+<lb/><l rhyme="x">erfare om der <anchor type="lemma" xml:id="koRJ_43d"/>endnu ei som før</l>
+<lb/><l rhyme="X">er <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Plads ved <anchor type="lemma" xml:id="koRJ_44"/>Aaren for den trætte Vandrer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb n="[7]r"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Det kan du lide paa &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Harald</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Det troer jeg og!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Nu saa farvel, &dash; og lad ei Veien falde</l>
+<lb/><l part="I">dig altfor lang &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><anchor type="ht" xml:id="koRJ_ht_22"/>Harald</speaker> <HIS:hisStage>idet han vil gaa</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="x">For lang, hvor kan den det?</l>
+<lb/><l rhyme="x">gaar du i Skogen med det rette Sind</l>
+<lb/><l rhyme="x">saa savner du ei Selskab, mener jeg,</l>
+<lb/><l rhyme="X">hvad eller tykkes dig at det er énsomt</l>
+<lb/><l rhyme="x">her hvor dog Li og Fjeld er fuldt af Liv?</l>
+<lb/><l rhyme="X">Du troer det ei? &dash; det er dog som jeg siger</l>
+<lb/><l rhyme="x">og <anchor type="lemma" xml:id="koRJ_45"/>hvis du ikke hører eller seer</l>
+<lb/><l rhyme="X">saa er det kun fordi du ikke eier</l>
+<lb/><l rhyme="x"><pb ed="HISb"/>det rette Syn og Hørelse! &dash; Godkvæl.</l>
+<lb/><HIS:hisStage>(han gaar)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>. <HIS:hisStage>seer efter ham</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Det var dog sælsomt hvad han sagde der,</l>
+<lb/><l rhyme="x">hvad mente han, &dash; jeg kan ei fatte det.</l>
+<lb/><HIS:hisStage>(Luurtoner høres fra Baggrunden.)</HIS:hisStage>
+<lb/><l rhyme="X">Hør, hør, der lyder det igjen fra Fjeldet.</l>
+<lb/><HIS:hisStage>(lytter.)</HIS:hisStage>
+<lb/><l rhyme="X">Jeg kjender Tonerne, &dash; ja, det er hende.</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisStage>(Han lytter i taus <HIS:hisDel rend="overwritten">f</HIS:hisDel>Forventning, Luur-
+<lb/>tonerne høres atter og Alfhild viser
+<lb/>sig i Baggrunden paa en Fjeldtop.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb n="[7]v"/>Alfhild</speaker> <HIS:hisStage>(synger
+<lb/>uden at bemærke Bjørn)</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg rend="poem"><HIS:hisLg versetype="strofisk strofegruppe folkevisevers" an="single" met="bi+ ('8 '7)&sup2;" rhyme="(a B)&sup2;"><HIS:hisLg versetype="strofe">
+    <l first="yes" met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="a">&lquo;<anchor type="ht" xml:id="koRJ_ht_25"/><anchor type="lemma" xml:id="koRJ_47"/>Det er saa tyst udi Skog og Fjeld,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;" rhyme="B">Kun Bækken risler bag Stene,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="a">Og Trosten kviddrer saa stur i Kvæl</l>
+<lb/><l met="&bue;-&bue;-&bue;-&bue;" rhyme="B">En Sang fra Bjerkens Grene.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;-" rhyme="a"><pb ed="HU"/>Dernede bag det grønne Blad</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;" rhyme="B">Dens Mage sidder hjemme</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;-" rhyme="a"><pb ed="HISb"/>Og lytter <anchor type="lemma" xml:id="koRJ_48"/>fro og lytter glad</l>
+<lb/><l rend="indent1" met="&bue;-&bue;-&bue;-&bue;" rhyme="B">Alt til den kjære Stemme.&rquo;</l></HIS:hisLg></HIS:hisLg></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisStage>(Hun gjør et Par <HIS:hisDel rend="overwritten">S</HIS:hisDel>skridt fremad og
+<lb/>bemærker Bjørn; overrasket bliver hun et Øieblik
+<lb/>staaende og forsvinder derpaa bag Træerne.)</HIS:hisStage>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l first="yes" rhyme="X"><anchor type="lemma" xml:id="koRJ_49"/>Der stod hun fager høit i Bjerkelien, &dash;</l>
+<lb/><l rhyme="X">med <anchor type="lemma" xml:id="koRJ_49b"/>Luur i Haanden kvæded hun sin Vise,</l>
+<lb/><l rhyme="x">ja hun var vakker, &dash; og hvor <anchor type="lemma" xml:id="koRJ_49a"/>veent hun sang!</l>
+<lb/><l rhyme="X">hun ligned ikke Jenterne i Dalen.</l>
+<lb/><l rhyme="X">D<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>et var da Sandhed hvad den Gamle sagde</l>
+<lb/><l rhyme="x">at Li og Fjeld er fuld af Liv; jeg vil</l>
+<lb/><l rhyme="x">dog tale med ham end engang ikvel</l>
+<lb/><HIS:hisStage>(raaber ind i Selet.)</HIS:hisStage>
+<lb/><l rhyme="X">staa op og lad os give os paa Veien!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined2">Paal</speaker> <HIS:hisStage>kommer</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="X">Hvad er paa færde, &dash; er her Vildt i Lien!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Ja vist, men kom og <anchor type="lemma" xml:id="koRJ_50"/>lader os gaa hjem.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Saa har du sagtens atter sigtet feil</l>
+<lb/><l rhyme="x"><pb n="[8]r"/>det er ei skjeldent i den sidste Tid!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><HIS:hisDel rend="overwritten"><unclear>Paal</unclear></HIS:hisDel>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Jeg har ei skudt engang.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nu endnu bedre.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Det var en Fjeldfugl kun. &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">En Rype kanske.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Ja netop ligedan som den du saa,</l>
+<lb/><l rhyme="X">med et forsvandt den oppe der i Lien!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Ja vil du bare see, &dash; jeg havde Ret; &dash;</l>
+<lb/><l rhyme="X">det er da vel at jeg har <anchor type="lemma" xml:id="koRJ_51"/>Staal ved Haanden</l>
+<lb/><l rhyme="x">saa kan ei <anchor type="lemma" xml:id="koRJ_51a"/>Haugafolket røre os!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nei vist, men kom nu, &dash; skynd dig, lad os gaa!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(De gaa mod Venstre)<pb ed="HISb"/></HIS:hisStage>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisStage><pb n="[8]v"/><pb ed="HU"/>En <anchor type="lemma" xml:id="koRJ_52"/>gammeldags Bjelkehal paa
+<lb/>Bjerkehoug, øverst staaer Høisædet, paa den
+<lb/>ene Væg <anchor type="lemma" xml:id="koRJ_53"/>Arnen, paa den anden en Dør. &dash;</HIS:hisStage>
+<lb/><HIS:hisStage>Mereta og Ingeborg <anchor type="lemma" xml:id="koRJ_53a"/>komme ind;
+<lb/>den sidste bærer et <anchor type="lemma" xml:id="koRJ_54"/>Mjødhorn. &dash;</HIS:hisStage>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Sæt Hornet der paa Bordet, Ingeborg!</l>
+<lb/><l rhyme="x">vor Gjæst behøver sagtens Tidsfordriv</l>
+<lb/><l rhyme="X">for ei at kjede sig her altformeget.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X">O, derfor kan du være ganske rolig;</l>
+<lb/><l rhyme="X">hvis ei jeg <anchor type="lemma" xml:id="koRJ_55"/>feiler blev <anchor type="lemma" xml:id="koRJ_56"/>ung Einar gjerne</l>
+<lb/><l rhyme="x">paa Bjerkehaug sin hele Levetid &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="I">Hvorledes mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker rend="underlined">Ingeborg</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Aa, du har nok</l>
+<lb/><l rhyme="X">forlængesiden mærket hvad jeg mener.</l>
+<lb/><HIS:hisStage>(hun gaar idet Einar
+<lb/>træder ind.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Nu løb du atter bort fra mig derude</l>
+<lb/><l part="I">og lod mig staa allene &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb n="[9]r"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">O, det var</l>
+<lb/><l rhyme="x">kun for at skaffe dig en Lædskedrik</l>
+<lb/><l rhyme="X">du snakked jo saameget for mig, Einar</l>
+<lb/><l rhyme="X">at du maa sikkert være <anchor type="lemma" xml:id="koRJ_57"/>tør i Halsen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Vil du nu <HIS:hisDel rend="overstrike">atter</HIS:hisDel> gaa, du har da aldrig Tid,</l>
+<lb/><l rhyme="x">at høre hvad jeg har at sige dig!,</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nei, det er sagtens og det klogeste!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Du leer kun ad mig, troer ei hvad jeg siger.</l>
+<lb/><l part="I">du tvivler paa min Ærlighed &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">O <HIS:hisRef type="tcNote" xml:id="noteRJ_4" target="RJht_noter.xml" corresp="noteRJ_4">til</HIS:hisRef></l>
+<lb/><l rhyme="X">med Ærlighed, den læres ei i Staden.</l>
+<lb/><l rhyme="x">og der var du jo fra din Barndom alt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Og, troer du da jeg nogensinde glemte</l>
+<lb/><l part="I">den fagre <anchor type="lemma" xml:id="koRJ_58"/>Blommelil i Dalen</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu,</l>
+<lb/><l rhyme="X">du har da lært at <anchor type="lemma" xml:id="koRJ_59"/>føie snildt din Tale,</l>
+<lb/><l part="I">sligt <anchor type="lemma" xml:id="koRJ_60"/>skjønne vi ei her &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb n="[9]v"/>Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg vented ei</l>
+<lb/><l rhyme="x"><pb ed="HU"/>at komme hid til Bjerkehoug den Dag</l>
+<lb/><l rhyme="X">da du ei skjønned hvad der ærligt menes.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker> <HIS:hisStage>muntert</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Nu, lad os ikke trætte me<HIS:hisDel rend="overwritten">r</HIS:hisDel>er derom</l>
+<lb/><l rhyme="X">men kom og lad os være gode Venner!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker> <HIS:hisStage>vil tage hendes Ha<unclear reason="writing">and</unclear></HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="I">Mereta!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nei, vær rolig nu, ung Einar!</l>
+<lb/><l rhyme="X">Ja, du maa tro, vi har ei glemt dig heller,</l>
+<lb/><l rhyme="x">du skulde see det lille Æbletræ,</l>
+<lb/><l rhyme="X">du planted her for syv A<HIS:hisDel rend="overwritten"><unclear>rs</unclear></HIS:hisDel>ars Tid i <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Haven</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker></HIS:spOpener>
+<lb/><l part="I">Det mindes du endnu?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg seer til det</l>
+<lb/><l rhyme="x">hver Dag, &dash; det heder Einars Træ, Godkvæl!</l>
+<lb/><HIS:hisStage>(hun ga<unclear reason="writing">ar</unclear>)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Jeg kan ei rigtig blive klog paa hende,</l>
+<lb/><l rhyme="x">snart støder hun mig bort med Spot og Skjemt</l>
+<lb/><l rhyme="x">snart lokker hun mig atter til sig <anchor type="lemma" xml:id="koRJ_61"/>ret</l>
+<lb/><l rhyme="x">som om <anchor type="lemma" xml:id="koRJ_62"/>jeg hued. hende ganske vel.</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisStage>(Mogens træder ind.)</HIS:hisStage>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined"><pb n="[10]r"/>Mogens</speaker></HIS:spOpener>
+    <lb/><p><anchor type="ht" xml:id="koRJ_ht_26"/><anchor type="lemma" xml:id="koRJ_63"/>Guds Fred! min Søn, er du her saa allene,
+<lb/>jeg har et Budskab til <anchor type="lemma" xml:id="koRJ_64"/>Herr Bengt; du
+<lb/>veed vel ikke hvor jeg kunde træffe ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Han kommer sikkert snart</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Vel, saa vil jeg vente, <HIS:hisStage>(sætter sig)</HIS:hisStage> ja, nu
+<lb/>er du jo atter bleven vor Nabo, &dash; du har
+<lb/><pb ed="HISb"/>jo selv overtaget din Faders Gaard igjen, &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Ja, ærværdige Fader! jeg er kjed af <anchor type="lemma" xml:id="koRJ_65"/>Hird-
+<lb/>mandslivet, nu vil jeg slaa mig til Ro
+<lb/>en Stund &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Du gjør Ret, <anchor type="ht" xml:id="koRJ_ht_8"/><anchor type="lemma" xml:id="koRJ_66"/>beati sunt agricolæ, &dash; men
+<lb/><anchor type="ht" xml:id="koRJ_ht_2"/><HIS:clarification place="inline">h</HIS:clarification>vad <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>har du i Hornet d<HIS:hisDel rend="overwritten">it</HIS:hisDel>er, &dash; naa, <anchor type="lemma" xml:id="koRJ_66a"/>Mjød,
+<lb/>&dash; jeg troer en liden Taar vil gjøre godt <HIS:hisAdd place="offline"><HIS:hisStage>(drikker)</HIS:hisStage></HIS:hisAdd> &dash; &dash;
+<lb/>&dash; jo jo, Bengt af Bjerkehoug har gode Sager
+<lb/>i Kjelderen, men de komme nu skjel-
+<lb/>den fordagen, &dash; her gaar ikke saa lystigt
+<lb/>til som i gamle <anchor type="lemma" xml:id="koRJ_67"/>salig Thormods Dage,
+<lb/>Einar! &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Einar</speaker>.</HIS:spOpener>
+<lb/><p>Nei, det <anchor type="lemma" xml:id="koRJ_67a"/>tykkes mig ogsaa! <anchor type="lemma" xml:id="koRJ_68"/>det lader som
+<lb/><pb n="[10]v"/>Bengt er mørk og tungsindig <HIS:hisAdd place="offline"><anchor type="lemma" xml:id="koRJ_69"/>alt</HIS:hisAdd> imellem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Ja det maa du sige, Gud lad det bare ikke
+<lb/>blive værre, &dash; det er Ungdommens Synder og
+<lb/>Forfængelighed som tynger paa Alderdommen,
+<lb/><pb ed="HISb"/>&dash; han er nu <anchor type="lemma" xml:id="koRJ_70"/>et Verdens Barn, en af dem, der
+<lb/><anchor type="lemma" xml:id="koRJ_70a"/>foretrække <anchor type="ht" xml:id="koRJ_ht_23"/><anchor type="lemma" xml:id="koRJ_71"/>rumores ante salutem, som
+<lb/>det heder, &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Det er nok fra den Tid hans Broder <anchor type="lemma" xml:id="koRJ_72"/>Alf blev borte? &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Ja, saa er det nok &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Men hvorledes gik det da til &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Ja, det kan jeg gjerne sige, &dash; her er vel Ingen
+<lb/>inde, &dash; for du er en <anchor type="lemma" xml:id="koRJ_73"/>brav <HIS:hisDel rend="overwritten">g</HIS:hisDel>Gut og din Fader var al-
+<lb/>tid rundhaandet <app type="alteration"><lem><HIS:hisAdd place="offline">med al<unclear reason="writing">lhaande</unclear> Gaver og god <anchor type="lemma" xml:id="koRJ_74"/>Skjænk til</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">mod</HIS:hisDel></HIS:hisRdg></app> Klostret; <HIS:hisStage>(drikker)</HIS:hisStage> seer
+<lb/>du, Alf var den ældste Søn, han var en stille
+<lb/>from Sjæl, medens Bengt var vild og hidsig, ret
+<lb/>ligesom Bjørn; Alf skulde nu have Gaarden
+<lb/>efter Faderens Død og det kunde <HIS:hisDel rend="overstrike">Bjørn</HIS:hisDel> Bengt da
+<lb/>ikke finde sig i, for han var nu et Verdens
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Barn, og saa satte han altid Ondt i Faderen
+<lb/>imod Alf &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker></HIS:spOpener>
+<lb/><p>Men det var nok især da Alf giftede sig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined"><pb n="[11]r"/>Mogens</speaker></HIS:spOpener>
+<lb/><p>Ja, netop da, &dash; Faderen var imod Giftermaalet
+<lb/>men Alf vilde have sin Villie dengang, og da
+<lb/>han efter <HIS:hisRef type="tcNote" xml:id="noteRJ_5" target="RJht_noter.xml" corresp="noteRJ_5">Byllupet</HIS:hisRef> traadte ind til Faderen
+<lb/>saa lyste han sin Forbandelse over ham og
+<lb/>svor at han aldrig vilde see ham mere, &dash;
+<lb/>det kan da ikke nægtes at det var Beng<unclear reason="writing">ts</unclear> &dash;
+<lb/>Skyld, &dash; Gud forlade ham &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Men hvor blev der af Alf &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker>.</HIS:spOpener>
+<lb/><p>Det veed ingen, <HIS:hisDel rend="overwritten">æ</HIS:hisDel>Ægtefolkene var og blev borte,
+<lb/>Folk i Bygden <anchor type="lemma" xml:id="koRJ_74b"/>fortælle at <anchor type="lemma" xml:id="koRJ_74a"/>Haugafolket tog dem
+<lb/>men det er nok rimeligt at han tog op
+<lb/>til en Plads han havde oppe i <anchor type="lemma" xml:id="koRJ_75"/>Fjeldmarken, men
+<lb/>saa kom Svartedøden og bortrev alle Menne-
+<lb/>sker deroppe, og ingen tør sætte sin Fod <HIS:clarification place="inline">der</HIS:clarification>
+<lb/>siden. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/><pb ed="HU"/>Einar</speaker></HIS:spOpener>
+<lb/><p>Ja, det har jeg hørt, &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker>.</HIS:spOpener>
+<lb/><p>Men siden den Tid har det ikke været godt paa Bjer-
+<lb/>kehoug, &dash; den Gamle døde nu snart efter, og Bengt
+<lb/>vil ikke lade sig mærke med noget, &dash; men <anchor type="lemma" xml:id="koRJ_76"/>Erindrin-
+<lb/>gen om Alf den nager ham, det skjønner jeg
+<lb/>nok; en mægtig Mand er han da, &dash; og endnu mægtigere
+<lb/>vil nu Bjørn blive, dersom det bliver noget af mellem
+<lb/><pb n="[11]v"/>ham og Mereta.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Mereta, &dash; tænker Bjørn paa &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p><HIS:hisRef type="tcNote" xml:id="noteRJ_6" target="RJht_noter.xml" corresp="noteRJ_6">Na</HIS:hisRef>, det ved jeg ikke, men hans Fader tænker paa det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker> <HIS:hisStage>halvt afsides</HIS:hisStage></HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koRJ_76a"/>Ha, saa forstaar jeg hvorfor han gav mig Afslag &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Hvad siger I? &dash; Tys, der kommer han nok! <HIS:hisStage>(reiser sig.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><p>Saa vil jeg gaa. &dash; <HIS:hisStage>(gaar ud til Venstre idet <HIS:hisDel rend="overstrike">Bjørn</HIS:hisDel> Bengt træ-
+<lb/><pb ed="HISb"/>der ind fra Baggrunden)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker>.</HIS:spOpener>
+<lb/><p>Nu, <anchor type="lemma" xml:id="koRJ_77"/>Herr Mogens! er I der; &dash; I bringer vel Papirerne
+<lb/>med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Her er de allesammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><p>Og der er ingen anden Arving end Mereta?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker>.</HIS:spOpener>
+<lb/><p>Ingen; det er en Lykke for hende, for hendes salig
+<lb/>Faders Ei<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>endom var da ikke stor &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><p>Nei, I har Ret!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Og nu er d<HIS:hisDel rend="overwritten">a</HIS:hisDel>er da ingenting iveien for Bryllupet kan
+<lb/>jeg tænke &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> <HIS:hisStage>opfarende</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvad, Præst! mener I at det er derfor jeg har holdt det
+<lb/>hemmeligt, troer I at Mosterens Arv &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koRJ_77a"/>Det være langtfra, &dash; men Folk i Bygden &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined"><pb n="[12]r"/><pb ed="HISb"/>Bengt</speaker>.</HIS:spOpener>
+<lb/><p>Det bryder jeg mig ikke om, <anchor type="lemma" xml:id="koRJ_78"/>&lquo;lige fremad&rquo;, det er
+<lb/>mit Valgsprog; &dash; Bjørn skal ægte hende, &dash; jeg har holdt
+<lb/>det hemmeligt fordi det var min Villie, nu skal det
+<lb/>blive bekjendt fordi det er min Villie &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Mogens</speaker></HIS:spOpener>
+<lb/><p>Men hverken Bjørn eller Mereta ved noget om det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><p>Hvad behøves det! Er ikke Bjørn min Søn, har jeg
+<lb/>ikke været <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>hendes <anchor type="lemma" xml:id="koRJ_79"/>Formynder, &dash; skulde han ligesom
+<lb/>Alf, &dash; <HIS:hisStage>(med pludselig forandret Stemme.)</HIS:hisStage> <anchor type="lemma" xml:id="koRJ_80"/>Gud være med ham,
+<lb/>jeg har betalt <anchor type="lemma" xml:id="koRJ_81"/>Sjælemesser for ham, &dash; jeg har givet <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Alter-
+<lb/>lys og anden Skjænk til Klostret &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><p>Det har I gjort som en god Christen &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><p>Og alligevel, &dash; men lad os ikke tale mere herom, &dash;</p>
+<lb/><HIS:hisStage>(gaar hen til <anchor type="lemma" xml:id="koRJ_81a"/>Arnen.)</HIS:hisStage>
+<lb/><p>Naa, hvad er I saa lystige over. &dash;</p></HIS:hisSp>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker><app type="alteration"><lem><HIS:hisAdd place="offline"><hi rend="underlined">Einar</hi></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike"><hi rend="underlined">Mereta</hi></HIS:hisDel></HIS:hisRdg></app></speaker></HIS:spOpener>
+<lb/><l first="yes" rhyme="x"><anchor type="lemma" xml:id="koRJ_82"/>Aa vi <anchor type="lemma" xml:id="koRJ_82a"/>fortælle Sagn og Eventyr.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="I">Kom, sæt dig Fader, skal du høre &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nei,</l>
+<lb/><l rhyme="x">jeg kan ei lide denne gamle Skik</l>
+<lb/><l realMet="12" rhyme="x"><anchor type="lemma" xml:id="koRJ_83"/>man sover saa uroligt, drømmer slemt deraf</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Men Bedstefa&rapo;r fortalte jo saa tit</l>
+<lb/><l part="I">og han sov altid roligt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Gjorde han? &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb n="[12]v"/>Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">O, kan du mindes, Einar! dengang vi</l>
+<lb/><l rhyme="X">var Børn, saa sad vi her om Vinterkvællen</l>
+<lb/><l rhyme="x"><anchor type="ht" xml:id="koRJ_ht_9"/>jeg sad paa gamle Bedstefaders Knæ &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Og saa fortalte han om <anchor type="lemma" xml:id="koRJ_84"/>Sangerknud</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="X">O ja, om Sangerknud, hvor det var morsomt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><l part="I">Hvem er da sangerknud?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">En <HIS:hisRef type="tcNote" xml:id="noteRJ_7" target="RJht_noter.xml" corresp="noteRJ_7">Spellimand</HIS:hisRef></l>
+<lb/><l rhyme="X">som vandrer om fra Bygd til Bygd og synger!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="I">Her kom han aldrig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ikke det jeg veed,</l>
+<lb/><l part="I">jeg saa ham aldrig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nei det troer jeg gjerne</l>
+<lb/><l rhyme="x">det Hele er jo kun et Eventyr &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nei vist, han lever endnu, &dash; spørg kun Paal &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bengt</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Ja, Paal, &dash; han har jo seet <anchor type="lemma" xml:id="koRJ_84a"/>Huldren ogsaa &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Men du har selv fortalt om Sangerknud &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="I">Ja dengang &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Kan du ikke huske det</l>
+<lb/><l rhyme="X">naar jeg og Bjørn og Einar sad omkring dig &dash;</l>
+<lb/><l rhyme="X">og naar du saa fortalte, blev du munter,</l>
+<lb/><l part="I">aa, Fa&rapo;er fortæl &dash;</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> <HIS:hisStage>klapper hende paa Kinden</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X"><l part="F" rhyme="X"><HIS:hisRef type="tcNote" xml:id="noteRJ_8" target="RJht_noter.xml" corresp="noteRJ_8">Na</HIS:hisRef>, ja, det kan jeg gjerne.</l></HIS:hisLg>
+<lb/><HIS:hisStage>(de <anchor type="lemma" xml:id="koRJ_84b"/>sætte sig.)</HIS:hisStage>
+<lb/><HIS:hisLg versetype="strofisk strofegruppe folkevisevers" an="single" met="bi+ ('8 '7)&sup2; ('8 '7)&sup2;" rhyme="(a B)&sup2; (c D)&sup2;"><HIS:hisLg versetype="strofe">
+    <l rend="indent" first="yes" met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="a"><pb n="[13]r"/><anchor type="ht" xml:id="koRJ_ht_27"/><anchor type="lemma" xml:id="koRJ_85"/>Der vandred en Spillemand viden om,</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">gjennem Skog og i dybe Dale,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;- &amp; &bue;-&bue;&bue;-&bue;-&bue;-" rhyme="a">men hvorsomhelst han tilhuse kom,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">man lyttede taus til hans Tale; &dash;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="c">der fór fra hans Strenge en deilig Lyd,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue; &amp; &bue;-&bue;&bue;-&bue;-&bue;" rhyme="D">som <anchor type="lemma" xml:id="koRJ_86"/>Huldreslot det <anchor type="lemma" xml:id="koRJ_86a"/>mon klinge,</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="c">og Fuglen kviddred derved af Fryd</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D">og svang sig i lystige Ringe.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l rend="indent" met="&bue;-&bue;-&bue;-&bue;&bue;- &amp; &bue;-&bue;-&bue;&bue;-&bue;-" rhyme="a">Naar <anchor type="lemma" xml:id="koRJ_87"/>Brudehuset gjenlød af Støi</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B"><anchor type="lemma" xml:id="koRJ_88"/>taug ofte <HIS:hisDel rend="overwritten">g</HIS:hisDel>den glade Klynge,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="a"><anchor type="lemma" xml:id="koRJ_88a"/>thi En stod imellem dem rank og høi</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="B">og redte sig til at synge;</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="c"><pb ed="HISb"/>&dash; men tit sad han og<HIS:hisDel rend="overstrike">saa</HIS:hisDel> ved A<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>rnen og sang</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D">og stilled den <anchor type="lemma" xml:id="koRJ_88b"/>tungeste <anchor type="lemma" xml:id="koRJ_89"/>Kvide</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="c">ei Fjeld eller Fjord kunde standse hans Gang,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="D">han <anchor type="lemma" xml:id="koRJ_90"/>vanked om Lande saa <anchor type="lemma" xml:id="koRJ_90a"/>vide!</l></HIS:hisLg></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><anchor type="ht" xml:id="koRJ_ht_13"/>Knud</speaker> <HIS:hisStage>træder langsomt ind</HIS:hisStage></HIS:spOpener>
+<lb/><HIS:hisLg versetype="stikisk knittel" an="single" met="bi++ '9 '9" rhyme="A A">
+<l first="yes" met="&bue;-&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;-&bue;" rhyme="A"><anchor type="ht" xml:id="koRJ_ht_4"/><anchor type="lemma" xml:id="koRJ_90b"/><anchor type="lemma" xml:id="koRJ_90c"/>Guds Fred med <anchor type="lemma" xml:id="koRJ_90d"/>eder alle, baade Mand og Kvinde.</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;&bue;-&bue;" rhyme="A">Guds Fred med enhver som i Stuen er at finde!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisLg versetype="strofisk strofegruppe folkevisevers" an="single" met="bi++ ('8 '7)&sup2;" rhyme="(x A)&sup2; | (a B)&sup2;">
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" part="I"><l first="yes" met="&bue;-&bue;&bue;-&bue;-&bue;&bue;&bue;-" rhyme="x"><anchor type="lemma" xml:id="koRJ_91"/>Guds Fred, <anchor type="lemma" xml:id="koRJ_92"/>hvo er du der kommer hid saa seent</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;" rhyme="A">du er vel <anchor type="lemma" xml:id="koRJ_93"/>langveis <app type="alteration"><lem><HIS:hisAdd place="offline">at fare</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">fra, kom sæt dig ned</HIS:hisDel></HIS:hisRdg></app>!</l></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><HIS:hisLg versetype="strofe" part="F"><l met="&bue;-&bue;-&bue;&bue;-&bue;-" rhyme="x">Mit Navn er Knud og jeg har mit Tag</l>
+<lb/><l met="&bue;&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">under Busken som flygtige Hare.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="x">Min Hal er den kjølige Furuskog</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="A">der føler jeg mig som hjemme</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;&bue;-" rhyme="x"><pb ed="HU"/>der synger jeg glad og spiller dertil</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;" rhyme="A"><pb n="[13]v"/>og Fuglen kjender min <HIS:hisRef type="tcNote" xml:id="noteRJ_9" target="RJht_noter.xml" corresp="noteRJ_9">Slemme</HIS:hisRef>.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="x">Men ofte saa driver en lønlig Magt</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;-&bue;" rhyme="A">mig bort fra de <HIS:hisDel rend="overwritten"><unclear>eg</unclear></HIS:hisDel>fagre Lunde,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;-" rhyme="x">jeg hviler da stundom ved lave Strand,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A"><pb ed="HISb"/>jeg stundom i Dalen <anchor type="lemma" xml:id="koRJ_94"/>mon blunde.</l></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><l met="&bue;-&bue;&bue;-&bue;-&bue;-" rhyme="x"><anchor type="ht" xml:id="koRJ_ht_18"/>Jeg standser min Gang ved Bondens Gaard</l>
+<lb/><l met="&bue;-&bue;-&bue;&bue;-&bue;" rhyme="A">og rører ved mine Strenge,</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;&bue;-" rhyme="x">jeg synger min Vise, og siger Farvel</l>
+<lb/><l met="&bue;-&bue;&bue;-&bue;&bue;-&bue;" rhyme="A">og ingensteds dvæler jeg længe!</l></HIS:hisLg></HIS:hisSp>
+<HIS:hisLg versetype="strofe">
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;-&bue;-" rhyme="a">Saa vandrer du da om i Frost og <anchor type="lemma" xml:id="koRJ_95"/>Kuld</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;" rhyme="B">Den stakkels Gamle der maa saadant trænge!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;-&bue;-" rhyme="a">Jeg trænger ikke Sølv, ei hel<HIS:clarification place="inline">l</HIS:clarification>er Guld</l>
+<lb/><l met="&bue;-&bue;&bue;&bue;-&bue;&bue;&bue;-&bue;" rhyme="B">end aldrig sang jeg nogentid for Penge</l></HIS:hisSp></HIS:hisLg></HIS:hisLg>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l first="yes" rhyme="X"><anchor type="lemma" xml:id="koRJ_96"/>Saa sæt dig dog og hvil dig der ved <anchor type="lemma" xml:id="koRJ_96c"/>Aaren &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l part="I">Jeg takker eder &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg vil bringe dig</l>
+<lb/><l rhyme="X"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>en kraftig Lædskedrik, det skjænker Kræfter.</l>
+<lb/><HIS:hisStage>(bringer ham <anchor type="lemma" xml:id="koRJ_96d"/>Mjødhornet.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Knud</speaker></HIS:spOpener>
+<lb/><l part="I">Tak, Tak, mit <anchor type="lemma" xml:id="koRJ_96a"/>vene Barn &dash;</l> <HIS:hisStage>(drikker)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Og saa maa du</l>
+<lb/><l rhyme="X"><pb n="[14]r"/>dog synge os en lystig Vise, Gamle!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l rhyme="X"><HIS:hisDel rend="overwritten">d</HIS:hisDel>Det er jeg rede til naar det forlanges &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Men ikke disse gamle Eventyr</l>
+<lb/><l part="I">om <anchor type="lemma" xml:id="koRJ_96b"/>Haugafolk og sligt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker> <HIS:hisStage>reiser sig</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Du troer da ei</l>
+<lb/><l part="I">paa vore Sagn &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Sligt er jo kun for Børn</l>
+<lb/><l part="I">og Kvinder &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">O nei vist, fortæl og syng!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> <HIS:hisStage>stolt</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="X">Ja vil du synge, kom da med en Vise</l>
+<lb/><l rhyme="x">om mine gjæve Fædre, der er nok</l>
+<lb/><l part="I"><pb ed="HISb"/>af <anchor type="lemma" xml:id="koRJ_97"/>Kvad om dem &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Knud</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja, <anchor type="lemma" xml:id="koRJ_98"/>jeg kan ogsaa Een</l>
+<lb/><l rhyme="x">om eders andre Slægtninge, &dash; maaskee</l>
+<lb/><l rhyme="X">at I <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>vil høre den, &dash; om Alf og <anchor type="lemma" xml:id="koRJ_99"/>Ingierd!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> <HIS:hisStage>farer tilbage</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Fordømte, <anchor type="ht" xml:id="koRJ_ht_6"/>Ti! <anchor type="lemma" xml:id="koRJ_100"/>ha, vil du haane mig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="I">O, Fader bliv ei v<HIS:hisDel rend="overwritten"><unclear>er</unclear></HIS:hisDel>red &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X"><anchor type="lemma" xml:id="koRJ_101"/>Hvad fattes eder?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l part="I">Det er <anchor type="lemma" xml:id="koRJ_101a"/>jer ærligt ment &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined"><pb n="[14]v"/>Mogens</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Holdt inde, Gamle!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l rhyme="x"><anchor type="lemma" xml:id="koRJ_102"/>Det baader eder vel at høre den! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Hvis du ei havde <anchor type="lemma" xml:id="koRJ_103"/>drukket af mit Horn</l>
+<lb/><l rhyme="X">og hvilet ved mit <anchor type="lemma" xml:id="koRJ_103e"/>Arnested saa skulde</l>
+<lb/><l rhyme="x">jeg jaget dig fra Gaarden som en Hund!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Knud</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nu, saa er her ei mere Sted for mig,</l>
+<lb/><l rhyme="x">men hør mig roligt, Bengt af Bjerkehoug!</l>
+<lb/><l rhyme="x">lad mig kun synge, det vil bringe Held</l>
+<lb/><l rhyme="x">for eder og for eders hele Slægt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MOGENS"><HIS:spOpener><speaker rend="underlined">Mogens</speaker></HIS:spOpener>
+<lb/><l part="I">Jeg troer han er ifra <HIS:hisDel rend="overwritten">f</HIS:hisDel>Forstanden &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> <HIS:hisStage>til Knud</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ti,</l>
+<lb/><l rhyme="X">jeg <anchor type="lemma" xml:id="koRJ_103a"/>gider ikke høre dine Viser &dash;</l>
+<lb/><l rhyme="x">hvis du har Noget at berette mig</l>
+<lb/><l part="I">saa siig det frem i Korthed.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nei, min Magt</l>
+<lb/><l rhyme="x">er lagt i mine Strænge; kun i Sang</l>
+<lb/><l rhyme="x">og Eventyr jeg virker, &dash; ellers ei &dash;</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Bjørn og Paal <anchor type="lemma" xml:id="koRJ_103c"/>komme.)</HIS:hisStage>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="I">Der kommer Bjørn tilbage!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Der er <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>jo</l>
+<lb/><l part="I"><pb ed="HISb"/>den gamle Spillemand!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb n="[15]r"/>Knud</speaker></HIS:spOpener>
+<lb/><l part="Y"><HIS:hisRef type="tcNote" xml:id="noteRJ_10" target="RJht_noter.xml" corresp="noteRJ_10"><HIS:hisDel rend="overstrike"><gap/></HIS:hisDel></HIS:hisRef></l><l part="F" rhyme="x">Ha, er det dig,</l>
+<lb/><l rhyme="x">du hører hjemme her paa denne Gaard, &dash;</l>
+<lb/><l part="I">her er ei godt at være &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Kjender du</l>
+<lb/><l part="I">den Gamle, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Ja, jeg mødte ham paa Fjeldet.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bengt</speaker> <HIS:hisStage>(mistroisk)</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Har du da <anchor type="lemma" xml:id="koRJ_103d"/>maaskee skikket ham herned?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Han sagde selv han vilde gjæste dig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="I">Vær ikke vred &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ti, Pige &dash; lad mig raade, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Knud</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Jeg gaar, <anchor type="lemma" xml:id="koRJ_103b"/>thi her er ikke godt at være</l>
+<lb/><l rhyme="X"><anchor type="lemma" xml:id="koRJ_104"/>vee, vee det Huus hvor Sangen ei maa høres,</l>
+<lb/><l rhyme="x">der har ei Lykken hjemme, &dash; nu Godkvæl!</l>
+<lb/><l rhyme="X">I skal nok endnu engang høre fra mig! &dash;</l>
+<lb/><HIS:hisStage>(gaa<unclear reason="writing">er</unclear>)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker> <HIS:hisStage>forskrækket</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">For Herrens Skyld! I jaged ham vel ei</l>
+<lb/><l part="I">afgaarde Husbond? &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x"><HIS:hisDel rend="overstrike">Jo</HIS:hisDel><HIS:hisDel rend="overwritten">, h</HIS:hisDel>Hvorfor ikke det?</l>
+<lb/><l part="I">jeg <anchor type="lemma" xml:id="koRJ_105"/>gad ei høre ham. &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb n="[15]v"/>Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nu <anchor type="lemma" xml:id="koRJ_106"/>ved St: Olaf!</l>
+<lb/><l rhyme="X">der har I gjordt et herligt Stykke Arbeid &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="I">Hvad mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="M">Hvem var han?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Saa I ei</l>
+<lb/><l part="I"><pb ed="HISb"/>de gyldne Strenge paa hans <anchor type="lemma" xml:id="koRJ_107"/>Gige?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jo!</l>
+<lb/><l part="I">saa <anchor type="lemma" xml:id="koRJ_107a"/>tykkes mig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja, &dash; det var <anchor type="lemma" xml:id="koRJ_107c"/>Sangerknud!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Bevægelse blandt Huusfolkene)</HIS:hisStage>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Han! &dash; Sangerknud!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Hvad staar du der og snakker!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker>.</HIS:spOpener>
+<lb/><l part="I">Jo, som jeg siger!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Veed du det da vist?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Ja vist, min gamle Fa&rapo;er <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>har tit fortalt</l>
+<lb/><l rhyme="X">om ham; &dash; han bringer Lykke hvor han kommer</l>
+<lb/><l rhyme="x">og hvor man lytter til hans Eventyr;</l>
+<lb/><l rhyme="x">men er <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>man streng, og viser man ham bort</l>
+<lb/><l rhyme="X">saa bringer det kun Uheld over Gaarden! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker><pb ed="HISb"/>Bengt</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Nu det har vi jo sagtens nok af <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>før, &dash;</l>
+<lb/><l rhyme="x"><pb n="[16]r"/>men det er seent, det er paa Tid <anchor type="lemma" xml:id="koRJ_108"/>I gaa</l>
+<lb/><HIS:hisStage><pb ed="HU"/>(Mereta og Pigerne gaa)</HIS:hisStage>
+<lb/><l rhyme="X">til Hvile; vil I følge mig Herr Mogens!</l>
+<lb/><l rhyme="x">jeg har dog lidt at tale med jer om. &dash;</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Han og Præsten g<unclear reason="writing">aar</unclear>)</HIS:hisStage>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Saa vil jeg ogsaa lægge mig til Hvile, &dash;</l>
+<lb/><l rhyme="x">men Sangerknud! &dash; Gud <HIS:hisRef type="tcNote" xml:id="noteRJ_11" target="RJht_noter.xml" corresp="noteRJ_11">hved</HIS:hisRef> <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>hvad der vil skee! &dash;
+<lb/><HIS:hisStage>(gaa<unclear reason="writing">r</unclear>)</HIS:hisStage></l></HIS:hisSp>
+<lb/><HIS:hisStage>(Bjørn sætter sig i en grundende Stilling.)</HIS:hisStage>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker> <HIS:hisStage>(stiller sig foran ham)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">Nu Bjørn! hvad fattes dig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg veed ei selv!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Har noget Uheld truffet dig idag?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Jeg veed ei enten Uheld eller Held; &dash;</l>
+<lb/><HIS:hisStage><pb ed="HISb"/>(reiser sig.)</HIS:hisStage>
+<lb/><l rhyme="x">men Noget er det, &dash; hør jeg vil betro</l>
+<lb/><l rhyme="x">det til dig &dash; høit imellem Fjeldene</l>
+<lb/><l rhyme="x">hen imod Justedalen traf jeg paa</l>
+<lb/><l part="I">en ung og fager Kvinde &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker> <HIS:hisStage>leende</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ikke andet,</l>
+<lb/><l rhyme="x">det var da sagtens intet Uheld, Bjørn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Nei hør mig kun, det var i Ødemarken</l>
+<lb/><l rhyme="x">hvor ingen <anchor type="lemma" xml:id="koRJ_108a"/>Sæterjente <anchor type="lemma" xml:id="koRJ_108c"/>vover sig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Saa har hun sagtens faret vild deroppe &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X">Nei, nei, &dash; hun ligned ikke andre Piger &dash;</l>
+<lb/><l rhyme="x"><pb n="[16]v"/>hun stod imellem Træerne og sang,</l>
+<lb/><l part="I">og saa forsvandt hun pludselig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker>, <HIS:hisStage>mumlend<unclear reason="writing">e</unclear></HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Det var</l>
+<lb/><l part="I">vel aldrig <anchor type="lemma" xml:id="koRJ_108b"/>Huldren, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Flere Gange har</l>
+<lb/><l rhyme="X">jeg hørt hvordan hun blæste der paa <anchor type="lemma" xml:id="koRJ_108d"/>Luren, &dash;</l>
+<lb/><l rhyme="X">men nu, da jeg har seet hende; &dash; Einar,</l>
+<lb/><l part="I">jeg maa derop igjen &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Jeg raader dig</l>
+<lb/><l rhyme="x"><pb ed="HU"/>at være lidt forsigtig, vogt dig vel,</l>
+<lb/><l rhyme="x">forsee dig ei paa Sæterjenterne &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> &dash;</HIS:spOpener>
+<lb/><l part="I">Jeg siger jo &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu nu, paa Huldren da!</l>
+<lb/><l rhyme="x">Men hør mig Bjørn! det er alvorligt meent, &dash;</l>
+<lb/><l rhyme="x">din Fader har nok andre Hensigter,</l>
+<lb/><l rhyme="x">han saae nok gjerne at der blev et Par</l>
+<lb/><l part="I">af dig og af Mereta &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">B<HIS:hisDel rend="overwritten">engt</HIS:hisDel>jørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">O, umuligt,</l>
+<lb/><l rhyme="x">det har han aldrig talt om; &dash; hun og jeg</l>
+<lb/><l rhyme="X">betragte jo hinanden blot som Søskend.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker></HIS:spOpener>
+<lb/><l part="I">Men hør mig Bjørn!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nei, nei, det nytter ei,</l>
+<lb/><l rhyme="X">det gaar ei an, jeg tænker kun paa hende</l>
+<lb/><l part="I">jeg saa idag &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Det er jo Galskab, Bjørn!</l>
+<lb/><l realMet="12" rhyme="x"><pb n="[17]r"/><anchor type="lemma" xml:id="koRJ_109"/>jeg skulde næsten tro at det er <anchor type="lemma" xml:id="koRJ_109a"/>Kogleri</l>
+<lb/><l rhyme="x">og Trolddomskunster som har <anchor type="lemma" xml:id="koRJ_110"/>hildet dig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Ja lad det være som det vil, &dash; jeg kan</l>
+<lb/><l rhyme="X">ei stride længer mod, jeg har jo kjæmpet,</l>
+<lb/><l rhyme="X">det nytter ei, ifra <anchor type="lemma" xml:id="koRJ_111"/>den første <HIS:hisRef type="tcNote" xml:id="noteRJ_12" target="RJht_noter.xml" corresp="noteRJ_12">Gange</HIS:hisRef></l>
+<lb/><l rhyme="X">jeg hørte Luren tænker jeg paa hende</l>
+<lb/><l rhyme="X">jeg har jo bedet Gud og hellig Olaf</l>
+<lb/><l rhyme="x">at styrke mig, men nei det hjælper ei</l>
+<lb/><l rhyme="X">jeg maa afsted derop at finde hende! &dash;</l></HIS:hisSp></HIS:hisLg>
+<lb/><figure type="bar"/>
+</div>
+<div type="act" n="2">
+<lb/><head><pb ed="HU"/><pb ed="HISb"/><hi rend="underlined">Anden Act</hi></head>
+<lb/><HIS:hisStage>En vild <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>men skjøn Egn i Justedalen; Træer
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>og Fjeld<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>e i Baggr: og paa Siderne, til Venstre en <anchor type="lemma" xml:id="koRJ_112"/>lille
+<lb/>Bjerghule der sk<HIS:hisAdd place="inline">j</HIS:hisAdd>ules af Grene og Blade. &dash;</HIS:hisStage>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> <HIS:hisStage>kommer</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Snart er det Aften, &dash; jeg har vanket om</l>
+<lb/><l rhyme="X">den hele Dag igjennem Skog og Lier</l>
+<lb/><l rhyme="x">jeg fulgte Renens Spor i <anchor type="lemma" xml:id="koRJ_112c"/>vildsom Ur</l>
+<lb/><l rhyme="X">indunder Granens mørke Tag paa Fjeldet.</l>
+<lb/><l rhyme="x">Her er da Dalen; denne fagre Dal,</l>
+<lb/><l rhyme="X">der ligger <anchor type="lemma" xml:id="koRJ_112a"/>lukt af steile Klipperygge.</l>
+<lb/><l rhyme="x"><pb n="[17]v"/>Naar <anchor type="lemma" xml:id="koRJ_112b"/>Skytten nærmer sig en skjelden Gang</l>
+<lb/><l rhyme="X">den anden Side af de vilde Fjelde</l>
+<lb/><l rhyme="x">da tror han mindst at finde mellem dem</l>
+<lb/><l rhyme="X">en fager Dal med Blomster og med <HIS:hisDel rend="overwritten"><unclear>l</unclear></HIS:hisDel>Lunde.</l>
+<lb/><l rhyme="x">Deroppe stod jeg høit paa Aasens Top</l>
+<lb/><l rhyme="X">dengang jeg hørte først de klare Toner;</l>
+<lb/><l rhyme="x">hvad skal jeg tro, man siger jo at naar</l>
+<lb/><l rhyme="X">en <anchor type="lemma" xml:id="koRJ_113"/>Ungersvend først hører <anchor type="lemma" xml:id="koRJ_114"/>Huldreslotten,</l>
+<lb/><l rhyme="x">da standser han og lytter taus dertil</l>
+<lb/><l rhyme="X"><pb ed="HISb"/>og siden kan han aldrig Spillet glemme.</l>
+<lb/><HIS:hisStage>(Luurtoner høres.)</HIS:hisStage>
+<lb/><l rhyme="x">Hvad er det! <anchor type="lemma" xml:id="koRJ_114b"/>Ha, ja det er hendes Luur, &dash;</l>
+<lb/><l rhyme="X">der seer jeg hende komme gjennem Skoven!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>, <HIS:hisStage>kommer</HIS:hisStage>.</HIS:spOpener>
+<lb/><l rhyme="x">Idag <anchor type="lemma" xml:id="koRJ_115"/>er Alfhild ikke glad som før,</l>
+<lb/><l rhyme="X">han var der ei, han kommer ikke mere, &dash;</l>
+<lb/><HIS:hisStage>(bliver ham vaer)</HIS:hisStage>
+<lb/><l rhyme="x">O, jo, der er han, &dash; <HIS:hisStage>(iler imod ham)</HIS:hisStage> nu maa du ei meer</l>
+<lb/><l part="I">saasnart forlade Alfhild, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bjørn</speaker> <HIS:hisStage>overrasket</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="X"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>Fagre Pige!</l>
+<lb/><l part="I"><anchor type="lemma" xml:id="koRJ_115a"/>hvo er du? &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Spørger du hvem Alfhild er, &dash;</l>
+<lb/><l rhyme="X">det veed du jo, &dash; men her, her maa du blive,</l>
+<lb/><l rhyme="x">du maa ei gaa saa hastigt som i Nat!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb n="[18]r"/>Bjørn</speaker> <HIS:hisStage>forundret</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="X">Inat! hvad mener du? <seg type="transposition" part="I"><HIS:hisDel rend="overstrike" hand="h2"><seg rend="supralinear" subtype="no">2</seg></HIS:hisDel><seg subtype="txt">har</seg></seg> <seg type="transposition" part="F"><HIS:hisDel rend="overstrike" hand="h2"><seg rend="supralinear" subtype="no">1</seg></HIS:hisDel><seg subtype="txt">jeg</seg></seg> <HIS:hisDel rend="overwritten"><unclear>da</unclear></HIS:hisDel>ei været</l>
+<lb/><l part="I">i Nat paa Fjeldet &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">O, du gik saa s<HIS:hisDel rend="overwritten"><unclear>a</unclear></HIS:hisDel>nart, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Hvad mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Hør nu skal jeg fortælle;</l>
+<lb/><l rhyme="x">men kom og sid i Græsset her hos mig.</l>
+<lb/><HIS:hisStage>(de <anchor type="lemma" xml:id="koRJ_116"/>sætte sig under
+<lb/>et Træ i Forgrunden)</HIS:hisStage>
+<lb/><l rhyme="X">Det var saa underligt; men hør du kjender</l>
+<lb/><l part="I">vel <anchor type="lemma" xml:id="koRJ_117"/>Alferne?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="M"><HIS:hisDel rend="overwritten">H</HIS:hisDel>Nei, nei &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x"><HIS:hisDel rend="overstrike">Hvad <gap/></HIS:hisDel> Du kjender ei</l>
+<lb/><l rhyme="X">de smaa, de gode Alfer, de som <anchor type="lemma" xml:id="koRJ_118"/>lege</l>
+<lb/><l rhyme="x">imellem Blomsterne i Skoven naar</l>
+<lb/><l rhyme="X"><anchor type="ht" xml:id="koRJ_ht_10"/><anchor type="lemma" xml:id="koRJ_119"/>det store Øie lukker sig bag Aasen.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Nu ja, det veed jeg, men fortæl, fortæl!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Alfhild</speaker> &dash;</HIS:spOpener>
+<lb/><l rhyme="X">Naar det er mørkt og Alfhild lukker Øiet</l>
+<lb/><l rhyme="X">da <anchor type="lemma" xml:id="koRJ_120"/>komme de og lege <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>rundt om hende</l>
+<lb/><l rhyme="x">de <anchor type="lemma" xml:id="koRJ_120a"/>bringe Blomster med, &dash; da er hun glad, &dash;</l>
+<lb/><l rhyme="X">de <anchor type="lemma" xml:id="koRJ_121"/>eie alle Blomsterne i Skoven &dash;</l>
+<lb/><l rhyme="x">men nu i Nat kom Alferne ei hid &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb n="[18]v"/>Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Og hvorfor ei?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Det veed <HIS:hisDel rend="overwritten"><unclear>j</unclear></HIS:hisDel>ei Alfhild heller,</l>
+<lb/><l rhyme="x">hun tror de frygtede for dig, som hun</l>
+<lb/><l rhyme="X">dengang hun saa dig første Gang i Lien. &dash;</l>
+<lb/><l rhyme="x">O, Alfhild tænkte siden kun paa dig,</l>
+<lb/><l rhyme="X">da kom du hid igjen; vi vandred sammen</l>
+<lb/><l rhyme="x">igjennem Skoven, &dash; da var Alfhild glad! &dash;</l>
+<lb/><l rhyme="X">O, men idag var du her ikke mere! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Du har kun drømt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Hvad mener du med det!</l>
+<lb/><l rhyme="X">Men nu <anchor type="lemma" xml:id="koRJ_122"/>maa du ei gaa igjen iaften, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="I">Jeg maa ei gaa?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nei, nei du maa ei gaa!</l>
+<lb/><l rhyme="X">du kjender vel <anchor type="lemma" xml:id="koRJ_123"/>den lille Blomst paa Fjeldet</l>
+<lb/><l rhyme="x">den <HIS:hisDel rend="overstrike">lille</HIS:hisDel> <anchor type="ht" xml:id="koRJ_ht_20"/>blaa som <app type="alteration"><lem><HIS:hisAdd place="offline">voxer <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel><unclear>n</unclear>ær</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">staar</HIS:hisDel></HIS:hisRdg></app> ved Granens Fod, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Ja vist jeg kjender den &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Om Aftnen kommer</l>
+<lb/><l rhyme="X"><anchor type="ht" xml:id="koRJ_ht_11"/><anchor type="lemma" xml:id="koRJ_124a"/>det store Lys fra Aasen der og skinner</l>
+<lb/><l rhyme="x">ned paa dens Blade, og de blanke Lys</l>
+<lb/><l rhyme="X">de smaa deroppe allesammen <anchor type="lemma" xml:id="koRJ_124b"/>skinne &dash;</l>
+<lb/><l rhyme="x">&dash; da blier den lille Blomst saa glad, saa glad!</l>
+<lb/><HIS:hisDel rend="overstrike"><l part="Y">men ak, saa <anchor type="lemma" xml:id="koRJ_125"/>gaa de alle bort</l></HIS:hisDel>
+<lb/><l rhyme="X"><pb n="[19]r"/>men ak, saa gaa de alle bort med Natten,</l>
+<lb/><l rhyme="x">og da er Blomsten ikke mere glad,</l>
+<lb/><l rhyme="X">da lukker den sit lille Blad og græder; &dash;</l>
+<lb/><HIS:hisStage>(hæftigt idet hun griber hans <HIS:hisRef type="tcNote" xml:id="noteRJ_13" target="RJht_noter.xml" corresp="noteRJ_13">Haad</HIS:hisRef>.)</HIS:hisStage>
+<lb/><l rhyme="x"><HIS:hisDel rend="overwritten">Du</HIS:hisDel>O, du maa blive her; <anchor type="lemma" xml:id="koRJ_125a"/>thi Alfhild er</l>
+<lb/><l rhyme="X"><pb ed="HISb"/><anchor type="lemma" xml:id="koRJ_125b"/>ret som den blaa, den lille Blomst paa Fjeldet! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Ja ja, jeg bliver, men fortæl mig dog</l>
+<lb/><l rhyme="X">hvorledes kom du hid, er der da Ingen</l>
+<lb/><l part="I">som lever her hos dig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Hvad mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X">Har du da ingen Fader eller Moder?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="X">O jo, men de er ikke meer hos Alfhild!</l>
+<lb/><l rhyme="x">nu sove de; &dash; de komme ei igjen.</l>
+<lb/><l rhyme="X">Dengang da Alfhild var en liden Pige</l>
+<lb/><l rhyme="X">da var hun hos sin Fader og sin Moder</l>
+<lb/><l rhyme="X">men det er længe, meget længe siden.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> <HIS:hisStage>afsides</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Saa er de sikkert døde, stakkels Barn! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X"><HIS:hisDel rend="overstrike">M</HIS:hisDel><HIS:hisDel rend="overwritten">in</HIS:hisDel>O Moder var saa god, &dash; <HIS:hisDel rend="overstrike">min</HIS:hisDel> <HIS:hisAdd place="inline">og</HIS:hisAdd> Fader ogsaa,</l>
+<lb/><l part="I">han ligned dig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Og siden leved du</l>
+<lb/><l part="I">allene her &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nei, Alfhild er ei ene</l>
+<lb/><l rhyme="x"><pb ed="HU"/>see her er Blomster jo, og Fugle smaa</l>
+<lb/><l rhyme="X"><pb n="[19]v"/>og Alfhild kjender godt dem allesammen,</l>
+<lb/><l rhyme="x">og saa har Alfhild sine hvide Lam</l>
+<lb/><l rhyme="X">og si<HIS:hisDel rend="overwritten"><unclear>tt</unclear></HIS:hisDel>ne Gjeder, &dash; nu er de paa Fjeldet;</l>
+<lb/><l rhyme="x">og Alferne, de bo i Skoven her,</l>
+<lb/><HIS:hisDel rend="overstrike"><l part="Y"><unclear>en</unclear> Alf</l></HIS:hisDel>
+<lb/><l rhyme="X">naar hun er glad saa lege de med hende,</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Og her er ingen anden &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Stundom, jo, &dash;</l>
+<lb/><l rhyme="X">saa kommer ogsaa Alfhilds gamle Fader, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> &dash;</HIS:spOpener>
+<lb/><l rhyme="x">Din gamle Fader! &dash; Du fortalte jo</l>
+<lb/><l part="I">han var ei mere her &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Det er den Anden,</l>
+<lb/><l rhyme="x">o, kjender du da ei den gamle Mand</l>
+<lb/><l rhyme="X">som har saameget vakkert at fortælle;</l>
+<lb/><l rhyme="x">da sidder Alfhild her og lytter til</l>
+<lb/><l rhyme="X">og spørger ham om det hun ikke fatter,</l>
+<lb/><l rhyme="x">men nu da du er kommen hid saa vil</l>
+<lb/><l rhyme="X">hun heller høre paa hvad du fortæller.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Men hvorfor tager han dig ikke med,</l>
+<lb/><l rhyme="X"><anchor type="lemma" xml:id="koRJ_126a"/>hvi lader han dig blive her i Dalen!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="x">O, det har Alfhild aldrig spurgt ham om; &dash;</l>
+<lb/><HIS:hisStage>(betænker sig og siger pludselig)</HIS:hisStage>
+<lb/><l rhyme="x">&dash; men hør, &dash; nu falder der mig Noget <HIS:hisRef type="tcNote" xml:id="noteRJ_14" target="RJht_noter.xml" corresp="noteRJ_14">Ind</HIS:hisRef>,</l>
+<lb/><l rhyme="x">&dash; kan Alfhild være Andetsteds end her? &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X">Det kan du, &dash; Alfhild! hvis du vilde følge</l>
+<lb/><l part="I">mig til mit Hjem &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb n="[20]r"/><pb ed="HISb"/>Alfhild</speaker> <HIS:hisStage>glad</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">O, har du og et Hjem</l>
+<lb/><l rhyme="X">en Dal som her med Blomster og med Skove?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Det har jeg, Alfhild! vil du følge med &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Ja gjerne, gjerne følger Alfhild dig! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Knud kommer langsomt
+<lb/>ud af Skoven.)</HIS:hisStage>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l part="I">Godkvæl min Alfhild!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker> <HIS:hisStage>iler ham imøde</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Fader! kommer du</l>
+<lb/><l part="I">saa seent,</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Knud</speaker> &dash;</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Jeg maatte see til dig iaften!</l>
+<lb/><HIS:hisStage>(bemærker Bjørn)</HIS:hisStage>
+<lb/><l rhyme="x"><anchor type="lemma" xml:id="koRJ_126b"/>ha, er det dig, &dash; hvorledes kom du hid?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> <HIS:hisStage>overrasket</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">Jeg var paa Jagt &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">O, Fader! han har lovet</l>
+<lb/><l rhyme="x">at han ei vil forlade Alfhild meer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l part="I">Det har du lovet?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja, det har jeg, Gamle!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Han siger at han har et Hjem, en Dal</l>
+<lb/><l rhyme="X">som denne, &dash; didhen vil han føre Alfhild!</l>
+<lb/><l rhyme="x">&dash; o, Alfhild vil saa gjerne følge ham</l>
+<lb/><l rhyme="X">hun kan ei blive her naar han er borte! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb n="[20]v"/>Knud</speaker> &dash;</HIS:spOpener>
+<lb/><l rhyme="x">Du fører hende til din Faders Gaard?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> &dash;</HIS:spOpener>
+<lb/><l part="I">Det er min Agt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Da maa du komme, Fader</l>
+<lb/><l rhyme="X">og synge for ham alt hvad du har sunget</l>
+<lb/><l part="I">for Alfhild før, &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Knud</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Det skal jeg gjøre, Barn!</l>
+<lb/><l part="I"><anchor type="ht" xml:id="koRJ_ht_7"/>jeg skal nok <anchor type="lemma" xml:id="koRJ_127"/>voge over dig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Men siig,</l>
+<lb/><l rhyme="X">hvi lod du hende blive her i Dalen</l>
+<lb/><l part="I">saa ene, saa forladt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x"><anchor type="ht" xml:id="koRJ_ht_1"/>Jeg raader ei</l>
+<lb/><l rhyme="X">for hendes Skjæbne; kun i mine Strænge</l>
+<lb/><l rhyme="x">og i min Sang er lagt hvad jeg formaaer!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> &dash;</HIS:spOpener>
+<lb/><l rhyme="X"><anchor type="lemma" xml:id="koRJ_128"/>Hvo er du da, forunderlige Gamle?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Det kan jeg ikke sige dig, min Søn,</l>
+<lb/><l rhyme="X">men jeg skal vaage over dig og hende!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Og vil du ikke følge med os Fader?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="KNUD"><HIS:spOpener><speaker rend="underlined">Knud</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Det kan jeg ikke, Alfhild! jeg maa gaa</l>
+<lb/><l rhyme="X"><pb ed="HISb"/>fra Gaard til Gaard; &dash; der er saamang <HIS:hisRef type="tcNote" xml:id="noteRJ_15" target="RJht_noter.xml" corresp="noteRJ_15"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel></HIS:hisRef>et Hjerte,</l>
+<lb/><l rhyme="x">som trænger til at lindres, mang et Bryst</l>
+<lb/><l rhyme="X">som gjærer, svangert med sin egen Fylde,</l>
+<lb/><l rhyme="x"><pb ed="HU"/>og hvad der rører sig i Folkets Barm</l>
+<lb/><l rhyme="X"><pb n="[21]r"/>det maa jeg tolke gjennem mine Strenge!</l>
+<lb/><HIS:hisStage>(han gaar)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="I">Du vil da følge mig? &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ja, ja, jeg vil! &dash;</l>
+<lb/><l rhyme="X">o, du vil sikkert være god mod Alfhild,</l>
+<lb/><l rhyme="x">naar hun forlader denne fagre Dal</l>
+<lb/><l rhyme="x">da har hun Intet, Intet uden dig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> <HIS:hisStage>griber hendes H<unclear reason="writing">aand</unclear></HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="x">Ja, Alfhild, jeg vil være god mod dig, &dash;</l>
+<lb/><l rhyme="x">o, jeg vil elske dig mit hele Liv &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Hvad vil du? &dash; elske mig? hvad mener du?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>,</HIS:spOpener>
+<lb/><l rhyme="X">At jeg vil være god mod dig og tænke</l>
+<lb/><l rhyme="X"><pb ed="HISb"/>paa dig allene alle mine Dage &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="x">O, nu er Alfhild glad, nu troer hun at</l>
+<lb/><l rhyme="X">hun har forstaaet dig men hør, saa maa du</l>
+<lb/><l part="I">bestandig elske mig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Bestandig Alfhild &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Thi ellers maatte Alfhild sikkert dø;</l>
+<lb/><l rhyme="X">Hør kun, <anchor type="ht" xml:id="koRJ_ht_19"/>to Duer byggede sin Rede</l>
+<lb/><l rhyme="x">i Furutoppen under Aasen der,</l>
+<lb/><l rhyme="x">saa kom en fremmed Due did, da fløi</l>
+<lb/><l rhyme="x">den ene bort med den, &dash; den anden sad</l>
+<lb/><l rhyme="x"><pb n="[21]v"/>og vented efter den ved Nat, ved Dag,</l>
+<lb/><l rhyme="X">men ak, den vendte aldrig meer tilbage,</l>
+<lb/><l part="I">&dash; da maatte Duen dø; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nei, Alfhild, nei!</l>
+<lb/><l rhyme="x">forlad dig roligt kun paa mig men hvad</l>
+<lb/><l part="I">er det du lytter efter &dash;</l><HIS:hisStage>(en <anchor type="lemma" xml:id="koRJ_129"/>sagte Musik høres)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Alfhild</speaker> <HIS:hisStage>sagte</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Hører du &dash;</l>
+<lb/><HIS:hisDel rend="overstrike"><l part="Y">hvor Alfeflokken</l></HIS:hisDel>
+<lb/><l rhyme="X">de lette <anchor type="lemma" xml:id="koRJ_129a"/>Alfer synge rundt omkring os!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined">Bjørn</speaker> &dash;</HIS:spOpener>
+<lb/><l part="I">Det er kun Aftenvinden &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Alfhild</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Hører du</l>
+<lb/><l rhyme="x">de <anchor type="lemma" xml:id="koRJ_129b"/>hviske mellem Blomsterne, &dash; o hør! &dash;</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisStage>(Under det Følgende staar Alfhild taus
+<lb/>og lytter idet hun yttrer sine Fø-
+<lb/>lelser efter Sangens Indhold, &dash; Bjørn
+<lb/>betragter hende med ængstelig Forundring.)</HIS:hisStage>
+<lb/><HIS:hisSp><HIS:spOpener><speaker rend="underlined">Chor af Alfer</speaker>.</HIS:spOpener>
+<lb/><HIS:hisLg rend="poem"><HIS:hisLg versetype="strofisk strofegruppe" an="no" met="1: (tri- 7 7 11 11) | (tri- 7 7 8 8), 2: bi 4 4 10" rhyme="1: a a B B, 2: C C B"><HIS:hisLg versetype="strofe"><HIS:hisLg an="no" met="tri- 7 7 11 11" rhyme="a a B B">
+    <l first="yes" met="-&bue;&bue;-&bue;&bue;-" rhyme="a"><anchor type="ht" xml:id="koRJ_ht_28"/><anchor type="lemma" xml:id="koRJ_130"/>Alferne hviske ved Kvæl</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-" rhyme="a">Kjærligt det sidste Farvel</l>
+<lb/><l met="-&bue;&bue;-&bue;-&bue;&bue;-&bue;" rhyme="B">Snart skal vi ei i Maaneskin glade</l>
+<lb/><l met="-&bue;-&bue;-&bue;&bue;-&bue;" rhyme="B">Dandse under <app type="alteration"><lem><HIS:hisAdd place="offline">duggede</HIS:hisAdd></lem><HIS:hisRdg><unclear><HIS:hisDel rend="overstrike">Blomsternes</HIS:hisDel></unclear></HIS:hisRdg></app> Blade,</l></HIS:hisLg>
+<lb/><HIS:hisLg an="no" met="bi 4 4 10" rhyme="C C B"><l rend="indent1" met="-&bue;-&bue;" rhyme="C">O, da ville</l>
+<lb/><l rend="indent1" met="-&bue;-&bue;" rhyme="C">vi i stille</l>
+<lb/><l met="-&bue;-&bue;-&bue;-&bue;-&bue;" rhyme="B">Aften Blomsterne med Taarer bade.</l></HIS:hisLg></HIS:hisLg>
+<lb/><HIS:hisLg versetype="strofe"><HIS:hisLg an="no" met="tri- 7 7 8 8" rhyme="a a B B"><l met="-&bue;&bue;-&bue;&bue;-" rhyme="a"><pb n="[22]r"/><pb ed="HISb"/>Kan vi ei følge din Vei;</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-" rhyme="a">ømt vil vi tænke paa dig</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">op til vort fredede Rige</l>
+<lb/><l met="-&bue;&bue;-&bue;&bue;-&bue;" rhyme="B">vil du endnu engang stige</l></HIS:hisLg>
+<lb/><HIS:hisLg an="no" met="bi 4 4 10" rhyme="C C B"><l rend="indent1" met="-&bue;-&bue;" rhyme="C"><anchor type="ht" xml:id="koRJ_ht_17"/>O da ville</l>
+<lb/><l rend="indent1" met="-&bue;-&bue;" rhyme="C">vi i stille</l>
+<lb/><l met="-&bue;-&bue;-&bue;-&bue;-&bue;" rhyme="B">Aften atter hilse Dalens Pige! &dash;</l></HIS:hisLg></HIS:hisLg></HIS:hisLg></HIS:hisLg></HIS:hisSp>
+<lb/><HIS:hisStage>(<HIS:hisDel rend="overwritten">m</HIS:hisDel>Musikken hendøer
+<lb/>efterhaanden.)</HIS:hisStage>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="BJORN"><HIS:spOpener><speaker rend="underlined"><anchor type="ht" xml:id="koRJ_ht_3"/>Bjørn</speaker>, <HIS:hisStage><anchor type="lemma" xml:id="koRJ_132"/>halv sagte</HIS:hisStage></HIS:spOpener>
+<lb/><l first="yes" rhyme="x"><anchor type="lemma" xml:id="koRJ_133"/>Du hvisker Alfhild, kom, <anchor type="lemma" xml:id="koRJ_133a"/>hvad fattes dig,</l>
+<lb/><l rhyme="a">jeg bli&rapo;er saa sært tilmode, &dash; lad os gaa &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker rend="underlined">Alfhild</speaker> <HIS:hisStage>griber hans Haand</HIS:hisStage></HIS:spOpener>
+<lb/><l rhyme="X">Nu følger Alfhild dig, nu har hun hvisket</l>
+<lb/><l rhyme="a">Farvel til Blomster og til Alfer smaae &dash;</l>
+<lb/><HIS:hisStage>(de gaae)</HIS:hisStage></HIS:hisSp></HIS:hisLg>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisStage>Thunet paa Bjerkehoug; Træer i Baggrun-
+<lb/>den, til Venstre sees <HIS:hisDel rend="overwritten">v</HIS:hisDel>Væggen af Huset <gap reason="writing"/> &dash;</HIS:hisStage>
+<lb/><figure type="bar"/>
+    <lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/><anchor type="ht" xml:id="koRJ_ht_24"/>Paal</speaker> <HIS:hisStage><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>kommer og møder <HIS:stageRole who="MERETA">Mereta</HIS:stageRole></HIS:hisStage>.</HIS:spOpener>
+<lb/><p><anchor type="lemma" xml:id="koRJ_200"/>Nei nei, der er ingen Lykke paa Bjerkehoug, &dash;
+<lb/>Herre Gud! er dette Lystighed paa en <anchor type="lemma" xml:id="koRJ_134"/>Jonsokskvæl,
+<lb/>nu havde jeg faaet muntret dem lidt op <anchor type="lemma" xml:id="koRJ_135"/>der-
+<lb/>borte paa Hougen &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Mereta</speaker>.</HIS:spOpener>
+<lb/><p>Og saa? &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb n="[22]v"/>Paal</speaker></HIS:spOpener>
+<lb/><p>Saa kom <anchor type="lemma" xml:id="koRJ_136"/>Bengt Alfsen og saa blev det stille som i
+<lb/>en Kirke &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker>.</HIS:spOpener>
+<lb/><p>Ja, Paal, jeg har mærket det, alle Folk er bange for
+<lb/>ham &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><p>Gud veed hvad der er iveien, alle skyer ham, selv
+<lb/>Bjørn hans egen Søn &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><p>Gud, troer du det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker>.</HIS:spOpener>
+<lb/><p>Det har jeg længe mærket &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/><HIS:hisDel rend="overwritten">Paal</HIS:hisDel>Mereta</speaker></HIS:spOpener>
+<lb/><p>Og derfor er det han flakker om paa Jagt i Fjeldene,
+<lb/>og aldrig har Ro hjemme &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker>.</HIS:spOpener>
+<lb/><p>Ja det var den første Grund, men siden &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker> &dash;</HIS:spOpener>
+<lb/><p>Men siden? hvad da &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><p>Aa det var ikke Noget, &dash; Spørg mig ikke mere,
+<lb/>der kommer Bengt Alfsen! &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><p>Saa vil jeg gaa &dash;</p><HIS:hisStage>(hun gaar)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt Alfsen</speaker> <HIS:hisStage>kommer</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hvem var det du talte med her &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><p>Det var jers Pleiedatter!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined"><pb n="[23]r"/>Bengt</speaker>.</HIS:spOpener>
+<lb/><p>Og hvorfor gik hun bort da hun saa mig kom-
+<lb/>me!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><p>Hun havde noget at tage Vare paa i Huset,
+<lb/><pb ed="HISb"/>sagde hun.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker></HIS:spOpener>
+<lb/><p>Saa, &dash; det hender altid naar jeg kommer; &dash;
+<lb/>saadan er det med dem allesammen, sidder Piger-
+<lb/>ne ved <anchor type="lemma" xml:id="koRJ_137"/>Arnen og spinder, saa gjøre de sig strax
+<lb/>Ærind i Kjøkken og Kjelder naar jeg kom-
+<lb/>mer ind &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker>.</HIS:spOpener>
+<lb/><p>Bengt Alfsen det er eders egen Skyld &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> &dash;</HIS:spOpener>
+<lb/><p>Ti stille, jeg vil ikke høre mere derom.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker> &dash;</HIS:spOpener>
+<lb/><p>Naa, jeg kan sagtens tie; det var ellers til je<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>rs eget
+<lb/>Vel jeg sagde det &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> &dash;</HIS:spOpener>
+<lb/><p>Godt, godt; &dash; har du ikke seet Herr Mogens iaften &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined">Paal</speaker></HIS:spOpener>
+<lb/><p>Han var i <anchor type="lemma" xml:id="koRJ_138"/>Borgestuen saa i Mørkningen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Bengt</speaker></HIS:spOpener>
+<lb/><p>Saa søg ham op, &dash; siig ham at jeg venter paa ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAAL"><HIS:spOpener><speaker rend="underlined"><pb n="[23]v"/><pb ed="HISb"/>Paal</speaker></HIS:spOpener>
+<lb/><p>Det skal jeg!</p>
+<lb/><HIS:hisStage>(gaaer)</HIS:hisStage></HIS:hisSp>
+<HIS:hisLg versetype="stikisk femfotsjambe blankvers" an="single" met="bi '10|'11" rhyme="x|X">
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker> <HIS:hisStage>efter en Pause</HIS:hisStage>.</HIS:spOpener>
+<lb/><l first="yes" rhyme="x"><anchor type="lemma" xml:id="koRJ_139"/>Jeg er ei mere frisk og rask som før,</l>
+<lb/><l rhyme="X">der ligger noget Tungt paa mine Skuldre,</l>
+<lb/><l rhyme="x">Folk <anchor type="lemma" xml:id="koRJ_140"/>mærke vist det er ei rigtigt fat</l>
+<lb/><l rhyme="X">med mig, &dash; de <anchor type="lemma" xml:id="koRJ_140a"/>gaa saasnart de see mig komme;</l>
+<lb/><l rhyme="x">men denne Præst! &dash; fordømt, hvor blier han af,</l>
+<lb/><l rhyme="X">det letter stundom mig at tale med ham; &dash;</l>
+<lb/><l rhyme="x">&dash; du ta&rapo;er dig dyrt betalt, min Broder Alf! &dash;</l>
+<lb/><HIS:hisStage>(seer sig om)</HIS:hisStage>
+<lb/><l rhyme="X">det rører sig blandt Træerne, &dash; <anchor type="lemma" xml:id="koRJ_141"/>Sanct Olaf!</l>
+<lb/><HIS:hisStage>(korser sig og gaaer ind i Huset.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisStage><HIS:stageRole who="EINAR">Einar</HIS:stageRole> og <HIS:stageRole who="MERETA">Mereta</HIS:stageRole> <anchor type="lemma" xml:id="koRJ_141a"/>komme.</HIS:hisStage>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Og hvorfor vil du ikke dandse med mig?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker>.</HIS:spOpener>
+<lb/><l rhyme="X">Fordi jeg ikke vil, &dash; see det er Grunden.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l rhyme="X">Du handler ikke ret mod mig, Mereta!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="I">Jasaa! hvad har du da at fordre?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu; &dash;</l>
+<lb/><l rhyme="x">Vist ingen Ting, men du veed meget <app type="alteration"><lem><HIS:hisAdd place="offline">vel</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">godt</HIS:hisDel></HIS:hisRdg></app></l>
+<lb/><l part="I"><anchor type="lemma" xml:id="koRJ_142"/>jeg er dig god &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb n="[24]r"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Og derfor blier du vred</l>
+<lb/><l rhyme="X">naar bare lidt jeg snakker med en anden</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="I">Ja snakker! &dash; leer, hvisker &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker>. <HIS:hisStage>muntert</HIS:hisStage> &dash;</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Ha, ha, ha!</l>
+<lb/><l rhyme="x">jo meer du <anchor type="lemma" xml:id="koRJ_143"/>muler, &dash; desto mere blier</l>
+<lb/><l part="I">jeg munter &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja, jeg seer det nok, Mereta!</l>
+<lb/><l rhyme="x">Saa var jeg ogsaa dengang jeg kom hid,</l>
+<lb/><l rhyme="x">men det Par Dage har forandret mig, &dash;</l>
+<lb/><l part="I">Mereta, hør mig &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Kom nu ei igjen</l>
+<lb/><l part="I">med denn<unclear>e</unclear><HIS:hisDel rend="overstrike">g</HIS:hisDel> gamle Snak &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HU"/>Einar</speaker> <HIS:hisStage>fornærmet</HIS:hisStage> &dash;</HIS:spOpener>
+<lb/><l part="F" rhyme="x">Nu vel, du skal</l>
+<lb/><l part="I">ei høre meer fra mig &dash;</l><HIS:hisStage>(vil gaa)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nu, gaaer du Einar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker> &dash;</HIS:spOpener>
+<lb/><l part="I">Farvel, Mereta! &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker>, <HIS:hisStage>skjelmsk</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Lykke da paa Reisen &dash;</l>
+<lb/><HIS:hisStage>(idet han er ved Udgangen)</HIS:hisStage>
+<lb/><l rhyme="x">Nei ve<HIS:hisDel rend="overwritten"><unclear>l</unclear></HIS:hisDel>nt dog lad mig snakke med dig Lidt</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb n="[24]v"/>Einar</speaker>. <HIS:hisStage>vender sig</HIS:hisStage> &dash;</HIS:spOpener>
+<lb/><l part="I" realMet="9"><anchor type="lemma" xml:id="koRJ_144"/>Hvad vil du da &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Kom hid, &dash; hør Einar</l>
+<lb/><l rhyme="x">du lover mig at tie stille med</l>
+<lb/><l part="I">det Snak om Kjærlighed &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker> <HIS:hisStage>mørk</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja vist, det gjør jeg &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">Og naar jeg leer lidt ad dig saa maa</l>
+<lb/><l part="I">du ei see suurt &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">Aa nei, gjør som du vil &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l rhyme="x">See det er Ret; Tak, Tak, nu kan du gaa &dash;</l>
+<lb/><l rhyme="X">nu vil jeg bare gi&rapo;e dig med paa Reisen</l>
+<lb/><l part="I">en liden <anchor type="lemma" xml:id="koRJ_144a"/>Skjænk &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker></HIS:spOpener>
+<lb/><l part="M">Og hvad er det &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined">Mereta</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="x">See der!</l>
+<lb/><HIS:hisStage>(rækker ham Haanden)</HIS:hisStage>
+<lb/><l part="I">der har du den, &dash; min Haand og Tro!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker> <HIS:hisStage>omfavner hende</HIS:hisStage>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Mereta!</l>
+<lb/><l part="I">Er det dit Alvor? &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="MERETA"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Mereta</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ja, det er det Einar!</l>
+<lb/><HIS:hisStage>(idet Bengt <HIS:hisAdd place="offline">og Mogens</HIS:hisAdd> træder ind)</HIS:hisStage>
+<lb/><l part="I">Gud! der er Fader!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined"><pb n="[25]r"/>Bengt</speaker></HIS:spOpener>
+<lb/><l part="F" rhyme="X">Nu hvad er paafærde?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined">Einar</speaker>.</HIS:spOpener>
+<lb/><l part="I">Bengt Alfsen! hør! &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="BENGT"><HIS:spOpener><speaker rend="underlined">Bengt</speaker>.</HIS:spOpener>
+<lb/><l part="F" rhyme="X">Ti, &dash; det behøves ikke,</l>
+<lb/><l rhyme="X">jeg saa nok hvad her foregik, &dash; Mereta!</l>
+<lb/><l rhyme="x">det bedre sømmed sig om du <anchor type="lemma" xml:id="koRJ_145"/>forslog</l>
+<lb/><l rhyme="X"><pb ed="HU"/>dig Tid blandt <anchor type="lemma" xml:id="koRJ_146"/>Ternerne, end med <anchor type="lemma" xml:id="koRJ_147"/>ung Einar.</l>
+<lb/><HIS:hisStage>(Mereta gaa<unclear reason="writing">er</unclear>)</HIS:hisStage>
+<lb/><HIS:hisStage>(<hi rend="underlined">til Einar</hi>)</HIS:hisStage>
+<lb/><l rhyme="x">Og dig, min Ven! kan jeg berette kort</l>
+<lb/><l rhyme="x">at hvis du beiler til Meretas Gunst</l>
+<lb/><l rhyme="x"><app type="alteration"><lem><HIS:hisAdd place="offline">da</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike"><HIS:hisAdd place="inline">da</HIS:hisAdd> <emph rend="underlined">det</emph></HIS:hisDel></HIS:hisRdg></app> nytter <HIS:hisAdd place="offline">det dig</HIS:hisAdd> ei, <anchor type="lemma" xml:id="koRJ_147a"/>thi alt jeg har</l>
+<lb/><l rhyme="X">bestemt det anderledes, &dash; kom Herr Mogens!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(De gaa)</HIS:hisStage>
+<lb/><HIS:hisSp who="EINAR"><HIS:spOpener><speaker rend="underlined"><pb ed="HISb"/>Einar</speaker>.</HIS:spOpener>
+<lb/><l rhyme="x">Det var da sandt hvad Præsten sagde mig</l>
+<lb/><l rhyme="x">Nu, lad det gaa! Mereta har mig kjær,</l>
+<lb/><l rhyme="x">Hun sætter nok igjennem hvad hun vil</l>
+<lb/><l rhyme="x">Forresten stoler jeg paa Lykkens Hjælp &dash;</l></HIS:hisSp></HIS:hisLg>
+<lb/><HIS:hisStage>(<HIS:stageRole who="PAAL">Paal</HIS:stageRole>, <HIS:stageRole>flere Spillemænd</HIS:stageRole>, <HIS:stageRole>Bønder</HIS:stageRole> og <HIS:stageRole>Bondepiger</HIS:stageRole>
+<lb/>komme under Musik.)</HIS:hisStage>
+<lb/><figure type="bar"/>
+</div>
+</body>
+</text>
+</TEI>

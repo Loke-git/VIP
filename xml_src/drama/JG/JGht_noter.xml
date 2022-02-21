@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="JG">John Gabriel Borkman</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>23.02.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteJG_1"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_1">John</HIS:hisRef>] <hi rend="italic">på siden foran smusstittelbladet i 1. utg., London-utg. og 2. utg. står følgende:</hi> Omtrent samtidig med nærværende originaludgave udkommer en engelsk, en tysk, en fransk og en russisk af forfatteren autoriseret udgave. Noget senere følger oversættelser på hollandsk, ungarsk, bøhmisk, polsk og italiensk.</note>
+<note resp="editor" xml:id="noteJG_2"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_2">på</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1118b, KBK Collin 262, 4&deg;, IV.3, FU,</hi> paa <hi rend="italic">1. utg., London-utg., 2. utg.</hi></note>
+<note resp="editor" xml:id="noteJG_3"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_3">hændt!</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1118b,</hi> hændt. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, IV.3, London-utg., 2. utg.</hi> hændt? <hi rend="italic">FU</hi></note>
+<note resp="editor" xml:id="noteJG_4"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_4">Når</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1118b, KBK Collin 262, 4&deg;, IV.3, FU,</hi> Naar <hi rend="italic">1. utg., London-utg., 2. utg.</hi></note>
+<note resp="editor" xml:id="noteJG_5"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_5">dig!</HIS:hisRef>] dig <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteJG_6"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_6">forældrene?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1118b,</hi> forældrene. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, IV.3, London-utg., 2. utg., FU</hi></note>
+<note resp="editor" xml:id="noteJG_7"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_7">ære!</HIS:hisRef>] ære. <hi rend="italic">ekspl. 3</hi> </note>
+<note resp="editor" xml:id="noteJG_8"><HIS:hisRef type="tcNote" target="JGht.xml" corresp="noteJG_8">bænken.</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, IV.3</hi> bænken <hi rend="italic">1. utg., London-utg., 2. utg., FU</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

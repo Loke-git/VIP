@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1116a, bl. 9v-10 og 12-15</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, juni - november 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, desember 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll, mars 2007</resp>
+<name>Henninge Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="FH41116a_9v-10_12-15-0712"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på FH41116a (FH41116a-0809).</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<p>Manuskriptets grafiske oppsett finnes beskrevet i typografibeskrivelsen i FH41116_NBO.xml.</p></HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label xml:id="WANGEL"/><item>-/W. /-</item>
+<label xml:id="ELLIDA"/><item>-/E./-</item>
+<label xml:id="BOLETTE"/><item>-/B./-</item>
+<label xml:id="HILDE"/><item>-/H./-</item>
+<label xml:id="ARNHOLM"/><item>-/A., Ar./-</item>
+<label xml:id="LYNGSTRAND"/><item>-</item>
+<label xml:id="BALLESTED"/><item>-/Bl/-</item>
+<label xml:id="DENFREMMEDE"/><item>-/D f./-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/>
+<language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort pen.</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Bibliotekar? Rød blyant. Foliering.</p></handNote>
+<handNote scribe="h2" xml:id="h2" medium="pencil"><p>Tall ved replikkutkast samt noe foliering</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>13.07.12</date>
+<name>SBT</name><title>TEI P5</title>
+Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>20.10.09</date>
+<name>MW</name><title>xptr-kodene endres</title>
+xptr-kodene til synoptiske visninger er besluttet endret til spesielle 'synopticViewPtr'. Det et utført i alle de aktuelle FH-filer.</change>
+<change><date>13.10.09</date>
+<name>MW</name><title>fjernet siccing</title>
+Sjekket alle FH-filer for ev. sic-koder og fjernet de jeg fant. Validert. Lager ny visninger.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>redigering av xptr-kodene</title>
+Etter snakk i dag kom vi frem til at vi bare bruker xptr-koder med attributtverdien 'textWitnesses'. Jeg har derfor endret att.verdiene i xptr-kodene i FH-filene til textWitnesses. Siden jeg ønsker å endre minst mulig i kodingen nå lar jeg nummereringen være med endelsen ms.</change>
+<change><date>12.10.09</date>
+<name>MW</name><title>typo-noter</title>
+Så igjennom filen for typo-noter som vi har avtalt skal fjernes før versjonsvisninger blir laget.</change>
+<change><date>14.09.09</date>
+<name>MW</name><title>Klargjøring av filen til synoptisk visning</title>
+Før xptr-koder legges inn flytter jeg om på rekkefølgen av bladene 9v-10v, da Ibsen sannsynligvis har skrevet på bladene i denne rekkefølgen: 10v, 9v, 10r. La inn xptr-koder for synkronisering mot FH88.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Klargjøring av filen til synoptisk visning</title>
+Siden denne versjonen består av to deler fra NBO-filen må strukturkodingen endres noe. Den endres fra en text-group-text-struktur til blot en text og noter om sammenhenger mellom de to opprinnelige deler er fjernet. Sjekket handList og id-who-oversikten.</change>
+<change><date>31.08.09</date>
+<name>MW</name><title>Splitting av FH4111a</title>
+Splittet FH4111a i åtte deler til synoptisk visning.</change>
+<change><date>24.08.09</date>
+<name>MW</name><title>Blad-/legg-nummerering</title>
+Blad-nummerering lagt inn (i egne 'pb n='), Tones ms-beskrivelse er fulgt.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Flyttet tekstdel til b-delen</title>
+Etter mail fra Tone flyttet jeg legget med tittelside og personliste (fakss. 29-32) fra a- til b-delen. Lager ny visninger.</change>
+<change><date>03.08.09</date>
+<name>MW</name><title>Transkripsjonsfeil</title>
+Transkripsjonsfeil oppdaget i Karis kontroll av HIS sine lesemåter mot HU sine (blot for en del av stykket) er ført inn.</change>
+<change><date>12.01.09</date>
+<name>HMS</name><title>Endret koding</title>
+Fjernet resp="editor" i ptr-kodene, da vi har vedtatt at dette resp-attributtet er overflødig.</change>
+<change><date>08.12.08</date>
+<name>MW</name><title>Transkripsjon</title>
+Tone så i forbindelse med msbeskrivelen hva som står i overskrivingen og strykingen ved Lyngstrand i rollelisten s. 11. Det er nå rettet til i filen (også i FH41116_NBO) - og ny visninger er laget.</change>
+<change><date>17.09.08</date>
+<name>SBT</name><title>Oppdatering</title>
+Endret fra desc til sub i koding av undertitler.</change>
+<change><date>18.02.08</date>
+<name>HB</name><title>Splitting av fil</title>
+Gjenstår: kontrollere at delingen i a og b er i tråd med Tone Modalslis manuskriptbeskrivelse. Legge inn bladreferanser fra manuskriptbeskrivelsen. Legge inn koblinger til synoptisk visning. * Splittet filen. Arkiverte pre-splittversjon. Opprettet kopi med biliotekets ordning, FH41116_NBO. Opprettet FH41116b. Loggen er forkortet, FH41116_NBO og FH41116_pre_splitt inneholder fullstendig logg. typography og msDesc er fjernet, finnes i FH41116_NBO og FH41116_pre_splitt. Fjernet  type="workingManuscript" fra alle indre text-elementer og la den på ytterste, siden alle text-elementer inneholder samme ms-type. Validert.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten-newfacs" xml:lang="dan-nob">
+<body>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="10" facs="20"/>
+<div type="act" n="4">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_174ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">284</hi></note><HIS:hisSp who="LYNGSTRAND"><p>Holder De af Deres gamle lærer, frøken<HIS:hisDel rend="overwritten">?</HIS:hisDel>B.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Om jeg holder af ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="LYNGSTRAND"><p>Ja jeg mener om De synes godt om ham.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Å ja det gør jeg. For han er svært bra&rapo; at ha&rapo;
+<lb/>til ven og rådgiver sådan &dash;. Og så er han altid
+<lb/>så hjælpsom, når han kan.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="LYNGSTRAND"><p>Men er ikke det underligt at han ikke har giftet sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Synes De, det er så underligt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="LYNGSTRAND"><p>Ja for han er jo en velhavendes mand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Han skal nok være det. Men det har vel ikke været så
+<lb/>let for ham at finde nogen, som vilde <HIS:hisAdd place="offline">ha</HIS:hisAdd> ham, kan jeg tro.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="LYNGSTRAND"><p>Hvorfor det da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Å han har jo været lærer for næsten alle de unge piger,
+<lb/>som han kender. Det siger han selv &dash;</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">285</hi></note><HIS:hisSp who="LYNGSTRAND"><p>Ja hvad skulde det gøre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Men herre gud man gifter sig da ikke med en, som
+<lb/>har været ens lærer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="LYNGSTRAND"><p>Tro <HIS:hisDel rend="overwritten">d</HIS:hisDel>De <HIS:hisDel rend="overstrike">da</HIS:hisDel> ikke at en ung pige kunde elske sin lærer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Ikke efter at hun er ble&rapo;t rigtig voksen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="LYNGSTRAND"><p>Nej &dash; tænk det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Så, så, så!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Ballested har imidlertid sa<unclear reason="writing">mlet</unclear> sine sager sammen
+<lb/>b<gap reason="writing"/> dem ud<HIS:hisRef type="refMark" target="n8" xml:id="nb8">&referenceMark;</HIS:hisRef> <HIS:hisDel rend="overstrike">til</HIS:hisDel> i baggrunden til højre. Hilde hjælper ham.
+<lb/>A: går op på verandaen og ind i stuen.)</HIS:hisStage>
+<HIS:hisAdd place="inBetweenLines">
+<lb/><p><ptr type="refMark" target="nb8" xml:id="n8"/>ud gennem haven</p></HIS:hisAdd>
+<lb/><figure type="bar"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_175ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">288</hi></note><HIS:hisSp who="ARNHOLM"><p>Kender De noget nærmere til den unge manden?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Nej, slet ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p>Men synes de så om at <HIS:hisDel rend="overstrike">jeg</HIS:hisDel> han går og driver så meget med småpigerne</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Gør han det. Det har jeg slet ikke lagt mærke til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p><HIS:hisAdd place="inline">Sligt <HIS:hisDel rend="overstrike">noget</HIS:hisDel></HIS:hisAdd> <HIS:hisDel rend="overstrike">De</HIS:hisDel>t burde De dog ha&rapo; et øje med, synes jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ja De har visst ret i det. Men herre gud, hvad skal jeg arme
+<lb/>mand gøre? Småpigerne er nu ble&rapo;t så vante til at skøtte sig selv.
+<lb/>De lar sig ikke sige, hverken af mig eller af E.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p><HIS:hisDel rend="overstrike">Nej</HIS:hisDel> Ikke af hende heller?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Nej. Og forresten kan jeg jo ikke forlange at hun skal blande
+<lb/>sig op i sligt. Det ligger slet ikke for hende.</p></HIS:hisSp>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="9" facs="18"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_176ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">290</hi></note><HIS:hisSp who="WANGEL"><p>Å jo. Jeg har været det sidenefter også. Jeg er jo så meget, meget ældre
+<lb/>end hun. Jeg skulde ha&rapo; været for hende som en far og en vejleder tillige.<HIS:hisRef type="refMark" xml:id="nb6" target="n6">&referenceMark;</HIS:hisRef>
+<lb/>Men det er der aldrig blet noget af.</p></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i høyre marg</note>
+<lb/><p><HIS:hisRef type="refMark" xml:id="n6" target="nb6">&referenceMark;</HIS:hisRef>Skulde ha&rapo; gjort mit bedste for at
+<lb/>udvikle hendes tankeliv.</p></HIS:hisAdd>
+<lb/><HIS:hisSp who="WANGEL"><p>Jeg har ikke havt fremfærd nok til det <HIS:hisDel rend="overstrike">(stan<unclear reason="writing">dser</unclear> for<unclear reason="writing">an</unclear> ha<gap reason="writing"/>) Derfor
+<lb/>var det at <unclear reason="writing">jeg i</unclear></HIS:hisDel> For jeg vilde jo helst ha&rapo; hende, slig, som <HIS:hisDel rend="overstrike">det</HIS:hisDel> hun var.
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">291</hi></note>Men så blev det jo værre og værre med hende. Og jeg gik her og vidste
+<lb/>ikke hvad jeg skulde finde på.</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_177ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">293</hi></note><HIS:hisSp who="ARNHOLM"><p>La&rapo; De mærke til mandens øjne da De så ham igår.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ja visst gjorde jeg det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p>Og de fandt ikke nogen slags ligheder</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:hisStage>(u<unclear reason="writing">ndv</unclear>.)</HIS:hisStage>
+<lb/><p>Hm, &dash; herre gud, hvad skal jeg svare. Det var jo ikke ganske lyst
+<lb/>da jeg så ham. Og desuden så havde jo E talt så meget om denne
+<lb/>lighed i forvejen. Jeg ved slet ikke om jeg var i stand til at se ganske
+<lb/>uhildet på ham</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p>Nej nej, det kan så være</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_178ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">295</hi></note><HIS:hisSp who="WANGEL"><p>Nej hun tror ikke de<HIS:hisDel rend="overwritten">t</HIS:hisDel>r vilde være nogen nytte i det. Og det kan
+<lb/>hun kanske ha&rapo; ret i.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p>Hm Ja, siger De det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ja og så desuden, når jeg tænker mig nærm<unclear reason="writing">ere</unclear> om, så ved jeg
+<lb/>virkelig ikke hvorledes jeg skulde kunne sætte det i værk. Jeg synes
+<lb/><HIS:hisAdd place="inline">næsten</HIS:hisAdd> ikke jeg kunde <HIS:hisAdd place="offline"><HIS:hisDel rend="overstrike">rig</HIS:hisDel>tig</HIS:hisAdd> for<unclear reason="writing">svare</unclear> for småpigernes skyld at flytte derud. De
+<lb/>må jo dog leve på et sted, hvor der er nogen udsigt til at få dem
+<lb/>forsørget en gang.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p>Forsørget? Tænker De så meget på det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ja, herre gud &dash; jeg må da tænke på det også. Men så &dash; på
+<lb/>den anden side igen &dash; hensynet til min stakkers syge E. Å jeg står
+<lb/>virkelig<HIS:hisRef type="refMark" xml:id="nb7" target="n7">&referenceMark;</HIS:hisRef> som mellem ild og vand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><p>For B. behøver De kanske ikke at være så bekymret <HIS:hisDel rend="overstrike">(går <app type="alteration"><lem><HIS:hisAdd place="offline">til</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">he</HIS:hisDel></HIS:hisRdg></app>
+<lb/><gap/> glasdøren</HIS:hisDel> <HIS:hisStage>(ser sig tilbage)</HIS:hisStage> Jeg gad <gap reason="writing"/> vide hvor hun er gået
+<lb/>hen</p></HIS:hisSp>
+<lb/><HIS:hisStage>(går op til glasdøren<HIS:hisDel rend="overwritten">)</HIS:hisDel>og ser ud.</HIS:hisStage>
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står nederst på siden</note>
+<lb/><p><HIS:hisRef type="refMark" xml:id="n7" target="nb7">&referenceMark;</HIS:hisRef>på mange måder</p></HIS:hisAdd>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="10" facs="19"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">10</fw>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_179ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">303</hi></note><HIS:hisSp who="ELLIDA"><p>Men jeg gik ikke ind til dit hjem i frivillighed. Det er sagen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ikke i frivillighed?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Nej, &dash; det var ikke <HIS:hisDel rend="overstrike">i frivillighed</HIS:hisDel> frivillig jeg <app type="alteration"><lem><HIS:hisAdd place="offline">rejste</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">fulgte</HIS:hisDel></HIS:hisRdg></app> med dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ah &dash; jeg mindes vendingen fra igår.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>I den vending ligger det alt sammen</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_180ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">313</hi></note><HIS:hisSp who="HILDE"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener> <p>Rejser du! Rejser du, fra os.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E</speaker></HIS:spOpener> <p>Men H da! Hvad går der af dig</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HILDE"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener> <p>Å, det var ingenting.</p> <HIS:hisStage>(til B.)</HIS:hisStage> <p>Lad hende bare rejse.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><HIS:spOpener><speaker>B</speaker></HIS:spOpener> <p>Far, jeg ser det på dig, &dash; du rejser også</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Visst ikke nej, &dash; jeg ser <app type="alteration"><lem><HIS:hisAdd place="offline">kanske</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">bare</HIS:hisDel></HIS:hisRdg></app> derud en gang imellem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><HIS:spOpener><speaker>B.</speaker></HIS:spOpener> <p>B. Og her ind til os?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Ser jeg også en gang imellem. Kære barn, &dash; det må
+<lb/>så være.</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">314</hi></note><HIS:hisSp who="ARNHOLM"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener> <p>Vi tales ved siden, B.</p></HIS:hisSp><HIS:hisStage>W. går hen og <unclear reason="writing">taler sagte</unclear> med A)</HIS:hisStage>
+<lb/><figure type="bar"/>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Hvad er det med H! Hun ser jo ud som forstyrret &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p><unclear reason="writing">Har</unclear> du aldrig <unclear reason="writing">mærket</unclear> hvad H. dag ud og dag ind har
+<lb/>gået og ventet på <HIS:hisDel rend="overwritten">&dash;</HIS:hisDel>?</p></HIS:hisSp><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Ventet på!</p></HIS:hisSp> <HIS:hisSp who="BOLETTE"><HIS:spOpener><speaker>B.</speaker></HIS:spOpener> <p><unclear reason="writing">Ligesiden</unclear> du kom i huset</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Nej, nej, hvad er det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><p>Et eneste kærligt ord fra dig</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Ah &dash;!</p></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står nederst på siden</note>
+<lb/><HIS:hisStage>Hun slår bægge hænderne om hovedet og ser ubevæge&typHyp;
+<lb/>lig frem for sig ligesom gennemkrydset <app type="alteration"><lem><HIS:hisAdd place="infralinear">strid<unclear reason="writing">er</unclear></HIS:hisAdd></lem><HIS:hisRdg>af tanker</HIS:hisRdg></app> og stemninger</HIS:hisStage></HIS:hisAdd>
+</div>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="12" facs="23"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">12</fw>
+<div type="act" n="5">
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_181ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">318</hi></note><HIS:hisSp who="ELLIDA"><p>For det er jo i frivillighed at jeg skal <HIS:hisAdd place="offline">og må</HIS:hisAdd> træffe mit valg.</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">319</hi></note><HIS:hisSp who="WANGEL"><p>Du <HIS:hisDel rend="overstrike">får i</HIS:hisDel> har ikke noget valg <HIS:hisDel rend="overwritten">e</HIS:hisDel>E. Du får ikke lov at vælge.
+<lb/>Får ikke lov for mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker><hi rend="underlined">E</hi>.</speaker></HIS:spOpener> <p>Valget kan du aldrig hindre. Hverken du eller nogen
+<lb/>anden. Du kan forbyde mig at rejse med ham &dash; følge ham &dash;
+<lb/>ifald jeg vælger det. Du <HIS:hisDel rend="overwritten">h</HIS:hisDel>kan holde mig tilbage her med
+<lb/>magt. Imod min vilje. Det kan du. Men at jeg vælger, &dash;
+<lb/>vælger inderst ind i mit sind, &dash; vælger ham og ikke dig, &dash;
+<lb/>ifald jeg vil og må vælge så<HIS:hisAdd place="offline">ledes</HIS:hisAdd> &dash; det kan du ikke hindre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Nej, det har du ret i, E. Det kan jeg ikke hindre.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Og så har jeg jo slet ingen ting at stå imod med. Her er
+<lb/>jo ingen verdens ting som drager og binder mig. Jeg er jo
+<lb/>så rent rodløs i dit hus, W. Børnene ejer jeg ikke. Ejer ikke
+<lb/>deres sind, mener jeg. Har aldrig ejet det. <HIS:hisDel rend="overstrike">O</HIS:hisDel> Når jeg rejser,
+<lb/>&dash; <emph>om</emph> jeg rejser &dash; enten med ham inat &dash; eller ud til Sk imor&typHyp;
+<lb/>gen, så har jeg ikke en nøgle at gi&rapo; fra mig, ikke en besked
+<lb/>at lægge efter mig, hverken om det ene eller om det andet.
+<lb/>Så rent rodløs er jeg i dit hus. Så rent udenfor alt sammen
+<lb/>har jeg været lige fra første stund af.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Du har selv villet det således.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Nej, jeg har ikke det. Jeg har hverken villet det eller ikke
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">320</hi></note>villet det. Jeg har bare simpelt hen ladet alting bli&rapo;, således
+<lb/>som jeg fandt det den dag jeg kom <HIS:hisDel rend="overstrike">hid</HIS:hisDel>. Det er dig selv, som
+<lb/>har villet det således.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Jeg tænkte at gøre det på det bedste f<HIS:hisDel rend="overwritten">å</HIS:hisDel>or dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>A ja, Wg. det véd jeg jo så godt. Men der er en gengældelse i
+<lb/>dette. Noget, som hævner sig. Der er ingen bindende magt &dash;
+<lb/>ingen støtte for mig, ingen hjælp &dash; ingen dragning <HIS:hisAdd place="offline">ind</HIS:hisAdd> imod alt det,
+<lb/>som skulde ha&rapo;<note resp="editor">det mangler et ord her, ev. <q>været</q></note> vort fælles inderste eje.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Jeg ser det jo nok E. Og derfor så skal du jo også fra imor&typHyp;
+<lb/>gen af få din frihed igen. Skal herefter få leve dit eget liv.</p></HIS:hisSp><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_182ms"/>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Og det kalder du mit eget liv! Å nej, mit eget rigtige liv
+<lb/>kom ud af sporet da jeg gik ind på samlivet med dig.
+<lb/>Og nu, inat &dash; om en halv time &dash; kommer han, som jeg har
+<lb/>svigtet &dash; han, som jeg skulde ha&rapo; holdt ubrødelig fast ved, lige&typHyp;
+<lb/>som han har holdt fast ved dig. &dash; Nu kommer han og byder
+<lb/>mig &dash; for sidste og eneste gang &dash; at få leve livet om igen &dash;
+<lb/><HIS:hisAdd place="inline">få leve</HIS:hisAdd> mit eget rigtige liv &dash; det liv, som skræmmer og drager
+<lb/>og som jeg ikke <emph>kan</emph> gi slip på. Ikke i frivillighed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><HIS:spOpener><speaker>W.</speaker></HIS:spOpener> <p>Just derfor trænger du til at din mand &dash; og din læge også &dash;
+<lb/>tar magten fra dig og handler på dine vegne.</p></HIS:hisSp>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="12" facs="24"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">321</hi></note><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Ja, W. jeg forstår det så godt. Å, du må ikke tro andet end at
+<lb/>der er stunder imellem, da jeg synes der vilde være fred og red&typHyp;
+<lb/>ning i at ty inderligt ind til dig &dash; og prøve på at trodse alle disse
+<lb/>dragende og skræmmende magter. Men jeg kan ikke det heller.
+<lb/>Nej, nej, jeg kan det ikke.</p></HIS:hisSp>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="13" facs="25"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">13</fw>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_183ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">341</hi></note><HIS:hisSp who="DENFREMMEDE"><p>Nu ringer det første g<unclear reason="writing">ang</unclear> <gap reason="writing"/> o. s. v. Ja eller nej.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><HIS:spOpener><speaker>E.</speaker></HIS:spOpener> <p>Afgørelse. Afgørelse for hele livet. Aldrig kunne gøre
+<lb/>det om igen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DENFREMMEDE"><HIS:spOpener><speaker>D f.</speaker></HIS:spOpener> <p>Aldrig. Om en halv time er det for sent.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Hvorfor er det at De holder så uryggelig fast ved mig</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">342</hi></note><HIS:hisSp who="DENFREMMEDE"><p>Føler ikke du ligesom jeg at vi to hører sammen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Mener De for det løftes skyld?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DENFREMMEDE"><p>Løfter binder ingen. Hverken mand eller kvinde.
+<lb/>Når jeg holder så uryggelig fast ved dig, så er det fordi
+<lb/>jeg ikke kan andet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Hvorfor kom De ikke før?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ellida!</p></HIS:hisSp>
+<lb/><HIS:hisDel rend="overstrike"><HIS:hisSp><p>Jeg ser det på dig</p></HIS:hisSp></HIS:hisDel>
+<lb/><HIS:hisSp who="ELLIDA"><p>Å dette som drager og frister og lokker ind i det u&typHyp;
+<lb/>kendte. Hele havets magt er samlet i dette ene.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(han stiger over h<gap reason="writing"/>)</HIS:hisStage>
+<lb/><HIS:hisSp who="ELLIDA"><p>Hvad er det! Hvad vil De.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DENFREMMEDE"><p>Jeg ser det på dig, E. Det blir dog mig du vælger til slut.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Min hustru har intet valg. Jeg er sat til at værge om
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">343</hi></note>hende. Og hvis De ikke forføjer Dem herfra, &dash; ved De så
+<lb/>hvad De udsætter Dem for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Nej, nej, W.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DENFREMMEDE"><p>Hvad vil De gøre mig?</p></HIS:hisSp><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_184ms"/>
+<lb/><HIS:hisSp who="WANGEL"><p>Lade Dem sætte fast. For jeg ved fuld besked om drabet
+<lb/>ude i Skjoldviken</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>A, W. hvor kan du &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DENFREMMEDE"><p>Det var jeg forberedt på. Og derfor så har jeg også
+<lb/>forsynet mig med denne her.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Nej, nej, dræb ham ikke! Dræb heller mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DENFREMMEDE"><p><HIS:hisDel rend="overstrike">D</HIS:hisDel> Hverken dig eller ham. Denne her er til eget
+<lb/>brug. For jeg vil leve og dø som en fri mand.
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/>Det har du magt og <unclear reason="writing">midler</unclear> til</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Wangel, lad mig sige dig det &dash; vel kan du holde mig
+<lb/>tilbage her, men mit sind, alle mine tanker, alle
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">344</hi></note>mine dragende længsler<HIS:hisRef type="refMark" xml:id="nb1" target="n1">&referenceMark;</HIS:hisRef> kan du ikke binde. De vil
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/><HIS:hisRef type="refMark" xml:id="n1" target="nb1">&referenceMark;</HIS:hisRef>og begær</HIS:hisAdd> hige og jage ud i det ukendte, som jeg var skabt for
+<lb/>og som du har lukket for mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Jeg ser det vel, E. Skridt for skridt glider du
+<lb/>fra mig. Kravet på det grænseløse og endeløse og &dash;
+<lb/>på det uopnåelige vil drive dit sind ud i nattemørket
+<lb/>tilslut &dash;</p></HIS:hisSp><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_185ms"/>
+<lb/><HIS:hisSp who="ELLIDA"><p>Å ja ja, jeg føler det som sorte lydløse vinger over
+<lb/>mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Did skal det ikke komme. Der er ingen and<unclear reason="writing">en</unclear>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="13" facs="26"/>
+<lb/>redning mulig for dig. Handelen er nu gåt om igen.
+<lb/>Nu kan du vælge din vej i fuld frihed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Er det sandt hvad du siger. Mener du det af dit
+<lb/>inderste hjerte.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Ja af hele mit fulde inderste hjerte <app type="alteration"><lem><HIS:hisAdd place="offline">mener</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">kan</HIS:hisDel></HIS:hisRdg></app> jeg det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Og <emph>kan</emph> du det også.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Jeg kan det fordi jeg elsker dig så højt.</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">345</hi></note><HIS:hisSp who="ELLIDA"><p>Så nær og så inderlig er jeg da kommet ind til dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Det har årene og samlivet virket.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Og jeg, som så lidet har set det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Dine tanker gik andre veje. Men nu altså, &dash; nu er
+<lb/>du fuldt ud løst fra mig<HIS:hisRef type="refMark" target="n2" xml:id="nb2">&referenceMark;</HIS:hisRef>. <HIS:hisAdd place="infralinear">For</HIS:hisAdd> Nu kan du vælge i fri<HIS:hisDel rend="overwritten">vill</HIS:hisDel>hed<HIS:hisDel rend="overstrike">ighed</HIS:hisDel>
+<lb/>og under eget ansvar.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p><HIS:hisDel rend="overstrike">Under ansv</HIS:hisDel> I frihed og under ansvar! Der er forvand&typHyp;
+<lb/>ling i dette</p></HIS:hisSp>
+<lb/><HIS:hisStage>(klokke)</HIS:hisStage>
+<lb/><HIS:hisSp who="DENFREMMEDE"><p>Hører du nu ringer det for sidste gang. Kom så!</p></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i bunnen av teksten</note>
+<lb/><p><ptr type="refMark" target="nb2" xml:id="n2"/>Nu kan dit eget rigtige liv komme ind på sit rette spor igen</p></HIS:hisAdd>
+<pb n="[14]r"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">14</fw>
+<pb n="[14]v"/>
+<pb ed="source" type="folio_nopagination" subtype="recto" n="15" facs="27"/>
+<lb/><fw type="leaf" place="top-right" scribe="h1">15</fw>
+<HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_186ms"/>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">346</hi></note><HIS:hisSp who="WANGEL"><p>E, dit sind er som havet. Det har ebbe og flod. Hvorfra
+<lb/>kom forvandlingen?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Å forstår du da ikke at den kom &dash; at den måtte komme
+<lb/>da jeg fik vælge i frihed.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Og det ukendte drager dig ikke længer. <HIS:hisDel rend="overstrike">Det h</HIS:hisDel><gap reason="writing"/></p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">347</hi></note><HIS:hisSp who="ELLIDA"><p>Ikke nu mere. Aldrig mere. Jeg har kunnet få
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/><ptr type="refMark" target="nb10" xml:id="n10"/>gå ind til det</HIS:hisAdd>se ind i det <gap reason="writing"/><HIS:hisRef type="refMark" target="n10" xml:id="nb10">&referenceMark;</HIS:hisRef> ifald jeg havde villet. Jeg har kunnet vælge
+<lb/>det. Derfor kunde jeg også forsage det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p><HIS:hisDel rend="overstrike">Du tænker</HIS:hisDel> Jeg forstår dig nu. Du tænker og fornemmer
+<lb/>i billeder &dash; og i synbare forestillinger. Din længsel
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/><HIS:hisRef type="refMark" xml:id="n3" target="nb3">&referenceMark;</HIS:hisRef> din dragning</HIS:hisAdd>efter havet &dash;<HIS:hisRef type="refMark" xml:id="nb3" target="n3">&referenceMark;</HIS:hisRef> og efter ham &dash; efter denne fremmede mand, &dash;
+<lb/>det har været <unclear reason="writing">udtrykket</unclear> for et vågnende og voksende
+<lb/>frihedskrav i dig. Andet ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Å jeg ved ikke hvad jeg skal sige til det. Men du
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/><ptr type="refMark" target="nb9" xml:id="n9"/>og du voved</HIS:hisAdd>har været en god læge for mig. Du fandt<HIS:hisRef type="refMark" target="n9" xml:id="nb9">&referenceMark;</HIS:hisRef> det rette
+<lb/>middel, &dash; det eneste, som kunde hjælpe mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Og nu kommer du altså til mig igen E?</p></HIS:hisSp>
+<HIS:hisAdd place="margin"><note resp="editor">tilføyelsen står i venstre marg</note>
+<lb/><p><ptr type="refMark" target="nb4" xml:id="n4"/>kære</p></HIS:hisAdd><HIS:hisSp who="ELLIDA"><p>Ja,<HIS:hisRef type="refMark" target="n4" xml:id="nb4">&referenceMark;</HIS:hisRef> W. &dash; nu kommer jeg til dig igen. Nu kan jeg det.
+<lb/>For nu kommer jeg til dig i frihed, &dash; frivillig &dash; og under
+<lb/>ansvar;</p></HIS:hisSp><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_187ms"/>
+<lb/><HIS:hisSp who="WANGEL"><p>E &dash; E, &dash; Å, at tænke sig til at nu kan vi to få leve
+<lb/>for hinanden <HIS:hisDel rend="overwritten">!</HIS:hisDel>&dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>&dash; og for vore livsm<unclear reason="writing">inder</unclear>. Dine &dash; så vel som mine.</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">348</hi></note><HIS:hisSp who="WANGEL"><p>Ja, ikke sandt, du kære!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>&dash; og for vore to børn, W.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Vore kalder du dem!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Dem, som jeg ikke ejer, &dash; men som jeg s<HIS:hisDel rend="overstrike">kal</HIS:hisDel> nok
+<lb/>skal vinde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Vore &dash;! (. kysser glad og ilsomt hendes hænder)
+<lb/>Å, usigelig tak for det ord!</p></HIS:hisSp>
+<lb/><HIS:hisStage>Ar, <HIS:hisDel rend="overwritten">A</HIS:hisDel>B. L. H og B. kommer fra venstre ind
+<lb/>i Haven. Samtidig mange af byens folk og sommergæster
+<lb/>udenfor på fodstien.)</HIS:hisStage><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_188ms"/>
+<lb/><HIS:hisSp who="HILDE"><p>Nej se hvor rent forlovet hun og far ser ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BALLESTED"><p>Det er sommertid, lille frøken.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><HIS:spOpener><speaker>Ar.</speaker></HIS:spOpener> <p>Nu sejler Engelskmanden</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><HIS:spOpener><speaker>B.</speaker></HIS:spOpener> <p>Herfra kan vi <HIS:hisDel rend="overstrike">se</HIS:hisDel> bedst sé ham.</p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">349</hi></note><HIS:hisSp who="BALLESTED"><p>Snart er alle sind lukket, som digteren siger.
+<lb/>Det er trist, fru W. Og <HIS:hisDel rend="overstrike">s<gap/></HIS:hisDel> nu mister vi jo Dem også,
+<lb/><HIS:hisDel rend="overstrike">kører</HIS:hisDel> <HIS:hisDel rend="overstrike">hører jeg</HIS:hisDel>. De skal jo flytte ud til Sk. hører jeg</p></HIS:hisSp>
+<pb ed="source" type="folio_nopagination" subtype="verso" n="15" facs="28"/>
+<lb/><HIS:hisSp who="WANGEL"><p>Nej, der blir ikke noget af det. Vi har bestemt os om
+<lb/>igen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><HIS:spOpener><speaker>A.</speaker></HIS:spOpener> <p>Ah, virkelig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BOLETTE"><HIS:spOpener><speaker>B.</speaker></HIS:spOpener> <p>Far &dash; er det sandt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HILDE"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener> <HIS:hisStage>(hen imod E)</HIS:hisStage> <p>Blir du her hos os!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Ja, kære H, &dash; ifald du vil ha&rapo; mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HILDE"><HIS:spOpener><speaker>H.</speaker></HIS:spOpener> <p>Åh &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNHOLM"><HIS:spOpener><speaker>Ar.</speaker></HIS:spOpener> <p>Men dette her k<unclear reason="writing">ommer</unclear> mig virkelig over<gap reason="writing"/><unclear reason="writing">ende</unclear>. <HIS:hisDel rend="overstrike">h<gap reason="writing"/></HIS:hisDel></p></HIS:hisSp>
+<lb/><note resp="h2" place="margin-left"><hi rend="underlined">350</hi></note><HIS:hisSp who="ELLIDA"><p>Nå ser De, herr A, &dash; Som vi talte om igår, &dash; er <HIS:hisDel rend="overstrike">vi</HIS:hisDel> jeg
+<lb/><HIS:hisDel rend="overstrike"><unclear>mennesker</unclear></HIS:hisDel> nu engang blet en fastlandsskabning, så
+<lb/>finder jeg <HIS:hisDel rend="overstrike">at</HIS:hisDel> ikke vejen tilbage igen &dash; til havet. Og til
+<lb/>havlivet.</p></HIS:hisSp><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="FH_189ms"/>
+<lb/><HIS:hisSp who="BALLESTED"><HIS:spOpener><speaker>Bl</speaker></HIS:spOpener> <p>Men det er jo akkurat som med min havfrue.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Omtrent ja.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BALLESTED"><p>Bare <HIS:hisAdd place="offline">med</HIS:hisAdd> den forskel at hun dø<HIS:hisDel rend="overwritten">er</HIS:hisDel>r af det. Menneskene
+<lb/>derimod, &dash; de kan aklam &dash; aklim<HIS:hisDel rend="overwritten">g</HIS:hisDel>atisere sig. Jo, jeg for&typHyp;
+<lb/>sikk<unclear reason="writing">rer</unclear> Dem, fru W., &dash; de <emph>kan</emph> a-kli-matisere sig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Ja, i frihed kan de det, herr B.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="WANGEL"><p>Og under ansvar, kære E.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ELLIDA"><p>Netop <emph>det</emph> er det</p></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

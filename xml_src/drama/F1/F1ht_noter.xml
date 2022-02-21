@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="F1">Fru Inger til Østeraad</title>
+<title>F1: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt>
+<resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>01.10.12</date><name>SBT</name><title>HISe/TEI P5</title>Fila er kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteF1_1"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_1">ud</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> nd <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_2"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_2">Liv!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Liv? <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_3"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_3">Baggrunden;</HIS:hisRef>] <hi rend="italic">TarkUiB NT280,</hi> Baggrunden <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_4"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_4">til</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> ttl <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_5"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_5">betænkt</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> betæukt <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_6"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_6">godnat</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Godnat <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_7"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_7">Gyldenløve?</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Gyldenløve. <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_8"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_8">Sorg</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> So g <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_9"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_9">Varme</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> Harme</note>
+<note resp="editor" xml:id="noteF1_10"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_10">alene</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> aleue <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_11"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_11">Bryst!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, 2. utg.,</hi> Bryst <hi rend="italic">1. utg.,</hi> Bryst. <hi rend="italic">TarkUiB NT280r</hi>
+</note>
+<note resp="editor" xml:id="noteF1_12"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_12">de plyndret</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> dete plyndr <hi rend="italic">1. utg.,</hi> det plyndre <hi rend="italic">2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_13"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_13">jeg</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> ieg <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_14"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_14">vil</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> ril <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_15"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_15">længer?</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> længer. <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_16"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_16">Jæmtelandsfjeldene</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, 2. utg.,</hi> Jæmtetandsfjeldene <hi rend="italic">1. utg.,</hi> Jemtelandsfjeldene <hi rend="italic">TarkUiB NT280r</hi>
+</note>
+<note resp="editor" xml:id="noteF1_17"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_17">Jagt</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Ja <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_18"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_18">er</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> ere <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_19"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_19">Derinde</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Deriude <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_20"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_20">snart</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> suart <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_21"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_21">om det</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> om det det <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_22"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_22">har</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> hae <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_23"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_23">man</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> mau <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_24"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_24">findes</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> fiudes <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_25"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_25">Inger</HIS:hisRef>] <hi rend="italic">TarkUiB NT280,</hi> Iuger <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_26"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_26">Helvede</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Helede <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_27"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_27">rundtomkring</HIS:hisRef>] <hi rend="italic">TarkUiB NT280,</hi> rundtomkriug <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_28"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_28">gammeldags</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, 2. utg.,</hi> gammeltdags <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_29"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_29">forfølger</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> forføkger <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_30"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_30">koldt</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> koldl <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_31"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_31">jeg</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Jeg <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_32"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_32">Intet! &dash;</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Iutet! &dash; <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_33"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_33">Salen;</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, 2. utg.,</hi> Salen: <hi rend="italic">1. utg.,</hi> Salen, <hi rend="italic">TarkUiB NT280r</hi>
+</note>
+<note resp="editor" xml:id="noteF1_34"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_34">muligt</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> mnligt <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_35"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_35">Baggrunden</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Bagdøren <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_36"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_36">tilsengs</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> tilsegns <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_37"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_37">Men</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> M n <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_38"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_38">andre</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> aadre <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_39"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_39">leer I,</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> leer, I <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_40"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_40">Jer</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> jer <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_41"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_41">der!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> der? <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_42"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_42">Sandhed!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Sandhed? <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_43"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_43">Netop!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Netop? <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_44"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_44">til</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> t l <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_45"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_45">Ridderen</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> R dderen <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_46"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_46">vil</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> v l <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_47"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_47">skulde min</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> skulde miu <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_48"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_48">han</HIS:hisRef>] <hi rend="italic">TarkUiB NT280,</hi> hau <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_49"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_49">desuagtet</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> desnagtet <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_50"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_50">Striden</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Strideu <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_51"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_51">hans</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Eders <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_52"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_52">Inger</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, 2. utg.,</hi> Iuger <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_53"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_53">Nu</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Nn <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_54"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_54">Scene</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Seene <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_55"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_55">Niels</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Ntels <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_56"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_56">Bjørn</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Bjøru <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_57"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_57">Scene</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Seene <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_58"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_58">Graven!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Graven? <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_59"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_59">fortvivlet</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> forrvivlet <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_60"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_60">Landeveien</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Landeveiene <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_61"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_61">begynde; nu</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> begynde; nn <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_62"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_62">Flygtet!</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> Flygtet? <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_63"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_63">min</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> miu <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_64"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_64">Sture</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Stnre <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_65"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_65">standser</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> standeer <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_66"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_66">Knut</HIS:hisRef>] <hi rend="italic">HIS,</hi> Knnt <hi rend="italic">1.&dash;2. utg.,</hi> Knud <hi rend="italic">TarkUiB NT280, TarkUiB NT280r</hi>
+</note>
+<note resp="editor" xml:id="noteF1_67"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_67">en</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> eu <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_68"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_68">medens</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r, 2. utg.,</hi> medeus <hi rend="italic">1. utg.</hi>
+</note>
+<note resp="editor" xml:id="noteF1_69"><HIS:hisRef type="tcNote" target="F1ht.xml" corresp="noteF1_69">Inger</HIS:hisRef>] <hi rend="italic">TarkUiB NT280, TarkUiB NT280r,</hi> Iuger <hi rend="italic">1.&dash;2. utg.</hi>
+</note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

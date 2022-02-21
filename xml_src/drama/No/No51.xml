@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Norma</title>
+<title level="a" type="sub">grunntekst, 1. utg. (føljetong)</title>
+<title level="a" type="origYear">1851</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Hallvard Ystad, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Koding og kollasjonering</resp>
+<name>Espen S. Ore</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer, april/mai 2004</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="No51-1212"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på norma.txt (Bergensmaterialet).</p>
+<p>
+<biblStruct xml:id="No51">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Norma</title>
+<title type="sub">eller en Politikers Kjærlighed, Musik-Tragedie i tre Akter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Universitetsbiblioteket i Oslo</idno>
+<idno xml:id="No51f1">NA/A b 65/si</idno>
+<idno type="owner">Universitetsbiblioteket i Oslo</idno>
+<idno xml:id="No51f2">Schw 19</idno>
+<idno type="owner">Bergen offentlige bibliotek</idno>
+<idno xml:id="No51f3">h 050 A552</idno>
+<imprint>
+<pubPlace>Kristiania</pubPlace>
+<publisher>N. F. Axelsen</publisher>
+<HIS:printer>A. Th. Nissens Bogtrykkeri</HIS:printer>
+</imprint>
+<imprint>
+<biblScope unit="issue">2. kvartal, nr. 9</biblScope>
+<date when="1851-06-01">1. juni 1851</date>
+</imprint>
+</monogr>
+<series>
+<editor>Henrik Ibsen, Paul Botten-Hansen, Aasmund Olavsson Vinje</editor>
+<title level="s">Andhrimner</title>
+</series>
+<monogr>
+<title level="s">Andhrimner</title>
+<title level="a">Norma, [2. og 3. akt]</title>
+<imprint>
+<biblScope unit="issue">2. kvartal, nr. 10</biblScope>
+<date when="1851-06-08">8. juni 1851</date>
+</imprint>
+</monogr>
+</biblStruct>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-trykk;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Førstetrykket i Andhrimner, No:</head>
+<item><list>
+<item>Gennemgående versal og minuskler. (Punktmålingen er udført så versal eller "høj minuskel" (f.eks. l, k, f) er målt hvor de fandtes i tekststrengen).</item>
+<item><list>
+<head>Titteltekst (Tittelblad):</head>
+<item>Hovedtittel: (Norma): midtstilt, fet, sperret stor font. 12 pkt.</item>
+<item>Undertittel 1: (eller): midtstilt. 7 pkt.</item>
+<item>Undertittel 2: (en Politikers Kjærlighed,): midtstilt, sperret, stor font, 11 pkt.</item>
+<item>Undertittel 3: (Musik-Tragedie): midtstilt, 10 pkt.</item>
+<item>Undertittel 4: (i): midtstilt. 8 pkt (kun minuskel!).</item>
+<item>Undertittel 5: (tre Akter.): midtstilt, fet, 7 pkt</item>
+</list></item>
+<item><list>
+<head>Fortale:</head>
+<item>Overskrift: midtstilt, halvfet, sperret, 12 pkt.</item>
+<item>Avsnitt: blokkjustert.</item>
+<item>Utheving: sperret.</item>
+</list></item>
+<item><list>
+<head>Rolleliste:</head>
+<item>Opstillet i tre kolonner: rollenavn med beskrivelse, "(udføres af)" som i alle på nær den første linie er erstattet med en skillestrek (3 mm), rolleinnehaver.</item>
+<item>Overskrift: midtstilt, sperret. 10 pkt.</item>
+<item>Rollenavn: 10 pkt, venstrestilt, fet. ("Chor af Druider" og "Do. af Druidinder" er ikke markeret).</item>
+<item>Rollebeskrivelse: på samme linie som rollenavn bare adskilt med komma, hvis beskrivelsen er længere end linien i første kolonne er der linieskift og denne linie er indrykket i forhold til rollenavn (11 mm).</item>
+<item>Rolleinnehaver: vanlig font.</item>
+<item>Ekstra: "(udføres af)" er skrevet i petit (7 pkt); noten i første kolonne er i petit (7 pkt), i parentes og første linie har samme venstremargin som rollenavnene, mens de andre linier er indrykket 2 mm.</item>
+</list></item>
+<item><list>
+<head>Føljetong:</head>
+<item>Forts 1: Til sidst i første nummer: (Forts.): På egen linie, højrestilt (men ikke helt ud til margin). 10 pkt</item>
+<item>Forts 2: Efter tittelteksten i andet nummer: (Slutning fra..): midtstilt, petit. 7 pkt</item>
+</list></item>
+<item><list>
+<head>Akt:</head>
+<item>Overskrift: midtstilt, fet, "høj font" (anden font end i sceneoverskrifter), 12 pkt.</item>
+<item>Sceneanvisning: med eller uden parentes (ved første akt er den uden par. og med indryk, ved anden og tredje akt er den med par. og med midtstilling)</item>
+</list></item>
+<item><list>
+<head>Scene:</head>
+<item>Overskrift: midtstilt, fet, (anden font end i aktoverskrifter), 10 pkt.</item>
+<item>Sceneanvisning: (meget rodet!): med eller uden parentes, midtstilt eller andre marginindstillinger, vanlig font (men et eksempel med petit (7 pkt) og et med sperret skrift)</item>
+<item>Rollenavn: midtstilt, sperret.</item>
+<item>Ekstra: I tredje akt taler to med rollenavnene: "en anden" og "en tredie". I No51 er typografien "En Anden", men i NoHU er det "En anden" (dog med kapiteler).</item>
+<item>Avsnitt/replikk: varierende margin i de forskellige tekstdele.</item>
+<item>Verslinjer: markeret med anden margin end det omkringstående.</item>
+<item>Latin-sitat i antikva.</item>
+<item>Utheving i sceneanvisning: sperret.</item>
+<item>Note: petit (7 pkt), mindre linieavstand, blokkjustert. markeret med "*)" i både teksten og ved noten nederst.</item>
+</list></item>
+<item><list>
+<head>Generelle elementer (systembeskrivelse):</head>
+<item>Brødtekst: 10 pkt.</item>
+<item><list>
+<head>Skillestreker:</head>
+<item>1: Efter tittelteksten: 13 mm enkelstrek, midtstilt. 1 pt</item>
+<item>2: Før og efter personlisten, og mellem 2. og 3. akt: 16 mm enkelstrek, midtstilt. 0,9 pt</item>
+<item>3: Som gentagelsestegn i personlistens midterste kolonne: 3 mm enkelstrek, midtstilt. 1 pt</item>
+</list></item>
+<item><list>
+<head>Pyntestreker: (Hører nok snarere med til Andhrimners typografi.)</head>
+<item>1: Rundt om første føljetongtekst og før anden føljetongtekst: 15 mm, med 5 små cirkler, midtstilt.</item>
+<item>2: Efter sidste føljetongtekst: 32 mm, med 13 små cirkler, midtstilt.</item>
+</list></item>
+<item>Bindestreker: 1 mm, dobbeltstrek, skrå (op mod højre).</item>
+<item>Tankestreker: 3 mm. 0,9 pt</item>
+<item>Anførselstegn: Venstre: 2 skrå streker nede (op mod højre); Højre: 2 skrå streker oppe (op mod højre).</item>
+<item>Tall: tabelltall.</item>
+<item>Sceneanvisningene er svært inkonsekvent oppstilt, noen ganger midtstilt, andre ganger høyrestilt eller fortløpende plassert i teksten.</item>
+</list></item>
+</list></item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem id=""</headLabel><headItem>castList/speaker/stageRole</headItem>
+<label>NORMA</label><item>Norma</item>
+<label>ADALGISA</label><item>Adalgisa</item>
+<label>SEVERUS</label><item>Severus</item>
+<label>ARIOVIST</label><item>Ariovist</item>
+<label>DRUIDER</label><item>Chor af Druider/Chor af Druider (og Druidinder), Druiderne, En søvndrukken Druide, En vaagen Druide, Første, En Anden, En Tredie/Druider</item>
+<label>DRUIDINDER</label><item>Do. af Druidinder/Chor af (Druider og) Druidinder/Druidinder</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd I) kodet med pb ed="HU". Dette tekstvitnet dekker sidene 325-340. Det første sidetallet er oppgitt i et n-attributt.</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+<language ident="lat"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>19.12.12</date><name>SBT</name><title>HISe/TEI P5</title>
+Har gjort manuelle endringer etter skripting. Er nå valid TEI P5 for HISe.</change>
+<change><date>08.11.07</date>
+<name>HB</name><title>Attributtverdier i ref</title>
+Reviderte attributtverdier i ref og tilhørende note.</change>
+<change><date>30.10.07</date>
+<name>HB</name><title>Koding</title>
+La til type="refMark" i ref for noten. Øvrige ref skal ha annen type-verdi, kommer tilbake til det når den er vedtatt.</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Fjernet performance og flyttet head inn i castList</title></change>
+<change><date>25.05.07</date>
+<name>HB</name><title>endret author til narrator i resp i note</title>
+I tråd med vedtak pr epost 07.03.07 endret jeg attributtverdien author til narrator i resp-attributtet i note.</change>
+<change><date>08.06.06</date>
+<name>HMS</name><title>Ny ID forts.</title>
+Endret ID på Nof1, Nof2 og Nof3 til No51f1, No51f2, No51f3.</change>
+<change><date>22.05.06</date>
+<name>ENW</name><title>Ny ID</title>
+Endret førstetrykkets ID fra No til No51 (endring som må gjøres i forbindelse med e-utgaven.)</change>
+<change><date>18.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc og entiteten i projectDesc. Validert</change>
+<change><date>15.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. bibl ble oppdatert så den er kodet som eksemplet i kodepraksis - som nettopp er No! Fjernet rs-kodingen. Validert</change>
+<change><date>19.08.04</date>
+<name>MW</name><title>Oppdatering av koding</title>
+Rollelistekoding: Fjernet type=list i castItem ved 'Normas og Severs svindsottige Sønner'. Fjernet roleDesc ved innførsler uten role (sønnene, druider, druidinder). Validert</change>
+<change><date>12.05.04</date>
+<name>MW</name><title>Oppdatering av koding</title>
+Flyttet punktum fra stage til spOpener</change>
+<change><date>07.05.04</date>
+<name>MW</name><title>Oppdatering av teiHeader</title>
+La til felt om tekstvitnetype i titleStmt. TeiHeader rettet mot Saht</change>
+<change><date>30.04.04</date>
+<name>MW</name><title>Oppdatering av teiHeader samt navn-, steds- og institusjonskoding</title>
+TeiHeader er oppdatert. Kodet navn, steder og institusjon i fortalen. Validert vha oxygen (nsgmls validerer ikke de ny entiteter for standardtekster i teiHeader)</change>
+<change><date>31.10.03</date>
+<name>IAA</name><title>Retting</title>
+Rettet en feil: skov, kolonne 158, feil for Skov. Validering og kodekontroll: fjernet p i første stage; endret koding med hi i stage til stage med rend-attributt; la til tagUsage-punkt om HU-sideskift; fjernet docImprint; la til rend-attributt i hi for å skille sperret fra fet skrift (jf. rollelista); har ikke gjort noe med typografibeskrivelsen.</change>
+<change><date>23.10.03</date>
+<name>IAA</name><title>Kollasjonering og koding etter filsplitting</title>
+Oppdaterte teiheader. Kollasjonerte mot faksimileutgaven (anbefaler filologene å bruke de digitale faksimilene i cd-safen, med bilder av originalen i høy oppløsning). Fjernet ed-attributt i cb-kodingen. Rettet fem feil (!) i transkripsjonen av teksten og satte inn manglende linjeskiftskode to steder (bl.a. før forfatternote i kolonne 141 og før figure type="bar"). Fjernet pb-koding fra steder der det ikke er sideskift, bare kolonneskift. Lar hi-kodingen stå uforandret selv om jeg iblant stusser over den. Fjernet note fra "Tæppets replikk" (gjaldt hvorvidt den skulle kodes som replikk). Validerte mot ny dtd.</change>
+<change><date>30.09.03</date>
+<name>MS</name><title>Kodeoppdateringer</title>
+Etter at flertekstfilene har blitt splittet har jeg her opprettet grunnteksten. Jeg har validert filen og ryddet i filen. Det vil si at jeg har rettet opp i side- og linjeskift, fjernet overflødige mellomrom og sørget for at HU's sideskift står på riktig sted.</change>
+<change><date>26.02.02</date>
+<name>IAA</name><title>Omkoding</title>
+Etter høringsrunde på ibsenkod-lista har jeg kodet leddene "(Forts.)" og "(Slutning fra forrige Numer.)" i div type=ref. Valideringsproblemet med shy er løst med ny dtd. Filen er valid.</change>
+<change><date>20.02.02</date>
+<name>IAA</name><title>Oppdatering</title>
+Oppdatert teiheader. Byttet ut nummererte div'er med unummererte. Tatt interpunksjon ut av role og stageRole. Fjernet lg-koding og l-attributtene rhyme="P K T O" osv. Rettet en feil i rollelistekodinga (komma etter "Severs" bare i førstetrykket). Tatt vekk attributtet type="hyphen" til lb. Byttet page med column som type-attributt til fw. Endret koding av første spalte etter forespørsel på ibsenkod-lista: tatt vekk fw-koding før front og før titteloppsettet. Filen blir ikke validert pga. plassering av shy og note. Nødvendig med dtd-endringer?</change>
+<change><date>10.08.01</date>
+<name>SBT</name><title>Oppdatering</title>
+Sjekket plassering av 'stage' i forhold til 'p'/'lg'/'sp'. Fjernet 'foreign' rundt utenlandske uttrykk som ikke er typografisk markert. Fjernet verksforkortelse i id-attributtene til rollenavnene. Oppdaterte teiHeaderen. Teksten er validert og brent på cd.</change>
+<change><date>16.10.00</date>
+<name>KJS</name><title>XML-konvertering</title>
+Konverterte teksten til xml.</change>
+<change><date>12.05.00</date>
+<name>KJS</name><title>Retting</title>
+Rettet opp feil i teksten: "Fødselsen" til "Fødselen".</change>
+<change><date>15.03.00</date>
+<name>KJS</name><title>oppdatering og arkivering</title>
+Endret følgende ting: DTD-pekeren (peker til flertekstvarianten av ibsen-dtd-en), notekodingen (lenker + faktisk plassering) og figure-kodingen (fjernet figdesc for type="bar"). "Tæppets replikk" er omkodet som sceneanvisning, men med note, slik at den vises som i den trykte teksten. Validert på nytt og flyttet over i FerdigeTekster-mappa, sammen med dtd-en.</change>
+<change><date>18.01.00</date>
+<name>HY</name><title>CD-brenning/arkivering</title>
+Brente inn denne filen på en CD som legges i John Gabriel, og slettet hele revisionDesc-taggen (bortsett fra denne innførselen).</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="printed" xml:lang="dan-nob">
+<group>
+<join targets="No1851-9 No1851-10"/>
+<text xml:id="No1851-9" n="1">
+<pb/><pb ed="HU" n="325"/>
+<cb n="137"/>
+<front>
+<titlePage type="serial">
+<docTitle>
+<lb/><titlePart type="main">Norma</titlePart>
+<lb/><titlePart type="sub">eller
+<lb/>en Politikers Kjærlighed,</titlePart>
+<lb/><titlePart type="desc">Musik-Tragedie
+<lb/>i
+<lb/>tre Akter.</titlePart>
+</docTitle>
+<lb/><figure type="bar"/>
+</titlePage>
+<pb ed="HU"/>
+<pb ed="HU"/>
+<div type="preface">
+<lb/><head>Fortale.</head>
+<lb/><p>Forleden Dag befandt jeg mig paa Storthings&typHyp;
+<cb n="138"/>
+<lb/><fw type="column" place="top">138</fw>
+<lb/>galleriet; den Sag, der diskutteredes, var af samme
+<lb/>Natur som de fleste, og jeg kan derfor ikke læn&typHyp;
+<lb/>gere erindre, hvorom den dreiede sig. Da Schydtz
+<lb/>tilfældigviis talede og jeg saaledes ikke havde No&typHyp;
+<lb/>get at fæste min Opmærksomhed til, lod jeg Phan&typHyp;
+<lb/>tasien frit Spillerum, og overgav mig til denne
+<lb/>behagelige Svævenom halvt paa Virkelighedens, halvt
+<lb/>paa Uvirkelighedens Gebet, hvortil vi i ledige Ti&typHyp;
+<lb/>mer saa gjerne overlade os, naar Sjælen enten fø&typHyp;
+<lb/>ler sig trættet eller den Yderverden, der omgiver os,
+<lb/>fremkalder det tilbørlige søvndyssende Indtryk. Jeg
+<lb/>tænkte som saa: I disse 106 Hoveder dels med,
+<lb/>dels uden Parykker findes Kvintessentsen af al
+<lb/>den Fortrinlighed, af al den aandelige Begavelse,
+<lb/>som gamle Norge har at opvise ligefra Nordkap
+<lb/>til Lindesnæs, ligefra Svinesund til Stavanger
+<lb/>(hvorfra Natvig jo er valgt). Her findes Genia&typHyp;
+<lb/>liteten, Veltalenheden, Patriotismen, Liberaliteten
+<lb/>sammendynget i kompakte Masser. Og af alle disse
+<lb/>fortrinlige Egenskaber have selv de sjeldneste Fore&typHyp;
+<lb/>komstformer deres Repræsentanter, saaledes <sic>repræ&typHyp;
+<lb/>senterers</sic> f. Ex. en vis Nuance af Genialiteten ved
+<lb/><hi rend="spaced">Skjerkholdt</hi>, en vis dito af Veltalenheden ved
+<lb/><hi rend="spaced">Parneman</hi>, o. s. v., o. s. v. Den lyriske Be&typHyp;
+<lb/>gavelse finder naturligviis sit Udtryk gjennem Natvig,
+<lb/>der saaledes paa en vis Maade danner Formidlings&typHyp;
+<lb/>ledet mellem Poesien og Politiken.</p>
+<lb/><p>I denne Retning fortsatte jeg mine Betragt&typHyp;
+<lb/>ninger i<pb ed="HU"/> nogle Timer, indtil <hi rend="spaced">Schydtz</hi> blev færdig og
+<lb/>min uforstyrrede Tankeflugt saaledes afbrødes.</p>
+<lb/><p>Om Aftenen saa jeg &lquo;<hi rend="spaced">Norma</hi>&rquo;, og pludse&typHyp;
+<lb/>lig gik der et Lys op for mig: &lquo;Storthinget er
+<lb/>en dramatisk begavet Korporation!&rquo; Jeg vil ikke
+<lb/>søge at gjøre hverken mig selv eller Læseren Rede
+<lb/>for den Slutningsrække, der ledede mig til dette
+<lb/>Resultat, thi hvo kjender vel ikke Tonernes Magt,
+<lb/>hvo veed vel ikke, at det er Musiken givet med A&typHyp;
+<lb/>lexandersværdet at overhugge Tanketraadens gordiske
+<lb/>Knuder, med Lynfart at skyde os fremad paa den
+<lb/>logiske Spiralvandring og stille os paa et Punkt,
+<lb/>som vi mindst havde ventet? Men jo nøiere jeg
+<lb/>betragtede Sagen, desto klarere og mere indlysende
+<lb/>blev den mig. Holmboe er den agtværdige Fader
+<lb/>i Skuespillet, Motzfeldt, Lange og Harris den gamle
+<lb/>vrantne Onkel, som har tabt Følelsen for Livets
+<lb/>Poesi, men som dog er god at have i Baghaanden,
+<lb/>hvormeget hans prosaiske Verdensviisdom end op&typHyp;
+<lb/>træder fientlig mod de unge Elskendes phantastiske
+<lb/>Planer og Luftkasteller. Oppositionen overhovedet
+<lb/>er Koketten, som enhver ung Fusentast gjerne courer
+<pb/>
+<cb n="139"/>
+<lb/><fw type="column" place="top">139</fw>
+<lb/>for men som han dog sædvanligviis til Slutning
+<lb/>betænker sig paa at tage til Kone (især da hendes
+<lb/>Medbeilerinde gjerne bringer ham en klækkeligere
+<lb/>Medgift). Stabell er naturligviis Intriguestykkets
+<lb/>Helt, han er en af disse ægte dramatiske Charakterer,
+<lb/>som Heiberg omtaler, &lquo;som man mere maa gjætte
+<lb/>sig til end anskue og som omsider ved Stykkets
+<lb/>Slutning standse der, hvor man af Begyndelsen
+<lb/>at dømme mindst skulde vente det.&rquo;</p>
+<lb/><p>Disse Betragtninger var det, som bevægede
+<lb/>mig til at arrangere Operaen &lquo;<hi rend="spaced">Norma eller en
+<lb/>Politikers Kjærlighed</hi>,&rquo; hvis Text medfølger
+<lb/>aftrykt, og som jeg herved tilbyder Thinget til Op&typHyp;
+<lb/>førelse ved en eller anden festlig Leilighed. Mu&typHyp;
+<lb/>siken maa det selv sørge for, og da det<pb ed="HU"/> jo eier
+<lb/>Virtuoser paa alle mulige Instrumenter ligefra
+<lb/>Trompet til Tromme og Basun, saa vil dette for&typHyp;
+<lb/>haabentlig ikke falde vanskeligt. Rigtignok veed jeg,
+<lb/>at Thinget &lquo;<hi rend="spaced">indtil videre</hi>&rquo; har fuldt op at be&typHyp;
+<lb/>stille, men det var jo dog ikke umuligt, at hans
+<lb/>Majestæt kunde befrygte farlige Følger af disse
+<lb/>overvættes Anstrængelser, især i Hundedagene, og
+<lb/>dersom altsaa Thinget en skjøn Dag skulde blive
+<lb/>bevilget Ferie &lquo;<hi rend="spaced">indtil videre,</hi>&rquo; saa vilde det være
+<lb/>godt, om det havde en nyttig og behagelig Tids&typHyp;
+<lb/>fordriv at divertere sig med.</p>
+<lb/><figure type="bar"/>
+</div><pb ed="HU"/><pb ed="HU"/>
+<lb/><HIS:hisCastList><head>Personerne:</head>
+<lb/><castItem xml:id="NORMA"><role>Norma</role> (udføres af) <actor>Oppositionen</actor>.</castItem>
+<lb/><castItem xml:id="ADALGISA"><role>Adalgisa</role>, <roleDesc>hendes gode
+<lb/>Veninde</roleDesc> &dash; <actor>Regjeringspartiet</actor>.</castItem>
+<lb/><castItem xml:id="SEVERUS"><role>Severus</role>, <roleDesc>begge Da&typHyp;
+<lb/>mers Elsker</roleDesc> &dash; <actor>en &lquo;Liberal&rquo; (eller
+<lb/>i Mangel deraf: Hr.
+<lb/>Stabell)</actor>.</castItem>
+<lb/><castItem xml:id="ARIOVIST"><role>Ariovist</role>, <roleDesc>Normas Fa&typHyp;
+<lb/>der, en gammel
+<lb/>Druide</roleDesc> &dash; <actor>Hr. Ueland</actor>.
+<lb/><note resp="narrator" place="inline">(NB. Druiderne vare hedenske
+<lb/>Hunde, der ligesom Uglerne og
+<lb/>Flaggermusene helst dreve deres
+<lb/>Spil i mørke Skove, hvor Op&typHyp;
+<lb/>lysningen (fra Sol og Maane)
+<lb/>vanskelig kunde trænge ind).</note></castItem>
+<lb/><castItem><hi rend="bold">Normas</hi> og <hi rend="bold">Severs</hi><sic>,</sic> to
+<lb/>svindsottige Søn&typHyp;
+<lb/>ner &dash; <actor>Addressen af 1848</actor>.
+<lb/><actor>Do. af 1851</actor>.</castItem>
+<lb/><castItem xml:id="DRUIDER">Chor af Druider &dash; <actor>Fornuftige Oppo&typHyp;
+<lb/>sitionsmænd samt
+<lb/>Skjerkholdt</actor>.</castItem>
+<lb/><castItem xml:id="DRUIDINDER">Do. af Druidinder &dash; <actor>de Stumme i Thin&typHyp;
+<lb/>get</actor>.</castItem>
+</HIS:hisCastList>
+<lb/><figure type="bar"/>
+</front>
+<cb n="140"/><pb ed="HU"/><pb ed="HU"/>
+<lb/><fw type="column" place="top">140</fw>
+<body>
+<div type="act" n="1">
+<lb/><head>Første Akt.</head>
+<lb/><HIS:hisStage>En tyk Skov med tilbørligt Halvmørke, i Baggrun&typHyp;
+<lb/>den &lquo;norske Klipper&rquo;; Blaaveis og Frihedskokarder blomstre
+<lb/>i Granernes Ly. Midt paa Scenen en hellig Afguds&typHyp;
+<lb/>steen, hvori &lquo;Frihedsværket&rquo; er indfattet i Glas og Ramme.</HIS:hisStage>
+<div type="scene" n="1">
+<lb/><head>Første Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ARIOVIST">Ariovist</HIS:stageRole>, <HIS:stageRole who="DRUIDER">Druider</HIS:stageRole> og <HIS:stageRole who="DRUIDINDER">Druidinder</HIS:stageRole> komme
+<lb/>med Trompeterne i Spidsen.</HIS:hisStage>
+<lb/><HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>Ariovist</speaker>.</HIS:spOpener>
+<lb/><l>Her staae vi paa Frihedens frieste Jord,</l>
+<lb/><l>I det gamle, ja, i det ældgamle Nor!</l>
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage>
+<lb/><p>Ja, for Norge er Død og Pine et ældgammelt Land.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER DRUIDINDER"><HIS:spOpener><speaker>Chor af Druider og Druidinder</speaker>.</HIS:spOpener>
+<lb/><l>Ja, ja, ja, ja!</l>
+<lb/><l>Ja, ja, ja, ja!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener>
+<lb/><l>Ja i det gamle, det ældgamle Nor!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>Ariovist</speaker>.</HIS:spOpener>
+<lb/><l>Saa stærk som Egens kneisende Stamme</l>
+<lb/><l>Staar &lquo;Frihedsværket&rquo;<note type="typo">Skadet anførselstegn.</note> i Glas og Ramme! &dash;</l>
+<lb/><l>Det staar der saa fast i Stenen indfattet,</l>
+<lb/><l>(Desværre det bliver ei tilfulde skattet) &dash; &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>Chor af Druider</speaker>.</HIS:spOpener>
+<lb/><l>Desværre, det blier ei tilfulde skattet!</l>
+<lb/><l>Desværre, desværre, desværre, desværre!!!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>Ariovist</speaker>.</HIS:spOpener>
+<lb/><l>Men vi maae vaage, og vi maae bede,</l>
+<lb/><l>Og om vor Helligdom maae vi frede;</l>
+<lb/><l>For raa Barbarer vil rive den ned,</l>
+<lb/><l>Vil flytte den hen paa et andet Sted,</l>
+<lb/><l>Hvor Solen skinner den hele Dag,</l>
+<lb/><l>(Og Maanen til visse Tider om Natten)</l>
+<lb/><l>Og derfor er det en afgjort Sag</l><pb ed="HU"/>
+<lb/><l>At vi maae værne om Frihedsskatten!</l>
+<lb/><l>Ja, Noget maa gjøres, den Sag er klar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>Druiderne</speaker>.</HIS:spOpener>
+<lb/><l>Ja Noget maa gjøres, men hvad, o svar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>Ariovist</speaker>.</HIS:spOpener>
+<lb/><l>Ja, seer I, Børn! her just det gjælder,</l>
+<lb/><l>At handle ret efter Alles Sind!</l>
+<lb/><l>Jeg lagde dem helst i et dirkfrit Skrin</l>
+<lb/><l>Under Laas og Slaa i en sikker Kjælder,</l>
+<pb/>
+<cb n="141"/>
+<lb/><fw type="column" place="top">141</fw>
+<lb/><l>Saa kan man den finde, naar Verden forgaar,</l>
+<lb/><l>Saa fersk og ny som den var igaar,</l>
+<lb/><l>Thi Norges Fjelde, (det veed I alle),</l>
+<lb/><l>Vil staae, naar hele Verden mon falde,</l>
+<lb/><l>Men kom, lad os gaae en Smule til Siden,</l>
+<lb/><l>At hvile os ud, samle Kræfter til Striden;</l>
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage>
+<lb/><l>Det var desuden mit Princip alt fra jeg var liden,</l>
+<lb/><l>At holde mig en Hestelængde bagud for Tiden.<HIS:hisRef type="refMark" target="fn1" xml:id="fn1b">*)</HIS:hisRef></l></HIS:hisSp>
+<lb/><HIS:hisStage>(de gaae.)</HIS:hisStage>
+</div>
+<div type="scene" n="2">
+<lb/><head>Anden Scene.</head>
+<lb/><HIS:hisStage>Severus kommer ind i morgenbladsk deklamatorisk
+<lb/>Bevægelse.</HIS:hisStage>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>.</HIS:spOpener>
+<lb/><l>O skyggende Skov, du i dit Skjød</l>
+<lb/><l>Gjemmer vor Helligdom, Frihedsværket! &dash;</l>
+<lb/><HIS:hisStage>(seer sig om.)</HIS:hisStage>
+<lb/><p>For Fanden, de ere jo alt borte; saa kunde jeg have
+<lb/>sparet det hele Vrøvl.</p>
+<lb/><l>Tys, forsigtig maa man være,</l>
+<lb/><l>Det er min gamle gyldne Lære,</l>
+<lb/><l>O, vee, hvis Norma mig her skulde finde,</l>
+<lb/><l>Hvem veed hvad hun vel kunde faae i Sinde!</l>
+<lb/><l>Hun er en høist erritabel Kvinde,</l><pb ed="HU"/>
+<lb/><l>Og skjønt hun tit nok er vant til sligt,</l>
+<lb/><l>Hun holder dog strængt paa Moral og Pligt,</l>
+<lb/><l>Og derfor maa jeg, som nylig sagt,</l>
+<lb/><l><foreign xml:lang="lat">Politico modo</foreign> ta'e mig i Agt,</l>
+<lb/><l>Ofre tilbørligt paa hendes Alter,</l>
+<lb/><l>Røge med Virak i Bladets Spalter.</l>
+<lb/><l>Men hvem kommer der i den dunkle Skov?</l>
+<lb/><l>Adalgisa er det, mit Hjerte banker,</l>
+<lb/><l>Knapt raader jeg meer over mine Tanker,</l>
+<lb/><l>For lønlige Længsler er jeg et Rov!</l></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>Tredie Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="SEVERUS">Severus</HIS:stageRole>, <HIS:stageRole who="ADALGISA">Adalgisa</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker>.
+<lb/><HIS:hisStage rend="fontsize">(Recitativ.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Eftersom du, S. T. o Severus!</l>
+<lb/><l>Har her mig i Lunden et Stævne sat,</l>
+<lb/><note resp="narrator" place="bottom"><HIS:hisRef type="refMark" target="fn1b" xml:id="fn1">*)</HIS:hisRef> Man vil bemærke at de Vers, der fremsiges afsides, ere anderledes
+<lb/>byggede, end de, der maa høres af Alle og Enhver; dette er in&typHyp;
+<lb/>genlunde nogen Skjødesløshed, men med Forsæt iagttaget, da vel
+<lb/>underrettede Personer ville vide, at vore politiske Skuespillere endog
+<lb/>til Dagligbrug betjene sig af et særegent Versemaal, naar de
+<lb/>tale afsides.</note>
+<cb n="142"/>
+<lb/><fw type="column" place="top">142</fw>
+<lb/><l>Saa skulde jeg herved ikke undlade</l>
+<lb/><l>Tjenstligst at melde min Ankomst for dig!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>.</HIS:spOpener>
+<lb/><l>O, søde Stemme, o tryllende Ord! &dash;</l>
+<lb/><l>Saa hør da hvad i mit Hjerte boer!</l>
+<lb/><HIS:hisStage>(vil knæle, men betænker sig.)</HIS:hisStage>
+<lb/><p>Dog nei, unter uns gesagt, veed du virkelig ikke, hvad
+<lb/>jeg har paa Hjerte?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker>.</HIS:spOpener>
+<lb/><l>Som en ærbar og sædelig Mø</l>
+<lb/><l>Holder jeg strængt paa Form og Dekorum.</l>
+<lb/><l>Hjertet er ikke det rette Forum</l>
+<lb/><l part="I">Hos mig &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>.</HIS:spOpener>
+<lb/><l part="F">O vee mig, da maa jeg dø!</l>
+<lb/><l>Laer du ei Naade gaae for Ret,</l>
+<lb/><l>Da staar jeg der sandelig nok saa net,</l>
+<lb/><l>Jeg veed jo, at mine Synder er mange,</l>
+<lb/><l>(Thi Bladets Spalter er saare lange);</l>
+<lb/><l>Men den, som staar paa Omvendelsens Vei,</l>
+<lb/><l>Ham veed jeg vist du forstøder ei!</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker>.</HIS:spOpener>
+<lb/><l>Og hvor kan jeg vel paa din Ærlighed tro,</l>
+<lb/><l>Naar saadan paa engang du courer for To!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>.</HIS:spOpener>
+<lb/><l>Ha, Norma du mener, o tro ikke sligt!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker>.</HIS:spOpener>
+<lb/><l>Hun har jo dog været din Ungdoms Flamme.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>.</HIS:spOpener>
+<lb/><l>Det var hun, det maa jeg bekjende med Skamme,</l>
+<lb/><l>Nu er det forbi, det var kun et Digt,</l>
+<lb/><l>Det var kun en flygtig, poetisk Drøm,</l>
+<lb/><l>En bristende Boble paa Livets Strøm.</l>
+<lb/><l>Ja, jeg vil dig min Forvildelse male, &dash;</l>
+<lb/><l>Reent ud af Skjægget maa her jeg tale:</l>
+<lb/><l>Jeg hørte engang til de Radikale.</l>
+<lb/><l>(Som gaae under Navn af de Liberale),</l>
+<lb/><l>Som tale haanligt om gyldne Sale,</l>
+<lb/><l>Som skrue sig op med &lquo;Klipper&rquo; og &lquo;Dale,&rquo;</l>
+<lb/><l>Som fast germanisk forstaae at prale</l>
+<lb/><l>Med Norden, som vaagnede af sin Dvale,</l>
+<lb/><l>Og jubler omkap med Vaarens Svale</l>
+<lb/><l>Paa Frihedsdagen, &dash; kort, til de Gale!</l>
+<pb/>
+<cb n="143"/>
+<lb/><fw type="column" place="top">143</fw>
+<lb/><l>Men nu er jeg kjed af længer at ride</l>
+<lb/><l>Min gamle Kjæphest; for det Solide</l>
+<lb/><l>Jeg sværmer grundig; &dash; &dash; du mig forstaar!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker> <HIS:hisStage>(overvældet)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Kom til mit Bryst, du gjenfundne Faar!</l></HIS:hisSp>
+<lb/><HIS:hisStage>(Rørende Omfavnelse; Tæppet gaar for Velanstæn&typHyp;
+<lb/>dighedens Skyld ned.)</HIS:hisStage>
+</div>
+</div>
+</body>
+<back>
+<div type="ref">
+<lb/><p><HIS:hisRef target="No1851-10">(Forts.)</HIS:hisRef></p></div>
+</back>
+</text>
+<pb/>
+<cb n="156"/>
+<text xml:id="No1851-10" n="2">
+<front>
+<titlePage type="serial">
+<docTitle>
+<lb/><titlePart type="main">Norma</titlePart>
+<lb/><titlePart type="desc">eller
+<lb/>en Politikers Kjærlighed,</titlePart>
+<lb/><titlePart type="desc">Musik-Tragedie
+<lb/>i
+<lb/>tre Akter.</titlePart>
+<lb/><figure type="bar"/>
+</docTitle>
+</titlePage>
+<div type="ref">
+<lb/><p><HIS:hisRef target="No1851-9">(Slutning fra forrige <sic>Numer</sic>.)</HIS:hisRef></p></div>
+</front>
+<body>
+<div type="act" n="2"><pb ed="HU"/>
+<lb/><head>Anden Akt.</head>
+<lb/><HIS:hisStage>(Et Lønkammer, hvor man kan snakke sammen i
+<lb/>al Gemytlighed.)</HIS:hisStage>
+<div type="scene" n="1">
+<lb/><head>Første Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="NORMA">Norma</HIS:stageRole> kommer med sine <HIS:stageRole>to Børn</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>De skjælve, de vakle, de arme Smaa,</l>
+<lb/><l>Paa egne Been kan de neppe staae;</l>
+<lb/><l>Det er dog en sørgelig Ting at være</l>
+<lb/><l>Moder med en saa liden Ære.</l>
+<pb/>
+<cb n="157"/>
+<lb/><fw type="column" place="top">157</fw>
+<lb/><l>De haste jo alt fra Fødselen af</l>
+<lb/><l>Med Syvmiilsstøvler mod deres Grav;</l>
+<lb/><l>Severus er Skyld i den hele Sag,</l>
+<lb/><l>(Han kunde jo have faret i Mag),</l>
+<lb/><l>Sikkerlig havde jeg da været Moder</l>
+<lb/><l>Til tvende sunde og stærke Poder.</l></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>Anden Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>, <HIS:stageRole who="ADALGISA">Adalgisa</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker> <HIS:hisStage>(afsides)</HIS:hisStage>.</HIS:spOpener>
+<lb/><l>Der er hun; nu kan jeg tilgavns dog plage</l>
+<lb/><l>Den arme Taabe; hvor vil hun ei klage,</l>
+<lb/><l>Gebærde sig, tænker jeg, næsten som gal,</l>
+<lb/><l>Naar op jeg træder som hendes Rival?</l>
+<lb/><HIS:hisStage rend="spaced">(høit)</HIS:hisStage>
+<lb/><l>Ei er det dig, min bedste Veninde!</l>
+<lb/><l>Hvor herligt, at her jeg skulde dig finde,</l>
+<lb/><l>Og dine Smaa, de leve endnu!</l></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>De leve; ja vist, men det Liv er en Gru!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ADALGISA"><HIS:spOpener><speaker>Adalgisa</speaker>.</HIS:spOpener>
+<lb/><l>Ja det er høist beklageligt, Kjære,</l>
+<lb/><l>Men hvor kan det anderledes vel være,</l>
+<lb/><l>Severus spiller et fiffigt Spil,</l>
+<lb/><l>Han er dig utro, om saa du vil,</l>
+<lb/><l>Og kun hvor Troskab og Kjærlighed boer,</l>
+<lb/><l>Der voxer Afkommen stærk og stor.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>Hvad, utro? O nei kom ikke med Sligt,</l>
+<lb/><l>Det er kun Opspind, det er kun Digt;</l>
+<lb/><l>Han veed jo dog hvad der er hans Pligt &dash;</l>
+<lb/><l>Det har han ofte i Bladet sagt.</l>
+<lb/><HIS:hisStage>(betænker sig.)</HIS:hisStage>
+<lb/><l>Men Et har dog min Mistænksomhed vakt</l>
+<lb/><l>Han sniger sig om i Lunden herinde</l>
+<lb/><l>Hvem veed hvad han egentlig har i Sinde. &dash;</l></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>Tredie Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="SEVERUS">Severus</HIS:stageRole> (kommer uden
+<lb/>at bemærke Norma).</HIS:hisStage>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker> <HIS:hisStage>(omfavner Adalgisa.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Elskede! du paa disse Steder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>Forræder, Forræder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker> <HIS:hisStage>(forbløffet.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Ih, Gud bevare's, Madam! er de her!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>Forræder! Forræder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>.</HIS:spOpener>
+<lb/><l>Tys, vær dog stille, jeg beder, jeg beder!</l></HIS:hisSp>
+<cb n="158"/>
+<lb/><fw type="column" place="top">158</fw>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>For &dash; &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker> <HIS:hisStage>(hidsig.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Nei, vil du nu bare holde Mund, det gaar saagu
+<lb/>ikke an for dannede Mænd at lytte til ufornuftige Kvin&typHyp;
+<lb/>ders Skrig over Ting, som de ikke forstaae.</p>
+<lb/><HIS:hisStage>(hvisker ud til en Maskinkarl.)</HIS:hisStage>
+<lb/><p>Aa, lad Tæppet gaae ned, dette er jo en skandaløs Scene.</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Tæppet siger: &lquo;Det har De saagu Ret i&rquo;, hvorpaa
+<lb/>det gaar hurtigt ned.)</HIS:hisStage>
+<lb/><figure type="bar"/>
+</div>
+</div>
+<div type="act" n="3"><pb ed="HU"/>
+<lb/><head>Tredie Akt.</head>
+<lb/><HIS:hisStage>(Samme Skov som i første Akt.)</HIS:hisStage>
+<div type="scene" n="1">
+<lb/><head>Første Scene.</head>
+<lb/><HIS:hisStage>Det er allerede langt paa Dagen, men de fleste af
+<lb/>Druiderne, der, som bekjendt, altid holde sig et Stykke
+<lb/>bagud for Tiden, ligge endnu under Træerne i dyb
+<lb/>Søvn; Nogle ere dog vaagnede, da Allarmtrommer og
+<lb/>vilde Hyl høres bag Scenen ligesom i &lquo;Huldrens Hjem.&rquo;</HIS:hisStage>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>En vaagen Druide</speaker>.</HIS:spOpener>
+<lb/><l>Hvad er det for Larm, hvad er det for Skrig.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>En Anden</speaker>.</HIS:spOpener>
+<lb/><l>Det er sikkert Signal til en blodig Krig,</l>
+<lb/><l>Hør kun det vilde forbitrede Skraal,</l>
+<lb/><l>Du veed jo, at Norma vil gjøre Kaal</l>
+<lb/><l>Paa Severus, &dash; det hørte jeg selv hun svor.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>Første</speaker>.</HIS:spOpener>
+<lb/><l>Nu ja, den Skade er ikke saa stor,</l>
+<lb/><l>Han er jo i Grunden ei nogen af Vore,</l>
+<lb/><l>Jeg troer knapt jeg offrede ham en Taare,</l>
+<lb/><l>Selv om han livløs laa paa sin Baare!</l></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>Anden Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="NORMA">Norma</HIS:stageRole> (kommer ind i
+<lb/>Berserkergang, som om Nogen havde
+<lb/>foreslaaet at forbedre Grundloven.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>Vaagn dog, Druider! o kom, o kom!</l>
+<lb/><l>Alle som Een, &dash; her holder jeg Dom.</l>
+<lb/><HIS:hisStage>(Druiderne fare op i stor Forskrækkelse.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>En søvndrukken Druide</speaker> <HIS:hisStage>(forbitret.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Gaa ad Regjeringen til! Hvad er det for Spektakel!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>En Anden</speaker> <HIS:hisStage>(forskrækket.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Har Høvdingen opløst de Vises Raad?</p></HIS:hisSp><pb ed="HU"/>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>En Tredie</speaker> <HIS:hisStage>(klagende.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Mine tre Dalere om Dagen! Farvel, Farvel, du
+<lb/>skjønne Tid!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>Kom dog til Eder selv, jeg beder!</l>
+<lb/><l>Det gjælder Severus, den frække Forræder!</l></HIS:hisSp>
+</div>
+<div type="scene" n="3">
+<lb/><head>Tredie Scene.</head>
+<lb/><HIS:hisStage>(Severus føres frem, indviklet i sin egen Snare.)</HIS:hisStage>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><l>Der er han nu skal vor Standret sættes,</l>
+<lb/><l part="I">Bekjend dine Synder &dash;</l></HIS:hisSp>
+<pb/>
+<cb n="159"/>
+<lb/><fw type="column" place="top">159</fw>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="F">Ah, hvor jeg lettes &dash;</l>
+<lb/><l>Listen er noget drøi i Længden,</l>
+<lb/><l>Saa vinder jeg Tid, maaskee kan jeg reddes.</l>
+<lb/><HIS:hisStage>(Høit.)</HIS:hisStage>
+<lb/><l>Nu vel, jeg bekjender da først, at Mængden</l>
+<lb/><l>Var engang den Guldkalv jeg ofrede til,</l>
+<lb/><l>Det var kun et fiffigt beregnet Spil.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker>.</HIS:spOpener>
+<lb/><p>Ha, da skal du døe &dash;</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Hæver Dolken med oppositionelt Raseri, men stø&typHyp;
+<lb/>der naturligviis ikke til. Adalgisa kommer i det Sam&typHyp;
+<lb/>me i en Engels Skikkelse og forvandler ham til en
+<lb/>Halvgud, eller, som man nutildags udtrykker sig, til en
+<lb/>Minister.)</HIS:hisStage>
+<lb/><HIS:hisSp who="DRUIDER"><HIS:spOpener><speaker>Druiderne</speaker> <HIS:hisStage>(forbløffede.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Hva &dash; hvad behager ærbødigste Tjener! &dash;</p>
+<lb/><HIS:hisStage>(bukke dybt.)</HIS:hisStage></HIS:hisSp>
+<cb n="160"/>
+<lb/><fw type="column" place="top">160</fw>
+<lb/><HIS:hisSp who="SEVERUS"><HIS:spOpener><speaker>Severus</speaker>
+<lb/><HIS:hisStage>(med imponerende Holdning.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Da af vor vise Lykurg det sagt er:</l>
+<lb/><l>&lquo;Der hersker den skjønneste Enighed</l>
+<lb/><l>Imellem Statens forskjellige Magter,&rquo;</l>
+<lb/><l>Saa haaber jeg, jeg kan gaae bort i Fred!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="NORMA"><HIS:spOpener><speaker>Norma</speaker> <HIS:hisStage>(forekommende.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Ih, ja Gud bevare's, hvor kan deres Velbaarenhed
+<lb/>troe andet &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Severus gaar.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Tæppet falder.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ARIOVIST"><HIS:spOpener><speaker>Ariovist</speaker>
+<lb/><HIS:hisStage>bliver staaende i en grublende Stilling</HIS:hisStage>.</HIS:spOpener>
+<lb/><HIS:hisStage>(afsides.)</HIS:hisStage>
+<lb/><p>Det var da Fanden til Historie; hvem veed om ikke
+<lb/>ogsaa jeg &dash; &dash; &dash; nu ja, kommer Tid, kommer
+<lb/>Raad! &dash; &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisStage rend="spaced">Ende.</HIS:hisStage>
+</div>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI>

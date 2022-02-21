@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Vorwort [til en tysk oversettelse av Hærmændene paa Helgeland]</title>
+<title level="a" type="sub">Tekstkilde</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Oliver Blomqvist, Inger Marie Kjølstadmyr, Stine Brenna Taugbøl</name></respStmt><respStmt>
+<resp>Oppretting</resp>
+<name>NME</name>
+</respStmt>
+<respStmt>
+<resp>1. kollasjon, desember 2009</resp>
+<name>OB</name>
+</respStmt>
+<respStmt>
+<resp>2. kollasjon, desember 2009</resp>
+<name>IMK</name>
+</respStmt>
+<respStmt>
+<resp>Kodekontroll</resp>
+<name>SBT</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="H1Vorwort-1012"/>
+</editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på P1876_Forord.xml (0408).</p>
+<p>
+<biblStruct xml:id="H1Vorwort">
+<analytic>
+<author>Henrik Ibsen</author>
+<title type="main">Vorwort</title>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (ger) Kli_1876, ekspl. 1</idno>
+</analytic>
+<monogr>
+<title>Nordische Heerfahrt</title>
+<imprint>
+<pubPlace>München</pubPlace>
+<publisher>Theodor Ackermann</publisher>
+<HIS:printer/>
+<date>1876</date>
+</imprint>
+</monogr>
+</biblStruct>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-trykk;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="ger"/>
+<language ident="lat"/>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>15.04.15</date>
+<name>SBT</name><title>Entiteter</title>
+Byttet ut entitet.</change>
+<change><date>11.10.12</date>
+<name>SBT</name><title>HISe/TEI P5</title>
+Gjorde manuelle endringer etter skripting.</change>
+<change><date>28.01.10</date>
+<name>SBT</name><title>Kodekontroll</title>
+Gjorde om fra prosakoding til dramakoding og fra corpus-fil til enkeltfil (endringer i teiHeader).</change>
+<change><date>11.12.09</date>
+<name>NME</name><title>Koding</title>
+La inn resultater etter IMKs kollasjon mot kopi.</change>
+<change><date>03.12.09</date>
+<name>NME</name><title>Koding</title>
+La inn resultater etter Olivers kollasjon mot original.</change>
+<change><date>03.12.09</date>
+<name>NME</name><title>Oppretting</title>
+Etablerte fil på grunnlag av Olivers transkripsjon.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="printed" xml:lang="da-nob">
+<body>
+<pb/>
+<div>
+<lb/><head>Vorwort.</head>
+<lb/><p>Indem ich diese deutsche Ausgabe einer meiner
+<lb/>älteren dramatischen Arbeiten erscheinen lasse, dürfte
+<lb/>es vielleicht nicht überflü&#x00DF;ig sein, darauf aufmerksam
+<lb/>zu machen, da&#x00DF; ich den Stoff zu diesem Schauspiele
+<lb/>nicht dem Nibelungenliede, sondern der damit ver&typHyp;
+<lb/>wandten nordischen Wölsungasage entnommen habe.
+<lb/>Doch auch dies nur theilweise. Die hauptsächliche
+<lb/>Grundlage meiner Dichtung beruht vielmehr auf den
+<lb/>verschiedenen, noch vorhandenen isländischen Familien&typHyp;
+<lb/>sagen, in denen die aus dem Nibelungenliede und der
+<lb/>Wölsungasage bekannten riesenhaften Verhältnisse und
+<lb/>Vorgänge sehr oft nur auf menschliche Dimensionen
+<lb/>zurückgeführt erscheinen. Ich glaube daraus schlie&#x00DF;en
+<lb/>zu dürfen, da&#x00DF; die in den zwei eben erwähnten Dicht&typHyp;
+<lb/>ungen geschilderten Situationen und Begebenheiten
+<lb/>für unser gesammtgermanisches Leben in den ältesten
+<lb/>historischen Zeiten typisch gewesen sind. Hält man
+<lb/>diese Annahme fest, so entfällt wohl auch der Vor&typHyp;
+<lb/>wurf, durch das vorliegende Schauspiel unsere natio&typHyp;
+<lb/>nale Sagenwelt in eine Sphäre herabgezogen zu haben,
+<lb/>in welche sie nicht hingehört. Für die Darstellung
+<lb/>auf der Bühne eignen sich die idealisirten und ge&typHyp;
+<pb/>
+<lb/>wisserma&#x00DF;en unpersönlichen Sagengestalten heutzutage
+<lb/>weniger als je; doch hievon ganz abgesehen hatte ich
+<lb/>überhaupt nur die Absicht, nicht unsere Sagenwelt,
+<lb/>sondern unser Leben in der alten Zeit darzustellen.</p>
+<lb/><p>Was das Zustandekommen dieser deutschen Aus&typHyp;
+<lb/>gabe anlangt, sei es mir erlaubt, der hochgeehrten
+<lb/>Uebersetzerin meinen verbindlichsten Dank für die Un&typHyp;
+<lb/>verdrossenheit und Liebe zur Sache abzustatten, womit
+<lb/>sie die allerdings nicht leichte Aufgabe unternommen
+<lb/>und gelöst hat. Ebenso bezeige ich meinem hochge&typHyp;
+<lb/>schätzten Freunde, dem hiesigen kgl. Opernregis&typHyp;
+<lb/>seur, Herrn <foreign xml:lang="lat">Dr.</foreign> Grandaur, meinen Dank. Es ist
+<lb/>dies nicht das erste Mal, da&#x00DF; er skandinavischen
+<lb/>Schriftstellern eine bereitwillige Hand gereicht hat,
+<lb/>und ohne seinen einsichtsvollen Beistand durch Rath
+<lb/>und That hätte auch dieses Vorhaben schwerlich weder
+<lb/>so schnell noch so gelungen zu Stande gebracht wer&typHyp;
+<lb/>den können.</p>
+<lb/><dateline>München, im März 1876.</dateline>
+<lb/><signed>Henrik Ibsen.</signed>
+</div>
+</body>
+</text>
+</TEI>

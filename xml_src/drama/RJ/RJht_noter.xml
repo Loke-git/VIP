@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title>RJht: tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp><name xml:id="HIS_HB">Hilde Bøe</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>08.11.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteRJ_1"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_1">Lien.</HIS:hisRef>] <hi rend="italic">punktum kanskje feil for spørsmålstegn</hi></note>
+<note resp="editor" xml:id="noteRJ_2"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_2">det?</HIS:hisRef>] <hi rend="italic">semikolon endret til spørsmålstegn ved delvis overskrivning</hi></note>
+<note resp="editor" xml:id="noteRJ_3"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_3">Gig</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> Gige</note>
+<note resp="editor" xml:id="noteRJ_4"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_4">til</HIS:hisRef>] <hi rend="italic">feil for</hi> ti</note>
+<note resp="editor" xml:id="noteRJ_5"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_5">Byllupet</HIS:hisRef>] <hi rend="italic">feil for</hi> Bryllupet</note>
+<note resp="editor" xml:id="noteRJ_6"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_6">Na</HIS:hisRef>] <hi rend="italic">feil for</hi> Naa</note>
+<note resp="editor" xml:id="noteRJ_7"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_7">Spellimand</HIS:hisRef>] <hi rend="italic">feil for</hi> Spillemand</note>
+<note resp="editor" xml:id="noteRJ_8"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_8">Na</HIS:hisRef>] <hi rend="italic">feil for</hi> Naa</note>
+<note resp="editor" xml:id="noteRJ_9"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_9">Slemme</HIS:hisRef>] <hi rend="italic">feil for</hi> Stemme</note>
+<note resp="editor" xml:id="noteRJ_10"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_10"><HIS:hisDel rend="overstrike"><l part="Y"><gap/></l></HIS:hisDel></HIS:hisRef>] <hi rend="italic">verslinjedelen er feilaktig påbegynt ved venstre marg og er derfor strøket</hi></note>
+<note resp="editor" xml:id="noteRJ_11"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_11">hved</HIS:hisRef>] <hi rend="italic">feil for</hi> ved</note>
+<note resp="editor" xml:id="noteRJ_12"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_12">Gange</HIS:hisRef>] <hi rend="italic">feil for</hi> Gang</note>
+<note resp="editor" xml:id="noteRJ_13"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_13">Haad</HIS:hisRef>] <hi rend="italic">feil for</hi> Haand</note>
+<note resp="editor" xml:id="noteRJ_14"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_14">Ind</HIS:hisRef>] <hi rend="italic">feil for</hi> ind</note>
+<note resp="editor" xml:id="noteRJ_15"><HIS:hisRef type="tcNote" target="RJht.xml" corresp="noteRJ_15"><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel></HIS:hisRef>] <hi rend="italic">HU:</hi> en Barm</note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

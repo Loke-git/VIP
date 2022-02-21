@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Olaf Liljekrans</title>
+<title level="a" type="sub">tredje hovedversjon, grunntekst, NBO Ms.8&deg; 1945</title>
+<title level="a" type="origYear">[1877&sol;78]</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), mars 2001</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering, koding og korrekturlesing</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="O381945-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på prosjektets egen transkripsjon.</p>
+<p>
+<HIS:hisMsDesc type="workingManuscript" xml:id="O381945">
+<msIdentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8&deg; 1945</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docDate>Udatert</docDate>
+</msItem></msContents>
+<physDesc><objectDesc><p>Operaversjon av Olaf Liljekrans. Egenhendig arbeidsmanuskript, ufullstendig. 1 dobbeltblad. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-grt-ms;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Olaf Liljekrans: OL81945 (operautkast)</head>
+<item>skriftgruppe: latinsk håndskrift, majuskler og minuskler, venstrehellende</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt</item>
+<item>sceneanvisning: i parentes
+<list>
+<item>sceneanvisning 1 (frittstående): blokkstilt, første linje innrykket 4-8 mm</item>
+<item>sceneanvisning 2 (etter rollenavn): tilnærmet midtstilt på egen linje</item>
+</list>
+</item>
+<item>rollenavn: midtstilt på egen linje; avvik: i ett tilfelle står rollenavnet i parentes</item>
+<item>verslinjer:
+<list>
+<item>Torgejr og korene: tilnærmet midtstilt (kodet med "centre")</item>
+<item>replikkvekslinger: venstrestilt, oppdelte verselinjer har trinnvis større venstreinnrykk</item>
+</list>
+</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>bindestreker: både enkel og dobbel forekommer, 1-1,5 mm</item>
+<item>tankestrek: lengde varierer fra ca 2 til ca 6 mm</item>
+<item>nummerering: bare første dramaside er nummerert; tallet står på skrå i øvre, venstre hjørne, med punktum etter og strek under</item>
+</list>
+</item>
+<item>(ekstra)
+<list>
+<item>biblioteksstempel (UB) i øvre høyre hjørne på første dramaside. Over biblioteksstempelet er manuskriptsignaturen skrevet med blå penn (av en bibliotekar).</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id</headLabel><headItem>speaker</headItem>
+<label xml:id="ESPEN">ESPEN</label><item>Espen</item>
+<label xml:id="GERTRUD">GERTRUD</label><item>Gertrud</item>
+<label xml:id="GUNHILD">GUNHILD</label><item>Gunhild</item>
+<label xml:id="PEJK">PEJK</label><item>Pejk</item>
+<label xml:id="TORGEJR">TORGEJR</label><item>Torgejr</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen" scope="major"><p>Ibsens hånd, mørk penn. Manuskriptet er til dels noe skjødesløst skrevet, med en del rettelser.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+    <change><date>03.12.18</date>
+        <name>ESO</name><title>Side og r/v-koding</title>
+        Endret til koding etter mønster: xpb facs="6" ed="source" type="folio_nopagination" subtype="verso" n="3"/x</change>
+<change><date>08.11.12</date>
+<name>SBT</name><title>TEI P5</title>
+Manuelle endringer etter skripting. Valid TEI P5/HISe.</change>
+<change><date>11.08.09</date>
+<name>HMS</name><title>Koding til synoptisk visning av hovedversjoner</title>
+Fjernet HU-referansene og la inn xptr-punkter for sammenkobling til OL1 og OL3. xptr-punkter for sammenkobling til ms (_msVersions) er ikke lagt inn. Validert. Laget hovedversjonsvisninger.</change>
+<change><date>29.02.08</date>
+<name>HB</name><title>leafdb -&gt; gathering</title>
+Byttet ut leafdb med gathering, etter vedtak om at legg i ms og ark i trykk ikke skal være samme type.</change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>19.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert</change>
+<change><date>27.06.05</date>
+<name>HB</name><title>Typologisering</title>
+La til type="workingManuscript" i text. Oppdatert teiHeader.</change>
+<change><date>10.05.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Endret notene ved tilføyelser fra supplerende tcApp til rene note/resp/editor.</change>
+<change><date>26.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Sjekket at alle offline-tilføyelser er offline. To forekomster gjort om til infralinear.</change>
+<change><date>07.-15.04.05</date>
+<name>HB</name><title>Ms-omkoding</title>
+Omkoding av ms-endringer i henhold til revidert kodepraksis. Fjernet app og add i forbindelse med overskriving. Gjorde om flytte-apparatet, la inn supplerende note. Ny plassering av sideskifts-tagger innført.</change>
+<change><date>15.03.05</date>
+<name>HB</name><title>Oppdatering mot hovedtekst</title>
+Sjekket endringer i selve teksten.</change>
+<change><date>16.12.04</date><name>IF</name><title>Oppdatering</title>
+Oppdaterte tekst og koder i teiHeader (unntatt i typografibeskrivelsen) etter ny kodepraksis. Nye koder er stdVals, metDecl og variantEncoding. La inn entiteter for standardtekster. La inn resp Kodeteknisk støtte og utvikling. Samkjørte ms-opplysninger mot TMs. Ikke lagt inn lenke til hennes ms-beskrivelse. Validert.</change>
+<change><date>10.02.03</date><name>ENW</name><title>Oppdatering</title>
+La inn ny dokumentheader. Oppdaterte principal-listen. Erstattet shy-elementer med shy-entiteter. Flyttet id-verdiene fra sp til label i tagUsage. Sjekket apparatkoding og koding av strykninger. Validert.</change>
+<change><date>03.04.02</date><name>SBT</name><title>Oppdatering</title>
+Endret koding av manuskriptbeskrivelser i teiHeaderen.</change>
+<change><date>17.12.01</date><name>SBT</name><title>Oppdatering</title>
+Oppdaterte koding etter vedtak på kodemøtet 07.12. Førte inn håndskriftsansvarlig i teiHeaderen. Fjernet nummerering av div. Erstattet type med rend i del og ved corrmarks i app. Kodet med restore ved kanselleringer.</change>
+<change><date>05.12.01</date><name>SBT</name><title>Feilretting</title>
+Flyttet en note for å få validert teksten med den nye dtd-en.</change>
+<change><date>28.08.01</date><name>SBT</name><title>Oppdatering</title>
+La til place-attributt i clarification. Oppdaterte teiHeader. Brente cd.</change>
+<change><date>28.08.01</date><name>SBT</name><title>Oppdatering</title>
+Fjernet alle 'lg'-er. La til typografisk informasjon (innrykk, blank linje) om verslinjer.</change>
+<change><date>16.05.01</date>
+<name>EN</name><title>Sceneanvisninger</title>
+Sjekket plassering av sceneanvisninger sist i replikker (jf. vedtak på kollasjonistmøtet 14/5-01).</change>
+<change><date>17.04.01</date>
+<name>EN</name><title>Retting, korrektur og kodekontroll</title>
+Rettet opp tekst og koding. Sjekket TEI-headeren (inkludert typografibeskrivelsen). La inn tagUsage gi="id-who". Kodekontrollert filen. Brenner CD.</change>
+<change><date>05.04.01</date>
+<name>EN</name><title>Korrekturkollasjon</title>
+Kollasjonert utskrift av den elektroniske teksten mot originalmanuskriptet.</change>
+<change><date>16.03.01</date>
+<name>SBT</name><title>Typografibeskrivelse</title>
+La inn typografibeskrivelse (basert på faksimile). Fila er klar for kontrollkollasjon og kodekontroll.</change>
+<change><date>15.03.01</date>
+<name>SBT</name><title>Transkripsjon</title>
+Transkriberte og kodet ferdig resten av teksten. Har ikke lagt inn typografibeskrivelse. Fila er validert.</change>
+<change><date>14.03.01</date>
+<name>SBT</name><title>Oppretting</title>
+Opprettet fila. Begynte på transkripsjon (av faksimile). Siden det ikke finnes noen rolleliste er id-attributtene til de forskjellige personene lagt til første respektive 'sp'.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<body>
+<pb facs="1" ed="source" type="folio_nopagination" subtype="recto" n="1"/>
+<!-- pb n="[1]r"/ --><lb/><fw type="gathering" place="top-left">1.</fw>
+<div type="act" n="1">
+<lb/><head><HIS:synopticViewPtr type="synopticView_mainVersions" target="OLFU.xml" xml:id="OL2_1main"/><HIS:synopticViewPtr type="synopticView_mainVersions" target="OL41108.xml" xml:id="O3_1main"/>Første handling.</head>
+<lb/><HIS:hisStage>(En vild højfjeldsdal, trang og med bratte
+<lb/>bergvægge til begge sider. Nedover bergsiden til
+<lb/>venstre falder en fos. I baggrunden vid udsigt
+<lb/>nedover til lavere liggende bygder. Sommer&typHyp;
+<lb/>kveld mod solnedgang.)</HIS:hisStage>
+<lb/><HIS:hisStage>(Torgejr står ved fossestupet, lytter og speider
+<lb/>udover ned imod dybet.)</HIS:hisStage>
+<lb/><HIS:hisSp who="TORGEJR"><HIS:spOpener><speaker>Torgejr</speaker>.</HIS:spOpener>
+<lb/><l rend="centre">Hvem er det, som <app type="alteration"><lem><HIS:hisAdd place="offline">stiger i <HIS:hisDel rend="overstrike">liens sal</HIS:hisDel> <HIS:hisAdd place="inline">furuli</HIS:hisAdd></HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">kommer i flok og følg</HIS:hisDel>e</HIS:hisRdg></app>?</l>
+<lb/><l rend="centre">Kvinder og mænd i hobetal!</l>
+<lb/><l rend="centre">Hold jer dernede! Bygden er vid!</l>
+<lb/><l rend="centre">Kom ikke hid!</l>
+<lb/><l rend="centre">Det er solfaldstid, &dash;</l>
+<lb/><l rend="centre">og dalen er min og nøkkens.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Fru Gurids folk</speaker>
+<lb/><HIS:hisStage>(fjernt og dybt nede til venstre i baggrunden.)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre">Ung Olaf, ung Olaf! Med sang og med klokker</l>
+<lb/><l rend="centre">vi maner og lokker.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_mainVersions" target="OLFU.xml" xml:id="OL2_2main"/><HIS:synopticViewPtr type="synopticView_mainVersions" target="OL41108.xml" xml:id="O3_2main"/>Arnes følge</speaker>
+<lb/><HIS:hisStage>(højt oppe til højre.)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre">Gennem skardet går <app type="alteration"><lem><HIS:hisAdd place="offline">vejen</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">færden til bryllups går</HIS:hisDel>d.</HIS:hisRdg></app></l>
+<lb/><l rend="centre">til bryllupsgård<unclear>;</unclear></l>
+<lb/><l rend="centre">over højeste hejen</l>
+<lb/><l rend="centre">går vejen vor.</l></HIS:hisSp>
+    <pb facs="2" ed="source" type="folio_nopagination" subtype="verso" n="1"/>
+<!-- pb n="[1]v"/ --><lb/><HIS:hisSp who="TORGEJR"><HIS:spOpener><speaker>Torgejr</speaker>
+<lb/><HIS:hisStage>(ser opad.)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre">Også der, også der; under <app type="alteration"><lem><HIS:hisAdd place="offline">topper og tinder</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">bræen</HIS:hisDel></HIS:hisRdg></app>. &dash;</l>
+<lb/><l rend="centre">der myldrer de <HIS:hisDel rend="overstrike">frem</HIS:hisDel> hid</l>
+<lb/><l rend="centre"><HIS:hisDel rend="overwritten">B</HIS:hisDel>både mænd og kvin<HIS:hisDel rend="overwritten">g</HIS:hisDel>der<unclear>!</unclear></l>
+<lb/><l rend="centre">Gid bergraset knuse jer.<note type="typo">Feil tegn.</note></l>
+<lb/><l rend="centre">og skrede<HIS:hisDel rend="overwritten">n</HIS:hisDel>t <HIS:hisDel rend="overwritten">knu</HIS:hisDel><HIS:hisDel rend="overstrike">hus</HIS:hisDel>se huse jer.</l>
+<lb/><l rend="centre">til dommedags tid!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Fru Gunhilds følge</speaker>.
+<lb/><HIS:hisStage>(nærmere.)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre">Ung Olaf, ung Olaf, <note resp="editor">En strek fra foran <q>hvor</q> til ned under <q>vé</q> markerer sannsynligvis at Ibsen har ønsket å flytte <q>hvor sidder du tagen?</q> ned under <q>Vi vanker i vé.</q></note>hvor sidder du tagen?</l>
+<lb/><l rend="centre">Å vågn dog og se.</l>
+<lb/><l rend="centre">Vi vanker i vé.</l>
+<lb/><l rend="centre">Hvor sidder du tagen de nætterne tre</l>
+<lb/><l rend="centre">og på fjerde dagen?</l></HIS:hisSp>
+<pb ed="HU" n="30"/><lb/><HIS:hisSp><HIS:spOpener><speaker>Arnes følge</speaker>
+<lb/><HIS:hisStage>(nærmere.<HIS:hisDel rend="overwritten">)</HIS:hisDel>samtidigt)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre">Lystigt nok</l>
+<lb/><l rend="centre">lyder lék og lok</l>
+<lb/><l rend="centre">me<HIS:hisDel rend="overwritten">d</HIS:hisDel>llem tinder og topper.</l>
+<lb/><l rend="centre">Under bræens krans</l>
+<lb/><l rend="centre">går færden som en dans.</l>
+<lb/><l rend="centre">Hej, hå! Over elven vi hopper!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="TORGEJR"><HIS:spOpener><speaker>Torgejr</speaker>
+<lb/><HIS:hisStage>(samtidigt opad og nedad)</HIS:hisStage></HIS:spOpener>
+<lb/><l rend="centre">Bræen knuge jer;</l>
+<lb/><l rend="centre">elven sluge jer.</l>
+<lb/><l rend="centre">Bergtrold og vætter</l>
+<lb/><l rend="centre">skræmme jer væk med skrig og med hvin</l>
+    <pb facs="3" ed="source" type="folio_nopagination" subtype="recto" n="2"/>
+<!-- pb n="[2]r"/ --><lb/><l rend="centre">hvor I foden sætter!</l>
+<lb/><l rend="centre">Dalen er nøkkens og min.</l>
+<lb/><HIS:hisStage>(Han trækker sig ind mellem kløf<unclear reason="writing">t</unclear>erne ved fossen.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisStage>(Peik <HIS:hisDel rend="overstrike">træ</HIS:hisDel><unclear reason="writing">t</unclear> kommer med sit følge ned over
+<lb/>fjeldsiden til højre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker></HIS:spOpener>
+<lb/><l>Ja I har godt for at springe og hoppe;</l>
+<lb/><l>men jeg <restore type="del" rend="subpunction"><HIS:hisDel rend="overstrike">årker ikke</HIS:hisDel></restore> mer<HIS:hisDel rend="overstrike">e</HIS:hisDel>; jeg <app type="alteration"><lem><HIS:hisAdd place="offline">er</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">har</HIS:hisDel></HIS:hisRdg></app> stø<HIS:clarification place="inline">l</HIS:clarification><HIS:hisDel rend="overstrike">e</HIS:hisDel><HIS:hisAdd place="inline">,</HIS:hisAdd> <HIS:hisDel rend="overstrike">bén</HIS:hisDel>.<HIS:hisAdd place="infralinear">jeg er støl i både lægger og knær</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="ESPEN"><HIS:spOpener><speaker>Espen</speaker>.</HIS:spOpener>
+<lb/><l part="I">Her bær' det udfor.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker>.</HIS:spOpener>
+<lb/><l part="F">L<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>idt får vi stoppe.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Flere</speaker>. <HIS:hisStage>(dæmpet.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Lad os gå; her er utrygt og <app type="alteration"><lem><HIS:hisAdd place="offline">natten</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">dagen</HIS:hisDel></HIS:hisRdg></app> er <HIS:hisDel rend="overstrike">sen</HIS:hisDel>.<HIS:hisAdd place="inline">nær.</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="GERTRUD"><HIS:spOpener><speaker><HIS:hisDel rend="overstrike">Ingebo</HIS:hisDel><HIS:hisAdd place="inline">Gertrud.</HIS:hisAdd></speaker>
+<lb/><HIS:hisStage>(ser nedover.)</HIS:hisStage></HIS:spOpener>
+<lb/><l part="I">Se, se<unclear reason="writing">,</unclear> der kommer &dash;!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Flere</speaker></HIS:spOpener>
+<lb/><l part="F"><HIS:synopticViewPtr type="synopticView_mainVersions" target="OLFU.xml" xml:id="OL2_3main"/><HIS:synopticViewPtr type="synopticView_mainVersions" target="OL41108.xml" xml:id="O3_3main"/>Hvem kommer, hvem kommer?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GERTRUD"><HIS:spOpener><speaker>Gertrud</speaker>.</HIS:spOpener>
+<lb/><l>Fru Gunhild med <HIS:hisDel rend="overstrike">f<gap reason="writing"/></HIS:hisDel> alle sine frænder og venner.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener>(<speaker><unclear reason="writing">P</unclear>ejk og følget</speaker>.)</HIS:spOpener>
+<lb/><l part="I">Fru Gunhild!</l></HIS:hisSp>
+<HIS:hisStage>(Fru Gunhild og hendes ledsagere kommer op
+<lb/>fra venstre.)</HIS:hisStage>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>Gunhild</speaker>.</HIS:spOpener>
+<lb/><l part="F">Pejk i Botten er I her!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker>.</HIS:spOpener>
+<lb/><l>Som I ser! Jeg står altid ved mit ord.</l>
+    <pb facs="4" ed="source" type="folio_nopagination" subtype="verso" n="2"/>
+<!-- pb n="[2]v"/ --><lb/><l>Tre dage fra i kveld skal jo bryl<unclear reason="writing">l</unclear>upet stå.</l>
+<lb/><l>Men der er ingen fremkomst fra Botten til B<unclear reason="writing">o</unclear>rg.</l>
+<pb ed="HU" n="31"/><lb/><l>Et jordskred kom og tog med sig vejen.</l>
+<lb/><l>Ikke både var der heller for så mange som vi.</l>
+<lb/><l>Men jeg måtte og jeg vilde mit løfte <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>fri.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>Gunhild</speaker></HIS:spOpener>
+<lb/><l part="I">Og s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>å tog I over <HIS:hisDel rend="overstrike">Styggefjeld</HIS:hisDel> Troldfjeldet?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Bent over hejen.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Gunhilds kvinder</speaker></HIS:spOpener>
+<lb/><l>Der, hvor det spøger på lyse dagen;</l>
+<lb/><l>der hvor det <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>kogler om natten. Hu-hu!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker>.</HIS:spOpener>
+<lb/><l>Men visst ikke tænkte jeg at møde jer her.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>Gunhild</speaker>.</HIS:spOpener>
+<lb/><l part="I">I må høre og vide &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker><HIS:synopticViewPtr type="synopticView_mainVersions" target="OLFU.xml" xml:id="OL2_4main"/><HIS:synopticViewPtr type="synopticView_mainVersions" target="OL41108.xml" xml:id="O3_4main"/>Pejk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Så stor en hæder!</l>
+<lb/><l>Komme mig til møde med kvinder og mænd.</l>
+<lb/><l rend="indent">Jeg tænkte I stræved i <sic>brylupshuset</sic>;</l>
+<lb/><l rend="indent">tænkte, I bagte, brygged og stegte &dash;</l>
+<lb/><l rend="indent">havde hænderne fulde, ikke tid at miste &dash;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GUNHILD"><HIS:spOpener><speaker>Gunhild</speaker></HIS:spOpener>
+<lb/><l>Å hvis I vidste, <HIS:hisDel rend="overstrike">hvad sor</HIS:hisDel>g jeg må friste<HIS:hisAdd place="infralinear"><HIS:hisDel rend="overstrike">H</HIS:hisDel> hvilken jammer</HIS:hisAdd></l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker>.</HIS:spOpener>
+<lb/><l part="I">Hvilken sorg?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="GERTRUD"><HIS:spOpener><speaker>Gertrud</speaker>.</HIS:spOpener>
+<lb/><l part="M">Hvor er Olaf?</l></HIS:hisSp>
+<lb/><HIS:hisSp who="PEJK"><HIS:spOpener><speaker>Pejk</speaker>.</HIS:spOpener>
+<lb/><l part="F">Ja, Olaf ser jeg ikke.</l></HIS:hisSp>
+</div>
+</body>
+</text>
+</TEI>

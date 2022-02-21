@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1113a, bl. 4v</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1878-79]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ingvald Aarstein</name></respStmt>
+    <respStmt>
+        <resp>Kodet om til TEI-P5, juli 2011</resp>
+        <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+    <respStmt>
+<resp>Opprettet fil, november 2010</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du41113a_4v-1110"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Du41113.xml</p>
+    <p><HIS:hisMsDesc type="workingManuscript" subtype="notes" xml:id="Du41113a-f">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1113a-f</idno>
+        </msIdentifier>
+        <msContents><msItem><author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>[1878-79]</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Du41113: Et dukkehjem (notater og arbeidsmanuskripter)</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler, majuskler</item>
+<item>skrifthelling: steilskrift</item>
+<item>akt/scene:
+	<list>
+	<item>overskrift: midtstilt</item>
+	<item>sceneanvisning:
+		<list>
+		<item>kortere sceneanvisninger: i parentes, midtstilt på egen linje eller som del av løpende tekst</item>
+		<item>lengre sceneanvisninger: i parentes, blokkjustert (41113f)</item>
+		</list>
+	</item>
+	<item>rollenavn: midtstilt</item>
+	<item>avsnitt/replikk: lengre replikker blokkjustert, første linje noe innrykket</item>
+	<item>utheving i replikk: enkel understreking</item>
+	</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+	<list>
+	<item>skillestreker: dobbel skillestrek ved slutten av første og tredje akt (41113f)</item>
+	<item>bindestrek: enkel</item>
+	<item>arksignatur: øverst i venstre hjørne</item>
+	<item>noter/fotnoter: dato påført ved begynnelsen og slutten av hver akt (41113f)</item>
+	</list>
+</item>
+<item>annet:
+	<list>
+	<item>med blyant er enkelte sider paginert (med de usammenhengende tallene 7-8 og siden 2-5): kodet med page-attributt</item>
+	<item>biblioteksignatur med blyant: nederst s. 4 i faksimilene</item>
+	<item>punktummet etter rollenavn er flere steder spesielt i begynnelsen av ms-et skrevet slurvet og ligner en tankestrek. De er dog transkribert som punktum</item>
+	</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Mørkt blekk. Henrik Ibsen. Hovedhånd</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. Valid fil.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+        <name>SBT</name><title>P5</title>
+        Kodet om til P5.</change>
+    <change><date>10.12.10</date>
+        <name>SBT</name><title>Synkronisering</title>
+        La inn synkroniseringspunkt og akt-div.</change>
+    <change><date>29.11.10</date>
+<name>SBT</name><title>Opprettet fil</title>
+Fila er opprettet med utgangspunkt i Du41113.xml. Typografibeskrivelsen gjelder hele manuskriptet. Transkripsjonsendring: la inn en repetisjonsentitet (bør helst inn under 'Nora' på linja over i visningen). Oppdaterte apparatkoding. Validerte fila.</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" xml:lang="dan-nob" rend="handwritten">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->       
+<body>
+<pb n="8"/>
+<div type="notes"><note resp="editor">Teksten på denne siden står opp ned i forhold til resten av manuskriptet.</note>
+<div type="act" n="2">
+<list>
+<lb/><head><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_29ms"/>2. akt.</head>
+<lb/><item>Nora alene.</item>
+<lb/><item><HIS:hisDel rend="overstrike">Nora og Helmer. (denne ind i s</HIS:hisDel>it værelse)</item>
+<lb/><item><HIS:hisDel rend="overstrike">Nora alene</HIS:hisDel></item>
+<lb/><item>Nora og barnepigen</item>
+<lb/><item><HIS:hisDel rend="overstrike">Nora og doktoren (denne ind til</HIS:hisDel> Helmer)</item>
+<lb/><item>Nora og fru Linde (denne ind til højre.)</item>
+<lb/><item><HIS:hisAdd place="inBetweenLines">&rep; og Helmer</HIS:hisAdd></item>
+<lb/><item>Nora og doktoren (denne ind til Helmer)</item>
+<lb/><item>Nora og Krogstad &dash;</item>
+<lb/><item><HIS:hisDel rend="overstrike">Nora og fru Lind</HIS:hisDel>e (<HIS:hisDel rend="overstrike">denne bort.</HIS:hisDel>)</item>
+<lb/><item>Nora, <HIS:hisDel rend="overstrike">fru Linde</HIS:hisDel>, Helmer, doktoren</item>
+<lb/><item>De forrige fru Linde &dash;</item>
+<lb/><item>(Herrerne ind til højre)
+<lb/>fru Linde ligesaa</item>
+<lb/><item>Nora alene &dash;</item>
+</list>
+</div>
+</div>
+</body>
+</text>
+</TEI>

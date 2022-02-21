@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+ [
+ <!ENTITY % HIS_entiteter SYSTEM
+ 'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd' >
+ %HIS_entiteter;
+ ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+ <teiHeader xml:lang="nob">
+ <fileDesc>
+<titleStmt>
+<title level="a" type="main">Hedda Gabler</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.8&deg; 2639</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1890</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Koding og kollasjonering</resp><name>Åshild Haugsland, Mette Witting</name></respStmt>
+ <respStmt>
+<resp>Oppretting og 1. kollasjon mot faksimile, november 2006</resp>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respStmt>
+<respStmt><resp>2. kollasjon mot original, mai 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="HG82639-1111"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er opprettet på grunnlag av faksimilen NBO Ms.8&deg; 2639 (11.06)</p> 
+<p><HIS:hisMsDesc type="workingManuscript" xml:id="HG82639">
+ <msIdentifier>
+ <settlement>Oslo</settlement>
+ <repository>Nasjonalbiblioteket</repository>
+ <idno>NBO Ms.8&deg; 2639</idno>
+ </msIdentifier>
+ <msContents><msItem>
+ <author>[Henrik Ibsen]</author>
+ <title type="main">Uten tittel</title>
+ <docDate>[1890]</docDate>
+ </msItem></msContents>
+ <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter (replikkutkast). En innbundet notisblokk. Sidene 2-6 er regnskapsnotater som hører til varia.</p></objectDesc></physDesc>
+</HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>HG82639</head>
+<item>skriftgruppe: latinsk håndskrift;</item>
+<item>bokstavvariant: majuskler og minuskler;</item>
+<item>skrifthelling: venstrehellende;</item>
+<item>generelle elementer (systembeskrivelse):
+	<list>
+	<item>skille- og pyntestreker:
+		<list>
+		<item>s. 8, 12 og 13 (faksimile) har skillestrek;</item>
+		</list>
+	</item>
+	<item>bindestrek: varierende dobbel/enkel;</item>
+	<item>tankestrek: varierende lengde og utseende; bare frittstående streker er kodet som tankestreker;</item>
+	<item>forkortelser: ved rollenavn: punktum, ingenting;</item>
+	</list>
+</item>
+<item>annet:
+	<list>
+	<item>andre hender enn hovedhånden: </item>
+	<item>transkripsjonen: manglende prikk over 'i' er stilltiende rettet, andre manglende diakritiske tegn er rettet og tilført typo-note;</item>
+	</list>
+</item>
+</list>
+<list>
+<item>Faksimilene: Faksimilen er litt spesiell siden både verso- og rectoside er fotografert i samme bilde (sikkert fordi sidene er så små).</item>
+<item>Foliering: Folieringen er plassert øverst i høyre hjørne på den opprettstående siden, ikke den liggende som teksten oftest følger. Skal det da settes inn egen linje for sidetall, og hvordan skal det vises?</item>
+<item>Oppsett: All dramatekst er skrevet vertikalt, mens regnskapene s. 2-6 er skrevet horisontalt.</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+ <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>castItem xml:id=""</headLabel><headItem>castItem/speaker/stageRole</headItem>
+<label xml:id="LØVBORG">LØVBORG</label><item>-/-/-</item>
+</list>
+</tagUsage></namespace>
+ <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pencil" scope="major"><p>Grå blyant. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Blyant. Ukjent hånd. Foliering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>04.11.11</date><name>SBT</name><title>Omkoding til HISe og TEI P5</title>
+Utførte enkel kodekontroll. La inn foliering som en egen hånd etter konsultasjon med Tones manuskriptbeskrivelse. Har gått gjennom noter.</change>
+<change><date>29.08.07</date><name>AAH</name><title>Endringer</title>
+Noen endringer etter gjennomgang av ms. på NBO med HB. Validert.</change>
+<change><date>20.08.07</date><name>AAH</name><title>Koding</title>
+Tilført noen punkter i typografibeskrivelsen. Validert.</change>
+<change><date>29.06.07</date><name>AAH</name><title>Koding</title>
+Endret fra div type=work til div type=relatedToWork. Validert.</change>
+<change><date>02.05.07</date><name>MW</name><title>2. koll.</title>
+Førte inn resultatene etter kollasjonen mot originalen. handList er justert. Fjernet group-kodingen siden det vist bare er et tekstelement i ms-et. id-who-listen er sjekket (bare Løvborg trengs pga q-koding). Noen punkter er lagt inn i typ.beskr. Klar for kodekontroll</change>
+<change><date>25.04.07</date><name>AAH</name><title>Koding</title>
+Koding. Validert.</change>
+<change><date>28.11.06</date><name>AAH</name><title>Oppretting og 1. kollasjon</title>
+Opprettet filen på grunnlag av transkripsjon av faksimile, NBO Ms.8&deg; 2639. Typografibeskrivelsen og id-who-listen er ikke sjekket. handList må sjekkes. Validert.</change>
+</revisionDesc>
+</teiHeader>
+ <text type="drama" rend="handwritten" xml:lang="da-nob">
+<body>
+<pb n="1"/>
+<div type="relatedToWork">
+<lb/><p><HIS:hisDel rend="overstrike">k</HIS:hisDel> L (Tesman) siger: <q type="speech">ikke et kryb kunde
+<lb/>jeg knuse under min fod! Nu vel, da
+<lb/>kan jeg sige dig det, jeg søger professora&typHyp;
+<lb/>tet, Vi er konkurrenter</q></p>
+<pb n="2"/><note resp="editor">Sidene 2-6 inneholder regnskapsnotater. Disse gjengis ikke her, men inngår i variamaterialet.</note>
+<pb n="3"/>
+<pb n="4"/>
+<pb n="5"/>
+<pb n="6"/>
+<pb n="7"/>
+<lb/><fw type="leaf" place="top-right">7</fw>
+<lb/><p>Manuskriptet, som H. L. efterlader, går ud på
+<lb/>at menneskeopgaven er: Opad, imod lysbringeren.
+<lb/>Livet på det nuværende samfundsgrundlag er ikke
+<lb/>værd at leve. Derfor fantasere sig bort fra det.
+<lb/>Ved drik o. s. v. &dash; Tesman er korrektheden.
+<lb/>Hedda er blasertheden. Fru R. det nervøst-hyste&typHyp;
+<lb/>riske nutidsmenneske. Brack den personlige
+<lb/>borgerlige opfatnings repræsentant.</p>
+<pb n="8"/>
+<lb/><p>Så bringe<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>s H. ud af verden. Og så sidder
+<lb/>de to med manuskriptet, som de ikke
+<lb/>kan tyde. Og <HIS:hisDel rend="overstrike"><unclear>tanten</unclear></HIS:hisDel> tanten er med dem,
+<lb/>Hvilken ironi over den menneskelige bestræ&typHyp;
+<lb/>belse efter udvikling og fremskridt<gap/></p>
+<lb/><fw type="leaf" place="top-right">8</fw>
+<pb/>
+<lb/><p>Men indimellem kommer Holgers dobbeltna&typHyp;
+<lb/>tur. Gennem at realisere det lavt borger&typHyp;
+<lb/>lige kan han alene vinde position for sin
+<lb/>store centrale tanke.</p>
+<lb/><figure type="bar"/> 
+<lb/><p>Fru Risings frygt er at H. skønt &lquo;exemplarisk
+<lb/>ordentlig&rquo; ikke er normal. Hans tankegang kan
+<lb/>hun nemlig blot ane ikke forstå. Anfører<note resp="editor">'ø' mangler diakritisk tegn</note> ytrin&typHyp;
+<lb/>ger af ham &dash; &dash; &dash;</p>
+<pb n="9"/>
+<lb/><fw type="leaf" place="top-right">9</fw>
+<pb/>
+<lb/><p>Der tales om i udviklingens tjeneste at bygge
+<lb/>jernban- og landeveje. Nej nej. det er ikke
+<lb/>det. De skal gøre<note resp="editor">'ø' mangler diakritisk tegn</note> plads for at menneske&typHyp;
+<lb/>ånden kan komme <HIS:hisDel rend="overstrike"><gap/></HIS:hisDel> til at gøre den
+<lb/>store svingning. For den er på afveje,
+<lb/>Menneskeånden er kommen på afveje.</p>
+<pb n="10"/>
+<lb/><fw type="leaf" place="top-right">10</fw>
+<pb/>
+<lb/><p>Holger: <q type="speech" who="LØVBORG">Jeg har været ude. Jeg
+<lb/>har været liderlig. Nå, det gør
+<lb/>intet. Men politiet ved om det,
+<lb/>Det er hovedsagen.</q></p>
+<pb n="11"/>
+<lb/><p>Fortvilelsen hos H. L ligger i at han
+<lb/>vil beherske verden men ikke kan be&typHyp;
+<lb/>herske sig selv.</p>
+<lb/><fw type="leaf" place="top-right">11</fw>
+<pb/>
+<lb/><p>Tesman tror det er hans forlokkelse
+<lb/>som har bragt H. L. til at begynde igen,
+<lb/>på udskejelserne. Men det er ikke <unclear reason="writing">så</unclear>
+<lb/>Det er, hvad Hedda har sagt: at det er <emph>ham</emph>
+<lb/>hun har ønsket sig når hun talte om
+<lb/>&lquo;den berømte mand&rquo;. Men dette vover
+<lb/>hun ikke at sige til Tesman</p>
+<pb n="12"/>
+<note resp="editor">Sidene 11v til 92r er blanke.</note><!-- De siste to sidene er ikke fw-kodet fordi '93' står på en side uten tekst, se faksimileside 12 og 13.-->
+<lb/><p>Det er til forståelse af sin personlighed at
+<lb/>L. har gjort optegnelser i &lquo;manuskriptet&rquo;, Dette
+<lb/>er det som de to skal og vil men ikke <emph>kan</emph> tyde</p>
+<lb/><figure type="bar"/> 
+<lb/><p>Brack har en hang til at leve som ungkarl
+<lb/>og så skaffe sig adgang til et godt familjehus, bli
+<lb/>husven, uundværlig &dash; &dash;</p>
+<pb n="13"/>
+<lb/><p>Der siges: det er en naturlov. Nu vel, men
+<lb/>så gør man opposition mod den. Forlanger den
+<lb/>afskaffet. Hvorfor vige tilbage. Hvorfor over&typHyp;
+<lb/>give sig på nåde og unåde.</p>
+<lb/><figure type="bar"/> 
+<lb/><p>I samtalen mellem <HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>T. og L. siger den
+<lb/>sidste at han lever for sin videnskab. Den første
+<lb/>svarer at så kan han konkurrere &dash; (T. lever
+<lb/><emph>af</emph> sin videnskab) det er sa<unclear reason="writing">gen</unclear></p>
+</div>
+</body>
+</text>
+</TEI>

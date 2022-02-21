@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="NV">Når vi døde vågner</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="tei.2">Kodingen her er gjort s enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>12.12.2011</date><name>SBT</name><title>Kodet om til HISe og TEI P5.</title></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body xmlns="http://www.tei-c.org/ns/1.0">
+<div type="tcNote">
+<note resp="editor" xml:id="noteNV_1"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_1">Når</HIS:hisRef>] <hi rend="italic">på siden foran smusstittelbladet i 1. utg., London‐utg. og 2. utg. står følgende:</hi> Omtrent samtidig med de to originaludgaver (den norske og 
+den tyske) udkommer en engelsk, en fransk og en russisk af forfatteren autoriseret udgave. Noget senere følger oversættelser på hollandsk, ungarsk, bøhmisk, polsk og italiensk.</note>
+<note resp="editor" xml:id="noteNV_2"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_2">på</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4, FU,</hi> paa <hi rend="italic">1. utg., London‐utg., 2. utg.</hi></note>
+<note resp="editor" xml:id="noteNV_3"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_3">Rubek</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4, London‐utg., 2. utg., FU,</hi> Ru ek <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNV_4"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_4">spor!</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4,</hi> spor? <hi rend="italic">1. utg., London‐utg., 2. utg., FU</hi></note>
+<note resp="editor" xml:id="noteNV_5"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_5">på</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4, 2. utg., FU,</hi> pa <hi rend="italic">1. utg., London‐utg.</hi></note>
+<note resp="editor" xml:id="noteNV_6"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_6">fuldstændiggøre mig,</HIS:hisRef>] fuldstændiggøre mig <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteNV_7"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_7">vidden.</HIS:hisRef>] vidden <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteNV_8"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_8">imøde.</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4, London‐utg., 2. utg., FU</hi> imøde <hi rend="italic">1. utg.</hi></note>
+<note resp="editor" xml:id="noteNV_9"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_9">udbrydende</HIS:hisRef>] udrbydende <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteNV_10"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_10">Irene</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4, London‐utg., FU,</hi> lrene <hi rend="italic">1.–2. utg.</hi></note>
+<note resp="editor" xml:id="noteNV_11"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_11">på</HIS:hisRef>] <hi rend="italic">NBO Ms.4° 1119b, KBK Collin 262, 4°, IV.4, 2. utg., FU,</hi> pa <hi rend="italic">1. utg., London‐utg.</hi></note>
+<note resp="editor" xml:id="noteNV_12"><HIS:hisRef type="tcNote" target="NVht.xml" corresp="noteNV_12">Ulfhejm</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4°, IV.4, 2. utg., FU,</hi> Ulehejm <hi rend="italic">1. utg., London‐utg.,</hi> Ulf. <hi rend="italic">NBO Ms.4° 1119b</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Vildanden]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.8&deg; 1944 (opptegnelser og utkast)</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1884]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Henninge Margrethe Solberg, Mette Witting</name></respStmt>
+<respStmt>
+<resp>Oppretting og 1. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respStmt>
+<respStmt><resp>2. kollasjon og koding, august-desember 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respStmt>
+<respStmt><resp>Kodekontroll, des. 2008</resp>
+<name>Mette Witting</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Vi81944-1011"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen er basert på intern transkripsjon.</p>
+    <p><HIS:hisMsDesc type="notes" xml:id="Vi81944">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.8&deg; 1944</idno>
+        </msIdentifier>
+        <msContents><msItem>
+            <author>[Henrik Ibsen]</author>
+            <title>[Uten tittel; manuskriptet er kalt &lquo;Udkast&rquo; på faksimileside 8, Vi81944d.]</title>
+            <docDate>[1884, manuskriptet er egenhendig datert &lquo;20.4.84&rquo; på faksimileside 8, Vi81944d. Ellers udatert.]</docDate></msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter. Biblioteket har delt Vi81944 i 9 deler (a-i), dette er dokumentert v.h.a. stempler og påskrifter på mset (a: faksimiles. 1-4, b: 5-6, c: 7, d:8-9, e: 10-13, f: 14, g: 15, h: 16, i: 17).</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>castItem/speaker</headItem>
+<label>WERLE</label><item>Grosserer Walle/-</item>
+<label>GREGERS</label><item>Halfdan Walle/-</item>
+<label>EKDAL</label><item>Ekdahl/Den fhv.</item>
+<label>HJALMAR</label><item>Gregers Ekdahl/-</item>
+<label>GINA</label><item>Gina/-</item>
+<label>HEDVIG</label><item>Hedvig/-</item>
+<label>FRUSØRBY</label><item>Fru Berta Sørby/Fru S., Fr. S.</item>
+<label>GRAABERG</label><item>Gråberg/-</item>
+<label>PETTERSEN</label><item>Pettersen/P.</item>
+<label>ENBLEGFEDHERRE</label><item>Kammerherre Flor/-</item>
+<label>ENTYNDHÅRETHERRE</label><item>Kammerherre Rasmussen/-</item>
+<label>ENNÆRSYNTHERRE</label><item>Kammerherre Sæther/-</item>
+</list>
+</tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="pb-ed-HU-n">For synkroniseringsformål er sideskiftene fra Hundreårsutgaven (bd X) kodet med pb ed="HU" n="". Dette tekstvitnet dekker sidene 43-160. Alle sidetall er oppgitt i n-attributter.</tagUsage></namespace>
+    <namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="da-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="Vi81944-HI-1" xml:id="Vi81944-HI-1" medium="pen-black" scope="major"><p>Henrik Ibsen. Hovedhånd. Sort penn.</p></handNote>
+<handNote scribe="Vi81944-HI-2" xml:id="Vi81944-HI-2" medium="pencil"><p>Henrik Ibsen. Blyant.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>03.10.11</date>
+<name>SBT</name><title>TEI P5</title>
+Oppdaterte koding til TEI P5. Gjenstående feilmelding: hand/scribe-attributt i text og set i body (ikke front).</change>
+<change><date>05.12.08</date>
+<name>MW</name><title>Kodekontroll</title>
+Tok kodekontroll på filen (på jobben mandag må HU-sidetall kontrolleres - husk også deklarasjonen i teiH).</change>
+<change><date>01.12.08</date>
+<name>HMS</name><title>Gjenstående koding, HU-referanser</title>
+Avklarte gjenstående koding med MW. La inn HU-referanser der det er mulig. Validert, klar for kodekontroll.</change>
+<change><date>21.12.07</date>
+<name>HMS</name><title></title>
+Div. koding: Har gått gjennom replikkvekslinger og kodet med who="" der det var mulig. id-who-lista i teiHeader: for Kammerherrene (med id'er ENBLEGFEDHERRE osv): jeg har ikke noe grunnlag i dette mset for å gi disse kammerherrene disse id-verdiene. Men kammerherrene er med i flere mser, og det ser ut til at disse blir til de tre herrene (blekfet, nærsynt og tynnhåret) i den endelige utgaven av stykket. Jeg syns derfor det er relevant å gi dem id-verdi også her. For å avgjøre hvem som blir hvem har jeg fulgt resonnementet i Vi41115a, se innførslen 22.06.07 i denne filens logg. (dato: 22.06.07). Videre: La til typeattributt speech i 'q'. Validert.</change>
+<change><date>26.09.07-03.10.07</date>
+<name>HMS</name><title>Strukturkoding</title>
+Har sett på strukturkoding sammen med MW, vi har vært på NBO og sett på original. Har kodet inn det vi har kommet fram til (forklaringer finnes i worddokumentet 'Oversikt Vi81944' i verksmappa). Noen spørsmål gjenstår, disse må drøftes med filolog. teiHeader må gjennomgås.</change>
+<change><date>17.08.07</date>
+<name>HMS</name><title>2. kollasjon og koding</title>
+Førte inn resultater etter 2. kollasjon mot original. Ibsen bruker flere steder tre prikker (avbrutt setning), her har jeg satt inn mellomrom før de tre prikkene (jf. ibsenkodmail fra EL 05.06.07); gjelder side 2, 3 (3 stykker) og 8. Har erstattet handShift-kodene med hand-attributter, men dette må ses på en gang til når strukturkodingen er avgjort.</change>
+<change><date>20.10.06</date>
+<name>IF</name><title>Koding</title>
+La inn id-attributtene a-i i text-elementene, fordi det er brukt av bibliotekarene i ms. I teiHeader la jeg klammer rundt opplysninger i title og author, og gjorde det mer klart at dette er et ikke-datert ms, med unntak av tekstdelen (d) på faksimilesidene 8-9. Endret list i tagsUsage, slik at navnene som står i de to rollistene nedenfor, nå står i list, med grunntekstens castItem-id i label, der hvor den finnes - og ikke. Ikke fyllt ut id-attributtene, fordi det nedenfor ikke er noen typografisk markerte rollenavn, utenom rollelistene. Gir fra meg filen nå pga permisjon, dette gjenstår av koding: Koding av rolleliste: Blitt enige på ibsenkod om å se nærmere på rollelister, og diskutere om vi f.eks. skal kode rollelister som ikke-rollelister, men lister i body/label/item. Venter med å kode rollelistene til vi har hatt møte. Sjekke koding i body mot evt. endringer ved rollelistemøtet, særlig replikkene.</change>
+<change><date>26.04.06</date>
+<name>MW</name><title>Koding</title>
+Førte inn kollasjonsresultater fra 1. koll. mot faksimile. Endret strukturen så det nå er en text-group-text-struktur med 10 text-elementer innerst, hver med sin type=workingManuscript/notes. Type er samtidig tatt vekk fra div, så de står nå uten type. Avvent ev. nye avgjørelser ang. typifisering/nummerering av div. Kodet skiftet mellom pen og blyant om handShift. Er det riktig koding når det er snakk om flere enkeltstående tekster? Validert. Klar for 2. koll. mot original.</change>
+<change><date>18.04.06</date>
+<name>MW</name><title>Oppretting</title>
+Opprettet fil med teiHeaderopplysninger ang. NBO Ms.8&deg; 1944. id-who-listen er kopiert fra ViFU og må sjekkes grundig. Klar for transkripsjon mot faksimile.</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="da-nob">
+<group>
+<text type="workingManuscript">
+<body>
+<pb n="1"/>
+<div type="relatedToWork">
+<list>
+<lb/><head>Personer:</head>
+<lb/><label>Den gamle afsatte embedsmand.</label>
+<lb/><item>Hvidhåret, åndelig knækket ved
+<lb/>fængselsstraffen. Fortjener lidt
+<lb/>ved afskriverarbejde.</item>
+<lb/><label>Hans forfængelige frue.</label>
+<lb/><item>Halv forrykt ved familjens ulykke.
+<lb/>Selv skyld deri uden at erkende det.
+<lb/>Dum <sic>forgudese</sic> af sønnen. Lamen&typHyp;
+<lb/>terer og beklager sig.</item>
+<lb/><label>Sønnen, med de store forfejlde evner.</label>
+<lb/><item>Pietetsforholdet til forældre bin&typHyp;
+<lb/>der ham, familjeskamme<HIS:hisDel rend="overwritten">r</HIS:hisDel>n trykker
+<lb/>ham.</item>
+<lb/><label>Sønnens hustru.</label>
+<lb/><item>Lidt ældre end ham; godt prak&typHyp;
+<lb/>tisk begavet; prosaisk, af simpel
+<lb/>familje.</item>
+<lb/><label>Den gamle rige skibsreder og grosserer.</label>
+<lb/><item>En udhaler i al stilhed</item>
+<lb/><label>Hans søn, den rige sociale skribent.</label>
+<lb/><item>Enkemand; forkæmper for de fat&typHyp;
+<lb/>tiges ret; tager det s<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>om en sport.</item>
+</list>
+</div>
+
+<pb n="2"/><pb ed="HU" n="54"/>
+<div type="act" n="1"><note type="workingNote">En lignende replikkveksling er å finne på grunntekstens s. 20-21.</note>
+<lb/><p>Værten: <q type="speech" who="WERLE">Ja, herr kammerherre, hvad siger
+<lb/>De om den Liebfraumilch?</q> Kmh. <q type="speech">Jo, den
+<lb/>må jeg tilstå var uden lyde.</q> 2. Kmh: <q type="speech">Hu,
+<lb/>den har visst også kostet Dem vakkre penge?
+<lb/>Hvad?</q> Værten. <q type="speech" who="WERLE">Det kan De bande på. For
+<lb/>den er af en <note type="workingNote">det mangler et ord: 'af'</note>de aller-aller bedste årgange
+<lb/>skal jeg sige Dem.</q> Gregers. <q type="speech" who="HJALMAR">Er der nogen
+<lb/>sådan forskel på årgangene?</q> Værten: <q type="speech" who="WERLE">Nej,
+<lb/>De er <HIS:hisDel rend="overstrike">fo</HIS:hisDel> god! Dem lønner <HIS:hisDel rend="overwritten">D</HIS:hisDel>det sig s&rapo;gu ikke
+<lb/>at sætte god vin for.</q> <HIS:hisAdd place="inline">2</HIS:hisAdd> Kmh. <q type="speech" who="ENTYNDHÅRETHERRE">Det er med
+<lb/>rhinskvinen som med &dash; med fotografier,
+<lb/>herr ... det er solskinnet, det kommer an på.
+<lb/>Eller er det kanske ikke så?</q> Gregers, <q type="speech" who="HJALMAR">Jo,
+<lb/>lyset gør visst sit &dash; &dash; &dash; &dash;.</q> H. L. <q type="speech">I de sidste
+<lb/>år har her ikke været synderlig tilgang på
+<lb/>kammerherrer.</q> 1. <sic>kmp.</sic> <q type="speech">Nej, her har været
+<lb/>ligesom skyet i vejret; ikke solskin nok.</q>
+<lb/>Gregers. <q type="speech" who="HJALMAR">Og derfor er det kanske med kam&typHyp;
+<lb/>merherrer som med vinsorterne.</q> 2. kmh:
+<lb/><q type="speech">Hvorledes det, højstærede?</q> Gregers. <q type="speech" who="HJALMAR">At ikke
+<lb/>alle årgange er lige fine.</q><pb ed="HU" n="55"/> Værten: <q type="speech" who="WERLE">Nej,
+<lb/>hør på <emph>ham</emph>, De!</q></p>
+<lb/><p>Gråberg (fra kontorerne) <q type="speech" who="GRAABERG">De må rigtig
+<lb/>undskylde; men her er nogen, som skulde
+<lb/>ud.</q> Værten. <q type="speech" who="WERLE">Gener Dem bare ikke.</q> (Her
+<lb/>kommer episoden med den gamle. Leje&typHyp;
+<lb/>tjeneren. <q type="speech">Sands på konjakken, Pettersen.</q>
+<lb/>Forlegen pause. 2. kmh. stikler. Gregers
+<lb/>er krænket. Al. K. <q type="speech">Men det er sgu ikke pent
+<lb/>af Dem.</q> Kmh. <q type="speech">Men jeg <HIS:hisDel rend="overstrike">me</HIS:hisDel><gap/> forsikkrer Dem;
+<lb/>jeg mente ikke et gran med det.</q> Fru M.
+<lb/>(med cigaretten) <q type="speech" who="FRUSØRBY">Nej kmh. er snil i grunden.<note type="workingNote">Avslutter 'q' først på neste side, selv om det er uklart om fru Ms replikk (jeg forstår fru M som fru Sørby) går over begge sidene eller slutter her. Har valgt denne løsningen da fru Sørby har en lignende replikk som på neste side i førstetrykkets s. 19 ('Kammerherrerne mener, at bedes man til middag, så skal man også arbejde for føden, herr Ekdal').</note>
+
+<pb n="3"/>
+<lb/>Men herregud, vi må jo allesammen ar&typHyp;
+<lb/>bejde for føden.</q> (NB. dette tema har før
+<lb/>været nævnt af værten til Gregers.)</p></div>
+<div type="relatedToWork">
+<note type="workingNote">Første 'p' i denne 'div'en: Er usikker på om denne setningen kan knyttes til akt 1 og om den derfor burde vært i forrige 'div'. Pga denne usikkerheten har jeg gått for den minst spesifiserende løsningen og plassert avsnittet i 'div type=relatedToWork' sammen med de påfølgende mer generelle beskrivelsene.</note>
+<lb/><p>H. L. &lquo;kapunen&rquo; går og &lquo;nyder&rquo; alle &lquo;små&typHyp;
+<lb/>pigerne&rquo;, som han er fortrolig med.</p>
+<lb/><p>I 1. akt overfuser grossereren tilslut
+<lb/>fotografen da de har drukket for me&typHyp;
+<lb/>gen. Halfdan går. Hjemme lader han
+<lb/>sig ikke forlyde med noget, omdigter
+<lb/>begivenhederne i selskabet, har været
+<lb/>den féterede o. s. v. &dash; Næste dag op&typHyp;
+<lb/>søger de nobelt sindede ham. &dash; Hans
+<lb/>mor er på galehuset. Er bleven gal
+<lb/>ved familjens ulykker. Mulighed for
+<lb/>at sønnen og så o. s. v.</p>
+<lb/><p>Gamle Ekdahl holder duer og an&typHyp;
+<lb/>dre fugle. Hans jagtlidenskab ...
+<lb/>Han har et gammelt gevær ... Hedvig &dash;
+<lb/>afgørelse ...</p>
+<lb/><figure type="bar"/><note type="workingNote">Har tolket denne streken som en skillestrek; den kan muligens også være strek over 'u' i 'Fru'?</note></div>
+<div type="act" n="1"><note type="workingNote">Følgende replikkveksling er å finne i grunntekstens side 24 og 27.</note><pb ed="HU" n="56"/>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru S.</speaker></HIS:spOpener><p>Stik noget til ham derude, noget rigtig
+<lb/>godt.</p></HIS:hisSp><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener><p>Skal så gøre.</p> <HIS:hisStage>(går)</HIS:hisStage></HIS:hisSp><pb ed="HU" n="57"/>
+<lb/><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fr. S.</speaker></HIS:spOpener><p>Nå fik han så noget med?</p></HIS:hisSp><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener><p>Ja da, jeg
+<lb/>stak til ham en flaske konjak.</p></HIS:hisSp><HIS:hisSp who="FRUSØRBY"><HIS:spOpener><speaker>Fru S.</speaker></HIS:spOpener><p>Å, De
+<lb/>kunde da fundet på noget bedre.</p></HIS:hisSp><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener><p>Nej da,
+<lb/>fru S, konjak er det bedste han ved.</p></HIS:hisSp>
+</div>
+
+<pb n="4"/>
+<div type="relatedToWork">
+<lb/><p>Al. K. har ikke noget imod at hans far
+<lb/>gifter sig med fru M. Først fordi dette
+<lb/>dog vilde være bedre end mulige skandaler
+<lb/>med tjenestepigerne, og dernæst fordi fa&typHyp;
+<lb/>deren, når han gifter sig, må skifte med
+<lb/>sønnen.</p>
+<lb/><p>A. K. vilde gerne selv gifte sig med fru
+<lb/>M. men i så fald vilde hans far rimelig&typHyp;
+<lb/>vis ikke gifte sig, altså heller ikke skif&typHyp;
+<lb/>te, og &lquo;det er ikke godt at kapitalerne blir
+<lb/>for længe på gamle folks hænder. 400,
+<lb/>000 kr. hos en mand på 34 år er mere pro&typHyp;
+<lb/>dukti<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>ve end en million hos en gamling
+<lb/>oppe i de 60.</p>
+<lb/><p>Kmh. gad også gifte sig med fru M.
+<lb/>men midlerne strækker ikke til &dash; altså &dash;</p>
+</div>
+</body>
+</text>
+
+<text type="workingManuscript">
+<front>
+<pb n="5"/><pb ed="HU" n="43"/>
+<lb/><HIS:hisCastList>
+<head>Personerne.</head>
+<lb/><castItem xml:id="WERLE"><HIS:hisAdd place="inline">63.</HIS:hisAdd> Grosserer Walle, fabrikejer m. m.</castItem>
+<lb/><castItem xml:id="GREGERS"><HIS:hisAdd place="inline">3<HIS:hisDel rend="overwritten">7</HIS:hisDel>5.</HIS:hisAdd> Halfdan Walle, hans søn.</castItem>
+<lb/><castItem xml:id="EKDAL"><HIS:hisAdd place="inline">67</HIS:hisAdd> Ekdahl, forhenværende foged.</castItem>
+<lb/><castItem><HIS:hisDel rend="overstrike">Fru Ekdah</HIS:hisDel>l, hans hustru.</castItem>
+<lb/><castItem xml:id="HJALMAR"><HIS:hisAdd place="inline">3<HIS:hisDel rend="overwritten">5</HIS:hisDel>7.</HIS:hisAdd> Gregers <HIS:hisDel rend="overwritten">e</HIS:hisDel>Ekdahl, deres søn, fotograf.</castItem>
+<lb/><castItem xml:id="GINA"><HIS:hisDel rend="overstrike">Hedvig, hans hustru</HIS:hisDel>.
+<lb/><HIS:hisAdd place="inline">39.</HIS:hisAdd> Gina, hans hustru.</castItem>
+<lb/><castItem xml:id="HEDVIG"><HIS:hisAdd place="inline">14.</HIS:hisAdd> Hedvig, deres ældste datter, 14&dash;15 år.</castItem>
+<lb/><castItem><HIS:hisDel rend="overstrike">Deres tr</HIS:hisDel>e mindre børn.</castItem>
+<lb/><castItem xml:id="FRUSØRBY"><HIS:hisAdd place="inline">35</HIS:hisAdd> Fru Berta <app type="alteration"><lem><HIS:hisAdd place="offline">Sørby</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Løvstad</HIS:hisDel></HIS:hisRdg></app>, grossererens husbestyrerinde</castItem>
+<lb/><castItem>Institutlærer<note type="workingNote">Det er en strek over 'In' som kan være en strykning, men vurderer den til å være tilfeldig</note> Nanne.</castItem>
+<lb/><castItem xml:id="ENBLEGFEDHERRE">Kammerherre Flor. (han med anekdoterne)</castItem>
+<lb/><castItem xml:id="ENTYNDHÅRETHERRE">Kammerherre Rasmussen. (satiriker.)</castItem>
+<lb/><castItem xml:id="ENNÆRSYNTHERRE">Kammerherre Sæther (galant, dum.)</castItem>
+<lb/><castItem xml:id="GRAABERG">Gråberg, <sic>grosserererens</sic> fuldmægtig.</castItem>
+<lb/><castItem xml:id="PETTERSEN">Pettersen, tjener hos grossereren.</castItem>
+<lb/><castItem>Flasrud, kusk hos samme.</castItem>
+<lb/><castItem type="list">Grossererens gæster, lejetjenere, o. s. v.</castItem>
+</HIS:hisCastList>
+<lb/><set><p>(Handlingen foregår i Kristiania.)</p></set>
+<pb/>
+<pb/>
+</front>
+<body><p> </p></body>
+</text>
+
+<text type="workingManuscript">
+<body>
+<pb n="6"/>
+<div type="relatedToWork">
+<lb/><p>Lignelsen om vildænder: når de blir såret
+<lb/>går de tilbunds, de genstridige djævler, bider
+<lb/>sig fast &dash;; men har en en god hund, og er
+<lb/>det på grundt vand så &dash;</p>
+<lb/><p>Hedvig som vildand &dash;</p>
+<lb/><p>Gregers&rapo;s erfaringer om børns første og dybe&typHyp;
+<lb/>ste smerter. Det er ikke kærlighedssorger<note type="workingNote">kan være 'sorgen', følger her HU s. 170.</note>;
+<lb/>nej det er familjesmerterne &dash; det pinefulde
+<lb/>i hjemmets forholde &dash;</p>
+<lb/><figure type="bar"/>
+<lb/><p>Gregers: <q type="speech">Men duer da Molviks religions&typHyp;
+<lb/>forkyndelse noget?</q></p><note type="workingNote">Har ikke fylt ut noen who= her i og med det er litt vanskelig å si om Gregers her tilsvarer Gregers eller Hjalmar i det endelige stykket ... se rollelisten på siden før.</note>
+<lb/><p>&lquo;Doktoren&rquo; <q type="speech">A fan&rapo;, De kan jo skønne
+<lb/>at den ikke duer stort; men for fattigfolk og
+<lb/>sligt noget kan den jo altid være nok så
+<lb/>bra&rapo;</q><note type="workingNote">kan vi anta at dette er doktor Relling? Pga usikkerhet har jeg ikke lagt inn who-verdi.</note></p>
+<lb/><figure type="bar"/>
+<lb/><p>Hedvigs skildring af hvorledes hun første
+<lb/>gang så en stor vandflade ovenfra en
+<lb/>højde.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Menneskene er sjødyr &dash; ligesom vild&typHyp;
+<lb/>ænderne &dash; ikke landdyr &dash; Gregers var
+<lb/>skabt for sjøen. På den vil engang alle
+<lb/>mennesker leve når det tørre land er
+<lb/>udskyllet. Da hører familje<unclear reason="writing">livet</unclear> op.</p>
+</div>
+</body>
+</text>
+
+<text type="workingManuscript" scribe="Vi81944-HI-2">
+<body>
+<pb n="7"/>
+<div type="relatedToWork">
+<lb/><HIS:hisSp><HIS:spOpener><speaker><hi rend="underlined">E. L.</hi></speaker></HIS:spOpener>
+<lb/><p>Ja, men lad os nu undersøge
+<lb/>dette med idealerne. Tror De på
+<lb/>religionen<note type="workingNote">'en' kan også være tankestrek? Følger her HU s. 170.</note>?</p></HIS:hisSp>
+<lb/><HIS:hisSp><p>Nej.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>E. L.</speaker></HIS:spOpener>
+<lb/><p>På mor<unclear reason="writing">alen</unclear> &dash;</p></HIS:hisSp><HIS:hisSp><p>(n<note type="workingNote">evt. 'N'</note>ej)</p></HIS:hisSp><HIS:hisSp><p>Viden&typHyp;
+<lb/>skaben?</p></HIS:hisSp><HIS:hisSp><p>(nej) &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>E L.</speaker></HIS:spOpener>
+<lb/><p>Nå, &dash; men på fædrelandskærligheden
+<lb/><HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>tror De? På gamle Norge?</p></HIS:hisSp>
+<lb/><HIS:hisSp><p>Ja naturligvis.</p></HIS:hisSp>
+</div>
+<pb/>
+</body>
+</text>
+
+<text type="workingManuscript">
+<body>
+<pb n="8"/><pb ed="HU" n="45"/>
+<lb/><note resp="author" place="top-right">20.4.84.</note><note type="workingNote">se Vi41115a (faksimileside 1-2) - har samme dato og lignende tekst.</note>
+<lb/><head>Udkast.</head>
+<div type="act" n="1">
+<lb/><head>1. akt.</head>
+<lb/><HIS:hisStage>Hos den gamle rige fabrikejer. Ele&typHyp;
+<lb/>gant og bekvemt røgeværelse; stoppe&typHyp;
+<lb/>de sofaer og lænestole; tændte lam&typHyp;
+<lb/>per og armstager. Stor åben dør
+<lb/>med fratrukne forhæng på bag&typHyp;
+<lb/>væggen. Indenfor ses billardstuen,
+<lb/>ligeledes oplyst. Foran til højre i
+<lb/>røgeværelset er <sic>ingangsdør</sic> til kon&typHyp;
+<lb/>torerne; til venstre, ovenfor kaminer<note type="workingNote">noe rart her, skulle vært 'overfor/ovenfor kaminen'? Evt. slik HU bd. 10 s. 171 antar: 'ovenfor kaminen er ...'. Vi41115a, som har samme dato og lignende tekst, har 'ovenfor kaminen'.</note>
+<lb/>en dobbeltdør til spisesalen. Derinde
+<lb/>høres højrøstet samtale af mange gæ&typHyp;
+<lb/>ster; der bankes med kniven på et
+<lb/>glas; stilhed indtræder; skåltale hol&typHyp;
+<lb/>des; hurra og bravoråb; atter højrøstet
+<lb/>og <sic>sumende</sic> samtale.</HIS:hisStage>
+<lb/><HIS:hisStage>Et par hustjenere i livré og to&dash;tre
+<lb/>lejetjenere i sort sætter til rette i røge&typHyp;
+<lb/>værelset og i billardstuen.</HIS:hisStage>
+<lb/><HIS:hisStage>En lejetjener kommer med den gam&typHyp;
+<lb/>le &lquo;forhenværende&rquo; ... fra højre i billard&typHyp;
+<lb/>stuen. &dash;</HIS:hisStage><pb ed="HU" n="46"/> <HIS:hisSp><HIS:spOpener><speaker>Lejetjeneren</speaker><HIS:hisStage>(til hustjeneren.)</HIS:hisStage></HIS:spOpener>
+<lb/><p>De, Pettersen, her er en mand, som &dash;.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P</speaker>:</HIS:spOpener><p>Jøs, er De her på denne tid?</p></HIS:hisSp><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Den fhv.</speaker></HIS:spOpener>
+<lb/><p>Jeg skulde så nødvendig ind i kontoret.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener><p>Å der er stængt for over en time siden.</p></HIS:hisSp>
+
+<pb n="9"/>
+<lb/><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Den fhv</speaker>:</HIS:spOpener><p>Ja jeg så det, men &dash;</p> <HIS:hisStage>(ser mod døren
+<lb/>tilhøjre.)</HIS:hisStage></HIS:hisSp><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener><p>Ja, De kan gå her igennem;
+<lb/>for Gråberg sidder nok derinde.</p></HIS:hisSp><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Den fhv.</speaker></HIS:spOpener>
+<lb/><p>Mange tak.</p> <HIS:hisStage>(vil gå ind.)</HIS:hisStage></HIS:hisSp><HIS:hisSp><HIS:spOpener><speaker>Den anden tjener</speaker></HIS:spOpener>
+<lb/><p>Å hør, De, tag lidt i bordet der.</p></HIS:hisSp><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Den fhv.</speaker></HIS:spOpener>
+<lb/><p>Jeg? Nå ja så, i bordet.</p> <HIS:hisStage>(gør det.)</HIS:hisStage></HIS:hisSp><HIS:hisSp><HIS:spOpener><speaker>Tjeneren</speaker>.</HIS:spOpener>
+<lb/><p>Så tak.</p></HIS:hisSp><HIS:hisSp who="EKDAL"><HIS:spOpener><speaker>Den fhv.</speaker></HIS:spOpener><p>Så kan jeg kanske gå
+<lb/>ind.</p></HIS:hisSp><HIS:hisSp who="PETTERSEN"><HIS:spOpener><speaker>P.</speaker></HIS:spOpener><p>Ja, gå De bare.</p></HIS:hisSp> <HIS:hisStage>(han går ind
+<lb/>til højre.)</HIS:hisStage>
+</div>
+<pb/>
+<pb/>
+</body>
+</text>
+
+<text type="workingManuscript">
+<body>
+<pb n="10"/>
+<lb/><fw type="unknown" place="top-left">1.</fw>
+<div type="act" n="1">
+<lb/><head><HIS:hisDel rend="overstrike" hand="Vi81944-HI-2">Første akt</HIS:hisDel>.</head>
+<lb/><HIS:hisDel rend="overstrike" hand="Vi81944-HI-2"><HIS:hisStage>I grosserer Walles hus.</HIS:hisStage></HIS:hisDel>
+<p> </p>
+</div><note type="workingNote">Jeg forstår denne setningen som begynnelsen på en sceneanvisning, jf. beg på akt 1 i andre utkast/den endelige utgaven. Er derfor kodet i 'stage'. Har lagt inn en tom 'p' for å få validert fila.</note>
+<div type="relatedToWork" scribe="Vi81944-HI-2">
+<lb/><p>Faren ved at rokke ved idealerne. Skæb
+<lb/>nens ironi ved at tilhøre en anden gene&typHyp;
+<lb/>ration. Hedvigs tegninger er ikke egne
+<lb/>skabelser; fra det går op for hende
+<lb/>tegner hun ikke mere. Lykken er for&typHyp;
+<lb/>bi, da hun opdager at faderens mistillid
+<lb/>til hendes beundring er vakt, kampe,
+<lb/>omgåelser, observationer o. s. v.</p>
+<lb/><figure type="bar"/>
+<lb/><p><emph>Et</emph> ideal blir altid tilbage.
+<lb/>Gregers, som fornægter alle de
+<lb/>andre, tror på &lquo;venskabet&rquo; &dash;
+<lb/><HIS:hisDel rend="overstrike">G</HIS:hisDel> Hjalmar gennem<unclear reason="writing">skuer</unclear> de
+<lb/>egoistiske grunde.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hjalmar beundres også i famil&typHyp;
+<lb/>jen fordi han underholder sin
+<lb/>far; men det gør han jo ikke!</p>
+
+<pb n="11"/>
+<lb/><p><note type="workingNote">Begynner på ny 'p' her fordi det er et innholdsmessig skifte fra de siste linjene s. 10.</note>Enhver familje løber &lquo;linen ud&rquo; i en
+<lb/>generation, og i denne i et visst in&typHyp;
+<lb/>divid. Familjen Werle har nået
+<lb/>toppunktet: den gamle grosserer.
+<lb/>&dash; Sønnen repræsenterer noget
+<lb/>nyt. &dash; <HIS:hisDel rend="overstrike">Det samme er tilfæl</HIS:hisDel>
+<lb/>Det omvendte er tilfældet med
+<lb/>Hedvig.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hjalmar har af forældrene været
+<lb/>anset for en stor skønhed; tror
+<lb/>det selv; er det ikke.</p>
+<lb/><figure type="bar"/></div>
+<div type="act" n="1" scribe="Vi81944-HI-2">
+<lb/><p>1. akt slutter med a<HIS:hisDel rend="overwritten">f</HIS:hisDel>t Gregers
+<lb/>retter bebrejdelse angående
+<lb/>Hjalmar mod samfunds med&typHyp;
+<lb/>lemm<gap reason="writing"/><note type="workingNote">vanskelig å avgjøre om han har ment å skrive 'samfundsmedlemmerne' e.l. i ett ord eller 'samfundets medlemmer' e.l. Har transkribert i to ord fordi det synes mest diplomatarisk. HU har 'samfundsmedlemmerne' i ett ord (s. 173).</note>, og derved bryder med
+<lb/>sin far.</p>
+<lb/><figure type="bar"/>
+</div>
+<div type="act" n="2" scribe="Vi81944-HI-2">
+<lb/><p>2. akt slutter så: Det er
+<lb/>familjen som har <HIS:hisDel rend="overstrike">ø<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>del</HIS:hisDel> øde&typHyp;
+<lb/>lagt ham!</p>
+</div>
+
+<pb n="12"/>
+<div type="relatedToWork" scribe="Vi81944-HI-2">
+<note type="workingNote">Denne siden er ikke 'sp'-kodet fordi de neste sidene krever 'p'-koding</note>
+<lb/><p>Gregers
+<lb/><q type="speech"><note type="workingNote">Har ikke fylt ut who="" her i og med det er litt uklart hvem som har denne replikken - karakterene skifter jo navn.</note>Tror du jeg har fundet på alt
+<lb/>dette? Å nej, jeg lar <app type="alteration"><lem><HIS:hisAdd place="offline">nok</HIS:hisAdd></lem><HIS:hisRdg>v<HIS:hisDel rend="overstrike">ær</HIS:hisDel>e</HIS:hisRdg></app> være at
+<lb/>finde på noget. Men det lever
+<lb/>derude, dulgt &dash; &dash; Fædrelands&typHyp;
+<lb/>kærligheden er død &dash;</q> o. s <unclear reason="writing">v</unclear></p>
+
+<pb n="13"/>
+<lb/><p>Medicineren lyver. (Dahl)
+<lb/>det er løgn &dash; nå, så lar vi
+<lb/>den fugl flyve &dash;
+<lb/>Teologen (Schibsted)
+<lb/>jeg &dash; <HIS:hisDel rend="overwritten">h</HIS:hisDel>Sch &dash; herr Sch
+<lb/>&dash; her kand Sch o. s. v</p>
+<lb/><figure type="bar"/>
+<lb/><p>I Gregers er der blevet et punkt
+<lb/>af <emph>overtro</emph> tilbage.</p>
+<lb/><p>Ved dinér&rapo;en er der 13 tilbords.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hjalmar fortæller i første akt en højroman&typHyp;
+<lb/>tisk<HIS:hisDel rend="overstrike">e</HIS:hisDel> historie om at hans moder blev <sic>van
+<lb/>vitig</sic> af sorg over at hans fremtid var
+<lb/>forspildt og at hans fader begik sine
+<lb/>forbrydelser af kærlighed til sønnen.
+<lb/>Gregers blir opmærksom; &dash; senere en
+<lb/>anden forklaring, prosaisk men <HIS:hisDel rend="overstrike">sand</HIS:hisDel>
+<lb/>sand &dash;</p>
+</div>
+</body>
+</text>
+
+<text type="workingManuscript" scribe="Vi81944-HI-2">
+<body>
+<pb n="14"/>
+<div type="relatedToWork">
+<lb/><p>Komplikationen af det ned<HIS:hisDel rend="overwritten"><gap/>r&typHyp;</HIS:hisDel>ar&typHyp;
+<lb/>vede og det tilvante.</p>
+<lb/><figure type="bar"/>
+<lb/><p>Hedvigs dragning mod havet.</p>
+<lb/><figure type="bar"/>
+<lb/><p>hendes skyhed &dash;</p>
+<lb/><figure type="bar"/>
+<lb/><p>nødvendigheden<note type="workingNote">'en'-endelsen noe uklar, følger HU s. 174.</note> på grund af
+<lb/>de svage øjne at lukkes <unclear reason="writing">inde</unclear></p></div>
+<pb/>
+<pb/>
+<pb/>
+</body>
+</text>
+
+<text type="workingManuscript">
+<body>
+<pb n="15"/>
+<div type="act" n="1">
+<lb/><head>1. akt.</head>
+<lb/><p>Indledning gennem tjenerne; gam&typHyp;
+<lb/>le Ek<HIS:hisDel rend="overwritten">a</HIS:hisDel>dal. Grosserer Werle og fru
+<lb/>Sørby; grossereren og Gregers. (?)
+<lb/>Gregers og Hjalmar. Gæsterne;
+<lb/>gamle Ekdal. Gregers og Werle.</p>
+</div>
+<div type="act" n="2">
+<lb/><head>2. akt.</head>
+<lb/><p>Gina og Hedvig; gamle Ekdal.
+<lb/>De forrige og Hjalmar. Gamle
+<lb/>Ekdal og de forrige. Gina, Hedvig,
+<lb/>Hjalmar og Gregers; samtalen om
+<lb/>Werles huslige forhold. De forrige og
+<lb/>gamle Ekdal; samtalen om gamle
+<lb/>dage ved værket, derpå om vildanden.
+<lb/>Gregers lejer <sic>værlset</sic>.</p>
+</div>
+<pb/>
+<pb/>
+<pb/>
+</body>
+</text>
+
+<text type="notes">
+<body>
+<pb n="16"/>
+<note type="workingNote">Ingen 'div' er kodet i denne 'text'-en, se begrunnelse i word-dokumentet 'Oversikt Vi81944', som ligger i tekstutredningsmappa.</note>
+<list>
+<lb/><head>Modeller:</head>
+<lb/><item>Edvard Larsen.</item>
+<lb/><item>Alexander Kjelland.</item>
+<lb/><item>Fru Colban.</item>
+<lb/><item>Rektor Steen.</item>
+<lb/><item>Frøken Riis.</item>
+<lb/><item>Hartvig Lassen.</item>
+<lb/><item>Kammerherre Gran.</item>
+<lb/><item>Kammerherre Christenssen.</item>
+<lb/><item>Assessor Saxlund.</item>
+<lb/><item>Professor Lochmann.</item>
+<lb/><item>Udvig.</item>
+<lb/><item>Midling.</item>
+<lb/><item>Maleren Ross.</item>
+<pb/>
+<pb/>
+<pb/>
+</list>
+</body>
+</text>
+
+<text type="workingManuscript">
+<body>
+<pb n="17"/><pb ed="HU" n="45"/>
+<lb/><fw type="unknown" place="top-left">2.</fw>
+<div type="act" n="1">
+<lb/><head>Første akt.</head>
+<lb/><HIS:hisStage>(I grosserer Werles hus. Kostbart og be&typHyp;
+<lb/>kvemt indrettet arbejdsværelse; bogskabe og
+<lb/>stoppede møbler; stort <sic>skrvebord</sic> med papi&typHyp;
+<lb/>rer og protokoller midt på gulvet. Åben fløj&typHyp;
+<lb/>dør med fratrukne forhæng på bagvæggen.</HIS:hisStage>
+</div>
+<pb/>
+<pb/>
+<pb/>
+</body>
+</text>
+</group>
+</text>
+</TEI>

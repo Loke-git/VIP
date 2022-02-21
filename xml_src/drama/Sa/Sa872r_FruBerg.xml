@@ -1,0 +1,719 @@
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+        <fileDesc>
+            <titleStmt>
+                <title level="s" type="main">Henrik Ibsens skrifter</title>
+                <title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+                <title level="a" type="main">Sancthansnatten</title>
+                <title level="a" type="sub">TarkUiB NT872r (rollehefte, Fru Berg)</title>
+                <title level="a" type="origYear">1852</title>
+                <author>Henrik Ibsen</author>
+                <funder>&funder;</funder>
+                <editor>&editor;</editor>
+                <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respStmt>
+                <respStmt>
+                    <resp>Kodeteknisk støtte og utvikling</resp>
+                    <name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transkripsjon, juli 2000:</resp>
+                    <name xml:id="HIS-BH">Bjørg Harvey</name>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-koding, september 2000:</resp>
+                    <name xml:id="HIS-HB">Hilde Bøe</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Koding og korrektur, september-november 2000:</resp>
+                    <name>Hilde Bøe</name>
+                    <name xml:id="HIS-KJS">Karl Johan Sæth</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Oppdatering av koding/feilretting, mai 2001:</resp>
+                    <name>Ellen Nessheim</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Oppdatering av koding, mars 2002:</resp>
+                    <name>Hilde Bøe</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Oppdateringer, desember 2002, juni 2003:</resp>
+                    <name xml:id="HIS-IAA">Ingvald Aarstein</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Oppdatering av koding/feilretting, februar 2004:</resp>
+                    <name xml:id="HIS-NME">Nina Marie Evensen</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Oppdatering av koding, mai 2004</resp>
+                    <name xml:id="HIS-MW">Mette Witting</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition xml:id="Sa872r_FruBerg-1112"/></editionStmt>
+            <publicationStmt>
+                <publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+                <distributor xml:id="HISe">Universitetet i Oslo</distributor>
+                <date when="2012" xml:id="HISe-date">2012</date>
+                <pubPlace>Oslo</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Denne filen bygger på ekstern transkripsjon.</p>
+                <p>
+                    <HIS:hisMsDesc type="parts" xml:id="Sa872r">
+                        <msIdentifier>
+                            <settlement>Bergen</settlement>
+                            <repository>Teaterarkivet, Universitetet i Bergen</repository>
+                            <idno>TarkUiB NT872r</idno>
+                        </msIdentifier>
+                        <msContents><msItem>
+                            <author>Henrik Ibsen</author>
+                            <title type="main">Sancthansnatten</title>
+                            <docDate>1852</docDate>
+                        </msItem>
+                            <msItem n="Sa872r-FruBerg"><locus>28 sider</locus><title>«Fru Bergs Rolle i Sancthansnatten af Henr: Ibsen»</title></msItem>
+                        </msContents>
+                        <physDesc><objectDesc><p>Rollehefte, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+                    </HIS:hisMsDesc>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+            <editorialDecl>
+                <HIS:typography>
+                    <list>
+                        <head>Sancthansnatten, 12 rollehefter N.T. 872 (r)</head>
+                        <item>skriftgruppe: høyrehellende, blandet latinsk og gotisk håndskrift.</item>
+                        <item>hender: to forskjellige hovedhender. Den ene (identisk med hovedhånden i sufflørboka SahBI?) har sterkere innslag av gotisk og har skrevet de fire småheftene (Bjergkongen, Liden Karin, Ung Erik, og Svanhvide), og den andre (identisk med hovedhånden i sufflørboka Sa872s?) har skrevet resten.</item>
+                        <item>tittelblad/titteltekst: to forskjellige utforminger av tittelbladene, som faller sammen med hovedhendene. Tre av rolleheftene har dessuten eget omslag (de tre største): Anna, Birk og Paulsen. Ibsen har ført på skuespillernavn og dato for utlevering, og dette er kodet med hand. Andre hender på tittelbladene er ikke skilt ut
+                            <list>
+                                <item>type 1: (Bjergkongen, Liden Karin, Ung Erik og Svanhvide):
+                                    <list>
+                                        <item>rollenavn: midtstilt, dobbel understreking</item>
+                                        <item>undertittel 1: midtstilt; "i|Pantomimen i 2den Act|af" (hevet ordenstall)</item>
+                                        <item>tittel: midtstilt; understreking</item>
+                                        <item>undertittel 2: høyreskjøvet/midtstilt; "Eventyrcomedie i 3 Acter"</item>
+                                        <item>«byline»/forfatternavn: høyreskjøvet/midtstilt; "ved|Henr. Ibsen" (i Ung Eriks rollehefte: "af")</item>
+                                        <item>krusedull: midtstilt</item>
+                                        <item>utlevert: høyreskjøvet; "Udleveret til|den" (ikke utfyllt, mangler i Ung Eriks rollehefte)</item>
+                                    </list>
+                                </item>
+                                <item>type 2: (øvrige rollehefter)
+                                    <list>
+                                        <item>arkantall: øverst til høyre</item>
+                                        <item>rollenavn: midtstilt; "...s Rolle" (dobbel understreking i Birks rollehefte)</item>
+                                        <item>tittel: midtstilt; "i|Sancthansnatten" (understreking i Birks rollehefte)</item>
+                                        <item>«byline»/forfatternavn: midtstilt; "af|Henr. Ibsen"</item>
+                                        <item>utlevert: høyreskjøvet; "Udleveret til ...|[dato]" (i Fru Bergs, Nissens og Jørgens rollehefte; "[krusedull]|P Nielsen"</item>
+                                    </list>
+                                </item>
+                                <item>omslag: (Birk, Paulsen og Anna)
+                                    <list>
+                                        <item>rollenavn: midtstilt; "Paulsens Rolle", "Anna", "Student|Johannes Birk" (dobbel understreking i Birks rollehefte)</item>
+                                        <item>tittel: midtstilt; "i|Sancthansnatten" (understrking i Birks rollehefte)</item>
+                                        <item>signatur: høyreskjøvet</item>
+                                        <note>Omslag regnes ikke som del av teksten og er derfor ikke kodet.</note>
+                                    </list>
+                                </item>
+                            </list>
+                        </item>
+                        <item>akt:
+                            <list>
+                                <item>overskrift: midtstilt, dobbel understreking</item>
+                                <item>sceneanvisning: midtstilt/blokkjustert, enkel understreking</item>
+                            </list>
+                        </item>
+                        <item>scene:
+                            <list>
+                                <item>overskrift: midtstilt, enkel understreking</item>
+                                <item>sceneanvisning: "inline"/i vanlige avsnitt, parentes, enkel understreking</item>
+                                <item>rollenavn: midtstilt, enkel understreking, noen steder dobbel understreking for rolleinnehaver (i de fire småheftene (Bjergkongen, Liden Karin, Ung Erik, og Svanhvide) konsekvent, i m.a. Nissens rollehefte bare noen steder)</item>
+                                <item>avsnitt/replikk: Vanligvis er rolleinnehavers replikker umarkerte, mens de øvrige har enkel understreking. I de fire småheftene (Bjergkongen, Liden Karin, Ung Erik, og Svanhvide) er rolleinnehavers replikker og sceneanvisninger understreket med rødt, de øvrige replikker og sceneanvisninger med sort. I disse rolleheftene er også replikkene satt opp annerledes; i Liden Karin, Ung Erik, og Svanhvide er "replikkene" plasserte inne i noe som ligner sceneanvisninger).</item>
+                                <item>verslinjer: inkonsekvent, men ofte noe ekstra innrykk, noen steder helt umarkerte. I Liden Karin, Ung Erik, og Svanhvide er de plassert i anførselstegn inne i sceneanvisninger, og verselinjene er ikke markerte; de er likevel kodet</item>
+                                <item>sitater: i anførselstegn</item>
+                                <item>utheving i replikk: enkel sort understreking</item>
+                                <item>utheving av rollenavn i sceneanvisning: dobbel understreking (ikke konsekvent system, ser ut til å bare gjelde rolleinnehaver, og bare noen steder)</item>
+                                <item>sceneanvisning/replikk: inkonsekvent oppsett av (overgang mellom) scenanavisninger og replikker, trolig en følge av den spesielle funksjonen til rollehefter. Ikke tatt hensyn til, men kodet "rett frem".</item>
+                            </list>
+                        </item>
+                        <item>generelle elementer (systembeskrivelse):
+                            <list>
+                                <item>understreking: vanligvis med rødt i selve teksten, og sort på tittelsider, unntak er spesifiserte</item>
+                                <item>typografiske bindestreker: rolleheftene har usystematisk bruk av typografiske bindestreker, vanligvis fins doble bindestreker, dvs. både før og etter linjeskiftet - bare den første kodes -, men også enkle fins, og en del steder mangler bindestrek (kodes ikke, kommenteres bare i typo-note) eller fins bare etter linjeskiftet (kodes som vanlig før linjeskiftet).</item>
+                                <item>tankestrek: enkle, noe varierende utforming</item>
+                                <item>parenteser: varierende utforming i de to hovedhendene. De fire småheftene (Bjergkongen, Liden Karin, Ung Erik, og Svanhvide) har bueparenteser, de øvrige har rett strek og kolon/punktum.</item>
+                                <item>anførselstegn: venstre: dobbelt komma, nedre/øvre; høyre: dobbel apostrof, øvre</item>
+                                <item>sidetall: øverst i høyre/venstre hjørne, mangler i småheftene</item>
+                                <item>håndskriftsdetaljer: aksent (cirkumfleks) over "c" er brukt i en del tilfeller</item>
+                            </list>
+                        </item>
+                        <item>skriblerier:
+                            <list>
+                                <item>blyantskriblerier i Paulsens rollehefte er kommentert i noter, og ikke transkribert.</item>
+                                <item>blyantunderstrekinger i Birks rollehefte er kommentert i noter, og ikke kodet.</item>
+                                <item>Minnevers skrevet med blyant sist i Birks rollehefte (s. 68), navnet "Kornelia" dannes med første bokstav i hver linje: "Kan et Ønske bringe Held,|O, da gid det gaae dig vel!|Roser spire paa din Vei &dash;|Nogen Steen du møde ei!Er ei Skjebnen altid (strøket: mild) huld,|Lad ei saadant Modet binde:|I vor (strøket: Pregers) Frelsers Bog er Guld,|Altid der du Trøst vil finde!". Har ikke noe med teksten å gjøre, og er derfor utelatt.</item>
+                            </list>
+                        </item>
+                    </list>
+                </HIS:typography>
+                <stdVals><p>&stdVals;</p></stdVals>
+                <p>&editorialDecl;</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+                    <list>
+                        <headLabel>titlePart id=""</headLabel><headItem>titlePart/speaker/stageRole</headItem>
+                        <label xml:id="ERIK">ERIK</label><item>Ung Erik</item>
+                        <label xml:id="BIRK">BIRK</label><item>Student Birk/Birk/Birk</item>
+                        <label xml:id="JULIANE">JULIANE</label><item>Juliane</item>
+                        <label xml:id="ANNA">ANNA</label><item>Anne</item>
+                        <label xml:id="BERG">BERG</label><item>Berg</item>
+                        <label xml:id="NISSEN">NISSEN</label><item>Nissen/Nissen/-</item>
+                        <label xml:id="SVANHVIDE">SVANHVIDE</label><item>Svanhvide</item>
+                        <label xml:id="FRUEN">FRUEN</label><item>Fru Berg/Fruen/Fruen</item>
+                        <label xml:id="JORGEN">JORGEN</label><item>Jørgen/Jørgen/-</item>
+                        <label xml:id="PAULSEN">PAULSEN</label><item>Paulsen</item>
+                        <label xml:id="BJERGKONGEN">BJERGKONGEN</label><item>Bjergkongen/Bjergkongen/-</item>
+                        <label xml:id="KARIN">KARIN</label><item>Liden Karin/Karin/-</item>
+                    </list>
+                </tagUsage></namespace>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="rolleheftekoding">Rolleheftene er kodet med «føljetongkoding»: hvert rollehefte kodet som TEXT (i GROUP og TEXT). Tittelbladene kodet som vanlige tittelblad. Opplysninger om skuespillere etc. på tittelbladene er kodet i P-er i en PERFORMANCE-tag. «Avvikene» i forhold til rollenavn/replikk-systemet (se typografibeskrivelsen) er ikke tatt hensyn til i kodingen</tagUsage></namespace>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="titlePartOgTypografi">Flere titlePart-elementer er benyttet når tittelen er delt inn i flere biter med forskjellige typografisk markering (understreking, hevet tekst, i noen grad skriftstørrelse, men ikke linjeinndeling.).</tagUsage></namespace>
+            </tagsDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nob"/>
+                <language ident="dan-nob"/>
+            </langUsage>
+            <handNotes>
+                <handNote scribe="OJB" xml:id="OJB" medium="pen-black" scope="major"><p>Ole Johan Bucher. Hovedhånd. Brun-sort penn.</p></handNote>
+                <handNote scribe="HI" xml:id="HI" medium="pen-black"><p>Henrik Ibsen, sort pen. Ibsen har skrevet skuespillerens navn og utleveringsdato.</p></handNote>
+                <handNote scribe="h1" xml:id="h1" medium="pencil"><p>Blyant. Muligens mer en enn hånd. Det finnes også blyanthender det ikke er tatt hensyn til (jf. typografibeskrivelsen)</p></handNote>
+                <handNote scribe="h2" xml:id="h2" medium="pen-black"><p>Sort tusj eller bred penn</p></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>23.11.12</date>
+                <name>SBT</name><title>Splitting + TEI P5</title>
+                Fila inneholder nå bare ett rollehefte. Fila er kodet om til TEI P5 for HISe.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="drama" rend="handwritten" xml:lang="dan-nob">
+<front>
+<pb/><lb/><titlePage><HIS:hisDocImprint><measure>3&half; Ark</measure></HIS:hisDocImprint>
+<lb/><docTitle><titlePart>Fru Bergs
+<lb/>Rolle
+<lb/>i
+<lb/>Sancthansnatten</titlePart></docTitle>
+<lb/><byline>af
+<lb/><docAuthor>Henr: Ibsen</docAuthor></byline>
+</titlePage>
+<lb/><performance><p>Udleveret til <HIS:hisAdd place="inline" hand="HI">Hr: Wiese.
+<lb/>19/12. 52.</HIS:hisAdd>
+<lb/>Wieegen</p></performance>
+</front>
+<body>
+<div type="act" n="1">
+<pb/><lb/><head>Første Act</head>
+<div type="scene" n="1">
+<lb/><head>Første Scene</head>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><l>Du monne saa klagelig kvæde.</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(kommer ud paa Trappen til Hovedbygningen)</HIS:hisStage></HIS:spOpener><p>Anne, Anne!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><l>Derinde er Gammen og Glæde</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men saa svar dog! Hvad er det, Du
+<lb/>der tager Dig fore?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><l>Og Farbroer er Haren den hvide</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Nei, hun bliver værre og værre!</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">3</fw>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><l>&lquo;De Viser jeg kviddrer under Lide.&rquo;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Anne! Nu siger jeg Dig alvorligt, at
+<lb/>Du skal holde op med de Narrestreger!
+<lb/>Glemmer Du da reent, at de Fremme&typHyp;
+<lb/>de snart maa være her &dash; &dash; eller kanskee
+<lb/>Du slet ikke agter at Klæde Dig om?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><p>Nei!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Naa! Du vil altsaa vise Dig i den
+<lb/>Dragt, Du der gaaer i?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><p>Nei!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<pb/><lb/><fw type="page" place="top-left"><unclear reason="writing">4</unclear></fw>
+<lb/><p>Men hvad vil Du da?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><p>Ingenting!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(stiger ned ad Trappen)</HIS:hisStage></HIS:spOpener><p>Anne! <HIS:hisDel rend="overwritten">n</HIS:hisDel>Nu
+<lb/>raader jeg Dig til, at Du øieblikke&typHyp;
+<lb/>lig &dash; &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>at det ikke kan hjælpe &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, hvad skal jeg gjøre? Varer det saa&typHyp;
+<lb/>ledes veed saa vil hun tilsidst blive
+<lb/>reent forrykt. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>er venlig mod hende, saa &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<pb/><lb/><fw type="page" place="top-right">5</fw>
+<lb/><HIS:hisStage>(venligt til Anne)</HIS:hisStage><p>Hør Anne, lad mig
+<lb/>nu see, at Du er føielig mod din
+<lb/>Moder; gaae nu ind og tag et andet
+<lb/>Forklæde paa &dash; &dash; Du kan ikke vise Dig
+<lb/>i det der!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ANNA"><HIS:spOpener><speaker>Anne</speaker></HIS:spOpener>
+<lb/><p>Nu skal jeg strax. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Stakkels Barn! Det gjør mig igrunden
+<lb/>ondt for hende &dash; &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>saa fik det gaae.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Og saa det gamle Skjærerede derover,
+<lb/><HIS:hisStage>(peger mod Bjælkehuset)</HIS:hisStage> som han ikke
+<lb/>paa noget Viis vil give Slip paa! &dash; Gud
+<pb/><lb/><fw type="page" place="top-left">6</fw>
+<lb/>veed, hvad det var for et Indfald af
+<lb/>min salig Mand at sikkre ham Bjæl&typHyp;
+<lb/>kestuen paa Livstid; &dash; &dash; havde ikke den
+<lb/>Omstændighed været iveien, saa skulde
+<lb/>jeg have ladet det rive ned for længe
+<lb/>siden.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>det var saa almindeligt, saa</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Naa, naa, kom nu ikke med de Nykker
+<lb/>igjen; &dash; Du er smuk, og hvad der er
+<lb/>det vigtigste &dash; Du er rig. &dash; Gaae nu
+<lb/>ind og see efter om Alt er i
+<lb/>Orden. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>Og for at pynte mig.</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">7</fw>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, det behøver jeg vel ikke at bede
+<lb/>om &dash; &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>Nei, vær<HIS:hisDel rend="overstrike">e</HIS:hisDel> kun rolig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(alene)</HIS:hisStage></HIS:spOpener><p>Rig? &dash; Ja, Folk troe det ialfald,
+<lb/>men &dash; &dash; naa, saa galt fat er det dog
+<lb/>igrunden ikke endnu, &dash; &dash; og er først
+<lb/>Forlovelsen offentliggjort, saa følger
+<lb/>Brylluppet snart efter &dash; &dash; saa er han
+<lb/>min Svigersøn, og jeg har ikke mere
+<lb/>at frygte. &dash; Men alligevel &dash; om Papi&typHyp;
+<lb/>rerne virkelig vare til endnu! og
+<lb/>umueligt er det ikke &dash; &dash; ja vidste
+<lb/>jeg det blot med Sikkerhed! &dash; &dash; der
+<pb/><lb/><fw type="page" place="top-left">8</fw>
+<lb/>er kun eet Sted, hvor de kunne være at
+<lb/>søge &dash; i Ravnereden <HIS:hisDel rend="overstrike" hand="h1">derinde</HIS:hisDel> &dash; og der
+<lb/>sætter jo Ingen sin Fod undtagen den
+<lb/>Gamle og Anne &dash; &dash; Han gaaer jo alt i
+<lb/>Barndommen; det kan ikke vare længe
+<lb/>med ham, og saa lader jeg rydde op i
+<lb/>Skramleriet &dash; &dash; jeg maa have Vished i
+<lb/>Sagen, før bliver jeg ikke rolig!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Hun gaaer ind i Huset)</HIS:hisStage>
+</div>
+<div type="scene" n="3">
+<lb/><head>Tredie Scene</head>
+<lb/><HIS:hisStage>Berg. Anne</HIS:hisStage>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>som længe har været glemt &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(kalder inde i Huset)</HIS:hisStage></HIS:spOpener><p>Anne! Anne</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<pb/><lb/><fw type="page" place="top-right">9</fw>
+<lb/><p>jeg troer de kalde paa Dig &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(som før)</HIS:hisStage></HIS:spOpener><p>Anne! saa skynd Dig dog!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>hvor det er blevet svagt og glemsomt.</p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>Fjerde Scene</head>
+<lb/><HIS:hisStage>Anne. Fruen. Juliane.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(til Anne)</HIS:hisStage></HIS:spOpener><p>Herregud, hvor bliver Du dog
+<lb/>af? ..... Skynd Dig nu og gjør Theebordet
+<lb/>istand; de komme alt nedad Bakken. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>sidder det nu rigtigt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, vær Du ganske rolig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<pb/><lb/><fw type="page" place="top-left">10</fw>
+<lb/><p>jeg er saa beklemt</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men Du er vist ogsaa alt for stærk
+<lb/>snøret, Barn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>saa er Hemmeligheden røbet &dash; og &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Aa, det behøver Du sletikke at frygte
+<lb/>for; Du har jo paalagt ham at holde
+<lb/>Sagen dulgt, og desuden er Birk ikke af
+<lb/>dem som bruse op &dash; &dash; han er ikke af
+<lb/>de lidenskabelige Mennesker.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>saa hastigt blev offentliggjort</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men Juliane! hvad er nu det for Snak!</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">11</fw>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>andre Erindringer at dvæle ved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Erindringer? &dash; Saa! &dash; &dash; Du mener vel
+<lb/>Narrestregerne fra den Tid, da Du gik
+<lb/>i Institutet. &dash; Jeg vil raade Dig til, at
+<lb/>Du ikke lader Birk mærke noget Saadant, &dash; &dash;
+<lb/>og hvad Forlovelsen angaaer, saa er den
+<lb/>Sag afgjort &dash; &dash; det er ikke mere at tale
+<lb/>om. &dash;</p></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>Femte Scene</head>
+<lb/><HIS:hisStage>De Forrige. Birk og Jørgen.</HIS:hisStage>
+<lb/><HIS:hisSp who="JORGEN"><HIS:spOpener><speaker>Jørgen</speaker></HIS:spOpener>
+<lb/><p>indviet i Hemmeligheden, saa</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>En Ven?</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">12</fw>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>Aa, jeg beer &dash; &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men Anne dog!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>formodentlig ogsaa en Familien?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Min Steddatter. <HIS:hisStage>(hviskende)</HIS:hisStage> Stakkels
+<lb/>Barn, hun er ikke altid saa vel forva&typHyp;
+<lb/>ret. &dash; <HIS:hisStage>(til Anne)</HIS:hisStage> Gaae hen og pas dit
+<lb/><sic>Arbiede</sic>!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>det er dog Interressant</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Nu, han skal være os hjertelig velkommen.
+<lb/>Men ville I ikke skille Eder af med Rand
+<pb/><lb/><fw type="page" place="top-right">13</fw>
+<lb/>slerne saalænge? Theebordet venter allerede. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JORGEN"><HIS:spOpener><speaker>Jørgen</speaker></HIS:spOpener>
+<lb/><p>for vi ere igrunden baade sultne og tørstige!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Alle gaae)</HIS:hisStage>
+</div>
+<div type="scene" n="6">
+<lb/><head><HIS:hisDel rend="overstrike">Syvende</HIS:hisDel> <HIS:hisAdd place="inline">Sjette</HIS:hisAdd> Scene</head>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Naa, der komme de nok!</p></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>Syvende Scene</head>
+<lb/><HIS:hisStage>De Forrige. Fruen. m.Fl:</HIS:hisStage>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Jeg har rimeligviis ikke den Ære &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ih, jo vist! De er os allerede bekjendt,
+<lb/>og &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Aa, jeg beer &dash; &dash;</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">14</fw>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men vær nu saa gode at tage Plads.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Takker, takker!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(skjænker Thee)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>Ja ikke sandt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Saa De sværmer altsaa for Naturen?
+<lb/>Ja, det gjorde saamæn min salig
+<lb/>Mand ogsaa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>var et poetisk Gemyt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Berg? Nei tvertimod, han var Procura&typHyp;
+<pb/><lb/><fw type="page" place="top-right">15</fw>
+<lb/>tor. &dash; &dash; Det er min første Mand jeg
+<lb/>mener, &dash; Jørgens og Julianes Fader &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Men Gudbevares &dash; jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Anne, Anne dog! &dash; hvad tænker Du paa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>gjøre mig meget ondt, hvis &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>O nei! Jeg maa tvertimod bede Dem
+<lb/>undskylde &dash; &dash; De kan troe, jeg skal
+<lb/>skjænde paa hende. &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Hør ham! hør ham!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men saa maa Du være os behjælpelig
+<pb/><lb/><fw type="page" place="top-left">16</fw>
+<lb/>Jørgen! Du forstaaer Dig dog vel
+<lb/>paa Punschlavning</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JORGEN"><HIS:spOpener><speaker>Jørgen</speaker></HIS:spOpener>
+<lb/><p>Ja det skulde jeg mene!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Fruen og Jørgen gaae ind)</HIS:hisStage>
+</div>
+<div type="scene" n="10">
+<lb/><head>Tiende Scene</head>
+<lb/><HIS:hisSp who="NISSEN"><HIS:spOpener><speaker>Nissen</speaker></HIS:spOpener>
+<lb/><p>Han vandrer i Blinde som ellers og sover.</p></HIS:hisSp>
+</div>
+<div type="scene" n="11">
+<lb/><head>Ellevte Scene</head>
+<lb/><HIS:hisStage>Fruen. Jørgen. Paulsen og Juliane (fra Hovedbygningen)</HIS:hisStage>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Indfald havde forstemt Dem</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Aa, hvor kan De nu troe &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Stemmer fra Baggrunden</speaker></HIS:spOpener>
+<lb/><p>Hurra!</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">17</fw>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ih, min Gud!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>velkommen efter!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Fruen gaaer i Baggrunden med de Andre)</HIS:hisStage>
+</div>
+<div type="scene" n="12">
+<lb/><head>Tolvte Scene</head>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Chor</speaker></HIS:spOpener>
+<lb/><p>Vor Vei vi da ville finde!</p></HIS:hisSp>
+</div>
+<div type="scene" n="13">
+<lb/><head>Trettende Scene</head>
+<lb/><HIS:hisStage>Fruen og Jørgen (fra Baggrunden)</HIS:hisStage>
+<lb/><HIS:hisSp who="JORGEN"><HIS:spOpener><speaker>Jørgen</speaker></HIS:spOpener>
+<lb/><p>heller tilbringe den i Sengen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Og jeg tænker at det gaaer ligedan med
+<lb/>de Andre; lad os sætte os inde og vente
+<lb/>paa dem. <HIS:hisStage>(De gaae ind i Huset)</HIS:hisStage></p></HIS:hisSp>
+</div>
+</div>
+<pb/><lb/><fw type="page" place="top-left">18</fw>
+<div type="act" n="3">
+<lb/><head>Tredie Act</head>
+<div type="scene" n="4">
+<lb/><head>Fjerde Scene</head>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>det maa gaae som det vil!</p></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>Femte Scene</head>
+<lb/><HIS:hisStage>Birk. <HIS:stageRole who="FRUEN">Fruen</HIS:stageRole> og Juliane (komme
+<lb/>ud fra Hovedbygningen)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Naa, see der har vi ham da endelig! Jeg
+<lb/>har næsten ikke faaet tale et Ord med
+<lb/>Dem endnu &dash; &dash; og da vore Gjæster allerede
+<lb/>ventes til Middag, saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>han er bleven utaalmodig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(smilende)</HIS:hisStage></HIS:spOpener><p>Nu, det lader til, at De har
+<pb/><lb/><fw type="page" place="top-right">19</fw>
+<lb/>Hastværk. &dash; Juliane er ikke nær saa
+<lb/>hæftig &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>hvor kan Du dog sige det.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Nu nu, det er jo bare mit Spøg! &dash; Men
+<lb/>kom, Birk! lad os tale lidt sammen
+<lb/>om vore Fremtidsplaner.. I unge Folk
+<lb/>leve nu kun for Kjærligheden og Øie&typHyp;
+<lb/>blikket, og tænke ikke paa den Dag imor&typHyp;
+<lb/>gen. <HIS:hisStage>(Fruen og Birk spadsere op og ned til&typHyp;
+<lb/>venstre)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>Sjette Scene</head>
+<lb/><HIS:hisStage>De Forrige. Jørgen.</HIS:hisStage>
+<lb/><HIS:hisSp who="JORGEN"><HIS:spOpener><speaker>Jørgen</speaker></HIS:spOpener>
+<lb/><p>hvad skulde jeg gjøre?</p></HIS:hisSp>
+</div>
+<pb/><lb/><fw type="page" place="top-left">20</fw>
+<div type="scene" n="7">
+<lb/><head><app type="alteration"><lem><HIS:hisAdd place="offline">Syvende</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">Ottende</HIS:hisDel></HIS:hisRdg></app> Scene</head>
+<lb/><HIS:hisStage>De Forrige. Berg. Anne.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Min Gud! hvad skal det sige? &dash;
+<lb/>hvad vil han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>Forlovelse her, hører jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, saa havde jeg tænkt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>som gjøre mig ulykkelig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(til Berg)</HIS:hisStage></HIS:spOpener><p>Naa saa De er vidende derom? &dash;
+<lb/>Det er da vel Anne kan jeg tænke, som &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>ikke kommer ham ved &dash; &dash;</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">21</fw>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, jeg havde rigtignok troet &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>han kalder Moder Mo'er</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Nu, hvad er det?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>overdraget mig at levere &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Godt, godt! Giv mig dem da!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>Folk til Gaarden, og &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(peger paa Birk)</HIS:hisStage></HIS:spOpener><p>For ham ere vi ialfald
+<lb/>ikke fremmede &dash; det maa De kunne
+<lb/>indsee. &dash;</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">22</fw>
+<lb/><HIS:hisSp who="BERG"><HIS:spOpener><speaker>Berg</speaker></HIS:spOpener>
+<lb/><p>vil gifte Jer Datter?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, det har jeg aldrig lagt Dølgsmaal
+<lb/>paa. &dash; Men da nu Papirerne vel ere
+<lb/>overflødige &dash; saa &dash; <HIS:hisStage>(hun vil tage dem)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>hvad de indeholde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Min Gud! ifald de være der
+<lb/>allesammen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>er det dog for Papirer?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(i ængstelig Spænding)</HIS:hisStage></HIS:spOpener><p>Aa, hvad veed jeg
+<lb/>det! Gamle Familiedocumenter,
+<pb/><lb/><fw type="page" place="top-right"><unclear reason="writing">23</unclear></fw>
+<lb/>kan jeg tænke. &dash; Det er uforsvarligt at brin&typHyp;
+<lb/>ge ham Sligt idag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>hvad disse Papirer indeholde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Jeg? Nei, hvor skulde jeg kunne &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>den som Gave af Dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men jeg forstaaer ikke &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>Sagens skjulte Sider, og &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Og De troer altsaa &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>gav De ham Deres Haand.</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">24</fw>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men Birk!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>min Opdragelse, min Underviisning.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Har han &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>vort Mellemværende opgjøres.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Min Gud, Birk! De vil da vel ikke &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>give dem i mine Hænder.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men hvad er da Deres Hensigt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>Og dernæst &dash;</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">25</fw>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>ethvert Baand mellem os</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>De vil altsaa &dash;? De mener &dash; &dash; Juliane &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>Jeg ægter hende ikke!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Og De betænker ikke hendes Rygte? Vi ville
+<lb/>komme i Folkemunde &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>har i vor Forlovelse, og &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(hurtigt)</HIS:hisStage></HIS:spOpener><p>Det er nok &dash; det er nok! &dash; naar
+<lb/>det endelig maa saa være. &dash; Men Taushed
+<pb/><lb/><fw type="page" place="top-left">26</fw>
+<lb/>venter jeg af Dem, Taushed i alle Henseender &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<HIS:hisDel rend="overstrike" hand="h2"><lb/><p>endelig er jeg da fri! &dash; &dash;</p></HIS:hisDel></HIS:hisSp>
+<HIS:hisDel rend="overstrike" hand="h2"><lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener></HIS:hisSp></HIS:hisDel>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>hvad er der igjære?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Stille Barn! &dash; Fat Dig! det er mueligt at
+<lb/>her ikke bliver nogen Forlovelse af idag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JORGEN"><HIS:spOpener><speaker>Jørgen</speaker></HIS:spOpener>
+<lb/><p>Papirerne den Sag ved?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ei, Papirerne komme jo ikke Sagen ved &dash; det er
+<lb/>Familieaffairer, gamle Documenter.</p></HIS:hisSp>
+</div>
+<div type="scene" n="8">
+<lb/><head>Ottende Scene</head>
+<lb/><HIS:hisStage>De Forrige. Paulsen.</HIS:hisStage>
+<pb/><lb/><fw type="page" place="top-right">27</fw>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>Ja vel, ja vel!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker>
+<lb/><HIS:hisStage>(til Jørgen)</HIS:hisStage></HIS:spOpener><p>Nu ryger Hemmeligheden i Lyset!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>reent forbi mellem os!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ti stille!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="JULIANE"><HIS:spOpener><speaker>Juliane</speaker></HIS:spOpener>
+<lb/><p>Min Ven!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men, Hr. Paulsen! hvorledes skal jeg forstaae
+<lb/>dette?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>her staar hun!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker></HIS:spOpener>
+<pb/><lb/><fw type="page" place="top-left">28</fw>
+<lb/><p>Anne!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="BIRK"><HIS:spOpener><speaker>Birk</speaker></HIS:spOpener>
+<lb/><p>bevare Hemmeligheder; ikke sandt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Ja, det haaber jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="PAULSEN"><HIS:spOpener><speaker>Paulsen</speaker></HIS:spOpener>
+<lb/><p>ikke altid Theorierne til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUEN"><HIS:spOpener><speaker>Fruen</speaker></HIS:spOpener>
+<lb/><p>Men hvorom Alting er, saa faa vi idag
+<lb/>to Forlovelser at offentliggjøre istedet
+<lb/>for een. &dash;</p></HIS:hisSp>
+<lb/><figure type="bar"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>    
+
+
+

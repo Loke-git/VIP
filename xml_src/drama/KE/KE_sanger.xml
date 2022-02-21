@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+        <fileDesc>
+            <titleStmt>
+                <title level="s" type="main">Henrik Ibsens skrifter</title>
+                <title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+                <title level="a" type="main">Kongs-Emnerne</title>
+                <title level="a" type="sub">Sanger til oppførelse 1871</title>
+                <author>Henrik Ibsen</author>
+                <funder>&funder;</funder>
+                <editor>&editor;</editor>
+                <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Henninge Margrethe Solberg</name></respStmt>
+                <respStmt>
+                    <resp>Oppretting, august 2012</resp>
+                    <name>Stine Brenna Taugbøl</name></respStmt>
+                <respStmt><resp>Koding og kollasjonering</resp>
+                    <name>Stine Brenna Taugbøl</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition xml:id="KE_sanger-0812"/></editionStmt>
+            <publicationStmt><publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+                <distributor xml:id="HISe">Universitetet i Oslo</distributor>
+                <date when="2012" xml:id="HISe-date"/>
+                <pubPlace>Oslo</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <HIS:hisMsDesc type="letter" xml:id="KE_sanger">
+                    <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository>Nordiska Museet</repository>
+                        <idno>inv.nr. 20.082 a-b</idno>
+                    </msIdentifier>
+                    <HIS:letterinfo corresp="B18700625PHe">
+                        <name role="sender"><HIS:hisRef type="person" target="Navneregister_HISe.xml#peHI">HENRIK IBSEN</HIS:hisRef></name>
+                        <name role="recipient"><HIS:hisRef type="person" target="Navneregister_HISe.xml#pePHe">PETER HEISE</HIS:hisRef></name>
+                        <origDate when="1870-06-25">25. juni 1870</origDate>
+                        <origPlace><HIS:hisRef type="place" target="Navneregister_HISe.xml#plDre">DRESDEN</HIS:hisRef></origPlace>
+                        <physDesc><objectDesc><p>Brevet inneholder vedlegg (3 sider) med sanger fra Kongsemnerne, det er disse som inngår i denne fila.</p></objectDesc></physDesc>
+                    </HIS:letterinfo>
+                </HIS:hisMsDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>&projectDesc-grt-ms;</p></projectDesc>
+            <editorialDecl>
+                <stdVals><p>&stdVals;</p></stdVals>
+                <p>&editorialDecl;</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+            <handNotes>
+                <handNote scribe="B18700625PHe-HI" xml:id="B18700625PHe-HI" medium="pen" scope="major"><p>Blekk. Henrik Ibsen. Hovedhånd</p></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>23.08.12</date><name>SBT</name><title>HISe/TEI P5</title>
+                Opprettet grunntekstfil (fantes ikke fra før) med utgangspunkt i KEht.xml. Valid TEI P5.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="drama" rend="handwritten" xml:lang="dan-nob">
+        <body>
+            <HIS:hisDiv type="song" n="3">
+                <HIS:hisLg>
+                    <lb/><head type="number"><pb n="2"/>3<hi rend="raised">die</hi> akt.</head>
+                    <lb/><head type="main">Munkenes sang</head>
+                    <HIS:hisLg>
+                        <HIS:hisLg>
+                            <lb/><l>Sankt Olaf og sankt Peder,</l>
+                            <lb/><l>stat op og ruster eder,</l>
+                            <lb/><l>knus slangen med jer hæl; &dash;</l>
+                            <lb/><l>sankt Halvard og sankt Thomas,</l>
+                            <lb/><l>og alle helgne Romas,</l>
+                            <lb/><l>slå kreds om bispens sjæl!</l>
+                        </HIS:hisLg>
+                        <HIS:hisLg>
+                            <lb/><l>Nu er han hårdt i vånde;</l>
+                            <lb/><l>ryk ud imod den onde,</l>
+                            <lb/><l>sankt Patrick og sankt Sveder,</l>
+                            <lb/><l>sankt Olaf og sankt Peder,</l>
+                            <lb/><l>sankt Halvard og sankt Thomas,</l>
+                            <lb/><l>og alle helgne Romas!</l>
+                        </HIS:hisLg>
+                    <figure type="bar"/>
+                    </HIS:hisLg></HIS:hisLg>
+            </HIS:hisDiv>
+            <HIS:hisDiv type="song" n="4">
+                <HIS:hisLg>
+                    <lb/><head type="number"><pb n="3"/>5<hi rend="raised">te</hi> akt.</head>
+                    <lb/><head type="sub">(Finale.)</head>
+                    <lb/><head type="main">Kvindernes sang</head>
+                    <lb/><head type="sub">(i kapellet.)</head>
+                    <HIS:hisLg>
+                        <HIS:hisLg>
+                            <lb/><l>Slagen er slangen!</l>
+                            <lb/><l>Ydmyg og fangen</l>
+                            <lb/><l>synderen kommer! &dash;</l>
+                            <lb/><l>Slut ham i armene,</l>
+                            <lb/><l>høje, forbarmende</l>
+                            <lb/><l>jordlivets dommer!</l>
+                        </HIS:hisLg>
+                        <HIS:hisLg>
+                            <lb/><l>Vindende viger han,</l>
+                            <lb/><l>styrer mod tronen;</l>
+                            <lb/><l>sejrende stiger han &dash; &dash;;</l>
+                            <lb/><l>nu har han kronen!</l>
+                        </HIS:hisLg>
+                    <figure type="bar"/>
+                    </HIS:hisLg></HIS:hisLg>
+            </HIS:hisDiv>
+            <HIS:hisDiv type="song" n="1">
+                <HIS:hisLg>
+                    <lb/><head type="number"><pb n="4"/>1.</head>
+                    <lb/><head type="main">Kor af munke og nonner.</head>
+                    <lb/><head type="sub">(Domine coeli etc:)</head>
+                    <HIS:hisLg>
+                        <lb/><l>Himlens Herre, dine skarer Du sende</l>
+                        <lb/><l>til sejr for sandhedens sag!</l>
+                        <lb/><l>Er hun falsk, &dash; hendes kød Du til aske brænde,</l>
+                        <lb/><l>som en lynild på dommens dag!</l>
+                    </HIS:hisLg></HIS:hisLg>
+            </HIS:hisDiv>
+            <HIS:hisDiv type="song" n="2">
+                <HIS:hisLg>
+                    <lb/><head type="number">2.</head>
+                    <lb/><head type="main">Koret fra kirken.</head>
+                    <lb/><head type="sub">(Gloria in excelsis deo.)</head>
+                    <HIS:hisLg>
+                        <lb/><l>Lovet være Herren i det høje!</l>
+                        <lb/><l>Åbenbaret har han sin magt.</l>
+                        <lb/><l>Miraklet er fuldbragt. &dash;</l>
+                        <lb/><l>Lovet, lovet være Herren i det høje!</l>
+                    </HIS:hisLg>
+                <figure type="bar"/>
+                </HIS:hisLg>
+            </HIS:hisDiv>
+        </body>
+    </text>
+</TEI>

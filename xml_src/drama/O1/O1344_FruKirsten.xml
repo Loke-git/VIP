@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % HIS_entiteter SYSTEM
+'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+%HIS_entiteter;
+]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Olaf Liljekrans</title>
+<title level="a" type="sub">første hovedversjon, TarkUiB NT344r (rollehefte, Fru Kirsten)</title>
+<title level="a" type="origYear">1856</title>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Bjørg Harvey, Helene Grønlien, Ellen Nessheim Wiger</name></respStmt>
+<respStmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respStmt>
+<respStmt>
+<resp>Transkripsjon (av faksimiler), vinter 2001:</resp>
+<name>Bjørg Harvey</name>
+</respStmt>
+<respStmt>
+<resp>Konvertering fra word-dokument til prosjektspesifikk TEI XML, april 2001:</resp>
+<name>Helene Grønlien</name>
+</respStmt>
+<respStmt>
+<resp>Kollasjonering. koding og korrektur: april-oktober 2001:</resp>
+<name>Helene Grønlien</name>
+<name>Ellen Nessheim Wiger</name>
+</respStmt>
+<respStmt>
+<resp>Oppdateringer:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+<name>Ingrid Falkenberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="O1344-1112"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"/>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på ekstern transkripsjon av faksimiler.</p>
+<p>
+<HIS:hisMsDesc type="parts" xml:id="O1344">
+<msIdentifier>
+<settlement>Bergen</settlement>
+<repository>Bergen Museum</repository>
+<idno>Teaterarkivet UiB NT344r</idno>
+</msIdentifier>
+<msContents><msItem>
+<author>Henrik Ibsen</author>
+<title type="main">Olaf Liljekrans</title>
+<title type="sub">Skuespil i 3 Akter</title>
+<docDate>1856</docDate>
+</msItem>
+<msItem n="FruKirsten"><locus>64 s</locus><title>Fru Kirsten Liljekrans i &lquo;Olaf Liljekrans.&rquo; Skuespil i 3 Akter af Hr. Henrik Ibsen.</title></msItem>
+</msContents>
+<physDesc><objectDesc><p>Rollehefte, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectDesc></physDesc>
+</HIS:hisMsDesc>
+</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Olaf Liljekrans - 12 rollehefter (OL344):</head>
+<item>h1-rolleheftene ("Alfhild", "Hemming", "Ingeborg", "Bryllupsgjaester", "Første Svend", "Anden Svend", "Mænd, Kvinder...1", "Mænd, Kvinder...2", "Terner1" og "Terner2"):
+<list>
+<item>skriftgruppe: latinsk håndskrift med innslag av gotiske bokstaver (gjelder særlig sceneanvisninger)</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>omslag:
+<list>
+<item>"Alfhild": rosa papiromslag med etikett merket med tittel (blyant) og 'Mdm Bruun' (sort penn)</item>
+<item>"Hemming": rosa papiromslag med etikett merket med rollenavn og tittel (blyant); mellom rollenavn og tittel er navnet 'Hr: H. Nielsen' tilføyd med sort penn; bak i innbindingsfellen; krusedull øverst til venstre</item>
+<item>"Ingeborg": rosa papiromslag med etikett merket rollenavn, 'Mdam Isachsen' og tittel</item>
+</list>
+</item>
+<item>tittelside: midtstilt, unntak: arkantall er høyrestilt i alle h1-rolleheftene
+<list>
+<item>"Alfhild":
+<list>
+<item>tittelrolle: stor skift</item>
+<item>hovedtittel: større skrift enn deltittel og forfatter</item>
+<item>arkantall: øverst høyre hjørne; dobbel understreking</item>
+<item>øvrig tekst: ingen markering</item>
+</list>
+</item>
+<item>Øvrige h1-rollehefter:
+<list>
+<item>tittelrolle: dobbel understreking; i noen av rolleheftene større og/eller fetere skrift</item>
+<item>tilleggsopplysninger (om tittelrollen): variererer mellom umarkert (i "Hemming" og "Ingeborg"), enkel understreking (i "Bryllupsgjaester", "Første Svend", "Anden Svend", "Mænd, Kvinder...2", "Terner1" og "Terner2") og dobbel understreking (i "Mænd, Kvinder...1")</item>
+<item>hovedtittel: enkel understreking; halvstor skrift</item>
+<item>øvrig tekst (deltittel, 'af' og forfatternavn): ingen markering</item>
+<item>arkantall: øverst høyre hjørne; dobbel understreking</item>
+<item>skuespilleropplysninger (ikke i "Bryllupsgjaester", "Terner1" og "Terner2"): tilnærmet midtstilt nederst på siden; i "Hemming" er navn og dato skrevet med blyant</item>
+</list>
+</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>overskrift: midtstilt; dobbel understrekning</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>overskrift: midtstilt; dobbel understrekning; ordenstall med hevet "ste", "den" osv. (kodet hi rend="raised"), liten krussedull under hevet skrift (ikke kodet)</item>
+<item>sceneanvisning: enkel understrekning; med og uten parenteser; del av løpende tekst eller midtstilt på egen linje</item>
+<item>uthevning i sceneanvisning:
+<list>
+<item>tykk(ere), enkel understreking av rollenavn er kodet med stageRole (NB! de fleste rollenavn i sceneanvisning er ikke markerte); noen få forekomster av dobbel understreking, kodet stageRole rend="underlined2"</item>
+<item>tykk(ere), enkel understreking av ord som IKKE er rollenavn er kodet med hi; dobbel og trippel understreking forekommer også, kodet henholdsvis hi rend="underlined2" og hi rend="underlined3"</item>
+</list>
+</item>
+<item>rollenavn:
+<list>
+<item>tittelrollenavn: representert via en horisontal strek i venstre marg på samme linje som replikken begynner (kodet med tomt speaker-element, og rollenavnets who-attributt i sp. Dersom rollenavnet mangler who-attributt, kan det tomme speaker-elementet identifiseres via rolleheftets id-attributt siden det alltid vil være identisk med dette)</item>
+<item>andre rollenavn: umarkerte i venstre marg på samme linje som replikken begynner; avvik: noen steder er rollenavnet understreket (både enkel og dobbel understreking forekommer) og/eller står på egen linje (eventuelt på linje med innledende sceneanvisning), kodet rend-attributt i speaker</item>
+</list>
+</item>
+<item>avsnitt/replikk: rolleinnehavers replikker er umarkerte, mens de øvrige har enkel understreking, verslinjer innledes av stor forbokstav</item>
+<item>utheving i replikk: enkel understreking</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>dobbel skillestrek: midtstilt
+<list>
+<item>på tittelsidene: 1-3 cm</item>
+<item>sist i akt 1 og 2 i "Alfhild", "Hemming", "Ingeborg" og "Første Svend" (kun i 1. akt): 1-2 cm</item>
+</list>
+</item>
+<item>"pyntekrussedull": midtstilt
+<list>
+<item>på tittelsiden i "Terner2": ca 5 cm</item>
+<item>med blyant nederst på tittelsiden i "Hemming": ca 12 cm</item>
+<item>sist i heftene (ikke i "Mænd, Kvinder...1" og "Mænd, Kvinder...2"): 4,5-14 cm</item>
+</list>
+</item>
+<item>bindestreker: doble komma, nedre</item>
+<item>tankestreker: horisontal strek, lengde varierer</item>
+<item>anførselstegn: dobbel komma, øvre; i "Alfhild" forekommer dobbel komma, nedre ett sted</item>
+<item>parentes: "vanlige" buede</item>
+<item>sidenummerering (bare i "Alfhild"): annenhver side nummerert; øverste, ytterste hjørne</item>
+</list>
+</item>
+<item>Skriblerier:
+<list>
+<item>"Alfhild":
+<list>
+<item>s.16, Alfhilds tredje replikk; skribleri</item>
+<item>s.59, Alfhilds fjerde replikk; skribleri</item>
+</list>
+</item>
+<item>"Ingeborg":
+<list>
+<item>s.8-10, 1.akt, 7.scene: blyantrammer rundt replikker og sceneanvisninger mellom Ingeborgs sang</item>
+</list>
+</item>
+<item>"Første Svend":
+<list>
+<item>tittelsiden: '344' skrevet med blyant øverst til høyre</item>
+<item>første akt, 3. scene, Anden Svends andre replikk: skribleri over horisontal strek som markerer rollenavn</item>
+<item>andre akt, 11. scene: blyantskribleri over horisontal strek som markerer rollenavn ved andre, tredje, fjerde og femte replikk</item>
+</list>
+</item>
+<item>"Anden Svend":
+<list>
+<item>bakside av tittelside: skriblet "Latter" i parentes med svak, utydelig skrift</item>
+<item>2.akt, scene 11: blyantskribleri over strek som markerer rollenavn</item>
+</list>
+</item>
+<item>"Bryllupsgjæster:"
+<list>
+<item>tittelsiden: '344' skerevt med blyant midt øverst</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+</item>
+<item>h2-rolleheftet ("Fru Kirsten"):
+<list>
+<item>skriftgruppe: latinsk håndskrift med innslag av gotisk 's'</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: svakt høyrehellende</item>
+<item>tittelside: midtstilt
+<list>
+<item>tittelrolle + 'i': høyrehellende, stor skift</item>
+<item>hovedtittel: venstrehellende</item>
+<item>deltittel + forfatter: høyrehellende</item>
+<item>arkantall: øverst i høyre hjørne, pyntestrek under</item>
+<item>skuespilleropplysninger: høyrejustert</item>
+</list>
+</item>
+<item>akt:
+<list>
+<item>aktoverskift: midtstilt; dobbel understreking</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>sceneoverskift: midtstilt; dobbel understreking</item>
+<item>sceneanvisninger: varierende bruk av parenteser; enkel understreking; som oftest del av avsnitt eller midtstilt på egen linje</item>
+<item>rollenavn til prosareplikk:
+<list>
+<item>tittelrollenavn: representert via en horisontal strek i venstre marg på samme linje som replikken begynner (kodet med tomt speaker-element, og rollenavnets who-attributt i sp)</item>
+<item>andre rollenavn: i venstre marg på samme linje som replikken begynner</item>
+</list>
+</item>
+<item>rollenavn til versreplikk: alle rollenavn skrevet ut; midtstilt før replikk; tykk, enkel understreking</item>
+<item>replikk: tittelrollens replikker umarkerte, andre replikker er markert med enkel understreking
+<list>
+<item>prosareplikk: avsnitt i lengre replikker markert med innrykk</item>
+<item>versreplikk: hver verslinje innledes med stor forbokstav uansett syntaks</item>
+</list>
+</item>
+<item>utheving i sceneanvising: rollenavn har av og til tykk(ere) enkel understreking (kodet med stageRole); ett tilfelle av stageRole midtstilt på egen linje, kodet stageRole rend="centre"</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>pyntestrek:
+<list>
+<item>under arkantall på tittelside: 2,7 cm</item>
+<item>nederst på tittelside: 14,5 cm</item>
+</list>
+</item>
+<item>"pyntekrussedull"
+<list>
+<item>sist i 3. akt/stykket: ca 14 cm</item>
+</list>
+</item>
+<item>bindestreker: dobbel horisontal strek</item>
+<item>tankestreker: horisontal strek, lengde varierer</item>
+<item>anførselstegn:
+<list>
+<item>venstre: dobbel komma, nedre</item>
+<item>høyre: dobbel komma, øvre</item>
+</list>
+</item>
+<item>parentes: "vanlige" buede</item>
+<item>sidenummerering: øverste, ytterste hjørne</item>
+</list>
+</item>
+</list>
+</item>
+<item>h3-rolleheftet ("Olaf"):
+<list>
+<item>skriftgruppe: latinsk håndskrift med noen få innslag av gotisk 's'</item>
+<item>bokstavvariant: minuskler og majuskler</item>
+<item>skrifthelling: høyrehellende</item>
+<item>omslag: rosa papiromslag; på etiketten er 'Olaf Liljekrans' skrevet med blyant; biblioteksstempel nederst til venstre</item>
+<item>tittelside: hovedtittel + deltittel høyrejustert, "af" midtstilt, forfatter litt venstrejustert; ingen markering</item>
+<item>akt:
+<list>
+<item>aktoverskift: midtstilt; enkel understreking i 1. akt, dobbel understreking i 2. og 3. akt</item>
+</list>
+</item>
+<item>scene:
+<list>
+<item>sceneoverskift: midtstilt; varierer mellom enkel og dobbel understreking</item>
+<item>sceneanvisninger: vekslende bruk av parenteser; enkel understreking; lengre sc. anv. er venstrejustert, for korte sc. anv. varierer justeringen.</item>
+<item>rollenavn til prosareplikk:
+<list>
+<item>tittelrollenavn: representert via en horisontal strek i venstre marg på samme linje som replikken begynner (kodet med tomt speaker-element, og rollenavnets who-attributt i sp)</item>
+<item>andre rollenavn: enkel understreking; i venstre marg på samme linje som replikken begynner</item>
+</list>
+</item>
+<item>rollenavn til versreplikk: alle rollenavn skrevet ut; midtstilt før replikk; enkel understreking</item>
+<item>replikk: tittelrollens replikker umarkerte, andre replikker er markert med enkel understreking
+<list>
+<item>prosareplikk: avsnitt i lengre replikker markert med innrykk</item>
+<item>versreplikk: hver verslinje innledes med stor forbokstav</item>
+</list>
+</item>
+<item>utheving i sceneanvising: rollenavn har av og til tykk(ere) enkel understreking (kodet med stageRole)</item>
+</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+<list>
+<item>"pyntekrussedull"
+<list>
+<item>på tittelbladet: ca 9 cm</item>
+<item>sist i aktene: ca 12 cm</item>
+</list>
+</item>
+<item>bindestreker: dobbel komma, nedre</item>
+<item>tankestreker: horisontal strek, lengde varierer</item>
+<item>anførselstegn: dobbel komma, øvre</item>
+<item>parentes: skråstreker</item>
+<item>sidenummerering: øverste, ytterste hjørne, av og til med strek under og punktum etter; NB! bare noen få sider i dette rolleheftet er nummerert</item>
+</list>
+</item>
+<item>skriblerier:
+<list>
+<item>s.4, 1.akt, 8.scene: skråstrek nederst i venstre hjørne</item>
+<item>s.5, 1.akt, 8.scene: blyantskribleri i Olafs replikk</item>
+<item>s.7, 1.akt, 8.scene: en av Hemmings replikker har ekstra blyantunderstrekning</item>
+<item>s.29, 2.akt: skribleri over aktangivelse</item>
+<item>s.33, 2.akt: en av Fru Kirstens replikker er understreket med blyant</item>
+<item>s.37, 2.akt, Olafs replikk: Kryss i venstremarg over første bokstav</item>
+<item>s.47, 2.akt, 11. scene: Alfhilds replikk er understreket med blyant</item>
+<item>s.61, 3.akt, Ingeborgs replikk: strek over 'd' i "med" slik at den framstår som strungen</item>
+<item>s.66 3.akt, Olafs replikk: strek over 'b' i "betenke"</item>
+<item>siste side: dekket av skriblerier, samt følg. skrevet på tvers av arket: "Lene, du blier Møen for Mange"</item>
+</list>
+</item>
+</list>
+</item>
+<item>Annet (gjelder alle rolleheftene):
+<list>
+<item>Stilltiende rettelser: manglende prikk over 'i' er rettet stilltiende (Fru Kirstens rollehefte, s 28 nederst).</item>
+<item>Rettskriving: Rolleheftet til Olaf følger en litt annen rettskrivning enn de øvrige (bl.annet Act for Akt).</item>
+</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>titlePart id=""</headLabel><headItem>titlePart/speaker/stageRole</headItem>
+<label>ALFHILD</label><item>Alfhild</item>
+<label>ARNE</label><item>-/Arne/Arne, Arne fra Guldvik</item>
+<label>FRUKIRSTEN</label><item>Fru Kirsten Liljekrans/Fru Kirsten, Fruen, Kirsten/Fru Kirsten, Fruen, Kirsten</item>
+<label>HEMMING</label><item>Hemming</item>
+<label>INGEBORG</label><item>Ingeborg/Ingeborg, Ingeb/Ingeborg</item>
+<label>OLAF</label><item>-/Olaf/Olaf, Olaf Liljekrans, Olaf Liliekrans</item>
+<label>THORGJERD</label><item>-/Thorgjerd, Thorgj, Thorg/Thorgjerd<note>Rolleheftene til Thorgjerd og Arne mangler; id-attributt for disse er derfor lagt inn i sp/stageRole ved første forekomst (replikk eller stageRole).</note></item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-TEI;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage><language ident="nob"/><language ident="dan-nob"/></langUsage>
+<handNotes>
+<handNote scribe="KKn" xml:id="KKn" medium="pen-brown"><p>Knud Knudsen: hovedhånd i Fru Kirstens hefte. Brun penn.</p></handNote>
+<handNote scribe="AI-2" xml:id="AI-2" medium="pencil"><p>Andreas Isachsen, rettelser med blyant.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>02.11.12</date>
+<name>SBT</name><title>Splitting + TEI P5</title>
+Fila inneholder nå bare ett rollehefte. Fila er kodet om til TEI P5 for HISe.</change>
+<change><date>15.12.09</date>
+<name>SBT</name><title>Notegjennomgang</title>
+Gikk gjennom og fjernet noter; har ikke lagd ny visning.</change>
+<change><date>02.12.09</date>
+<name>SBT</name><title>Metrikk</title>
+Kodet om et prosaavsnitt til vers. Lagde nye visninger.</change>
+<change>
+<date>15.06.08</date>
+<name>HB</name><title>Kodeoppdatering</title>
+Validerte filen. Oppdaterte koding etter punktene i avsnittet om teiHeader i ms-filer i dokumentet HISe-forberedende_koding_og_notater.html.
+</change>
+<change><date>02.08.07</date>
+<name>HB</name><title>Lar performance stå siden det ikke er benyttet til å omslutte castList, men til opplysninger om skuespillere osv.</title></change>
+<change><date>23.06.06</date>
+<name>HB</name><title>Retting av ms-koding</title>
+Fjernet hand i del/overwritten, sjekket at det lå hand i den tilhørende add-taggen. Sjekket og endret evt. mellomrom mellom del/overwritten og påfølgende add-tagg.</change>
+<change><date>20.02.06</date>
+<name>MW</name><title>Oppdatering</title>
+Sjekket (og ev. oppdaterte) følgende: title i titleStmt, title og edition i sourceDesc, entiteten i projectDesc, fjernet ev. mellomrom mellom 'Ms.' og '4'/'8', sjekket om 'o. s. v.' er transkribert med mellomrom og fjernet ev. transkripsjoner av understreking av arksignaturer/sidenummerering. Validert</change>
+<change><date>23.11.05</date>
+<name>ENW</name><title>Omkoding</title>
+Kodet om håndskriftsrettelser. Oppdaterte TEI-header. Endret handlist så den er i tråd med TMs beskrivelse, men lot skillet mellom AI-1 og AI-2 stå siden det er snakk om forskjellige skriveredskaper. Validert. NB! siden manuskriptet ikke er paginert/sidefoliert må n-attributtet i pb fylles ut vha skript.</change>
+<change><date>19.08.05</date>
+<name>MW</name><title>Oppdatering</title>
+Oppdaterte teiHeader. Validert (dog ikke delSpan og delIntended som ikke er tillatt i dtd-en mer).</change>
+<change><date>21.01.05</date><name>SBT</name><title>Oppdatering</title>
+Endret to replikker fra vers til prosa (samkjøring med hovedtekst).</change>
+<change><date>16.12.04</date><name>IF</name><title>Oppdatering</title>
+Oppdaterte tekst og koder i teiHeader (unntatt i typografibeskrivelsen) etter ny kodepraksis. Nye koder er stdVals, metDecl og variantEncoding. La inn entiteter for standardtekster. La inn resp Kodeteknisk støtte og utvikling. Samkjørte ms-opplysninger mot TMs. Endret idno etter TM (fra N.T. 344 til Teaterarkivet UiB NT344r). Fjernet hånd h5 (Brun penn, to rettelser Alfhilds rollehefte (s. 34). Ibsen?). Lot h4 stå, selv om det ikke eksisterer hos TM, fordi h4 er blyant i motsetning til de andre hendene. Usikker på om den da kan kodes med first, eller om heller h4 skal endres til h1 slik TM beskriver, og i så fall skrive at endringer av h1 er i blekk og blyant. Ikke lagt inn lenke til hennes ms-beskrivelse. Lagt inn restore og delIntended i Alfhilds rollehefte s. 55. Validert.</change>
+<change><date>10.02.03</date><name>ENW</name><title>Oppdatering</title>
+La inn ny dokumentheader. Oppdaterte principal-listen. Erstattet shy-elementer med shy-entiteter. Kodet intenderte strykninger med app rdg rundt del. Kodet om usikre apparater ved overskriving av bokstav/tegn (nå begge lesemåter i rdg og desc-attributt i app). Validert.</change>
+<change><date>03.-04.04.02</date><name>SBT</name><title>Oppdatering</title>
+Endret koding av manuskriptbeskrivelse i teiHeaderen. Fjernet æ, ø og å i attributtverdier.</change>
+<change><date>18.12.01</date>
+<name>SBT</name><title>Oppdatering</title>
+Oppdterte koding etter vedtak påkodemøte 07.12: førte inn manuskriptansvarlig i teiHeaderen, fjernet nummerering i div, endret type med rend i del, endret type="corrmarks" med rend="numbered" og rend="corrmarks" i app.</change>
+<change><date>05.12.01</date>
+<name>SBT</name><title>Feilretting</title>
+Flyttet 'figure' direkte i 'titlePage' og 'note' inn i 'front' for å få validert teksten.</change>
+<change><date>26.11.01</date>
+<name>SBT</name><title>Oppdatering</title>
+La inn place-attributt i clarification. Oppdaterte teiHeader. Brente cd.</change>
+<change><date>25.10.01</date>
+<name>EN</name><title>Korrektur</title>
+Korrekturlest innføring av kollasjonsresultatene. Kodekontroll. Validert.</change>
+<change><date>24.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Olaf Liljekrans" mot originalmanuskriptet og ført inn kollasjonsresultatet. Korrekturlest typografibeskrivelsen: splittet beskrivelsen i tre hoveddeler (en for hver hovedhånd).</change>
+<change><date>23.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Første Svend", "Hemming", "Ingeborg", "Mænd, Kvinder...1" og "Mænd, Kvinder...2" mot originalmanuskriptet og ført inn kollasjonsresultatet.</change>
+<change><date>18.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Fru Kirsten" mot originalmanuskriptet og ført inn kollasjonsresultatet.</change>
+<change><date>11.10.01</date>
+<name>EN</name><title>2. kollasjon</title>
+Kollasjonert "Alfhild", "Anden Svend", "Brullupsgjæster", "Terner1" og "Terner2" mot originalmanuskriptet og ført inn kollasjonsresultatet.</change>
+<change><date>10.10.01</date>
+<name>EN</name><title>Koding</title>
+Fjernet blanke mellom spOpener og p/l i sp. La inn manglende blanke mellom speaker og stage i spOpener. Ordnet rekkefølgen på rolleheftene etter hovedhender (og fjernet overflødige handShift-elementer) og rettet oversikten i bibl.</change>
+<change><date>05.10.01</date>
+<name>HG</name><title>Oppdatering</title>
+Lagt inn oversikt over alle rolleheftene i sourceDesc, lagt inn det andre eksemplaret til rolleheftene "Terner" og "MændKvinderSpillemænd"</change>
+<change><date>03.09.01</date>
+<name>HG</name><title>who-attributter</title>
+Fjernet who-attributt til småroller som ikke har who-attributt i de øvrige OL-filene</change>
+<change><date>14.08.01</date>
+<name>HG</name><title>Oppdatering</title>
+Fjernet lg-koding, gjennomgått arbeidsnoter og rettet opp evnt. feilkoding</change>
+<change><date>04.07.01</date>
+<name>HG</name><title>Flikking</title>
+Validert fila på ny, rettet opp feil, korrekturlest typografibeskr.</change>
+<change><date>01.06/05.06.01</date>
+<name>HG</name><title>Oppdatert TeiHeader, lagt inn typografibeskr.</title>
+Oppdaterte teiHeader og la inn typografibeskr.</change>
+<change><date>mai.01</date>
+<name>HG</name><title>Koding</title>
+Kollasjonerer den konverterte teksten kronologisk opp mot faksimilen, kodingen av vers- og prosareplikker, samt part-attributt i verselinjer følger sufflørheftet</change>
+<change><date>23-25.04.01</date>
+<name>HG</name><title>Oppretting</title>
+Konvertert fra Word-dokument til TEI/XML-fil. Fila er validert. Transkripsjonstegnet # vil bli erstattet underveis i kodinga. Harvyes egne kommentarer er lagt inn i resp-noter som må kontrolleleres underveis, evt. føres inn i typografibeskrivelsen</change>
+</revisionDesc>
+</teiHeader>
+<text type="drama" rend="handwritten" xml:lang="dan-nob">
+<pb/>
+<front>
+<titlePage>
+<lb/><HIS:hisDocImprint><measure>8 Ark.</measure></HIS:hisDocImprint>
+<docTitle>
+<lb/><titlePart type="main" xml:id="FRUKIRSTEN">Fru Kirsten Liljekrans
+<lb/>i
+<lb/>&lquo;Olaf Liljekrans.&rquo;</titlePart>
+<lb/><titlePart type="desc">Skuespil i 3 Akter</titlePart></docTitle> <byline>af <docAuthor>Hr. Henrik
+<lb/>Ibsen</docAuthor>.</byline>
+<lb/><figure type="bar"/>
+</titlePage>
+<lb/><performance><p>Udleveret til: Jfr: Sørensen 12/12 56.
+<lb/><unclear reason="writing">P Nielsen</unclear></p></performance>
+</front>
+<body>
+<pb/>
+<lb/><fw type="page" place="top-left">2.</fw>
+<pb/>
+<lb/><fw type="page" place="top-right">3.</fw>
+<div type="act" n="1">
+<lb/><head>Første Akt.</head>
+<div type="scene" n="1">
+<lb/><head>1<hi rend="raised">ste</hi> Scene.</head>
+<lb/><HIS:hisStage>(Chor udenfor Skuepladsen.)</HIS:hisStage>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Chor af Fru Kirstens Følge</speaker>
+<lb/><HIS:hisStage>(dybt inde i Skoven tilvenstre.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Med fromme Sange, med Klokkespil</l>
+<lb/><l>Saa vide vi færdes i Dale;</l>
+<lb/><l>Du kristne Mand, Du lytte dertil,</l>
+<lb/><l>Vaagn op af den koglende Dvale.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Slægtninge af Arne</speaker>.</HIS:spOpener>
+<lb/><l>Der de lystige Svende monne ride!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Fru Kirstens Følge</speaker></HIS:spOpener>
+<lb/><HIS:hisStage>(lidt nærmere end før.)</HIS:hisStage>
+<lb/><l>Vi mane Dig frem af Haug og Fjeld,</l>
+<lb/><l>Hvorhelst Du end sidder bunden,</l>
+<lb/><l>Du vaagne derved, Du fri din Sjæl</l>
+<pb/>
+<lb/><fw type="page" place="top-left">4.</fw>
+<lb/><l>Fra listige Alfer i Lunden!</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Arnes Slægtninge</speaker></HIS:spOpener>
+<lb/><l>Alt om den Brudenat.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Fru Kirstens Følge</speaker></HIS:spOpener>
+<lb/><l>Med Graad vi vandre den Dag saa lang,</l>
+<lb/><l>Vi speide i Ur og i Krat.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Arnes Slægtninge</speaker></HIS:spOpener>
+<lb/><l>Stævne baade Terner og Drenge.</l></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Fru Kirstens Følge</speaker>
+<lb/><HIS:hisStage>(nærmere end før)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Olaf Liljekrans! Olaf Liljekrans!</l>
+<lb/><l>Hvi sover Du saa tungt og saa længe!</l></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ARNE">Arne fra Guldvik</HIS:stageRole> med sine Slægtninge, <HIS:stageRole>Mænd</HIS:stageRole> <hi>og</hi> <HIS:stageRole>Kvin&typHyp;
+<lb/>der</HIS:stageRole>, <HIS:stageRole>Spillemænd</HIS:stageRole> o. s. v. &dash; <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener><p>Fru Kirsten!</p></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-right">5.</fw>
+<div type="scene" n="3">
+<lb/><head>3<hi rend="raised">die</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>. (kommer fra Venstre
+<lb/>med sine Huuskarle.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(til sit Følge uden at bemærke de Andre)</HIS:hisStage></HIS:spOpener><p>Nu kun et
+<lb/>Stykke længere frem, saa veed jeg vist han maa fin&typHyp;
+<lb/>des. <HIS:hisStage>(farer sammen; afsides.)</HIS:hisStage> Arne fra Guldvik!
+<lb/>Himlen staa mig nu bi!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Gudsfred, Fru Kirsten Liljekrans!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(fatter sig og rækker Arne Haanden)</HIS:hisStage></HIS:spOpener><p>Gudsfred igjen!
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage> Skulde han Intet vide?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>den Hæder, I viser mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hvad mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Velkommen paa Eders Grund.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei, Hr. Arne! <HIS:hisStage>(afsides)</HIS:hisStage> Han veed Intet endnu!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>med alle Eders Karle.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(forlegen)</HIS:hisStage></HIS:spOpener><p>Jeg beder Jer, tal ikke mere derom.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">6.</fw>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Saa skulde I aldrig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hvor gider I lytte til, hvad onde Tunger kan spinde
+<lb/>sammen. Ikke vil vi mere tænke paa Tvistighederne,
+<lb/>som nu har varet ved siden Jer Stamfaders Tid. Jeg
+<lb/>mener, vore Ætter har lidt tungt nok derunder, Eders
+<lb/>saavel som min. See Jer om, Hr. Arne! Er ikke Lien
+<lb/>her at ligne med de vildeste Udmarker, og i vore Fædres
+<lb/>Dage var her dog folksomt og rigt. En Bro var lagt
+<lb/>over Elven, og Vei gik der fra Guldvik til min Faders
+<lb/>Huus. Men med Ild og Sværd drog de frem fra begge
+<lb/>Sider; de lagde øde Alt hvad de traf paa, thi det
+<lb/>tyktes dem, at de var hinanden for nære Grander. Nu
+<lb/>voxer der alleslags Urter i Alfarveien, Broen er bræk&typHyp;
+<lb/>ket ned, og det er kun Ulv og Bjørn, som holde til&typHyp;
+<lb/>huse herinde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>som godt og vel er for os Begge.
+<pb/>
+<lb/><fw type="page" place="top-right">7.</fw>
+<lb/>Tilvisse, tilvisse! Men Ingeborg, Bruden, hvor har
+<lb/>I hende? Jeg seer hende ei, og Brudepigerne fattes
+<lb/>med; skulde hun ikke &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>saa vel optugtet hun end kan være.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(spændt.)</HIS:hisStage> Nu, hvad saa? <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Skulde hun ogsaa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>men I finder vel Raad.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei, vær I kun tryg. <HIS:hisStage>(afsides)</HIS:hisStage> Og Olaf som ikke
+<lb/>er at see!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>skrider hun forrest i Flokken!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(sagte til sine Svende)</HIS:hisStage></HIS:spOpener><p>I tie vel med vort Ærinde
+<lb/>heroppe.</p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole> og <HIS:stageRole>Brudepigerne</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Men Olaf, hvor har I ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Olaf! <HIS:hisStage>(afsides.)</HIS:hisStage> O vee! nu bryder det løs.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>det er ham som volder at &dash;</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">8.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ham &dash; I mener &dash; I veed at &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>og saa fik han Jer til at følge med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Stærkt lystede det ham vist at møde Bruden, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Hvad nu?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ikke er Olaf med heroppe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>I sige frem, jeg beder Jer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(tvungen, spøgende)</HIS:hisStage></HIS:spOpener><p>Forsand, det lader som Bruden
+<lb/>ogsaa længes! Følg med, følg med til Bryllupsgaarden,
+<lb/>der tænker jeg vel han maa findes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Svar først, saa skal vi følge.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu da &dash; han er reden sig ud for at jage. <HIS:hisStage>(Idet
+<lb/>hun vil gaa)</HIS:hisStage> Kom nu, det tager stærkt til at mørk&typHyp;
+<lb/>nes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>At jage?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei! Kan det undre Jer? I kjender vel Visen:</p>
+<lb/><l rend="indent">&lquo;Den Riddersmand lyster at ride sig i Lunde,</l>
+<pb/>
+<lb/><fw type="page" place="top-right">9.</fw>
+<lb/><l rend="indent">At prøve sine Heste og Hunde!&rquo;</l></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>til at vejde Dyr.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu skjæmter I. Kom med, kom med!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>at I dølger Jert rette Ærinde heroppe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(truffen.)</HIS:hisStage></HIS:spOpener><p>Jeg! Hvor kan I tro?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>men det har ingen Art &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ikke er det nyt, at I tænker ilde om mig og mine.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>der er Noget I dølger for mig</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Hvad vil her følge paa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>og Ingen kunde melde Jer derom.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(svarer ikke.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Ti stille!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(har imidlertid fattet sig.)</HIS:hisStage></HIS:spOpener><p>Nuvel, Herr Arne!
+<lb/>ærligt vil jeg tale Jer til; lad saa Lykken raade
+<lb/>for Resten.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Hvad mener I?</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">10.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ved Ord og Haandslag er Forliget sluttet mellem os;
+<lb/>mange hæderlige Mænd seer jeg her som kan vidne i
+<lb/>den Sag. Olaf, min Søn, skulde ægte Jer Datter,
+<lb/>hos mig skulde Gildet holdes imorgen &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Javist, javist!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Skjændsel over den, der bryder sit Ord, men &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker> og <speaker>Gjæsterne</speaker>.</HIS:spOpener><p>Hvad nu! Sig frem!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ikke kan Brylluppet holdes imorgen, som besluttet
+<lb/>var.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Ikke holdes?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Vi maa vente dermed.</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Fru Kirstens Svende</speaker>.</HIS:spOpener><p>Ned med Mændene fra Guldvik!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(kaster sig mellem de Stridende)</HIS:hisStage></HIS:spOpener><p>Hold inde, hold in&typHyp;
+<lb/>de, jeg beder Jer derom. Herr Arne! I høre mig til&typHyp;
+<lb/>ende førend I dømmer min Færd.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Saa kom I til mig!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">11.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ikke er det Fattigmands Huus I gifter Jer Datter
+<lb/>ind i, Herr Arne! Mød I frem til Gildet med alle
+<lb/>Eders Frænder og Venner, ja, kom med trefold saamange
+<lb/>om det lyster Jer, &dash; hos mig skal I finde baade Huus&typHyp;
+<lb/>rum og Bryllupskost, saameget I vil tære. Tro
+<lb/>aldrig at slig uhæderlig Aarsag kunde hindre mig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>I har da skiftet Sind, kan hænde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei heller det. Har jeg givet mit Ord, saa er jeg
+<lb/>ogsaa rede til at holde det, og det ligesaa gjerne
+<lb/>idag som imorgen; thi saa var stedse Sæd og Skik
+<lb/>i min Æt. Men i denne Sag staaer det ikke til
+<lb/>mig; det skorter paa En &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>at naar Bruden er rede saa &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Til Brudefærd er To fornødne, Brudgommen saavel
+<lb/>som Bruden &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Min Fæstemand!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">12.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ja han, min Søn &dash; inat er han flygtet baade fra
+<lb/>Hjem og Brud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Flygtet! Han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Saasandt jeg haaber Himlens Naade, jeg har ei
+<lb/>Deel deri.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>det sværger jeg høit og dyrt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Uskjællig Grund er det I bygger paa, om I kunde
+<lb/>tro at &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>at værdsætte som det bør sig</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Herr Arne! I høre mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Ti stille, siger jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(til Arne)</HIS:hisStage></HIS:spOpener><p>Vel maa Jert Sind fyldes med Harm og
+<lb/>Vrede; men holder I mig svigfuld i Hu, da gjør I
+<lb/>mig Uskjæl, mere end billigt kan være. I mener der føres
+<lb/>en underfundig Leg med Jer; men sig mig, hvad skulde
+<lb/>friste mig og min Søn til Sligt? Har han ikke Ingeborg
+<pb/>
+<lb/><fw type="page" place="top-right">13.</fw>
+<lb/>kjær, hvor kunde han kaare sig en bedre Brud? Er
+<lb/>hun ikke vakker og djærv? Er hendes Fader ikke rig
+<lb/>og mægtig? Nævnes ikke hendes Slægt med hæderlige
+<lb/>Ord, saalangt den er kjendt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Men hvor kunde saa Olaf &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Den Lod jeg har fristet er værre end I mener. I
+<lb/>vil ynke mig og ikke vredes naar I faaer det at hø&typHyp;
+<lb/>re. &dash; Fra Solen randt imorges har jeg nu færdedes
+<lb/>heroppe for at finde ham igjen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Heroppe?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ja, heroppe, for I maa da vide &dash; I vil ræddes
+<lb/>derved &dash; men ligegodt &dash; Olaf er bjergtagen!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Hvad siger I, Fru Kirsten?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Han er bjergtagen! Ei kan det være andet. &dash;
+<lb/>For tre Uger siden da Fæstensøllet var drukket paa
+<lb/>Guldvik, kom han ikke hjem før langt ud paa den
+<pb/>
+<lb/><fw type="page" place="top-left">14.</fw>
+<lb/>næste Dag. Bleg var han og stur og stille med,
+<lb/>som jeg aldrig før havde seet ham. Saadan gik nu
+<lb/>Dagene, lidet talte han, i Sengen laa han for det
+<lb/>meste og vendte Hovedet ifra; men led det tilkvelds, da
+<lb/>var det ret som en sælsom Uro kom over ham, da sadlede
+<lb/>han sin Hest og red fra Gaarden, langt op i Lierne; &dash;
+<lb/>men der var Ingen som turde følge ham og Ingen vid&typHyp;
+<lb/>ste hvor han videre drog hen. Tro mig, det er onde
+<lb/>Vætter som har koglet hans Sind; stor er den Magt
+<lb/>de øve herinde; fra den Tid den store Landforsot gik
+<lb/>over Bygderne var det aldrig ret trygt her i Fjeldet;
+<lb/>der gaaer jo fast ingen Dag uden at Sæterjentene hø&typHyp;
+<lb/>rer sælsomt Spil og Strengeleg, skjøndt intet Menneske
+<lb/>færdes der hvor det kommer fra.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>skulde Sligt være tænkeligt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Give Gud det ikke var, men ei kan jeg mere
+<pb/>
+<lb/><fw type="page" place="top-right">15.</fw>
+<lb/>tvivle derpaa. Tre Døgn er det nu siden han sidst
+<lb/>var hjemme.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>har I spurgt hvor han færdes?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ak nei, det er ikke saavel. Heroppe saae en Skytte
+<lb/>ham igaar; men han var vild og sky som Renen; alle&typHyp;
+<lb/>slags Urter havde han plukket, og dem strøede han
+<lb/>ud for sig hvor han gik og stod, og alt imens hviskede
+<lb/>han sælsomme Ord dertil. Saasnart det blev mig sagt
+<lb/>drog jeg ud med mine Folk, men vi har Intet fundet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Og Ingen traf I som kunde sige Jer &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>I veed jo, Lien ligger øde.</p></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. &dash; <HIS:stageRole who="THORGJERD">Thorgjerd</HIS:stageRole> (kommer.)</HIS:hisStage>
+<lb/><HIS:hisSp who="THORGJERD"><HIS:spOpener><speaker>Thorgjerd</speaker>.</HIS:spOpener><p>Olaf Liljekrans?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu ja, Du kjender ham vel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGJERD"><HIS:spOpener><speaker>Thorgjerd</speaker>.</HIS:spOpener><p>onde Mænd derude fra Bygderne?</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-left">16.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Onde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGJERD"><HIS:spOpener><speaker>Thorgjerd</speaker>.</HIS:spOpener><p>paa hans Moders Stuetag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Du lyver, Spillemand!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGJERD"><HIS:spOpener><speaker>Thorgjerd</speaker>.</HIS:spOpener><p>men kan ikke finde ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ja, ja!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="THORGJERD"><HIS:spOpener><speaker>Thorgjerd</speaker>.</HIS:spOpener><p>sidder i Bjerget, han har ingen Nød!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Forbandede! at Du siger Sligt!</p></HIS:hisSp>
+<lb/><HIS:hisStage>(Thorgjerd gaaer.)</HIS:hisStage>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>, undtagen Thorgjerd.
+<lb/>(Gjæsterne og Fru Kirstens Følge gaa.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>volde mig evig Skam om Brylluppet &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Følg med, følg med!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Vent Hemming! Fæst mine Skospender!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(gaaer ud til Venstre med Arne.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-right">17.</fw>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="OLAF">Olaf Liljekrans</HIS:stageRole>. &dash; <HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>følge Dig maa jeg, hvor Du færdes. <HIS:hisStage>(gaaer med Olaf.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Chor af Brudefølget og Fru Kirstens Følge</speaker>.
+<lb/><HIS:hisStage>(fjernt fra Skoven til Venstre)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Du agte Dig vel, Du fri din Sjæl</l>
+<lb/><l>Fra listige Alfer i Lunden!</l></HIS:hisSp>
+</div>
+<div type="scene" n="11">
+<lb/><head>11<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole> og <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole> (komme ind fra Venstr<HIS:clarification place="inline">e</HIS:clarification>)</HIS:hisStage>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>see &dash; nei, nu er han borte!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Og han sagde, at han ventede paa Bruden som
+<lb/>skulde komme?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>mente han ikke, det er vist.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Stille, gode Hemming! stille med det han har sagt!
+<lb/>Velgjort var det at Du lod mig alene vide han var
+<lb/>her. Rigelig skal Du lønnes derfor, men først maa
+<pb/>
+<lb/><fw type="page" place="top-left">18.</fw>
+<lb/>vi finde ham fat &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>ja, forvist troer jeg &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Stille, stille, det er Olaf!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>en Kvinde staaer hos &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Alle gode Aander!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>som om &dash; der gaa de Begge!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hent Herr Arne og vore Folk! Vi vil mødes her;
+<lb/>jeg bringer Olaf hid!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Men tør I ogsaa &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Gjør som jeg siger; men ti vel med det Du har hørt
+<lb/>og seet. Du kan sige at Olaf drog herop for at
+<lb/>jage Reen og Bjørn og at han foer vild paa Fjeldet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>I kan lide paa mig, Fru Kirsten! <HIS:hisStage>(gaaer.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Skulde det da være sandt? Skulde onde Vætter
+<lb/>have faaet Magt over ham? Ei, Sligt kan jeg
+<lb/>bilde Arne fra Guldvik ind, men lidet troer jeg det
+<pb/>
+<lb/><fw type="page" place="top-right">19.</fw>
+<lb/>selv; &dash; og dog siges der, at det tidt nok hent<HIS:clarification place="inline">e</HIS:clarification> i for&typHyp;
+<lb/>dums Tider. Men det er nok Alfekvinder af Kjød og
+<lb/>Blod som &dash; &dash; Der stiger han ned til Elven, jeg
+<lb/>maa rappe mig! <HIS:hisStage>(gaaer ud til Høire i Mellemgrunden.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="12">
+<lb/><head>12<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="OLAF">Olaf</HIS:stageRole> og <HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole> (komme.) Senere Fru Kirsten</HIS:hisStage>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener>
+<lb/><p>Det vil mig ilde, det vil mane mig til Bygden ned.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fru Kirsten</speaker>
+<lb/><HIS:hisStage>(afsides, idet hun træder ind fra Baggrunden, uden at
+<lb/>bemærkes af de Øvrige)</HIS:hisStage></HIS:spOpener>
+<lb/><p>Der er' de! Han taler; kunde jeg forstaa &dash;!</p>
+<lb/><HIS:hisStage>(nærmer sig lyttende)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Chor af Bryllupsgjæster</speaker>
+<lb/><HIS:hisStage>(fra Skoven til Venstre)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Der de lystige Svende monne ride!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">20.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fru Kirsten</speaker>
+<lb/><HIS:hisStage>(afsides, under Choret.)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Himlen være lovet! Hemming har fortalt &dash;!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker></HIS:spOpener>
+<lb/><l>Hvor vént det klinger! Olaf! see, see!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fru Kirsten</speaker></HIS:spOpener>
+<lb/><l part="I">Olaf, min Søn!</l>
+<lb/><HIS:hisStage>(iler hen til ham, useet af Alfhild.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker></HIS:spOpener>
+<lb/><l part="I">Min Moder!</l></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker>Fru Kirsten</speaker></HIS:spOpener>
+<lb/><l part="F">Mit arme, forvildede Barn!</l>
+<lb/><l>Nu er Du frelst fra den Ondes Garn!</l>
+<lb/><l>Der kommer Herr Arne med Ingeborg, din Viv!</l></HIS:hisSp>
+</div>
+<div type="scene" n="13">
+<lb/><head>13<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="ARNE">Arne</HIS:stageRole>, <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>, <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>, <HIS:stageRole>Bryl&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">21.</fw>
+<lb/>lupsfolk</HIS:stageRole> og <HIS:stageRole>Fru Kirstens Følge</HIS:stageRole> (komme.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>som jeg hører.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Javist, jeg har fundet ham &dash; Og nu hjemad!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Mig! Hvad mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afbrydende)</HIS:hisStage></HIS:spOpener><p>Vist ikke, Herr Arne! Han foer vild
+<lb/>paa Jagten og &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Men denne unge Kvinde &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Et fattigt Barn! Hun har skjænket ham Ly og
+<lb/>Tilhold.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>jo Ingen sin Bo heroppe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>En og Anden dog! Mangen enkelt Slægt holder end&typHyp;
+<lb/>nu til mellem Fjelden<HIS:clarification place="inline">e</HIS:clarification>, siden Landfarsottens Tid.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Min Moder! jeg kan ikke!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(sagte og bestemt.)</HIS:hisStage></HIS:spOpener><p>Du maa! Det vil volde Dig evig
+<lb/>Skjændsel ifald &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Hvad mener han?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">22.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Han er syg og mødig endnu, det gaaer over; kom! &dash;
+<lb/><HIS:hisStage>(med et betydningsfuldt Blik til Olaf.)</HIS:hisStage> Den unge Kvin&typHyp;
+<lb/>de følger med!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>I mener at hun &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Trolig har hun pleiet ham; vel bør det sig at hun
+<lb/>lønnes derfor.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker></HIS:spOpener><p>Og imorgen holdes Gildet!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Imorgen! det sværger jeg høit og helligt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>nu skal jeg selv tage Vare derpaa!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(gaaer ud til Venstre med alle de Øvrige)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+</div>
+<div type="act" n="2">
+<lb/><head>Anden Akt.</head>
+<div type="scene" n="1">
+<lb/><head>1<hi rend="raised">ste</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>. <HIS:stageRole>Karle</HIS:stageRole> <hi>og</hi> <HIS:stageRole>Piger</HIS:stageRole> (beskjæftiget med
+<lb/>Tilberedelser til Gildet.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Lad der nu ikke fattes hverken i Fad eller Kruus.
+<pb/>
+<lb/><fw type="page" place="top-right">23.</fw>
+<lb/><HIS:hisStage>(for sig selv.)</HIS:hisStage> Haardt holdt det og tungt har jeg stridt
+<lb/>før det kom saa vidt, men nu vil jeg ogsaa gjøre et
+<lb/>Gilde, som skal høres og spørges. <HIS:hisStage>(til Tyendet.)</HIS:hisStage> See
+<lb/>vel efter paa Bryllupsbordet om &dash; dog nei, det vil
+<lb/>jeg selv gjøre. Vinen skal holdes i Sølvkanderne, de
+<lb/>store Drikkehorn skal fyldes med den vælske Most,
+<lb/>Øllet er kun for Huuskarlene, og den hjemmebrygged<HIS:clarification place="inline">e</HIS:clarification>
+<lb/>Mjød ligesaa, &dash; og hør, see vel til, at der findes nok
+<lb/>af gule Voxlys i Kirken, Brudefolkene skal ikke
+<lb/>for Alteret før sent paa Kvælden, med røde Blus
+<lb/>skal de lyses og følges didhen fra Gildestuen. Gaa nu
+<lb/>Alle, og tag vare paa det jeg har sat Jer til, hver
+<lb/>især. <HIS:hisStage>(Folkene gaa.)</HIS:hisStage> Gud veed, dette Bryllup koster
+<lb/>mere end jeg vel kan bære; men Ingeborg bringer god
+<lb/>Medgift og desforuden &dash; o ja, Arne staaer vel til at
+<lb/>styres og raades, som det bedst lyster mig, naar han
+<pb/>
+<lb/><fw type="page" place="top-left">24.</fw>
+<lb/>først &dash; <HIS:hisStage>(seer ud til Høire.)</HIS:hisStage> Der kommer Olaf! I&typHyp;
+<lb/>fald jeg kun vidste at han &dash; &dash;</p></HIS:hisSp>
+</div>
+<div type="scene" n="2">
+<lb/><head>2<hi rend="raised">den</hi>Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>. &dash; <HIS:stageRole who="OLAF">Olaf</HIS:stageRole> (kommer)</HIS:hisStage>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Ak, kjære Moder min, er I der?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Retsaa, min Søn! Pyntet med Guld og Silke; det maa
+<lb/>jeg vel lide. Nu er det dog at kjendes paa Dig, hvo
+<lb/>der er Brudgom ikvæld. Jeg seer Du har hvilet Dig ud.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>thi jeg drømte imens.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>En Brudgom maa drømme, det er gammel Skik.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>lad os ikke tænke mere derpaa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afledende Samtalen)</HIS:hisStage></HIS:spOpener><p>Vi faa en lystig Dag, mener jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>som min Hædersdag huer Himlen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hvi saa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Skyerne trække op i Vest.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Desbedre lyser Brudeblussene, naar Du gaaer til Kir&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">25.</fw>
+<lb/>ke ikvæld.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>hvad havde I saa gjort?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(betragter ham skarpt.)</HIS:hisStage></HIS:spOpener><p>Hvi spørger Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Svar mig først. Hvad havde I saa gjort?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Forbandet Dig og gaaet i Jorden af Sorg. Men sig
+<lb/>mig, hvi spørger Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>jeg tænkte lidet derved.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det maa jeg vel tro; thi Du har altid holdt din
+<lb/>Æt i Agt og Ære. Men vær nu lystig og glad; i&typHyp;
+<lb/>morgen sidder Ingeborg som din Viv derinde, da vil
+<lb/>Du finde baade Fred og Lykke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Een Ting fattes dertil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hvad mener Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>og drysse ud for alle Vinde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Den tossede Drøm; &dash; tænk ikke mere derpaa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>baadede mig bedst om jeg kunde det.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">26.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>I Fruerstuen sidder din Fæstemø mellem sine Piger,
+<lb/>lidet har Du talt med hende idag. Vil Du ikke
+<lb/>gaa derind?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Jo, jo! Hvor er hun?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>I Fruerstuen, som jeg sagde Dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>en gylden Kjæde at bære.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hvem taler Du om?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Om Alfhild!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Jeg talte om Ingeborg, din Fæstemø! &dash; Olaf! Olaf!
+<lb/>Du gjør mig angst og bange, saa sælsom Du er. Næ&typHyp;
+<lb/>sten kunde jeg fristes til at tro for Alvor, at hun
+<lb/>havde forhexet Dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>saatidt jeg drages det til Minde.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Var hun en Hex, da skulde Baal og Brand være hen&typHyp;
+<lb/>de sikkert; men hun er en listig, underfundig Kvinde,
+<lb/>som har lokket Dig med fager Tale.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">27.</fw>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Hun er reen som Guds Moder selv!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ja, ja, see til! Men hvad som er, saa kom ihu,
+<lb/>at imorgen er Du ægteviet; baade Synd og Skjændsel
+<lb/>vilde det da volde Dig, om Du agtede mere paa hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Jeg fatter det vel, heel vel, min Moder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Og Ingeborg som Du har trolovet og som har Dig
+<lb/>kjær, ja Olaf! kjær af Hjertet &dash; Himlens Straf
+<lb/>vilde ramme Dig, ifald &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Vel sandt, vel sandt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei vil jeg tale om vore egne Kaar; men vel skal
+<lb/>Du mærke Dig, at Arnes Datter kan hjælpe Mangt
+<lb/>og Meget paa Fode for os; stærkt er det gaaet til&typHyp;
+<lb/>agters med vor Æt, og slaaer Sæden feil iaar, saa
+<lb/>skulde det lidet undres mig, om vi maatte tage Tig&typHyp;
+<lb/>gerstaven i Haand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Jeg veed det nok.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">28.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Med Arnes Penge kan det Altsammen bødes paa; en
+<lb/>hæde<HIS:hisAdd place="offline" hand="AI-2">r</HIS:hisAdd>lig Plads vil Du vinde blandt Kongens Mænd. Tænk
+<lb/>Dig vel om; har Du lovet Alfhild mere end Du kan
+<lb/>holde &dash; og mig tykkes at mærke noget Sligt hos hende,
+<lb/>saa stille hun end gaaer med det &dash; saa tal med hende
+<lb/>derom. Sig hende, nu ja, sig hend<HIS:clarification place="inline">e</HIS:clarification> hvad Du selv vil;
+<lb/>tomhændet skal hun ikke gaa herfra, det kan Du frit
+<lb/>love. See der kommer hun! Olaf, min Søn! tænk
+<lb/>paa din Fæstemø og paa din stolte Æt, tænk paa din
+<lb/>gamle Moder, som maatte gaa i Jorden af Blussel ifald
+<lb/>&dash; vær Mand, Olaf! Nu gaaer jeg ind og seer efter
+<lb/>Gildebordet. <HIS:hisStage>(gaaer ind i Huset.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="OLAF">Olaf</HIS:stageRole>. &dash; <HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole>. &dash;</HIS:hisStage>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener>
+<lb/><l>Alle Engle drysse sin Fr<HIS:clarification place="inline">e</HIS:clarification>d i dit Sind!</l>
+<pb/>
+<lb/><fw type="page" place="top-right">29.</fw>
+<lb/><HIS:hisStage>(gaaer mod Huset, men standses af Fru Kirsten.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(kommer fra Høire og standser Olaf.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(sagte)</HIS:hisStage></HIS:spOpener><p>Nu, min Søn! ei sandt, Du har vel sagt
+<lb/>hende &dash;?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>aldrig, aldrig møde hende mere. <HIS:hisStage>(gaaer.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Den Daarskab vil snart brændes ud af ham, hvis &dash;
+<lb/>&dash; <HIS:hisStage>(som om hun pludselig fik et Indfald.)</HIS:hisStage> Men ifald
+<lb/>jeg &dash; <HIS:hisDel rend="overwritten">Ha</HIS:hisDel><HIS:hisAdd place="inline" hand="AI-2">A</HIS:hisAdd>, ha, vilde det lykkes, da var han helbredet,
+<lb/>det lover jeg for. Men Alfhild &dash;? Nu ja, lige&typHyp;
+<lb/>godt, det maa fristes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Olaf er mig jo huld og god!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(nærmer sig.)</HIS:hisStage></HIS:spOpener><p>Det bæres mig for som tunge Tanker
+<lb/>ligge Dig paa Sinde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>som jeg nys har lært.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">30.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Af Olaf?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>han har sagt mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Jeg veed det, Alfhild! jeg veed hvad han har sagt.
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage> Han har nævnt sit Bryllup for hende, kan
+<lb/>jeg skjønne. <HIS:hisStage>(høit.)</HIS:hisStage> Og alt ikvæld skal det gaa for sig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Hvad skal gaa for sig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Brylluppet!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>O ja, det veed jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Du veed det og tager det ikke tungere end saa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>hvi skulde jeg tage det tungt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afsides)</HIS:hisStage></HIS:spOpener><p>Der er Noget hun pønser paa, det skjøn&typHyp;
+<lb/>ner jeg grant. <HIS:hisStage>(høit.)</HIS:hisStage> Nu, saameget bedre er det
+<lb/>for os Alle! Men sig mig, naar Gildet er Slut,
+<lb/>hvad agter Du Dig saa til?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Det har jeg lidet tænkt paa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Jeg mener, er Du tilsinds at blive her, eller drager
+<pb/><lb/><fw type="page" place="top-right">31.</fw>
+<lb/>Du hjem?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Jeg er tilsinds at blive!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Der har vi det, hun tænker at holde ham
+<lb/>i sin Snare, selv om han gifter sig. Ja, ja, det skal
+<lb/>vi strides om. <HIS:hisStage>(høit.)</HIS:hisStage> Alfhild! jeg under Dig alt Godt
+<lb/>og dersom Du turde lide paa mig &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Ja, det tør jeg forvist!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu godt, saa lader Du mig raade for din Lykke.
+<lb/>Jeg vil tage mig af Dig, som jeg bedst kan og veed,
+<lb/>og ifald Du giver dit Minde dertil, saa skal Du end&typHyp;
+<lb/>nu ikvæld gaa som Brud til Kirken.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Ja, det veed jeg jo.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(studsende)</HIS:hisStage></HIS:spOpener><p>Du veed det! Hvo har da sagt Dig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Det har Olaf selv sagt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Olaf? <HIS:hisStage>(afsides.)</HIS:hisStage> Skulde Olaf &dash;? Ja, forsandt, han
+<lb/>har havt den samm<HIS:clarification place="inline">e</HIS:clarification> Tanke som jeg, at gifte hende
+<pb/>
+<lb/><fw type="page" place="top-left">32.</fw>
+<lb/>bort for at skille sig af med hende! Eller kanhænde
+<lb/>for at &dash; nu, ligegodt, er hun først bortgiftet, og er
+<lb/>Olaf ligeledes paa sin Side bleven Ægtemand, saa &dash;
+<lb/><HIS:hisStage>(høit.)</HIS:hisStage> Ja, ja, godt, Alfhild! naar Olaf har sagt vor
+<lb/>Hensigt med Dig, saa har jo ikke jeg fornødent at &dash;
+<lb/>Men skynd Dig nu, gaa derind i Staburet, der hænger
+<lb/>min egen Bryllupsklædning, den skal Du bære!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Din egen Bryllupsklædning!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Gjør som jeg siger. Gaa derind og klæd Dig paa,
+<lb/>saa prægtigt Du lyster.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Og faaer jeg ogsaa Brudekrone?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Javist! Brudekrone og Sølvringe og røde Guldbaand.
+<lb/>Du vil finde nok deraf i Kister og Skabe.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Sølvringe og røde Guldbaand!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Gaa, gaa! og rap Dig saa alt hvad Du kan.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Jeg faaer Brudekrone og røde Guldbaand. <HIS:hisStage>(iler ud.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-right">33.</fw>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole> (alene.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Den onde, forbandede Kvinde! Saa glad og trøstig
+<lb/>er hun, skjøndt hun veed at Olaf skal for Altret
+<lb/>med en Anden. Men saaledes er det mig ret tilpas;
+<lb/>det gaaer <emph hand="AI-2">lettere</emph> end jeg tænkte. Hun seer saa
+<lb/>skyldfri ud som et Barn, og dog kan hun samtykke
+<lb/>i, at tage til Huusbond, den jeg først vælger for hen&typHyp;
+<lb/>de. Og jeg som tænkte at Olaf var hende isandhed
+<lb/>kjær; har han endnu ikke faaet Forvisning om hen&typHyp;
+<lb/>des rette Sindelag, saa skal han snart faa det. &dash;
+<lb/>Han skal kjende hende tilbunds, han skal vide
+<lb/>hvi hun har koglet og lokket <emph hand="AI-2">for</emph> ham, og saa,
+<lb/>ja saa er hun ham ikke længer farlig. <HIS:hisStage>(smilende.)</HIS:hisStage>
+<lb/>See, see! Olaf tænkte dog paa den samme Frelse
+<lb/>som jeg; saa snild havde jeg ikke holdt ham for at
+<pb/>
+<lb/><fw type="page" place="top-left">34.</fw>
+<lb/>være. &dash; Men hvor finde vi den Svend, som er villig
+<lb/>til &dash; Nu, vakker er hun, og paa Sølv og en liden
+<lb/>Grund dertil, skal det ikke komme an. Skulde Olaf
+<lb/>allerede have talt til Nogen derom? Det er ikke
+<lb/>tænkeligt! &dash; Nu, saa vil jeg sørge for den Sag. Jeg
+<lb/>har jo Huuskarle nok paa Gaarden og &dash; <HIS:hisStage>(seer ud til
+<lb/>Høire.)</HIS:hisStage> Hemming! om jeg prøvede med ham! Men
+<lb/>han saae dem jo sammen paa Fjeldet igaar, han maa
+<lb/>vel vide, at der er Noget mellem de to. Men ikke
+<lb/>desmindre &dash; han er en ringe Svend, og derhos fattig
+<lb/>og veg af Sind &dash; vi faa see, vi faa see!</p></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>. <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole> (kommer)</HIS:hisStage>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>glytte til den Side jeg gaaer.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(sagte, idet hun nærmer sig.)</HIS:hisStage></HIS:spOpener><p>Lidt vaerlig faaer
+<lb/>jeg være. <HIS:hisStage>(høit.)</HIS:hisStage> See, Hemming, er det Dig? Du
+<pb/>
+<lb/><fw type="page" place="top-right">35.</fw>
+<lb/>færdes helst alene, mærker jeg; Tærnerne og de
+<lb/>unge Karle holder Du Dig fra; naar jeg fornem&typHyp;
+<lb/>mer Sligt, saa skjønner jeg vel, at det ikke skeer
+<lb/>uden skjællig Grund.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>min høie Frue! hvad skulde &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Jo, Hemming! der er Noget, som Du gaaer og
+<lb/>bærer paa iløn; Du er ikke freidig tilsinds!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Ikke freidig? Jeg?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(smilende)</HIS:hisStage></HIS:spOpener><p>Her er idag en ung og vakker Kvinde,
+<lb/>som huer Dig godt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Alle Helgene!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Og hun er Dig god igjen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Ikke veed jeg hvem I mener.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei, Hemming, tal ikke saa, for mig skal Du
+<lb/>lidet blues. Jo, jo, jeg seer grant kan Du tro.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>maa have mærket paa Ingeborg at &dash;</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">36.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Jeg har vel seet, at Bryllupsgildet volder Dig
+<lb/>liden Gammen. Kirkefærden er Dig imod, efterdi
+<lb/>Du selv gad vandre med som Brudgom, men seer ei
+<lb/>Udvei dertil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>min ædle, høie Frue! fortørnes ikke.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(forundret.)</HIS:hisStage></HIS:spOpener><p>Jeg? Hvi skulde vel jeg fortørnes?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>troer jeg forvist at hun har med.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hun? Hun har da sagt Dig, at hun er Dig god?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Ja, næsten!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Retvel, retvel, saa I har talt tilhobe derom?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Kun een eneste Gang, det sværger jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Een eller ti Gange, det er mig lige kjært. &dash;
+<lb/><HIS:hisStage>(afsides)</HIS:hisStage> De er da alt enige; stor Lykke havde
+<lb/>jeg med mig, at jeg traf paa Hemming; nu un&typHyp;
+<lb/>drer mig ikke, at Alfhild var saa villig til at
+<lb/>træde for Alteret. <HIS:hisStage>(høit.)</HIS:hisStage> Hemming! jeg staaer
+<pb/><lb/><fw type="page" place="top-right">37.</fw>
+<lb/>i megen Gjæld til Dig, efterdi Du fandt min Søn igjen
+<lb/>og ellers var mig til Villie; nu kan jeg gjøre Vederlag,
+<lb/>jeg vil af al Magt staa Dig bi i den Sag vi nys tal&typHyp;
+<lb/>te om.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>hvad mener I han vil sige?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Han vil ei lægge Dig Sten iveien, det skal jeg
+<lb/>vel sørge for.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>hun er ham ei god af Hjertet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(smilende)</HIS:hisStage></HIS:spOpener><p>Det har jeg vel mærket, Hemming!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>at Hr. Arne vil give sit Minde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Din Huusbond? Jeg skal vide at tale ham tilrette,
+<lb/>det vil nok lykkes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>jeg er jo dog saa fattig en Svend.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det skal nok jeg bøde paa, ifald ikke Hr. Arne
+<lb/>selv er rede dertil.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Himlen lønne Jer for Eders gode Sind.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">38.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Men Du tier vel med det, vi her har talt sammen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Det lover jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Saa hold Dig rede, herude samles Gjæsterne om føie
+<lb/>Tid, vær saa ikke langt fra Haanden. <HIS:hisStage>(gaaer op mod
+<lb/>Staburdøren og sp<HIS:clarification place="inline">e</HIS:clarification>ider efter Alfhild.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Hemming! Hemming!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(kommer ned i Forgrunden)</HIS:hisStage></HIS:spOpener><p>Din Huusbond kalder!
+<lb/>Gaa nu! Siden skal jeg tale med ham; han føier
+<lb/>sig nok. Tro mig han skal følge sin Svend til
+<lb/>Kirken i samme Stund han fører sin Datter did.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>en god Gjerning mod os Alle. <HIS:hisStage>(gaaer)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(for sig selv.)</HIS:hisStage></HIS:spOpener><p>Saa ung er hun og dog saa under&typHyp;
+<lb/>fundig; hun har leflet med Hemming, alt imedens
+<lb/>hun bildte min Søn ind at &dash; &dash; Godt, han skal snart
+<lb/>lære hendes Kunster at kjende. Men først maa jeg
+<lb/>have Herr Arne fat; han holder meget af Hemming,
+<pb/>
+<lb/><fw type="page" place="top-right">39.</fw>
+<lb/>vil nødig skilles fra ham; det lod ogsaa som Hemming
+<lb/>frygtede for at det skulde være til Hinder; men de kan
+<lb/>jo mageligt blive sammen, om end Hemming gifter sig.
+<lb/>&dash; Hemming seer ellers mere grant i Tingen end jeg
+<lb/>tænkte mig. Hvad vil Olaf sige dertil, spurgte han;
+<lb/>han har da altsaa mærket, at Alfhild endnu ligger
+<lb/>min Søn paa Hjertet. Nu, lad ham det; tager han
+<lb/>hend<HIS:clarification place="inline">e</HIS:clarification>, saa tier han ogsaa, og er Alfhild først gift &dash;
+<lb/>jeg kjender Olaf; han har stedse sat høi Priis paa,
+<lb/>at staa i Agt og Ær<HIS:clarification place="inline">e</HIS:clarification> hos Bygdens Mænd, og derfor
+<lb/>vil han vel &dash; ja, ja, det maa, det skal lykkes.</p>
+<lb/><HIS:hisStage>(gaaer ud til Høire.)</HIS:hisStage></HIS:hisSp>
+</div>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>. <HIS:stageRole who="ARNE">Arne</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>er nu det en Mørkets Gjerning, at gifte sig?</p></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-left">40.</fw>
+<div type="scene" n="9">
+<lb/><head>9<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. &dash; <HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>, <HIS:stageRole who="OLAF">Olaf</HIS:stageRole>, <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>, <HIS:stageRole>Gjæ&typHyp;
+<lb/>ster</HIS:stageRole> samt <HIS:stageRole>Karle</HIS:stageRole> og <HIS:stageRole>Piger</HIS:stageRole> (komme efterhaanden ind fra
+<lb/>forskjellige Sider)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(for sig selv.)</HIS:hisStage></HIS:spOpener><p>Jeg har ikke truffet Olaf alene; men
+<lb/>naar jeg tænker mig om, saa er det ogsaa bedst, at
+<lb/>han Intet veed deraf forinden det gaaer for sig. <HIS:hisStage>(sagte
+<lb/>til Hemming, der har talt hviskende med Ingeborg.)</HIS:hisStage>
+<lb/>Nu, Hemming! hvordan mener Du din Huusbond er
+<lb/>sindet?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>hvis ikke I hjælper til.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei, det kommer vi nok udaf. <HIS:hisStage>(blander sig mellem
+<lb/>Gjæsterne)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>hvor gaaer det hende?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Vel nok, som jeg forud vidste.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Hun veed da at trøste sig?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">41.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(smilende)</HIS:hisStage></HIS:spOpener><p>Det lader saa. Vent kun lidt! Endnu
+<lb/>i Kvæld skal Du faa Vished derfor.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Hvad mener I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Jeg mener at hun er en listig Hex! Alle hendes
+<lb/>fagr<HIS:clarification place="inline">e</HIS:clarification> Ord har været Svig og Bedrag.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Nei, nei, min Moder!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det faaer vi nu at see! Alfhild er fro og glad,
+<lb/>saameget veed jeg.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Vel mig om saa var!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(høit og afmaalt.)</HIS:hisStage></HIS:spOpener><p>Herr Arne fra Guldvik! Nu er
+<lb/>da omsider den Time kommen, som jeg mener vi Alle
+<lb/>har stundet efter.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Der bryder det løs!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Snart skal Kirken lyse sin Fred over vore Børn og
+<lb/>knytte dem sammen til et langt og kjærligt Samliv.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Hvad nu?</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">42.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Vilkaarene ere vi jo enige om. Men jeg tænker
+<lb/>vi her endnu engang besegle dem med Haand og Mund.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>som en ærlig Mand.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det veed jeg vel, Herr Arne! men det er snart
+<lb/>gjort. Først skal til evindelige Tider hver Splid og
+<lb/>Ufred mellem vore Slægter være forbi, &dash; og den U&typHyp;
+<lb/>gavn og Skade, som de gamle Tvistigheder har voldt
+<lb/>paa baade Sider, skal Ingen kræve Fyldest for;
+<lb/>det maa bæres, som Enhver bedst veed og kan. Ei
+<lb/>sandt, det love vi?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>saa forbandet Du løi for mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Dernæst er at nævne, hvad vi alt ere enige om, at
+<lb/>Grændseskjællet mellem Hr. Arnes Enemærker og mine,
+<lb/>skal flyttes saa langt ind paa hans Grund, som gode
+<lb/>og uvillige Mænd have skjønnet at være ret og billigt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>det faaer vel saa være!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">43.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det love vi da?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener><p>Det love vi!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Endelig giver Herr Arne sin Datter til Medgift
+<lb/>saameget af Sølv, Linklæder og andet Bohave, som
+<lb/>nævnt og opsat er ved Fæstensøllet, og bør det sig
+<lb/>alt tilhobe at være her tilstede paa Gaarden, fra den
+<lb/>Dag Jomfru Ingeborg er flyttet herind som min Søns
+<lb/>Ægtehustru, hvilket skeer ikvæld. Derom ere vi
+<lb/>jo enige?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener><p>Det love og vidne vi!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Saa række da Brud og Brudgom hinanden Hænder
+<lb/>for at gaa til Gildebordet og derfra til Kirken.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>at jeg stolede paa hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Men paa denne frydelige Dag, bør det sig os at
+<lb/>glæde saa Mange som skee kan. Og derfor har jeg
+<lb/>en Bøn til Eder, Herr Arne!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">44.</fw>
+<lb/><HIS:hisSp who="HEMMING"><HIS:spOpener><speaker>Hemming</speaker>.</HIS:spOpener><p>Hvad agter hun sig nu til?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Der er endnu et Par unge Folk, som gjerne gad
+<lb/>følges til Brudeskamlen ikvæld; de ere indbyrdes enige,
+<lb/>efter hvad jeg hører. Bruden skal jeg sørge for,
+<lb/>men Brudgommen maa I hjælpe tilrette; det er
+<lb/>Hemming, Ed<HIS:clarification place="inline">e</HIS:clarification>rs Svend, og Alfhild!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>det skal ikke skee! Aldrig, aldrig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Stille! &dash; Olaf, min søn! vær stille! jeg beder Dig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>skille Jer af med hende. Ha ha!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(med tvungen Fatning.)</HIS:hisStage></HIS:spOpener><p>Herr Arne! hvor kan I tro
+<lb/>Sligt?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>skjællig Grund til at bryde Forliget.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(sagte og forskrækket.)</HIS:hisStage></HIS:spOpener><p>Bryde Forliget! Jeg beder
+<lb/>Jer! Vil I beskjæmme os Alle? <HIS:hisStage>(de tale sagte sammen.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Hvad siger Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Himmelen staa os bi!</p></HIS:hisSp>
+<pb/><lb/><fw type="page" place="top-right">45.</fw>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Hvad gaaer der af hende?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(sagte)</HIS:hisStage></HIS:spOpener><p>Saadan er det fat! Hende, hende er det,
+<lb/>som har Hemming kjær! <HIS:hisStage>(sagte og bestemt til Arne.)</HIS:hisStage>
+<lb/>Agter I nu længere at bryde Forliget? Der seer I
+<lb/>selv paa Jer Datters Færd, hvad Aarsag jeg havde til
+<lb/>at faa Hemming gift!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Kunde I tænke Jer, at hun &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Stil Jer kun ikke slig an! Ingeborg har Sind til
+<lb/>Eders Huuskarl; nu skulde jeg mene, at <emph>jeg</emph> har
+<lb/>skjællig Grund til at bryde vort Forlig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>At volde mig slig Tort!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(spottende)</HIS:hisStage></HIS:spOpener><p>Ja, for ellers vilde jo I gjøre det!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>det er bedst vi tie, begge To!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(for sig selv.)</HIS:hisStage></HIS:spOpener><p>See saa, nu har jeg vundet! Jeg
+<lb/>kjender Olaf; en forhaanet Kvinde vil ikke friste
+<lb/>ham!</p></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-left">46.</fw>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole>. (kommer ubemærket.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>saa lidet tilpas at Olaf fik hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(har imidlertid gjenvundet sin Fatning.)</HIS:hisStage></HIS:spOpener><p>Og nu til
+<lb/>Gildesalen! Hemming kan vi siden tænke paa. &dash;
+<lb/>Olaf tag Bruden ved Haand!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Gjæsterne</speaker>.</HIS:spOpener><p>Hvordan, hun tager Olaf? <HIS:hisStage>(Forbauselse)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Saavidt har han da drevet det! <HIS:hisStage>(høit
+<lb/>til Alfhild.)</HIS:hisStage> Du feiler! Det er ikke din Brudgom!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Han har da lovet hende &dash;!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(i stærkt Oprør.)</HIS:hisStage></HIS:spOpener><p>Olaf er ikke din Brudgom, siger
+<lb/>jeg. Sig hende det selv, min Søn!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>. <HIS:hisStage>(tier. &dash; Fru Kirstens Frænder see forlegne paa hinanden.
+<lb/>Arnes Slægtninge nærme sig truende.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(med hævet Stemme)</HIS:hisStage></HIS:spOpener><p>Olaf Liljekrans! Svar høit
+<lb/>og lydt! Det kræves m<HIS:clarification place="inline">e</HIS:clarification>d Rette af Dig.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">47.</fw>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Christ fri mig! hans Forstand er borte!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei, vær kun trøstig; det er snart forbi, &dash; jeg
+<lb/>kjender ham. <HIS:hisStage>(gaaer og trækker Arne med sig.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="11">
+<lb/><head>11<hi rend="raised">te</hi> Scene</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole> (en<HIS:clarification place="inline">e</HIS:clarification>)</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker></HIS:spOpener>
+<lb/><l>At jeg kunde mig derover tildøde lee!</l>
+<lb/><HIS:hisStage>(gaaer hen til Huset og lytter, medens følgende Chor
+<lb/>høres dæmpet indenfor.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Chor af Bryllupsgjæster</speaker>
+<lb/><HIS:hisStage>(udenfor Scenen)</HIS:hisStage></HIS:spOpener>
+<lb/><l>Hil og sæl baade Brudgom og Brud,</l>
+<lb/><l>De sidde i Lyst og Gammen herinde.</l>
+<lb/><l>Herr Olaf er sig en Ridder prud,</l>
+<lb/><l>Skjøn Ingeborg saa veen en Kvinde!</l></HIS:hisSp>
+</div>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-left">48.</fw>
+<div type="act" n="3">
+<lb/><head>Tredie Akt.</head>
+<div type="scene" n="4">
+<lb/><head>4<hi rend="raised">d</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>. <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>heroppe kan vi være trygge og &dash; <HIS:hisStage>(lytter)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisStage>Udenfor til Høire høres langt borte følgende
+<lb/><HIS:stageRole rend="centre">Chor</HIS:stageRole>:</HIS:hisStage>
+<lb/><HIS:hisSp><l>Afsted, afsted, at finde</l>
+<lb/><l>Alfhild, den onde Kvinde;</l>
+<lb/><l>For vor Sorg og Møde</l>
+<lb/><l>Skal hun med Livet bøde!</l></HIS:hisSp>
+</div>
+<div type="scene" n="5">
+<lb/><head>5<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="OLAF">Olaf</HIS:stageRole>. &dash; <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Hvor vi mødes &dash; bare ikke for Alteret.<HIS:hisStage>(De gaa.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="6">
+<lb/><head>6<hi rend="raised">te</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>, <HIS:stageRole who="ARNE">Arne fra Guldvik</HIS:stageRole>, <HIS:stageRole>Bryllupsgjæster</HIS:stageRole>,
+<lb/><HIS:stageRole>Bønder</HIS:stageRole> og <HIS:stageRole>Huuskarle</HIS:stageRole>, (komme Alle fra Høire.)</HIS:hisStage>
+<pb/>
+<lb/><fw type="page" place="top-right">49.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>See, her vil vi begynde Jagten. Vore Folk maa
+<lb/>spredes ad og søge rundt om Vandet; &dash; hun skal her&typHyp;
+<lb/>frem og da &dash; Vee, vee hende! der er ikke Naade og
+<lb/>Barmhjertighed i mit Sind.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Hvad vil I da gjøre?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Holde Dom over hende &dash; lige paa Stedet, der hun
+<lb/>træffes! Den Udaad hun har øvet paa mine Ene&typHyp;
+<lb/>mærker har jeg Magt og Myndighed til at straffe
+<lb/>efter Ret og Skjøn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>vindes ikke derved tilbage.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nei, men jeg faaer Hævn over hende og det er ingen
+<lb/>ringe Vinding. Hævn, Hævn maa jeg have, ifald
+<lb/>jeg skal bære og overleve mit Tab og al den Skam hun
+<lb/>har paaført mig. Uveiret inat har fordærvet hele
+<lb/>Aarets Grøde for mig, ikke et uskadt Straa staaer
+<lb/>igjen paa min Ager, og herinde, hvor hun selv har
+<pb/>
+<lb/><fw type="page" place="top-left">50.</fw>
+<lb/>sagt, at hun holder til, her blomstrer og trives det
+<lb/>Alt saa rigt, som jeg aldrig har seet! Er det ikke
+<lb/>hemmelige Kunsters Virkning? Olaf har hun hildet
+<lb/>saa fast i sit djævelske Garn, at han, inat i det
+<lb/>vildeste Uveir, flygtede af Bygden for at følge hen&typHyp;
+<lb/>de. Mit Huus har hun brændt af lige til Grunden;
+<lb/>alle Luger og Døre havde hun stengt udenfra; &dash; det
+<lb/>var et Guds Under at Huuskarlene bragte betimelig
+<lb/>Hjælp!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Ingeborg og min Svend, Hemming!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ei, ei, Herr Arne! I maa ikke reent fortvivle
+<lb/>endnu. Ingeborg kan nok være sluppen derfra; Al&typHyp;
+<lb/>le vi Andre kom jo uskadte ud, trods den forban&typHyp;
+<lb/>dede Hexekvindes List; &dash; Ingeborg er bleven for&typHyp;
+<lb/>vildet af Skrækken og er flygtet et Sted hen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>det veed jeg vist!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">51.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Hvi saa?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>O, jeg kjender ham!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Ja, hvordan end er, Alfhild maa vi fange; hun
+<lb/>skal forhøres, dømmes og fældes; jeg har Ugjerninger
+<lb/>nok at paasige hende.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>borte baade med Sadel og Bidsel.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ingeborg og Hemming borte, og hans Hest
+<lb/>ligesaa; var jeg i hans Sted, jeg veed nok hvad jeg
+<lb/>vilde tro. <HIS:hisStage>(høit.)</HIS:hisStage> Nu bryde vi op og deles ad i smaa
+<lb/>Hobe; den som først faaer Øie paa Alfhild blæser
+<lb/>i Horn eller Luur; de Andre lytte derefter og følge
+<lb/>Lyden til vi samles. <HIS:hisStage>(gaaer tilligemed de Øvrige.)</HIS:hisStage></p></HIS:hisSp>
+</div>
+<div type="scene" n="7">
+<lb/><head>7<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole> (alene.)</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l>Baade her og hist er kun Gravens Læ!</l><HIS:hisStage>(vil gaa.)</HIS:hisStage></HIS:hisSp>
+</div>
+<pb/>
+<lb/><fw type="page" place="top-left">52.</fw>
+<div type="scene" n="8">
+<lb/><head>8<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole who="ALFHILD">Alfhild</HIS:stageRole>. &dash; <HIS:stageRole who="FRUKIRSTEN">Fru Kirsten</HIS:stageRole>, <HIS:stageRole who="ARNE">Arne</HIS:stageRole>, <HIS:stageRole>Bryllupsgjæster</HIS:stageRole>,
+<lb/><HIS:stageRole>Bønder</HIS:stageRole> og <HIS:stageRole>Karle</HIS:stageRole> (komme fra forskjellige Sider)
+<lb/>Senere <HIS:stageRole who="OLAF">Olaf Liljekrans</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Der er hun! Staa stille, Alfhild! Prøv ikke
+<lb/>paa at undkomme, ellers skyde vi Dig ned.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Hvad vil Du mig?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det skal Du tidsnok erfare! <HIS:hisStage>(peger paa Bylten.)</HIS:hisStage>
+<lb/>Hvad bærer Du der?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Min Moders Arv!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Giv hid! See, see, en Sølvkrone! Forsandt,
+<lb/>Alfhild! er Du din Moders eneste Datter, da
+<lb/>frygter jeg stærkt, at Brudekronen ikke mere
+<lb/>vil trænges om i hendes Æt. <HIS:hisStage>(til Karlene)</HIS:hisStage> I
+<lb/>binde hende! Hun staaer der og lader saa
+<lb/>sorgløs i Sind; Ingen kan vide hvad hun pønser
+<pb/>
+<lb/><fw type="page" place="top-right">53.</fw>
+<lb/>paa.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker> <HIS:hisStage>(bindes.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(høit og med undertrykt Lidenskabelighed.)</HIS:hisStage></HIS:spOpener><p>Retten
+<lb/>er sat. Som I Alle vide har jeg lovlig Hævd og
+<lb/>Adkomst til at værne om mine Enemærker, til at
+<lb/>fælde Dom efter Landets Lov over hver den, der
+<lb/>gjør mig Uskjel paa min egen Grund. Dette er,
+<lb/>hvad Du, Alfhild! har fordristet Dig til og derfor
+<lb/>staaer Du nu her som Anklaget for din Dommer.
+<lb/>Forsvar Dig om Du kan, men glem ikke at det
+<lb/>gjælder Livet.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Men hør, Fru Kirsten!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Forlad mig, Herr Arne! Jeg er i min Ret og
+<lb/>den vil jeg holde paa. <HIS:hisStage>(til Alfhild.)</HIS:hisStage> Træd frem og
+<lb/>svar mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Spørg Du kun, jeg skal svare!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">54.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Mange og haarde ere de Beskyldninger, som rei&typHyp;
+<lb/>ses mod Dig. Først og fremst paasiger jeg Dig her,
+<lb/>ved ugudelige Kunster at have daaret min Søn, O&typHyp;
+<lb/>laf Liljekrans, saa at hans Sind og Tanker vendte
+<lb/>sig fra hans Fæstemø, som han havde trolovet, &dash;
+<lb/>saa at han, syg i Hjertet, ingen Dag fandt Fred
+<lb/>i sit Hjem, men drog hid op til denne ukjendte
+<lb/>Dal, hvor Du har holdt til. Alt Sligt kan ik&typHyp;
+<lb/>ke være tilgaaet paa vanlig Viis; Du er derfor
+<lb/>sigtet for Trolddom, forsvar Dig om Du kan.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>og de skuld<HIS:clarification place="inline">e</HIS:clarification> ikke blues derover.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nok, nok! Du føier endnu Bespottelser til din
+<lb/>Brøde. Vee Dig, Alfhild! hvert et Ord tynger
+<lb/>med i Skaalen. Dog, Du om det! <HIS:hisStage>(til de Øvrige.)</HIS:hisStage>
+<lb/>Jeg æsker Eder Alle til Vidne paa hendes Svar. <HIS:hisStage>(ven&typHyp;
+<lb/>der sig til Alfhild.)</HIS:hisStage> Jeg beskylder Dig dernæst for
+<pb/>
+<lb/><fw type="page" place="top-right">55.</fw>
+<lb/>atter igjen inat at have, ved de samme hemmelige
+<lb/>Kræfter, trukket Olaf her op, samt at Du holder
+<lb/>ham gjemt herinde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Lønligt er han gjemt herinde!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det vedgaaer Du?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>har saa stærk en Magt og Evne!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(i heftigt Udbrud.)</HIS:hisStage></HIS:spOpener><p>Nu er Døden Dig vis! Sig
+<lb/>frem, hvor har Du ham?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>da hexer Du bedre end jeg!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det Svar gavner lidet; sig frem! hvor er han?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Jeg har svaret.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(med tilbagetrængt Forbittrelse.)</HIS:hisStage></HIS:spOpener><p>Godt, godt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>saa listig paa sine sidste Dag<HIS:clarification place="inline">e</HIS:clarification>.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu kommer den tredie Klage mod Dig: Du
+<lb/>har inat stukket Ild paa min Gaard og brændt
+<lb/>den af til Grunden. Kanhænde Menneskeliv er gaaet
+<pb/>
+<lb/><fw type="page" place="top-left">56.</fw>
+<lb/>tilspilde, det vide vi endnu ikke, men hvad som
+<lb/>end er, derved hverken skades eller rettes paa din
+<lb/>Sag; thi din Agt at brænde os inde Alle tilhobe
+<lb/>ligger klarlig for Dagen. Nægter Du mit Paa&typHyp;
+<lb/>sagn at have brændt Gaarden af inat?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>jeg har brændt din Gaard!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Og hvormed vil Du besmykke din Gjerning? <HIS:hisStage>(med
+<lb/>bitter Spot.)</HIS:hisStage> Du skal ei kunne sige at Du handlede
+<lb/>overilet. God Leilighed havde Du, saavidt jeg
+<lb/>mindes, til at tænke Dig om. Du stod udenfor, In&typHyp;
+<lb/>gen kom Dig nær, Ingen hindrede Dig fra at over&typHyp;
+<lb/>lægge saa roligt Du kunde og vilde. Ei skal
+<lb/>Du sige at Gildestuens Lystighed steg Dig til
+<lb/>Hovedet, ei heller at Vinen gjorde Dig hed og
+<lb/>fortumlet; thi Du var nok ikke med derinde, Du
+<lb/>stod udenfor, og der var svalt nok, der var kjøli&typHyp;
+<pb/>
+<lb/><fw type="page" place="top-right">57.</fw>
+<lb/>ge Vinde, som nok kunde gjøre Dig besindig.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>nu er Alting dødt og fortørret!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Slig Tale baader Dig lidet! End engang spørger
+<lb/>jeg, hvor er Olaf Liljekrans, min Søn?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Jeg har svaret!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Saa har Du ogsaa fældet din Dom og jeg vil
+<lb/>bekræfte den.</p>
+<lb/><HIS:hisStage>(Olaf kommer frem uden at bemærkes af de Øvrige.)</HIS:hisStage></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Hjælp Gud! hvad er det? <HIS:hisStage>(trækker sig tilbage.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Som skyldig i Trolddomskunster og Mordbrand
+<lb/>er Du efter Landets Lov hjemfalden til Døden.
+<lb/>Denne Straf udsiges herved over Dig, og skal den
+<lb/>ufortøvet, samt her paa Stedet fuldbyrdes!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ARNE"><HIS:spOpener><speaker>Arne</speaker>.</HIS:spOpener><p>Men hør, Fru Kirsten!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Dommen er fældet! Alfhild skal lid<HIS:clarification place="inline">e</HIS:clarification> Døden!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>jeg lever ikke længer.</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">58.</fw>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Før hende op paa Fjeldstupet der!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker> <HIS:hisStage>(føres derop af to Karle.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>For sidste Gang, Alfhild! giv mig min Søn til&typHyp;
+<lb/>bage!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Jeg svarer ikke mere!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Det skee da som Du vil! <HIS:hisStage>(til Karlene)</HIS:hisStage> Styrter
+<lb/>hende ud! Nei, vent! Der falder mig Noget ind.
+<lb/><HIS:hisStage>(til Alfhild.)</HIS:hisStage> Som Du der staaer kommer jeg til at
+<lb/>mindes Dig, da Du igaar traadte frem med Guld&typHyp;
+<lb/>kronen paa og mente at Du var Olaf Liljekrans
+<lb/>værdig til Brud. Nu, skal vi dog see, hvormeget
+<lb/>Du agtes; her er Bønder og Karle og mange ringe
+<lb/>Mænd tilstede; &dash; kanhænde dit Liv end staaer
+<lb/>til at frelses! Ja, Alfhild! Du seer paa mig,
+<lb/>men saa er det; jeg vil være naadig! <HIS:hisStage>(vender sig
+<lb/>til de Øvrige.)</HIS:hisStage> Ei sandt, I kjende Alle den gamle
+<pb/>
+<lb/><fw type="page" place="top-right">59.</fw>
+<lb/>Vedtægt, som byder, at naar en Kvinde er dømt
+<lb/>for en halsløs Gjerning, som hun der, da frelses
+<lb/>hendes Liv og hun er fri, ifald en uberygtet Mand
+<lb/>træder frem og nævner hende uskyldig og siger sig
+<lb/>villig og rede til at ægte hende. Ei sandt, den
+<lb/>Vedtægt kjende I?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>saa dybt i min sidste Stund!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nuvel, Alfhild! Denne Vedtægt skal komme
+<lb/>Dig tilgode. Ifald kun den ringeste Karl i mit
+<lb/>Følge træder frem og siger sig villig til at ægte
+<lb/>Dig, da er Du fri. <HIS:hisStage>(seer sig om.)</HIS:hisStage> Er der Ingen
+<lb/>som melder sig?</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker> <HIS:hisStage>(tie.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Giv hende Sølvkronen paa; den skal følge med
+<lb/>i Kjøbet; kanhænde, Alfhild! at Du derved stiger
+<lb/>i Priis!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">60.</fw>
+<lb/><HIS:hisStage>(Kronen sættes paa Alfhilds Hoved.)</HIS:hisStage>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>For anden Gang, spørger jeg, er Ingen villig til
+<lb/>at frelse hende? <HIS:hisStage>(Hun seer sig om.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker> <HIS:hisStage>(tie.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu gjælder det; nu frygter jeg for at dine Øie&typHyp;
+<lb/>blikke ere talte. Hører mig vel, I Karle deroppe!
+<lb/>Ifald Ingen svarer paa det tredie Opraab, da agte
+<lb/>I paa mit Tegn og styrte hende i Søen! Brug nu
+<lb/>dine Kunster, Alfhild! See til om Du kan kogle
+<lb/>Dig fra Døden. <HIS:hisStage>(med høi Røst.)</HIS:hisStage> For sidste Gang!
+<lb/>Der staaer Hexekvinden og Mordbrændersken, hvo
+<lb/>frelser og ægter hende? <HIS:hisStage>(seer sig om.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker> <HIS:hisStage>(tie.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(hæver raskt Haanden til Tegn, Karlene gribe
+<lb/>Alfhild; i samme Øieblik styrter Olaf frem.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>Jeg frelser og ægter hende! <HIS:hisStage>(støder Karlene bort
+<pb/>
+<lb/><fw type="page" place="top-right">61.</fw>
+<lb/>og omslynger Alfhild med sin Arm.)</HIS:hisStage></p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker> <HIS:hisStage>(staa som forstenede med Udraabet:)</HIS:hisStage></HIS:spOpener><p>Olaf Lilje&typHyp;
+<lb/>krans!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Olaf Liljekrans, min Søn! hvad har Du gjort?
+<lb/>Beskjæmmet Dig for evig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>al Verdens Herlighed tilbage!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Du vil ægte hende! Godt og vel, saa er jeg
+<lb/>ikke længere Moder for Dig!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>min egen Lykkes Bygning!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Men betænker Du da ikke &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>som den første Stund vi mødtes.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/> <HIS:hisStage>(afsides.)</HIS:hisStage></HIS:spOpener><p>Ingeborg er borte, denne rige Dal hø&typHyp;
+<lb/>rer Alfhild til; ingen Anden har Ret dertil &dash;
+<lb/><HIS:hisStage>(høit.)</HIS:hisStage> Nuvel, Olaf! Jeg vil ikke være din Lykke
+<lb/>imod. Mener Du at finde den paa den Viis, saa &dash;
+<lb/>&dash; Mit Minde har I dertil!</p></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-left">62.</fw>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Og mig forlader Du al min Brøde?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>Nu, nu! Kanhænde der var Feil paa min Side
+<lb/>med, lad os ikke tale mere derom!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="OLAF"><HIS:spOpener><speaker>Olaf</speaker>.</HIS:spOpener><p>i Venskab have brudt Trolovelsen.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="FRUKIRSTEN"><HIS:spOpener><speaker/></HIS:spOpener><p>I seer, Herr Arne! at jeg &dash; &dash;</p></HIS:hisSp>
+</div>
+<div type="scene" n="9">
+<lb/><head>9<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="INGEBORG">Ingeborg</HIS:stageRole> og <HIS:stageRole who="HEMMING">Hemming</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="INGEBORG"><HIS:spOpener><speaker>Ingeborg</speaker>.</HIS:spOpener><p>Hemming har fundet mig!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker> <HIS:hisStage>(forbausede)</HIS:hisStage></HIS:spOpener><p>Ingeborg og Hemming! Heroppe!</p></HIS:hisSp>
+</div>
+<div type="scene" n="10">
+<lb/><head>10<hi rend="raised">de</hi> Scene.</head>
+<lb/><HIS:hisStage><HIS:stageRole>De Forrige</HIS:stageRole>. <HIS:stageRole who="THORGJERD">Thorgjerd</HIS:stageRole>.</HIS:hisStage>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener><p>Min Fader!</p></HIS:hisSp>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker>.</HIS:spOpener><p>Hendes Fader!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="ALFHILD"><HIS:spOpener><speaker>Alfhild</speaker>.</HIS:spOpener>
+<lb/><l part="F">Paa Englenes Arm</l>
+<lb/><l>Bæres vi hjem i Himmelens Karm!</l></HIS:hisSp>
+<pb/>
+<lb/><fw type="page" place="top-right">63.</fw>
+<lb/><HIS:hisSp><HIS:spOpener><speaker>Alle</speaker> <HIS:hisStage>(have imidlertid dannet en Gruppe om Alfhild.)</HIS:hisStage></HIS:spOpener></HIS:hisSp>
+<lb/><HIS:hisStage>Tæppet falder.</HIS:hisStage>
+<lb/><figure type="bar"/>
+<pb/>
+</div>
+</div>
+</body>
+</text>
+</TEI>
+
+

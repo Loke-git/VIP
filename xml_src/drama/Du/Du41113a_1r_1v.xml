@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+    <teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4&deg; 1113a, bl. 1r-v</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1878-79]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+    <respStmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ingvald Aarstein</name></respStmt>
+    <respStmt>
+        <resp>Kodet om til TEI-P5, juli 2011</resp>
+        <name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respStmt>
+    <respStmt>
+<resp>Opprettet fil, november 2010</resp>
+<name>Stine Brenna Taugbøl</name>
+</respStmt>
+</titleStmt>
+<editionStmt><edition xml:id="Du41113a_1r_1v-1110"/></editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på Du41113.xml</p>
+    <p><HIS:hisMsDesc type="workingManuscript" subtype="notes" xml:id="Du41113a-f">
+        <msIdentifier>
+            <settlement>Oslo</settlement>
+            <repository>Nasjonalbiblioteket</repository>
+            <idno>NBO Ms.4&deg; 1113a-f</idno>
+        </msIdentifier>
+        <msContents><msItem><author>[Henrik Ibsen]</author>
+            <title>Uten tittel</title>
+            <docDate>[1878-79]</docDate>
+        </msItem></msContents>
+        <physDesc><objectDesc><p>Egenhendige notater og arbeidsmanuskripter.</p></objectDesc></physDesc>
+    </HIS:hisMsDesc></p>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<projectDesc><p>&projectDesc-tekstkilde;</p></projectDesc>
+<editorialDecl>
+<HIS:typography>
+<list>
+<head>Du41113: Et dukkehjem (notater og arbeidsmanuskripter)</head>
+<item>skriftgruppe: latinsk håndskrift</item>
+<item>bokstavvariant: minuskler, majuskler</item>
+<item>skrifthelling: steilskrift</item>
+<item>akt/scene:
+	<list>
+	<item>overskrift: midtstilt</item>
+	<item>sceneanvisning:
+		<list>
+		<item>kortere sceneanvisninger: i parentes, midtstilt på egen linje eller som del av løpende tekst</item>
+		<item>lengre sceneanvisninger: i parentes, blokkjustert (41113f)</item>
+		</list>
+	</item>
+	<item>rollenavn: midtstilt</item>
+	<item>avsnitt/replikk: lengre replikker blokkjustert, første linje noe innrykket</item>
+	<item>utheving i replikk: enkel understreking</item>
+	</list>
+</item>
+<item>generelle elementer (systembeskrivelse):
+	<list>
+	<item>skillestreker: dobbel skillestrek ved slutten av første og tredje akt (41113f)</item>
+	<item>bindestrek: enkel</item>
+	<item>arksignatur: øverst i venstre hjørne</item>
+	<item>noter/fotnoter: dato påført ved begynnelsen og slutten av hver akt (41113f)</item>
+	</list>
+</item>
+<item>annet:
+	<list>
+	<item>med blyant er enkelte sider paginert (med de usammenhengende tallene 7-8 og siden 2-5): kodet med page-attributt</item>
+	<item>biblioteksignatur med blyant: nederst s. 4 i faksimilene</item>
+	<item>punktummet etter rollenavn er flere steder spesielt i begynnelsen av ms-et skrevet slurvet og ligner en tankestrek. De er dog transkribert som punktum</item>
+	</list>
+</item>
+</list>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+    <variantEncoding xmlns="http://www.tei-c.org/ns/1.0" type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI" xml:id="HI" medium="pen-black" scope="major"><p>Mørkt blekk. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil-red"><p>Rød blyant. Bladfoliering.</p></handNote>
+</handNotes>
+</profileDesc>
+
+<revisionDesc>
+    <change when="2011-08-22" who="SBT">
+        <title>scribe-attributt</title>
+        Erstattet hand-attributt med scribe. IKKE VALID: scribe må tillates i fw.</change>
+    <change><date>20.08.11</date>
+        <name>SBT</name><title>Validering</title>
+        Oppdaterte etter nytt skjema. Validert.</change>
+    <change><date>11.08.11</date>
+        <name>SBT</name><title>Tilpasning</title>
+        La til type-attributt i respStmt. Endret sti til skjema.</change>
+    <change><date>15.07.11</date>
+        <name>SBT</name><title>P5</title>
+        Kodet om til P5.</change>
+    <change><date>10.12.10</date>
+        <name>SBT</name><title>Synkronisering</title>
+        La inn synkroniseringspunkt mot Du79.</change>
+    <change><date>29.11.10</date>
+<name>SBT</name><title>Opprettet fil</title>
+Fila er opprettet med utgangspunkt i Du41113.xml. Typografibeskrivelsen gjelder hele manuskriptet. Oppdaterte apparatkoding. Validerte fila.</change>
+</revisionDesc>
+</teiHeader>
+    <text type="drama" xml:lang="dan-nob" rend="handwritten">
+    <!-- text type="drama" rend="handwritten-mediafacs" xml:lang="dan-nob" -->
+<pb n="1"/>
+<body>
+<div type="notes">
+<lb/><fw type="leaf" place="top-right" hand="h1">1</fw>
+<lb/><head>Optegnelser
+<lb/>til
+<lb/>nutids-tragedien.
+<lb/>Rom,
+<lb/>19.10.78.</head>
+<lb/><p>Der er to slags åndelige love, to slags sam&typHyp;
+<lb/>vittigheder, en i manden og en ganske
+<lb/>anden i kvinden. De forstår ikke hin&typHyp;
+<lb/>anden; men kvinden dømmes i det
+<lb/>praktiske liv efter mandens lov, som
+<lb/>om hun ikke var en kvinde men
+<lb/>en mand.</p>
+<lb/><p>Hustruen i stykket ved tilslut hver&typHyp;
+<lb/>ken ud eller ind i hvad der er ret
+<lb/>eller uret; den naturlige følelse på
+<lb/>den ene side og autoritetstroen på den
+<lb/>anden bringer hende ganske i vild&typHyp;
+<lb/>rede.</p>
+<lb/><p>En kvinde kan ikke være sig selv i
+<lb/>nutidens samfund, der er et udeluk&typHyp;
+<lb/>kende mandligt samfund, me<HIS:hisDel rend="overwritten">n</HIS:hisDel>d love
+<lb/>skrevne af mænd og med anklagere og
+<lb/>dommere der dømmer den kvindelige
+<lb/>færd fra mandligt standpunkt.</p>
+<lb/><p>Hun har begåt falsk, og det er hendes
+<lb/>stolthed; thi hun har gjort det af kær&typHyp;
+
+<pb n="2"/>
+<lb/>lighed til sin mand, for at redde hans
+<lb/>liv. Men denne mand står med al
+<lb/>hverdagslig hæderlighed på lovens
+<lb/>grund og ser sagen med mandligt
+<lb/>øje.</p>
+<lb/><p>Sjælekampe. Trykket og forvirret un&typHyp;
+<lb/>der autoritetstroen taber hun troen på
+<lb/>sin moralske ret og evne til at opdra&typHyp;
+<lb/>ge sine børn. Bitterhed. En moder i
+<lb/>nutidens samfund, ligesom visse in&typHyp;
+<lb/>sekter gå hen og dø når hun har
+<lb/>gjort sin pligt til slægtens forplantelse.
+<lb/>Kærlighed til livet, til hjemmet, til
+<lb/>mand og børn og slægt. Fra og til
+<lb/>kvindelig afrysten af tankerne. Plud&typHyp;
+<lb/>selig tilbagevendende angst og rædsel.
+<lb/>Alt må bæres alene. Katastrofen
+<lb/>nærmer sig ubønhørligt, uafvendeligt.
+<lb/>Fortvivlelse, kamp og undergang.</p>
+<lb/><HIS:hisAdd place="margin"><note resp="editor">Tilføyelsen står vertikalt i venstre marg.</note>Krogstad har handlet uhæderligt og blev velholden derved,
+<lb/>nu hjælper velstand<unclear reason="writing">en</unclear> ham ikke; han kan ikke genvinde
+<lb/>æren.</HIS:hisAdd>
+</div>
+<div type="list">
+<list>
+    <lb/><head><HIS:synopticViewPtr type="synopticView_textWitnesses" xml:id="Du_75ms"/>Personerne:</head>
+<lb/><item>Stenborg, departementsfuldmægtig.</item>
+<lb/><item>Nora, hans hustru.</item>
+<lb/><item>Fr<HIS:hisDel rend="overwritten">øken</HIS:hisDel>u Lind, enke.</item>
+<lb/><item>Sagfører Krogstad.</item>
+<lb/><item>Karen, barnepige hos Stenborgs.</item>
+<lb/><item>Stuepigen sammesteds.</item>
+<lb/><item>Et bybud.</item>
+<lb/><item>Stenborgs tre små børn.</item>
+<lb/><item>Doktor Hank.</item>
+</list>
+</div>
+</body>
+</text>
+</TEI>

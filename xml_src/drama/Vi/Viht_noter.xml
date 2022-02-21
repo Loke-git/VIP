@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Vi">Vildanden</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="http://www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>26.09.2011</date><name>SBT</name><title>Gjorde om til HISe og til TEI P5. Validert.</title></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteVi_1"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_1">hus</HIS:hisRef>] <hi rend="italic">NBO Ms.8&deg; 1944i, NBO Ms.4&deg; 1115a, NBO Ms.4&deg; 1115b, NBO Ms.4&deg; 1115c, KBK Collin 262, 4&deg;, III.1, FU,</hi> Hus <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_2"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_2">gåt</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115c, KBK Collin 262, 4&deg;, III.1, FU,</hi> gå&rapo;t <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_3"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_3">ord?</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1,</hi> ord. <hi rend="italic">1.&tu20;utg., NBO Ms.4&deg; 1115b, 2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_4"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_4">gerne</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115b, KBK Collin 262, 4&deg;, III.1, FU,</hi> gjerne <hi rend="italic">1.&dash;2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_5"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_5">De</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115b,</hi> de <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, III.1, 2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_6"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_6">sige?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115a, NBO Ms.4&deg; 1115b, FU,</hi> sige. <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, III.1, 2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_7"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_7">forkomme?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115b, FU,</hi> forkomme. <hi rend="italic">1.&tu20;utg., NBO Ms.4&deg; 1115a, KBK Collin 262, 4&deg;, III.1, 2.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_8"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_8">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteVi_9"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_9">potrætterne</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1,</hi> portrætterne <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_10"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_10">juletiden?</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1,</hi> juletiden. <hi rend="italic">1.&tu20;utg., NBO Ms.4&deg; 1115b, 2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_11"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_11">Ekdal</HIS:hisRef>] <hi rend="italic">kanskje feil for</hi> Hjalmar</note>
+<note resp="editor" xml:id="noteVi_12"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_12">Å</HIS:hisRef>] A <hi rend="italic">ekspl. 3</hi></note>
+<note resp="editor" xml:id="noteVi_13"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_13">rydder</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115b,</hi> ryder <hi rend="italic">1.&tu20;utg., KBK Collin 262, 4&deg;, III.1, 2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_14"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_14">Ekdal!</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1,</hi> Ekdal? <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_19"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_19">stakkers</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115b, KBK Collin 262, 4&deg;, III.1, 2.&tu20;utg., FU,</hi> skakkers <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_15"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_15">må ikke</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1,</hi> må <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<note resp="editor" xml:id="noteVi_16"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_16">imorgen tidlig.</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1,</hi> imorgen tidlig? <hi rend="italic">1.&dash;2.&tu20;utg., FU,</hi> imorgen. <hi rend="italic">NBO Ms.4&deg; 1115b</hi></note>
+<note resp="editor" xml:id="noteVi_17"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_17">på</HIS:hisRef>] <hi rend="italic">KBK Collin 262, 4&deg;, III.1, 2.&tu20;utg., FU,</hi> paa <hi rend="italic">1.&tu20;utg.</hi></note>
+<note resp="editor" xml:id="noteVi_18"><HIS:hisRef type="tcNote" target="Viht.xml" corresp="noteVi_18">loftet.</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1115b, KBK Collin 262, 4&deg;, III.1,</hi> loftet? <hi rend="italic">1.&dash;2.&tu20;utg., FU</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

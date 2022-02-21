@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI     [     
+<!ENTITY % HIS_entiteter SYSTEM     'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >     
+%HIS_entiteter;     ]> 
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS"> 
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="BS">Bygmester Solness</title>
+<title>Tekstkritiske noter</title>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt><resp>Oppretting</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respStmt>
+<respStmt><resp>Kodekontroll</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respStmt>
+</titleStmt>
+<publicationStmt><p/></publicationStmt>
+<sourceDesc><p>Filen er opprettet internt.</p></sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc><p/></projectDesc>
+<tagsDecl><namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">Kodingen her er gjort så enkel som mulig.</tagUsage></namespace></tagsDecl>
+</encodingDesc>
+<profileDesc><langUsage><language ident="nob"/></langUsage></profileDesc>
+<revisionDesc>
+<change><date>13.02.12</date>
+<name>SBT</name><title>Validering</title>
+</change>
+<change><date>10.02.12</date>
+<name>SBT</name><title>TEI P5</title>
+Kodet om til TEI P5 for HISe.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div type="tcNote">
+<note resp="editor" xml:id="noteBS_1"><HIS:hisRef type="tcNote" target="BSht.xml" corresp="noteBS_1">Bygmester</HIS:hisRef>] <hi rend="italic">på siden foran smusstittelbladet i 1. utg. og Londonutg. står følgende:</hi> Omtrent samtidig med nærværende originaludgave fremkommer en engelsk, en tysk og en fransk af forfatteren autoriseret udgave. Noget senere følger oversættelser på russisk, hollandsk, ungarsk, bøhmisk og polsk.</note>
+<note resp="editor" xml:id="noteBS_2"><HIS:hisRef type="tcNote" target="BSht.xml" corresp="noteBS_2">tomt</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1292, KBK Collin 262, 4&deg;, IV.1, FU, 2. utg.,</hi> stomt <hi rend="italic">1. utg., Londonutg.</hi></note>
+<note resp="editor" xml:id="noteBS_3"><HIS:hisRef type="tcNote" target="BSht.xml" corresp="noteBS_3">dem?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1292,</hi> dem. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, IV.1, Londonutg., FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteBS_4"><HIS:hisRef type="tcNote" target="BSht.xml" corresp="noteBS_4">de</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1292, KBK Collin 262, 4&deg;, IV.1,</hi> De <hi rend="italic">1. utg., Londonutg., FU, 2. utg.</hi></note>
+<note resp="editor" xml:id="noteBS_5"><HIS:hisRef type="tcNote" target="BSht.xml" corresp="noteBS_5">sagen?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1292, FU, 2. utg.</hi> sagen. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, IV.1, Londonutg.</hi></note>
+<note resp="editor" xml:id="noteBS_6"><HIS:hisRef type="tcNote" target="BSht.xml" corresp="noteBS_6">skrevet?</HIS:hisRef>] <hi rend="italic">NBO Ms.4&deg; 1292, FU, 2. utg.</hi> skrevet. <hi rend="italic">1. utg., KBK Collin 262, 4&deg;, IV.1, Londonutg.</hi></note>
+<p/>
+</div>
+</body>
+</text>
+</TEI>

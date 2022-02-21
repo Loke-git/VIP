@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+    [
+    <!ENTITY % HIS_entiteter SYSTEM
+    'http://www.edd.uio.no/ibsen/schema/ibsen-charent.dtd'   >
+    %HIS_entiteter;
+    ]>
+<?xml-model href="http://www.edd.uio.no/ibsen/schema/tei_his.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:HIS="http://www.example.org/ns/HIS">
+<teiHeader xml:lang="nob">
+<fileDesc>
+<titleStmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">NBO Ms 4&deg;1119a, bl.6</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<author>Henrik Ibsen</author>
+<funder>&funder;</funder>
+<editor>&editor;</editor>
+<respStmt type="encoding">
+<resp>Kollasjonering og koding</resp>
+<name>Helene Grønlien, Henninge Margrethe Solberg</name></respStmt>
+<respStmt>
+<resp>1. kollasjon</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name></respStmt>
+<respStmt><resp>2. kollasjon, koding</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition xml:id="NV41119a_6-1211"/>
+</editionStmt>
+<publicationStmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubPlace>Oslo</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Denne filen bygger på NV41119a_NBO.xml.</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>&projectDesc-tekstkilde;</p>
+</projectDesc>
+<editorialDecl>
+<HIS:typography><p></p>
+</HIS:typography>
+<stdVals><p>&stdVals;</p></stdVals>
+<p>&editorialDecl;</p>
+</editorialDecl>
+<tagsDecl>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="id-who">
+<list>
+<headLabel>id=""</headLabel><headItem>speaker</headItem>
+<label xml:id="RUBEK"/><item>R.</item>
+<label xml:id="IRENE"/><item>-</item>
+</list>
+</tagUsage></namespace>
+<namespace name="www.tei-c.org/ns/1.0"><tagUsage gi="tei.2">
+&tagUsage-tei2;</tagUsage></namespace>
+</tagsDecl>
+<variantEncoding type="alteration" method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="nob"/>
+<language ident="dan-nob"/>
+</langUsage>
+<handNotes>
+<handNote scribe="HI-1" xml:id="HI-1" medium="pen-black" scope="major"><p>Sort penn. Henrik Ibsen. Hovedhånd</p></handNote>
+<handNote scribe="h1" xml:id="h1" medium="pencil"><p>Rød blyant. Ukjent hånd (bibliotekar?). Bladnummerering.</p></handNote>
+</handNotes>
+</profileDesc>
+<revisionDesc>
+<change><date>19.12.11</date>
+<name>SBT</name><title>ferdigstilling</title>
+Oppdaterte teiHeader, la inn attributter i text.</change>
+<change><date>15.12.11</date>
+<name>SBT</name><title>P5-konvertering</title>
+Gjenstår: tekstendringer i teiHeader, attributter i text.</change>
+<change><date>04.11.09</date>
+<name>HMS</name><title>Opprettet filen</title>
+Opprettet filen etter splitting av NV41119a_NBO.xml. Justerte teiHeader. Validert.</change>
+<!-- Logg fra arkivfil -->
+<change><date>02.11.09</date>
+<name>HMS</name><title>2. kollasjon, koding, splitting av fil, ny id</title>
+Førte inn resultater etter 2. kollasjon mot original. Så over og oppdaterte strukturkodingen. Sjekket og endret id-who-lista. Kodet inn pb-er med TMs msbetegnelser (etter at Mette sjekket blanke sider mot original). Fjernet siccing og arbeids- og typonoter. Splittet denne filen i tre ifølge TMs ms-beskrivelse: NV41119a_1_7.xml, NV41119a_6.xml og NV41119a_2-5.xml. Omdøpte denne fila til NV41119a_NBO. Kodet den om til en text-group-text-struktur med id hver 'text'. Har arkivert en pre_splitt-versjon.</change>
+<change><date>07.10.09</date>
+<name>HG</name><title>Kontroll</title>
+Ført inn resultater etter kollasjon mot original, NBO. Lagt Irenes id inn i rollelista (tagg uten tekstinnhold). Validert, laget visning.</change>
+<change><date>10.09.09</date>
+<name>HG</name><title>Rettelser</title>
+Lagt inn diverse rettelser etter Christians og Tones gjennomgang av manuskriptet. Lagt inn id-verdier i sp.</change>
+<change><date>02.02.09</date>
+<name>HG</name><title>Oppretting</title>
+Opprettet fil på grunnlag av transkripsjon av faksimile.</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="drama" rend="handwritten" xml:id="dan-nob">
+<pb ed="faksBase" n="9"/>
+<pb n="[6]r"/>
+<body>
+<lb/><lb/><fw type="leaf" place="top-right" scribe="h1">6</fw>
+<div type="act" n="1">
+<lb/><HIS:hisSp who="IRENE"><p>Han var diplomat, høj <app type="alteration"><lem><HIS:hisAdd place="offline">bulgarisk</HIS:hisAdd></lem><HIS:hisRdg><HIS:hisDel rend="overstrike">russisk</HIS:hisDel></HIS:hisRdg></app> diplomat.
+<lb/>Ham fik jeg gjort vanvittig, gal, uhelbredelig
+<lb/>gal. Ret løjerligt så længe det forberedtes
+<lb/>Kunde gerne lé indvendig. Hvis jeg havde noget
+<lb/>indvendigt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Det var altså herr v. Satow.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Nej, min anden mand hed Satow. Han var
+<lb/>russer</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Og hvor er han nu henne</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Ham har jeg dræbt.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Dræbt!</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Dræbt med en fin spids dolk, som jeg
+<lb/>havde med mig i sengen</p></HIS:hisSp>
+<HIS:hisAdd place="margin">
+<lb/><HIS:hisSp who="RUBEK"><p>Tror dig ikke</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Kan <HIS:hisAdd place="offline">så</HIS:hisAdd> godt tro det</p></HIS:hisSp>
+</HIS:hisAdd>
+<lb/><HIS:hisSp who="RUBEK"><p>Har du aldrig havt børn.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Jo mange børn</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Og hvor er de nu</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Jeg dræbte dem.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Nu lyver du Irene. <HIS:hisAdd place="offline">Alt dette her</HIS:hisAdd></p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Dræbte dem <HIS:hisAdd place="offline">så ret inderlig myrdet dem</HIS:hisAdd> så fort de kom til verden.
+<lb/>Det ene efter det <HIS:hisAdd place="offline"><HIS:hisDel rend="overstrike">læn</HIS:hisDel></HIS:hisAdd> andet. Længe, længe før.</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Religionsgrublerier?</p></HIS:hisSp>
+<lb/><HIS:hisSp who="IRENE"><p>Nej, har aldrig &dash; &dash;</p></HIS:hisSp>
+<lb/><HIS:hisSp who="RUBEK"><p>Det er strenge i dig, som er sprunget istykke
+<lb/>Det gør det visst altid når et menneske dør.</p></HIS:hisSp>
+</div>
+
+<pb ed="faksBase" n="10"/>
+<pb n="[6]v"/>
+<div type="act" n="2">
+<lb/><p>F<unclear reason="writing">ørs</unclear> berømt ved Irene. Så vilde han leve og
+<lb/>nyde sin ungdom om igen ved en anden. Så
+<lb/>skaber han billedet om til en gruppe. Irene
+<lb/>blir en bifigur i det som gjorde ham berømt</p>
+<lb/><figure type="bar"/>
+<lb/><p>Først en enlig statue; så en gruppe. Da rejste
+<lb/>hun.</p>
+<lb/><p><q type="speech">Vort liv var ikke <HIS:hisAdd place="offline">to</HIS:hisAdd> menneskers</q></p>
+<lb/><p><q type="speech">Hvad var det da</q></p>
+<lb/><p><q type="speech">Bare kunstnerens og modellens</q></p>
+</div>
+<div type="act" n="2">
+<lb/><head><hi rend="underlined">2. akt</hi>.</head>
+<lb/><p>Legende børn inde på vid<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>den.</p>
+<lb/><p>Professor Rubek sidder på bænken og
+<lb/>ser på le<HIS:hisDel rend="overwritten"><gap/></HIS:hisDel>gen.</p>
+<lb/><p>Fru Maja kommer og søger efter ham. Op&typHyp;
+<lb/>trin mellem dem. <HIS:hisDel rend="overstrike">Jægeren henter h</HIS:hisDel></p>
+<lb/><p>Irene med en flok børn kommer frem
+<lb/>over vidden.</p>
+<lb/><p>Bjørnejægeren kommer og henter fru Maja.</p>
+<lb/><p>Irene og Rubek. Stort optrin.</p>
+<lb/><p><q type="speech" who="RUBEK">Det er noget som er gået i baglås for mig
+<lb/>Taget nø<HIS:hisDel rend="overwritten">l</HIS:hisDel>glen med</q></p>
+</div>
+<div type="act" n="2">
+<note resp="editor">Neste replikkutkast er skrevet opp ned i forhold til den øvrige teksten på siden.</note>
+<lb/><p><q type="speech" who="IRENE">Når vi døde vågner<HIS:hisDel rend="overstrike">,</HIS:hisDel> &dash;.</q></p>
+<lb/><p><q type="speech" who="RUBEK">Ja, hvad sér vi så?</q></p>
+<lb/><p><q type="speech" who="IRENE">Vi ser, at vi aldrig har levet.</q></p>
+</div>
+</body>
+</text>
+</TEI>
