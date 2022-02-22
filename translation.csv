@@ -174,3 +174,10 @@
 "&dash;","\u2013"
 "&lquo;","\u00AB"
 "&rquo;","\u00BB"
+"&amp;","&"
+"lquo;",'\u201C'
+"dash;","-"
+"%HIS_entiteter;",""
+"&gt;","<"
+"&rapo;","'"
+"&rquo;",'"'
