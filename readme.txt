@@ -32,3 +32,10 @@ TODO: vi har globglob, og kan sikkert skape et nytt directory fra den for rentek
 TODO: sjekk hvilke tagger som skal utraderes helt.
 TODO: sjekk hvilke notater som må inn og passes på.
 TODO: omform tittel- og metadata til noe mer "rent" og prepend filene med disse igjen.
+
+0.0.2
+Foreach-loop for å hente fra glob.glob og skrive tilsvarende struktur i ny folder. Funker bra!
+TODO: Kombiner globglob med beautifulsoup.
+TODO: sjekk hvilke tagger som skal utraderes helt.
+TODO: sjekk hvilke notater som må inn og passes på.
+TODO: omform tittel- og metadata til noe mer "rent" og prepend filene med disse igjen.
