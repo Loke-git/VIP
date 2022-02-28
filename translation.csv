@@ -134,7 +134,6 @@
 "&My;","\u039C"
 "&my;","\u03BC"
 "&omikron;","\u03BF"
-"&referenceMark;","\u203B"
 "&metDash;","\u2013"
 "&edot;","\u0117"
 "&corrMark;","\u2625"
@@ -156,7 +155,7 @@
 "&omacr;","\u014D"
 "&bull;","\u2022"
 "&titleColon;","\u003A"
-"&typHyp;","\u002D"
+"&typHyp; ",""
 "&lsaquo;","\u2039"
 "&rsaquo;","\u203A"
 "&zcaron;","\u017E"
@@ -176,8 +175,13 @@
 "&rquo;","\u00BB"
 "&amp;","&"
 "lquo;",'\u201C'
-"dash;","-"
 "%HIS_entiteter;",""
 "&gt;","<"
+"]&gt;","<"
 "&rapo;","'"
 "&rquo;",'"'
+"&amp;dash;",'&'
+"dash;","-"
+"&typHyp;",""
+"]<",""
+"&referenceMark;","[\-u-2-0-3-B FEIL I UTF-8]"
