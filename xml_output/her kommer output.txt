@@ -1,0 +1,1 @@
+Vær vennlig å slette innholdet i denne mappen (UNNTATT DENNE FILEN, DA!) før du sender pull/push til GitHub. :-)

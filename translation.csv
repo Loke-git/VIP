@@ -1,4 +1,5 @@
 "&half;","\u00BD"
+"&#x0254;","ɔ"
 "&frac12;","\u00BD"
 "&frac14;","\u00BC"
 "&frac34;","\u00BE"
@@ -96,7 +97,6 @@
 "&udblac;","\u0171"
 "&OElig;","\u0152"
 "&cyrilNo;","\u2116"
-"&ergo;","\u0254"
 "&cyrilE;","\u042D"
 "&cyrilel;","\u043B"
 "&cyrilem;","\u043C"
@@ -181,7 +181,7 @@
 "&rapo;","'"
 "&rquo;",'"'
 "&amp;dash;",'&'
-"dash;","-"
 "&typHyp;",""
 "]<",""
-"&referenceMark;","[\-u-2-0-3-B FEIL I UTF-8]"
+"&referenceMark;","\u203B"
+"&ergo;","ɔ"
