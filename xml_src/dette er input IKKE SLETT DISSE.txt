@@ -1,0 +1,3 @@
+NEI! IKKE SLETT DISSE!
+...
+Du kan dog legge til eller slette spesifikke xml-filer om Ibsensenteret legger til eller fjerner slike. :-)
