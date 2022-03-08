@@ -1,0 +1,55 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KGFU-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KGFU.xml (KGFU-0306).</p>
+<p>
+<biblstruct xml:id="KG05">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kejser og Galilæer</title>
+<title type="sub">Et verdenshistorisk skuespil</title>
+<edition>femte oplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01265</idno>
+<imprint>
+<pubplace>København/Kristiania</pubplace>
+<publisher>Gyldendalske Boghandel, Nordisk Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1905</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kejser og Galilæer</title>
+<title level="a" type="sub">5. utg.</title>
+<title level="a" type="origYear">1905</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Gry Berg, Ingunn Indrebø Ims, Inger Marie Kjølstadmyr, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KGFU til KG05, mars 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering</resp>
+<name xml:id="HIS-III">Ingunn Indrebø Ims</name>
+<name xml:id="HIS-IMK">Inger Marie Kjøldstadmyr</name>
+<name xml:id="HIS-GB">Gry Berg</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

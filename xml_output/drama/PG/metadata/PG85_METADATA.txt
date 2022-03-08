@@ -1,0 +1,52 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG85-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG81.xml (PG81-0802)</p>
+<p><biblstruct xml:id="PG85">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Sjette oplag</edition>
+<idno corresp="PG85" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="PG85">74GA01311</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; Co</his:printer>
+<date>1885</date>
+</imprint></monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">6. utg.</title>
+<title level="a" type="origYear">1885</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Sigrid Larsson, Ellen Nessheim Wiger, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Omgjøring av PG81 til PG85, august 2002:</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Kollasjonering, august-september 2002:</resp>
+<name xml:id="HIS-SL">Sigrid Larsson</name>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Koding og korrektur, august-september 2002:</resp>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Kodekontroll, oktober 2002:</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

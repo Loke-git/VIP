@@ -1,0 +1,96 @@
+<filedesc>
+
+<editionstmt><edition xml:id="C1ht-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på C1ht_bok.xml (C1ht-1207).</p>
+<p>
+<biblstruct xml:id="C150">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Catilina</title>
+<title type="desc">Drama i tre Acter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Deichmanske Bibliotek</idno>
+<idno xml:id="C1f1">Ib8ca</idno>
+<idno type="owner">Odd Syse, Bibliofiliklubben</idno>
+<idno xml:id="C1f2">[i privat eie]</idno>
+<idno type="owner">Damms antikvariat</idno>
+<idno xml:id="C1f3">[i privat eie]</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>P. F. Steensballe</publisher>
+<his:printer>F. Steens Bogtrykkeri</his:printer>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="workingManuscript" xml:id="C14936">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 936</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Catilina</title>
+<author>Henrik Ibsen. Av Brynjolf Bjarme.</author>
+<docdate>1849</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Første utarbeidelse med mange overstrykninger og rettelser. Egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main" xml:id="C1">Catilina, 1. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2005</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1850</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ståle Dingstad, Stine Brenna Taugbøl</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingrid Falkenberg, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Jørgen Fafner, Dag Gundersen, Arnbjørn Jakobsen, Egil Kraggerud, Hanne Lauvstad, Anne Jorunn Kydland Lysdahl, Kristian Smidt, Stine Brenna Taugbøl, Eivind Tjønneland, Aasta Marie Bjorvand Bjørkøy (manusred.)</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name>Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Koding</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name>Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-GW">Gunnhild Wiggen</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturlesing</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+</titlestmt>

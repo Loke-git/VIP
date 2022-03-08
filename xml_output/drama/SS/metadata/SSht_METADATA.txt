@@ -1,0 +1,195 @@
+<filedesc>
+
+<editionstmt><edition xml:id="SSht-0112"></edition></editionstmt>
+<publicationstmt>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p rend="noIndent">Denne filen bygger på SSht_bok.xml (SSht_bok-0109).</p>
+<p><biblstruct xml:id="SS77">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil i fire akter</title>
+<idno corresp="SS77f1" type="owner">HIS</idno>
+<idno xml:id="SS77f1"></idno>
+<idno corresp="SS77f2" type="owner">Ibsensenteret</idno>
+<idno xml:id="SS77f2">01ga20361</idno>
+<idno corresp="SS77f3" type="owner">NBO</idno>
+<idno xml:id="SS77f3">80ga25954</idno>
+<edition>Førsteutgave</edition>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; co</his:printer>
+<date>1877</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+<p><listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="workingManuscript" xml:id="SS200">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Brevs. 200</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Replikkutkast i brev fra Sigurd Ibsen datert 10. august 1877.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="SS81469">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1469</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel (omtalt &amp;lquo;lystspillet&amp;rquo;)</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Opptegnelser, egenhendig. 13. okt. 1870, står det på annet utkast.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="SS81931">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1931</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Replikkutkast, egenhendig. Resten av manuskriptet består av diktet 'Til frøken Emma Klingenfeld' og noen regnestykker.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="SS41112">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1112</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<docdate>[1876-77]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskripter, egenhendig. Inndeling: a-f.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="printersCopy" xml:id="SS8956">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 956</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil fire akter</title>
+<docdate>1877</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkmanuskript, egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="SS77a">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil i fire akter</title>
+<edition>Andet oplag</edition>
+<idno corresp="SS77a" type="owner">Ibsensenteret</idno>
+<idno corresp="SS77a">74GA01386</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; co</his:printer>
+<date>1877</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="SS93">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil i fire akter</title>
+<edition>Tredje oplag</edition>
+<idno corresp="SS93" type="owner">HIS</idno>
+<idno corresp="SS93">Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1893</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="SSFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<edition>Folkeutgave</edition>
+<idno corresp="SSFU" type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<biblscope unit="volume">Bd. 6</biblscope>
+<date>1899</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="SS00">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil i fire akter</title>
+<edition>Fjerde oplag</edition>
+<idno corresp="SS00" type="owner">Ibsensenteret</idno>
+<idno corresp="SS00">74ga01480</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1900</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2008</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1877</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing">
+<resp>Edering</resp>
+<name>Christian Janss (ansv.), Hilde Bøe, Stine Brenna Taugbøl</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Inger Marie Kjølstadmyr, Margit Sauar, Henninge Margrethe Solberg, Gunnhild Wiggen, Mette Witting, Ingvald Aarstein</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Thoralf Berg, Svend Eegholm-Pedersen, Narve Fulsås, Karl Gervin, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Kristoffer Kruken, Erik Mørstad, Kristian Smidt, Vigdis Ystad, Maria Alnæs (manusred.), Aasta Marie Bjorvand Bjørkøy (manusred.)</name></respstmt>
+<respstmt><resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respstmt>
+<respstmt><resp>Ederingskoding</resp>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Konvertering, koding, kollasjonering og korrektur</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Kollasjonering</resp>
+<name xml:id="HIS-HMS">Henninge Margrete Solberg</name></respstmt>
+<respstmt><resp>Kodekontroll av grunntekstfil</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,373 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Brht-0411"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Brht_bok.xml (Brht-0406).</p>
+<p><biblstruct xml:id="Br">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<idno corresp="Brf3" type="owner">Deichmanske bibliotek</idno>
+<idno xml:id="Brf3">Ib 8 br 1 ex</idno>
+<idno corresp="Brf2" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="Brf2">80ga27184</idno>
+<idno corresp="Brf1" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="Brf1">80ga31136</idno>
+<edition>Førsteutgave</edition>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>Thieles bogtrykkeri</his:printer>
+<date>1866</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+<p><listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="workingManuscript" xml:id="Br4262I11">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Kongelige Bibliotek</repository>
+<idno>Kbl.Bibl.Kbh. Collin 262, 4°, I.1</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk Digt</title>
+<author>Henrik Ibsen</author>
+<docdate>1865</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig arbeidsmanuskript.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="printersCopy" xml:id="Br4262I12">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Kongelige Bibliotek</repository>
+<idno>Kbl.Bibl.Kbh. Collin 262, 4°, I.1.2</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<title>Brand</title>
+<author>Henrik Ibsen</author>
+<docdate>1865</docdate>
+</msitem>
+</mscontents>
+<physdesc><objectdesc><p>Egenhendig trykkmanuskript.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="printersCopy" xml:id="Br81925">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1925</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title>Brand</title>
+<docdate>1868/71</docdate>
+</msitem>
+</mscontents>
+<physdesc><objectdesc><p>Trykt eksemplar av 5. utg. (1868) med egenhendige rettelser til 6. utg (1871).</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="Br66a">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>2. opplag</edition>
+<idno corresp="Br66a" type="owner">HIS</idno>
+<idno corresp="Br66a">Ekspl. 1</idno>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1866</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br66b">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>3. opplag</edition>
+<idno corresp="Br66b" type="owner">Universitetsbiblioteket i Bergen</idno>
+<idno corresp="Br66b">98d042154</idno>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1866</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br66c">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>4. opplag</edition>
+<idno corresp="Br66c" type="owner">Deichmanske bibliotek</idno>
+<idno corresp="Br66c">hvut m</idno>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1866</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br68">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>5. opplag</edition>
+<idno corresp="Br68" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br68">74GA01107</idno>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1868</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br71">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>6. opplag</edition>
+<idno corresp="Br71" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br71">74GA01110</idno>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Den gyldendalske boghandel (F. Hegel)</publisher>
+<his:printer>Thieles bogtrykkeri</his:printer>
+<date>1871</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br74">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>7. opplag</edition>
+<idno corresp="Br74" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br74">74GA01111</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den gyldendalske boghandel (F. Hegel)</publisher>
+<his:printer>Thieles bogtrykkeri</his:printer>
+<date>1874</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br76">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>8. opplag</edition>
+<idno corresp="Br76" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br76">74GA01112</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den gyldendalske boghandel (F. Hegel)</publisher>
+<his:printer>Thieles bogtrykkeri</his:printer>
+<date>1876</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br81">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>9. opplag</edition>
+<idno corresp="Br81" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br81">74GA01113</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; Co.</his:printer>
+<date>1881</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br85">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>10. opplag</edition>
+<idno corresp="Br85" type="owner">HIS</idno>
+<idno corresp="Br85"></idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; Co.</his:printer>
+<date>1885</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br89">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>11. opplag</edition>
+<idno corresp="Br89" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br89">74GA01115</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1889</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br92">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>12. opplag</edition>
+<idno corresp="Br92" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br92">74GA01122</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1892</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br95">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>13. opplag</edition>
+<idno corresp="Br95" type="owner">Nasjonalbiblioteket</idno>
+<idno>00GA19826</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1895</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br98">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>14. opplag</edition>
+<idno corresp="Br98" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br98">74GA01124</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1898</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="BrFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title>Samlede værker. Tredje bind. Brand. Peer Gynt</title>
+<edition>Folkeutgaven</edition>
+<idno corresp="BrFU" type="owner">HIS</idno>
+<idno corresp="BrFU">Ekspl. 1</idno>
+<imprint>
+<biblscope unit="volume">Bd. 3</biblscope>
+<date>1898</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="Br03">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Femtende oplag</edition>
+<idno corresp="Br03" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br03">74ga01125</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1903</date></imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Br05">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Sekstende oplag</edition>
+<idno corresp="Br05" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br05">74ga01126</idno>
+<imprint>
+<pubplace>København og Kristiania</pubplace>
+<publisher>Gyldendalske Boghandel Nordisk Forlag</publisher>
+<his:printer>Forlagets bogtrykkeri</his:printer>
+<date>1905</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Brand</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2007</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1866</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing">
+<resp>Edering</resp>
+<name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Henninge Margrethe Solberg, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Thoralf Berg, Alvhild Dvergsdal, Narve Fulsås, Karl Gervin, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Egil Kraggerud, Kristoffer Kruken, Else Mundal, Erik Mørstad, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Eivind Tjønneland, Per Øhrgaard, Asbjørn Aarseth, Maria Alnæs (manusred.), Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.), Eva Rief (manusred.)</name></respstmt>
+<respstmt><resp>Innlemming i elektronisk utgave</resp>
+<name>EDD: Eining for digital dokumentasjon</name></respstmt>
+<respstmt><resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respstmt>
+<respstmt><resp>HISe-koding</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="EFS">Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>Ederingskoding</resp>
+<name>Ellen Nessheim Wiger</name>
+<name>Hilde Bøe</name></respstmt>
+<respstmt><resp>Verskoding</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kollasjonering, koding og korrektur</resp>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Koding</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

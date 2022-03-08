@@ -1,0 +1,68 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Fjht-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Fjht_bok.xml (Fjht-1209).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="Fj4935">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 935</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Fjeldfuglen</title>
+<author>Henrik Ibsen</author>
+<docdate>1859</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript, egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Historisk-kritisk utgave, elektronisk versjon</title>
+<title level="a" type="main">Fjeldfuglen</title>
+<title level="a" type="sub">Hovedtekst, NBO Ms.4° 935</title>
+<title level="a" type="origYear">1859</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Stine Brenna Taugbøl</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Alvhild Dvergsdal, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Olav Solberg, Stine Brenna Taugbøl, Vigdis Ystad, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrekturlesing</resp>
+<name>Ellen Nessheim Wiger</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

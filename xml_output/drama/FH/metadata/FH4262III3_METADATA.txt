@@ -1,0 +1,64 @@
+<filedesc>
+
+<editionstmt><edition xml:id="FH4262III3-0712"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>FH88 (grunntekst)</label><item>0</item>
+<label>FH4262III3</label><item>442</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på FH88.xml (12.06)</p>
+<p>
+<his:hismsdesc type="printersCopy" xml:id="FH4262III3">
+<msidentifier>
+<settlement>København</settlement>
+<repository>KBK</repository>
+<idno>Collin 262, 4°, III.3</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Fruen fra havet</title>
+<title type="sub">Skuespil i fem akter</title>
+<docdate>1888</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkmanuskript, egenhendig</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">KBK, Collin 262, 4°, III.3</title>
+<title level="a" type="origYear">1888</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Henninge Margrethe Solberg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting, desember 2006 - januar 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>1. kollasjon og koding, februar-april 2007</resp>
+<name>Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>2. kollasjon, mai-juni 2007</resp>
+<name xml:id="HIS-AAH">Åshild Haugsland</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll, juni 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respstmt>
+</titlestmt>

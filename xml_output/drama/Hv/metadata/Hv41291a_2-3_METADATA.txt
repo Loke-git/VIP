@@ -1,0 +1,44 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Hv41291a_2-3-0909"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er basert på Hv41291a_pre_splitt (Hv41291a-0909).</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="Hv41291a_2-3">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1291a</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Uten forfatternavn</author>
+<title>Udkast</title>
+<docdate>Uten dato</docdate>
+</msitem></mscontents>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Hvide heste</title>
+<title level="a" type="sub">NBO Ms.4° 1291a, bl. 2-3</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Inger Marie Kjølstadmyr, Henninge Solberg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting og første kollasjon, juni-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respstmt>
+<respstmt><resp>2. kollasjon, april 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

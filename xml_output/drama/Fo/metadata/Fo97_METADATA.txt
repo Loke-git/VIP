@@ -1,0 +1,70 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Fo97-0611"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Fo97</label><item>125</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Fo82.xml (1105).</p>
+<p>
+<biblstruct xml:id="Fo97">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">En folkefiende</title>
+<title type="sub">Skuespil i fem akter</title>
+<edition>2. utgave</edition>
+<idno corresp="Fo97" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Fo97">74ga01172</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp;
+                    Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1897</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">En folkefiende</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">2. utg.</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1897</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Gry Berg, Helene Grønlien, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+<name xml:id="EDD-ESO">Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Opprettet på grunnlag av Fo82.xml, november 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>1. kollasjon, desember 2005 - januar 2006</resp>
+<name xml:id="HIS-GB">Gry Berg</name>
+</respstmt>
+<respstmt>
+<resp>2. kollasjon og koding, desember 2005 - januar 2006</resp>
+<name>Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll, mai/juni 2006</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

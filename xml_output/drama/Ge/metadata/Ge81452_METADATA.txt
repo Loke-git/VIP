@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Ge81452-0611"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er basert på intern transkripsjon.</p>
+<p>
+<his:hismsdesc type="notes" xml:id="Ge81452">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1452</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>Uviss: tidligst 11. november 1880</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendig notat</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Gengangere]</title>
+<title level="a" type="sub">NBO Ms.8° 1452</title>
+<title level="a" type="origYear">[1881]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Nina Marie Evensen, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Kollasjonering og koding</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-NME">Nina Marie Evensen</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,49 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG67a-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG.xml</p>
+<p><biblstruct xml:id="PG67a">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk Digt</title>
+<edition>Andet oplag</edition>
+<idno corresp="PG67" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="PG67a">74ga01303</idno>
+<imprint>
+<pubplace>Kjøbenhavn</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1867</date>
+</imprint></monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">2. utg.</title>
+<title level="a" type="origYear">1867</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Helene Grønlien, Margit Sauar, Stine Brenna Taugbøl</name></respstmt>
+<respstmt>
+<resp>Etablering av PG67 fra PG.xml, februar 2002:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing, januar 2002:</resp>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kollasjonering, januar 2002:</resp>
+<name xml:id="HIS-MS">Margit Sauar</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

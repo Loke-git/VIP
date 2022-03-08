@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG93-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG91.xml (PG91-0103)</p>
+<p><biblstruct xml:id="PG93">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Niende oplag</edition>
+<idno corresp="PG93" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="PG93">74ga01319 (NBO's ekspl. 80ga27185 er benyttet til å fylle ut det som mangler i ekspl. 74ga01319 på side 73)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1893</date>
+</imprint></monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">9. utg.</title>
+<title level="a" type="origYear">1893</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Ingrid Falkenberg, Ingunn S. Wetterstad</name></respstmt>
+<respstmt>
+<resp>Omgjøring av PG91 til PG93, januar 2003:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kollasjonering, januar og februar 2003:</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-ISW">Ingunn S. Wetterstad</name></respstmt>
+<respstmt><resp>Kodekontroll, februar 2003:</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

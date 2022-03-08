@@ -1,0 +1,69 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Svht-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Svht_bok.xml (Svht-0407).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="Sv4926">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 926</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Svanhild</title>
+<title type="sub">Komedie i tre Akter</title>
+<docdate>1860</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript. Ufullført. Egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main" xml:id="Sv">Svanhild</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2008</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: NBO Ms.4° 926</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting, Ingvald Aarstein</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Erik Henning Edvardsen, Narve Fulsås, Dag Gundersen, Arnbjørn Jakobsen, Kristoffer Kruken, Stine Brenna Taugbøl, Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Verskoding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Transkripsjon</resp>
+<name>Bjørg Harvey</name>
+</respstmt>
+<respstmt>
+<resp>Koding, korrektur og konvertering</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og kodekontroll</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturkollasjon</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+</titlestmt>

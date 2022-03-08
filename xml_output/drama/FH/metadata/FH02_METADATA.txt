@@ -1,0 +1,66 @@
+<filedesc>
+
+<editionstmt><edition xml:id="FH02-0712"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>FH88 (grunntekst)</label><item>0</item>
+<label>FH02</label><item>188</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på FHFU.xml (07.06)</p>
+<p>
+<biblstruct xml:id="FH02">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Fruen fra havet</title>
+<title type="sub">Skuespil i fem akter</title>
+<edition>Andet oplag</edition>
+<idno>74ga01198</idno>
+<idno type="owner">Ibsensenteret</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1902</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fruen fra havet</title>
+<title level="a" type="sub">2. utg.</title>
+<title level="a" type="origYear">1902</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Gry Berg, Henninge Margrethe Solberg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting, august 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Førstekollasjon</resp>
+<name xml:id="HIS-GB">Gry Berg</name>
+</respstmt>
+<respstmt>
+<resp>Koding</resp>
+<name>Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll, oktober 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+</respstmt>
+</titlestmt>

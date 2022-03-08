@@ -1,0 +1,62 @@
+<filedesc>
+
+<editionstmt><edition xml:id="H175-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på H174.sgm (H174-0400).</p>
+<p>
+<biblstruct xml:id="H175">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="sub">Skuespil i fire handlinger</title>
+<edition>Fjerde udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1875 (74GA01207)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>J. Jørgensen &amp; Co.</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Hærmændene paa Helgeland</title>
+<title level="a" type="sub">1. versjon, 4. utg.</title>
+<title level="a" type="origYear">1875</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Omgjøring av H174 til H175, april 2000:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing, 2000:</resp>
+<name>Ellen Nessheim</name>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til XML, september 2000:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Korrigeringer, juli 2001</resp>
+<name xml:id="HIS-MGE">Mette Gismerøy Ekker</name>
+</respstmt>
+<respstmt>
+<resp>Koding, november 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,65 @@
+<filedesc>
+
+<editionstmt><edition xml:id="LE95-0712"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>LE95</label><item>25</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på LEFU (0207)</p>
+<p>
+<biblstruct xml:id="LE95">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Lille Eyolf</title>
+<title type="sub">Skuespil i tre akter</title>
+<edition>Tredje oplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01295</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1895</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Lille Eyolf</title>
+<title level="a" type="sub">3. utg.</title>
+<title level="a" type="origYear">1895</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Guro Solberg, Henninge Margrethe Solberg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting, mars 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>1. kollasjon, april 2007</resp>
+<name xml:id="HIS-GS">Guro Solberg</name>
+</respstmt>
+<respstmt>
+<resp>2. kollasjon og koding, mai 2007</resp>
+<name>Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll, juni 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,62 @@
+<filedesc>
+
+<editionstmt><edition xml:id="O141108-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på OLHU-0201.</p>
+<p>
+<his:hismsdesc type="promptCopy" xml:id="O141108">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1108</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Olaf Liljekrans</title>
+<title type="sub">Skuespil i 3 Akter</title>
+<docdate>Udatert. Manuskriptet må være skrevet senhøstes 1856.</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok med enkelte egenhendige rettelser. Paginert 3-282. Manuskriptet er i HU 3 kalt B; det er ifølge HU (3, 293) brukt som grunntekst i FU 10. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Olaf Liljekrans</title>
+<title level="a" type="sub">første hovedversjon, grunntekst, NBO Ms.4° 1108 (sufflørbok)</title>
+<title level="a" type="origYear">[1856]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Omgjøring av OLHU til OL41108, februar 2001</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrekturlesing, mars-september 2001</resp>
+<name>Ellen Nessheim</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Siste korrekturkollasjon, sept/okt 2004</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

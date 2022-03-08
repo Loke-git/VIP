@@ -1,0 +1,49 @@
+<filedesc>
+
+<editionstmt><edition xml:id="F281939-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<his:hismsdesc type="notes" xml:id="F281939">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1939</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Fru Inger til Østråt</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkfeilsliste, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main" xml:id="F2">Fru Inger til Østråt</title>
+<title level="a" type="sub">2. versjon, NBO Ms.8° 1939</title>
+<title level="a" type="origYear">[1874]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respstmt>
+<respstmt>
+<resp>Koding og transkripsjon høsten 1999:</resp>
+<name xml:id="HIS-HB">Hilde Bøe, </name>
+<name xml:id="HIS-KJS">Karl Johan Sæth.</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til xml, oktober 2000:</resp>
+<name>Hilde Bøe.</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl, august 2001.</name>
+<name>Hilde Bøe, mars 2002.</name>
+</respstmt>
+</titlestmt>

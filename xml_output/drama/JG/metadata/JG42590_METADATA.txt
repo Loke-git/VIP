@@ -1,0 +1,48 @@
+<filedesc>
+
+<editionstmt><edition xml:id="JG42590-0212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er bygget på JG41118-0109</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="JG42590">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbibliotkeket</repository>
+<idno>NBO Ms.4° 2590</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">John Gabriel Borkman</title>
+<title type="sub">Skuespil i fire akter</title>
+<docdate>Uten dato</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig arbeidsmanuskript til tittelside og personliste</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">John Gabriel Borkman</title>
+<title level="a" type="sub">Arbeidsmanuskript, Ms.4° 2590</title>
+<title level="a" type="origYear">1896</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Kari Kinn, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Opprettelse av grunntekst</resp>
+<name xml:id="HIS-ILF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>1. kollasjon</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-KK">Kari Kinn</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

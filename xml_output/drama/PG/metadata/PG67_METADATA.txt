@@ -1,0 +1,57 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG67-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PGHU.xml</p>
+<p><biblstruct xml:id="PG67">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk Digt</title>
+<idno corresp="PGf1" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="PGf1">74ga01744</idno>
+<idno corresp="PGf2" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="PGf2">84ga07073</idno>
+<idno corresp="PGf2" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="PGf3">84ga07074</idno>
+<edition>Førsteutgave</edition>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1867</date>
+</imprint></monogr>
+</biblstruct></p></sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">grunntekst, 1. utg.</title>
+<title level="a" type="origYear">1867</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Ingrid Falkenberg, Margit Sauar, Henninge Margrethe Solberg, Gunnhild Wiggen, Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Etablering fra PGHU.xml, mai 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Ingvald Aarstein,</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Oppdatering</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kontrollkollasjon, oppdatering</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+<name xml:id="HIS-HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

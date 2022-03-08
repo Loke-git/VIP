@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="K204-1212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på K2.sgm (K2-0399).</p>
+<p>
+<biblstruct xml:id="K204">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kæmpehøjen</title>
+<title type="sub">Dramatisk digtning i en akt</title>
+<edition>Uten utgaveopplysninger</edition>
+<idno type="owner">NBO Ibsensenteret</idno>
+<idno>74GA05811</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandel Nordisk Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1904</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjæmpehøien</title>
+<title level="a" type="sub">annen hovedversjon, 2. utg. (utgave med Olaf Liljekrans)</title>
+<title level="a" type="origDate">1904</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Koding og kollasjonering</resp>
+<name>Espen S. Ore</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

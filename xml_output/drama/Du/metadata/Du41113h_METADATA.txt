@@ -1,0 +1,48 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Du41113h-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Du41113h er bygget på faksimile.</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="Du41113h">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1113h</idno>
+</msidentifier>
+<mscontents>
+<msitem><author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>Udatert</docdate></msitem>
+</mscontents>
+<physdesc><objectdesc><p>1. bl. egenhendig notat og arbeidsmanuskript (replikkutkast) til noe av første akt. Side 3 inneholder en trykkfeilsliste til Digte (1875).</p></objectdesc></physdesc>
+</his:hismsdesc></p></sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4° 1113h</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respstmt>
+<respstmt>
+<resp>Kodet om til TEI-P5, juli 2011</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Transkripsjon av faksimile, mars, 2003</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Annenkollasjon og kodekontroll, april 2003</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

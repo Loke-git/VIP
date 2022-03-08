@@ -1,0 +1,59 @@
+<filedesc>
+
+<editionstmt><edition xml:id="BrFU-1007"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Br98.xml (Br98-0602).</p>
+<p><biblstruct xml:id="BrFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title>Samlede værker. Tredje bind. Brand. Peer Gynt</title>
+<edition>Folkeutgaven</edition>
+<idno corresp="BrFU" type="owner">HIS</idno>
+<idno corresp="BrFU">Ekspl. 1</idno>
+<imprint>
+<biblscope unit="volume">Bd. 3</biblscope>
+<date>1898</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Brand</title>
+<title level="a" type="sub">[Folkeutgave]</title>
+<title level="a" type="origYear">1898</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Sigrid Larsson, Stine Brenna Taugbøl, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Br98 til BrFU, juni 2002:</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name></respstmt>
+<respstmt><resp>Kollasjonering, juni-juli 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-SL">Sigrid Larsson</name></respstmt>
+<respstmt><resp>Koding og korrektur, juli 2002:</resp>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kodekorrektur, juli 2002:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Koding, desember 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Synkroniseringskoding, oktober 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

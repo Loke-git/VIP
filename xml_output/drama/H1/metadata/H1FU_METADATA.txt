@@ -1,0 +1,61 @@
+<filedesc>
+
+<editionstmt><edition xml:id="H1FU-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på H198.xml (H198-0501).</p>
+<p>
+<biblstruct xml:id="H1FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 2</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 2</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Hærmændene paa Helgeland</title>
+<title level="a" type="sub">1. versjon, FU</title>
+<title level="a" type="origYear">1898</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av H198 til H1FU, mai 2001:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur, mai 2001:</resp>
+<name>Ingvald Aarstein</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Koding, november 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

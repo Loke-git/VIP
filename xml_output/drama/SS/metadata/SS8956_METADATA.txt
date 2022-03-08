@@ -1,0 +1,48 @@
+<filedesc>
+
+<editionstmt><edition xml:id="SS8956_0112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på SS.xml (0503).</p>
+<p><his:hismsdesc type="printersCopy" xml:id="SS8956">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 956</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil fire akter</title>
+<docdate>1877</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkmanuskript, egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="a" type="sub">NBO Ms.8° 956</title>
+<title level="a" type="origYear">1877</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Mette Witting, Gunnhild Wiggen</name></respstmt>
+<respstmt>
+<resp>Omgjøring av SS.xml til SS8956.xml, februar 2003</resp>
+<name xml:id="HIS_MW">Mette Witting</name></respstmt>
+<respstmt><resp>1. kollasjon mot faksimile og koding, mars-mai 2003</resp>
+<name>Mette Witting</name></respstmt>
+<respstmt><resp>2. kollasjon mot original, des 2003/april 2005</resp>
+<name xml:id="HIS_MS">Margit Sauar</name>
+<name xml:id="HIS_GW">Gunnhild Wiggen</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name xml:id="HIS_AAH">Åshild Haugsland</name>
+</respstmt>
+</titlestmt>

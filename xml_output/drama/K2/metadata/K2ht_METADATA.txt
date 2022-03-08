@@ -1,0 +1,220 @@
+<filedesc>
+
+<editionstmt><edition xml:id="K2ht-1212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på K2ht_bok.xml (K2ht_bok-1207).</p>
+<p>
+<biblstruct xml:id="K254">
+<monogr>
+<author>Henrik Ibsen</author>
+<title level="a" type="main">Kjæmpehøien</title>
+<title level="a" type="desc">Dramatisk Digtning i een Act</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Bergen offentlige bibliotek</idno>
+<idno>q 078.1 B</idno>
+<imprint>
+<pubplace>Bergen</pubplace>
+<publisher>Fr. D. Beyer</publisher>
+<his:printer>Johan D. Beyer</his:printer>
+</imprint>
+<imprint>
+<biblscope unit="issue">7. årgang, 1854</biblscope>
+<date when="1854-01-29">søndag 29. januar 1854</date>
+</imprint>
+</monogr>
+<series>
+<title level="s">Bergenske Blade</title>
+</series>
+<monogr>
+<title level="s">Bergenske Blade</title>
+<title level="a">Kjæmpehøien, [2. scene]</title>
+<imprint>
+<biblscope unit="issue">7. årgang, 1854</biblscope>
+<date when="1854-02-01">onsdag 1. februar 1854</date>
+</imprint>
+</monogr>
+<monogr>
+<title level="s">Bergenske Blade</title>
+<title level="a">Kjæmpehøien, [3. og 4. scene]</title>
+<imprint>
+<biblscope unit="issue">7. årgang, 1854</biblscope>
+<date when="1854-02-05">søndag 5. februar 1854</date>
+</imprint>
+</monogr>
+<monogr>
+<title level="s">Bergenske Blade</title>
+<title level="a">Kjæmpehøien, [5. og 6. scene]</title>
+<imprint>
+<biblscope unit="issue">7. årgang, 1854</biblscope>
+<date when="1854-02-08">onsdag 8. februar 1854</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="promptCopy" xml:id="K241107">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4° 1107</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Kjæmpehøien</title>
+<title type="desc">Dramatisk Digtning i 1 Act</title>
+<docdate>Senest 2. januar 1854</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="parts" xml:id="K2238r">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, Universitetet i Bergen</repository>
+<idno>UiB NT238r</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Kjæmpehøien</title>
+<docdate>Senest 2. januar 1854</docdate>
+</msitem>
+<msitem n="K2238Blanka"><locus>5 ark</locus><title>Blanka, i &amp;lquo;Kjæmpehøien&amp;rquo;: Dramatisk Digtning i 1 Act af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Asgaut"><locus>1 1/2 ark</locus><title>Asgaut en gammel Viking i &amp;lquo;Kjæmpehøien.&amp;rquo; Dramatisk Digtning i 1 Act. af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Gandalf"><locus>4 1/2 ark</locus><title>Gandalf, Søkonge fra Norge, i &amp;lquo;Kjæmpehøien&amp;rquo;. Dramatisk Digtning i een Act af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Hrolloug"><locus>3/4 ark</locus><title>Hrolloug, i &amp;lquo;Kjæmpehøien&amp;rquo;. Dramatisk Digtning i 1 Act af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Hemming"><locus>1/2 ark</locus><title>Hemming, en ung Skjald i Gandalfs Tjeneste i &amp;lquo;Kjæmpehøien&amp;rquo;. Dramatisk Digtning i een Act af Henrik Ibsen</title></msitem>
+<msitem n="K2238Jostein"><locus>3/4 ark</locus><title>Jostein i &amp;lquo;Kjæmpehøien.&amp;rquo; Dramatisk Digtning i 1 Act. af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Roderik"><locus>1 1/2 ark</locus><title>Roderik, en gammel Eneboer, i &amp;lquo;Kjæmpehøien.&amp;rquo; Dramatisk Digtning i 1 Act. af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Viking1"><locus>1/2 ark</locus><title>Nogle Vikinger, i &amp;lquo;Kjæmpehøien.&amp;rquo; Digtning i 1 Act. af Henrik Ibsen.</title></msitem>
+<msitem n="K2238Viking2"><locus>1/2 ark</locus><title>Nogle Vikinger i &amp;lquo;Kjæmpehøien.&amp;rquo; Digtning i 1 Act. af Henrik Ibsen.</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>9 rollehefter. Ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="K2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kæmpehøjen</title>
+<title type="desc">Dramatisk digtning i en akt</title>
+<edition>[Folkeutgave]</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 10</biblscope>
+<date>1902</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="K204">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kæmpehøjen</title>
+<title type="desc">Dramatisk digtning i en akt</title>
+<idno type="owner">NBO Ibsensenteret</idno>
+<idno>74GA05811</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandel Nordisk Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1904</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="K2HU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Kæmpehøjen</title>
+<edition>[Hundreårsutgave]</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>Oslo</pubplace>
+<publisher>Gyldendal</publisher>
+<his:printer>Dreyer, Stavanger</his:printer>
+<date>1928-57</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd.1</biblscope>
+<date>1928</date>
+</imprint>
+</monogr>
+<series>
+<editor>Francis Bull, Halvdan Koht og Didrik Arup Seip</editor>
+<title>Hundreårsutgave. Henrik Ibsens samlede verker</title>
+</series>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Kjæmpehøien, 2. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2005</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1854</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ståle Dingstad, Stine Brenna Taugbøl</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Jørgen Fafner, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Else Mundal, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Vigdis Ystad</name></respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Ståle Dingstad</name>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kommentarkoding</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-AMB">Aasta Marie Bjorvand Bjørkøy</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name>Ellen Nessheim Wiger</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-GW">Gunnhild Wiggen</name>
+</respstmt>
+<respstmt>
+<resp>Koding</resp>
+<name>Espen S. Ore</name>
+<name>Hilde Bøe</name>
+</respstmt>
+</titlestmt>

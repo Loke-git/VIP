@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Br76-1007"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Br74.xml (Br74-0201).</p>
+<p><biblstruct xml:id="Br76">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>8. opplag</edition>
+<idno corresp="Br76" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br76">74GA01112</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den gyldendalske boghandel (F. Hegel)</publisher>
+<his:printer>Thieles bogtrykkeri</his:printer>
+<date>1876</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Brand</title>
+<title level="a" type="sub">8. utg.</title>
+<title level="a" type="origYear">1876</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Elise Kleivane, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Br74 til Br76, april 2001:</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>Kollasjonering mars-mai 2001:</resp>
+<name xml:id="HIS-EK">Elise Kleivane</name>
+<name>Helene Grønlien</name></respstmt>
+<respstmt><resp>Koding og korrektur, april-mai 2001</resp>
+<name>Helene Grønlien</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name></respstmt>
+<respstmt><resp>Koding, desember 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Synkroniseringskoding, oktober 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

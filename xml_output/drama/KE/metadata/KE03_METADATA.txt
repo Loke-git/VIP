@@ -1,0 +1,56 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KE03-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KE98.xml.</p>
+<p>
+<biblstruct xml:id="KE03">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Tiende udgave</edition>
+<idno>HIS</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1903</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kongs-Emnerne</title>
+<title level="a" type="sub">10. utg.</title>
+<title level="a" type="origYear">1903</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Stine Brenna Taugbøl, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KE98 til KE03, kollasjonering og koding, januar 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, januar 2002:</resp>
+<name xml:id="HIS-MA">Maria Alnæs</name>
+</respstmt>
+<respstmt>
+<resp>Kodekorrektur, januar 2002:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Synkroniseringskoding, november 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,68 @@
+<filedesc>
+
+<editionstmt><edition xml:id="UFFU-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på UF.xml (UF-0801).</p>
+<p>
+<biblstruct xml:id="UFFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">De unges forbund</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 4</biblscope>
+<date>1899</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">De unges Forbund</title>
+<title level="a" type="sub">[Folkeutgave]</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av UF til UFFU, august 2001:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>1. kollasjon og koding:</resp>
+<name>Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>2. kollasjon og koding:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll:</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Synkroniseringskoding, november 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

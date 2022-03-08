@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Du39-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Bygger på B18800218HLa.xml</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="Du39">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Brevs. 39</idno>
+</msidentifier>
+<mscontents>
+<msitem><author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docdate>1880</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Ibsens egenhendige avskrift på tysk av den endrede slutten til &amp;lquo;Et Dukkehjem&amp;rquo; som vedlegg til brev til Heinrich Laube.</p></objectdesc></physdesc>
+</his:hismsdesc></p></sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Et dukkehjem</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Brevs. 39 (i brev)</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1880</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Kodet om til TEI-P5, juli 2011</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respstmt>
+<respstmt><resp>Transkripsjon av faksimile, november 2004</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>Omgjøring av B18800218HLa til Du39, februar, 2005</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Annenkollasjon og kodekontroll, april 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

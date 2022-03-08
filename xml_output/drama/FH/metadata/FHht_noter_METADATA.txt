@@ -1,0 +1,13 @@
+<filedesc>
+
+<publicationstmt><p></p></publicationstmt>
+<sourcedesc><p>Filen er opprettet internt.</p></sourcedesc>
+</filedesc><titlestmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="FH">Fruen fra havet</title>
+<title>Tekstkritiske noter</title>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt><resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nessheim Wiger</name></respstmt>
+</titlestmt>

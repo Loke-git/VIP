@@ -1,0 +1,76 @@
+<filedesc>
+
+<editionstmt><edition xml:id="No51-1212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på norma.txt (Bergensmaterialet).</p>
+<p>
+<biblstruct xml:id="No51">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Norma</title>
+<title type="sub">eller en Politikers Kjærlighed, Musik-Tragedie i tre Akter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Universitetsbiblioteket i Oslo</idno>
+<idno xml:id="No51f1">NA/A b 65/si</idno>
+<idno type="owner">Universitetsbiblioteket i Oslo</idno>
+<idno xml:id="No51f2">Schw 19</idno>
+<idno type="owner">Bergen offentlige bibliotek</idno>
+<idno xml:id="No51f3">h 050 A552</idno>
+<imprint>
+<pubplace>Kristiania</pubplace>
+<publisher>N. F. Axelsen</publisher>
+<his:printer>A. Th. Nissens Bogtrykkeri</his:printer>
+</imprint>
+<imprint>
+<biblscope unit="issue">2. kvartal, nr. 9</biblscope>
+<date when="1851-06-01">1. juni 1851</date>
+</imprint>
+</monogr>
+<series>
+<editor>Henrik Ibsen, Paul Botten-Hansen, Aasmund Olavsson Vinje</editor>
+<title level="s">Andhrimner</title>
+</series>
+<monogr>
+<title level="s">Andhrimner</title>
+<title level="a">Norma, [2. og 3. akt]</title>
+<imprint>
+<biblscope unit="issue">2. kvartal, nr. 10</biblscope>
+<date when="1851-06-08">8. juni 1851</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Norma</title>
+<title level="a" type="sub">grunntekst, 1. utg. (føljetong)</title>
+<title level="a" type="origYear">1851</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Hallvard Ystad, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Koding og kollasjonering</resp>
+<name>Espen S. Ore</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer, april/mai 2004</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

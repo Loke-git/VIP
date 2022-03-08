@@ -1,0 +1,57 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Br03-1007"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på BrFU.xml (BrFU-0702).</p>
+<p><biblstruct xml:id="Br03">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Brand</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Femtende oplag</edition>
+<idno corresp="Br03" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Br03">74ga01125</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1903</date></imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Brand</title>
+<title level="a" type="sub">15. utg.</title>
+<title level="a" type="origYear">1903</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Maria Alnæs, Marianne Dahl, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av BrFU til Br03, juli 2002:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kollasjonering, juli-august 2002:</resp>
+<name xml:id="HIS-MA">Maria Alnæs</name>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Koding og korrektur, juli-august 2002:</resp>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Kodekontroll, august 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Oppdateringer, høsten 2002:</resp>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Ekstra kollasjon, september-oktober 2002:</resp>
+<name xml:id="HIS-MD">Marianne Dahl</name></respstmt>
+<respstmt><resp>Koding, desember 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Synkroniseringskoding, oktober 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

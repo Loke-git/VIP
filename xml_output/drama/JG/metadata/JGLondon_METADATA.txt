@@ -1,0 +1,54 @@
+<filedesc>
+
+<editionstmt><edition xml:id="JGLondon-0212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>JGLondon</label><item>2</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på JG96.xml</p>
+<p><biblstruct xml:id="JGLondon">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">John Gabriel Borkman</title>
+<title type="sub">Skuespil i fire akter</title>
+<edition>Parallell førsteutgave i London</edition>
+<idno corresp="JGLondon" type="owner">NBO</idno>
+<idno corresp="JGLondon">NBO 80ga25090, Ibsen/si, eks 3</idno>
+<imprint>
+<pubplace>København og London</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn) og William Heinemann</publisher>
+<date>1896</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">John Gabriel Borkman</title>
+<title level="a" type="sub">Londonutgave</title>
+<title level="a" type="origYear">1896</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Sigrid Larsson</name></respstmt>
+<respstmt>
+<resp>Opprettelse av grunntekstfil</resp>
+<name xml:id="HIS-ILF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>1. kollasjon</resp>
+<name xml:id="HIS-SL">Sigrid Larsson</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name></name></respstmt>
+</titlestmt>

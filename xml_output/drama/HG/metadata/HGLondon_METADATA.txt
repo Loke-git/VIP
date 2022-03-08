@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="HGLondon-1111"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>HGLondon</label><item>2</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen er etablert på grunnlag av HG90 (0409).</p>
+<p><biblstruct xml:id="HGLondon">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hedda Gabler</title>
+<title type="sub">Skuespil i fire akter</title>
+<edition>Londonutgave</edition>
+<idno corresp="HGLondon" type="owner">Ibsensenteret</idno>
+<idno corresp="HGLondon">74ga05817</idno>
+<imprint>
+<pubplace>London</pubplace>
+<publisher>William Heinemanns Forlag</publisher>
+<date>1890</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Hedda Gabler</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">Londonutgave</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1890</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Gunnhild Wiggen</name></respstmt>
+<respstmt>
+<resp>Oppretting, april 2009</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respstmt>
+</titlestmt>

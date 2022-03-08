@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="NV4262IV4-1211"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>NV99a (grunntekst)</label><item>xx</item>
+<label>NVLondon</label><item>xx</item>
+<label>NV4262IV4</label><item>xx</item>
+<label>NVFU</label><item>xx</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på NV99</p>
+<p><his:hismsdesc type="printersCopy" xml:id="NV4262IV4">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Kgl.Bibl.Kbh</repository>
+<idno>Collin 262, 4°, IV.4</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Når vi døde vågner</title>
+<author>Henrik Ibsen</author>
+<docdate>1899</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig trykkmanuskript.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">Trykkmanuskript</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding">
+<resp>Kollasjonering og koding</resp><name>Helene Grønlien, Eivor Finset Spilling</name>
+</respstmt>
+<respstmt>
+<resp>Oppretting og 1. kollasjon, mai-juni 2009</resp>
+<name xml:id="HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

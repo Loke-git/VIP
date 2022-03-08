@@ -1,0 +1,146 @@
+<filedesc>
+
+<editionstmt><edition xml:id="G1ht-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på G1ht_bok.xml (G1ht_bok-0810).</p>
+<p>
+<biblstruct xml:id="G156">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gildet paa Solhoug</title>
+<title type="desc">Skuespil i tre Akter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="G1f1">85ga06129</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="G1f2">85ga06130</idno>
+<idno type="owner">Deichmanske bibliotek, Oslo</idno>
+<idno xml:id="G1f3">(ib.) r S Ibs</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>Chr. Tønsbergs Forlag</publisher>
+<his:printer>H. I. Sørum</his:printer>
+<date>1856</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstkilder konsultert i ederingen
+<his:hismsdesc type="promptCopy" xml:id="G1hBI">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Bergens offentlige bibliotek</repository>
+<idno>hBI</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Gildet paa Solhoug</title>
+<docdate>[1855]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok, ikke egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="promptCopy" xml:id="G1348s">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Teatersamlingen, Bergen museum</repository>
+<idno>N. T. 348</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Gildet paa Solhoug</title>
+<docdate>1855</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok, ikke egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="parts" xml:id="G1348r">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Teatersamlingen, Bergen museum</repository>
+<idno>N.T. 348</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docdate>[1855]</docdate>
+</msitem>
+<msitem n="AndenMand"><locus>4 sider</locus><title>Uten tittel</title></msitem>
+<msitem n="Bengt"><locus>3 ark/22 sider</locus><title>Bengt Gautesøn, Herre til Solhoug, i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="GammelMand"><locus>4 sider</locus><title>En gammel Mand blandt Gjæsterne, i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="GjesterEn"><locus>8 sider</locus><title>En Deel Gjæster i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="GjesterTo"><locus>8 sider</locus><title>Andre Gjæster i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="GjesterTre"><locus>8 sider</locus><title>Andre Gjæster i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Gudmund"><locus>47 sider</locus><title>Gudmund Alfsøn, Margits og Signes Frænde, i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Huskarlen"><locus>4 sider</locus><title>Første Huuskarl i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Karlen"><locus>3 sider</locus><title>En Karl i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Knut"><locus>17 sider</locus><title>Knut Gjæsling, Kongens Foged, i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Margit"><locus>72 sider</locus><title>Margit, Bengt Gautesøns Hustru, i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Pigen"><locus>3 sider</locus><title>En Pige i &amp;lquo;Gildet paa Solhoug.&amp;rquo;</title></msitem>
+<msitem n="Signe"><locus>30 sider</locus><title>Uten tittel</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>Rollehefter (rollehefter for Erik og sendebudet mangler), ikke egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="promptCopy" xml:id="G1505">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>TSark A2 505a</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Gildet paa Solhoug</title>
+<docdate></docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok, ikke egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Gildet paa Solhoug, 1. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1856</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ståle Dingstad, Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Stine Brenna Taugbøl, Hallvard Ystad, Mette Witting</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Jørgen Fafner, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Egil Kraggerud, Olav Solberg, Stine Brenna Taugbøl, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name>
+<name>Ståle Dingstad</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-HY">Hallvard H. Ystad</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

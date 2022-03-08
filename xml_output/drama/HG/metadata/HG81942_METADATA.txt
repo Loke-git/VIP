@@ -1,0 +1,43 @@
+<filedesc>
+
+<editionstmt><edition xml:id="HG81942-1111"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er opprettet på grunnlag av faksimilen NBO Ms.8° 1942 (10.06)</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="HG81942">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1942</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Hedda</title>
+<title type="sub">Skuespil i fire akter.</title>
+<docdate>[1890]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig notat/arbeidsmanuskript. Side 2 i manuskriptet er en brevkladd (Budat1890MMK_u).</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Hedda Gabler</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.8° 1942</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1890</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting og 1. kollasjon mot faksimile, oktober 2006</resp>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respstmt>
+<respstmt><resp>2. kollasjon mot original, mai 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

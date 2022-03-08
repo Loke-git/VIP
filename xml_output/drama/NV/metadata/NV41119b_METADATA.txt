@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt>
+<edition xml:id="NV41119b-1211"></edition>
+</editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på NV99</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="NV41119b">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4°1119b</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Når vi døde vågner</title>
+<title type="sub"></title>
+<docdate>1899</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">Arbeidsmanuskript</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding">
+<resp>Kollasjonering og koding</resp>
+<name>Helene Grønlien, Eivor Finset Spilling</name></respstmt>
+<respstmt>
+<resp>Omgjøring av NV99 til NV41119b</resp>
+<name xml:id="HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>1. kollasjon av NV4119b mot faksimile. Fortsetter der HG slapp, s. 37. juni 2009:</resp>
+<name>Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>Innføring av rettelser etter 2. koll t.o.m. s. 36. Utførte resten av 2. koll.</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

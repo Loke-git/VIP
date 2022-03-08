@@ -1,0 +1,40 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KE_sanger-0812"></edition></editionstmt>
+<publicationstmt><publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<his:hismsdesc type="letter" xml:id="KE_sanger">
+<msidentifier>
+<settlement>Stockholm</settlement>
+<repository>Nordiska Museet</repository>
+<idno>inv.nr. 20.082 a-b</idno>
+</msidentifier>
+<his:letterinfo corresp="B18700625PHe">
+<name role="sender"><his:hisref target="Navneregister_HISe.xml#peHI" type="person">HENRIK IBSEN</his:hisref></name>
+<name role="recipient"><his:hisref target="Navneregister_HISe.xml#pePHe" type="person">PETER HEISE</his:hisref></name>
+<origdate when="1870-06-25">25. juni 1870</origdate>
+<origplace><his:hisref target="Navneregister_HISe.xml#plDre" type="place">DRESDEN</his:hisref></origplace>
+<physdesc><objectdesc><p>Brevet inneholder vedlegg (3 sider) med sanger fra Kongsemnerne, det er disse som inngår i denne fila.</p></objectdesc></physdesc>
+</his:letterinfo>
+</his:hismsdesc>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kongs-Emnerne</title>
+<title level="a" type="sub">Sanger til oppførelse 1871</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Henninge Margrethe Solberg</name></respstmt>
+<respstmt>
+<resp>Oppretting, august 2012</resp>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Koding og kollasjonering</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

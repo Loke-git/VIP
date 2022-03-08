@@ -39,3 +39,12 @@ TODO: Kombiner globglob med beautifulsoup.
 TODO: sjekk hvilke tagger som skal utraderes helt.
 TODO: sjekk hvilke notater som må inn og passes på.
 TODO: omform tittel- og metadata til noe mer "rent" og prepend filene med disse igjen.
+
+... ja, da glemte jeg å skrive i loggen i et par dager. Uker. Uansett!
+
+xmlStrip 0.1 "Dvergbjerk"
+* Metadata hentes ut (men behandles ikke) fra fil og legges i egen undermappe.
+* Konverterer alle html/jalla-koder til ASCII. Si i fra om du finner en som ikke er konvertert.
+* Sletter all formatering og henter (ideelt sett) kun ut Ibsens egen tekst.
+** Sletter alt Ibsen slettet.
+* Mange insektfikserier [bugfixes].

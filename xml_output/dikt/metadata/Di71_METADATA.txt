@@ -1,0 +1,211 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Di-0708"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Di71 (grunntekst)</label><item>0</item>
+<label>Di42622</label><item>109</item>
+<label>Di75</label><item>62</item>
+<label>Di79</label><item>87</item>
+<label>Di82</label><item>90</item>
+<label>Di86</label><item>124</item>
+<label>Di91</label><item>151</item>
+<label>Di96</label><item>153</item>
+<label>DiFU</label><item>176</item>
+<label>Di01</label><item>176</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på DiHU.xml</p>
+<p><biblstruct xml:id="Di71">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>1. utgave</edition>
+<idno corresp="Di71f1" type="owner">Henrik Ibsens skrifter</idno>
+<idno xml:id="Di71f1">Eksemplar 1</idno>
+<idno corresp="Di71f2" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="Di71f2">85ga06257</idno>
+<idno corresp="Di71f3" type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="Di71f3">85ga06140</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1871</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+<p><listbibl>
+Tekstkilder inkludert i det eksterne variantapparatet
+<his:hismsdesc type="printersCopy" xml:id="Di42622">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>KBK Collin 262, 4°, II.2</idno>
+</msidentifier>
+<mscontents>
+<msitem><author>Henrik Ibsen</author>
+<title>[Digte]</title>
+<docdate>våren 1871</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Hovedsakelig egenhendig trykkmanuskript</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="Di75">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>2. utgave</edition>
+<idno corresp="Di75" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga05814</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Di79">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>3. utgave</edition>
+<idno corresp="Di79" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01454</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1879</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Di82">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>4. utgave</edition>
+<idno corresp="Di82" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01455</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1882</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Di86">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>5. utgave</edition>
+<idno corresp="Di86" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01457</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Fr. Bagges Bogtrykkeri</his:printer>
+<date>1886</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Di91">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>6. utgave</edition>
+<idno corresp="Di91" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01458</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1891</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="Di96">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>7. utgave</edition>
+<idno corresp="Di96" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01459</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1896</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="DiFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Digte</title>
+<title>Samlede værker. Fjerde bind</title>
+<edition>Folkeutgave</edition>
+<idno corresp="DiFu" type="owner">Henrik Ibsens skrifter</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 4</biblscope>
+<date>1899</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="Di01">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>8. utgave</edition>
+<idno corresp="Di01" type="owner">Nasjonalbiblioteket</idno>
+<idno>00ga19872</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag
+(F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1901</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk transkripsjon</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">[førstetrykk]</title>
+<title level="a" type="origYear">1871</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Kari Kinn, Sigrid Larsson, Mette Witting</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

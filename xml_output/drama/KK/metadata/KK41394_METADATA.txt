@@ -1,0 +1,49 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KK41394-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er basert på prosjektets transkripsjon.</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="KK41394">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1394</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Uten forfatternavn</author>
+<title type="main">Uten tittel</title>
+<docdate>Uten datering</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript: Bruddstykke av første akts andre scene. Egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Kjærlighedens Komedie]</title>
+<title level="a" type="sub">NBO Ms.4° 1394</title>
+<title level="a" type="origYear">[1862]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Ingvald Aarstein</name></respstmt><respstmt>
+<resp>Klargjøring for HISe</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Oppretting av KK41394.xml, november 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+</titlestmt>

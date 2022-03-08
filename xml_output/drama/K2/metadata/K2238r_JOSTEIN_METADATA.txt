@@ -1,0 +1,55 @@
+<filedesc>
+
+<editionstmt><edition xml:id="K2238r_JOSTEIN-1212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Bygger på ekstern transkripsjon.</p>
+<p>
+<his:hismsdesc type="parts" xml:id="K2238r_JOSTEIN">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, Universitetet i Bergen</repository>
+<idno>TarkUiB NT238r</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Kjæmpehøien</title>
+<title type="sub">Dramatisk Digtning i 1 Act</title>
+<docdate>[1853]</docdate>
+</msitem>
+<msitem n="K2238-Jostein"><locus> sider</locus><title>
+«Jostein i "Kjæmpehøien." Dramatisk Digtning i 1 Act. af Henrik Ibsen»</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>Rollehefte, ikke egenhendig</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjæmpehøien</title>
+<title level="a" type="sub">annen hovedversjon, TarkUiB NT238r (rollehefte, Jostein)</title>
+<title level="a" type="origYear">[1853]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Bjørg Harvey, Ellen Nessheim Wiger, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Transkripsjon, februar 2000:</resp>
+<name xml:id="HIS-BH">Bjørg Harvey</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturlesing og koding, mars-mai 2000:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering fra TEI SGML til prosjektspesifikk TEI XML, september 2000:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,55 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Ro4262III2-0312"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til
+grunntekst</headitem>
+<label>Ro4262III2</label><item>253</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Ro86.xml (0906)</p>
+<p><his:hismsdesc type="printersCopy" xml:id="Ro4262III2">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Collin 262, 4°, III.2</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Rosmersholm</title>
+<title type="sub">Skuespil i fire akter</title>
+<docdate>1886</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkmanuskript. Vedlagt et halvt korrekturark med rettelser - dette er ikke inkludert i HISe.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Rosmersholm</title>
+<title level="a" type="sub">KBK Collin 262, 4°, III.2</title>
+<title level="a" type="origYear">1886</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Inger Marie Kjølstadmyr, Henninge Margrethe Solberg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting av filen på grunnlag av Ro86, 1. kollasjon, september-november 2006</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name></respstmt>
+<respstmt><resp>2. kollasjon og koding, november 2006-januar 2007</resp>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name>
+<name>Henninge Solberg</name></respstmt>
+<respstmt><resp>Kodekontroll, februar 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Fj4504-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Bygger på FjHU.xml (FjHU-1000).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="Fj4504">
+<msidentifier>
+<settlement>Trondheim</settlement>
+<repository>Thv. Boecks saml., Gunnerusbiblioteket, Universitetsbiblioteket i Trondheim</repository>
+<idno>UBiT Ms. 504, 4°</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Fjeldfuglen,</title>
+<title type="sub">romantisk Opera i een Akt</title>
+<docdate>1860</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript: egenhendig renskrift av første akt. Se for øvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fjeldfuglen</title>
+<title level="a" type="desc">UBiT Ms. 504, 4°</title>
+<title level="a" type="origYear">1860</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Omgjøring av FjHU til Fj4504, oktober 2000:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing, høsten 2000:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+</titlestmt>

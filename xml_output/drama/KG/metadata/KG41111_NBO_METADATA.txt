@@ -1,0 +1,54 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KG41111-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på transkripsjon utført av Bjørg Harvey (KG41111-raa.txt).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="KG41111_NBO">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket, avdeling Oslo, Håndskriftsamlingen</repository>
+<idno>NBO Ms.4° 1111</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Kejser og Galilæer</title>
+<docdate>[1871-1873]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Notater og arbeidsmanuskripter, egenhendig, innbundet. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kejser og Galilæer</title>
+<title level="a" type="sub">NBO Ms.4° 1111</title>
+<title level="a" type="origYear">[1871&amp;dash;1873]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Helene Grønlien, Ellen Nessheim Wiger, Mette Witting, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Konvertering fra ekstern transkripsjon til prosjektspesifikk TEI XML</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering og koding</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name>Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name>
+</respstmt>
+</titlestmt>

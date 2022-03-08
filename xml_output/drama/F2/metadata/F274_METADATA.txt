@@ -1,0 +1,161 @@
+<filedesc>
+
+<editionstmt><edition xml:id="F274-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen ble til etter filsplitt september 2003.</p>
+<p>
+<biblstruct xml:id="F274">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Fru Inger til Østråt</title>
+<title type="sub">Skuespil i fem handlinger</title>
+<edition>Anden gennemséte og rettede udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno xml:id="F274f1">75ga25411 (hovedeksemplar)</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="F274f2">87ga47232</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="F274f3">75ga19594</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; co</his:printer>
+<date>1874</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstkilder inkludert i det eksterne variantapparatet
+<his:hismsdesc type="finalFairCopy" xml:id="F28950">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 8° 950</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Fru Inger til Østråt</title>
+<author>Henrik Ibsen</author>
+<docdate>1874</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Renskrift, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="F281939">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 8° 1939</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Trykfejl i "Fru Inger til Østråt"</title>
+<author>Henrik Ibsen</author>
+<docdate>1874</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkfeilsliste, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="F291">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Fru Inger til Østråt</title>
+<title type="desc">Skuespil i fem handlinger</title>
+<edition>Tredje utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01249</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1891</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="F298">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Fru Inger til Østråt</title>
+<title type="desc">Skuespil i fem handlinger.</title>
+<edition>Fjerde utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>00ga19847</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="F2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Fru Inger til Østråt</title>
+<edition>Folkeutgaven</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd.1</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main" xml:id="F2">Fru Inger til Østråt</title>
+<title level="a" type="sub">2. versjon, grunntekst, 1. utg.</title>
+<title level="a" type="origYear">1874</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til TEI, februar 1999</resp>
+<name>Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing, 1999</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til XML høsten 2000</resp>
+<name>Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering</resp>
+<name>Stine Brenna Taugbøl, august 2001</name>
+<name>Hilde Bøe, mars 2002</name>
+</respstmt>
+<respstmt>
+<resp>Første oppdatering etter filsplitting september 2003</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturkollasjon, september 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

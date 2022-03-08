@@ -1,0 +1,45 @@
+<filedesc>
+
+<editionstmt><edition xml:id="JG41118b-0212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er bygget på JGFU-0207</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="JG41118b">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1118b</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Uten tittel [John Gabriel Borkman]</title>
+<docdate>Første akt datert 11.7-27.8.96, andre akt 25.7-16.9.96, tredje akt 11.8-30.9.96 og fjerde akt 21.8.-11.10.96.</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig, fullstendig arbeidsmanuskript med rettelser. Bundet inn sammen med NBO Ms.4° 1118a.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">John Gabriel Borkman</title>
+<title level="a" type="sub">NBO Ms.4° 1118b</title>
+<title level="a" type="origYear">1896</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Eivor Finset Spilling, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Opprettelse av grunntekst og koding</resp>
+<name xml:id="HIS-ILF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Overtar arbeidet med oppretting og 1. kollasjon etter IF. September 2009</resp>
+<name>Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

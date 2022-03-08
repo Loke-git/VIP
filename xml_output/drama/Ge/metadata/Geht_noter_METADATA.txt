@@ -1,0 +1,19 @@
+<filedesc>
+
+<publicationstmt><p></p></publicationstmt>
+<sourcedesc><p>Filen er opprettet internt.</p></sourcedesc>
+</filedesc><titlestmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="Ge">Gengangere</title>
+<title>Tekstkritiske noter</title>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt>
+<resp>Omgjøring til elektronisk versjon</resp>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Oppretting</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respstmt>
+</titlestmt>

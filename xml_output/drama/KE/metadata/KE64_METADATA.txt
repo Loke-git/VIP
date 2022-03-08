@@ -1,0 +1,59 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KE64-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<biblstruct xml:id="KE64">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-Emnerne</title>
+<title type="sub">Historisk Skuespil i fem Akter af Henr. Ibsen</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="KE64f1">85GA59728</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="KE64f2">NA/A p 2254</idno>
+<idno type="owner">HIS</idno>
+<idno xml:id="KE64f3">[Eks. 1]</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>Johan Dahls Forlag</publisher>
+<his:printer>J. Chr. Gundersens Bogtrykkeri</his:printer>
+<date>1864</date>
+</imprint>
+</monogr>
+</biblstruct>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kongs-Emnerne</title>
+<title level="a" type="sub">1. utg.</title>
+<title level="a" type="origYear">1864</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Margit Sauar, Karl Johan Sæth, Stine Brenna Taugbøl, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Konvertering til TEI, februar 2000:</resp>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing:</resp>
+<name>Karl Johan Sæth</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Synkroniseringskoding, oktober 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

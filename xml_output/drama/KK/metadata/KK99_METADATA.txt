@@ -1,0 +1,58 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KK99-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KK95.xml (KK95-0802).</p>
+<p>
+<biblstruct xml:id="KK99">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kærlighedens komedie</title>
+<title type="desc">Komedie i tre akter</title>
+<edition>Ottende oplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01395</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1899<note>På hovedtittelbladet står 1899, på omslaget står 1900.</note></date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjærlighedens Komedie</title>
+<title level="a" type="sub">8. utg.</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Aasta Marie Bjorvand Bjørkøy, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KK95 til KK99, august 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, august 2002:</resp>
+<name xml:id="HIS-AMB">Aasta Marie Bjorvand</name>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Koding og korrektur, august-september 2002:</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll, september 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

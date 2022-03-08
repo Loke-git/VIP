@@ -1,0 +1,97 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Di41110a-0408"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Di71.xml (Di-0108) og DHU.xml.</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="Di41110a">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms. 4° 1110a</idno>
+</msidentifier>
+<mscontents>
+<msitem><author>Henrik Ibsen</author>
+<title>Digte af Henrik Ibsen</title>
+<docdate>[fra januar 1870 til årsskiftet 1870-71]</docdate></msitem>
+<msitem corresp="DiEtPuds"><title>1. Et Puds</title></msitem>
+<msitem corresp="DiProlog18570918"><title>2. Prolog ved Fjeldeventyrets første Opførelse paa Christiania norske Theater</title></msitem>
+<msitem corresp="DiTilCarlJohansMinde"><title>3. Til Carl Johans Minde</title></msitem>
+<msitem corresp="DiKongHaakonsGildehal"><title>4. Kong Haakons Gildehal - i Digte</title></msitem>
+<msitem corresp="DiByggeplaner"><title>5. Byggeplaner - i Digte</title></msitem>
+<msitem corresp="DiMarkblPottepl"><title>6. Markblomster og Potteplanter - i Digte</title></msitem>
+<msitem corresp="DiEnFuglevise"><title>7. En Fuglevise - i Digte</title></msitem>
+<msitem corresp="DiKongHaakonsGildehalFortDigt"><title>8. Kong Haakons Gildehal, fortællende Digt</title></msitem>
+<msitem corresp="DiSangIndvLillehamSkole1858"><title>9. Ved Indvielsen af de nye Bygninger for Lillehammers lærde Skole den 5te November 1858 - i Digte</title></msitem>
+<msitem corresp="DiMaageskrig"><title>10. Maageskrig</title></msitem>
+<msitem corresp="DiTilKvinVSangerfest1859"><title>11. Ved Sangerfesten i Arendal 1859 - i Digte</title></msitem>
+<msitem corresp="DiSangTurnfest1859"><title>12. Ved Christiania Turnforenings Fest paa Lindøen 26de Juni 1859</title></msitem>
+<msitem corresp="DiFolkesorg"><title>13. Folkesorg - i Digte</title></msitem>
+<msitem corresp="DiIBilledgall"><title>14. I Billedgalleriet - i Digte (som Lysræd, Kløften og I galleriet)</title></msitem>
+<msitem corresp="DiStudHilsKongCarl1859"><title>15. Ved Studenterns Fakkeltog til Ære for Hs. Maj. Kongen den 5te Octbr. 1859</title></msitem>
+<msitem corresp="DiHoeifjeldsliv"><title>16. Høifjeldsliv - i Digte</title></msitem>
+<msitem corresp="DiTilStorthinget"><title>17. Til Storthinget - i Digte</title></msitem>
+<msitem corresp="DiStudHilsProfSchwei1860"><title>18. Til Professor Schweigaard i Anledning af hans 25aarige Virke ved Universitetet - i Digte</title></msitem>
+<msitem corresp="DiSangSkyttefesten1860"><title>19. Ved Skyttefesten paa Ladegaardsøen 1ste Juli 1860</title></msitem>
+<msitem corresp="DiSangKongCarlsKroning1860"><title>20. Ved Festen i Christiania paa Kongens Kroningsdag</title></msitem>
+<msitem corresp="DiSangSvRigsdagsmKling18600817"><title>21. Ved Gildet paa Klingenberg for den svenske Kroningsdeputations herværende Medlemmer den 17de August 1860</title></msitem>
+<msitem corresp="DiEpilog18610114"><title>22. Epilog ved Hr. Buchers Benefice paa det norske Theater 21de Januar 1861</title></msitem>
+<msitem corresp="DiSangFestKling1861"><title>23. Ved Festen paa Klingenberg Konstitutionsdagen 1861</title></msitem>
+<msitem corresp="DiIHavsnoed"><title>24. I Havsnød</title></msitem>
+<msitem corresp="DiSangUnivHalvhunKling1861"><title>25. Sang for Universitetet paa dets halvhundredeaarige Stiftelsesdag</title></msitem>
+<msitem corresp="DiForviklinger"><title>26. Forviklinger - i Digte</title></msitem>
+<msitem corresp="DiPaaAkershus1"><title>27. Paa Akershus - i Digte (det kommer igjen som nr. 38 i en annen versjon, men jeg mener det er denne Ibsen brukte videre i Digte)</title></msitem>
+<msitem corresp="DiMedEnVandlilje"><title>28. Med en Vandlilje - i Digte</title></msitem>
+<msitem corresp="DiBjergmanden1"><title>29. Bergmanden - i Digte (men hvilken versjon er brukt, denne eller nr. 44?)</title></msitem>
+<msitem corresp="DiLysraedd"><title>30. Lysrædd - i Digte</title></msitem>
+<msitem corresp="DiFraSangertog"><title>31. Fra Sangertoget - i Digte</title></msitem>
+<msitem corresp="DiStudSamfHalvhunFest1863"><title>32. Ved Studentersamfundets Fest paa sin halvhundredeaarige Stftelsesdag</title></msitem>
+<msitem corresp="DiEnBroderNoed"><title>33. En Broder i Nød! - i Digte</title></msitem>
+<msitem corresp="DiTilFredSyvMinde"><title>34. Fredrik VII's Minde - i Digte</title></msitem>
+<msitem corresp="DiPaaVidderne"><title>35. Paa Vidderne - i Digte</title></msitem>
+<msitem corresp="DiTerjeVigen"><title>36. Terje Vigen - i Digte</title></msitem>
+<msitem corresp="DiSvanen"><title>37. Svanen</title></msitem>
+<msitem corresp="DiPaaAkershus2"><title>38. Paa Akershus (2)</title></msitem>
+<msitem corresp="DiGuttenBlaabaermyren"><title>39. Gutten i Blaabærmyren</title></msitem>
+<msitem corresp="DiFuglFuglefaenger"><title>40. Fugl og Fuglefænger - i Digte</title></msitem>
+<msitem corresp="DiTaaren"><title>41. Taaren</title></msitem>
+<msitem corresp="DiEnLoeverdagsafHardanger"><title>42. En Løverdagsaften i Hardanger - i Digte (en del av det blir til Spillemænd). Diktet er delt i to, forts. s. 161</title></msitem>
+<msitem corresp="DiEdderfuglen"><title>43. Edderfuglen - i Digte</title></msitem>
+<msitem corresp="DiBjergmanden2"><title>44. Bjergmanden - i Digte (men hvilken versjon er brukt, denne eller nr. 29?)</title></msitem>
+<msitem corresp="Di4deJuli59"><title>45. 4de Juli 1859 - i Digte</title></msitem>
+<msitem corresp="DiProlog18590821"><title>46. Prolog, fremsagt i det norske Theater 21de August 1859</title></msitem>
+<msitem corresp="DiVedHeibergsDoed"><title>47. Ved J. L. Heibergs Død - i Digte</title></msitem>
+<msitem corresp="DiSendebrevBlom"><title>48. Sendebrev til H. Ø. Blom - i Digte</title></msitem>
+<msitem corresp="DiProlog18611010_1"><title>49. Prolog ved det norske Theaters Festforestilling d. 10de Oktbr. 1861 - i Digte (to avskrifter hos Løkke, se nedenfor)</title></msitem>
+<msitem corresp="DiSangFestFaedrMinde1858"><title>50. Ved Festen til Fædrenes Minde i Studentersamfundet 1858</title></msitem>
+<msitem corresp="DiSangFestKling1858"><title>51. Ved Festen paa Klingenberg 17de Maj 1858</title></msitem>
+<msitem corresp="DiSangHalvhunChrAugVenn1858"><title>52. Ved Selskabet Kristian Augusts Venner's Halvhundredeaars-Fest, 1858</title></msitem>
+<msitem corresp="DiProlog18611010_2"><title>Prolog ved det norske Theaters Festforestilling d. 10de Oktbr. 1861 - i Digte (to avskrifter hos Løkke, se nr. 49)</title></msitem>
+<msitem corresp="DiLincMord"><title>Lincoln's Mord (ingen tekst gjengitt hos Løkke, bare tittelen og kilder)</title></msitem></mscontents>
+<physdesc><objectdesc><p>Jakob Løkkes samling av avskrifter av tidligere publiserte dikt i aviser og tidsskrifter, med Ibsens egenhendige rettelser.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">NBO Ms. 4° 1110a (Avskrifter: Jakob Løkkes samling av Ibsens trykte dikt)</title>
+<title level="a" type="origYear">[1870&amp;dash;1871]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Eivor Finset Spilling, Stine Brenna Taugbøl, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting og 1. kollasjon</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-EFS">Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

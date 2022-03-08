@@ -1,0 +1,55 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Di79-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Di79</label><item>87</item>
+<label></label><item></item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Di75.xml</p>
+<p><biblstruct xml:id="Di79">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>3. utgave</edition>
+<idno corresp="Di79" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01454</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1879</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk transkripsjon</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">[Tredje Oplag]</title>
+<title level="a" type="origYear">1879</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Henninge Margrethe Solberg</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Di75 til Di79, desember 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Koding og kollasjonering:</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kollasjonering:</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respstmt>
+</titlestmt>

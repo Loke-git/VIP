@@ -1,0 +1,272 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KEht-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KEht_bok.xml (0507).</p>
+<p>
+<biblstruct xml:id="KE64">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-Emnerne</title>
+<title type="sub">Historisk Skuespil i fem Akter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="KE64f1">85GA59728</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="KE64f2">NA/A p 2254</idno>
+<idno type="owner">HIS</idno>
+<idno xml:id="KE64f3">Eks. 1</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>Johan Dahls Forlag</publisher>
+<his:printer>J. Chr. Gundersens Bogtrykkeri</his:printer>
+<date>1864</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<his:hismsdesc type="letter" xml:id="B18700625PHe">
+<msidentifier>
+<settlement>Stockholm</settlement>
+<repository>Nordiska Museet</repository>
+<idno>inv.nr. 20.082 a-b</idno>
+</msidentifier>
+<his:letterinfo corresp="B18700625PHe">
+<name role="sender"><his:hisref target="Navneregister_HISe.xml#peHI" type="person">HENRIK IBSEN</his:hisref></name>
+<name role="recipient"><his:hisref target="Navneregister_HISe.xml#pePHe" type="person">PETER HEISE</his:hisref></name>
+<origdate when="1870-06-25">25. juni 1870</origdate>
+<origplace><his:hisref target="Navneregister_HISe.xml#plDre" type="place">DRESDEN</his:hisref></origplace>
+<physdesc><objectdesc><p>Brevet inneholder vedlegg (3 sider) med sanger fra Kongsemnerne, det er disse som inngår i KEht.</p></objectdesc></physdesc>
+</his:letterinfo>
+</his:hismsdesc>
+</p>
+<p>
+<listbibl>
+Tekstkilder konsultert i ederingen
+<his:hismsdesc type="printersCopy" xml:id="KE81923">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8°1923</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-Emnerne</title>
+<title type="sub">Historisk Skuespil i fem Akter</title>
+<docdate>[1870]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykt eksemplar av 1. utgave 1864 med egenhendige rettelser til 2. utgave 1870. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="KE70">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Anden udgave</edition>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno>00GA19676</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den Gyldendalske Bokhandel (F. Hegel)</publisher>
+<his:printer>J. H. Schultz</his:printer>
+<date>1870</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE72">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Tredje udgave</edition>
+<idno type="owner">NBO Ibsensenteret</idno>
+<idno>00GA19673</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den Gyldendalske Bokhandel (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1872</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE75">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Fjerde udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01408</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den Gyldendalske Bokhandel (F. Hegel)</publisher>
+<his:printer>J. Jørgensen &amp; co.</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE79">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Femte udgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; co.</his:printer>
+<date>1879</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE83">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Sjette udgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1883</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE89">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Syvende udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74GA01414</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1889</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE94">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Ottende udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74GA01418</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1894</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KEFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>ekspl.1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 2</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="KE98">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Niende udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74GA01422</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="KE03">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Tiende udgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1903</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main" xml:id="KE">Kongs-Emnerne</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2008</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1864</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Margit Sauar, Karl Johan Sæth, Stine Brenna Taugbøl, Ingvald Aarstein</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Sverre Bagge, Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Svend Eegholm-Pedersen, Jørgen Fafner, Karl Gervin, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Kristoffer Kruken, Else Mundal, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Ellen Nessheim Wiger</name>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Verskoding</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS_KJS">Karl Johan Sæth</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

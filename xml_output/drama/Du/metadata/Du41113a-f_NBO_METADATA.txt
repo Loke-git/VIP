@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Du41113-1210"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Du41113.xml som bygget på Du41113a.xml og Du41113f.xml som bygget på Du.xml</p>
+<p><his:hismsdesc subtype="notes" type="workingManuscript" xml:id="Du41113a-f">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1113a-f</idno>
+</msidentifier>
+<mscontents><msitem><author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>[1878-79]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendige notater og arbeidsmanuskripter.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">[Et dukkehjem]</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.4° 1113 (bibliotekets innbinding)</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">[1878-79]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Kodet om til TEI-P5, juli 2011</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Du.xml til Du41113a-Du41113f, juli, 2003</resp>
+<name xml:id="HIS-MS">Margit Sauar</name></respstmt>
+<respstmt><resp>Omgjøring av Du41113a-Du41113f til Du41113, november, 2003</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Margit Sauar</name>
+<name>Ingvald Aarstein</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name>Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

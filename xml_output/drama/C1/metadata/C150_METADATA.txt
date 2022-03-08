@@ -1,0 +1,88 @@
+<filedesc>
+
+<editionstmt><edition xml:id="C150-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på cati50.txt (HIT, Bergensmaterialet)</p>
+<p>
+<biblstruct xml:id="C150">
+<monogr>
+<author>Brynjolf Bjarme (pseudonym for Henrik Ibsen)</author>
+<title type="main">Catilina</title>
+<title type="sub">Drama i tre Acter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Deichmanske Bibliotek</idno>
+<idno xml:id="C150f1">Ib8ca</idno>
+<idno type="owner">Odd Syse, Bibliofiliklubben</idno>
+<idno xml:id="C150f2">-</idno>
+<idno type="owner">Damms antikvariat</idno>
+<idno xml:id="C150f3">-</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>P. F. Steensballe</publisher>
+<his:printer>F. Steens Bogtrykkeri</his:printer>
+<date>1850</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main" xml:id="C1">Catilina</title>
+<title level="a" type="sub">1. versjon, grunntekst, 1. utg.</title>
+<title level="a" type="origYear">1850</title>
+<author>Brynjolf Bjarme (pseudonym for Henrik Ibsen)</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Ingrid Falkenberg, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Konvertering fra Bergensmaterialet (cati50.txt) til prosjektspesifikk TEI SGML mai 1998</resp>
+<name>Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til prosjektspesifikk TEI XML desember 2000</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing, oktober 1998 til oktober 1999</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering november 1999</resp>
+<name>Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturlesing</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kodeendring februar 2000</resp>
+<name>Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering desember 2000</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering mars 2002</resp>
+<name>Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Siste korrekturkollasjon og oppdatering av teiHeader og koding juli 2003</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering etter filsplitting september-oktober 2003</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+<name xml:id="HIS-GW">Gunnhild Wiggen</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

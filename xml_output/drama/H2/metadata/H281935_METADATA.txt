@@ -1,0 +1,60 @@
+<filedesc>
+
+<editionstmt><edition xml:id="H281935-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på internt transkribert materiale.</p>
+<p>
+<his:hismsdesc type="workingManuskript" xml:id="H281935">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1935</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Uten tittel</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig, ufullført operautkast (begynnelsen av 1. akt).</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Hærmændene på Helgeland]</title>
+<title level="a" type="sub">2. versjon, grunntekst, NBO Ms.8° 1935</title>
+<title level="a" type="origYear">[1893]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Ellen Nessheim Wiger, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Transkripsjon, juni 2000:</resp>
+<name>Karl Johan Sæth</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing, juni 2000:</resp>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Koding</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name>Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til XML, september 2000:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturkollasjon, januar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

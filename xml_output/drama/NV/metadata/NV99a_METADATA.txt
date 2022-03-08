@@ -1,0 +1,59 @@
+<filedesc>
+
+<editionstmt><edition xml:id="NV99a-1211"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>NV99 (grunntekst)</label><item>0</item>
+<label>NVLondon</label><item>xx</item>
+<label>NV4262IV4</label><item>xx</item>
+<label>NV99a</label><item>xx</item>
+<label>NVFU</label><item>293</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på NVFU</p>
+<p><biblstruct xml:id="NV99a">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Når vi døde vågner</title>
+<title type="sub">En dramatisk epilog i tre akter</title>
+<edition>Andet oplag</edition>
+<idno corresp="NV99a" type="owner">NBO</idno>
+<idno corresp="NV99a">74ga01299</idno>
+<imprint>
+<pubplace>København/Berlin</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)/S. Fischer</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1899</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">2. utg.</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding">
+<resp>Kollasjonering og koding</resp>
+<name>Kari Kinn, Sigrid Larsson</name></respstmt>
+<respstmt>
+<resp>Oppretting, oktober 2009</resp>
+<name xml:id="HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>1. kollasjon, oktober 2009</resp>
+<name xml:id="KK">Kari Kinn</name>
+</respstmt>
+</titlestmt>

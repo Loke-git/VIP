@@ -1,0 +1,59 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KK73-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KK67.xml (KK67-0202).</p>
+<p>
+<biblstruct xml:id="KK73">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kærlighedens Komedie</title>
+<title type="desc">Komedie i tre Akter</title>
+<edition>Tredje, gennemsete udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01384</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1873</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjærlighedens Komedie</title>
+<title level="a" type="sub">3. utg.</title>
+<title level="a" type="origYear">1873</title>
+<title>Kærlighedens Komedie: KK73, elektronisk versjon. Bygger på KK67.xml (KK67-0202).</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Margit Sauar, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KK67 til KK73, februar 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering og koding, februar-mars 2002:</resp>
+<name>Ingvald Aarstein</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Kodekorrektur:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

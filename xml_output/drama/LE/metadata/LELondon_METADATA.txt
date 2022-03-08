@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="LELondon-0712"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>LELondon</label><item>0</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på LE94 (0209)</p>
+<p>
+<biblstruct xml:id="LELondon">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Lille Eyolf</title>
+<title type="sub">Skuespil i tre akter</title>
+<edition></edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01291</idno>
+<imprint>
+<pubplace>London</pubplace>
+<publisher>William Heinemann</publisher>
+<his:printer></his:printer>
+<date>1895</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Lille Eyolf</title>
+<title level="a" type="sub">Londonutgaven</title>
+<title level="a" type="origYear">1895</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Gry Berg</name></respstmt>
+<respstmt>
+<resp>Oppretting og 1. kollasjon, februar 2009</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respstmt>
+</titlestmt>

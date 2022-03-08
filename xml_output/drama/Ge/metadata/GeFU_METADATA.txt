@@ -1,0 +1,63 @@
+<filedesc>
+
+<editionstmt><edition xml:id="GeFU-0611"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>GeFU</label><item>126</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Ge94.xml (Ge94-0403).</p>
+<p>
+<biblstruct xml:id="GeFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title>Samlede værker. Sjette bind. Samfundets støtter, Et dukkehjem, Gengangere</title>
+<edition>Folkeutgave</edition>
+<idno corresp="GeFU" type="owner">HIS</idno>
+<idno>Ekspl. 1 og 2</idno>
+<imprint>
+<biblscope unit="volume">Bd. 6</biblscope>
+<date>1899</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Gengangere</title>
+<title level="a" type="sub">[Folkeutgave]</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Sigrid Larsson, Stine Brenna Taugbøl, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Konvertering, kollasjonering og koding</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kollasjonering</resp>
+<name xml:id="HIS-SL">Sigrid Larsson</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

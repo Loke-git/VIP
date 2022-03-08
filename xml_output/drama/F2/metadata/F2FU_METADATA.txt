@@ -1,0 +1,71 @@
+<filedesc>
+
+<editionstmt><edition xml:id="F2FU-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen ble til etter filsplitt.</p>
+<p>
+<biblstruct xml:id="F2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Fru Inger til Østråt</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd.1</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fru Inger til Østråt</title>
+<title level="a" type="sub">2. versjon, [Folkeutgave]</title>
+<title level="a" type="origYear">1898</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respstmt>
+<respstmt>
+<resp>Konvertering til TEI, februar 1999:</resp><name>Espen S. Ore.</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing, 1999:</resp><name xml:id="HIS-HB">Hilde Bøe, </name><name xml:id="HIS-KJS">Karl Johan Sæth.</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til XML høsten 2000:</resp>
+<name>Espen S. Ore.</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl, august 2001</name>
+<name>Hilde Bøe, mars 2002</name>
+</respstmt>
+<respstmt>
+<resp>Første opprydding etter filsplitting, oktober 2003</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturkollasjon, september 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

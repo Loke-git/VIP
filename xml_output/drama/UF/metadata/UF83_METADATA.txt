@@ -1,0 +1,62 @@
+<filedesc>
+
+<editionstmt><edition xml:id="UF83-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på UF80.xml (UF80-1201).</p>
+<p>
+<biblstruct xml:id="UF83">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">De unges forbund</title>
+<title type="sub">Lystspil i fem akter</title>
+<edition>Femte oplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga00412</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1883</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">De unges Forbund</title>
+<title level="a" type="sub">5. utg.</title>
+<title level="a" type="origYear">1883</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av UF80 til UF83, januar 2002:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, januar 2002:</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Koding og korrektur, januar 2002:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kodekorrektur, januar 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Synkroniseringskoding, november 2009:</resp>
+<name xml:id="HIS-EFS">Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

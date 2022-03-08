@@ -1,0 +1,55 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KE75-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KE72.xml.</p>
+<p>
+<biblstruct xml:id="KE75">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<title type="sub">Historisk skuespil i fem akter</title>
+<edition>Fjerde udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01408</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Den Gyldendalske Bokhandel (F. Hegel)</publisher>
+<his:printer>J. Jørgensen &amp; co.</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kongs-Emnerne</title>
+<title level="a" type="sub">4. utg.</title>
+<title level="a" type="origYear">1875</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Margit Sauar, Stine Brenna Taugbøl</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KE72 til KE75, januar-februar 2001</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur januar-mars 2001</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Synkroniseringskoding, november 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,112 @@
+<filedesc>
+
+<editionstmt><edition xml:id="O1ht-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på O1ht_bok-1112 (O1ht_bok.xml).</p>
+<p>
+<his:hismsdesc type="promptCopy" xml:id="O1">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4° 1108</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Olaf Liljekrans</title>
+<docdate>Udatert. Manuskriptet må være skrevet senhøstes 1856.</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok med enkelte egenhendige rettelser. Paginert 3-282. Manuskriptet er i HU 3 kalt B; det er ifølge HU (3, 293) brukt som grunntekst i FU 10.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+<p>
+<listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="promptCopy" xml:id="OL4923">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4° 923</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Olaf Liljekrans</title>
+<docdate>Udatert. Manuskriptet er trolig skrevet ikke lenge etter NBO Ms 4° 1108, senhøstes 1856.</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Sufflørbok med tilknytning til Christiania Theater, med enkelte egenhendige notater. 1 bind, paginert 2-287. Manuskriptet er i HU 2 kalt A og der brukt som grunntekst.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="parts" xml:id="OL344">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Bergen Museum</repository>
+<idno>Teaterarkivet UiB NT344r</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Olaf Liljekrans</title>
+<docdate>Udatert. Rolleheftene er knyttet til oppførelsen på Det norske Theater i Bergen i januar 1857. Heftene har tekst som i NBO Ms 4° 923, der deres omfang er angitt på s. 2. På mange av heftene har Ibsen skrevet skuespillerens navn, til dels også sitt eget. På noen av dem står utleveringsdato (november, 7. og 12. desember 1856). De antatt egenhendige rettelsene i 1 (s. 67, 85, 98) er ikke tatt til følge i Olafs og Alfhilds rollehefter, som følgelig må være skrevet før disse rettelsene ble foretatt i 1.</docdate>
+</msitem>
+<msitem n="Alfhild"><locus>64 s</locus><title>Alfhild i &amp;lquo;Olaf Liliekrans.&amp;rquo; Skuespil i 3 Akter, af Henr: Ibsen.</title></msitem>
+<msitem n="Hemming"><locus>40 s</locus><title>Hemming, Arne fra Guldviks Svend, i &amp;lquo;Olaf Liliekrans.&amp;rquo; Skuespil i 3 Akter, af Henr: Ibsen.</title></msitem>
+<msitem n="Ingeborg"><locus>32 s</locus><title>Ingeborg, Arne fra Guldviks Datter, i Olaf Lilliekrans. Skuespil i 3 Akter af Henr. Ibsen.</title></msitem>
+<msitem n="Bryllupsgjaester"><locus>4 s</locus><title>Bryllupsgjæster, (Fru Kirstens Frænder,) i &amp;lquo;Olaf Liliekrans.&amp;rquo; Skuespil i 3 Akter af Henr. Ibsen.</title></msitem>
+<msitem n="FoersteSvend"><locus>10 s</locus><title>Første Svend, hos Fru Kirsten, i &amp;lquo;Olaf Liliekrands.&amp;rquo; Skuespil i 3 Akter. af Henr: Ibsen.</title></msitem>
+<msitem n="AndenSvend"><locus>10 s</locus><title>Anden Svend hos Fru Kirsten, i Olaf Liliekrans, Skuespil i 3 Akter af Henr: Ibsen.</title></msitem>
+<msitem n="MaendKvinderSpillemaend1-Gjaest1"><locus>10 s</locus><title>Mænd, Kvinder og Spillemænd, (Slægtninge af Arne,) i &amp;lquo;Olaf Liliekrans&amp;rquo;. Skuespil i 3 Akter af Henr: Ibsen.</title></msitem>
+<msitem n="MaendKvinderSpillemaend2-Gjaest2"><locus>9 s</locus><title>Mænd, Kvinder og Spillemænd, (Slægtninge af Arne,) i &amp;lquo;Olaf Liliekrans.&amp;rquo; Skuespil i 3 Akter af Henr. Ibsen.</title></msitem>
+<msitem n="Terner1"><locus>4 s</locus><title>Terner hos Fru Kirsten i &amp;lquo;Olaf Liliekrands.&amp;rquo; Skuespil i 3 Akter. af Henr: Ibsen.</title></msitem>
+<msitem n="Terner2"><locus>4 s</locus><title>Terner hos Fru Kirsten, i &amp;lquo;Olaf Liliekrans.&amp;rquo; Skuespil i 3 Akter, af Henr: Ibsen.</title></msitem>
+<msitem n="FruKirsten"><locus>64 s</locus><title>Fru Kirsten Liljekrans i &amp;lquo;Olaf Liljekrans.&amp;rquo; Skuespil i 3 Akter af Hr. Henrik Ibsen.</title></msitem>
+<msitem n="Olaf"><locus>70 s</locus><title>&amp;lquo;Olaf Liljekrans.&amp;rquo; Skuespil i 3 Acter af Henr. Ibsen.</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>12 rollehefter, ikke egenhendige. Hvert av heftene "Mænd, Kvinder og Spillemænd" og "Terner" er i to eksemplarer. Ikke brukt eller omtalt i HU.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Olaf Liljekrans, 1. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: NBO Ms 4° 1108</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger, Mette Witting</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Sverre Bagge, Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Erik Henning Edvardsen, Jørgen Fafner, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Else Mundal, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Asbjørn Aarseth, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Koding</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+</titlestmt>

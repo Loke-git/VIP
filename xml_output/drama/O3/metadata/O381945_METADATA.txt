@@ -1,0 +1,56 @@
+<filedesc>
+
+<editionstmt><edition xml:id="O381945-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på prosjektets egen transkripsjon.</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="O381945">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1945</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Operaversjon av Olaf Liljekrans. Egenhendig arbeidsmanuskript, ufullstendig. 1 dobbeltblad. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Olaf Liljekrans</title>
+<title level="a" type="sub">tredje hovedversjon, grunntekst, NBO Ms.8° 1945</title>
+<title level="a" type="origYear">[1877&amp;sol;78]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Transkripsjon (av faksimiler), mars 2001</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrekturlesing</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+</titlestmt>

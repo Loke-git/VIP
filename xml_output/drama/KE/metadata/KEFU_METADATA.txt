@@ -1,0 +1,61 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KEFU-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KE70.</p>
+<p>
+<biblstruct xml:id="KEFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kongs-emnerne</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>ekspl.1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 2</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kongs-Emnerne</title>
+<title level="a" type="sub">[Folkeutgave]</title>
+<title level="a" type="origYear">1898</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Stine Brenna Taugbøl</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KE70 til KEFU, februar-mars 2001</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing:</resp>
+<name>Helene Grønlien</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Synkroniseringskoding, november 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

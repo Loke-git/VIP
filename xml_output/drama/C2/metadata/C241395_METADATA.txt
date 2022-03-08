@@ -1,0 +1,71 @@
+<filedesc>
+
+<editionstmt><edition xml:id="C241395-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<his:hismsdesc type="printersCopy" xml:id="C241395">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1395</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Catilina</title>
+<title type="sub">Drama i tre Akter</title>
+<docdate>1875</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig renskrift med rettelser.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Catilina</title>
+<title level="a" type="sub">2. versjon, NBO Ms.4° 1395</title>
+<title level="a" type="origDate">1875</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hanne Lauvstad, Hallvard Ystad</name></respstmt>
+<respstmt>
+<resp>Konvertering fra Bergensmaterialet (cati50.txt) til prosjektspesifikk TEI SGML, juni 1998</resp><name>Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til prosjektspesifikk TEI XML desember 2000</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-HL">Hanne Lauvstad</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering mars og desember 2000</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturlesing og oppdatering januar/februar 2002</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Første oppdatering etter filsplitting oktober 2003</resp>
+<name>Margit Sauar</name>
+<name xml:id="HIS-NME">Nina Marie Evensen</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjon mot faksimile oktober 2003</resp>
+<name>Nina Marie Evensen</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

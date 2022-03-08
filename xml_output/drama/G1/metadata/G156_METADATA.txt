@@ -1,0 +1,119 @@
+<filedesc>
+
+<editionstmt><edition xml:id="G156-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på G1.sgm</p>
+<p>
+<biblstruct xml:id="G156">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gildet paa Solhoug.</title>
+<title type="sub">Skuespil i tre Akter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="G156f1">85ga06129</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="G156f2">85ga06130</idno>
+<idno type="owner">Deichmanske bibliotek, Oslo</idno>
+<idno xml:id="G156f3">(ib.) r S Ibs</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>Chr. Tønsbergs Forlag</publisher>
+<his:printer>H. I. Sørum</his:printer>
+<date>1856</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstkilder inkludert i det eksterne variantapparatet
+<his:hismsdesc type="promptCopy" xml:id="G1hBI">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Bergens offentlige bibliotek</repository>
+<idno>hBI</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Gildet paa Solhoug</title>
+<title type="sub">Skuespil i 3 Akter</title>
+<docdate>udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>sufflørbok, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="promptCopy" xml:id="G1505">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonabiblioteket</repository>
+<idno>NBO TS ark A2 505a</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Gildet paa Solhoug</title>
+<title type="sub">Skuespil i 3 Akter</title>
+<docdate></docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>sufflørbok, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="promptCopy" xml:id="G1348s">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, UiB</repository>
+<idno>N. T. 348</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Gildet paa Solhoug</title>
+<title type="sub">Skuespil i tre Akter</title>
+<docdate>[1855]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>sufflørbok, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Gildet paa Solhoug</title>
+<title level="a" type="sub">1. versjon, grunntekst</title>
+<title level="a" type="origYear">1856</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Stine Brenna Taugbøl, Hallvard Ystad, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Konvertering til TEI</resp>
+<name xml:id="HIS-HY">Hallvard H. Ystad</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name>Hallvard H. Ystad</name>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering fra TEI SGML til prosjektspesifikk TEI XML</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodeoppdatering, desember 2004</resp>
+<name>Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Fullføring av variantkoding, desember 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

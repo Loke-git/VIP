@@ -1,0 +1,57 @@
+<filedesc>
+
+<editionstmt><edition xml:id="H1Vorwort-1012"></edition>
+</editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på P1876_Forord.xml (0408).</p>
+<p>
+<biblstruct xml:id="H1Vorwort">
+<analytic>
+<author>Henrik Ibsen</author>
+<title type="main">Vorwort</title>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (ger) Kli_1876, ekspl. 1</idno>
+</analytic>
+<monogr>
+<title>Nordische Heerfahrt</title>
+<imprint>
+<pubplace>München</pubplace>
+<publisher>Theodor Ackermann</publisher>
+<his:printer></his:printer>
+<date>1876</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Vorwort [til en tysk oversettelse av Hærmændene paa Helgeland]</title>
+<title level="a" type="sub">Tekstkilde</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Oliver Blomqvist, Inger Marie Kjølstadmyr, Stine Brenna Taugbøl</name></respstmt><respstmt>
+<resp>Oppretting</resp>
+<name>NME</name>
+</respstmt>
+<respstmt>
+<resp>1. kollasjon, desember 2009</resp>
+<name>OB</name>
+</respstmt>
+<respstmt>
+<resp>2. kollasjon, desember 2009</resp>
+<name>IMK</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name>SBT</name>
+</respstmt>
+</titlestmt>

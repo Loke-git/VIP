@@ -1,0 +1,47 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Br81925-1007"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Br68.xml (Br68-1100)</p>
+<p><his:hismsdesc type="printersCopy" xml:id="Br81925">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1925</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title>Brand</title>
+<docdate>1868/71</docdate>
+</msitem>
+</mscontents>
+<physdesc><objectdesc><p>Trykt eksemplar av 5. utg. (1868) med egenhendige rettelser til 6. utg (1871).</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Brand</title>
+<title level="a" type="sub">NBO Ms.8° 1925 (trykt eksemplar med rettelser)</title>
+<title level="a" type="origYear">[1871]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Br68 til Br81925, desember 2000:</resp>
+<name>Helene Grønlien</name></respstmt>
+<respstmt><resp>Kollasjonering, koding og korrekturlesing, desember2000/mars 2001:</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim</name>
+<name xml:id="HIS-HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>Synkroniseringskoding, november 2009:</resp>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

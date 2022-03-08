@@ -1,0 +1,64 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KG80-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KG73.xml (KG73-0302).</p>
+<p>
+<biblstruct xml:id="KG80">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kejser og Galilæer</title>
+<title type="sub">Et verdenshistorisk skuespil</title>
+<edition>Tredie oplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01261</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1880</date>
+</imprint></monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kejser og Galilæer</title>
+<title level="a" type="sub">3. utg.</title>
+<title level="a" type="origYear">1880</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Aasta Marie Bjorvand Bjørkøy, Hilde Bøe, Sigrid Larsson, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KG73 til KG80, april 2002:</resp>
+<name>Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, april-mai 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+<name xml:id="HIS-AMB">Aasta Marie Bjorvand</name>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-SL">Sigrid Larsson</name>
+</respstmt>
+<respstmt>
+<resp>Koding, mai 2002:</resp>
+<name>Ingvald Aarstein</name>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll, mai 2002:</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Feilretting, juli 2002:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

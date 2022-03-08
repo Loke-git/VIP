@@ -1,0 +1,104 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Di42622-1109"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Di42622</label><item>109</item>
+</list>
+</note>
+</notesstmt><sourcedesc>
+<p>Denne filen bygger på Di.xml (Di-0205).</p>
+<p><his:hismsdesc type="printersCopy" xml:id="Di42622">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>KBK Collin 262, 4°, II.2</idno>
+</msidentifier>
+<mscontents>
+<msitem><author>Henrik Ibsen</author>
+<title>Uten tittel</title>
+<docdate>Manuskriptet ble sendt porsjonsvis til forlegger Frederik Hegel. Det meste ble sendt 21. januar 1871, mer fulgte 31. januar, 8., 16. og 25. februar, 15. og 17. april.</docdate></msitem>
+<msitem corresp="DiAbrLincMord"><title>Abraham Lincolns mord<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DLincMord'</note></title></msitem>
+<msitem corresp="DiAgnes"><title>Agnes</title></msitem>
+<msitem corresp="DiBergmanden"><title>Bergmanden<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DBjergmanden'</note></title></msitem>
+<msitem corresp="DiBorte"><title>Borte!</title></msitem>
+<msitem corresp="DiBraendteSkibe"><title>Brændte skibe</title></msitem>
+<msitem corresp="DiByggeplaner"><title>Byggeplaner</title></msitem>
+<msitem corresp="DiDeUsynligesKor"><title>De usynliges kor</title></msitem>
+<msitem corresp="DiDigterensVise"><title>Digterens vise</title></msitem>
+<msitem corresp="DiEderfuglen"><title>Ederfuglen</title></msitem>
+<msitem corresp="DiEnBroderNoed"><title>En broder i nød!</title></msitem>
+<msitem corresp="DiEnFuglevise"><title>En fuglevise</title></msitem>
+<msitem corresp="DiEnKirke"><title>En kirke</title></msitem>
+<msitem corresp="DiEnSvane"><title>En svane</title></msitem>
+<msitem corresp="DiFolkesorg"><title>Folkesorg</title></msitem>
+<msitem corresp="DiForviklinger"><title>Forviklinger</title></msitem>
+<msitem corresp="DiFraMitHusliv"><title>Fra mit husliv</title></msitem>
+<msitem corresp="DiFredSyvMinde"><title>Fredrik den syvendes minde</title></msitem>
+<msitem corresp="DiFuglFuglefaenger"><title>Fugl og fuglefænger</title></msitem>
+<msitem corresp="DiHilsenTilSvenskerne"><title>Hilsen til Svenskerne</title></msitem>
+<msitem corresp="DiHoeifjeldsliv"><title>Højfjeldsliv</title></msitem>
+<msitem corresp="DiIKomponistStambog"><title>I en komponists stambog</title></msitem>
+<msitem corresp="DiIGalleriet"><title>I galleriet</title></msitem>
+<msitem corresp="DiKloeften"><title>Kløften</title></msitem>
+<msitem corresp="DiKongHaakonsGildehal"><title>Kong Håkons gildehal</title></msitem>
+<msitem corresp="DiKvindernesBoen"><title>Kvindernes bøn</title></msitem>
+<msitem corresp="DiLysraed"><title>Lysræd<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DLysraedd'</note></title></msitem>
+<msitem corresp="DiMarkblPottepl"><title>Markblomster og potteplanter</title></msitem>
+<msitem corresp="DiMedEnVandlilje"><title>Med en vandlilje</title></msitem>
+<msitem corresp="DiMinUngeVin"><title>Min unge vin</title></msitem>
+<msitem corresp="DiMindetsMagt"><title>Mindets magt</title></msitem>
+<msitem corresp="DiPrisetVaereKvinden"><title>Priset være kvinden!<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DTilKvinVSangerfest1859'</note></title></msitem>
+<msitem corresp="DiPaaAkershus"><title>På Akershus</title></msitem>
+<msitem corresp="DiPaaSangertog"><title>På sangertog<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DFraSangertog'</note></title></msitem>
+<msitem corresp="DiPaaVidderne"><title>På vidderne</title></msitem>
+<msitem corresp="DiRimbrevFruHeiberg"><title>Rimbrev</title></msitem>
+<msitem corresp="DiSkolehuset"><title>Skolehuset<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DSangIndvLillehamSkole1858'</note></title></msitem>
+<msitem corresp="DiSpillemaend"><title>Spillemænd</title></msitem>
+<msitem corresp="DiStambogsrim"><title>Stambogsrim</title></msitem>
+<msitem corresp="DiStormsvalen"><title>Stormsvalen</title></msitem>
+<msitem corresp="DiStorthingsgaarden"><title>Storthings-gården<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DProlog18611010'</note></title></msitem>
+<msitem corresp="DiTak"><title>Tak</title></msitem>
+<msitem corresp="DiTerjeVigen"><title>Terje Vigen</title></msitem>
+<msitem corresp="DiTilDeGenlevende"><title>Til de genlevende</title></msitem>
+<msitem corresp="DiTilEnBortdragendeKunstner"><title>Til en bortdragende kunstner</title></msitem>
+<msitem corresp="DiTilRevolutionsTal"><title>Til min ven revolutions-taleren!</title></msitem>
+<msitem corresp="DiTilProfessorSchweigaard"><title>Til professor Schweigård<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DStudHilsProfSchwei1860'</note></title></msitem>
+<msitem corresp="DiTilThingmaendene"><title>Til thingmændene<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DTilStorthinget'</note></title></msitem>
+<msitem corresp="DiTroensGrund"><title>Troens grund</title></msitem>
+<msitem corresp="DiUdenNavn"><title>Uden navn</title></msitem>
+<msitem corresp="DiVedPortSaid"><title>Ved Port Said</title></msitem>
+<msitem corresp="DiVuggevise"><title>Vuggevise</title></msitem>
+<msitem corresp="DiAabentBrev"><title>Åbent brev<note resp="MW" type="workingNote">heter i DTekstgrunnlag 'DSendebrevBlom'</note></title></msitem>
+<msitem corresp="DiHHOrnulfsDrapa"><title>Ørnulfs drapa</title></msitem>
+<msitem corresp="Di4deJuli1859"><title>4de Juli 1859</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>Trykkmanuskript, hovedsakelig egenhendig. Er innbundet av biblioteket i feil rekkefølge. Inneholder også et prøvetrykk av tittelsiden til førstetrykket (bl. 27) og tidligere trykk av Terje Vigen og Paa Vidderne. Det er usikkert hvor trykkene til Terje Vigen og Paa Vidderne stammer fra; det ser ut til å være fra samme diktantologi, der et dikt av Welhaven står foran Terje Vigen og diktet 'Trysil-Knud' står mellom de to Ibsen-diktene. Tittelsiden er ikke transkribert; siden den ikke opprinnelig hører til i trykkmanuskriptet. De to trykte diktene er transkribert siden disse har vært trykkgrunnlag for diktene.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">KBK Collin 262, 4°, II.2, trykkmanuskript; denne presentasjonen følger HIS' ordning</title>
+<title level="a" type="origYear">[våren 1871]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Eivor Finset Spilling, Stine Brenna Taugbøl, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-EFS">Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>Kodekontroll, april 2008</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

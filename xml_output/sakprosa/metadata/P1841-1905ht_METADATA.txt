@@ -1,0 +1,1474 @@
+<filedesc>
+
+<editionstmt><edition xml:id="P1841-1905ht-0212"></edition></editionstmt>
+<publicationstmt>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne fila bygger på P1841-1905ht_bok.xml (P1841-1905ht-0810)
+<list>
+Grunntekstfiler
+<item>P1841-59gt.xml</item>
+<item>P1860-69gt.xml</item>
+<item>P1870-79gt.xml</item>
+<item>P1880-89gt.xml</item>
+<item>P1890-1900gt.xml</item>
+<item>Nye_gt_sakprosa.xml</item>
+<item>Flere_nye_sakprosatekster.xml</item>
+</list></p>
+<p>
+<bibl xml:id="P1841Drom">
+<idno type="owner">NB depot</idno>
+<idno>EOAA00034122</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Fra Bygderne</title>
+<title type="sub">Ny række. II. Henrik Ibsen. &amp;dash; Maalstrævere. &amp;dash; &amp;sol; Hartvig Lassen.</title>
+<title type="occasion">[Gjenfortalt skolestil; en drøm]</title>
+<title>Fædrelandet (onsdag, nr. 40, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>22.05.1878</date>
+<note resp="editor">Fraktur. Teksten står i anførselstegn. Dette er en gjenfortelling av en norskstil som Ibsen leste høyt i klassen da han var 13-14 år, nedskrevet av (senere prost) B. Ording, som gikk i Ibsens klasse. Ibsen leste korrektur på Ordings gjenfortelling i forbindelse med ettertrykket i Norsk Forfatterleksikon i 1889, og skrev da følgende i margen i korrekturen (avskrift av korrekturfaksimile i variabasen): &amp;lquo;Denne norske stil bragte mig i nogen tid på spændt fod med min fortræffelige lærer Stockfleth. S. havde nemlig sat sig i hodet at jeg havde taget stilen fra en eller anden bog og udtalte dette i klassen. Hans fejlagtige formodning tilbageviste jeg da på en mere energisk måde end han syntes om.&amp;rquo; Ibsen vedkjente seg altså gjenfortellingen, noe som forsvarer at den regnes med blant hans skrifter.</note>
+</bibl>
+<his:hismsdesc type="finalFairCopy" xml:id="P18480203Stil">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.4° 895</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Norsk Stilebog</title>
+<docdate>03.02.1848</docdate>
+<note resp="editor">Håndskrift. Stilbok med blått omslag med illustrasjon foran og bak. Ulinjert, ujevn marg og avsnitt med varierende avstand. Delnummereringen 1 er understreket og har tankestrek etter, mens tallet 2 bare har tankestrek etter seg. Etterskriften på s. 25 er en attestering fra stud. philol. Thore Jensen Lie på at tekstene er skrevet av Ibsen: &amp;lquo;At de i denne Bog nærværende norske Udarbeidelser ere skrevne af H. Ibsen, attesteres. &amp;dash; Chr. 29de Juli 1850. Thore J. Lie Stud. Philol.&amp;rquo;. Streker i marg.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="P1850Fangen">
+<msidentifier>
+<settlement>Grimstad</settlement>
+<repository>Ibsenhuset</repository>
+<idno></idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Fangen paa Agershuus</title>
+<title type="sub">En Skitse fra Slutningen af forrige Aarhundrede</title>
+<title type="occasion">[Romanforsøk]</title>
+<docdate>1850</docdate>
+<note resp="editor">Manuskript. Deler av overskriften er understreket, ikke kodet inn. Manuskriptbeskrivelse er utført og finnes i sakprosapermen.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18510112Revue">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Holbergs politiske Kandestøber]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 2, 1. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>12.01.1851</date>
+<note resp="editor">Antikva. Ø skrives som ö. Utheving ved sperring. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;H.I.&amp;rquo;</note>
+</bibl>
+<his:hismsdesc type="finalFairCopy" xml:id="P18510125Bemaerk">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>RAO</repository>
+<idno>PA 1322 Det Norske Studentersamfunds arkiv, serie Xa</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Bemærkninger angaaende Opsatsen &amp;lquo;Om samfundsbladet&amp;rquo; undertegnet A.</title>
+<docdate>25.01.1851</docdate>
+<note resp="editor">Håndskrevet avis. Ø skrives ö. Øverst: &amp;lquo;Samfundsbladet. Redacteurer: Henr: Ibsen og Andr H. Isachsen. No 2. 25de Januar. 1te Fjerdingaar. 1851.&amp;rquo;</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="finalFairCopy" xml:id="P18510215Oversigt">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Riksarkivet</repository>
+<idno>PA 1322 Det norske Studentersamfund, serie Xa</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Kortfattet Oversigt over Samfundets Historie</title>
+<docdate>15.02.1851</docdate>
+<note resp="editor">Håndskrevet avisartikkel. Ø skrives ö. Øverst: &amp;lquo;Samfundsbladet. Redacteurer: Henr: Ibsen &amp; A. H. Isachsen. No. 4. 15 Februar. 1ste Fjerdingaar 1851.&amp;rquo;. Etter artikkelen står det at den skal fortsettes, men vi har ikke funnet noen fortsettelse, sjekk HU.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="finalFairCopy" xml:id="P18510215SamtThea">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Riksarkivet</repository>
+<idno>PA 1322 Det norske Studentersamfund, serie Xa</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Om Samfundstheatret</title>
+<docdate>15.02.1851</docdate>
+<note resp="editor">Håndskrevet avis. Starter der forrige Ibsen-artikkel slutter.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="finalFairCopy" xml:id="P18510301Asyl">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Riksarkivet</repository>
+<idno>PA 1322 Det norske Studentersamfund, serie Xa</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Asylet paa Grønland</title>
+<docdate>01.03.1851</docdate>
+<note resp="editor">Håndskrevet avis. Ø skrives ö. Øverst: &amp;lquo;Samfundsbladet. Redacteurer: Henr: Ibsen og Andr H. Isachsen. No. 6 1ste Marts. 1ste Fjerdingaar 1851.&amp;rquo;</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18510323Welh">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Professor Welhaven om Paludan-Müllers mythologiske Digte</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 11, 1. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>23.03.1851</date>
+<note resp="editor">Antikva. Ø skrives som ö. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;H.I.&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18510413Haar">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="sub">&amp;lquo;Haarpidsk og Kaarde&amp;rquo;</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 2, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>13.04.1851</date>
+<note resp="editor">Fraktur. &amp;amp;-tegnet står i antikva. Utheving ved sperring. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: Den trykte signaturen I. er tilføyet &amp;lquo;bsen&amp;rquo;.</note>
+</bibl>
+<his:hismsdesc type="finalFairCopy" xml:id="P18510419Samfbibl">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Riksarkivet</repository>
+<idno>PA 1322 Det norske Studentersamfund, serie Xa</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Om Samfundsbibliotheket</title>
+<docdate>[19.04.1851]</docdate>
+<note resp="editor">Håndskrevet avisartikkel, datering enten 19. eller 26. april 1851. &amp;lquo;No 3 April 2det Fjerdingaar 1851. Redacteurer, G. H. Krohn og Henr: Ibsen.&amp;rquo;. ö for ø, enkelte mangler diakritisk tegn.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18510504Theat">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Wilhelm Tell]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 5, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>04.05.1851</date>
+<note resp="editor">Fraktur. Utheving ved fet skrift. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510511Herre">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="sub">&amp;lquo;En blaseret Herre&amp;rquo;</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 6, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>11.05.1851</date>
+<note resp="editor">Fraktur. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510518Handl">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Handlinger og Træk af Storthinget</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 7, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>18.05.1851</date>
+<note resp="editor">Fraktur. Ved tekstens start og slutt står to asterisker. Illustrasjon over teksten, ikke av Ibsen.</note>
+</bibl>
+<bibl xml:id="P18510525Theat">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Opera]</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 8, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>25.05.1851</date>
+<note resp="editor">Fraktur. De tre første replikkene er adskilt ved hjelp av blanklinjer, det samme gjelder flere av avsnittene. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: Den trykte signaturen I. er tilføyet &amp;lquo;bsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510608Natvig">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Natvig og Ironien</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 10, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>08.06.1851</date>
+<note resp="editor">Fraktur. Utheving er gjort både ved sperring, fet skrift og antikva (fet er kodet med emph, antikva med note). Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;. Trykt i mindre skrift enn de omkringliggende tekstene.</note>
+</bibl>
+<bibl xml:id="P18510608Bidrag">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Bidrag til Svineslægtens Karakteristik, m. m.</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 10, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>08.06.1851</date>
+<note resp="editor">Fraktur. Illustrasjon i teksten, neppe Ibsen. Utheving ved sperring. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;. Trykt i mindre skrift enn de omkringliggende tekstene.</note>
+</bibl>
+<bibl xml:id="P18510622Huld">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;Huldrens Hjem&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 12, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>22.06.1851</date>
+<note resp="editor">Fraktur. Avsluttes med to asterisker. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;H. Ibsen.&amp;rquo;. Trykt i mindre skrift enn de omkringliggende tekstene.</note>
+</bibl>
+<bibl xml:id="P18510622Godt">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Godtkjøbsartikler</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 12, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>22.06.1851</date>
+<note resp="editor">Fraktur. Utheving på to måter, først ved større font og fete typer, annen gang ved sperring. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;I.&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510622Etpar">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Et Par Forslag</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 12, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>22.06.1851</date>
+<note resp="editor">Fraktur. Overskriften står over begge spalter. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;. Illustrasjon under teksten, av to menn på samme hest, Ibsens?</note>
+</bibl>
+<bibl xml:id="P18510629Handl">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Handlinger og Træk af Storthinget</title>
+<title>&amp;lquo;Manden&amp;rquo;/Andhrimner (nr. 13, 2. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>29.06.1851</date>
+<note resp="editor">Fraktur. To asterisker ved artikkelens start. Utheving ved antikva. Botten-Hansens blyantsignatur etter artikkelen: &amp;lquo;V.&amp;rquo;, men den påfølgende teksten har ingen tydelig ny overskrift. Ståle og Asbjørn mener at også del 2 kan være av Ibsen på grunn av de to asteriskene, som står for Ibsen. Del 2 er bare førstekollasjonert. NB: Vedtatt på redaksjonsmøtet 26. august: bare første del skal være med.</note>
+</bibl>
+<bibl xml:id="P18510713Broder">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Broderlandets servile Presse</title>
+<title>Andhrimner (nr. 2, 3. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>13.07.1851</date>
+<note resp="editor">Fraktur. Utheving ved antikva. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510727Stort">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Storthings-Saga.</title>
+<title>Andhrimner (nr. 4, 3. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>27.07.1851</date>
+<note resp="editor">Fraktur. Siste linje på første side er satt skjevt. Tankestrekene er av ulik lengde, har ikke kodet forskjellene. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18510803Hatt">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Hattemagerfeiden paa Ringerike</title>
+<title>Andhrimner (nr. 5, 3. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>03.08.1851</date>
+<note resp="editor">Fraktur. Kapitteloverskriftene er sperret, laveste nivå er satt med mindre skrift. Utheving ved antikva. Tankestrekene er av ulik lengde, ikke kodet forskjellene. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;H. Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510810Stort">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Storthings-Saga</title>
+<title>Andhrimner (nr. 6, 3. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>10.08.1851</date>
+<note resp="editor">Fraktur. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18510817Stort">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Storthings-Saga</title>
+<title type="sub">Storthingsbygningen</title>
+<title type="sub">Sølvværkssagen</title>
+<title>Andhrimner (nr. 7, 3. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>17.08.1851</date>
+<note resp="editor">Fraktur. Underoverskriften er sperret, overskriften fet. Utheving ved sperring. Botten-Hansens blyantsignatur i aviseksemplaret nederst spalte 108 og 112: &amp;lquo;H. Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18510831Stort">
+<idno type="owner">HIS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">Storthings-Saga</title>
+<title type="sub">Huusmandslovgivningen.</title>
+<title>Andhrimner (nr. 9, 3. kvartal)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Nils Fredrik Axelsen</publisher>
+<his:printer>A.Th. Nissens Bogtrykkeri</his:printer>
+<date>31.08.1851</date>
+<note resp="editor">Fraktur. Underoverskriften er sperret, overskriften fet. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Henr. I.&amp;rquo;. HU har ikke tatt med siste halvdel av artikkelen (stopper etter &amp;lquo;Ikke-skyldig&amp;rquo;), men vi følger Botten-Hansens attribusjon og tar med hele artikkelen.</note>
+</bibl>
+<bibl xml:id="P18511023Stub">
+<idno type="owner">BOB</idno>
+<idno>119398021</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Bergen den 22de Oktober</title>
+<title>Bergens Stiftstidende (torsdag, nr. 85, 12. årg.)</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<his:printer>Chr. Dahl, R. S.</his:printer>
+<date>23.10.1851</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Latinske ord er i antikva. I overskriften er &amp;lquo;Bergen&amp;rquo; satt i fete typer. Ikke tidligere trykt blant Ibsens tekster.</note>
+</bibl>
+<bibl xml:id="P18511130Stub">
+<idno type="owner">BOB</idno>
+<idno>119398021</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Nogle Bemærkninger fremkaldte ved P. J. Stub&amp;rapo;s Theateropsatser</title>
+<title>Bergens Stiftstidende (søndag, nr. 96 og torsdag, nr. 97, 12. årg.)</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<his:printer>Chr. Dahl, R. S.</his:printer>
+<date>30.11.1851 og 04.12.1851</date>
+<note resp="editor">Fraktur. Utheving ved sperring.</note>
+</bibl>
+<bibl xml:id="P18511218Stub">
+<idno type="owner">Bergen Offentlige Bibliotek</idno>
+<idno>119398021</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Poul Stub som dramatisk Kritiker</title>
+<title>Bergens Stiftstidende (torsdag, nr. 101 og søndag, nr. 102, 12. årg.)</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<his:printer>Chr. Dahl, R. S.</his:printer>
+<date>18.12.1851 og 21.12.1851</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Antikva ved franske og latinske ord.</note>
+</bibl>
+<bibl xml:id="P18511218Skuespil">
+<idno type="owner">BOB</idno>
+<idno>119398021</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Hvorlunde Magister Stub blev sparket ud af Berg. Bl.</title>
+<title type="sub">Komi-tragisk Skuespil med 1 Tableau.</title>
+<title>Bergens Stiftstidende (torsdag, nr. 101, 12. årg.)</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<his:printer>Chr. Dahl, R. S.</his:printer>
+<date>18.12.1851</date>
+<note resp="editor">Fraktur. Utheving ved sperring, antikva ved latinske ord. Ikke tidligere publisert blant Ibsens tekster.</note>
+</bibl>
+<bibl xml:id="P18520104Riis">
+<idno type="owner">NBO</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">[C. P. Riis og H. Ø. Blom]</title>
+<title type="occasion">[Innlegg]</title>
+<title>Theatervennen</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>04.01.1852</date>
+<placename>
+<rs corresp="plKri" type="place">Kristiania</rs>
+</placename>
+<date when="1852-01-04">04.01.1852</date>
+<note resp="editor">Grunntekst. Fraktur.</note>
+</bibl>
+<bibl xml:id="P18520118Blom">
+<idno type="owner">NBO</idno>
+<idno>NA/A m 7238</idno>
+<author>Henrik Ibsen</author>
+<title type="main">H. Ø. Blom. &amp;dash; &amp;lquo;Tordenskjold.&amp;rquo;</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Theatervennen</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>18.01.1852</date>
+<placename>
+<rs corresp="plKri" type="place">Kristiania</rs>
+</placename>
+<date when="1852-01-04">18.01.1852</date>
+<note resp="editor">Grunntekst. Fraktur.</note>
+</bibl>
+<bibl xml:id="P18530713Mant">
+<idno type="owner">NBO</idno>
+<idno>99sd18267</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Hr. Mantzius's dramatiske Foredrag]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Bergenske Blade</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<date>13.07.1853</date>
+<placename>
+<rs corresp="plBerg" type="place">Bergen</rs>
+</placename>
+<date when="1853-07-13">13.07.1853</date>
+<note resp="editor">Grunntekst. Antikva.</note>
+</bibl>
+<bibl xml:id="P18530715Dorthea">
+<idno type="owner">NBO</idno>
+<idno>99sd10205</idno>
+<author>Henrik Ibsen</author>
+<title>[Jfr. Anne Dorthea Freymann]</title>
+<title type="occasion">[Anmeldelse/attest]</title>
+<title>Bergens Stiftstidende (søndag, nr. xx)</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<date>31.07.1853</date>
+<note resp="editor">Grunntekst. Fraktur. Ibsen er en av fem forfattere til anmeldelsen.</note>
+</bibl>
+<bibl xml:id="P18550722Mant">
+<idno type="owner">NBO</idno>
+<idno>99sd25493</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Shakspeares &amp;lquo;Hamlet&amp;rquo;]</title>
+<title type="occasion">[Forhåndsomtale]</title>
+<title>Bergensposten</title>
+<pubplace>Bergen</pubplace>
+<publisher></publisher>
+<date>22.07.1855</date>
+<placename>
+<rs corresp="plBerg" type="place">Bergen</rs>
+</placename>
+<date when="1855-07-21">21.07.1855</date>
+<note resp="editor">Grunntekst. Antikva.</note>
+</bibl>
+<bibl xml:id="P18570510Kjaempe">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Om Kjæmpevisen og dens Betydning for Kunstpoesien</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 19 og 20, 6. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>10.05.1857 og 17.05.1857</date>
+<note resp="editor">Fraktur. Utheving ved sperring, antikva ved latinske uttrykk. Delt på to datoer. Signaturen og fortsettelsesopplysningene foran tekstene er ikke sperret, men satt med mindre skrift.</note>
+</bibl>
+<bibl xml:id="P18570913Chris">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;Thyre Boløxe og Herremanden&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 37, 6. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<his:printer>H. J. Jensens Bogtrykkeri</his:printer>
+<date>13.09.1857</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Botten-Hansens blyantsignatur i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18571011Theat">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;En Landsbyhistorie&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 41, 6. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>11.10.1857</date>
+<note resp="editor">Fraktur. Ingen utheving.</note>
+</bibl>
+<bibl xml:id="P18571213Anton">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Anton Wilhelm Wiehe</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 50, 6. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>13.12.1857</date>
+<note resp="editor">Fraktur. Utheving ved antikva og sperring. Illustrasjon til teksten (bilde av Wiehe).</note>
+</bibl>
+<bibl xml:id="P18571220Lord">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">&amp;lquo;Lord William Russell&amp;rquo;</title>
+<title type="sub">og dets Udførelse paa Christiania Theater</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 51 og 52, 6. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Paul Botten-Hansen</publisher>
+<his:printer>H.J. Jensen</his:printer>
+<date>20.12.1857 og 27.12.1857</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Lengden på tankestrekene varierer, dette er ikke kodet. Enkelte tegn er skadet. Teksten er delt over to avisnummer. Sitatene har spesielt oppsett, første linje har langt innrykk.</note>
+</bibl>
+<bibl xml:id="P1858Brud">
+<idno type="owner">NBO</idno>
+<idno>86ga09153</idno>
+<author>Henrik Ibsen</author>
+<title type="main">En Brudevielse</title>
+<title>Norske Folkelivsbilleder efter Malerier og Tegninger af Adolf Tidemand ledsagende med oplysende Text. Udgivne af Chr. Tønsberg. Ny række.</title>
+<pubplace>Christiania</pubplace>
+<publisher>Chr. Tønsberg</publisher>
+<his:printer>H. J. Sørum</his:printer>
+<date>1858</date>
+<note resp="editor">Antikva. ö for ø. Første bokstav er større og i fet. Teksten er inspirert av Bergsliens maleri &amp;lquo;En Brudevielse&amp;rquo;. Den står innrammet, og har oversettelser til tysk og engelsk parallelt ved siden av seg.</note>
+</bibl>
+<bibl xml:id="P18580103Gudbr">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;Gudbrandsdølerne&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 1, 7. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>03.01.1858</date>
+<note resp="editor">Fraktur. Utheving ved fet (første ord) og sperring (de øvrige). Varierende lengde på tankestrekene.</note>
+</bibl>
+<bibl xml:id="P18580310Traek">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041602</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Et Træk af Christiania danske Theaters Bestyrelse</title>
+<title>Aftenbladet (onsdag, nr. 58, 10. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<his:printer>Schibsted</his:printer>
+<date>10.03.1858</date>
+<note resp="editor">Fraktur. Sitatet i første spalte har anførselstegn ved hver linjestart i tillegg til ved start og slutt. Utheving ved sperring.</note>
+</bibl>
+<bibl xml:id="P18580325Endnu">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041602</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Endnu et Indlæg i Theatersagen</title>
+<title>Aftenbladet (torsdag, nr. 71 og onsdag, nr. 76, 10. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<his:printer>Schibsted</his:printer>
+<date>25. og 31.03.1858</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Artikkelen er fordelt på to utgaver. Ujevn trykk i siste spalte del 2.</note>
+</bibl>
+<bibl xml:id="P18580414For">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041602</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Foreløpig Slutningsbemærkning</title>
+<title>Aftenbladet (onsdag, nr. 85, 10. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<his:printer>Schibsted</his:printer>
+<date>14.04.1858</date>
+<note resp="editor">Fraktur. Utheving ved sperring.</note>
+</bibl>
+<bibl xml:id="P18580808Guiz">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Guizots Memoirer</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 32, 7. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>08.08.1858</date>
+<note resp="editor">Fraktur. Illustrasjon midt på siden, artikkelen står under bildet. Utheving ved sperring og antikva.</note>
+</bibl>
+<bibl xml:id="P18590508Heal">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Dandserinderne Healey</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 19, 8. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>08.05.1859</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18590704Chris">
+<idno type="owner">NBR</idno>
+<idno>EOAA00030113</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Christiania norske Theater]</title>
+<title type="occasion">[Årsmelding]</title>
+<title>Christiania-Posten (mandag, nr. 181, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>04.07.1859</date>
+<note resp="editor">Fraktur. Første overskrift står lenger opp i spalten. Artikkelen starter slik: &amp;lquo;I lørdags afholdtes den aarlige Generalforsamling af Aktiehaverne i Christiania norske Theater, hvor Direktionens Formand oplæste følgende Oversigt over Theatrets Virksomhed i Saisonen 1858&amp;sol;59 afgiven af den artistiske Direktør:&amp;rquo; Den påfølgende årsmeldingen står i anførselstegn.</note>
+</bibl>
+<bibl xml:id="P18590717Ride">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;Rideknægten&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 29, 8. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>17.07.1859</date>
+<note resp="editor">Fraktur. Anmeldelsen står i spalten "Literatur". Tittelen i første linje er uthevet ved fet og større skrift.</note>
+</bibl>
+<bibl xml:id="P18591016Fisk">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Fiskere i Havsnød</title>
+<title type="occasion">[kunstkritikk]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 42, 8. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>16.10.1859</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Illustrasjon midt på siden (Tidemand og Gudes maleri), artikkelen står over bildet.</note>
+</bibl>
+<bibl xml:id="P18600226Fort">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;Fortællinger af Dr. H.&amp;rquo; og &amp;lquo;Danske Landsbyhistorier&amp;rquo; af Forf. til &amp;lquo;Livsbilleder&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 9, 9. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Paul Botten-Hansen</publisher>
+<date>26.02.1860</date>
+<note resp="editor">Fraktur. Utheving ved fete typer. To diagonale streker i teksten er ikke kodet inn.</note>
+</bibl>
+<bibl xml:id="P18600527Vald">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Valdemar Krones Ungdomshistorie]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 22, 9. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>27.05.1860</date>
+<note resp="editor">Fraktur. Utheving ved fete typer. Blyantsignatur med fremmed hånd i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18600930DNT">
+<idno type="owner">NBR</idno>
+<idno>EBAA00001541</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Det Norske Theater</title>
+<title type="occasion">[Årsberetning]</title>
+<title>Christiania-Posten, nr. 274</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>30.09.1860</date>
+<note resp="editor">Fraktur. I innledningen til Ibsens tekst (under overskriften) står følgende: &amp;lquo;Igaar Eftermiddag afholdtes Generalforsamling i det norske Theater. Beretning om Theatrets Virksomhed i Spilleaaret 1859&amp;dash;1860 afgiven af den artistiske Direktør fremlagdes. Af denne hidsættes:&amp;rquo;. Etter Ibsens tekst følger regnskapsopplysninger.</note>
+</bibl>
+<bibl xml:id="P18610321De">
+<idno type="owner">NBR</idno>
+<idno>EOAA00017725</idno>
+<author>Henrik Ibsen</author>
+<title type="main">De to Theatre i Christiania</title>
+<title>Morgenbladet (torsdag, tirsdag, søndag og fredag, nr. 80, 85, 89 og 100, 43. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>21., 26. og 31.03., 12.04.1861</date>
+<note resp="editor">Fraktur. Utheving ved antikva eller fet.</note>
+</bibl>
+<bibl xml:id="P18610526Balt">
+<idno type="owner">UBO</idno>
+<idno>51ka43337</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Baltzar Bogislaus von Platen</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 90, 10. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>H.I. Jensen</publisher>
+<his:printer>H.I. Jensen</his:printer>
+<date>26.05.1861</date>
+<note resp="editor">Fraktur. Illustrasjon av von Platen midt på siden. Utheving ved antikva. Ibsen omtaler artikkelen i brev til Holst 27.03.1861.</note>
+</bibl>
+<bibl xml:id="P18610601Lidt">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041611</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Lidt, men Nok om Theaterafhandlingen i Christianiaposten</title>
+<title>Aftenbladet (lørdag, nr. 124, 13. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>01.06.1861</date>
+<note resp="editor">Fraktur. Utheving markert ved sperring.</note>
+</bibl>
+<bibl xml:id="P18610612Chris">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041611</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Christianiapostens Spalteproviantering</title>
+<title>Aftenbladet (onsdag, nr. 133, 13. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>12.06.1861</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18610821Aars">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041608</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[I det forløbne Spilleaar]</title>
+<title type="occasion">[Årsberetning]</title>
+<title>Aftenbladet (onsdag, nr. 193, 13. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>21.08.1861</date>
+<note resp="editor">Fraktur. Utheving er utført ved sperring. Artikkelen innledes slik: &amp;lquo;Igaar Eftermiddag afholdtes Generalforsamling i det norske Theater. Efterat den artistiske Direktørs Beretning var oplæst, meddelte Bestyrelsens Formand Kriminaldommer Hansteen en Beretning om Theatrets ekonomiske Stilling og fremtidige Udsigter. [...] Hr. H. Ibsens Aarsberetning angaaende Kristiania norske Theaters artistiske Virksomhed i Spilleaaret 1860&amp;sol;61 er saalydende:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18611222Fort">
+<idno type="owner">UBO</idno>
+<idno>51ka43337</idno>
+<author>Henrik Ibsen</author>
+<title type="sub">[Fortællinger af Klaus Groth]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 51, 10. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>22.12.1861</date>
+<note resp="editor">Fraktur. Utheving ved sperring og fet (overskriften). Litteraturavdelingen er trykt i mindre font enn den øvrige teksten på siden.</note>
+</bibl>
+<his:hismsdesc type="workingManuscript" xml:id="P1862Dagbok_Folkesagn">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>NBO Ms.8° 2603</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Dagbok og Folkesagn]</title>
+<docdate>1862</docdate>
+<note resp="editor">De første sidene er overstrøket og nesten uleselige. Folkesagnene starter på samme side som dagboknotatene slutter. Mange av "avsnittene" er markert ved hjelp av skillestreker (ornamentert tankestrek), disse er ikke kodet med p. På bl. 95 i ms. står det: "Knud Stadhejm &amp;dash; Gaarden Skageflaa i Gejranger / Kirkesanger Bruvold [...] / [...]".</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18620817Elstad">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Parti fra Elstad i Gudbrandsdalen</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 33, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>17.08.1862</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Apostrofert e står i antikva.</note>
+</bibl>
+<bibl xml:id="P18620828Ogsaa">
+<idno type="owner">NBR</idno>
+<idno>EOAA00041613</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Ogsaa om Theaterkrisen</title>
+<title>Aftenbladet (torsdag, nr. 199, 14. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>28.08.1862</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18620831Theat">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Theaterkrisen]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 35, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>31.08.1862</date>
+<note resp="editor">Fraktur. Utheving ved fete typer (underoverskriften) og sperring. Blyantsignatur med fremmed hånd i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18620911Theat">
+<idno type="owner">NBR</idno>
+<idno>EOAA00017710</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Den forestaaende Theatersæson]</title>
+<title>Morgenbladet (torsdag, nr. 253, 44. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>11.09.1862</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18621005Theat">
+<idno type="owner">NBR</idno>
+<idno>EOAA00017710</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Der gives en hel stor Klasse af Theaterstykker]</title>
+<title>Morgenbladet (søndag, nr. 277, 44. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>05.10.1862</date>
+<note resp="editor">Fraktur. I siste linje er s-en i ordet &amp;lquo;spille&amp;rquo; forskjøvet til nedenfor linjen.</note>
+</bibl>
+<bibl xml:id="P18621012Theat">
+<idno type="owner">NBR</idno>
+<idno>EOAA00017710</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[At vor Tid er realistisk]</title>
+<title>Morgenbladet (søndag, nr. 284, årg. 44)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>12.10.1862</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18621019Sagn">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Norske Sagn (Ved Henr. Ibsen.) &amp;sol; Norske Folkesagn</title>
+<title type="sub">Mordskogen i Nordfjord. &amp;sol; Lars Thormodsen Medlid. &amp;sol; Troldpilen ved Bolsø Kirke. &amp;sol; Fanden i Strømmene.</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 42 og 45, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>19.10.1862 og 09.11.1862</date>
+<note resp="editor">Fraktur. Utheving ved sperring. Underoverskriftene har mindre skrift. Del 1 og 2 er trykt 19.10., del 3 og 4 er trykt 09.11. De er kodet i samme fil.</note>
+</bibl>
+<bibl xml:id="P18621026Vest">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Fra Vestnæs</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 43, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>26.10.1862</date>
+<note resp="editor">Fraktur. Utheving ved fete typer (overskrift og signatur).</note>
+</bibl>
+<bibl xml:id="P18621026Theat">
+<idno type="owner">NBR</idno>
+<idno>EOAA00017710</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Christiania Theaters Repertoire]</title>
+<title>Morgenbladet (søndag, nr. 298, 44. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>26.10.1862</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18621109Theat">
+<idno type="owner">NBR</idno>
+<idno>EOAA00017710</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Christiania Theater]</title>
+<title>Morgenbladet (søndag, nr. 312, 44. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>09.11.1862</date>
+<note resp="editor">Fraktur.</note>
+</bibl>
+<bibl xml:id="P18621109Ved">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Ved Bræheimsvandet i Nordfjord</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 45, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>09.11.1862</date>
+<note resp="editor">Fraktur. Utheving ved fete typer (overskrift og signatur).</note>
+</bibl>
+<bibl xml:id="P18621130Theat">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Theaterkommitteens Indstilling]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 48, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>30.11.1862</date>
+<note resp="editor">Fraktur. Utheving ved fete typer og litt større skrift (overskriften), resten ved sperring.</note>
+</bibl>
+<bibl xml:id="P18621214See">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;See Tiden an&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 50, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Paul Botten Hansen</publisher>
+<his:printer>H.J. Jensen</his:printer>
+<date>14.12.1862</date>
+<note resp="editor">Fraktur. Utheving ved fete typer og sperring. Enkelte tegn er forskjøvet. Redaksjonens note står nederst i spalte 2. Blå pennsignatur med fremmed hånd i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18621221Sig">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Sigurd Slembe]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 51, 11. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>21.12.1862</date>
+<note resp="editor">Fraktur. Utheving ved fete typer (overskriften) og sperring. Blyantsignatur med fremmed hånd i aviseksemplaret etter artikkelen: &amp;lquo;Ibsen&amp;rquo;.</note>
+</bibl>
+<bibl xml:id="P18630104Fort">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Fortællinger af Magdalene Thoresen]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 1, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>04.01.1863</date>
+<note resp="editor">Fraktur. Utheving ved fete typer (overskriften) og sperring.</note>
+</bibl>
+<bibl xml:id="P18630104Huus">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">&amp;lquo;Huuslæreren&amp;rquo;</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 1, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>04.01.1863</date>
+<note resp="editor">Fraktur. Utheving ved fet og sperring. Overskriften &amp;lquo;Literatur&amp;rquo; gjelder begge anmeldelsene, både P18630104Fort og P18630104Huus.</note>
+</bibl>
+<bibl xml:id="P18630125Theat">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Den forstærkede Kommittee]</title>
+<title type="occasion">[Om teatersammenslutning]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 4, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>25.01.1863</date>
+<note resp="editor">Fraktur. De to øverste overskrifter er i fet, den nederste sperret. Uthevinger er sperret.</note>
+</bibl>
+<bibl xml:id="P18630802Nord">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Nordisk Universitetstidskrift]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 31, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>02.08.1863</date>
+<note resp="editor">Fraktur. Utheving ved fete typer og antikva (overskriften), sperring (kodet med emph) og antikva (kodet med typonoter).</note>
+</bibl>
+<bibl xml:id="P18630816Eyst">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[&amp;lquo;Eystein Meyla&amp;rquo;]</title>
+<title type="occasion">[Anmeldelse]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 33, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>16.08.1863</date>
+<note resp="editor">Fraktur. Utheving ved sperring og fete typer (overskriften Theatret). Overskriften &amp;lquo;Theater og Literatur&amp;rquo; står på s. 154, sp. 1.</note>
+</bibl>
+<bibl xml:id="P18631115Fana">
+<idno type="owner">NBO</idno>
+<idno>75ga19594</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Fanaraaken</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 46, 12. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>15.11.1863</date>
+<note resp="editor">Fraktur. Illustrasjonen til teksten er trolig tegnet av Ibsen.</note>
+</bibl>
+<bibl xml:id="P18650619Munch">
+<idno type="owner">UBO</idno>
+<idno>51ka43337</idno>
+<author>Henrik Ibsen</author>
+<title type="main">Korrespondence fra Rom til Nyhedsbladet</title>
+<title type="sub">(Afsløringen af P. A. Munch&amp;rapo;s Monument.)</title>
+<title type="occasion">[Minnetale ved avsløringen av P. A. Munchs monument i Roma 12.06.1865]</title>
+<title>Illustreret Nyhedsblad (søndag, nr. 29, 14. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>16.07.1865</date>
+<note resp="editor">Fraktur. Utheving ved sperring, fet ved overskrifter og signatur. Teksten består av både artikkel og tale, HU har bare trykt talen (trolig fordi de ikke kjente til manuskriptet), men manuskriptets etterskrift viser at hele artikkelen er av Ibsen (se filen P18650612Munch_u).</note>
+</bibl>
+<his:hismsdesc type="workingManuscript" xml:id="PAbydos">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>Ms. 8° 1216 (a + b)</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Abydos</title>
+<docdate>[1869&amp;dash;70]</docdate>
+<note resp="editor">Egenhendig arbeidsmanuskript, delvis renskrevet i Ms. 8° 1216b (fram til siste halvdel av s. 12). Skriften er vekslende, noen steder omhyggelig, andre skjødesløs. Det mangler diakritiske tegn flere steder. Det veksles mellom stor og liten bokstav ved substantiver, og flere steder er liten bokstav overskrevet av stor ved egennavn. De første sidene følger gammel rettskrivning med aa og stor bokstav, men fra s. 4 følges (mer eller mindre) ny rettskrivning, noe som tyder på at ms. er fra vinteren 1869&amp;dash;70. Innbindingen skjuler skrift flere steder, disse er kodet med unclear reason="binding" og teksten innenfor koden må vurderes fjernet i grunntekstvisningen.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="P1870SJorsal">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 1936</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Sigurd Jorsalafarer</title>
+<docdate>[1870]</docdate>
+<note resp="editor">Egenhendig manuskript. Utkast til scenegang til opera i fem akter. Skrevet på de to første sidene av et dobbeltblad.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="P18740910Stud_u">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>RAO</repository>
+<idno>PA 1322 Det Norske Studentersamfunds, serie C, Journal 16a, 1874&amp;dash;75, legg 1874II</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale til studentenes fanetog i Kristiania 10. september 1874]</title>
+<docdate>[10.09.1874]</docdate>
+<note resp="editor">Egenhendig manuskript til tale. Grunntekst.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="finalManuscript" xml:id="Pteaterbygning">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 1217</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Ny teaterbygning]</title>
+<note resp="editor">Mange bokstaver, særlig i, mangler diakritisk tegn.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="P18790227DSF">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 1218a og b</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Forslaget om bibliothekaren</title>
+<title type="occasion">[Tale holdt i den Skandinaviske Forening i Roma]</title>
+<docdate></docdate>
+<note resp="editor">Manuskriptet består av to deler som er bundet inn sammen, baksiden av siste side del 1 er blank.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="Pudat81219Ge_1">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 1219:1</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Den nyeste tids naturforskere]</title>
+<docdate>[1881]</docdate>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="Pudat81219Ge_2">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 1219:2, s. 2</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Det uorganiske kommer først]</title>
+<docdate>[1881]</docdate>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="Pudat81219Ge_3">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 1219:3</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Det fuldfærdige menneske]</title>
+<docdate>[1881]</docdate>
+</msitem></mscontents>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="Pudat41114Ge">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.4° 1114, i legg 12</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Lykken ved arbejdet]</title>
+<docdate>[1881]</docdate>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18810117Barnd">
+<idno type="owner">NBO</idno>
+<idno>99ga14801</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Barndomsminder]</title>
+<author>Henrik Jæger</author>
+<title type="main">Henrik Ibsen 1828&amp;dash;1888 : Et literært Livsbillede</title>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Fr. Bagges Bogtrykkeri</his:printer>
+<date>1888</date>
+<note resp="editor">Grunntekst pga. første trykk i Ibsens levetid. Trykt i Jæger 1888, 6&amp;dash;16.</note>
+</bibl>
+<bibl xml:id="P18850614Arb_Dagbl">
+<idno type="owner">NBR</idno>
+<idno>EOAA00028660</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale til arbeidernes fanetog i Trondheim 14. juni 1885]</title>
+<title>Dagbladet (tirsdag, nr. 210, 17. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>16.06.1885</date>
+<note resp="editor">Grunntekst. Antikva. Utheving ved sperring. Grunntekst pga. mest detaljert og mer lik Ibsens språkbruk enn P18850614Arb_Dagsp, og P18850614Arb_Dagen er svensk. Utheving ved sperring. Talen innledes slik: &amp;lquo;Efterat ogsaa en Sang for Anledningen var sungen, takkede Ibse (sic) med følgende Tale:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18851003Stud_Pol">
+<idno type="owner">KBK</idno>
+<idno>09071814</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Taler i Studentersamfundet i København 3. oktober 1885]</title>
+<title>Politiken (søndag, nr. 277, 2. årg.)</title>
+<pubplace>København</pubplace>
+<publisher>Redaktør V. Hørup</publisher>
+<his:printer>Rasmussen &amp; Olsens Bogtrykkeri, Gothersgade 48, Kjøbenhavn</his:printer>
+<date>04.10.1885</date>
+<note resp="editor">Antikva. (Avisens mål: 480x600 mm). Første del innledes med: &amp;lquo;(Bifald, hvorunder Henrik Ibsen rejste sig:&amp;rquo; (avsluttende parentes mangler.) Annen del innledes med: &amp;lquo;Henrik Ibsen holdt sent paa Aftenen følgende Tale ved Studentersamfundets Rusgilde:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18870111Berl">
+<idno type="owner">Staatsbibliothek zu Berlin</idno>
+<idno>mikrofilm</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved fest i Berlin 11. januar 1887]</title>
+<title>Berliner Börsen-Courier (tirsdag, nr. 19, 2. bilag)</title>
+<pubplace>Berlin</pubplace>
+<publisher></publisher>
+<date>12.01.1887</date>
+<note resp="editor">Fraktur. Talen står in anførselstegn, og innledes slik: &amp;lquo;der mit leiser Stimme, aber in durchaus gewandtem Deutsch etwa folgendes sprach:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18870924Sto_Aftonbl">
+<idno type="owner">KBS</idno>
+<idno></idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved fest i Stockholm 24. september 1887]</title>
+<title>Aftonbladet (mandag, nr. 222, 57. årg.)</title>
+<pubplace>Stockholm</pubplace>
+<publisher>Gustav Retzius (redaksjonsdirektør), A. Jeurling (redaksjonssekretær og utgiver)</publisher>
+<date>26.09.1887</date>
+<note resp="editor">Antikva. Grunntekst pga. nedskrevet av Ibsen etterpå. Ö i avisens tekst, Ø i Ibsens tekst. Talen er satt med ett punkt større skrift enn den øvrige teksten. Den står i anførselstegn, og innledes slik: &amp;lquo;Dr Henrik Ibsen besvarade skålen med följande ord, som vi här återgifva såsom han sjelf efteråt på vår begäran godhetsfullt upptecknat dem.&amp;rquo; Etter talen følger referentens gjengivelse av talen (på svensk) &amp;lquo;för dem, som icke tillfulle fatta det norska språket&amp;rquo;.</note>
+</bibl>
+<his:hismsdesc type="notes" xml:id="Pudat82638HG">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.8° 2638</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Hermed vil min omgang]</title>
+<docdate>[1890]</docdate>
+<note resp="editor">Egenhendig notat blant HG-forarbeider.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18910308Mun_Dagbl">
+<idno type="owner">NBO</idno>
+<idno>mikrofilm</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale i Den literære forening i München 8. mars 1891]</title>
+<title>Dagbladet (fredag, 23. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>13.03.1891</date>
+<note resp="editor">Grunntekst. Antikva. Talen står i anførselstegn, og innledes slik: &amp;lquo;Ibsen rejste sig og mumlede i Skjægget paa gebrokkent Tysk, nogle Gange rent uforstaaligt, omtrent følgende:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18910411Wien_Wien">
+<idno type="owner">Österreichische Nationalbibliothek, Wien</idno>
+<idno>mikrofilm</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved forfatternes fest i Wien 11. april 1891]</title>
+<title>Wiener Allgemeine Zeitung (tirsdag, nr. 3888 bilag)</title>
+<pubplace>Wien</pubplace>
+<publisher></publisher>
+<date>14.04.1891</date>
+<note resp="editor">Grunntekst pga. mest utførlig gjengivelse. Fraktur. Talen står i anførselstegn, og innledes slik: &amp;lquo;Er sagte, nachdem er für die so herzliche Aufnahme gedankt, ungefähr:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18910418Wien_Die">
+<idno type="owner">HIS</idno>
+<idno>[faksimile fra nettavis]</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved journalist- og forfatterfest i Wien 18. april 1891]</title>
+<title>Die Presse (mandag, nr. 108, 44. årg.)</title>
+<pubplace>Wien</pubplace>
+<publisher></publisher>
+<date>20.04.1891</date>
+<note resp="editor">Grunntekst pga. morgenutgave. Fraktur. Talen står i anførselstegn og siste del av talen er i mindre skrift. Den innledes slik: &amp;lquo;Er begann mit den Worten:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18910421Buda_Pester">
+<idno type="owner">HIS</idno>
+<idno>[faksimile fra nettavis]</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved mottagelse i Budapest 21. april 1891]</title>
+<title>Pester Lloyd (onsdag, nr. 110)</title>
+<pubplace></pubplace>
+<publisher></publisher>
+<date>22.04.1891</date>
+<note resp="editor">Grunntekst. Fraktur. Tirsdag kveld (21. april) så Ibsen Lohengrin i Operahuset. Deretter deltok han på en bankett på Hotell Continental arrangert for ham av greve Apponyi. 50 personer, hovedsakelig fra politiske kretser. Talen står i anførselstegn og innledes slik: &amp;lquo;Ibsen [...] erwiderte:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18910422Buda_Elet">
+<idno type="owner">Senter for Ibsen-studier</idno>
+<idno>ART. Vih</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved fest i Vigadó i Budapest 22. april 1891]</title>
+<author>Ger&amp;odblac;, Ödön</author>
+<title>Ibsen Henrik Magyarországon (oversatt tittel: Henrik Ibsen i Ungarn), s. 408</title>
+<pubplace>Budapest</pubplace>
+<publisher>Élet</publisher>
+<date>1891</date>
+<note resp="editor">Grunntekst. Den ungarske teksten trykkes i tekstbindet, Márias oversettelse trykkes i kommentarbindet. (Intern info: Referat fra den forutgående teksten i boken: Onsdag 22. april besøkte Ibsen kunstnere i deres atelierer, og forfatteren Mór Jókai. Om kvelden så han Electra i Operahuset, og deretter deltok han på festen arrangert for ham av redaksjonen av tidsskriftet Élet i festsalen på Vigadó. 180 personer, kunstnere, forfattere, politikere var til stede. Det ble holdt mange skåltaler for Ibsen på fransk, tysk, norsk, ungarsk og latin. Ibsen ble dypt rørt av feiringen av ham. Han holdt en kort tale:)</note>
+</bibl>
+<bibl xml:id="P18910423Buda_Elet">
+<idno type="owner">Ibsen-senteret</idno>
+<idno>ART. Vih</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale i restaurant Reutter i Budapest 23. april 1891]</title>
+<author>Ger&amp;odblac;, Ödön</author>
+<title>Ibsen Henrik Magyarországon (oversatt tittel: Henrik Ibsen i Ungarn), s. 409</title>
+<pubplace>Budapest</pubplace>
+<publisher>Élet</publisher>
+<date>1891</date>
+<note resp="editor">Den ungarske teksten trykt i &amp;lquo;Henrik Ibsen i Ungarn&amp;rquo; er grunntekst, Márias oversettelse trykkes i kommentarbindet. Inneholder to trykkfeil; sikló-étazás skulle vært sikló-útazás, og Cakhamar skulle vært Csakhamar, men Mária mener vi ikke trenger å rette fordi det ikke kan misforstås. Talen står i anførselstegn. Om kvelden torsdag 23. april var Ibsen først i Folketeateret og så et ungarsk stykke, og spiste deretter middag i salen i annen etasje på restauranten Reutter. Det var en privat tilstelning; kun medlemmene av redaksjonen av tidsskriftet Élet, deres mest interne medarbeidere og noen få gjester som Lajos Evva, direktøren for Népszínház (Folketeater), greve Jen&amp;odblac; Zichy m.fl. som deltok. Det ble flere skåltaler til ære for Ibsen. Ibsen selv talte lenge. Han fortalte at han fikk enormt mange inntrykk hos oss, at han møtte mange mennesker og institusjoner, at han tar med seg mye å tenke på. Han mintes sine spaserturer i Budapest og spurte smilende om vi hadde lagt merke til hans redsel da ha gikk ombord i taubanen:</note>
+</bibl>
+<bibl xml:id="P18910914Theat_Aftenp">
+<idno type="owner">NBO</idno>
+<idno>digitale aviser (http://www.nb.no/avis/index.html)</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved fest i Tivoli 14. september 1891]</title>
+<title>Aftenposten nr. 630</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>15.09.1891</date>
+<note resp="editor">Grunntekst. Antikva. Kun utdrag i anførselstegn, resten av talen gjengitt indirekte.</note>
+</bibl>
+<bibl xml:id="P189803Forord">
+<idno type="owner">Senter for Ibsen-studier</idno>
+<idno>74ga05933</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Forord til Samlede Værker]</title>
+<author>Henrik Ibsen</author>
+<title>Samlede Værker</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>1898</date>
+<note resp="editor">Grunntekst. Trykt faksimile, identisk med manuskriptet i Ny kgl. Saml. 3742, 4vo, 1. rk (P189803Forord_u).</note>
+</bibl>
+<bibl xml:id="P18980322Stud_Dagbl">
+<idno type="owner">NBR</idno>
+<idno>EOAA00028728</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale til studentenes fakkeltog i Kristiania 22. mars 1898]</title>
+<title>Dagbladet (onsdag, nr. 81, 30. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>23.03.1898</date>
+<note resp="editor">Grunntekst pga. mest i samsvar med Ibsens språk. Antikva. Talen er satt med litt større avstand mellom bokstavene enn den omkringliggende teksten, og innledes slik: &amp;lquo;Hans Ord lød saaledes:&amp;rquo;</note>
+</bibl>
+<his:hismsdesc type="finalManuscript" xml:id="P18980323Kris_u">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>NBO</repository>
+<idno>Ms.4° 937b</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved festmiddag i Kristiania 23. mars 1898]</title>
+<docdate>23.03.1898</docdate>
+<note resp="editor">Grunntekst pga. fullstendig manuskript. Y og Ø har tødler over seg.</note>
+</msitem></mscontents>
+</his:hismsdesc>
+<bibl xml:id="P18980331Stud_Dagbl">
+<idno type="owner">NBR</idno>
+<idno>EOAA00028728</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale til studentenes fakkeltog i København 31. mars 1898]</title>
+<title>Dagbladet (fredag, nr. 90, 30. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher>Harald Kristoffersen</publisher>
+<date>01.04.1898</date>
+<note resp="editor">Grunntekst pga. mest utførlig gjengivelse. Antikva. Overskriften står over hele artikkelen om festen. Talen står i anførselstegn. Den har ingen overskrift, men starter slik: &amp;lquo;Ibsen takkede og udtalte følgende:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980401Fest_Pol">
+<idno type="owner">KBK</idno>
+<idno>LGV D 128.03</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved festmiddag i København 1. april 1898]</title>
+<title>Politiken (lørdag, nr. 92, 15. årg.)</title>
+<pubplace>København</pubplace>
+<publisher>Redaktør V. Hørup</publisher>
+<his:printer>Dagbladet Politikens Trykkeri, Kjøbenhavn</his:printer>
+<date>02.04.1898</date>
+<note resp="editor">Grunntekst pga. mest utførlig gjengivelse. Antikva. Utheving ved kursiv. Talen står i anførselstegn, og innledes slik: &amp;lquo;Under denne Præstation var der kommet Uro i Forsamlingen, men der blev dødsstille, da Ibsen rejste sig og med alle Tegn paa, at han er uvant med at føre Ordet, ytrede følgende:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980402Kvinde_Pol">
+<idno type="owner">NBO</idno>
+<idno>mikrofilm</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved fest i Kvindelig Læseforening i København 2. april 1898]</title>
+<title>Politiken (søndag, nr. 93, 15. årg.)</title>
+<pubplace>København</pubplace>
+<publisher>Redaktør V. Hørup</publisher>
+<his:printer>Dagbladet Politikens Trykkeri, Kjøbenhavn</his:printer>
+<date>03.04.1898</date>
+<note resp="editor">Grunntekst pga. mest utførlig gjengivelse. Antikva. Talesitatene står i anførselstegn (ikke det første i spalte 3). Mellom sitatene i spalte 2 står: &amp;lquo;fremstammer han blot,&amp;rquo;, og mellom de øvrige står lengre tekst. Teksten rundt sitatet i spalte 3 er: &amp;lquo;Digteren rejste sig, men da alt var blevet tyst, sagde han ikke andet end: [...] Og umiddelbart efter meddelte Formanden, at Ibsen havde erklæret, at han maatte gaa nu, han vilde ikke blive længere, han turde ikke: Her afbryder Ibsen og raaber højt:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980406Stud_Lund">
+<idno type="owner">NBO</idno>
+<idno>mikrofilm</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale til studentene i Lund 6. april 1898]</title>
+<title>Lunds Dagblad (torsdag, nr. 80)</title>
+<pubplace>Lund</pubplace>
+<publisher></publisher>
+<note resp="editor">Grunntekst. Antikva. Talen er i anførselstegn, og innledes slik: &amp;lquo;Ibsen svarade i några enkla, men verkningsfulla ord. Han bad att få bringa sitt hjärtliga tack för hyllningen. Han skulle taga den svenska sången med som ett oförgätligt minne, och uttalade en förhoppning att i sin kommande diktning få gifva ett uttryck åt hvad han nu kände.&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980411Sto_Aftenp">
+<idno type="owner">NBR</idno>
+<idno>EOAAA00047051</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved Svensk Forfatterforenings middag i Stockholm 11. april 1898]</title>
+<title>Aftenposten (tirsdag aften, nr. 272, 39. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>12.04.1898</date>
+<note resp="editor">Grunntekst pga. mest utførlig gjengivelse. Fraktur. Talen står i anførseltegn. Den innledes slik: &amp;lquo;(Fra vor Telefonkorrespondent). Stockholm, 12te April. Efter Forfatterforeningens Middag igaar samledes man ved Punchebordet, hvor I b s e n besvarede de for ham holdte Taler med følgende Ord:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980413Sto_Aftenp">
+<idno type="owner">NBR</idno>
+<idno>EOAAA00047051</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved Stockholms stads fest 13. april 1898]</title>
+<title>Aftenposten (torsdag morgen, nr. 277, 39. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>14.04.1898</date>
+<date when="1898-04-13">13.04.1898</date>
+<note resp="editor">Grunntekst pga. mest utførlig gjengivelse. Fraktur. Overskriften står over hele artikkelen om festen. Talen står i anførselstegn. Den har ingen overskrift, men starter slik: &amp;lquo;Paa denne Tale svarede Ibsen i følgende Ord:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980416Sto_Svenska">
+<idno type="owner">KBS</idno>
+<idno>mikrofilm</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved &amp;lquo;Damernas fest&amp;rquo; i Stockholm 16. april 1898]</title>
+<title>Svenska Dagbladet (søndag, nr. 102, 15. årg.)</title>
+<pubplace>Stockholm</pubplace>
+<publisher></publisher>
+<date>17.04.1898</date>
+<note resp="editor">Grunntekst. Antikva. Talen innledes slik: &amp;lquo;Sedan äfven fröken H. Widmark med entusiatiska verser hyllat Ibsen, tog denne själf till ordet och bragte sitt tack för all denna hyllning med ungefär följande ord:&amp;rquo;</note>
+</bibl>
+<bibl xml:id="P18980526Kvinde_Morgenbl">
+<idno type="owner">NBR</idno>
+<idno>EBAA000001125</idno>
+<author>Henrik Ibsen</author>
+<title type="main">[Tale ved Norsk Kvindesagsforenings fest i Kristiania 26. mai 1898]</title>
+<title>Morgenbladet (fredag, nr. 338, 80. årg.)</title>
+<pubplace>Kristiania</pubplace>
+<publisher></publisher>
+<date>27.05.1898</date>
+<note resp="editor">Grunntekst pga. at setningen &amp;lquo;Og kun da kan de det.&amp;rquo; mangler i de andre avisversjonene, men finnes i manuskriptnotatet. Fraktur. Talen innledes slik: &amp;lquo;Under aandeløs Stilhed reiste Dr. Ibsen sig og holdt følgende Tale:&amp;rquo;</note>
+</bibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Sakprosa</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2010</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing">
+<resp>Edering</resp>
+<name>Christian Janss (ansv.), Nina Marie Evensen, Aina Nøding, Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt type="collecting"><resp>Innsamling av materiale</resp><name>Ståle Dingstad, Nina Marie Evensen, Jens-Morten Hanssen, Aina Nøding</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Oliver Blomqvist, Nina Marie Evensen, Helene Grønlien, Kari Kinn, Inger Marie Kjølstadmyr, Henninge Margrethe Solberg, Eivor Finset Spilling, Ellen Nessheim Wiger, Mette Witting, Ingvald Aarstein</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Thoralf Berg, Erik Henning Edvardsen, Svend Eegholm-Pedersen, Narve Fulsås, Karl Gervin, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Egil Kraggerud, Kristoffer Kruken, Mogens Leisner-Jensen, Else Mundal, Erik Mørstad, Aina Nøding, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Asbjørn Aarseth</name></respstmt>
+<respstmt>
+<resp>Innlemming i elektronisk utgave</resp>
+<name>EDD: Eining for digital dokumentasjon</name>
+</respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>HISe-koding</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur</resp>
+<name>Nina Marie Evensen</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering</resp>
+<name>Kari Kinn</name>
+<name>Inger Marie Kjølstadmyr</name>
+<name>Oliver Blomqvist</name>
+<name>Eivor Finset Spilling</name>
+<name>Ellen Nessheim Wiger</name>
+<name>Mette Witting</name>
+<name>Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturkollasjonering</resp>
+<name>Kari Kinn</name>
+<name>Inger Marie Kjølstadmyr</name>
+<name>Oliver Blomqvist</name>
+<name>Eivor Finset Spilling</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Fj4935-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Bygger på FjHU.xml (FjHU-1000).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="Fj4935">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 935</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Fjeldfuglen,</title>
+<title type="sub">romantisk Opera i tre Akter</title>
+<docdate>1859</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript, egenhendig. Se for øvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Fjeldfuglen</title>
+<title level="a" type="desc">NBO Ms.4° 935, grunntekst</title>
+<title level="a" type="origYear">1859</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Omgjøring av FjHU til Fj4935, desember 2000:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrekturlesing, desember 2000-januar 2001 + august 2001:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,46 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG81940-0307"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på prosjektets transkripsjon.</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="PG81940">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1940</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title>[uten tittel]</title>
+<docdate>senest 5. januar 1867</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig arbeidsmanuskript til sceneplan, ufullstendig</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">[Peer Gynt]</title>
+<title level="a" type="sub">NBO Ms.8° 1940 (bruddstykke av sceneplan)</title>
+<title level="a" type="origYear">[udatert]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Ingrid Falkenberg, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Transkripsjon av faksimiler, mai 2001</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing:</resp>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kollasjonering, korrekturlesing, kodekontroll 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+</titlestmt>

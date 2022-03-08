@@ -1,0 +1,52 @@
+<filedesc>
+
+<editionstmt><edition xml:id="C2819382-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på C1.sgm (HIS) og cati50.txt (HIT, Bergensmaterialet).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="C2819382">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1938:2</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title>[Catilina]</title>
+<docdate>[1875]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Ms.8° 1938:2. &amp;lquo;Første akt&amp;rquo;. Påbegynt egenhendig renskrift med rettelser.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Catilina</title>
+<title level="a" type="sub">2. versjon, NBO Ms.8° 1938:2</title>
+<title level="a" type="origYear">[1875]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Mette Witting, Hallvard Ystad</name></respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS_ESO">Espen S. Ore</name>
+<name xml:id="HIS-HL">Hanne Lauvstad</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,56 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Di75-1109"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Di75</label><item>62</item>
+<label></label><item></item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Di.xml.</p>
+<p>
+<biblstruct xml:id="Di75">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>2. utgave</edition>
+<idno corresp="Di75" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga05814</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>den Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk transkripsjon</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">[Andet forøgede Oplag]</title>
+<title level="a" type="origYear">1875</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Sigrid Larsson, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Di til Di75, november 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing:</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kodekontroll, desember 2002:</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

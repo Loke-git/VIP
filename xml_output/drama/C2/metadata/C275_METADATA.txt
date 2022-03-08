@@ -1,0 +1,160 @@
+<filedesc>
+
+<editionstmt><edition xml:id="C275-0912"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på C1.sgm (HIS) og cati50.txt (HIT, Bergensmaterialet)</p>
+<p>
+<biblstruct xml:id="C275">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Catilina</title>
+<title type="sub">Drama i tre Akter</title>
+<edition>Anden og gennemarbejdet Udgave</edition>
+<idno type="owner">Deichmanske bibliotek</idno>
+<idno xml:id="C275f1"></idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="C275f2">74ga05815</idno>
+<idno type="owner">Vigdis Ystad eksemplar</idno>
+<idno xml:id="C275f3"></idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstkilder inkludert i det eksterne variantapparatet
+<his:hismsdesc type="workingManuscript" xml:id="C2819381">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1938:1</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>[Catilina]</title>
+<author>[Henrik Ibsen]</author>
+<docdate>[1875]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Ms.8° 1938:1. &amp;lquo;Forord til anden udgave&amp;rquo;. Egenhendig utkast med rettelser. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="C2819382">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1938:2</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>[Catilina]</title>
+<author>[Henrik Ibsen]</author>
+<docdate>[1875]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Ms.8° 1938:2. &amp;lquo;Første akt&amp;rquo;. Påbegynt egenhendig renskrift med rettelser. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="finalFairCopy" xml:id="C241395">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1395</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Catilina</title>
+<author>Henrik Ibsen</author>
+<docdate>1875</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig renskrift med rettelser. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="C291">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Catilina</title>
+<title type="sub">Drama i tre Akter</title>
+<edition>Tredje Udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01151</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1891</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="C2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Catilina</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga05933</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 1</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main" xml:id="C2">Catilina</title>
+<title level="a" type="sub">2. versjon, grunntekst, 1. utg.</title>
+<title level="a" type="origYear">1875</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Hanne Lauvstad, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Konvertering fra Bergensmaterialet (cati50.txt) til prosjektspesifikk TEI SGML, juni 1998</resp>
+<name xml:id="HIS_ESO">Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering til prosjektspesifikk TEI XML desember 2000</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-HL">Hanne Lauvstad</name>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering mars og desember 2000</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Korrekturlesing og oppdatering januar/februar 2002</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering etter filsplitting september-november 2003</resp>
+<name>Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Kontrollkollasjon og kodekorrektur november-desember 2003</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

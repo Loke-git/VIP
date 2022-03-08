@@ -1,0 +1,68 @@
+<filedesc>
+
+<editionstmt><edition xml:id="BlaDigt8191-1111"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på DHU.xml.</p>
+<p><his:hismsdesc type="finalFairCopy" xml:id="BlaDigt8191">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms. 8° 191</idno>
+</msidentifier>
+<mscontents><msitem>
+<title type="main">Blandede Digtninger</title>
+<title type="sub">Fra Aarene 1848, 1849 og 1850</title>
+<author>[Henrik Ibsen]</author>
+<docdate>[1850]</docdate></msitem>
+<msitem corresp="BlaDigt8191Resignation"><title>1. Resignation</title></msitem>
+<msitem corresp="BlaDigt8191VedHavet"><title>2. Ved Havet</title></msitem>
+<msitem corresp="BlaDigt8191TvivlHaab"><title>3. Tvivl og Haab</title></msitem>
+<msitem corresp="BlaDigt8191Kjaempeegen"><title>4. Kjæmpeegen</title></msitem>
+<msitem corresp="BlaDigt8191Erindringskilden"><title>5. Erindringskilden</title></msitem>
+<msitem corresp="BlaDigt8191Doedningeballet"><title>6. Dødningeballet</title></msitem>
+<msitem corresp="BlaDigt8191AfskMinde"><title>7. Afskedens Minde</title></msitem>
+<msitem corresp="BlaDigt8191Hoestaftenen"><title>8. Høstaftenen</title></msitem>
+<msitem corresp="BlaDigt8191SjelensSolglimt"><title>9. Sjælens Solglimt</title></msitem>
+<msitem corresp="BlaDigt8191MaaneskinsfartPaaHavet"><title>10. Maaneskinsfart paa Havet</title></msitem>
+<msitem corresp="BlaDigt8191Midnatsstemning"><title>11. Midnatsstemning</title></msitem>
+<msitem corresp="BlaDigt8191TilStjernen"><title>12. Til Stjernen</title></msitem>
+<msitem corresp="BlaDigt8191AftenvanSkoven"><title>13. Aftenvandring i Skoven</title></msitem>
+<msitem corresp="BlaDigt8191IHoesten"><title>14. I Høsten</title></msitem>
+<msitem corresp="BlaDigt8191VaarensMinde"><title>15. Vaarens Minde</title></msitem>
+<msitem corresp="BlaDigt8191TilUngarn"><title>16. Til Ungarn!</title></msitem>
+<msitem corresp="BlaDigt8191VaagnerSkandinaver"><title>17. Vaagner Skandinaver!</title></msitem>
+<msitem corresp="BlaDigt8191TilNorgesSkjalde"><title>18. Til Norges Skjalde</title></msitem>
+<msitem corresp="BlaDigt8191Balminder"><title>19. Balminder</title></msitem>
+<msitem corresp="BlaDigt8191Moellergutten"><title>20. Møllergutten</title></msitem>
+<msitem corresp="BlaDigt8191DetErForbi"><title>21. Det er forbi!</title></msitem>
+<msitem corresp="BlaDigt8191LedigtLogis"><title>22. Ledigt Logis</title></msitem>
+<msitem corresp="BlaDigt8191SkjaldenValhal"><title>23. Skjalden i Valhal</title></msitem>
+<msitem corresp="BlaDigt8191INatten"><title>24. I Natten</title></msitem>
+<msitem corresp="BlaDigt8191Maaneskinsstemning"><title>25. Maaneskinsstemning</title></msitem>
+<msitem corresp="BlaDigt8191MaaneskinsvandEftBal"><title>26. Maaneskinsvandring efter et Bal</title></msitem></mscontents>
+<physdesc><objectdesc><p>Sammen med manuskriptet ligger en konvolutt med et utklipp fra en utstillingskatalog e.l. Her står tekstopplysninger om hvor diktene senere ble trykt: i FU, ES, Folkebladet 1892 og Tilskueren 1903. Eieren Nandrup har skrevet forfatternavn på tittelsiden.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Blandede Digtninger</title>
+<title level="a" type="sub">NBO Ms. 8° 191</title>
+<title level="a" type="origYear">[1850]</title>
+<author>[Henrik Ibsen]</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Inger Marie Kjølstadmyr, Stine Brenna Taugbøl, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting og 1. kollasjon</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>2. kollasjon og kodekontroll</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

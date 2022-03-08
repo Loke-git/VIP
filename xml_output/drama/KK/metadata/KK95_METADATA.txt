@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KK95-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KK91.xml (KK91-0602).</p>
+<p>
+<biblstruct xml:id="KK95">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kærlighedens Komedie</title>
+<title type="desc">Komedie i tre Akter</title>
+<edition>Syvende oplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01394</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1895</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjærlighedens Komedie</title>
+<title level="a" type="sub">7. utg.</title>
+<title level="a" type="origYear">1895</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Henninge Margrethe Solberg</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KK91 til KK95, juli 2002:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur, juli 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name></name>
+</respstmt>
+</titlestmt>

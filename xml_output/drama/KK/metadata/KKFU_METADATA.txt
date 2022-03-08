@@ -1,0 +1,64 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KKFU-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KK91.xml (KK91-0802).</p>
+<p>
+<biblstruct xml:id="KKFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kærlighedens Komedie</title>
+<edition>Folkeutgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 2</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="desc">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjærlighedens Komedie</title>
+<title level="a" type="sub">FU</title>
+<title level="a" type="origYear">1898</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Margit Sauar, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KK91 til KKFU, september 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering og koding, september 2002:</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, august 2002:</resp>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Kodekorrektur, september 2002:</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

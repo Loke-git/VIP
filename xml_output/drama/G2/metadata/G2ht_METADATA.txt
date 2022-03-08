@@ -1,0 +1,144 @@
+<filedesc>
+
+<editionstmt><edition xml:id="G2ht-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på G2ht_bok.xml (G2ht_bok-0810).</p>
+<p>
+<biblstruct xml:id="G283">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gildet på Solhaug</title>
+<title type="desc">Skuespil i tre akter</title>
+<edition>Anden udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno xml:id="G2f1">74ga01377/NA/Ibsen ekspl. 1</idno>
+<idno type="owner">Ibsensenteret</idno>
+<idno xml:id="G2f2">85ga06039/NA/Ibsen ekspl. 2</idno>
+<idno type="owner">Deichmanske bibliotek, Oslo</idno>
+<idno xml:id="G2f3">a Ib 8 gi (ekspl. 5)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1883</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstkilder konsultert i ederingen
+<his:hismsdesc type="finalFairCopy" xml:id="G28951">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 8° 951</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Gildet på Solhaug</title>
+<docdate>1883</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Renskrift, egenhendig.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="G2FU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Gildet på Solhaug</title>
+<edition>[folkeutgave]</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>eksemplarnr. ?</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 1</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker [folkeutgave]</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="G2HU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title>Gildet på Solhaug</title>
+<edition>[Hundreårsutgave[</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>eksemplarnr. ?</idno>
+<imprint>
+<pubplace>Oslo</pubplace>
+<publisher>Gyldendal</publisher>
+<his:printer>Dreyer, Stavanger</his:printer>
+<date>1928-57</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 3</biblscope>
+<date>1929</date>
+</imprint>
+</monogr>
+<series>
+<editor>Francis Bull, Halvdan Koht og Didrik Arup Seip</editor>
+<title>Hundreårsutgave. Henrik Ibsens samlede verker</title>
+</series>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Gildet på Solhaug, 2. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1883</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ståle Dingstad, Stine Brenna Taugbøl</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Hallvard Ystad, Mette Witting</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Erik Henning Edvardsen, Jørgen Fafner, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Egil Kraggerud, Olav Solberg, Stine Brenna Taugbøl, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Ståle Dingstad</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering, koding, kollasjonering og korrektur</resp>
+<name xml:id="HIS-HY">Hallvard Ystad</name>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Koding, kollasjonering og korrekturlesing</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Koding</resp>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+</titlestmt>

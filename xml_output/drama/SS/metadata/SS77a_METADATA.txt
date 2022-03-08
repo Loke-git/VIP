@@ -1,0 +1,50 @@
+<filedesc>
+
+<editionstmt><edition xml:id="SS77a-0112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på SS.xml (0203).</p>
+<p><biblstruct xml:id="SS77a">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<title type="sub">Skuespil i fire akter</title>
+<edition>Andet oplag</edition>
+<idno corresp="SS77a" type="owner">Ibsensenteret</idno>
+<idno corresp="SS77a">74GA01386</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; co</his:printer>
+<date>1877</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="a" type="sub">2. utg.</title>
+<title level="a" type="origYear">1877</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Margit Sauar, Ingunn S. Wetterstad, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av SS.xml til SS77.xml, februar 2003:</resp>
+<name xml:id="HIS_MW">Mette Witting</name></respstmt>
+<respstmt><resp>Kollasjonering, februar-april 2003:</resp>
+<name xml:id="HIS_IAA">Ingvald Aarstein</name>
+<name xml:id="HIS_ISW">Ingunn Wetterstad</name></respstmt>
+<respstmt><resp>Koding og korrektur, mai 2003:</resp>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kodekontroll, juni 2003:</resp>
+<name xml:id="HIS_MS">Margit Sauar</name>
+</respstmt>
+</titlestmt>

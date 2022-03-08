@@ -1,0 +1,54 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG81-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG76.xml (PG76-0702)</p>
+<p><biblstruct xml:id="PG81">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Femte oplag</edition>
+<idno corresp="PG81" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="PG81">74GA01309</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; Co</his:printer>
+<date>1881</date>
+</imprint></monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">5. utg.</title>
+<title level="a" type="origYear">1881</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Sigrid Larsson, Stine Brenna Taugbøl, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av PG76 fra PG81, juli 2002:</resp>
+<name xml:id="HIS-ENW">Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Kollasjonering, juli-august 2002:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-SL">Sigrid Larsson</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Koding og korrektur, juli-august 2002:</resp>
+<name>Stine Brenna Taugbøl</name>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kodekontroll, august 2002:</resp>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

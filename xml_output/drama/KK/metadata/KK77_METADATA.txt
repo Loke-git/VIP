@@ -1,0 +1,58 @@
+<filedesc>
+
+<editionstmt><edition xml:id="KK77-0812"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på KK73.xml (KK73-0402).</p>
+<p>
+<biblstruct xml:id="KK77">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Kærlighedens Komedie</title>
+<title type="desc">Komedie i tre Akter</title>
+<edition>Fjerde, gennemsete udgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>74ga01387</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>J. Jørgensen &amp; co.</his:printer>
+<date>1877</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Kjærlighedens Komedie</title>
+<title level="a" type="sub">4. utg.</title>
+<title level="a" type="origYear">1877</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Margit Sauar, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av KK73 til KK77, april 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering og koding:</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-MS">Margit Sauar</name>
+</respstmt>
+<respstmt>
+<resp>Kodekorrektur:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,111 @@
+<filedesc>
+
+<editionstmt><edition xml:id="NV99-1211"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>NV99 (grunntekst)</label><item>0</item>
+<label>NVLondon</label><item>0</item>
+<label>NV4262IV4</label><item>100</item>
+<label>NV99a</label><item>41</item>
+<label>NVFU</label><item>293</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på NVFU</p>
+<p><biblstruct xml:id="NV99">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Når vi døde vågner</title>
+<title type="sub">En dramatisk epilog i tre akter</title>
+<edition>Førsteutgave</edition>
+<idno corresp="NV99f1" type="owner">HIS</idno>
+<idno xml:id="NV99f1">Ekspl. 1 (hovedeksemplar)</idno>
+<idno corresp="NV99f2" type="owner">HIS</idno>
+<idno xml:id="NV99f2">Ekspl. 2</idno>
+<idno corresp="NV99f3" type="owner">NBO</idno>
+<idno xml:id="NV99f3">Ekspl. 3, 80ga25094</idno>
+<idno corresp="NV99f4" type="owner">NBO</idno>
+<idno xml:id="NV99f4">Ekspl. 4, 80ga25095</idno>
+<idno corresp="NV99f5" type="owner">NBO</idno>
+<idno xml:id="NV99f5">Ekspl. 5, 08ga22782</idno>
+<idno corresp="NV99f6" type="owner">NBO</idno>
+<idno xml:id="NV99f6">Ekspl. 6, 80ga25097</idno>
+<idno corresp="NV99f7" type="owner">NBO</idno>
+<idno xml:id="NV99f7">Ekspl. 7, 80ga25096</idno>
+<idno corresp="NV99f8" type="owner">NBO</idno>
+<idno xml:id="NV99f8">Ekspl. 8, 87ga45453</idno>
+<imprint>
+<pubplace>København/Berlin</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)/S. Fischer</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1899</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+<p><listbibl>
+Tekstkilder som er inkludert i det eksterne variantapparatet
+    <his:hismsdesc type="printersCopy" xml:id="NV4262IV4">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Kgl.Bibl.Kbh</repository>
+<idno>Collin 262, 4°, IV.4</idno>
+</msidentifier>
+<mscontents><msitem>
+<title>Når vi døde vågner</title>
+<author>Henrik Ibsen</author>
+<docdate>1899</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig trykkmanuskript.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="NVFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Når vi døde vågner</title>
+<edition>Folkeutgave</edition>
+<idno corresp="NVFU" type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<biblscope unit="volume">Bd. X</biblscope>
+<date>1902</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J.B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</listbibl></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">1. utg.</title>
+<title level="a" type="origYear">1899</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding">
+<resp>Kollasjonering og koding</resp>
+<name>Oliver Blomqvist, Helene Grønlien, Nina Marie Evensen, Kari Kinn, Gunnhild Wiggen, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting, februar 2009</resp>
+<name xml:id="HG">Helene Grønlien</name></respstmt>
+<respstmt><resp>1. kollasjon, mars 2009</resp>
+<name>Helene Grønlien</name></respstmt>
+<respstmt><resp>2. kollasjon, mars 2009</resp>
+<name xml:id="NME">Nina Marie Evensen</name>
+</respstmt>
+</titlestmt>

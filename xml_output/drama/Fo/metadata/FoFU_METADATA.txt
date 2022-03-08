@@ -1,0 +1,69 @@
+<filedesc>
+
+<editionstmt><edition xml:id="FoFU-0611"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>FoFU</label><item>174</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen er etablert av Jens-Morten Hanssen ved ibsen.net</p>
+<p>
+<biblstruct xml:id="FoFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">En folkefiende</title>
+<title>Samlede værker. Syvende bind. En folkefiende.
+    Vildanden</title>
+<edition>Folkeutgave</edition>
+<idno corresp="FoFU" type="owner">HIS</idno>
+<idno>Ekspl. 2</idno>
+<imprint>
+<biblscope unit="volume">Bd. 7</biblscope>
+<date>1900</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp;
+     søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+</p></sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">En folkefiende</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">[Folkeutgave]</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1900</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Helene Grønlien, Jens-Morten Hanssen, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+<name xml:id="EDD-ESO">Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Konvertering, kollasjonering og koding</resp>
+<name xml:id="HIS-JMH">Jens-Morten Hanssen</name>
+</respstmt><respstmt>
+<resp>Koding og kollasjonering, jan.-feb. 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt><respstmt>
+<resp>Kodekontroll, mars 2006</resp>
+<name xml:id="HIS-HG">Helene Grønlien</name>
+</respstmt>
+</titlestmt>

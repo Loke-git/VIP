@@ -1,0 +1,55 @@
+<filedesc>
+
+<editionstmt><edition xml:id="BS4262IV1-0212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>BS4262IV1</label><item>181</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på BSLondon.xml (BSLondon-0507)</p>
+<p><his:hismsdesc type="printersCopy" xml:id="BS4262IV1">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Collin 262, 4°, IV.1</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<docdate>1892</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig trykkmanuskript</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Bygmester Solness</title>
+<title level="a" type="sub">Trykkmanuskript, KBK Collin 262, 4°, IV.1</title>
+<title level="a" type="origYear">1892</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Inger Marie Kjølstadmyr, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting, kollasjonering og koding, august 2008</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name></respstmt>
+<respstmt><resp>Variantkoding, februar 2009</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kodekontroll, mars 2009</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

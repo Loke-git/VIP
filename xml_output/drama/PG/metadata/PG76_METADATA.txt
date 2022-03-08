@@ -1,0 +1,51 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG76-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG74.xml</p>
+<p><biblstruct xml:id="PG76">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Fjerde oplag</edition>
+<idno corresp="PG76" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="PG76">74GA01307</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandel (F. Hegel)</publisher>
+<his:printer>Thieles bogtrykkeri</his:printer>
+<date>1876</date>
+</imprint></monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">4. utg.</title>
+<title level="a" type="origYear">1876</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Henninge Margrethe Solberg, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Etablering av PG76 fra PG74, juni 2002:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Koding og kollasjonering, juni 2002:</resp>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kollasjonering, juni 2002:</resp>
+<name xml:id="HIS-HMS">Henninge M. Solberg</name></respstmt>
+<respstmt><resp>Kodekontroll, juli 2002:</resp>
+<name xml:id="HIS-EN">Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,58 @@
+<filedesc>
+
+<editionstmt><edition xml:id="BS01-0212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>BS01</label><item></item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på BSFU.xml</p>
+<p><biblstruct xml:id="BS01">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<edition>Andet oplag</edition>
+<idno corresp="BS01" type="owner">Nasjonalbiblioteket, Oslo</idno>
+<idno corresp="BS01">74ga01143</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1901</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Bygmester Solness</title>
+<title level="a" type="sub">2. utg.</title>
+<title level="a" type="origYear">1901</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Gry Berg, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Oppretting, januar 2007</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name></respstmt>
+<respstmt><resp>Kollasjonering og koding, mars-april 2007</resp>
+<name xml:id="HIS-GB">Gry Berg</name>
+<name>Henninge Margrethe Solberg</name></respstmt>
+<respstmt><resp>Kodekontroll, april 2007</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Variantkoding, mars 2009</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+</titlestmt>

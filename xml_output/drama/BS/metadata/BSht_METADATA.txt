@@ -1,0 +1,141 @@
+<filedesc>
+
+<editionstmt><edition xml:id="BSht-0212"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på BSht_bok.xml (BSht_bok-0809)</p>
+<p><biblstruct xml:id="BS92">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<idno corresp="BS92f1" type="owner">HIS</idno>
+<idno xml:id="BS92f1">eks. 1</idno>
+<idno corresp="BS92f2" type="owner">Nasjonalbiblioteket, Oslo</idno>
+<idno xml:id="BS92f2">75ga09618</idno>
+<idno corresp="BS92f3" type="owner">HIS</idno>
+<idno xml:id="BS92f3">eks. 2</idno>
+<edition>Førsteutgave</edition>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1892</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+<p><listbibl>
+Tekstkilder konsultert i ederingen
+<his:hismsdesc type="workingManuscript" xml:id="BS41292">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1292</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<docdate>1886</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Midlertidig renskrift med overstrykninger og rettelser, egenhendig. Manuskriptet er egenhendig datert flere steder.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="printersCopy" xml:id="BS4262IV1">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Collin 262, 4°, IV.1</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<docdate>1892</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Trykkmanuskript, egenhendig</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="BSLondon">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<edition>Parallell førsteutgave i London</edition>
+<idno corresp="BSLondon" type="owner">British Library</idno>
+<imprint>
+<pubplace>London</pubplace>
+<publisher>William Heinemann</publisher>
+<date>1892</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="BSFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<edition>Folkeutgave</edition>
+<idno corresp="BSFU" type="owner">HIS</idno>
+<idno corresp="BSFU">Ekspl. 2</idno>
+<imprint>
+<biblscope unit="volume">Bd. 9</biblscope>
+<date>1900</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="BS01">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Bygmester Solness</title>
+<title type="sub">Skuespil i tre akter</title>
+<edition>Andet oplag</edition>
+<idno corresp="BS01" type="owner">Nasjonalbiblioteket, Oslo</idno>
+<idno corresp="BS01">74ga01143</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1901</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Bygmester Solness</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2009</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1892</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Sigrid Larsson, Guro Solberg, Henninge Margrethe Solberg, Gunnhild Wiggen, Mette Witting</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Thoralf Berg, Karl Gervin, Dag Gundersen, Arnbjørn Jakobsen, Kristoffer Kruken, Erik Mørstad, Kristian Smidt, Olav Solberg, Vigdis Ystad, Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt><resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respstmt>
+<respstmt><resp>Ederingskoding</resp>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kodekontroll og lemmareferanser</resp>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Kollasjonering, koding og korrektur, grunntekst</resp>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kollasjonering, grunntekst</resp>
+<name xml:id="HIS-GS">Guro Nielsen Solberg</name></respstmt>
+<respstmt><resp>Korrekturkollasjonering av hovedtekst mot grunntekst</resp>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name>
+</respstmt>
+</titlestmt>

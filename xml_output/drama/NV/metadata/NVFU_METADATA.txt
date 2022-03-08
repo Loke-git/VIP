@@ -1,0 +1,54 @@
+<filedesc>
+
+<editionstmt>
+<edition xml:id="NVFU-1211"></edition>
+</editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger sannsynligvis på scanning av NVHU fra JMH (ibsen.net)</p>
+<p><biblstruct xml:id="NVFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Når vi døde vågner</title>
+<edition>Folkeutgave</edition>
+<idno corresp="NVFU" type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<biblscope unit="volume">Bd. X</biblscope>
+<date>1902</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J.B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Når vi døde vågner</title>
+<title level="a" type="sub">[Folkeutgave]</title>
+<title level="a" type="origYear">1902</title>
+<author>Henrik Ibsen</author>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding">
+<resp>Kollasjonering og koding</resp>
+<name>Gry Berg, Jens-Morten Hanssen, Ingunn Indrebø Ims, Henninge Margrethe Solberg</name></respstmt>
+<respstmt>
+<resp>Konvertering og koding</resp>
+<name xml:id="JMH">Jens-Morten Hanssen</name></respstmt>
+<respstmt><resp>Kollasjonering</resp>
+<name xml:id="III">Ingunn Indrebø Ims</name>
+</respstmt>
+</titlestmt>

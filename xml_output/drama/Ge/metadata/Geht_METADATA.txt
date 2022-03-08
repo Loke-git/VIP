@@ -1,0 +1,261 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Geht-0611"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på Geht_bok.xml (Geht_bok-0310).</p>
+<p><biblstruct xml:id="Ge81">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title type="sub">Et familjedrama i tre akter</title>
+<idno corresp="Ge81f1" type="owner">HIS</idno>
+<idno xml:id="Ge81f1">Ekspl. 1</idno>
+<idno corresp="Ge81f2" type="owner">HIS</idno>
+<idno xml:id="Ge81f2">Ekspl. 2</idno>
+<idno corresp="Ge81f3" type="owner">HIS</idno>
+<idno xml:id="Ge81f3">Ekspl. 3</idno>
+<edition>Førsteutgave</edition>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1881</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="notes" xml:id="Ge81452">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1452</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>Uviss: tidligst 11. november 1880</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendig notat</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="Ge81219">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1219:2</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>Uviss</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendige notater. Noe anses som ikke tilhørende Gengangere, dette er ikke transkribert (<q>Det uorganiske kommer først...</q>)</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="notes" xml:id="Ge81946">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1946</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>[Henrik Ibsen]</author>
+<title>Uten tittel</title>
+<docdate>Uviss</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc><p>Egenhendig notat</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="Ge41114">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1114</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title>Manuskriptet til &amp;lquo;Gengangere&amp;rquo;</title>
+<docdate>Påbegynt 25. september 1881, ferdigstilt mellom 24. oktober og 10. november 1881</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendig arbeidsmanuskript</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="Ge200">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Brevs. 200</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Uten tittel</title>
+<docdate>I tidsrommet mellom 19. oktober og 4. november 1881</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendig arbeidsmanuskript til noen få replikker i annen akt. Skrevet på baksiden av brev fra Sigurd Ibsen til Henrik Ibsen datert 19. oktober 1881</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="workingManuscript" xml:id="Ge3212">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.fol. 3212</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title type="sub">Et familjedrama tre akter</title>
+<docdate>&amp;lquo;1881&amp;rquo;</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendig tittelblad</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="printersCopy" xml:id="Ge8953">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 953</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title type="sub">Et familjedrama i tre akter</title>
+<docdate>Aktene ferdigskrevet 16. oktober, 4. november og ca. 10 november 1881</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Egenhendig trykkmanuskript</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="Ge94">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title type="sub">Et familjedrama i tre akter</title>
+<edition>Andet oplag</edition>
+<idno corresp="Ge94" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Ge94">74GA01277</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1894</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="GeFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title>Samlede værker. Sjette bind. Samfundets støtter, Et dukkehjem, Gengangere</title>
+<edition>Folkeutgave</edition>
+<idno corresp="GeFU" type="owner">HIS</idno>
+<idno>Ekspl. 1 og 2</idno>
+<imprint>
+<biblscope unit="volume">Bd. 6</biblscope>
+<date>1899</date>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="Ge03">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Gengangere</title>
+<title type="sub">Et familjedrama i tre akter</title>
+<edition>Tredje oplag</edition>
+<idno corresp="Ge03" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="Ge03">74GA01279</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1903</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Gengangere</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2008</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1881</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp>
+<name>Christian Janss (ansv.), Hilde Bøe, Stine Brenna Taugbøl</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Gry Berg, Hilde Bøe, Sigrid Larsson, Stine Brenna Taugbøl, Mette Witting</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp>
+<name>Vigdis Ystad (ansv.), Svend Eegholm-Pedersen, Narve Fulsås, Karl Gervin, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Kristoffer Kruken, Erik Mørstad, Asbjørn Aarseth, Maria Alnæs (manusred.), Aasta Marie Bjorvand Bjørkøy (manusred.)</name></respstmt>
+<respstmt><resp>Innlemming i elektronisk utgave</resp>
+<name>EDD: Eining for digital dokumentasjon</name></respstmt>
+<respstmt><resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name></respstmt>
+<respstmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+<name xml:id="HIS_SBT">Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>HISe-koding</resp>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Stine Brenna Taugbøl</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name>Ellen Nessheim Wiger</name></respstmt>
+<respstmt><resp>Konvertering, kollasjonering og koding</resp>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kollasjonering</resp>
+<name>Sigrid Larsson</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

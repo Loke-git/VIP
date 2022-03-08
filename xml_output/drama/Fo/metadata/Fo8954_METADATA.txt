@@ -1,0 +1,79 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Fo8954-0611"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Fo8954</label><item>287</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Fo82.xml (0106).</p>
+<p>
+<his:hismsdesc type="printersCopy" xml:id="Fo8954">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 954</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title type="main">En folkefiende</title>
+<title type="sub">Skuespil i fem akter</title>
+<docdate>1882</docdate>
+</msitem>
+</mscontents>
+<physdesc>
+<objectdesc>
+<p>Trykkmanuskript, egenhendig</p>
+</objectdesc>
+</physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">En folkefiende</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">NBO Ms.8° 954</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1882</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Inger Marie Kjølstadmyr, Stine Brenna Taugbøl, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Konvertering til  TEI-P5, juni 2011</resp>
+<name xml:id="EDD-ESO">Espen S. Ore</name>
+</respstmt>
+<respstmt>
+<resp>Oppretting, januar 2006</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, mars-april 2006</resp>
+<name>Mette Witting</name>
+<name xml:id="HIS-IMK">Inger Marie Kjølstadmyr</name>
+</respstmt>
+<respstmt>
+<resp>Koding, april 2006</resp>
+<name>Mette Witting</name>
+</respstmt>
+<respstmt>
+<resp>Kodekontroll</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Ekstrakollasjoner</resp>
+<name>Inger Marie Kjølstadmyr</name>
+<name>Gry Berg</name>
+</respstmt>
+</titlestmt>

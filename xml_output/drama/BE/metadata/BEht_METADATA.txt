@@ -1,0 +1,77 @@
+<filedesc>
+
+<editionstmt><edition xml:id="BEht-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på BEht_bok.xml (BEht_bok-1209)</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="BE428691_KBK">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Kbl.Bibl.Kbh.</repository>
+<idno>KBK NKS 2869, 4°, 1</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>[Henrik Ibsen]</author>
+<title type="main">Uten tittel</title>
+<docdate>[1864&amp;sol;65]</docdate>
+</msitem>
+<msitem><locus>poem 3a (II, bl. 4-16):</locus><title>&amp;lquo;Over Storfjellet&amp;rquo;</title>
+<note>Opplysningene (i locus) "poem" og "3a" er fra henholdsvis type og n i div, tallene i parentes er fra ordningen av materialet samt henvisning til blyantfoliering i manuskriptmaterialet, rekkefølgen på locus-elementene er identisk med HIS' ordning av materialet.</note></msitem>
+<msitem><locus>poem 2b (III, 31-32):</locus><title>&amp;lquo;[Fra Modningstiden]&amp;rquo;</title></msitem>
+<msitem><locus>poem 4a (II, 17-26):</locus><title>&amp;lquo;To paa Kirkevejen&amp;rquo;</title></msitem>
+<msitem><locus>poem 5 (IIb, 27-30):</locus><title>&amp;lquo;Ved Kirken&amp;rquo;</title></msitem>
+<msitem><locus>poem 1a (I, 1-2):</locus><title>&amp;lquo;Till de medskyldige&amp;rquo;</title></msitem>
+<msitem><locus>poem 2a (I, 3):</locus><title>&amp;lquo;Fra Modningstiden&amp;rquo;</title></msitem>
+<msitem><locus>poem 1b (V, 34-35):</locus><title>&amp;lquo;Till de medskyldige!&amp;rquo;</title></msitem>
+<msitem><locus>poem 2c (V, 36-41):</locus><title>&amp;lquo;Fra Modningstiden&amp;rquo;</title></msitem>
+<msitem><locus>poem 3b (VI, 42-51):</locus><title>&amp;lquo;[Over Storfjellet]&amp;rquo;</title></msitem>
+<msitem><locus>poem 4b (VI, 52-61):</locus><title>&amp;lquo;Kirkevejene&amp;rquo;</title></msitem>
+<msitem><locus>(IV, 33):</locus><title>[replikkutkast]</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>Egenhendig arbeidsmanuskript, dels kladd, dels renskrift. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">[Episk Brand]</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2007</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: KBK NKS 2869, 4°, 1</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Henninge Margrethe Solberg, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Vigdis Ystad (ansv.), Thoralf Berg, Svend Eegholm-Pedersen, Jørgen Fafner, Narve Fulsås, Karl Gervin, Dag Gundersen, Arnbjørn Jakobsen, Kristoffer Kruken, Else Mundal, Olav Solberg, Stine Brenna Taugbøl, Nina Marie Evensen (manusred.), Erlend Lønnum (manusred.), Maria Alnæs (redaksjonsassistent)</name></respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name xml:id="HIS-CJ">Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, transkripsjon, koding og korrektur</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+<name xml:id="HIS-ENW">Ellen Nessheim (Wiger)</name>
+</respstmt>
+</titlestmt>

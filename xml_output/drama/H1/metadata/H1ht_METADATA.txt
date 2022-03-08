@@ -1,0 +1,271 @@
+<filedesc>
+
+<editionstmt><edition xml:id="H1ht-1012"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date"></date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Filen bygger på HHht_bok.xml (HHht_bok-0506).</p>
+<p>
+<biblstruct xml:id="HH58">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene paa Helgeland</title>
+<title type="desc">Skuespil i fire Akter</title>
+<edition>Førsteutgave</edition>
+<idno type="owner">NBO</idno>
+<idno xml:id="HHf1">NBO Ibsen/si ekspl. 5 (74GA05819)</idno>
+<idno type="owner">NBO/Ibsensenteret</idno>
+<idno xml:id="HHf2">NBO Ibsensenteret ekspl. 6 (74GA05825</idno>
+<idno type="owner">NBO</idno>
+<idno xml:id="HHf3">NBO Ibsen/si ekspl. 4 (74GA05823)</idno>
+<imprint>
+<pubplace>Christiania</pubplace>
+<publisher>H. J. Jensen</publisher>
+<date>1858</date>
+</imprint>
+</monogr>
+</biblstruct>
+</p>
+<p>
+<listbibl>
+Tekstvitner konsultert i ederingen
+<his:hismsdesc type="finalFairCopy" xml:id="HH43119">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>Kgl. Bibl. Kbh. NKS 3119, 4º</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Hærmændene paa Helgeland</title>
+<docdate>1857</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Renskrift, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="finalFairCopy" xml:id="HH4924">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 4º 924</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Hærmændene paa Helgeland</title>
+<docdate>1857</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Renskrift, egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<his:hismsdesc type="printersCopy" xml:id="HH81926">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms 8º 1926</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Hærmændene på Helgeland</title>
+<docdate>1858/73</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Eksemplar av førsteutgaven (1858) med egenhendige rettelser til 2. utgave (1873). Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+<biblstruct xml:id="HH73">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire handlinger</title>
+<edition>2. utgave</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 1</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1873</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HH74">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire handlinger</title>
+<edition>3. utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1874 (74GA01243)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel)</publisher>
+<his:printer>Thieles Bogtrykkeri</his:printer>
+<date>1874</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HH75">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire handlinger</title>
+<edition>4. utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1875 (74GA01207)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandel (F. Hegel)</publisher>
+<his:printer>J. Jørgensen &amp; Co.</his:printer>
+<date>1875</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HH78">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire handlinger</title>
+<edition>5. utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1878 (75GA01208)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>J. Jørgensen &amp; Co.</his:printer>
+<date>1878</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HH85">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire handlinger</title>
+<edition>6. utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1885, Ekspl. 2 (75GA01209)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1885</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HH94">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire handlinger</title>
+<edition>7. utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1894 (74GA01245)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1894</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HH98">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire akter</title>
+<edition>8. utgave</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno xml:id="HH98-1">Hær (nor) 1898 (74GA01247)</idno>
+<idno type="owner">Nasjonalbiblioteket</idno>
+<idno xml:id="HH98-2">NA/A 2000:6606 (00GA19860)</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898</date>
+</imprint>
+</monogr>
+</biblstruct>
+<biblstruct xml:id="HHFU">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<edition>Folkeutgaven</edition>
+<idno type="owner">HIS</idno>
+<idno>Ekspl. 2</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1898-1902</date>
+</imprint>
+<imprint>
+<biblscope unit="volume">Bd. 2</biblscope>
+<date>1898</date>
+</imprint>
+</monogr>
+<series>
+<editor>J. B. Halvorsen</editor>
+<title>Samlede værker</title>
+</series>
+</biblstruct>
+<biblstruct xml:id="HH04">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Hærmændene på Helgeland</title>
+<title type="desc">Skuespil i fire akter</title>
+<edition>9. opplag</edition>
+<idno type="owner">Ibsensenteret</idno>
+<idno>Hær (nor) 1904 (74GA01211)</idno>
+<imprint>
+<pubplace>København &amp;dash; Kristiania</pubplace>
+<publisher>Gyldendalske boghandel, Nordisk forlag</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1904</date>
+</imprint>
+</monogr>
+</biblstruct>
+</listbibl>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Hærmændene paa Helgeland, 1. versjon</title>
+<title level="s" type="main">Henrik Ibsens skrifter 2006</title>
+<title level="s" type="sub">Hovedtekst, tekstgrunnlag: 1. utg. 1858</title>
+<title level="s" type="copyright">© Henrik Ibsens skrifter</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="editing"><resp>Edering</resp><name>Christian Janss (ansv.), Hilde Bøe, Ellen Nessheim Wiger</name></respstmt>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Karl Johan Sæth, Ellen Nessheim Wiger, Ingvald Aarstein</name></respstmt>
+<respstmt type="commenting"><resp>Kommentering</resp><name>Asbjørn Aarseth (ansv.), Kristin Bakken, Thoralf Berg, Alvhild Dvergsdal, Jørgen Fafner, Nils Grinde, Dag Gundersen, Arnbjørn Jakobsen, Else Mundal, Kristian Smidt, Olav Solberg, Stine Brenna Taugbøl, Vigdis Ystad, Aasta Marie Bjorvand Bjørkøy, Erlend Lønnum (manusred.)</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Edering</resp>
+<name>Christian Janss</name>
+<name>Hilde Bøe</name>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Ederingskoding</resp>
+<name>Ellen Nessheim Wiger</name>
+</respstmt>
+<respstmt>
+<resp>Metrisk koding</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrektur</resp>
+<name>Karl Johan Sæth</name>
+<name>Ellen Nessheim Wiger</name>
+<name>Mette Gismerøy Ekker</name>
+<name>Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Koding og korrektur</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

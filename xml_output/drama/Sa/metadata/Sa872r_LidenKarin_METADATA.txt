@@ -1,0 +1,77 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Sa872r_LidenKarin-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på ekstern transkripsjon.</p>
+<p>
+<his:hismsdesc type="parts" xml:id="Sa872r">
+<msidentifier>
+<settlement>Bergen</settlement>
+<repository>Teaterarkivet, Universitetet i Bergen</repository>
+<idno>TarkUiB NT872r</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Sancthansnatten</title>
+<docdate>1852</docdate>
+</msitem>
+<msitem n="Sa872r-LidenKarin"><locus>3 sider</locus><title>«Liden Karin i Pantomimen i 2den Act af Sancthansnatten. Eventyrcomedie i 3 Acter ved Henr. Ibsen.»</title></msitem>
+</mscontents>
+<physdesc><objectdesc><p>Rollehefte, ikke egenhendig. Se forøvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Sancthansnatten</title>
+<title level="a" type="sub">TarkUiB NT872r (rollehefte, Liden Karin)</title>
+<title level="a" type="origYear">1852</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Karl Johan Sæth</name></respstmt>
+<respstmt>
+<resp>Kodeteknisk støtte og utvikling</resp>
+<name>AKSIS: Avdeling for kultur, språk og informasjonsteknologi, Universitetsforskning i Bergen (Unifob AS)</name>
+</respstmt>
+<respstmt>
+<resp>Transkripsjon, juli 2000:</resp>
+<name xml:id="HIS-BH">Bjørg Harvey</name>
+</respstmt>
+<respstmt>
+<resp>TEI-koding, september 2000:</resp>
+<name xml:id="HIS-HB">Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Koding og korrektur, september-november 2000:</resp>
+<name>Hilde Bøe</name>
+<name xml:id="HIS-KJS">Karl Johan Sæth</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering av koding/feilretting, mai 2001:</resp>
+<name>Ellen Nessheim</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering av koding, mars 2002:</resp>
+<name>Hilde Bøe</name>
+</respstmt>
+<respstmt>
+<resp>Oppdateringer, desember 2002, juni 2003:</resp>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering av koding/feilretting, februar 2004:</resp>
+<name xml:id="HIS-NME">Nina Marie Evensen</name>
+</respstmt>
+<respstmt>
+<resp>Oppdatering av koding, mai 2004</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

@@ -1,0 +1,15 @@
+<filedesc>
+
+<publicationstmt><p></p></publicationstmt>
+<sourcedesc><p>Filen er opprettet internt.</p></sourcedesc>
+</filedesc><titlestmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="K1">Kjæmpehøien, 1. hovedversjon</title>
+<title>K1ht: tekstkritiske noter</title>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt>
+<resp>Oppretting</resp>
+<name xml:id="HIS_ENW">Ellen Nesshiem Wiger</name>
+</respstmt>
+</titlestmt>

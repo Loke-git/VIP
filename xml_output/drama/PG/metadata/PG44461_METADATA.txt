@@ -1,0 +1,47 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG44461-0806"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG85.xml</p>
+<p><his:hismsdesc type="stageProductionCopy" xml:id="PG44461">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket, Håndskriftsamlingen</repository>
+<idno>NBO Ms.4° 4461</idno>
+</msidentifier>
+<mscontents>
+<msitem>
+<author>Henrik Ibsen</author>
+<title>Peer Gynt</title>
+<docdate>i tidsrommet 26. oktober til 16. november 1885</docdate>
+</msitem>
+</mscontents>
+<physdesc><objectdesc><p>Trykt eksemplar av 6. opplag (1885) med strykninger m.m. av Henrik Ibsen og Theodor Andersen til oppførelsen ved Dagmartheatret i København 1886.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">NBO Ms.4° 4461 (trykt eksemplar med rettelser)</title>
+<title level="a" type="origYear">1885</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Helene Grønlien, Mette Witting</name></respstmt>
+<respstmt>
+<resp>1. kollasjon og koding, april 2006:</resp>
+<name>Helene Grønlien</name></respstmt>
+<respstmt><resp>2. kollasjon, mai-september 2006:</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Kodekontroll</resp>
+<name>Helene Grønlien</name>
+</respstmt>
+</titlestmt>

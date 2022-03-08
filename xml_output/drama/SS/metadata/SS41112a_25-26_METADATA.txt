@@ -1,0 +1,44 @@
+<filedesc>
+
+<editionstmt><edition xml:id="SS41112_25-26-0112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er basert på SS41112 (SS41112-0805).</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="SS41112a_25-26">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 1112</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Samfundets støtter</title>
+<docdate>[1876-77]</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskripter, egenhendig. Inndeling: a-f.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="a" type="sub">NBO Ms.4° 1112, bl.25-26</title>
+<title level="a" type="origYear">[1876-77]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Mette Witting, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Oppretting av SS41112 (transkripsjon og kollasjon)</resp>
+<name xml:id="HIS_IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>2. kollasjon mot original, jan.-mars 2005</resp>
+<name xml:id="HIS_MW">Mette Witting</name></respstmt>
+<respstmt><resp>Kodekontroll, mars 2005</resp>
+<name>Mette Witting</name>
+</respstmt>
+</titlestmt>

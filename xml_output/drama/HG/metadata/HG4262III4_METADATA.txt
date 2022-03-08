@@ -1,0 +1,53 @@
+<filedesc>
+
+<editionstmt><edition xml:id="HG4262III4-1111"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2011" xml:id="HISe-date">2011</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>HG4262III4</label><item>302</item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på HG90.xml</p>
+<p><his:hismsdesc type="printersCopy" xml:id="HG4262III4">
+<msidentifier>
+<settlement>København</settlement>
+<repository>Det Kongelige Bibliotek</repository>
+<idno>Collin 262, 4°, III.4</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title type="main">Hedda Gabler</title>
+<title type="sub">Skuespil i fire akter</title>
+<docdate>1890</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Egenhendig trykkmanuskript.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="a" type="main">Hedda Gabler</title>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="a" type="sub">KBK Collin 262, 4°, III.4</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="origYear">1890</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Åshild Haugsland, Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>Opprettet filen på grunnlag av HG90. 1. kollasjon mai-juni 2007.</resp>
+<name xml:id="HIS-AAH">Åshild Haugsland</name></respstmt>
+<respstmt><resp>2. kollasjon</resp>
+<name xml:id="HIS-EFS">Eivor Finset Spilling</name></respstmt>
+<respstmt><resp>Koding</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+<name xml:id="HIS-HMS">Henninge Margrethe Solberg</name>
+</respstmt>
+</titlestmt>

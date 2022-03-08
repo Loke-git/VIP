@@ -1,0 +1,48 @@
+<filedesc>
+
+<editionstmt><edition xml:id="RJ4932-1112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe-date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Bygger på RJHU.xml (RJHU-0900).</p>
+<p>
+<his:hismsdesc type="workingManuscript" xml:id="RJ4932">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.4° 932</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Brynjolf Bjarme (pseudonym for Henrik Ibsen)</author>
+<title type="main">Rypen i Justedal,</title>
+<title type="sub">nationalt Skuespil i fire Acter</title>
+<docdate>1850</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Arbeidsmanuskript. Egenhendig. Se for øvrig Tone Modalslis manuskriptbeskrivelse.</p></objectdesc></physdesc>
+</his:hismsdesc>
+</p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Rypen i Justedal</title>
+<title level="a" type="sub">NBO Ms.4° 932, grunntekst</title>
+<title level="a" type="origYear">1850</title>
+<author>Brynjolf Bjarme (pseudonym for Henrik Ibsen)</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Stine Brenna Taugbøl, Ellen Nessheim Wiger</name></respstmt>
+<respstmt>
+<resp>Omgjøring av RJHU til RJ4932, september 2000:</resp>
+<name>Stine Brenna Taugbøl</name>
+</respstmt>
+<respstmt>
+<resp>Kollasjonering, koding og korrekturlesing, 2000-2001:</resp>
+<name xml:id="HIS-SBT">Stine Brenna Taugbøl</name>
+<name xml:id="HIS-EN">Ellen M. Nessheim</name>
+</respstmt>
+</titlestmt>

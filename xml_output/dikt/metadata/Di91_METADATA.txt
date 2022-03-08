@@ -1,0 +1,60 @@
+<filedesc>
+
+<editionstmt><edition xml:id="Di91-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<notesstmt>
+<note type="varNumber">
+<list>
+<headlabel>Tekstkilde</headlabel><headitem>Antall varianter i forhold til grunntekst</headitem>
+<label>Di91</label><item>151</item>
+<label></label><item></item>
+</list>
+</note>
+</notesstmt>
+<sourcedesc>
+<p>Denne filen bygger på Di86.xml</p>
+<p><biblstruct xml:id="Di91">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Digte</title>
+<edition>6. utgave</edition>
+<idno corresp="Di91" type="owner">Nasjonalbiblioteket</idno>
+<idno>74ga01458</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)</publisher>
+<his:printer>Græbes Bogtrykkeri</his:printer>
+<date>1891</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk transkripsjon</title>
+<title level="a" type="main">Digte</title>
+<title level="a" type="sub">[Sjette Oplag]</title>
+<title level="a" type="origYear">1891</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Ingrid Falkenberg, Henninge Margrethe Solberg, Mette Witting, Ingvald Aarstein</name></respstmt>
+<respstmt>
+<resp>Omgjøring av Di86 til Di91, april 2003:</resp>
+<name xml:id="HIS-MW">Mette Witting</name></respstmt>
+<respstmt><resp>Kollasjonering, april-mai 2003:</resp>
+<name xml:id="HIS-HMS">Henninge Solberg</name>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name>
+<name>Mette Witting</name>
+<name xml:id="HIS-IAA">Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Koding og korrektur, mai 2003:</resp>
+<name>Ingvald Aarstein</name></respstmt>
+<respstmt><resp>Kodekontroll, mai 2003:</resp>
+<name>Ingrid Falkenberg</name>
+</respstmt>
+</titlestmt>

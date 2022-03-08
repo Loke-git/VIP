@@ -1,0 +1,51 @@
+<filedesc>
+
+<editionstmt><edition xml:id="PG91-0805"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2007" xml:id="HISe-date">2007</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen bygger på PG86.xml (PG86-1102)</p>
+<p><biblstruct xml:id="PG91">
+<monogr>
+<author>Henrik Ibsen</author>
+<title type="main">Peer Gynt</title>
+<title type="sub">Et dramatisk digt</title>
+<edition>Ottende oplag</edition>
+<idno corresp="PG91" type="owner">Nasjonalbiblioteket</idno>
+<idno corresp="PG91">74GA01317</idno>
+<imprint>
+<pubplace>København</pubplace>
+<publisher>Gyldendalske boghandels forlag (F. Hegel &amp; søn)</publisher>
+<his:printer>Græbes bogtrykkeri</his:printer>
+<date>1891</date>
+</imprint>
+</monogr>
+</biblstruct></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Peer Gynt</title>
+<title level="a" type="sub">8. utg.</title>
+<title level="a" type="origYear">1891</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp>
+<name>Aasta Marie Bjorvand Bjørkøy, Ingrid Falkenberg</name></respstmt>
+<respstmt>
+<resp>Omgjøring av PG86 til PG91, november 2002:</resp>
+<name xml:id="HIS-IF">Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Kollasjonering, november-desember 2002:</resp>
+<name>Ingrid Falkenberg</name>
+<name xml:id="HIS-AMB">Aasta Marie Bjorvand</name></respstmt>
+<respstmt><resp>Kodekontroll, januar 2003:</resp>
+<name>Ingrid Falkenberg</name></respstmt>
+<respstmt><resp>Koding, februar 2005</resp>
+<name xml:id="HIS-MW">Mette Witting</name>
+</respstmt>
+</titlestmt>

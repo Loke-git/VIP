@@ -1,0 +1,12 @@
+<filedesc>
+
+<publicationstmt><p></p></publicationstmt>
+<sourcedesc><p>Filen er opprettet internt.</p></sourcedesc>
+</filedesc><titlestmt>
+<title>Henrik Ibsens skrifter</title>
+<title xml:id="F2">Fru Inger til Østråt</title>
+<title>F2: tekstkritiske noter</title>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt><resp>Oppretting</resp><name xml:id="HIS_HB">Hilde Bøe</name></respstmt>
+</titlestmt>

@@ -1,0 +1,44 @@
+<filedesc>
+
+<editionstmt><edition xml:id="SS81469_4-5_0112"></edition></editionstmt>
+<publicationstmt>
+<publisher>Universitetet i Oslo ved Henrik Ibsens skrifter</publisher>
+<distributor xml:id="HISe">Universitetet i Oslo</distributor>
+<date when="2012" xml:id="HISe_date">2012</date>
+<pubplace>Oslo</pubplace>
+</publicationstmt>
+<sourcedesc>
+<p>Denne filen er basert på SS81469 (SS81469-1007).</p>
+<p><his:hismsdesc type="workingManuscript" xml:id="SS81469_4-5">
+<msidentifier>
+<settlement>Oslo</settlement>
+<repository>Nasjonalbiblioteket</repository>
+<idno>NBO Ms.8° 1469</idno>
+</msidentifier>
+<mscontents><msitem>
+<author>Henrik Ibsen</author>
+<title>Uten tittel (omtalt &amp;lquo;lystspillet&amp;rquo;)</title>
+<docdate>Udatert</docdate>
+</msitem></mscontents>
+<physdesc><objectdesc><p>Opptegnelser, egenhendig. 13. okt. 1870, står det på annet utkast.</p></objectdesc></physdesc>
+</his:hismsdesc></p>
+</sourcedesc>
+</filedesc><titlestmt>
+<title level="s" type="main">Henrik Ibsens skrifter</title>
+<title level="s" type="sub">Diplomatarisk tekstarkiv</title>
+<title level="a" type="main">Samfundets støtter</title>
+<title level="a" type="sub">NBO Ms.8° 1469, bl. 4-5</title>
+<title level="a" type="origYear">[1870]</title>
+<author>Henrik Ibsen</author>
+<funder>&amp;funder;</funder>
+<editor>&amp;editor;</editor>
+<respstmt type="encoding"><resp>Kollasjonering og koding</resp><name>Hilde Bøe, Mette Witting</name></respstmt>
+<respstmt>
+<resp>Transkripsjon av faksimile, mars 2003</resp>
+<name xml:id="HIS_HB">Hilde Bøe</name></respstmt>
+<respstmt><resp>Koding, kollasjonering og korrekturlesing</resp>
+<name>Hilde Bøe</name></respstmt>
+<respstmt><resp>Annenkollasjon og kodekontroll, april 2003</resp>
+<name xml:id="HIS_MW">Mette Witting</name>
+</respstmt>
+</titlestmt>
