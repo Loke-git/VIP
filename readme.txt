@@ -48,3 +48,21 @@ xmlStrip 0.1 "Dvergbjerk"
 * Sletter all formatering og henter (ideelt sett) kun ut Ibsens egen tekst.
 ** Sletter alt Ibsen slettet.
 * Mange insektfikserier [bugfixes].
+
+xmlStrip 0.1.3
+
+- Fikset i, det var et RegEx som var litt for grådig. 
+
+- Instanser av &typHyp; ble oversatt for tidlig i prosessen. Linjeskift i XML-filene tolkes som mange mellomrom, og typhyp ble fjernet før disse mellomrommene ble komprimert fra mange til ett - det er derfor det ble ett resterende mellomrom ved orddeling. Nå fjernes "&typHyp; " for seg selv etter at alle multimellomrom er borte, og resultatet blir (fra Du41113a-f_NBO):
+
+    Der er to slags åndelige love, to slags samvittigheder, en i manden og en ganske anden i kvinden. De forstår ikke hinanden.
+
+- Programmet sjekker nå om det er en rolleliste. Om det er en rolleliste blir denne hentet ut og satt foran <body>-elementet, som betyr at den (skal) bli sittende foran alt annet og ikke løpe noen risiko for å bli slettet. Vi er også nesten helt garantert at alle XML-filer har et <body>-element! Samme metode kan brukes for å hente ut tittelinformasjon og annet ønskelig. :) Rentekst Du8952 åpner nå slik:
+
+    Personerne: Advokat Helmer. Nora, hans hustru. Doktor Rank. Fru Linde. Sagfører Krogstad. Helmers tre små børn. Anne-Marie, barnepige hos Helmers. Stuepigen sammesteds. Et bybud. FØRSTE AKT.
+
+En liten obs: det finnes noen steder hvor Ibsen har krysset ut ganske mange ting, som i Br4262I11. Punktum og slikt er ofte ikke omkranset av en hisdel-tagg, som fører til litt løsøre i rentekstfilen:
+
+    halvmætt Mund, skal skifte Deles Del af sit ; . . – ! ; . , – . .) med dem, som intet har at bide.
+
+Vi kan fjerne mye (kan håpe på alt) av denne merkelige morsekoden med RegEx eller lignende - om det ikke finnes instanser der det er ment å være slike enkelttegn. Jeg prøver også å finne ut av hvorfor det kom ett komma inn på en av rollelistene - det var ikke der før...
