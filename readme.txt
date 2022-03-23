@@ -66,3 +66,20 @@ En liten obs: det finnes noen steder hvor Ibsen har krysset ut ganske mange ting
     halvmætt Mund, skal skifte Deles Del af sit ; . . – ! ; . , – . .) med dem, som intet har at bide.
 
 Vi kan fjerne mye (kan håpe på alt) av denne merkelige morsekoden med RegEx eller lignende - om det ikke finnes instanser der det er ment å være slike enkelttegn. Jeg prøver også å finne ut av hvorfor det kom ett komma inn på en av rollelistene - det var ikke der før...
+
+BETA 0.2
+- Inkluderer forsideinformasjon
+- Fjerner supra- og infralineære notater
+- Skånsom fjerning av tagger
+- Diverse
+
+BETA 0.3
+- Fikset diverse encoding-feil som hadde med &ampersand å gjøre. Alt SKAL nå oversettes til ren UTF-8.. SKAL det altså.
+- Ny dynamisk rekkefølge på forsider. Støtter flere forsider og tekster i én fil.
+- Lettere optimisering (fortsatt tregt, altså). Fjernet ca 600 linjer kode
+- Støtte for <text>-taggen. Kan utvikles til å støtte <brev> eller hva annet det måtte være.
+- La til flere parametre for konvertering
+- Enda mer skånsom taggfjerning
+- Kommentarer fjernes gjennom XML-strukturen (BS4), ikke RegEx
+
+* Dikt inkluderer sidetall og innholdsfortegnelse. Innholdsfortegnelsen brukes i blant annet manuskripter.
