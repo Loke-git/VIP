@@ -81,5 +81,9 @@ BETA 0.3
 - La til flere parametre for konvertering
 - Enda mer skånsom taggfjerning
 - Kommentarer fjernes gjennom XML-strukturen (BS4), ikke RegEx
+- Samleparanteser fjernes.
 
 * Dikt inkluderer sidetall og innholdsfortegnelse. Innholdsfortegnelsen brukes i blant annet manuskripter.
+
+0.3 HOTFIX
+- Tagger ble ikke slettet riktig.
