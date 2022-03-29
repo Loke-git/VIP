@@ -48,3 +48,8 @@ RELEASE 1.0.0
 - Litt kodevask for økt brukervennlighet.
 - Sjekket konvertert Brand, Episk Brand, Solness, Gildet, SS, C2, diktsamling '48 med mer mot tekstene på HIS.
 > Bruk IbsensXMLstrip.ipynb, ikke beta eller alfa.
+
+1.0.1 (Hotfix)
+- Fikset en skrivefeil som induserte total systemsvikt.
+- Metadata får nå en lett språkstell. Det blir ikke akkurat lettere å lese, men det er nå der.
+- En finner dato og versjon på programmet som utførte konversjonen i samtlige metadata-filer. Dette reduserer faren for at noen bruker utdaterte versjoner.
