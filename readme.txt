@@ -1,3 +1,7 @@
+IbsensXMLStrip er et Python-script som lager rentekstfiler av XML-filer i TEI-format, spesifikt de som finnes ved Ibsensenteret. Dersom nye kompatible XML-filer introduseres bør disse legges inn i eksisterende folderstruktur - du kan fint lage nye mapper så lenge de følger eksisterende normer, altså. Resultatet er ren fulltekst som er lettere å kjøre tekstanalyser på og som kan brukes i fulltekstsøk.
+
+Utviklet av vit. ass. Loke Sjølie
+
 xmlStrip 0.1 "Dvergbjerk"
 * Metadata hentes ut (men behandles ikke) fra fil og legges i egen undermappe.
 * Konverterer alle html/jalla-koder til ASCII. Si i fra om du finner en som ikke er konvertert.
