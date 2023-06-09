@@ -1,4 +1,6 @@
-# IbsensXMLStrip
+# IbsensXMLStrip/variant
+## OBS
+Denne versjonen av skriptet beholder følgende tags: body, div type="act" n=True, head type="act", HIS:hisStage, HIS:hisSp who=True, HIS:spOpener, speaker, p rend="noIndent"
 ## Merk
 Hei! Dette skriptet er ganske foreldet per i dag. Jeg ønsker å komme tilbake til det med *mye* bedre forståelse av hva det er jeg driver med. I dag ville jeg sannsynligvis ha sett på BS4s *unwrap* eller lignende, dog er det flere finurligheter som må behandles forsiktig.
 
@@ -18,11 +20,11 @@ xmlStrip 0.1.3
 
 - Fikset i, det var et RegEx som var litt for grådig. 
 
-- Instanser av &typHyp; ble oversatt for tidlig i prosessen. Linjeskift i XML-filene tolkes som mange mellomrom, og typhyp ble fjernet før disse mellomrommene ble komprimert fra mange til ett - det er derfor det ble ett resterende mellomrom ved orddeling. Nå fjernes "&typHyp; " for seg selv etter at alle multimellomrom er borte, og resultatet blir (fra Du41113a-f_NBO):
+- Instanser av typHyp; ble oversatt for tidlig i prosessen. Linjeskift i XML-filene tolkes som mange mellomrom, og typhyp ble fjernet før disse mellomrommene ble komprimert fra mange til ett - det er derfor det ble ett resterende mellomrom ved orddeling. Nå fjernes "typHyp; " for seg selv etter at alle multimellomrom er borte, og resultatet blir (fra Du41113a-f_NBO):
 
     Der er to slags åndelige love, to slags samvittigheder, en i manden og en ganske anden i kvinden. De forstår ikke hinanden.
 
-- Programmet sjekker nå om det er en rolleliste. Om det er en rolleliste blir denne hentet ut og satt foran <body>-elementet, som betyr at den (skal) bli sittende foran alt annet og ikke løpe noen risiko for å bli slettet. Vi er også nesten helt garantert at alle XML-filer har et <body>-element! Samme metode kan brukes for å hente ut tittelinformasjon og annet ønskelig. :) Rentekst Du8952 åpner nå slik:
+- Programmet sjekker nå om det er en rolleliste. Om det er en rolleliste blir denne hentet ut og satt foran body-elementet, som betyr at den (skal) bli sittende foran alt annet og ikke løpe noen risiko for å bli slettet. Vi er også nesten helt garantert at alle XML-filer har et body-element! Samme metode kan brukes for å hente ut tittelinformasjon og annet ønskelig. :) Rentekst Du8952 åpner nå slik:
 
     Personerne: Advokat Helmer. Nora, hans hustru. Doktor Rank. Fru Linde. Sagfører Krogstad. Helmers tre små børn. Anne-Marie, barnepige hos Helmers. Stuepigen sammesteds. Et bybud. FØRSTE AKT.
 
@@ -42,7 +44,7 @@ BETA 0.3
 - Fikset diverse encoding-feil som hadde med &ampersand å gjøre. Alt SKAL nå oversettes til ren UTF-8.. SKAL det altså.
 - Ny dynamisk rekkefølge på forsider. Støtter flere forsider og tekster i én fil.
 - Lettere optimisering (fortsatt tregt, altså). Fjernet ca 600 linjer kode
-- Støtte for <text>-taggen. Kan utvikles til å støtte <brev> eller hva annet det måtte være.
+- Støtte for text-taggen. Kan utvikles til å støtte brev eller hva annet det måtte være.
 - La til flere parametre for konvertering
 - Enda mer skånsom taggfjerning
 - Kommentarer fjernes gjennom XML-strukturen (BS4), ikke RegEx
@@ -56,9 +58,12 @@ BETA 0.3
 RELEASE 1.0.0
 - Litt kodevask for økt brukervennlighet.
 - Sjekket konvertert Brand, Episk Brand, Solness, Gildet, SS, C2, diktsamling '48 med mer mot tekstene på HIS.
-> Bruk IbsensXMLstrip.ipynb, ikke beta eller alfa.
+ Bruk IbsensXMLstrip.ipynb, ikke beta eller alfa.
 
 1.0.1 (Hotfix)
 - Fikset en skrivefeil som induserte total systemsvikt.
 - Metadata får nå en lett språkstell. Det blir ikke akkurat lettere å lese, men det er nå der.
 - En finner dato og versjon på programmet som utførte konversjonen i samtlige metadata-filer. Dette reduserer faren for at noen bruker utdaterte versjoner.
+
+1.0.25 Variant
+- Noen tagger bør nå beholdes.
